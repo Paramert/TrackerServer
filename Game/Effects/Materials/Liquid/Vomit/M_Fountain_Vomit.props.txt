@@ -1,0 +1,83 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_LiquidWaterFall_01.T_LiquidWaterFall_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=B- SpeedX }
+                    ParameterInfos[1] = { Name=Controller Vomit Amount }
+                    ParameterInfos[2] = { Name=A- SpeedX }
+                    ParameterInfos[3] = { Name=B- SpeedY }
+                    ParameterInfos[4] = { Name=A- SpeedY }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Waterfall }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0, 0, 0, 0, 0 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_LiquidWaterFall_01.T_LiquidWaterFall_01'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_LiquidWaterFall_01.T_LiquidWaterFall_01'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.25
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Water/T_LiquidWaterFall_01.T_LiquidWaterFall_01'
+        Name = Waterfall
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=B- SpeedX, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = Controller Vomit Amount
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0, Name=A- SpeedX, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=B- SpeedY, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=A- SpeedY, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

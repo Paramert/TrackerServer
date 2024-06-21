@@ -1,0 +1,165 @@
+Parent = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK30/MI_K30_Mist.MI_K30_Mist'
+ScalarParameterValues[11] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=UTile }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=UTile2 }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=VTile }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=VTile2 }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=GradientMultiplier }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Density (S) }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Depth Fade Distance }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=ExponentialDensityADD }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=ExponentIn }
+        ParameterValue = 0.390476
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Main Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Overlay Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Speed }
+        ParameterValue = { R=0, G=0.5, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Speed2 }
+        ParameterValue = { R=0, G=0.6, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=ColorHighlights }
+        ParameterValue = { R=0.162902, G=0.728, B=0.350318, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_TilingClouds_02.T_TilingClouds_02'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = T_Smoke_Soft_Tile
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal2
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_WhispySmoke_Tile1
+    }
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/M_WeaponShine_02.M_WeaponShine_02'
+    Materials[1] = MaterialInstanceConstant'/Game/Characters/Slashers/Guam/Materials/MI_GKWS01.MI_GKWS01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/M_WeaponShine_02.M_WeaponShine_02'
+        MaterialSlotName = M_WeaponShine_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 36.16, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/Guam/Materials/MI_GKWS01.MI_GKWS01'
+        MaterialSlotName = MI_GKWS01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 39.6698, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=12.919 }
+    BoxExtent = { X=5.69691, Y=5.68974, Z=13.2682 }
+    SphereRadius = 13.7455
+}

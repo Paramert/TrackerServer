@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crow.MI_Crow'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crow.MI_Crow'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crow.MI_Crow'
+        MaterialSlotName = MI_Crow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 33.8821, 62.2838, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crow.MI_Crow'
+        MaterialSlotName = MI_Crow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 33.8822, 62.2838, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.000198364, Y=-21.0572, Z=-9.01222e-05 }
+    BoxExtent = { X=32.6917, Y=15.1851, Z=7.6704 }
+    SphereRadius = 32.923
+}

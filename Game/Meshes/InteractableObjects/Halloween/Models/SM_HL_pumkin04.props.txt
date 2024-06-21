@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Halloween/Materials/HL_Pumkin/MI_SM_HL_pumkin02.MI_SM_HL_pumkin02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Halloween/Materials/HL_Pumkin/MI_SM_HL_pumkin02.MI_SM_HL_pumkin02'
+        MaterialSlotName = MI_SM_HL_pumkin02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 574.103, 448.639, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.02489, Y=-1.05597, Z=58.6688 }
+    BoxExtent = { X=72.3874, Y=70.2696, Z=63.9118 }
+    SphereRadius = 86.8967
+}

@@ -1,0 +1,325 @@
+Parent = Material3'/Game/Effects/Houdini/Crows/K26/M_VAT_K26_CrowFlock_NoFresnel.M_VAT_K26_CrowFlock_NoFresnel'
+ScalarParameterValues[28] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=00 - OpacityNormalDetails }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=02 - Opacity_reflect }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=02 - Power_reflect }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=02 - Softness_Reflect }
+        ParameterValue = 6
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=BaseTexture - Opacity_Distortion }
+        ParameterValue = 0.0375
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=BaseTexture - ScaleTilling }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Contrast_BaseTexture }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Opacity_BaseTexture }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=ExponentIn }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Fresnel_Contrast }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=OpacityAura }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=OpacityFresnel }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Number Of Frames }
+        ParameterValue = 104
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Position Min }
+        ParameterValue = -99.161
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Position Max }
+        ParameterValue = 159.795
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=AddEmissive }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=AnimationFrame }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Emissive_Ramp }
+        ParameterValue = 7.43
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=EmissiveBoost }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=FL - ScaleTilling }
+        ParameterValue = 2.13956
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Opacity_Distortion }
+        ParameterValue = 0.0375
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=OpacityTopMask }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=PowerTopMask }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=RotationTimeMult }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=SL - ScaleTilling }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=SmokeContrast }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=SpeedAnimationMult }
+        ParameterValue = 2.5
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=02 - Add Normal Reflection Map }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling1.T_Smoke_02_Tiling1'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=ORM }
+        ParameterValue = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_wing_ORM.T_K26Crow01_wing_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Position Texture }
+        ParameterValue = Texture2D'/Game/Effects/Houdini/Crows/K26/VAT_CrowAttack_pos.VAT_CrowAttack_pos'
+        ParameterName = None
+    }
+}
+VectorParameterValues[9] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseTexture - Speed_Distortion }
+        ParameterValue = { R=0, G=0.5, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseTexture_Color }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Speed_BaseTexture }
+        ParameterValue = { R=0, G=-5, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=FresnelColor }
+        ParameterValue = { R=0.003219, G=0.002378, B=0.005208, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=EmissiveColor }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=FL - Speed_WhispySmoke }
+        ParameterValue = { R=0, G=-2, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=Pivot_Point }
+        ParameterValue = { R=90, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=SL - Speed_WhispySmoke }
+        ParameterValue = { R=0, G=-3, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=SmokeColor }
+        ParameterValue = { R=0.992336, G=0.943907, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = true
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=AddDistortionToBaseTexture }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=AddFresnelColor? }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseOpacityMask? }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[15] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_ORM.T_K26Crow01_ORM'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_N.T_K26Crow01_N'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BC.T_K26Crow01_BC'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineResources/Black.Black'
+    CachedReferencedTextures[5] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+    CachedReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/value_51.value_51'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BDE.T_K26Crow01_BDE'
+    CachedReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+    CachedReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[12] = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+    CachedReferencedTextures[13] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    CachedReferencedTextures[14] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

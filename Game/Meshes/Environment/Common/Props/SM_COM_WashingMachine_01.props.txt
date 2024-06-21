@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_WAL_WashingMachine_01.MI_WAL_WashingMachine_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_WAL_WashingMachine_01.MI_WAL_WashingMachine_01'
+        MaterialSlotName = MI_WAL_WashingMachine_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 361.3, 388.889, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.692272, Y=0.033596, Z=76.2576 }
+    BoxExtent = { X=53.4862, Y=48.4498, Z=76.4511 }
+    SphereRadius = 103.565
+}

@@ -1,0 +1,138 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Instances/MI_Entity_Dissolve.MI_Entity_Dissolve'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DissolveProgress }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=DissolveTexture_TileX }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=DissolveTextureTile_Y }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=MaskGroundPosition }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MaskHeight }
+        ParameterValue = 2017
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base Color Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/T_Bigdaddy_Finger_BC.T_Bigdaddy_Finger_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=NormalMap Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/T_Bigdaddy_Finger_N.T_Bigdaddy_Finger_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=RoughnessMap Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/T_Bigdaddy_Finger_R.T_Bigdaddy_Finger_R'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Specular Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/T_Bigdaddy_Finger_S.T_Bigdaddy_Finger_S'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=VeinsColor }
+        ParameterValue = { R=0.2, G=0.019342, B=0.001327, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseVertexColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=GenerateMaskFromWorld }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseAlphaFadeTransition }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseOpacity Mask }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[7] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DissolveFlowmap.T_DissolveFlowmap'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/SphereNormal.SphereNormal'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

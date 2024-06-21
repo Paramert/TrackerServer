@@ -1,0 +1,68 @@
+Parent = Material3'/Game/Characters/Slashers/Materials/M_Slasher_Hair_Animated.M_Slasher_Hair_Animated'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Hair Mask Speed Y }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Atl_UseOpacity(Transulcent) }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[14] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    CachedReferencedTextures[2] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    CachedReferencedTextures[3] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_masks_01.Dissolve_masks_01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[8] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+    CachedReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    CachedReferencedTextures[11] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[13] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

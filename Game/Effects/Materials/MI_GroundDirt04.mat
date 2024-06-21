@@ -1,0 +1,7 @@
+Diffuse=T_GroundDirt04_BC
+Normal=T_FlatNormal_01
+Other[0]=T_Noise03
+Other[1]=Fx_radialGradient
+Other[2]=Black
+Other[3]=Green_Linear
+Other[4]=White

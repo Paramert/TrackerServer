@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_LumberPile_Wood_01.MI_LumberPile_Wood_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_LumberPile_Metal_01.MI_LumberPile_Metal_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_LumberPile_Wood_01.MI_LumberPile_Wood_01'
+        MaterialSlotName = MI_LumberPile_Wood_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1736.18, 3074.44, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_LumberPile_Metal_01.MI_LumberPile_Metal_01'
+        MaterialSlotName = MI_LumberPile_Metal_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 204.074, 3009.08, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=11.3057, Y=-3.65411, Z=204.416 }
+    BoxExtent = { X=306.512, Y=603.604, Z=210.53 }
+    SphereRadius = 676.402
+}

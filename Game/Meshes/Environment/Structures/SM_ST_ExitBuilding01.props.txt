@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/MI_Ind_Bricks.MI_Ind_Bricks'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_ExitTarp.MI_ExitTarp'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Miscellaneous_ExitBuilding.MI_Miscellaneous_ExitBuilding'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Miscellaneous_ExitBuilding1.MI_Miscellaneous_ExitBuilding1'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/MI_Ind_Bricks.MI_Ind_Bricks'
+        MaterialSlotName = MI_Ind_Bricks
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 369.625, 3249.53, 5383.97, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_ExitTarp.MI_ExitTarp'
+        MaterialSlotName = MI_ExitTarp
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1014.56, 3243.61, 5342.49, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Miscellaneous_ExitBuilding.MI_Miscellaneous_ExitBuilding'
+        MaterialSlotName = MI_Miscellaneous_ExitBuilding
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1013.63, 3199.71, 5189.47, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Miscellaneous_ExitBuilding1.MI_Miscellaneous_ExitBuilding1'
+        MaterialSlotName = MI_Miscellaneous_ExitBuilding1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 491.581, 3200.38, 4592.55, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=129.359, Y=-0.265686, Z=744.158 }
+    BoxExtent = { X=591.084, Y=717.869, Z=768.644 }
+    SphereRadius = 1155
+}

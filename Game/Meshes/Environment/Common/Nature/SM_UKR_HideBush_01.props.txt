@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/MI_UKR_Hidebush01.MI_UKR_Hidebush01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/MI_UKR_Hidebush01.MI_UKR_Hidebush01'
+        MaterialSlotName = MI_UKR_Hidebush01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 209.953, 581.552, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-13.5316, Y=2.08624, Z=64.8141 }
+    BoxExtent = { X=134.674, Y=79.8286, Z=73.3754 }
+    SphereRadius = 137.625
+}

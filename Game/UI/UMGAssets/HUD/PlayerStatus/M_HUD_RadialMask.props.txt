@@ -1,0 +1,99 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Debug_UV.Debug_UV'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=CircleMin }
+                    ParameterInfos[1] = { Name=CircleMax }
+                    ParameterInfos[2] = { Name=Percent }
+                    ParameterInfos[3] = { Name=InnerCircleSize }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Base Circle Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0.49, 0.5, 0.25, 0.1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.19807, G=0.246202, B=0.283149, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Debug_UV.Debug_UV'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Debug_UV.Debug_UV'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Debug_UV.Debug_UV'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.49, Name=CircleMin, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=CircleMax, Group=None }
+    CollectedScalarParameters[2] = { Value=0.25, Name=Percent, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=InnerCircleSize, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.19807, G=0.246202, B=0.283149, A=1 }
+        Name = Base Circle Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Debug_UV
+    }
+}

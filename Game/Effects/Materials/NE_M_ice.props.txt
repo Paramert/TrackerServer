@@ -1,0 +1,345 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_014.NE_T_Noise_LyLct_014'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyTc_15.NE_T_Noise_LyTc_15'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP143_009.NE_T_Noise_TP143_009'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/NE_T_ST_bingjin.NE_T_ST_bingjin'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+    ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[33] =
+                {
+                    ParameterInfos[0] = { Name=noise }
+                    ParameterInfos[1] = { Name=UTilling }
+                    ParameterInfos[2] = { Name=BorderThresholdLow }
+                    ParameterInfos[3] = { Name=42 - GradientHardness }
+                    ParameterInfos[4] = { Name=BorderIntensity }
+                    ParameterInfos[5] = { Name=42 - BoundsMultiplier }
+                    ParameterInfos[6] = { Name=normal }
+                    ParameterInfos[7] = { Name=EndLocation_WorldSpace }
+                    ParameterInfos[8] = { Name=USpeed_1 }
+                    ParameterInfos[9] = { Name=VTilling }
+                    ParameterInfos[10] = { Name=VSpeed_1 }
+                    ParameterInfos[11] = { Name=MaskIntensity }
+                    ParameterInfos[12] = { Name=DIssolveBorderGreenChannel }
+                    ParameterInfos[13] = { Name=DissolveTexture_TileX }
+                    ParameterInfos[14] = { Name=OpacityController }
+                    ParameterInfos[15] = { Name=ActivateDitherTemporalAA }
+                    ParameterInfos[16] = { Name=42 - InverseDissolve }
+                    ParameterInfos[17] = { Name=42 - Height }
+                    ParameterInfos[18] = { Name=MaxBorderGlow }
+                    ParameterInfos[19] = { Name=42 - Base Offset }
+                    ParameterInfos[20] = { Name=VSpeed_2 }
+                    ParameterInfos[21] = { Name=DissolveTextureTile_Y }
+                    ParameterInfos[22] = { Name=BorderThresholdHigh }
+                    ParameterInfos[23] = { Name=DissolveProgress }
+                    ParameterInfos[24] = { Name=USpeed_2 }
+                    ParameterInfos[25] = { Name=StartLocation_WorldSpace }
+                    ParameterInfos[26] = { Name=fresnel_w }
+                    ParameterInfos[27] = { Name=fresnel_n }
+                    ParameterInfos[28] = { Name=GlowIntensity }
+                    ParameterInfos[29] = { Name=PowerExp }
+                    ParameterInfos[30] = { Name=PushBack_Strength }
+                    ParameterInfos[31] = { Name=OpacityMaskOffset }
+                    ParameterInfos[32] = { Name=SquishFactor }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=ActorForwardVector }
+                    ParameterInfos[1] = { Name=VeinsColor }
+                    ParameterInfos[2] = { Name=VisualLight }
+                    ParameterInfos[3] = { Name=ice color }
+                    ParameterInfos[4] = { Name=LightColor }
+                    ParameterInfos[5] = { Name=BorderColor }
+                    ParameterInfos[6] = { Name=fresnel color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=HideHead_Mask }
+                    ParameterInfos[1] = { Name=ice tex }
+                    ParameterInfos[2] = { Name=DissolveRamps }
+                    ParameterInfos[3] = { Name=T_Normal }
+                    ParameterInfos[4] = { Name=T_Mask }
+                    ParameterInfos[5] = { Name=DissolveTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[33] =
+        {
+            ScalarValues[0] = 10
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 200
+            ScalarValues[4] = 40
+            ScalarValues[5] = 1.5
+            ScalarValues[6] = 0.3
+            ScalarValues[7] = 350
+            ScalarValues[8] = 0.1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.15
+            ScalarValues[11] = 1
+            ScalarValues[12] = 3
+            ScalarValues[13] = 3
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+            ScalarValues[17] = 400
+            ScalarValues[18] = 10
+            ScalarValues[19] = -25
+            ScalarValues[20] = -0.16
+            ScalarValues[21] = 3
+            ScalarValues[22] = 0.015
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0.2
+            ScalarValues[25] = 0
+            ScalarValues[26] = 5
+            ScalarValues[27] = 0
+            ScalarValues[28] = 750
+            ScalarValues[29] = 1
+            ScalarValues[30] = -40
+            ScalarValues[31] = 2.5
+            ScalarValues[32] = 0
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=0, G=1, B=0, A=0 }
+            VectorValues[1] = { R=0.1, G=0.017777, B=0.0075, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0.4375, G=0.828125, B=2, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=5, G=2.25074, B=1.09375, A=1 }
+            VectorValues[6] = { R=0.872309, G=0.833333, B=10, A=0 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/NE_T_ST_bingjin.NE_T_ST_bingjin'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyTc_15.NE_T_Noise_LyTc_15'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP143_009.NE_T_Noise_TP143_009'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_014.NE_T_Noise_LyLct_014'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/NE_T_ST_bingjin.NE_T_ST_bingjin'
+        ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        ReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = HideHead_Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_ST_bingjin.NE_T_ST_bingjin'
+        Name = ice tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        Name = DissolveRamps
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+        Name = T_Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = T_Mask
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        Name = DissolveTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[33] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=noise, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=UTilling, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=BorderThresholdLow, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 200
+        Name = 42 - GradientHardness
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=40, Name=BorderIntensity, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 1.5
+        Name = 42 - BoundsMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0.3, Name=normal, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 350
+        Name = EndLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.1, Name=USpeed_1, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=VTilling, Group=None }
+    CollectedScalarParameters[10] = { Value=0.15, Name=VSpeed_1, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=MaskIntensity, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 3
+        Name = DIssolveBorderGreenChannel
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=3, Name=DissolveTexture_TileX, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=OpacityController, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0
+        Name = ActivateDitherTemporalAA
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0, Name=42 - InverseDissolve, Group=None }
+    CollectedScalarParameters[17] = { Value=400, Name=42 - Height, Group=None }
+    CollectedScalarParameters[18] = { Value=10, Name=MaxBorderGlow, Group=None }
+    CollectedScalarParameters[19] = { Value=-25, Name=42 - Base Offset, Group=None }
+    CollectedScalarParameters[20] = { Value=-0.16, Name=VSpeed_2, Group=None }
+    CollectedScalarParameters[21] = { Value=3, Name=DissolveTextureTile_Y, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 0.015
+        Name = BorderThresholdHigh
+        Group = None
+    }
+    CollectedScalarParameters[23] = { Value=1, Name=DissolveProgress, Group=None }
+    CollectedScalarParameters[24] = { Value=0.2, Name=USpeed_2, Group=None }
+    CollectedScalarParameters[25] =
+    {
+        Value = 0
+        Name = StartLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[26] = { Value=5, Name=fresnel_w, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=fresnel_n, Group=None }
+    CollectedScalarParameters[28] = { Value=750, Name=GlowIntensity, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=PowerExp, Group=None }
+    CollectedScalarParameters[30] = { Value=-40, Name=PushBack_Strength, Group=None }
+    CollectedScalarParameters[31] = { Value=2.5, Name=OpacityMaskOffset, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=SquishFactor, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = ActorForwardVector
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.1, G=0.017777, B=0.0075, A=1 }
+        Name = VeinsColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = VisualLight
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.4375, G=0.828125, B=2, A=0 }
+        Name = ice color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = LightColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=5, G=2.25074, B=1.09375, A=1 }
+        Name = BorderColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.872309, G=0.833333, B=10, A=0 }
+        Name = fresnel color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_Noise_LyTc_15
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_Noise_TP143_009
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = White_Linear
+    }
+}

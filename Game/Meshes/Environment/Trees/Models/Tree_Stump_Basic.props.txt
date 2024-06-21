@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_tree04.MI_tree04'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_tree04.MI_tree04'
+        MaterialSlotName = TreeStump_Basic
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 244.958, 246.67, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.51556, Y=0.625, Z=103.795 }
+    BoxExtent = { X=39.5204, Y=33.6084, Z=116.501 }
+    SphereRadius = 123.135
+}

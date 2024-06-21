@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/PullDown/Materials/MI_Plank_Benchmark.MI_Plank_Benchmark'
+    Materials[1] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/PullDown/Materials/MI_Plank_Benchmark.MI_Plank_Benchmark'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/PullDown/Materials/MI_Plank_Benchmark.MI_Plank_Benchmark'
+        MaterialSlotName = lambert2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 504.305, 1031.83, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/PullDown/Materials/MI_Plank_Benchmark.MI_Plank_Benchmark'
+        MaterialSlotName = lambert3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 462.37, 1033.97, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.76427, Y=85.6274, Z=110.786 }
+    BoxExtent = { X=80.4221, Y=117.691, Z=117.792 }
+    SphereRadius = 167.856
+}

@@ -1,0 +1,86 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Glass/MI_COM_Glass01.MI_COM_Glass01'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Glass - |     Opacity }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=|     BaseColor Tint Intensity }
+        ParameterValue = 0.509524
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor Map }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Mask/T_Grunge_Mask01.T_Grunge_Mask01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=|     Tint Color }
+        ParameterValue = { R=1, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Tint }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    CachedReferencedTextures[1] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+    CachedReferencedTextures[6] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+    CachedReferencedTextures[8] = TextureCube4'/Game/Textures/Environment/Sky/HDR/Topanga_Forest_B_Env.Topanga_Forest_B_Env'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

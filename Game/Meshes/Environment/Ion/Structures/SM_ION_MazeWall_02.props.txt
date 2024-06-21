@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_01_Sand.MI_ION_BigStone_01_Sand'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_ION_Vine_01.MI_ION_Vine_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_01_Sand.MI_ION_BigStone_01_Sand'
+        MaterialSlotName = MI_ION_BigStone_01_Sand
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 369.476, 1358.23, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_ION_Vine_01.MI_ION_Vine_01'
+        MaterialSlotName = MI_ION_Vine_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 720.676, 1286.28, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.34648, Y=-179.216, Z=173.186 }
+    BoxExtent = { X=50.3191, Y=193.571, Z=200.466 }
+    SphereRadius = 269.172
+}

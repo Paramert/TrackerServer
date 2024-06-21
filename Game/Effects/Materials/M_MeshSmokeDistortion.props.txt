@@ -1,0 +1,286 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_TilingClouds_02.T_TilingClouds_02'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[33] =
+                {
+                    ParameterInfos[0] = { Name=Subtract_Mask_Location_Y }
+                    ParameterInfos[1] = { Name=WPO_Tiling_X }
+                    ParameterInfos[2] = { Name=ColorGradientOffset }
+                    ParameterInfos[3] = { Name=UTile2 }
+                    ParameterInfos[4] = { Name=UTile }
+                    ParameterInfos[5] = { Name=ExponentIn }
+                    ParameterInfos[6] = { Name=WPO_PannerSpeed_X }
+                    ParameterInfos[7] = { Name=WPO_PannerSpeed_Y }
+                    ParameterInfos[8] = { Name=Subtract_Mask_Density }
+                    ParameterInfos[9] = { Name=WPO_Tiling_Y }
+                    ParameterInfos[10] = { Name=Colorhighlights }
+                    ParameterInfos[11] = { Name=Subtract_Mask_Radius }
+                    ParameterInfos[12] = { Name=Subtract_Mask_Location_X }
+                    ParameterInfos[13] = { Name=VTile }
+                    ParameterInfos[14] = { Name=CenterSingleMask_Radius }
+                    ParameterInfos[15] = { Name=GradientMultiplier_Vertical }
+                    ParameterInfos[16] = { Name=CenterSingleMask_Density }
+                    ParameterInfos[17] = { Name=CenterMask_Radius }
+                    ParameterInfos[18] = { Name=WPO_Range }
+                    ParameterInfos[19] = { Name=Use Radial Mask }
+                    ParameterInfos[20] = { Name=ExponentialDensityADD }
+                    ParameterInfos[21] = { Name=Use Single Radial Mask }
+                    ParameterInfos[22] = { Name=GradientMultiplier }
+                    ParameterInfos[23] = { Name=VTile2 }
+                    ParameterInfos[24] = { Name=Distortion_Intensity }
+                    ParameterInfos[25] = { Name=GradientMultiplier_Horizontal }
+                    ParameterInfos[26] = { Name=Depth Fade Distance }
+                    ParameterInfos[27] = { Name=Use Radial UVs }
+                    ParameterInfos[28] = { Name=ColorGradientIntensity }
+                    ParameterInfos[29] = { Name=CenterMask_Density }
+                    ParameterInfos[30] = { Name=Opacity }
+                    ParameterInfos[31] = { Name=Density (S) }
+                    ParameterInfos[32] = { Name=WPO_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=ColorHighlights }
+                    ParameterInfos[1] = { Name=Speed2 }
+                    ParameterInfos[2] = { Name=Color }
+                    ParameterInfos[3] = { Name=Speed }
+                    ParameterInfos[4] = { Name=Speed_Distortion }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Main Texture }
+                    ParameterInfos[1] = { Name=Overlay Texture }
+                    ParameterInfos[2] = { Name=WPO Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[33] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 0.25
+            ScalarValues[2] = 0
+            ScalarValues[3] = 2
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.25
+            ScalarValues[6] = -0.1
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 2.33
+            ScalarValues[9] = 0.25
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.5
+            ScalarValues[15] = 5
+            ScalarValues[16] = 2.33
+            ScalarValues[17] = 0.5
+            ScalarValues[18] = 2
+            ScalarValues[19] = 0
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+            ScalarValues[22] = 5
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0.025
+            ScalarValues[25] = 0
+            ScalarValues[26] = 25
+            ScalarValues[27] = 0
+            ScalarValues[28] = 1
+            ScalarValues[29] = 2.33
+            ScalarValues[30] = 1
+            ScalarValues[31] = 2
+            ScalarValues[32] = 10
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.208333, G=0.030427, B=0.009662, A=1 }
+            VectorValues[1] = { R=-0.5, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=-1, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_TilingClouds_02.T_TilingClouds_02'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_TilingClouds_02.T_TilingClouds_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+        Name = Main Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+        Name = Overlay Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TilingClouds_02.T_TilingClouds_02'
+        Name = WPO Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[33] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.5
+        Name = Subtract_Mask_Location_Y
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0.25, Name=WPO_Tiling_X, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=ColorGradientOffset, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=UTile2, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=UTile, Group=None }
+    CollectedScalarParameters[5] = { Value=0.25, Name=ExponentIn, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.1, Name=WPO_PannerSpeed_X, Group=None }
+    CollectedScalarParameters[7] = { Value=0.1, Name=WPO_PannerSpeed_Y, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 2.33
+        Name = Subtract_Mask_Density
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0.25, Name=WPO_Tiling_Y, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Colorhighlights, Group=None }
+    CollectedScalarParameters[11] = { Value=0.5, Name=Subtract_Mask_Radius, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1
+        Name = Subtract_Mask_Location_X
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=1, Name=VTile, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.5
+        Name = CenterSingleMask_Radius
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 5
+        Name = GradientMultiplier_Vertical
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 2.33
+        Name = CenterSingleMask_Density
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=0.5, Name=CenterMask_Radius, Group=None }
+    CollectedScalarParameters[18] = { Value=2, Name=WPO_Range, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Use Radial Mask, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=ExponentialDensityADD, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=Use Single Radial Mask, Group=None }
+    CollectedScalarParameters[22] = { Value=5, Name=GradientMultiplier, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=VTile2, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0.025
+        Name = Distortion_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[25] =
+    {
+        Value = 0
+        Name = GradientMultiplier_Horizontal
+        Group = None
+    }
+    CollectedScalarParameters[26] = { Value=25, Name=Depth Fade Distance, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=Use Radial UVs, Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=ColorGradientIntensity, Group=None }
+    CollectedScalarParameters[29] = { Value=2.33, Name=CenterMask_Density, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[31] = { Value=2, Name=Density (S), Group=None }
+    CollectedScalarParameters[32] = { Value=10, Name=WPO_Intensity, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.208333, G=0.030427, B=0.009662, A=1 }
+        Name = ColorHighlights
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=-0.5, G=0, B=0, A=1 }
+        Name = Speed2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=-1, G=0, B=0, A=1 }
+        Name = Speed
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Speed_Distortion
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal2
+    }
+}

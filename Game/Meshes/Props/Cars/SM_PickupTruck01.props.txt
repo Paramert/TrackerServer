@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PickupTruck01.MI_PickupTruck01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PickupTruck01.MI_PickupTruck01'
+        MaterialSlotName = MI_PickupTruck01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 823.323, 1658.57, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.45195, Y=-16.6067, Z=100.528 }
+    BoxExtent = { X=115.562, Y=284.161, Z=104.526 }
+    SphereRadius = 302.206
+}

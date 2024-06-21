@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Fence_01.MI_ION_Fence_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_StatueMale_01.MI_ION_StatueMale_01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_Ion_TreeBarkDeadA1A2_Up_VP.MI_Ion_TreeBarkDeadA1A2_Up_VP'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Fence_01.MI_ION_Fence_01'
+        MaterialSlotName = MI_ION_Fence_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 941.487, 1324.86, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_StatueMale_01.MI_ION_StatueMale_01'
+        MaterialSlotName = MI_ION_StatueMale_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 463.093, 1313.04, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_Ion_TreeBarkDeadA1A2_Up_VP.MI_Ion_TreeBarkDeadA1A2_Up_VP'
+        MaterialSlotName = MI_Ion_TreeBarkDeadA1A2_Up_VP
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 105.638, 1309.52, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-403.532, Y=60.4137, Z=185.751 }
+    BoxExtent = { X=462.898, Y=143.632, Z=218.776 }
+    SphereRadius = 505.019
+}

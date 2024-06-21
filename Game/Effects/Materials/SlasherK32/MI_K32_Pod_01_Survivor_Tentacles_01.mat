@@ -1,0 +1,13 @@
+Diffuse=T_K32AssimilationTentacles_BC
+Normal=T_K32AssimilationTentacles_N
+Emissive=T_K32AssimilationTentacles_Em
+Other[0]=T_K32AssimilationTentacles_ORM
+Other[1]=T_Tiling_Cloud_03
+Other[2]=DefaultDiffuse
+Other[3]=FlatNormal
+Other[4]=DefaultTexture
+Other[5]=T_K32KillerPod01_Em
+Other[6]=T_K32_KillerPod_Mask_01
+Other[7]=T_gradient_stripes_01
+Other[8]=T_Smoke_Soft_Tile1
+Other[9]=Green_Linear

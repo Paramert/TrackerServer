@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Swamp_WoodDark.MI_Swamp_WoodDark'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Swamp_WoodLight.MI_Swamp_WoodLight'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Swamp_WoodDark.MI_Swamp_WoodDark'
+        MaterialSlotName = MI_Swamp_WoodDark
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 137.627, 6877.73, 341.415, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Swamp_WoodLight.MI_Swamp_WoodLight'
+        MaterialSlotName = MI_Swamp_WoodLight
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 126.729, 4778.56, 341.452, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.590576, Y=0, Z=1.37456 }
+    BoxExtent = { X=130.562, Y=3.90472, Z=114.131 }
+    SphereRadius = 163.984
+}

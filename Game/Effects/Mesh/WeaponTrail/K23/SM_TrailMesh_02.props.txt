@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/Trail/MI_NG_MeshTrail_01.MI_NG_MeshTrail_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/Trail/MI_NG_MeshTrail_01.MI_NG_MeshTrail_01'
+        MaterialSlotName = Material #47
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 48.893, 240.722, 49.7123, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.0497, Y=19.9937, Z=57.7625 }
+    BoxExtent = { X=37.0851, Y=40.5891, Z=39.5864 }
+    SphereRadius = 50.1127
+}

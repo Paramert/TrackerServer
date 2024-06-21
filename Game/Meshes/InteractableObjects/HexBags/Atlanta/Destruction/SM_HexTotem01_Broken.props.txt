@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HexTotem01.MI_HexTotem01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HexTotem01.MI_HexTotem01'
+        MaterialSlotName = MI_HexTotem01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 104.108, 156.349, 174.473, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.22809, Y=1.13838, Z=9.11688 }
+    BoxExtent = { X=52.9942, Y=61.5564, Z=11.2226 }
+    SphereRadius = 67.1807
+}

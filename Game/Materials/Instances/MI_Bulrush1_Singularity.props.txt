@@ -1,0 +1,58 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush1.MI_Bulrush1'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=Pivot in UV 1 }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[10] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    CachedReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+    CachedReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    CachedReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[9] = Texture2D'/Game/Effects/Textures/SphereNormal.SphereNormal'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Van01_Wheel01.MI_Van01_Wheel01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Van01_Wheel01.MI_Van01_Wheel01'
+        MaterialSlotName = MI_Van_02_Wheel01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 223.56, 166.148, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=108.567, Y=-0.400146, Z=8.23928 }
+    BoxExtent = { X=19.1979, Y=41.8644, Z=36.4829 }
+    SphereRadius = 45.842
+}

@@ -1,0 +1,9 @@
+Diffuse=T_Mask_08_GL
+Normal=DefaultNormal
+Opacity=T_Mask_08_GL
+Other[0]=T_Noise_26
+Other[1]=T_Noise_27
+Other[2]=NE_T_Glow_LyTc_02
+Other[3]=T_RankUpgrade_UV
+Other[4]=DefaultTexture
+Other[5]=T_RankUpgrade_UV_yuan

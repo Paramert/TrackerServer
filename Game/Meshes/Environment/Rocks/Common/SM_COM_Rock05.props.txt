@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_A_05.MI_Com_Rocks_A_05'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_A_05.MI_Com_Rocks_A_05'
+        MaterialSlotName = MI_Com_Rocks_A_05
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 743.795, 757.682, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.48146, Y=-1.8997, Z=109.608 }
+    BoxExtent = { X=207.375, Y=130.785, Z=124.541 }
+    SphereRadius = 251.27
+}

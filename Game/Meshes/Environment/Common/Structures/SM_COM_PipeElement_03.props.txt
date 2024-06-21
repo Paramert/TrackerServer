@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Pipe01.MI_Eng_Pipe01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Pipe01.MI_Eng_Pipe01'
+        MaterialSlotName = MI_Eng_Pipe01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 139.707, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-78.1896, Y=-2.98827, Z=61.421 }
+    BoxExtent = { X=90.1874, Y=29.1833, Z=63.638 }
+    SphereRadius = 109.459
+}

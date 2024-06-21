@@ -1,0 +1,8 @@
+Diffuse=T_Dissolve_spiderthing
+Normal=SphereNormal
+SpecPower=T_Dissolve_spiderthing
+Other[0]=T_DissolveFlowmap
+Other[1]=T_DissolveTextures
+Other[2]=T_FX_DissolveRamp
+Other[3]=Black
+Other[4]=Black_Linear

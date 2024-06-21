@@ -1,0 +1,76 @@
+TwoSided = false
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Vegetations/moon_diffuse.moon_diffuse'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=FadeOffset }
+                    ParameterInfos[1] = { Name=MoonIntensity }
+                    ParameterInfos[2] = { Name=MoonOpacity }
+                    ParameterInfos[3] = { Name=Fog Distance }
+                    ParameterInfos[4] = { Name=Fog Start }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=MoonColor }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0, 15, 0.8, 1000, 1000 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Vegetations/moon_diffuse.moon_diffuse'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=FadeOffset, Group=None }
+    CollectedScalarParameters[1] = { Value=15, Name=MoonIntensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0.8, Name=MoonOpacity, Group=None }
+    CollectedScalarParameters[3] = { Value=1000, Name=Fog Distance, Group=None }
+    CollectedScalarParameters[4] = { Value=1000, Name=Fog Start, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MoonColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,127 @@
+Parent = Material3'/Game/Effects/Materials/NE_M_Candlefire.NE_M_Candlefire'
+ScalarParameterValues[10] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Amount }
+        ParameterValue = 0.005
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=bottom_offset }
+        ParameterValue = -0.001
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Flowspeed_X }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Flowspeed_Y }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=main_scale }
+        ParameterValue = 1.25
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Strength }
+        ParameterValue = 25
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=wave_scaleX }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=wave_scaleY }
+        ParameterValue = 0.22
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Fade_Dist }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Fire_Candle.T_Fire_Candle'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=offset_XY }
+        ParameterValue = { R=-0.779817, G=-0.85, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Additive (3)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[2] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Fire_Candle.T_Fire_Candle'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_disort_test.NE_T_disort_test'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.21875
+        UVChannelIndex = 0
+        TextureName = NE_T_disort_test
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1.22125
+        UVChannelIndex = 0
+        TextureName = T_Fire_Candle
+    }
+}

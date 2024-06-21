@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/MI_WT_LightString_01.MI_WT_LightString_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_WinterLights05.MI_WinterLights05'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_WinterLights06.MI_WinterLights06'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Glass/MI_COM_Glass03.MI_COM_Glass03'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/MI_WT_LightString_01.MI_WT_LightString_01'
+        MaterialSlotName = MI_WT_LightString_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 96.4105, 460.793, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_WinterLights05.MI_WinterLights05'
+        MaterialSlotName = MI_WT_ChristmasLight_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 10.6054, 112.848, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_WinterLights06.MI_WinterLights06'
+        MaterialSlotName = MI_WT_ChristmasLight_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 10.6057, 112.827, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Glass/MI_COM_Glass03.MI_COM_Glass03'
+        MaterialSlotName = MI_COM_Glass03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 9.94436, 115.265, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.11859, Y=5.08151, Z=130.999 }
+    BoxExtent = { X=54.0504, Y=52.7821, Z=128.379 }
+    SphereRadius = 131.279
+}

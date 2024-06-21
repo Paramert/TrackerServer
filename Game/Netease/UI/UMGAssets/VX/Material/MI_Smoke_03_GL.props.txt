@@ -1,0 +1,125 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/Noise_09.Noise_09'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/T_Mask_06_adcgl005.T_Mask_06_adcgl005'
+    ReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_4.NE_GachaGemstone_VX_Noise_4'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Intensity }
+                    ParameterInfos[1] = { Name=Dissolve }
+                    ParameterInfos[2] = { Name=B }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Tex_UV }
+                    ParameterInfos[1] = { Name=Coole }
+                    ParameterInfos[2] = { Name=Dissolve_UV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Tex_01 }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=Dissolve }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 1, 0, 50 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0.25, A=0.1 }
+            VectorValues[1] = { R=0.320916, G=0.632489, B=1, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0.25, A=0.1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/Noise_09.Noise_09'
+            TextureValues[1] = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/T_Mask_06_adcgl005.T_Mask_06_adcgl005'
+            TextureValues[2] = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_4.NE_GachaGemstone_VX_Noise_4'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/T_Mask_06_adcgl005.T_Mask_06_adcgl005'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/Noise_09.Noise_09'
+        ReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_4.NE_GachaGemstone_VX_Noise_4'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/Noise_09.Noise_09'
+        Name = Tex_01
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/T_Mask_06_adcgl005.T_Mask_06_adcgl005'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_4.NE_GachaGemstone_VX_Noise_4'
+        Name = Dissolve
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[2] = { Value=50, Name=B, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0.25, A=0.1 }
+        Name = Tex_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.320916, G=0.632489, B=1, A=0 }
+        Name = Coole
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0.25, A=0.1 }
+        Name = Dissolve_UV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

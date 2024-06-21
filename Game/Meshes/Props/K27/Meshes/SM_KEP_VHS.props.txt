@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/Props/K27/Materials/MI_KEP_VHS.MI_KEP_VHS'
+    Materials[1] = MaterialInstanceConstant'/Game/Meshes/Props/K27/Materials/MI_KEP_VHS_Glass.MI_KEP_VHS_Glass'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/Props/K27/Materials/MI_KEP_VHS.MI_KEP_VHS'
+        MaterialSlotName = MI_KEP_VHS
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 27.991, 30.5611, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/Props/K27/Materials/MI_KEP_VHS_Glass.MI_KEP_VHS_Glass'
+        MaterialSlotName = MI_KEP_VHS_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4.81959, 30.632, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-4.76837e-07, Z=0 }
+    BoxExtent = { X=9.35, Y=5.1, Z=1.25 }
+    SphereRadius = 10.7236
+}

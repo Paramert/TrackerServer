@@ -1,0 +1,7 @@
+Diffuse=T_Tilling_Distortion_Map_01
+Normal=T_blood_drop_01_N
+Cube=T_Smoke_Soft_Tile
+Other[0]=T_blood_drop_01
+Other[1]=T_Mud_01_M
+Other[2]=T_NoiseNormal_01_Tiling
+Other[3]=T_reflection_map_01

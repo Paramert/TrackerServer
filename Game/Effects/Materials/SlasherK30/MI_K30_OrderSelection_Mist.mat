@@ -1,0 +1,6 @@
+Diffuse=T_Smoke_Soft_Tile
+Normal=T_WaterNormal2
+Other[0]=T_TilingNoise05
+Other[1]=T_TilingClouds_02
+Other[2]=T_TilingNoise02_M
+Other[3]=T_WhispySmoke_Tile1

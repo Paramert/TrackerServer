@@ -1,0 +1,132 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Decal_GroundImpact02.T_Decal_GroundImpact02'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Blood Color Reflection }
+                    ParameterInfos[1] = { Name=Blood Color light2 }
+                    ParameterInfos[2] = { Name=Blood Color Outer }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Reflection Map }
+                    ParameterInfos[1] = { Name=Blood_Shape }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=0.78, B=0.78, A=1 }
+            VectorValues[1] = { R=0.724, G=0.028636, B=0.02172, A=1 }
+            VectorValues[2] = { R=0.08, G=0.000668, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Decal_GroundImpact02.T_Decal_GroundImpact02'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Decal_GroundImpact02.T_Decal_GroundImpact02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        Name = Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Decal_GroundImpact02.T_Decal_GroundImpact02'
+        Name = Blood_Shape
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.78, B=0.78, A=1 }
+        Name = Blood Color Reflection
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.724, G=0.028636, B=0.02172, A=1 }
+        Name = Blood Color light2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.08, G=0.000668, B=0, A=1 }
+        Name = Blood Color Outer
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.988586
+        UVChannelIndex = 0
+        TextureName = T_Decal_GroundImpact02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1.5
+        UVChannelIndex = 0
+        TextureName = T_FlowMap_Distortion_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 2.51563
+        UVChannelIndex = 0
+        TextureName = T_Mud_01_M
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.987183
+        UVChannelIndex = 0
+        TextureName = T_Mud_N
+    }
+}

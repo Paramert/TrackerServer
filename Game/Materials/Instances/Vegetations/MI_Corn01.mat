@@ -1,0 +1,11 @@
+Diffuse=T_Corn01
+Normal=FlatNormal
+Other[0]=T_MountainRock_BC
+Other[1]=DefaultDiffuse
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=SphereNormal
+Other[4]=Black
+Other[5]=Black_Linear
+Other[6]=Yellow_Linear
+Other[7]=Moss_diffuse
+Other[8]=T_CrawlingMoss_Mask_01

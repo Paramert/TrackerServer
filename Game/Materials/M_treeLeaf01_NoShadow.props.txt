@@ -1,0 +1,709 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[16] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    ReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Vegetations/Atlanta/T_treeLeaf01_Atl_MaskRGB.T_treeLeaf01_Atl_MaskRGB'
+    ReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+    ReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Vegetations/T_MapleOakLeaves01_Wind.T_MapleOakLeaves01_Wind'
+    ReferencedTextures[14] = Texture2D'/Game/Textures/Environment/Vegetations/T_treeLeaf01_BC.T_treeLeaf01_BC'
+    ReferencedTextures[15] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[58] =
+                {
+                    ParameterInfos[0] = { Name=018_FadeRadius }
+                    ParameterInfos[1] = { Name=Noise_Speed_Y }
+                    ParameterInfos[2] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[3] = { Name=Atl_Roughness }
+                    ParameterInfos[4] = { Name=050_WPOFlatness }
+                    ParameterInfos[5] = { Name=contrast }
+                    ParameterInfos[6] = { Name=050_WindSpeed }
+                    ParameterInfos[7] = { Name=Noise_Speed }
+                    ParameterInfos[8] = { Name=Tiling U }
+                    ParameterInfos[9] = { Name=050_WindIntensity }
+                    ParameterInfos[10] = { Name=06_SpecularRoughAmount }
+                    ParameterInfos[11] = { Name=050_DetailWPORotation }
+                    ParameterInfos[12] = { Name=Normal_Strength }
+                    ParameterInfos[13] = { Name=050_DetailWPOFlatness }
+                    ParameterInfos[14] = { Name=Tiling V }
+                    ParameterInfos[15] = { Name=018_FadeRadiusDistance }
+                    ParameterInfos[16] = { Name=SphDis_switch_radius_multiplier }
+                    ParameterInfos[17] = { Name=Emissive Border Base (rb) }
+                    ParameterInfos[18] = { Name=SpecularValue }
+                    ParameterInfos[19] = { Name=SphDis_mask_power }
+                    ParameterInfos[20] = { Name=RoughnessValue }
+                    ParameterInfos[21] = { Name=06_AOContrast }
+                    ParameterInfos[22] = { Name=050_WeightHeight }
+                    ParameterInfos[23] = { Name=Atl_Metallic }
+                    ParameterInfos[24] = { Name=Diffuse_ColorSaturation }
+                    ParameterInfos[25] = { Name=Emissive Border Level (rb) }
+                    ParameterInfos[26] = { Name=Scale (tm) }
+                    ParameterInfos[27] = { Name=Noise Opacity }
+                    ParameterInfos[28] = { Name=Scale (rb) }
+                    ParameterInfos[29] = { Name=SphDis_ObjectGroundPosition }
+                    ParameterInfos[30] = { Name=050_GroundHeight }
+                    ParameterInfos[31] = { Name=050_WindWeight }
+                    ParameterInfos[32] = { Name=Speed (rb) }
+                    ParameterInfos[33] = { Name=06_CustomSpecular }
+                    ParameterInfos[34] = { Name=06_(SW)UseTexCoord[1] }
+                    ParameterInfos[35] = { Name=pixelfade }
+                    ParameterInfos[36] = { Name=SphDis_ObjectHeight }
+                    ParameterInfos[37] = { Name=050_WindNormalFlatness }
+                    ParameterInfos[38] = { Name=SphDis_NoiseAmount }
+                    ParameterInfos[39] = { Name=050_WPORotation }
+                    ParameterInfos[40] = { Name=MetallicValue }
+                    ParameterInfos[41] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[42] = { Name=SphDis_NoiseTiling }
+                    ParameterInfos[43] = { Name=Noise_Speed_X }
+                    ParameterInfos[44] = { Name=06_AOValue }
+                    ParameterInfos[45] = { Name=050_SubsurfaceValue }
+                    ParameterInfos[46] = { Name=06_RoughnessContrast }
+                    ParameterInfos[47] = { Name=Atl_Specular }
+                    ParameterInfos[48] = { Name=050_DetailWPOPower }
+                    ParameterInfos[49] = { Name=DetailTiling }
+                    ParameterInfos[50] = { Name=06_RoughnessValue }
+                    ParameterInfos[51] = { Name=06_MetallicValue }
+                    ParameterInfos[52] = { Name=050_WPOPower }
+                    ParameterInfos[53] = { Name=Emissive Threshold (rb) }
+                    ParameterInfos[54] = { Name=SphDis_emissive_border_level }
+                    ParameterInfos[55] = { Name=Atl_BaseColorEmissive }
+                    ParameterInfos[56] = { Name=border_brightness (rb) }
+                    ParameterInfos[57] = { Name=Noise_Scale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[31] =
+                {
+                    ParameterInfos[0] = { Name=ClipRegion30 }
+                    ParameterInfos[1] = { Name=ClipRegion32 }
+                    ParameterInfos[2] = { Name=Atl_DiffuseTint }
+                    ParameterInfos[3] = { Name=G }
+                    ParameterInfos[4] = { Name=ClipRegion20 }
+                    ParameterInfos[5] = { Name=050_DetailWPOSpeedXY }
+                    ParameterInfos[6] = { Name=050_DetailWPOScaleXY }
+                    ParameterInfos[7] = { Name=ClipRegion10 }
+                    ParameterInfos[8] = { Name=050_WPOScaleXY }
+                    ParameterInfos[9] = { Name=050_MaxVariation }
+                    ParameterInfos[10] = { Name=ColorTint_Fade }
+                    ParameterInfos[11] = { Name=NeteaseColorReduce }
+                    ParameterInfos[12] = { Name=050_WPOSpeedXY }
+                    ParameterInfos[13] = { Name=ClipRegion02 }
+                    ParameterInfos[14] = { Name=ColorTintColourATL }
+                    ParameterInfos[15] = { Name=ClipRegion12 }
+                    ParameterInfos[16] = { Name=ClipRegion01 }
+                    ParameterInfos[17] = { Name=constant emissive_color (rb) }
+                    ParameterInfos[18] = { Name=ClipRegion11 }
+                    ParameterInfos[19] = { Name=ClipRegion31 }
+                    ParameterInfos[20] = { Name=ColorTintColour }
+                    ParameterInfos[21] = { Name=DetailTexture Color }
+                    ParameterInfos[22] = { Name=ClipBoxExtents }
+                    ParameterInfos[23] = { Name=ClipBoxCenter }
+                    ParameterInfos[24] = { Name=ClipRegion00 }
+                    ParameterInfos[25] = { Name=R }
+                    ParameterInfos[26] = { Name=ClipRegion22 }
+                    ParameterInfos[27] = { Name=TintColor_Diffuse }
+                    ParameterInfos[28] = { Name=ClipRegion21 }
+                    ParameterInfos[29] = { Name=050_MinVariation }
+                    ParameterInfos[30] = { Name=B }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=EM Noise Texture }
+                    ParameterInfos[1] = { Name=DetailWPOTexture }
+                    ParameterInfos[2] = { Name=NormalMap_Texture }
+                    ParameterInfos[3] = { Name=MaskRGB }
+                    ParameterInfos[4] = { Name=06_AOTexture }
+                    ParameterInfos[5] = { Name=06_MetallicTexture }
+                    ParameterInfos[6] = { Name=Ramp Texture (rb) }
+                    ParameterInfos[7] = { Name=Texture (rb) }
+                    ParameterInfos[8] = { Name=dissolve_texture (tm) }
+                    ParameterInfos[9] = { Name=050_WindMaskTexture }
+                    ParameterInfos[10] = { Name=06_RoughnessTexture }
+                    ParameterInfos[11] = { Name=050_WPOTexture }
+                    ParameterInfos[12] = { Name=06_ORMTexture }
+                    ParameterInfos[13] = { Name=AO_Texture }
+                    ParameterInfos[14] = { Name=DiffuseTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[58] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 10
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 4000
+            ScalarValues[16] = 2
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+            ScalarValues[22] = 30
+            ScalarValues[23] = 0
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0.5
+            ScalarValues[26] = 1
+            ScalarValues[27] = 1
+            ScalarValues[28] = 5
+            ScalarValues[29] = 0
+            ScalarValues[30] = 5
+            ScalarValues[31] = 0
+            ScalarValues[32] = 64
+            ScalarValues[33] = 0.5
+            ScalarValues[34] = 0
+            ScalarValues[35] = 4000
+            ScalarValues[36] = 1e+11
+            ScalarValues[37] = 0.9
+            ScalarValues[38] = 0.01
+            ScalarValues[39] = 0
+            ScalarValues[40] = 0
+            ScalarValues[41] = 0
+            ScalarValues[42] = 1
+            ScalarValues[43] = 1
+            ScalarValues[44] = 1
+            ScalarValues[45] = 0
+            ScalarValues[46] = 0
+            ScalarValues[47] = 0
+            ScalarValues[48] = 0
+            ScalarValues[49] = 1
+            ScalarValues[50] = 1
+            ScalarValues[51] = 0
+            ScalarValues[52] = 0
+            ScalarValues[53] = 0.5
+            ScalarValues[54] = 0.6
+            ScalarValues[55] = 0
+            ScalarValues[56] = 25
+            ScalarValues[57] = 1
+        }
+        VectorValues[31] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0, G=10, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+            VectorValues[7] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[8] = { R=1, G=1, B=0, A=0 }
+            VectorValues[9] = { R=0.810169, G=1, B=0, A=0 }
+            VectorValues[10] = { R=1, G=1, B=1, A=1 }
+            VectorValues[11] = { R=0.065, G=0.065, B=0.065, A=1 }
+            VectorValues[12] = { R=0, G=0, B=0, A=0 }
+            VectorValues[13] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[14] = { R=1, G=1, B=1, A=0 }
+            VectorValues[15] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[16] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[17] = { R=3, G=4, B=5, A=1 }
+            VectorValues[18] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[19] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[20] = { R=1, G=1, B=1, A=0 }
+            VectorValues[21] = { R=1, G=1, B=1, A=1 }
+            VectorValues[22] = { R=200000, G=200000, B=200000, A=0 }
+            VectorValues[23] = { R=0, G=0, B=0, A=0 }
+            VectorValues[24] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[25] = { R=10, G=0, B=0, A=1 }
+            VectorValues[26] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[27] = { R=0.132473, G=0.148317, B=0.25, A=0 }
+            VectorValues[28] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[29] = { R=1, G=1, B=1, A=0 }
+            VectorValues[30] = { R=0, G=0, B=10, A=1 }
+        }
+        TextureValues[15] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[3] = Texture2D'/Game/Textures/Environment/Vegetations/Atlanta/T_treeLeaf01_Atl_MaskRGB.T_treeLeaf01_Atl_MaskRGB'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+            TextureValues[7] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+            TextureValues[8] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+            TextureValues[9] = Texture2D'/Game/Textures/Environment/Vegetations/T_MapleOakLeaves01_Wind.T_MapleOakLeaves01_Wind'
+            TextureValues[10] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[11] = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+            TextureValues[12] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+            TextureValues[13] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[14] = Texture2D'/Game/Textures/Environment/Vegetations/T_treeLeaf01_BC.T_treeLeaf01_BC'
+        }
+    }
+    ReferencedTextures[16] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Vegetations/T_treeLeaf01_BC.T_treeLeaf01_BC'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        ReferencedTextures[5] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        ReferencedTextures[7] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[8] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Vegetations/Atlanta/T_treeLeaf01_Atl_MaskRGB.T_treeLeaf01_Atl_MaskRGB'
+        ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        ReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ReferencedTextures[13] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[14] = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+        ReferencedTextures[15] = Texture2D'/Game/Textures/Environment/Vegetations/T_MapleOakLeaves01_Wind.T_MapleOakLeaves01_Wind'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[15] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        Name = EM Noise Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+        Name = DetailWPOTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = NormalMap_Texture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/Atlanta/T_treeLeaf01_Atl_MaskRGB.T_treeLeaf01_Atl_MaskRGB'
+        Name = MaskRGB
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = 06_AOTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = 06_MetallicTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        Name = Ramp Texture (rb)
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+        Name = Texture (rb)
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+        Name = dissolve_texture (tm)
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/T_MapleOakLeaves01_Wind.T_MapleOakLeaves01_Wind'
+        Name = 050_WindMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = 06_RoughnessTexture
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+        Name = 050_WPOTexture
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = 06_ORMTexture
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = AO_Texture
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/T_treeLeaf01_BC.T_treeLeaf01_BC'
+        Name = DiffuseTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[58] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=018_FadeRadius, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Noise_Speed_Y, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=050_WPOFlatness, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=contrast, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=050_WindSpeed, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Noise_Speed, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Tiling U, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=050_WindIntensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=06_SpecularRoughAmount, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=050_DetailWPORotation, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Normal_Strength, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=050_DetailWPOFlatness, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Tiling V, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 4000
+        Name = 018_FadeRadiusDistance
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 2
+        Name = SphDis_switch_radius_multiplier
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 0
+        Name = Emissive Border Base (rb)
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=0, Name=SpecularValue, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=SphDis_mask_power, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=RoughnessValue, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=06_AOContrast, Group=None }
+    CollectedScalarParameters[22] = { Value=30, Name=050_WeightHeight, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 1
+        Name = Diffuse_ColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[25] =
+    {
+        Value = 0.5
+        Name = Emissive Border Level (rb)
+        Group = None
+    }
+    CollectedScalarParameters[26] = { Value=1, Name=Scale (tm), Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=Noise Opacity, Group=None }
+    CollectedScalarParameters[28] = { Value=5, Name=Scale (rb), Group=None }
+    CollectedScalarParameters[29] =
+    {
+        Value = 0
+        Name = SphDis_ObjectGroundPosition
+        Group = None
+    }
+    CollectedScalarParameters[30] = { Value=5, Name=050_GroundHeight, Group=None }
+    CollectedScalarParameters[31] = { Value=0, Name=050_WindWeight, Group=None }
+    CollectedScalarParameters[32] = { Value=64, Name=Speed (rb), Group=None }
+    CollectedScalarParameters[33] = { Value=0.5, Name=06_CustomSpecular, Group=None }
+    CollectedScalarParameters[34] = { Value=0, Name=06_(SW)UseTexCoord[1], Group=None }
+    CollectedScalarParameters[35] = { Value=4000, Name=pixelfade, Group=None }
+    CollectedScalarParameters[36] =
+    {
+        Value = 1e+11
+        Name = SphDis_ObjectHeight
+        Group = None
+    }
+    CollectedScalarParameters[37] =
+    {
+        Value = 0.9
+        Name = 050_WindNormalFlatness
+        Group = None
+    }
+    CollectedScalarParameters[38] = { Value=0.01, Name=SphDis_NoiseAmount, Group=None }
+    CollectedScalarParameters[39] = { Value=0, Name=050_WPORotation, Group=None }
+    CollectedScalarParameters[40] = { Value=0, Name=MetallicValue, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[42] = { Value=1, Name=SphDis_NoiseTiling, Group=None }
+    CollectedScalarParameters[43] = { Value=1, Name=Noise_Speed_X, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=06_AOValue, Group=None }
+    CollectedScalarParameters[45] = { Value=0, Name=050_SubsurfaceValue, Group=None }
+    CollectedScalarParameters[46] = { Value=0, Name=06_RoughnessContrast, Group=None }
+    CollectedScalarParameters[47] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[48] = { Value=0, Name=050_DetailWPOPower, Group=None }
+    CollectedScalarParameters[49] = { Value=1, Name=DetailTiling, Group=None }
+    CollectedScalarParameters[50] = { Value=1, Name=06_RoughnessValue, Group=None }
+    CollectedScalarParameters[51] = { Value=0, Name=06_MetallicValue, Group=None }
+    CollectedScalarParameters[52] = { Value=0, Name=050_WPOPower, Group=None }
+    CollectedScalarParameters[53] =
+    {
+        Value = 0.5
+        Name = Emissive Threshold (rb)
+        Group = None
+    }
+    CollectedScalarParameters[54] =
+    {
+        Value = 0.6
+        Name = SphDis_emissive_border_level
+        Group = None
+    }
+    CollectedScalarParameters[55] = { Value=0, Name=Atl_BaseColorEmissive, Group=None }
+    CollectedScalarParameters[56] =
+    {
+        Value = 25
+        Name = border_brightness (rb)
+        Group = None
+    }
+    CollectedScalarParameters[57] = { Value=1, Name=Noise_Scale, Group=None }
+}
+CollectedVectorParameters[31] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion30
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion32
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=10, B=0, A=1 }
+        Name = G
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion20
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = 050_DetailWPOSpeedXY
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = 050_DetailWPOScaleXY
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion10
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = 050_WPOScaleXY
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.810169, G=1, B=0, A=0 }
+        Name = 050_MaxVariation
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint_Fade
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.065, G=0.065, B=0.065, A=1 }
+        Name = NeteaseColorReduce
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = 050_WPOSpeedXY
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion02
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ColorTintColourATL
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion12
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion01
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=3, G=4, B=5, A=1 }
+        Name = constant emissive_color (rb)
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion11
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion31
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ColorTintColour
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DetailTexture Color
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=200000, G=200000, B=200000, A=0 }
+        Name = ClipBoxExtents
+        Group = None
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipBoxCenter
+        Group = None
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion00
+        Group = None
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=10, G=0, B=0, A=1 }
+        Name = R
+        Group = None
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion22
+        Group = None
+    }
+    CollectedVectorParameters[27] =
+    {
+        Value = { R=0.132473, G=0.148317, B=0.25, A=0 }
+        Name = TintColor_Diffuse
+        Group = None
+    }
+    CollectedVectorParameters[28] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion21
+        Group = None
+    }
+    CollectedVectorParameters[29] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 050_MinVariation
+        Group = None
+    }
+    CollectedVectorParameters[30] =
+    {
+        Value = { R=0, G=0, B=10, A=1 }
+        Name = B
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_treeLeaf01_BC
+    }
+}

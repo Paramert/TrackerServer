@@ -1,0 +1,91 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK31/ActiveZoneVFX/Decals/M_K31_Decal_Active.M_K31_Decal_Active'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=GlowMult }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=TranslucencyMult }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color1 }
+        ParameterValue = { R=0.4, G=0.12841, B=0.01522, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color2 }
+        ParameterValue = { R=0.43, G=0.126823, B=0.00224, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_02.Dissolve_border_gradient_02'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K31/T_Active_Decal.T_Active_Decal'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_StaticGlitch_01.T_StaticGlitch_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Active_Decal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Clouds_01
+    }
+}

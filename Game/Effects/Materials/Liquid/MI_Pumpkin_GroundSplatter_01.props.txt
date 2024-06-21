@@ -1,0 +1,135 @@
+Parent = Material3'/Game/Effects/Materials/Liquid/M_LiquidMaster.M_LiquidMaster'
+ScalarParameterValues[8] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Ambient Coloration }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Clip }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=DepthFadeDistance }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Diffuse Tiling }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Metallic }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Spec }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Diffuse }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Tiles/Grey.Grey'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_SubUV_2x2_01.T_Liquid_SubUV_2x2_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=EmissiveColor }
+        ParameterValue = { R=0.02, G=0.006331, B=0.000341, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Mud.T_Mud'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Clip_A.T_Liquid_Clip_A'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Noise_N_02.T_Noise_N_02'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = Grey
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Liquid_SubUV_2x2_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = T_Mud_N
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.703125
+        UVChannelIndex = 0
+        TextureName = T_Noise_N_02
+    }
+}

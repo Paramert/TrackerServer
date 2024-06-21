@@ -1,0 +1,138 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_blood_various.T_blood_various'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Droplets_N.T_Droplets_N'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=SceneColorUV_ATL }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=SceneColorNormalIntensity }
+                    ParameterInfos[3] = { Name=Emissive }
+                    ParameterInfos[4] = { Name=Specular }
+                    ParameterInfos[5] = { Name=BlendIntensity (S) }
+                    ParameterInfos[6] = { Name=BaseIntensity (S) }
+                    ParameterInfos[7] = { Name=SceneColorAmount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Param_1 }
+                    ParameterInfos[1] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Diffuse }
+                    ParameterInfos[1] = { Name=Normal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 1, 0.1, 0.01, 0, 0.2, 0.5, 1, 0.75 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.1, G=0.2, B=0, A=1 }
+            VectorValues[1] = { R=0.145833, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_blood_various.T_blood_various'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Droplets_N.T_Droplets_N'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_blood_various.T_blood_various'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Droplets_N.T_Droplets_N'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_blood_various.T_blood_various'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Droplets_N.T_Droplets_N'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=SceneColorUV_ATL, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.01
+        Name = SceneColorNormalIntensity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0, Name=Emissive, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=Specular, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=BlendIntensity (S), Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=BaseIntensity (S), Group=None }
+    CollectedScalarParameters[7] = { Value=0.75, Name=SceneColorAmount, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1, G=0.2, B=0, A=1 }
+        Name = Param_1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.145833, G=0, B=0, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Droplets_N
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_N
+    }
+}

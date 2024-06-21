@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PicnicTable01.MI_PicnicTable01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PicnicTable01.MI_PicnicTable01'
+        MaterialSlotName = MI_PicnicTable01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 161.562, 111.104, 467.196, 562.935 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=37.0825 }
+    BoxExtent = { X=136.876, Y=85.1206, Z=37.0825 }
+    SphereRadius = 161.339
+}

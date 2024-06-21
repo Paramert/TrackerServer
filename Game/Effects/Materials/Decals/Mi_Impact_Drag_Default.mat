@@ -1,0 +1,6 @@
+Diffuse=T_Decal_GroundImpact05_Blurred
+Normal=T_Footstep_Drag
+Other[0]=T_Footstep_Drag_Mask
+Other[1]=DefaultTexture
+Other[2]=SphereNormal
+Other[3]=T_Decal_GroundImpact05_N

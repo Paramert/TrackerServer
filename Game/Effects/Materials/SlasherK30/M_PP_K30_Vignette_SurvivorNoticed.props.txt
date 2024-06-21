@@ -1,0 +1,145 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_SquareMask.T_SquareMask'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_TilingClouds_02.T_TilingClouds_02'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=MotionDivisor }
+                    ParameterInfos[1] = { Name=Mask_Radius }
+                    ParameterInfos[2] = { Name=Mask_Hardness }
+                    ParameterInfos[3] = { Name=Intensity }
+                    ParameterInfos[4] = { Name=UVMask_Off_X }
+                    ParameterInfos[5] = { Name=MotionSpeed }
+                    ParameterInfos[6] = { Name=UVMask_Scale_Y }
+                    ParameterInfos[7] = { Name=UVMask_Off_Y }
+                    ParameterInfos[8] = { Name=MotionPannerX }
+                    ParameterInfos[9] = { Name=MotionPannerY }
+                    ParameterInfos[10] = { Name=MotionTilingX }
+                    ParameterInfos[11] = { Name=EdgesOpacity }
+                    ParameterInfos[12] = { Name=VignetteControl }
+                    ParameterInfos[13] = { Name=UVMask_Scale_X }
+                    ParameterInfos[14] = { Name=FlowmapIntensity }
+                    ParameterInfos[15] = { Name=MotionTilingY }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.6
+            ScalarValues[2] = 0.6
+            ScalarValues[3] = 0.022
+            ScalarValues[4] = 0.5
+            ScalarValues[5] = 0.05
+            ScalarValues[6] = 0.75
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 2
+            ScalarValues[11] = 1
+            ScalarValues[12] = 3
+            ScalarValues[13] = 0.9
+            ScalarValues[14] = 0.045238
+            ScalarValues[15] = 1
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.027451, G=0.101961, B=0.0431373, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_SquareMask.T_SquareMask'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_TilingClouds_02.T_TilingClouds_02'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=MotionDivisor, Group=None }
+    CollectedScalarParameters[1] = { Value=0.6, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[2] = { Value=0.6, Name=Mask_Hardness, Group=None }
+    CollectedScalarParameters[3] = { Value=0.022, Name=Intensity, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=UVMask_Off_X, Group=None }
+    CollectedScalarParameters[5] = { Value=0.05, Name=MotionSpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=0.75, Name=UVMask_Scale_Y, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=UVMask_Off_Y, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=MotionPannerX, Group=None }
+    CollectedScalarParameters[9] = { Value=0.1, Name=MotionPannerY, Group=None }
+    CollectedScalarParameters[10] = { Value=2, Name=MotionTilingX, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=EdgesOpacity, Group=None }
+    CollectedScalarParameters[12] = { Value=3, Name=VignetteControl, Group=None }
+    CollectedScalarParameters[13] = { Value=0.9, Name=UVMask_Scale_X, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.045238
+        Name = FlowmapIntensity
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=1, Name=MotionTilingY, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.027451, G=0.101961, B=0.0431373, A=1 }
+        Name = Param
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SquareMask
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal
+    }
+}

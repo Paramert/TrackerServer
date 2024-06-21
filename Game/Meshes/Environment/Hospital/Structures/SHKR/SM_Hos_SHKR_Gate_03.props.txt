@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_gate_Metal01.MI_HOS_gate_Metal01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_hos_gateProps01.MI_hos_gateProps01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_hos_gateCloth01.MI_hos_gateCloth01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_gate_Metal01.MI_HOS_gate_Metal01'
+        MaterialSlotName = MI_HOS_gate_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 508.575, 1146.99, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_hos_gateProps01.MI_hos_gateProps01'
+        MaterialSlotName = MI_hos_gateProps01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 515.784, 1155.27, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_hos_gateCloth01.MI_hos_gateCloth01'
+        MaterialSlotName = MI_hos_gateCloth01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 436.367, 1184.39, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0326843, Y=140.371, Z=264.66 }
+    BoxExtent = { X=297.141, Y=154.433, Z=268.635 }
+    SphereRadius = 424.408
+}

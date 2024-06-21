@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_Metal01.MI_Hos_SHKR_Metal01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_GreyPlastic02.MI_Qat_GreyPlastic02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Glass02.MI_Hos_Glass02'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_Metal01.MI_Hos_SHKR_Metal01'
+        MaterialSlotName = MI_Hos_SHKR_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 169.498, 37.0358, 37.0358, 473.81 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_GreyPlastic02.MI_Qat_GreyPlastic02'
+        MaterialSlotName = MI_Qat_GreyPlastic02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 576.025, 0, 0, 474.709 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Glass02.MI_Hos_Glass02'
+        MaterialSlotName = MI_Hos_GlassDirtyShattered01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 108.468, 0, 0, 479.28 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.52588e-05, Y=6.40221, Z=-1.14441e-05 }
+    BoxExtent = { X=75, Y=125, Z=17.9437 }
+    SphereRadius = 145.18
+}

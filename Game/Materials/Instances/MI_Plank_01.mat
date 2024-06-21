@@ -1,0 +1,9 @@
+Diffuse=T_PD_Plank_01_BC
+Normal=T_FlatNormal_01
+Other[0]=DefaultDiffuse
+Other[1]=T_Vomit01_BC
+Other[2]=T_Vomit01_N
+Other[3]=T_Vomit01_ORM
+Other[4]=T_SmokeTile
+Other[5]=Black
+Other[6]=Yellow_Linear

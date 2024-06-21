@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/7thAnniversary/MI_Anni_Dancer_F.MI_Anni_Dancer_F'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/7thAnniversary/MI_Anni_Dancer_F.MI_Anni_Dancer_F'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/7thAnniversary/MI_Anni_Dancer_F.MI_Anni_Dancer_F'
+        MaterialSlotName = MI_Anni_Dancer_F
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 150.85, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/7thAnniversary/MI_Anni_Dancer_F.MI_Anni_Dancer_F'
+        MaterialSlotName = MI_Anni_Dancer_F_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 151.165, 0, 0, 0 }
+        }
+    }
+}
+Sockets[2] = {  }
+ExtendedBounds =
+{
+    Origin = { X=9.26999, Y=0.864521, Z=83.1393 }
+    BoxExtent = { X=50.7967, Y=41.1765, Z=83.0828 }
+    SphereRadius = 94.8561
+}

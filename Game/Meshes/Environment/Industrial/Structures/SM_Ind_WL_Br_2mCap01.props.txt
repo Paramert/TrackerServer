@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_ConcreteWall02_B.MI_Foundry_ConcreteWall02_B'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/MI_Concrete_Trim_A.MI_Concrete_Trim_A'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/MI_Ind_Bricks_Plaster_A.MI_Ind_Bricks_Plaster_A'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_ConcreteWall02_B.MI_Foundry_ConcreteWall02_B'
+        MaterialSlotName = MI_Foundry_ConcreteWall02_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 492.704, 802.078, 1353.87, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/MI_Concrete_Trim_A.MI_Concrete_Trim_A'
+        MaterialSlotName = MI_Concrete_Trim_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 516.297, 799.68, 1350.89, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/MI_Ind_Bricks_Plaster_A.MI_Ind_Bricks_Plaster_A'
+        MaterialSlotName = MI_Ind_Bricks_Plaster_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 515.395, 798.604, 1354.57, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.23623, Y=-100.899, Z=222.078 }
+    BoxExtent = { X=43.4542, Y=124.869, Z=222.078 }
+    SphereRadius = 247.043
+}

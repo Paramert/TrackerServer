@@ -1,0 +1,5 @@
+Diffuse=T_Blood_Erosion
+Normal=SphereNormalPortal
+Other[0]=T_FX_Shiny_MC
+Other[1]=T_FSbloodmist
+Other[2]=T_Water_N

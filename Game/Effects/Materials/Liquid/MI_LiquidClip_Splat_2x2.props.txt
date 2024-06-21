@@ -1,0 +1,59 @@
+Parent = Material3'/Game/Effects/Materials/Liquid/M_LiquidMaster.M_LiquidMaster'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Clip }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_SubUV_2x2_01.T_Liquid_SubUV_2x2_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Mud.T_Mud'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Clip_A.T_Liquid_Clip_A'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Noise_N_02.T_Noise_N_02'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

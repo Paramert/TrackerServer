@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/K21/Weapons/Materials/MI_K21WS01_Acc.MI_K21WS01_Acc'
+    Materials[1] = MaterialInstanceConstant'/Game/Characters/Slashers/K21/Weapons/Materials/MI_K21WS01.MI_K21WS01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K21/Weapons/Materials/MI_K21WS01_Acc.MI_K21WS01_Acc'
+        MaterialSlotName = MI_K21WS01_Acc
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14.8396, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K21/Weapons/Materials/MI_K21WS01.MI_K21WS01'
+        MaterialSlotName = MI_K21WS01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 25.0993, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00659132, Y=0.0269394, Z=2.05935 }
+    BoxExtent = { X=7.58717, Y=3.0148, Z=14.7858 }
+    SphereRadius = 15.7671
+}

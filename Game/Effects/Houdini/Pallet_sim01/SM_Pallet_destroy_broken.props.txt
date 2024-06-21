@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Houdini/Pallet_sim01/MI_PalletWood_Outside_Broken.MI_PalletWood_Outside_Broken'
+    Materials[1] = MaterialInstanceConstant'/Game/Effects/Houdini/Pallet_sim01/MI_PalletWood_Inside_Broken.MI_PalletWood_Inside_Broken'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Pallet_sim01/MI_PalletWood_Outside_Broken.MI_PalletWood_Outside_Broken'
+        MaterialSlotName = piece0SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 588.701, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Pallet_sim01/MI_PalletWood_Inside_Broken.MI_PalletWood_Inside_Broken'
+        MaterialSlotName = piece0SG1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 702.401, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-12.7743, Y=104.08, Z=9.45961 }
+    BoxExtent = { X=130.781, Y=74.6975, Z=9.7646 }
+    SphereRadius = 149.58
+}

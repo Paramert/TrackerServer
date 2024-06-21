@@ -1,0 +1,67 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/Lighting/T_Ion_TileableClouds.T_Ion_TileableClouds'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Second Panner X }
+                    ParameterInfos[1] = { Name=Primary Panner X }
+                    ParameterInfos[2] = { Name=Second Cloud Blend }
+                    ParameterInfos[3] = { Name=Second Panner Y }
+                    ParameterInfos[4] = { Name=Second UV Offset }
+                    ParameterInfos[5] = { Name=Cloud On }
+                    ParameterInfos[6] = { Name=Primary Panner Y }
+                    ParameterInfos[7] = { Name=Over all Blend }
+                    ParameterInfos[8] = { Name=Primary UV Offset }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 0, 0, 1, 0, 1, 1, 0, 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Lighting/T_Ion_TileableClouds.T_Ion_TileableClouds'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Second Panner X, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Primary Panner X, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Second Cloud Blend, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Second Panner Y, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Second UV Offset, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Cloud On, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Primary Panner Y, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Over all Blend, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Primary UV Offset, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

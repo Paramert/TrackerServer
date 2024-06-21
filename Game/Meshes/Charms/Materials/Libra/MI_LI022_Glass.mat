@@ -1,0 +1,14 @@
+Diffuse=T_LI022_BC
+Normal=T_LI022_N
+Opacity=White
+Other[0]=T_LI022_ORM
+Other[1]=FlatNormal
+Other[2]=DefaultTexture
+Other[3]=T_Halftone
+Other[4]=T_TileNoise
+Other[5]=T_DissolveTextures
+Other[6]=T_FX_DissolveRamp
+Other[7]=T_GS_FrontSign_Flickerama
+Other[8]=Black
+Other[9]=Green_Linear
+Other[10]=Grey

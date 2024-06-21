@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/MI_FleshGore_02.MI_FleshGore_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_FleshGore_02.MI_FleshGore_02'
+        MaterialSlotName = M_Guts_mesh_particle_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 88.9862, 15.7989, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.62454, Y=1.19209e-07, Z=5.72205e-06 }
+    BoxExtent = { X=7.08246, Y=1.20756, Z=4.30666 }
+    SphereRadius = 7.78382
+}

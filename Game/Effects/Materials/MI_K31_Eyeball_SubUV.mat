@@ -1,0 +1,6 @@
+Diffuse=T_K31_Eyes_SubUV__1_
+Emissive=T_K31_Eyes_SubUV__1_
+Other[0]=Fx_radialGradient
+Other[1]=T_TilingNoise03
+Other[2]=Black
+Other[3]=White

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TilesSquareClean01.MI_Hos_TilesSquareClean01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_ConcreteBroken01.MI_Hos_ConcreteBroken01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TilesSquareClean01.MI_Hos_TilesSquareClean01'
+        MaterialSlotName = MI_Hos_TilesSquareClean01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 434.39, 800.954, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_ConcreteBroken01.MI_Hos_ConcreteBroken01'
+        MaterialSlotName = MI_Hos_ConcreteBroken01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 331.211, 804.773, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.180557, Y=0, Z=100 }
+    BoxExtent = { X=199.754, Y=100, Z=100 }
+    SphereRadius = 244.406
+}

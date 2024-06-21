@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_WoodCounter_01.MI_JNK_WoodCounter_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_WoodCounter_01.MI_JNK_WoodCounter_01'
+        MaterialSlotName = MI_JNK_WoodCounter_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1399.02, 1509.68, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-250.891, Y=210.484, Z=66.2724 }
+    BoxExtent = { X=248.312, Y=212.049, Z=66.294 }
+    SphereRadius = 330.667
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/K23/Weapons/Materials/SW01/MI_K23_SW01_VAT_LT_FPV.MI_K23_SW01_VAT_LT_FPV'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K23/Weapons/Materials/SW01/MI_K23_SW01_VAT_LT_FPV.MI_K23_SW01_VAT_LT_FPV'
+        MaterialSlotName = MI_K23SW01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 18.0558, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.160118, Y=-0.0210724, Z=254.279 }
+    BoxExtent = { X=153.053, Y=151.543, Z=261.795 }
+    SphereRadius = 339.009
+}

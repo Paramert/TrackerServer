@@ -1,0 +1,99 @@
+Parent = Material3'/Game/Materials/Masters/M_Basic_Emmisive.M_Basic_Emmisive'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Atl_EmissiveMultiplier }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=CustomEmmisive }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Alpha Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Props/T_Hospital_WallSign_01_Mask.T_Hospital_WallSign_01_Mask'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Base Color Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Props/T_Hospital_WallSign_01_BC.T_Hospital_WallSign_01_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NormalMap Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Qatar/Props/T_Qat_MetalMiscellaneous01_N.T_Qat_MetalMiscellaneous01_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Emmisive Color }
+        ParameterValue = { R=0.874135, G=0.948723, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Structures/T_Brick01_BC.T_Brick01_BC'
+    CachedReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Vegetations/T_Normal_Noise.T_Normal_Noise'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hospital_WallSign_01_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hospital_WallSign_01_Mask
+    }
+}

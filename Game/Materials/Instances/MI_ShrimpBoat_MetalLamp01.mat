@@ -1,0 +1,15 @@
+Diffuse=T_SwampMetalPlates04_BC
+Normal=FlatNormal
+Other[0]=Moss_diffuse
+Other[1]=T_ShrimpBoat_MetalPlate04_CAO
+Other[2]=HeatmapGradient
+Other[3]=DefaultDiffuse
+Other[4]=T_FlatNormal_01
+Other[5]=environment_mud_diffuse
+Other[6]=environment_mud_N
+Other[7]=T_GS_FrontSign_Flickerama
+Other[8]=Black
+Other[9]=Green_Linear
+Other[10]=White
+Other[11]=Yellow_Linear
+Other[12]=T_CrawlingMoss_Mask_01

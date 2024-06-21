@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_ION_Skeleton_02.MI_ION_Skeleton_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_ION_Skeleton_02.MI_ION_Skeleton_02'
+        MaterialSlotName = lambert2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 95.5413, 58.3473, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.07266, Y=-11.9223, Z=4.87978 }
+    BoxExtent = { X=7.32128, Y=9.92673, Z=10.846 }
+    SphereRadius = 13.6657
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Campers/Ukraine/Materials/Outfit018/MI_USMask018.MI_USMask018'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Ukraine/Materials/Outfit018/MI_USMask018.MI_USMask018'
+        MaterialSlotName = MI_USMask018
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 24.7732, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.262919, Z=-0.628578 }
+    BoxExtent = { X=9.6358, Y=4.67601, Z=7.10038 }
+    SphereRadius = 10.9037
+}

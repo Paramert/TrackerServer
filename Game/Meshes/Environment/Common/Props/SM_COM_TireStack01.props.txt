@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Tire02.MI_Tire02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Tire02.MI_Tire02'
+        MaterialSlotName = MI_Tire02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 296.449, 356.921, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.20998, Y=0.791458, Z=67.3557 }
+    BoxExtent = { X=50.953, Y=51.8402, Z=67.3146 }
+    SphereRadius = 82.5889
+}

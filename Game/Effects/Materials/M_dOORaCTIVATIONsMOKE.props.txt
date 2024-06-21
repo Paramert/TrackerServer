@@ -1,0 +1,56 @@
+TwoSided = false
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Smoke_Mist_01.T_Smoke_Mist_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Mist_Tile.T_Smoke_Mist_Tile'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Smoke_Tile_01_C.T_Smoke_Tile_01_C'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Smoke_Mist_01.T_Smoke_Mist_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Mist_Tile.T_Smoke_Mist_Tile'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Smoke_Tile_01_C.T_Smoke_Tile_01_C'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Smoke_Tile_01_C
+    }
+}

@@ -1,0 +1,7 @@
+Diffuse=T_HOS_BathRoomWall_Decal
+Normal=T_HOS_BathRoomWall_Decal_N
+Other[0]=T_FlatNormal_01
+Other[1]=Black
+Other[2]=Green_Linear
+Other[3]=White
+Other[4]=T_checker_grid

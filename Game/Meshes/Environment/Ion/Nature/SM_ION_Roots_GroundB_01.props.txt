@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_Ion_TreeBarkDeadA1A2_Up_VP.MI_Ion_TreeBarkDeadA1A2_Up_VP'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_Ion_TreeBarkDeadA1A2_Up_VP.MI_Ion_TreeBarkDeadA1A2_Up_VP'
+        MaterialSlotName = MI_Ion_TreeBarkDeadA1A2_Up_VP
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 104.697, 350.685, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-12.7803, Y=-7.6174, Z=14.8563 }
+    BoxExtent = { X=171.627, Y=45.3784, Z=20.9947 }
+    SphereRadius = 173.507
+}

@@ -1,0 +1,126 @@
+Skeleton = Skeleton'/Game/Characters/Slashers/Models/SlasherMale_REF_Skeleton.SlasherMale_REF_Skeleton'
+bHasVertexColors = false
+bComputeNormalsToUVs = false
+bVertexCurvature = false
+bBuildVertexCurvature = false
+LODInfo[4] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[38] =
+        {
+            BonesToPrioritize[0] = { BoneName=joint_FingerALT_01 }
+            BonesToPrioritize[1] = { BoneName=joint_FingerBLT_01 }
+            BonesToPrioritize[2] = { BoneName=joint_FingerCLT_01 }
+            BonesToPrioritize[3] = { BoneName=joint_FingerART_01 }
+            BonesToPrioritize[4] = { BoneName=joint_FingerBRT_01 }
+            BonesToPrioritize[5] = { BoneName=joint_FingerCRT_01 }
+            BonesToPrioritize[6] = { BoneName=joint_RingALT_01 }
+            BonesToPrioritize[7] = { BoneName=joint_RingBLT_01 }
+            BonesToPrioritize[8] = { BoneName=joint_RingCLT_01 }
+            BonesToPrioritize[9] = { BoneName=joint_RingART_01 }
+            BonesToPrioritize[10] = { BoneName=joint_RingBRT_01 }
+            BonesToPrioritize[11] = { BoneName=joint_RingCRT_01 }
+            BonesToPrioritize[12] = { BoneName=joint_IndexALT_01 }
+            BonesToPrioritize[13] = { BoneName=joint_IndexBLT_01 }
+            BonesToPrioritize[14] = { BoneName=joint_IndexCLT_01 }
+            BonesToPrioritize[15] = { BoneName=joint_IndexART_01 }
+            BonesToPrioritize[16] = { BoneName=joint_IndexBRT_01 }
+            BonesToPrioritize[17] = { BoneName=joint_IndexCRT_01 }
+            BonesToPrioritize[18] = { BoneName=joint_PinkyALT_01 }
+            BonesToPrioritize[19] = { BoneName=joint_PinkyBLT_01 }
+            BonesToPrioritize[20] = { BoneName=joint_PinkyCLT_01 }
+            BonesToPrioritize[21] = { BoneName=joint_PinkyART_01 }
+            BonesToPrioritize[22] = { BoneName=joint_PinkyBRT_01 }
+            BonesToPrioritize[23] = { BoneName=joint_PinkyCRT_01 }
+            BonesToPrioritize[24] = { BoneName=joint_ThumbALT_01 }
+            BonesToPrioritize[25] = { BoneName=joint_ThumbBLT_01 }
+            BonesToPrioritize[26] = { BoneName=joint_ThumbCLT_01 }
+            BonesToPrioritize[27] = { BoneName=joint_ThumbART_01 }
+            BonesToPrioritize[28] = { BoneName=joint_ThumbBRT_01 }
+            BonesToPrioritize[29] = { BoneName=joint_ThumbCRT_01 }
+            BonesToPrioritize[30] = { BoneName=joint_PinkyDRT_01 }
+            BonesToPrioritize[31] = { BoneName=joint_PinkyDLT_01 }
+            BonesToPrioritize[32] = { BoneName=joint_IndexDRT_01 }
+            BonesToPrioritize[33] = { BoneName=joint_IndexDLT_01 }
+            BonesToPrioritize[34] = { BoneName=joint_RingDRT_01 }
+            BonesToPrioritize[35] = { BoneName=joint_RingDLT_01 }
+            BonesToPrioritize[36] = { BoneName=joint_FingerDRT_01 }
+            BonesToPrioritize[37] = { BoneName=joint_FingerDLT_01 }
+        }
+        SourceImportFilename = ""
+    }
+    LODInfo[2] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[3] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+}
+MorphTargets[0] = {}
+Sockets[0] = {}
+SamplingInfo =
+{
+    Regions[2] =
+    {
+        Regions[0] =
+        {
+            Name = Body
+            LODIndex = -1
+            bSupportUniformlyDistributedSampling = true
+            MaterialFilters[1] =
+            {
+                MaterialFilters[0] = { MaterialName=MI_K34SWBody01 }
+            }
+            BoneFilters[0] = {}
+        }
+        Regions[1] =
+        {
+            Name = Legs
+            LODIndex = -1
+            bSupportUniformlyDistributedSampling = true
+            MaterialFilters[1] =
+            {
+                MaterialFilters[0] = { MaterialName=MI_K34SWPants01 }
+            }
+            BoneFilters[0] = {}
+        }
+    }
+    BuiltData =
+    {
+        WholeMeshBuiltData[4] = { , , ,  }
+        RegionBuiltData[2] = { ,  }
+    }
+}
+SkinWeightProfiles[0] = {}
+NumVertexColorChannels = 0
+DummyPropSK = 0

@@ -1,0 +1,23 @@
+Materials[1] = {  }
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = MI_charm_June_veryrare
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 169.301, 202.716, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00139618, Y=1.66339, Z=-67.5547 }
+    BoxExtent = { X=52.8679, Y=5.64414, Z=73.0873 }
+    SphereRadius = 73.1845
+}

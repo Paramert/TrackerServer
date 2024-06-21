@@ -1,0 +1,201 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_LitSmoke.T_LitSmoke'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=Border Intensity }
+                    ParameterInfos[1] = { Name=Red Channel Speed Y }
+                    ParameterInfos[2] = { Name=Green Channel FlowMap Intensity }
+                    ParameterInfos[3] = { Name=Blue Channel Intensity }
+                    ParameterInfos[4] = { Name=Green Channel Speed Y }
+                    ParameterInfos[5] = { Name=Detail Intensity }
+                    ParameterInfos[6] = { Name=Fade Distance }
+                    ParameterInfos[7] = { Name=Red Channel Speed X }
+                    ParameterInfos[8] = { Name=Green Channel Intensity }
+                    ParameterInfos[9] = { Name=Blue Channel FlowMap Intensity }
+                    ParameterInfos[10] = { Name=Green Channel Speed X }
+                    ParameterInfos[11] = { Name=Speed Y }
+                    ParameterInfos[12] = { Name=Red Channel FlowMap Intensity }
+                    ParameterInfos[13] = { Name=Speed X }
+                    ParameterInfos[14] = { Name=GestureIntensity }
+                    ParameterInfos[15] = { Name=Blue Channel Speed Y }
+                    ParameterInfos[16] = { Name=Red Channel Intensity }
+                    ParameterInfos[17] = { Name=Blue Channel Speed X }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Lighting }
+                    ParameterInfos[1] = { Name=Noise RGB }
+                    ParameterInfos[2] = { Name=FlowMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 100
+            ScalarValues[1] = 0.05
+            ScalarValues[2] = 0.5
+            ScalarValues[3] = 1.5
+            ScalarValues[4] = 0.2
+            ScalarValues[5] = 0.5
+            ScalarValues[6] = 100
+            ScalarValues[7] = 0.05
+            ScalarValues[8] = 2
+            ScalarValues[9] = 0.8
+            ScalarValues[10] = -0.1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0.6
+            ScalarValues[13] = 0
+            ScalarValues[14] = 12
+            ScalarValues[15] = -0.05
+            ScalarValues[16] = 2
+            ScalarValues[17] = 0.01
+        }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_LitSmoke.T_LitSmoke'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_LitSmoke.T_LitSmoke'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_LitSmoke.T_LitSmoke'
+        Name = Lighting
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+        Name = Noise RGB
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+        Name = FlowMap
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=100, Name=Border Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0.05, Name=Red Channel Speed Y, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.5
+        Name = Green Channel FlowMap Intensity
+        Group = None
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1.5
+        Name = Blue Channel Intensity
+        Group = None
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.2
+        Name = Green Channel Speed Y
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0.5, Name=Detail Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=100, Name=Fade Distance, Group=None }
+    CollectedScalarParameters[7] = { Value=0.05, Name=Red Channel Speed X, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 2
+        Name = Green Channel Intensity
+        Group = None
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.8
+        Name = Blue Channel FlowMap Intensity
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = -0.1
+        Name = Green Channel Speed X
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=0, Name=Speed Y, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.6
+        Name = Red Channel FlowMap Intensity
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0, Name=Speed X, Group=None }
+    CollectedScalarParameters[14] = { Value=12, Name=GestureIntensity, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = -0.05
+        Name = Blue Channel Speed Y
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=2, Name=Red Channel Intensity, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 0.01
+        Name = Blue Channel Speed X
+        Group = None
+    }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FlowMap_Wavy_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LitSmoke
+    }
+}

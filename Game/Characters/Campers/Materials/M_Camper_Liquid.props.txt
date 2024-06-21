@@ -1,0 +1,467 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+    ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[58] =
+                {
+                    ParameterInfos[0] = { Name=Intensity Fresnel A }
+                    ParameterInfos[1] = { Name=Power High }
+                    ParameterInfos[2] = { Name=BorderThresholdLow }
+                    ParameterInfos[3] = { Name=42 - GradientHardness }
+                    ParameterInfos[4] = { Name=Power Low }
+                    ParameterInfos[5] = { Name=Flickering Intensity }
+                    ParameterInfos[6] = { Name=Intensity Fresnel B }
+                    ParameterInfos[7] = { Name=BorderIntensity }
+                    ParameterInfos[8] = { Name=Desaturation }
+                    ParameterInfos[9] = { Name=Liquid Tiling }
+                    ParameterInfos[10] = { Name=42 - BoundsMultiplier }
+                    ParameterInfos[11] = { Name=Dream- NoiseController }
+                    ParameterInfos[12] = { Name=Wubble Speed Z }
+                    ParameterInfos[13] = { Name=EndLocation_WorldSpace }
+                    ParameterInfos[14] = { Name=DarkenAmount }
+                    ParameterInfos[15] = { Name=GraDis_amount }
+                    ParameterInfos[16] = { Name=Wubble Speed }
+                    ParameterInfos[17] = { Name=Speed Noise Diffuse }
+                    ParameterInfos[18] = { Name=DIssolveBorderGreenChannel }
+                    ParameterInfos[19] = { Name=Tiling_Noise }
+                    ParameterInfos[20] = { Name=IntensityFade }
+                    ParameterInfos[21] = { Name=DissolveTexture_TileX }
+                    ParameterInfos[22] = { Name=FadeDetail }
+                    ParameterInfos[23] = { Name=Noise_Intensity }
+                    ParameterInfos[24] = { Name=42 - InverseDissolve }
+                    ParameterInfos[25] = { Name=42 - Height }
+                    ParameterInfos[26] = { Name=Highlight Far }
+                    ParameterInfos[27] = { Name=ObjectGroundPosition }
+                    ParameterInfos[28] = { Name=Chaos }
+                    ParameterInfos[29] = { Name=MaxBorderGlow }
+                    ParameterInfos[30] = { Name=Liquid Speed Y }
+                    ParameterInfos[31] = { Name=42 - Base Offset }
+                    ParameterInfos[32] = { Name=GraDis_breadth }
+                    ParameterInfos[33] = { Name=DissolveTextureTile_Y }
+                    ParameterInfos[34] = { Name=Scale Noise Diffuse }
+                    ParameterInfos[35] = { Name=Min Emissive }
+                    ParameterInfos[36] = { Name=offsetTime }
+                    ParameterInfos[37] = { Name=TransitionHeight }
+                    ParameterInfos[38] = { Name=Liquid Intensity }
+                    ParameterInfos[39] = { Name=Fadeoff }
+                    ParameterInfos[40] = { Name=BorderThresholdHigh }
+                    ParameterInfos[41] = { Name=UseClipping }
+                    ParameterInfos[42] = { Name=Desaturation Intensity }
+                    ParameterInfos[43] = { Name=Max Emissive }
+                    ParameterInfos[44] = { Name=DissolveProgress }
+                    ParameterInfos[45] = { Name=ObjectHeight }
+                    ParameterInfos[46] = { Name=Fill }
+                    ParameterInfos[47] = { Name=StartLocation_WorldSpace }
+                    ParameterInfos[48] = { Name=Scale Offset }
+                    ParameterInfos[49] = { Name=GlowIntensity }
+                    ParameterInfos[50] = { Name=DesaturationAmount }
+                    ParameterInfos[51] = { Name=Adjust Clipping Start }
+                    ParameterInfos[52] = { Name=Highlight Near }
+                    ParameterInfos[53] = { Name=PushBack_Strength }
+                    ParameterInfos[54] = { Name=OpacityMaskOffset }
+                    ParameterInfos[55] = { Name=SquishFactor }
+                    ParameterInfos[56] = { Name=Liquid Speed X }
+                    ParameterInfos[57] = { Name=MiddleLenght }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Liquid BackFace Color }
+                    ParameterInfos[1] = { Name=ActorForwardVector }
+                    ParameterInfos[2] = { Name=VeinsColor }
+                    ParameterInfos[3] = { Name=Pivot }
+                    ParameterInfos[4] = { Name=HighlightColor }
+                    ParameterInfos[5] = { Name=Bubble Color A }
+                    ParameterInfos[6] = { Name=Wubble Max }
+                    ParameterInfos[7] = { Name=Bubble Color B }
+                    ParameterInfos[8] = { Name=Liquid Facing Color }
+                    ParameterInfos[9] = { Name=BorderColor }
+                    ParameterInfos[10] = { Name=Wubble Min }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=HideHead_Mask }
+                    ParameterInfos[1] = { Name=RhythmictasticallyOnOff }
+                    ParameterInfos[2] = { Name=DissolveRamps }
+                    ParameterInfos[3] = { Name=Liquid Texture }
+                    ParameterInfos[4] = { Name=Dream Noise Texture }
+                    ParameterInfos[5] = { Name=Bubble Texture }
+                    ParameterInfos[6] = { Name=FlowMap }
+                    ParameterInfos[7] = { Name=DissolveTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[58] =
+        {
+            ScalarValues[0] = 0.2
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 200
+            ScalarValues[4] = 0.5
+            ScalarValues[5] = 10
+            ScalarValues[6] = 0.005
+            ScalarValues[7] = 40
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1.5
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0.1
+            ScalarValues[13] = 350
+            ScalarValues[14] = 10
+            ScalarValues[15] = 1.2
+            ScalarValues[16] = 0.35
+            ScalarValues[17] = 16.3639
+            ScalarValues[18] = 3
+            ScalarValues[19] = 100
+            ScalarValues[20] = 0.5
+            ScalarValues[21] = 3
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1.55
+            ScalarValues[24] = 0
+            ScalarValues[25] = 400
+            ScalarValues[26] = 7
+            ScalarValues[27] = -300
+            ScalarValues[28] = 500
+            ScalarValues[29] = 10
+            ScalarValues[30] = 0.05
+            ScalarValues[31] = -25
+            ScalarValues[32] = -0.3
+            ScalarValues[33] = 3
+            ScalarValues[34] = 100
+            ScalarValues[35] = 0.05
+            ScalarValues[36] = 0
+            ScalarValues[37] = 250
+            ScalarValues[38] = 0.5
+            ScalarValues[39] = 0.5
+            ScalarValues[40] = 0.015
+            ScalarValues[41] = 0
+            ScalarValues[42] = 1
+            ScalarValues[43] = 0.2
+            ScalarValues[44] = 1
+            ScalarValues[45] = 680
+            ScalarValues[46] = 0.507855
+            ScalarValues[47] = 0
+            ScalarValues[48] = 1000
+            ScalarValues[49] = 750
+            ScalarValues[50] = 0.8
+            ScalarValues[51] = -2.7
+            ScalarValues[52] = 5
+            ScalarValues[53] = -40
+            ScalarValues[54] = 2.5
+            ScalarValues[55] = 0
+            ScalarValues[56] = -0.1
+            ScalarValues[57] = 0
+        }
+        VectorValues[11] =
+        {
+            VectorValues[0] = { R=0.859375, G=0.461631, B=0.340169, A=1 }
+            VectorValues[1] = { R=0, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0.1, G=0.017777, B=0.0075, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=0.1, G=0.075, B=0.05, A=1 }
+            VectorValues[6] = { R=0.01, G=0.24, B=0.2, A=1 }
+            VectorValues[7] = { R=0.01, G=0.01, B=0.005, A=1 }
+            VectorValues[8] = { R=0.302083, G=0.04, B=0.011013, A=1 }
+            VectorValues[9] = { R=5, G=2.25074, B=1.09375, A=1 }
+            VectorValues[10] = { R=-0.01, G=0.26, B=-0.2, A=1 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+            TextureValues[7] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = HideHead_Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+        Name = RhythmictasticallyOnOff
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        Name = DissolveRamps
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+        Name = Liquid Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+        Name = Dream Noise Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+        Name = Bubble Texture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        Name = FlowMap
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        Name = DissolveTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[58] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=Intensity Fresnel A, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Power High, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=BorderThresholdLow, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 200
+        Name = 42 - GradientHardness
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.5, Name=Power Low, Group=None }
+    CollectedScalarParameters[5] = { Value=10, Name=Flickering Intensity, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.005
+        Name = Intensity Fresnel B
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=40, Name=BorderIntensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Desaturation, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Liquid Tiling, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 1.5
+        Name = 42 - BoundsMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=0, Name=Dream- NoiseController, Group=None }
+    CollectedScalarParameters[12] = { Value=0.1, Name=Wubble Speed Z, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 350
+        Name = EndLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=10, Name=DarkenAmount, Group=None }
+    CollectedScalarParameters[15] = { Value=1.2, Name=GraDis_amount, Group=None }
+    CollectedScalarParameters[16] = { Value=0.35, Name=Wubble Speed, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 16.3639
+        Name = Speed Noise Diffuse
+        Group = None
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = 3
+        Name = DIssolveBorderGreenChannel
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=100, Name=Tiling_Noise, Group=None }
+    CollectedScalarParameters[20] = { Value=0.5, Name=IntensityFade, Group=None }
+    CollectedScalarParameters[21] = { Value=3, Name=DissolveTexture_TileX, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=FadeDetail, Group=None }
+    CollectedScalarParameters[23] = { Value=1.55, Name=Noise_Intensity, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=42 - InverseDissolve, Group=None }
+    CollectedScalarParameters[25] = { Value=400, Name=42 - Height, Group=None }
+    CollectedScalarParameters[26] = { Value=7, Name=Highlight Far, Group=None }
+    CollectedScalarParameters[27] =
+    {
+        Value = -300
+        Name = ObjectGroundPosition
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=500, Name=Chaos, Group=None }
+    CollectedScalarParameters[29] = { Value=10, Name=MaxBorderGlow, Group=None }
+    CollectedScalarParameters[30] = { Value=0.05, Name=Liquid Speed Y, Group=None }
+    CollectedScalarParameters[31] = { Value=-25, Name=42 - Base Offset, Group=None }
+    CollectedScalarParameters[32] = { Value=-0.3, Name=GraDis_breadth, Group=None }
+    CollectedScalarParameters[33] = { Value=3, Name=DissolveTextureTile_Y, Group=None }
+    CollectedScalarParameters[34] = { Value=100, Name=Scale Noise Diffuse, Group=None }
+    CollectedScalarParameters[35] = { Value=0.05, Name=Min Emissive, Group=None }
+    CollectedScalarParameters[36] = { Value=0, Name=offsetTime, Group=None }
+    CollectedScalarParameters[37] = { Value=250, Name=TransitionHeight, Group=None }
+    CollectedScalarParameters[38] = { Value=0.5, Name=Liquid Intensity, Group=None }
+    CollectedScalarParameters[39] = { Value=0.5, Name=Fadeoff, Group=None }
+    CollectedScalarParameters[40] =
+    {
+        Value = 0.015
+        Name = BorderThresholdHigh
+        Group = None
+    }
+    CollectedScalarParameters[41] = { Value=0, Name=UseClipping, Group=None }
+    CollectedScalarParameters[42] = { Value=1, Name=Desaturation Intensity, Group=None }
+    CollectedScalarParameters[43] = { Value=0.2, Name=Max Emissive, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=DissolveProgress, Group=None }
+    CollectedScalarParameters[45] = { Value=680, Name=ObjectHeight, Group=None }
+    CollectedScalarParameters[46] = { Value=0.507855, Name=Fill, Group=None }
+    CollectedScalarParameters[47] =
+    {
+        Value = 0
+        Name = StartLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[48] = { Value=1000, Name=Scale Offset, Group=None }
+    CollectedScalarParameters[49] = { Value=750, Name=GlowIntensity, Group=None }
+    CollectedScalarParameters[50] = { Value=0.8, Name=DesaturationAmount, Group=None }
+    CollectedScalarParameters[51] =
+    {
+        Value = -2.7
+        Name = Adjust Clipping Start
+        Group = None
+    }
+    CollectedScalarParameters[52] = { Value=5, Name=Highlight Near, Group=None }
+    CollectedScalarParameters[53] = { Value=-40, Name=PushBack_Strength, Group=None }
+    CollectedScalarParameters[54] = { Value=2.5, Name=OpacityMaskOffset, Group=None }
+    CollectedScalarParameters[55] = { Value=0, Name=SquishFactor, Group=None }
+    CollectedScalarParameters[56] = { Value=-0.1, Name=Liquid Speed X, Group=None }
+    CollectedScalarParameters[57] = { Value=0, Name=MiddleLenght, Group=None }
+}
+CollectedVectorParameters[11] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.859375, G=0.461631, B=0.340169, A=1 }
+        Name = Liquid BackFace Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = ActorForwardVector
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.1, G=0.017777, B=0.0075, A=1 }
+        Name = VeinsColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Pivot
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = HighlightColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.1, G=0.075, B=0.05, A=1 }
+        Name = Bubble Color A
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.01, G=0.24, B=0.2, A=1 }
+        Name = Wubble Max
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.01, G=0.01, B=0.005, A=1 }
+        Name = Bubble Color B
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.302083, G=0.04, B=0.011013, A=1 }
+        Name = Liquid Facing Color
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=5, G=2.25074, B=1.09375, A=1 }
+        Name = BorderColor
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=-0.01, G=0.26, B=-0.2, A=1 }
+        Name = Wubble Min
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_N
+    }
+}

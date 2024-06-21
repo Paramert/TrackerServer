@@ -1,0 +1,63 @@
+Parent = Material3'/Game/Materials/UI/Utility/M_ZoomAni.M_ZoomAni'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Scale_V }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Speed }
+        ParameterValue = -0.07
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=UITexture }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_AboutFire_72.T_AboutFire_72'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[2] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardBoard_1_NE.TenEvenDraw_CardBoard_1_NE'
+    CachedReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardPro_1_NE.TenEvenDraw_CardPro_1_NE'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/Sweden/Materials/Outfit014/MI_skMASK014.MI_SKMask014'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/Sweden/Materials/Outfit014/MI_skMASK014.MI_SKMask014'
+        MaterialSlotName = MI_SK_Mask014
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 53.5741, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.414069, Z=7.62939e-06 }
+    BoxExtent = { X=13.3248, Y=7.28174, Z=19.969 }
+    SphereRadius = 22.6833
+}

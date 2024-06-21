@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_ConcreteDecal01.MI_Hos_ConcreteDecal01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_ConcreteDecal01.MI_Hos_ConcreteDecal01'
+        MaterialSlotName = MI_Hos_ConcreteDecal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 69.4792, 1021.77, 118.378, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=986.694, Y=989.154, Z=310.24 }
+    BoxExtent = { X=113.624, Y=111.412, Z=5.95158 }
+    SphereRadius = 154.709
+}

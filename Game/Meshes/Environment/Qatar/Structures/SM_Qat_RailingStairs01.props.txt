@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Railing01.MI_Qat_Railing01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Railing01.MI_Qat_Railing01'
+        MaterialSlotName = MI_Qat_Railing01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 203.195, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-250.044, Y=3.39671, Z=241.545 }
+    BoxExtent = { X=250.534, Y=3.73764, Z=213.768 }
+    SphereRadius = 321.887
+}

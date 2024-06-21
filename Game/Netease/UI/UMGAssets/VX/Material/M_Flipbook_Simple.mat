@@ -1,0 +1,5 @@
+Diffuse=DefaultDiffuse
+Normal=MI_NE_Competition_EyeSmoke
+Other[0]=DebugNumberStrip
+Other[1]=DebugNumberPeriod
+Other[2]=flipbook

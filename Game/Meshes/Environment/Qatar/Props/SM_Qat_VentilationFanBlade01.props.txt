@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Ventilation01.MI_Qat_Ventilation01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Ventilation01.MI_Qat_Ventilation01'
+        MaterialSlotName = phong2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 341.785, 85.4985, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0.909954 }
+    BoxExtent = { X=30.9954, Y=30.9954, Z=3.01016 }
+    SphereRadius = 32.8588
+}

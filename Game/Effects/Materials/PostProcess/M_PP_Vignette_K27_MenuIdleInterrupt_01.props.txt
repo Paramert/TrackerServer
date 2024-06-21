@@ -1,0 +1,380 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K27/T_K27_Vignette_Distortion_001.T_K27_Vignette_Distortion_001'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K27/T_MenuCursedImage_Interrupt_01.T_MenuCursedImage_Interrupt_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FX_Water_Ripple_Normals.T_FX_Water_Ripple_Normals'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[68] =
+                {
+                    ParameterInfos[0] = { Name=NoiseTiling_X }
+                    ParameterInfos[1] = { Name=Select_Image_ABC }
+                    ParameterInfos[2] = { Name=MixTripleVision_01 }
+                    ParameterInfos[3] = { Name=Rotate_Glitch }
+                    ParameterInfos[4] = { Name=NoiseTiling_Y }
+                    ParameterInfos[5] = { Name=Opacity_sine }
+                    ParameterInfos[6] = { Name=Noise_Opacity }
+                    ParameterInfos[7] = { Name=MaskOuverture }
+                    ParameterInfos[8] = { Name=ScaleDistortionSine }
+                    ParameterInfos[9] = { Name=ShowFlipbook }
+                    ParameterInfos[10] = { Name=SideMask_PowerInt }
+                    ParameterInfos[11] = { Name=SmoothStep_Min }
+                    ParameterInfos[12] = { Name=Tile_Noise_Y }
+                    ParameterInfos[13] = { Name=Sine_Smooth_Max }
+                    ParameterInfos[14] = { Name=NoiseIntensity }
+                    ParameterInfos[15] = { Name=Tile_Y }
+                    ParameterInfos[16] = { Name=Tile_Noise_X }
+                    ParameterInfos[17] = { Name=Distortion_Opacity }
+                    ParameterInfos[18] = { Name=Outline_Erode_Lightning }
+                    ParameterInfos[19] = { Name=Vignette_Intensity }
+                    ParameterInfos[20] = { Name=VignetteDistortion }
+                    ParameterInfos[21] = { Name=Sine_Pos_Y }
+                    ParameterInfos[22] = { Name=Tile_Flipbook_Y }
+                    ParameterInfos[23] = { Name=TimeIntensity }
+                    ParameterInfos[24] = { Name=OpacityOverall_Glitch }
+                    ParameterInfos[25] = { Name=Sine_Pos_X }
+                    ParameterInfos[26] = { Name=Flipbook_Pos_X }
+                    ParameterInfos[27] = { Name=ChromaticPower }
+                    ParameterInfos[28] = { Name=ChromaticIntensity }
+                    ParameterInfos[29] = { Name=Aberation_Int }
+                    ParameterInfos[30] = { Name=Invert_Color }
+                    ParameterInfos[31] = { Name=Tile_X }
+                    ParameterInfos[32] = { Name=TripleVisionOpacity_Int }
+                    ParameterInfos[33] = { Name=TripleVision_Int }
+                    ParameterInfos[34] = { Name=Flipbook_SpeedSineLag }
+                    ParameterInfos[35] = { Name=Speed_NoisePanner_02 }
+                    ParameterInfos[36] = { Name=OpacityDirectionnalMask }
+                    ParameterInfos[37] = { Name=SineHeight }
+                    ParameterInfos[38] = { Name=MinSmooth }
+                    ParameterInfos[39] = { Name=Noise_Contrast }
+                    ParameterInfos[40] = { Name=ScaleGlitch_Y_02 }
+                    ParameterInfos[41] = { Name=Flipbook_Pos_Y }
+                    ParameterInfos[42] = { Name=Sine_Speed }
+                    ParameterInfos[43] = { Name=MaxSmooth }
+                    ParameterInfos[44] = { Name=Image_Opacity_Int }
+                    ParameterInfos[45] = { Name=MixTripleVision_02 }
+                    ParameterInfos[46] = { Name=ScaleGlitch_X }
+                    ParameterInfos[47] = { Name=ScaleGlitch_Y }
+                    ParameterInfos[48] = { Name=Sine_Smooth_Min }
+                    ParameterInfos[49] = { Name=Tile_Flipbook_X }
+                    ParameterInfos[50] = { Name=Outline_Intensity_Lightning }
+                    ParameterInfos[51] = { Name=Bug_Visibility }
+                    ParameterInfos[52] = { Name=SmoothStep_Max }
+                    ParameterInfos[53] = { Name=Rotate_Flipbook }
+                    ParameterInfos[54] = { Name=SideMask_Int }
+                    ParameterInfos[55] = { Name=ScaleGlitch_X_02 }
+                    ParameterInfos[56] = { Name=Speed_NoisePanner_01 }
+                    ParameterInfos[57] = { Name=Opacity_CenterGlitch }
+                    ParameterInfos[58] = { Name=Scale_DistortionSine }
+                    ParameterInfos[59] = { Name=Color_Intensity }
+                    ParameterInfos[60] = { Name=Sine_Width }
+                    ParameterInfos[61] = { Name=Glitch_CoreContrast }
+                    ParameterInfos[62] = { Name=Scale_Distortion }
+                    ParameterInfos[63] = { Name=VignetteDistortion2 }
+                    ParameterInfos[64] = { Name=Image_Int }
+                    ParameterInfos[65] = { Name=Rotate_Noise_01 }
+                    ParameterInfos[66] = { Name=Speed_Bug }
+                    ParameterInfos[67] = { Name=Distortion_OpacitySine }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Panner_Noise }
+                    ParameterInfos[1] = { Name=Distortion_Sine_Speed }
+                    ParameterInfos[2] = { Name=Speed_Distortion_Sine }
+                    ParameterInfos[3] = { Name=Speed_Glitch }
+                    ParameterInfos[4] = { Name=Speed_Distortion_02 }
+                    ParameterInfos[5] = { Name=Color }
+                    ParameterInfos[6] = { Name=Speed_MainTexture }
+                    ParameterInfos[7] = { Name=Speed_Distortion }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=GlitchMask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[68] =
+        {
+            ScalarValues[0] = 150
+            ScalarValues[1] = 1
+            ScalarValues[2] = 3
+            ScalarValues[3] = 0
+            ScalarValues[4] = 150
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 500
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0.01
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0.12
+            ScalarValues[21] = 0
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0
+            ScalarValues[26] = 0
+            ScalarValues[27] = 1
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0.01
+            ScalarValues[30] = -10
+            ScalarValues[31] = 1
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0
+            ScalarValues[34] = 1
+            ScalarValues[35] = 0.5
+            ScalarValues[36] = 2
+            ScalarValues[37] = 0.2
+            ScalarValues[38] = 1
+            ScalarValues[39] = 1
+            ScalarValues[40] = 1
+            ScalarValues[41] = 0
+            ScalarValues[42] = 2
+            ScalarValues[43] = 1
+            ScalarValues[44] = 1
+            ScalarValues[45] = 2
+            ScalarValues[46] = 0
+            ScalarValues[47] = 1
+            ScalarValues[48] = 0.05
+            ScalarValues[49] = 1
+            ScalarValues[50] = 100
+            ScalarValues[51] = 1
+            ScalarValues[52] = 1
+            ScalarValues[53] = 0
+            ScalarValues[54] = 1
+            ScalarValues[55] = 0.01
+            ScalarValues[56] = 1
+            ScalarValues[57] = 1
+            ScalarValues[58] = 1
+            ScalarValues[59] = 1
+            ScalarValues[60] = 3.14
+            ScalarValues[61] = 1
+            ScalarValues[62] = 1
+            ScalarValues[63] = 0.12
+            ScalarValues[64] = 1
+            ScalarValues[65] = 0
+            ScalarValues[66] = 0.152381
+            ScalarValues[67] = 0.01
+        }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=-1, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=0.025, G=0.025, B=0.025, A=0 }
+            VectorValues[6] = { R=1, G=0, B=0, A=1 }
+            VectorValues[7] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K27/T_K27_Vignette_Distortion_001.T_K27_Vignette_Distortion_001'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FX_Water_Ripple_Normals.T_FX_Water_Ripple_Normals'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/K27/T_MenuCursedImage_Interrupt_01.T_MenuCursedImage_Interrupt_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+        Name = GlitchMask
+        Group = None
+    }
+}
+CollectedScalarParameters[68] =
+{
+    CollectedScalarParameters[0] = { Value=150, Name=NoiseTiling_X, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Select_Image_ABC, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=MixTripleVision_01, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Rotate_Glitch, Group=None }
+    CollectedScalarParameters[4] = { Value=150, Name=NoiseTiling_Y, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Opacity_sine, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Noise_Opacity, Group=None }
+    CollectedScalarParameters[7] = { Value=500, Name=MaskOuverture, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=ScaleDistortionSine, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=ShowFlipbook, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=SideMask_PowerInt, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=SmoothStep_Min, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Tile_Noise_Y, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Sine_Smooth_Max, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=NoiseIntensity, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Tile_Y, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Tile_Noise_X, Group=None }
+    CollectedScalarParameters[17] = { Value=0.01, Name=Distortion_Opacity, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0
+        Name = Outline_Erode_Lightning
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=1, Name=Vignette_Intensity, Group=None }
+    CollectedScalarParameters[20] = { Value=0.12, Name=VignetteDistortion, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=Sine_Pos_Y, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=Tile_Flipbook_Y, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=TimeIntensity, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=OpacityOverall_Glitch, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=Sine_Pos_X, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=Flipbook_Pos_X, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=ChromaticPower, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=ChromaticIntensity, Group=None }
+    CollectedScalarParameters[29] = { Value=0.01, Name=Aberation_Int, Group=None }
+    CollectedScalarParameters[30] = { Value=-10, Name=Invert_Color, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=Tile_X, Group=None }
+    CollectedScalarParameters[32] =
+    {
+        Value = 0
+        Name = TripleVisionOpacity_Int
+        Group = None
+    }
+    CollectedScalarParameters[33] = { Value=0, Name=TripleVision_Int, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Flipbook_SpeedSineLag, Group=None }
+    CollectedScalarParameters[35] = { Value=0.5, Name=Speed_NoisePanner_02, Group=None }
+    CollectedScalarParameters[36] =
+    {
+        Value = 2
+        Name = OpacityDirectionnalMask
+        Group = None
+    }
+    CollectedScalarParameters[37] = { Value=0.2, Name=SineHeight, Group=None }
+    CollectedScalarParameters[38] = { Value=1, Name=MinSmooth, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=Noise_Contrast, Group=None }
+    CollectedScalarParameters[40] = { Value=1, Name=ScaleGlitch_Y_02, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=Flipbook_Pos_Y, Group=None }
+    CollectedScalarParameters[42] = { Value=2, Name=Sine_Speed, Group=None }
+    CollectedScalarParameters[43] = { Value=1, Name=MaxSmooth, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=Image_Opacity_Int, Group=None }
+    CollectedScalarParameters[45] = { Value=2, Name=MixTripleVision_02, Group=None }
+    CollectedScalarParameters[46] = { Value=0, Name=ScaleGlitch_X, Group=None }
+    CollectedScalarParameters[47] = { Value=1, Name=ScaleGlitch_Y, Group=None }
+    CollectedScalarParameters[48] = { Value=0.05, Name=Sine_Smooth_Min, Group=None }
+    CollectedScalarParameters[49] = { Value=1, Name=Tile_Flipbook_X, Group=None }
+    CollectedScalarParameters[50] =
+    {
+        Value = 100
+        Name = Outline_Intensity_Lightning
+        Group = None
+    }
+    CollectedScalarParameters[51] = { Value=1, Name=Bug_Visibility, Group=None }
+    CollectedScalarParameters[52] = { Value=1, Name=SmoothStep_Max, Group=None }
+    CollectedScalarParameters[53] = { Value=0, Name=Rotate_Flipbook, Group=None }
+    CollectedScalarParameters[54] = { Value=1, Name=SideMask_Int, Group=None }
+    CollectedScalarParameters[55] = { Value=0.01, Name=ScaleGlitch_X_02, Group=None }
+    CollectedScalarParameters[56] = { Value=1, Name=Speed_NoisePanner_01, Group=None }
+    CollectedScalarParameters[57] = { Value=1, Name=Opacity_CenterGlitch, Group=None }
+    CollectedScalarParameters[58] = { Value=1, Name=Scale_DistortionSine, Group=None }
+    CollectedScalarParameters[59] = { Value=1, Name=Color_Intensity, Group=None }
+    CollectedScalarParameters[60] = { Value=3.14, Name=Sine_Width, Group=None }
+    CollectedScalarParameters[61] = { Value=1, Name=Glitch_CoreContrast, Group=None }
+    CollectedScalarParameters[62] = { Value=1, Name=Scale_Distortion, Group=None }
+    CollectedScalarParameters[63] = { Value=0.12, Name=VignetteDistortion2, Group=None }
+    CollectedScalarParameters[64] = { Value=1, Name=Image_Int, Group=None }
+    CollectedScalarParameters[65] = { Value=0, Name=Rotate_Noise_01, Group=None }
+    CollectedScalarParameters[66] = { Value=0.152381, Name=Speed_Bug, Group=None }
+    CollectedScalarParameters[67] =
+    {
+        Value = 0.01
+        Name = Distortion_OpacitySine
+        Group = None
+    }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Panner_Noise
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Distortion_Sine_Speed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Speed_Distortion_Sine
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=-1, G=0, B=0, A=1 }
+        Name = Speed_Glitch
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Speed_Distortion_02
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.025, G=0.025, B=0.025, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Speed_MainTexture
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Speed_Distortion
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

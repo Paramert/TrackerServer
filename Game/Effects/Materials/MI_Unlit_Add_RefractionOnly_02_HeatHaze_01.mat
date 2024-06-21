@@ -1,0 +1,4 @@
+Diffuse=T_FX_Gradient_Radial_LightBloom_02
+Normal=T_Tiling_Gaussian_01_N
+Emissive=T_Tiling_Cloud_03
+Other[0]=T_Tiling_Gaussian_01

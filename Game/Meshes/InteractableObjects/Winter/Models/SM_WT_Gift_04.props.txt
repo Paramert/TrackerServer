@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Winter/Materials/MI_WT_Gift_03.MI_WT_Gift_03'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Winter/Materials/MI_WT_Gift_03.MI_WT_Gift_03'
+        MaterialSlotName = MI_WT_Gift_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 136.388, 119.758, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.325601, Y=4.25669, Z=12.4724 }
+    BoxExtent = { X=16.3247, Y=20.8182, Z=12.8165 }
+    SphereRadius = 27.3311
+}

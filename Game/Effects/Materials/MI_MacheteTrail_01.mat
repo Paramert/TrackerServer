@@ -1,0 +1,6 @@
+Diffuse=T_SmokeTile
+Normal=T_NoiseNormal_01
+Other[0]=T_Trail_01
+Other[1]=T_TilingNoise03
+Other[2]=T_Volumelight
+Other[3]=T_WaterNormal

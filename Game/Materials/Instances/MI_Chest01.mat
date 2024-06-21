@@ -1,0 +1,11 @@
+Diffuse=T_MetalBlack01
+Normal=T_WaterNormalFlat
+Other[0]=T_Chest01_BC
+Other[1]=DefaultDiffuse
+Other[2]=T_Vomit01_BC
+Other[3]=T_Vomit01_N
+Other[4]=T_Vomit01_ORM
+Other[5]=T_FlatNormal_01
+Other[6]=T_SmokeTile
+Other[7]=Black
+Other[8]=Yellow_Linear

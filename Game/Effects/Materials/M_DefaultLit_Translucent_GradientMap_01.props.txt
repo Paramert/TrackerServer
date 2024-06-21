@@ -1,0 +1,119 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_Blackbody_01.T_Gradient_Blackbody_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DirectionalSmoke_Loop_08x08_01.T_DirectionalSmoke_Loop_08x08_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Shape_GaussianGradient_01_N.T_Shape_GaussianGradient_01_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Normal TIling Y }
+                    ParameterInfos[1] = { Name=DepthFade }
+                    ParameterInfos[2] = { Name=Normal TIling X }
+                    ParameterInfos[3] = { Name=OpacityMultiplyer }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveGradient }
+                    ParameterInfos[1] = { Name=NormalTexture }
+                    ParameterInfos[2] = { Name=BaseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 8, 200, 8, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.015625, G=0.0128, B=0.010498, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_Blackbody_01.T_Gradient_Blackbody_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Shape_GaussianGradient_01_N.T_Shape_GaussianGradient_01_N'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_DirectionalSmoke_Loop_08x08_01.T_DirectionalSmoke_Loop_08x08_01'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_Blackbody_01.T_Gradient_Blackbody_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DirectionalSmoke_Loop_08x08_01.T_DirectionalSmoke_Loop_08x08_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Shape_GaussianGradient_01_N.T_Shape_GaussianGradient_01_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_Blackbody_01.T_Gradient_Blackbody_01'
+        Name = EmissiveGradient
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Shape_GaussianGradient_01_N.T_Shape_GaussianGradient_01_N'
+        Name = NormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DirectionalSmoke_Loop_08x08_01.T_DirectionalSmoke_Loop_08x08_01'
+        Name = BaseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=Normal TIling Y, Group=None }
+    CollectedScalarParameters[1] = { Value=200, Name=DepthFade, Group=None }
+    CollectedScalarParameters[2] = { Value=8, Name=Normal TIling X, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=OpacityMultiplyer, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.015625, G=0.0128, B=0.010498, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DirectionalSmoke_Loop_08x08_01
+    }
+}

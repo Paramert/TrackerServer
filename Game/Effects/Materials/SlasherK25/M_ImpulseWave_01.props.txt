@@ -1,0 +1,145 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_01.T_Dust_Noise_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Tilling_DetailsTexture }
+                    ParameterInfos[1] = { Name=CameraFadeMask }
+                    ParameterInfos[2] = { Name=ExponentInMask }
+                    ParameterInfos[3] = { Name=OpacityFresnelMask }
+                    ParameterInfos[4] = { Name=FadeOffset }
+                    ParameterInfos[5] = { Name=Power_Gradient }
+                    ParameterInfos[6] = { Name=Tilling_MainTexture }
+                    ParameterInfos[7] = { Name=Gradient_BaseMask }
+                    ParameterInfos[8] = { Name=FadeLenght }
+                    ParameterInfos[9] = { Name=Fresnel_Contrast_Mask }
+                    ParameterInfos[10] = { Name=Camera Offset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                    ParameterInfos[1] = { Name=CameraVector }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MainTexture }
+                    ParameterInfos[1] = { Name=DetailsTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.317708, G=0.310308, B=0.313585, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_01.T_Dust_Noise_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_01.T_Dust_Noise_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_01.T_Dust_Noise_01'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+        Name = DetailsTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Tilling_DetailsTexture, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=CameraFadeMask, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=ExponentInMask, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=OpacityFresnelMask, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=FadeOffset, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Power_Gradient, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Tilling_MainTexture, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Gradient_BaseMask, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=FadeLenght, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Fresnel_Contrast_Mask, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Camera Offset, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.317708, G=0.310308, B=0.313585, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = CameraVector
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Dust_Noise_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TilingClouds_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}

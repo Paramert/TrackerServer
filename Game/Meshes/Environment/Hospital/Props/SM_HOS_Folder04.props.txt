@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Books.MI_Books'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Books.MI_Books'
+        MaterialSlotName = MI_Books
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 263.536, 257.835, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.169094, Y=0.519907, Z=4.70394 }
+    BoxExtent = { X=13.3962, Y=18.5286, Z=4.73256 }
+    SphereRadius = 22.7167
+}

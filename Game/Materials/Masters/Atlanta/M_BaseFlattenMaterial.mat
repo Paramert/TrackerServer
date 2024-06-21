@@ -1,0 +1,4 @@
+Diffuse=BaseFlattenDiffuseMap
+Normal=BaseFlattenNormalMap
+Emissive=BaseFlattenEmissiveMap
+Other[0]=BaseFlattenGrayScaleMap

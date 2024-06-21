@@ -1,0 +1,115 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Param 3 }
+                    ParameterInfos[1] = { Name=Mask_Radius }
+                    ParameterInfos[2] = { Name=Opacity2 }
+                    ParameterInfos[3] = { Name=Mask_Hardness }
+                    ParameterInfos[4] = { Name=Scale 2 }
+                    ParameterInfos[5] = { Name=Rad 3 }
+                    ParameterInfos[6] = { Name=Param 2 }
+                    ParameterInfos[7] = { Name=VignetteStun_Fade }
+                    ParameterInfos[8] = { Name=VignetteStun_FadeFullScreen }
+                    ParameterInfos[9] = { Name=Rad 2 }
+                    ParameterInfos[10] = { Name=Opacity3 }
+                    ParameterInfos[11] = { Name=Scale 3 }
+                    ParameterInfos[12] = { Name=Speed In 3 }
+                    ParameterInfos[13] = { Name=Speed In 2 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Vignette Color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 2
+            ScalarValues[1] = 0.5
+            ScalarValues[2] = 0.8
+            ScalarValues[3] = 0.5
+            ScalarValues[4] = 0.075
+            ScalarValues[5] = 4
+            ScalarValues[6] = 0.6
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 2
+            ScalarValues[10] = 0.6
+            ScalarValues[11] = 0.05
+            ScalarValues[12] = 30
+            ScalarValues[13] = 20
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.385417, G=0, B=0, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Param 3, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[2] = { Value=0.8, Name=Opacity2, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Mask_Hardness, Group=None }
+    CollectedScalarParameters[4] = { Value=0.075, Name=Scale 2, Group=None }
+    CollectedScalarParameters[5] = { Value=4, Name=Rad 3, Group=None }
+    CollectedScalarParameters[6] = { Value=0.6, Name=Param 2, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=VignetteStun_Fade, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0
+        Name = VignetteStun_FadeFullScreen
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=2, Name=Rad 2, Group=None }
+    CollectedScalarParameters[10] = { Value=0.6, Name=Opacity3, Group=None }
+    CollectedScalarParameters[11] = { Value=0.05, Name=Scale 3, Group=None }
+    CollectedScalarParameters[12] = { Value=30, Name=Speed In 3, Group=None }
+    CollectedScalarParameters[13] = { Value=20, Name=Speed In 2, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.385417, G=0, B=0, A=0 }
+        Name = Vignette Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

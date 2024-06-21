@@ -1,0 +1,276 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[23] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=BorderThresholdLow }
+                    ParameterInfos[2] = { Name=42 - GradientHardness }
+                    ParameterInfos[3] = { Name=BorderIntensity }
+                    ParameterInfos[4] = { Name=42 - BoundsMultiplier }
+                    ParameterInfos[5] = { Name=SpecularValue }
+                    ParameterInfos[6] = { Name=EndLocation_WorldSpace }
+                    ParameterInfos[7] = { Name=DIssolveBorderGreenChannel }
+                    ParameterInfos[8] = { Name=DissolveTexture_TileX }
+                    ParameterInfos[9] = { Name=42 - InverseDissolve }
+                    ParameterInfos[10] = { Name=42 - Height }
+                    ParameterInfos[11] = { Name=MaxBorderGlow }
+                    ParameterInfos[12] = { Name=AlphaClip }
+                    ParameterInfos[13] = { Name=42 - Base Offset }
+                    ParameterInfos[14] = { Name=DissolveTextureTile_Y }
+                    ParameterInfos[15] = { Name=BorderThresholdHigh }
+                    ParameterInfos[16] = { Name=Opacity }
+                    ParameterInfos[17] = { Name=DissolveProgress }
+                    ParameterInfos[18] = { Name=AlphaClipLow }
+                    ParameterInfos[19] = { Name=StartLocation_WorldSpace }
+                    ParameterInfos[20] = { Name=Metalic }
+                    ParameterInfos[21] = { Name=GlowIntensity }
+                    ParameterInfos[22] = { Name=OpacityMaskOffset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=VeinsColor }
+                    ParameterInfos[1] = { Name=BorderColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=DissolveRamps }
+                    ParameterInfos[1] = { Name=Opacity Mask Texture }
+                    ParameterInfos[2] = { Name=Diffuse }
+                    ParameterInfos[3] = { Name=Normal }
+                    ParameterInfos[4] = { Name=NormalMap Texture }
+                    ParameterInfos[5] = { Name=AORoughnessMetallic }
+                    ParameterInfos[6] = { Name=DissolveTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[23] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 200
+            ScalarValues[3] = 40
+            ScalarValues[4] = 1.5
+            ScalarValues[5] = 0.2
+            ScalarValues[6] = 350
+            ScalarValues[7] = 3
+            ScalarValues[8] = 3
+            ScalarValues[9] = 0
+            ScalarValues[10] = 400
+            ScalarValues[11] = 10
+            ScalarValues[12] = 0.5
+            ScalarValues[13] = -25
+            ScalarValues[14] = 3
+            ScalarValues[15] = 0.015
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0.5
+            ScalarValues[19] = 0
+            ScalarValues[20] = 1
+            ScalarValues[21] = 750
+            ScalarValues[22] = 2.5
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.1, G=0.017777, B=0.0075, A=1 }
+            VectorValues[1] = { R=5, G=2.25074, B=1.09375, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[3] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[4] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        Name = DissolveRamps
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = Opacity Mask Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = NormalMap Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = AORoughnessMetallic
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        Name = DissolveTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[23] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=BorderThresholdLow, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 200
+        Name = 42 - GradientHardness
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=40, Name=BorderIntensity, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1.5
+        Name = 42 - BoundsMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0.2, Name=SpecularValue, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 350
+        Name = EndLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[7] =
+    {
+        Value = 3
+        Name = DIssolveBorderGreenChannel
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=3, Name=DissolveTexture_TileX, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=42 - InverseDissolve, Group=None }
+    CollectedScalarParameters[10] = { Value=400, Name=42 - Height, Group=None }
+    CollectedScalarParameters[11] = { Value=10, Name=MaxBorderGlow, Group=None }
+    CollectedScalarParameters[12] = { Value=0.5, Name=AlphaClip, Group=None }
+    CollectedScalarParameters[13] = { Value=-25, Name=42 - Base Offset, Group=None }
+    CollectedScalarParameters[14] = { Value=3, Name=DissolveTextureTile_Y, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0.015
+        Name = BorderThresholdHigh
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=DissolveProgress, Group=None }
+    CollectedScalarParameters[18] = { Value=0.5, Name=AlphaClipLow, Group=None }
+    CollectedScalarParameters[19] =
+    {
+        Value = 0
+        Name = StartLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=1, Name=Metalic, Group=None }
+    CollectedScalarParameters[21] = { Value=750, Name=GlowIntensity, Group=None }
+    CollectedScalarParameters[22] = { Value=2.5, Name=OpacityMaskOffset, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1, G=0.017777, B=0.0075, A=1 }
+        Name = VeinsColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=5, G=2.25074, B=1.09375, A=1 }
+        Name = BorderColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FlatNormal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Green_Linear
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = White
+    }
+}

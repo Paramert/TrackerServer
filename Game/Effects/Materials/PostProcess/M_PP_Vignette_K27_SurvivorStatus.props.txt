@@ -1,0 +1,252 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K27/T_K27_Vignette_Distortion_001.T_K27_Vignette_Distortion_001'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K27/T_K27_Vignette_Static_001.T_K27_Vignette_Static_001'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[24] =
+                {
+                    ParameterInfos[0] = { Name=VignetteLightingIntensity }
+                    ParameterInfos[1] = { Name=NoiseTiling_X }
+                    ParameterInfos[2] = { Name=NoiseTiling_Y }
+                    ParameterInfos[3] = { Name=RadialMask_03_DarkLines_Radius }
+                    ParameterInfos[4] = { Name=NoiseIntensity }
+                    ParameterInfos[5] = { Name=Tile_Y }
+                    ParameterInfos[6] = { Name=Outline_Erode_Lightning }
+                    ParameterInfos[7] = { Name=Vignette_Intensity }
+                    ParameterInfos[8] = { Name=VignetteDistortion }
+                    ParameterInfos[9] = { Name=TimeIntensity }
+                    ParameterInfos[10] = { Name=ChromaticIntensity }
+                    ParameterInfos[11] = { Name=Tile_X }
+                    ParameterInfos[12] = { Name=Eyes_Density }
+                    ParameterInfos[13] = { Name=RadialMask_03_DarkLines_Density }
+                    ParameterInfos[14] = { Name=RadialMask_02_Radius }
+                    ParameterInfos[15] = { Name=ScaleDistortionSize }
+                    ParameterInfos[16] = { Name=Mask_Power }
+                    ParameterInfos[17] = { Name=DarkLines_Intensity }
+                    ParameterInfos[18] = { Name=RadialMask_02_Density }
+                    ParameterInfos[19] = { Name=Outline_Intensity_Lightning }
+                    ParameterInfos[20] = { Name=Erosion_02_Main }
+                    ParameterInfos[21] = { Name=Eyes_Radius }
+                    ParameterInfos[22] = { Name=Color_Intensity }
+                    ParameterInfos[23] = { Name=VignetteDistortion2 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Main_01_Tiling_Speed }
+                    ParameterInfos[1] = { Name=Chromatic_Distortion_Tiling_Speed }
+                    ParameterInfos[2] = { Name=Distortion_Static_Tiling_Speed }
+                    ParameterInfos[3] = { Name=Color }
+                    ParameterInfos[4] = { Name=Chromatic_Distortion_Intensity }
+                    ParameterInfos[5] = { Name=Speed_MainTexture }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Chromatic_Distortion }
+                    ParameterInfos[1] = { Name=Chromatic_Mask }
+                    ParameterInfos[2] = { Name=Main }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[24] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 150
+            ScalarValues[2] = 150
+            ScalarValues[3] = 0.7
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.12
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1.5
+            ScalarValues[13] = 2.33
+            ScalarValues[14] = 0.25
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 2.33
+            ScalarValues[19] = 100
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0
+            ScalarValues[22] = 1
+            ScalarValues[23] = 0.12
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0.025, G=0.025, B=0.025, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=0, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/K27/T_K27_Vignette_Static_001.T_K27_Vignette_Static_001'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K27/T_K27_Vignette_Distortion_001.T_K27_Vignette_Distortion_001'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K27/T_K27_Vignette_Static_001.T_K27_Vignette_Static_001'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = Chromatic_Distortion
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = Chromatic_Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K27/T_K27_Vignette_Static_001.T_K27_Vignette_Static_001'
+        Name = Main
+        Group = None
+    }
+}
+CollectedScalarParameters[24] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 1
+        Name = VignetteLightingIntensity
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=150, Name=NoiseTiling_X, Group=None }
+    CollectedScalarParameters[2] = { Value=150, Name=NoiseTiling_Y, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.7
+        Name = RadialMask_03_DarkLines_Radius
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0, Name=NoiseIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Tile_Y, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = Outline_Erode_Lightning
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=Vignette_Intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0.12, Name=VignetteDistortion, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=TimeIntensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=ChromaticIntensity, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Tile_X, Group=None }
+    CollectedScalarParameters[12] = { Value=1.5, Name=Eyes_Density, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 2.33
+        Name = RadialMask_03_DarkLines_Density
+        Group = None
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.25
+        Name = RadialMask_02_Radius
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=0, Name=ScaleDistortionSize, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Mask_Power, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=DarkLines_Intensity, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 2.33
+        Name = RadialMask_02_Density
+        Group = None
+    }
+    CollectedScalarParameters[19] =
+    {
+        Value = 100
+        Name = Outline_Intensity_Lightning
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=0, Name=Erosion_02_Main, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=Eyes_Radius, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=Color_Intensity, Group=None }
+    CollectedScalarParameters[23] = { Value=0.12, Name=VignetteDistortion2, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Main_01_Tiling_Speed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Chromatic_Distortion_Tiling_Speed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Distortion_Static_Tiling_Speed
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.025, G=0.025, B=0.025, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Chromatic_Distortion_Intensity
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Speed_MainTexture
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

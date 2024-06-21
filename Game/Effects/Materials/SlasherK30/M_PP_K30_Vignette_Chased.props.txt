@@ -1,0 +1,200 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K30/T_K30_PowerIcons_VFX_Perspective.T_K30_PowerIcons_VFX_Perspective'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_3In1.T_Smoke_3In1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[32] =
+                {
+                    ParameterInfos[0] = { Name=Flowmap_PanSpeed_Y }
+                    ParameterInfos[1] = { Name=MF_PP_RectangleDiscard_Y }
+                    ParameterInfos[2] = { Name=Mask_Radius }
+                    ParameterInfos[3] = { Name=Mask_Hardness2 }
+                    ParameterInfos[4] = { Name=UVMask_Off_X2 }
+                    ParameterInfos[5] = { Name=FlowmapSpeedy }
+                    ParameterInfos[6] = { Name=Mask_Hardness }
+                    ParameterInfos[7] = { Name=GuardSymbol }
+                    ParameterInfos[8] = { Name=UVMask_Scale_Y2 }
+                    ParameterInfos[9] = { Name=SymbolX }
+                    ParameterInfos[10] = { Name=Alpha }
+                    ParameterInfos[11] = { Name=UVMask_Off_X }
+                    ParameterInfos[12] = { Name=UVMask_Scale_Y }
+                    ParameterInfos[13] = { Name=Mask_Radius2 }
+                    ParameterInfos[14] = { Name=UVMask_Off_Y }
+                    ParameterInfos[15] = { Name=VTiling }
+                    ParameterInfos[16] = { Name=OpacityController }
+                    ParameterInfos[17] = { Name=MainTextSpeedX }
+                    ParameterInfos[18] = { Name=MainTextSpeedY }
+                    ParameterInfos[19] = { Name=DistortionLevel }
+                    ParameterInfos[20] = { Name=Flowmap_Tiling_X }
+                    ParameterInfos[21] = { Name=UVMask_Off_Y2 }
+                    ParameterInfos[22] = { Name=SymbolY }
+                    ParameterInfos[23] = { Name=IconOpacity }
+                    ParameterInfos[24] = { Name=UTiling }
+                    ParameterInfos[25] = { Name=UVMask_Scale_X }
+                    ParameterInfos[26] = { Name=Flowmap_PanSpeed_X }
+                    ParameterInfos[27] = { Name=EmissiveLevel }
+                    ParameterInfos[28] = { Name=MF_PP_RectangleDiscard_X }
+                    ParameterInfos[29] = { Name=Flowmap_Tiling_Y }
+                    ParameterInfos[30] = { Name=UVMask_Scale_X2 }
+                    ParameterInfos[31] = { Name=FlowmapSpeedx }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                    ParameterInfos[1] = { Name=SmokeColor }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[32] =
+        {
+            ScalarValues[0] = 0.1
+            ScalarValues[1] = 0.175
+            ScalarValues[2] = 0.6
+            ScalarValues[3] = 0.6
+            ScalarValues[4] = 0.5
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0.6
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.6
+            ScalarValues[9] = -1.38354
+            ScalarValues[10] = 0.380952
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 0.6
+            ScalarValues[13] = 0.6
+            ScalarValues[14] = 0.2
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = 2
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0.2
+            ScalarValues[22] = -1.45861
+            ScalarValues[23] = 1
+            ScalarValues[24] = 1
+            ScalarValues[25] = 1.2
+            ScalarValues[26] = 0.05
+            ScalarValues[27] = 1.5
+            ScalarValues[28] = 0.2
+            ScalarValues[29] = 1
+            ScalarValues[30] = 1.2
+            ScalarValues[31] = 0
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.219829, G=0.439657, B=0.299061, A=1 }
+            VectorValues[1] = { R=0.0159963, G=0.450786, B=0.174647, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K30/T_K30_PowerIcons_VFX_Perspective.T_K30_PowerIcons_VFX_Perspective'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_3In1.T_Smoke_3In1'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[32] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Flowmap_PanSpeed_Y, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.175
+        Name = MF_PP_RectangleDiscard_Y
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.6, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[3] = { Value=0.6, Name=Mask_Hardness2, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=UVMask_Off_X2, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=FlowmapSpeedy, Group=None }
+    CollectedScalarParameters[6] = { Value=0.6, Name=Mask_Hardness, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=GuardSymbol, Group=None }
+    CollectedScalarParameters[8] = { Value=0.6, Name=UVMask_Scale_Y2, Group=None }
+    CollectedScalarParameters[9] = { Value=-1.38354, Name=SymbolX, Group=None }
+    CollectedScalarParameters[10] = { Value=0.380952, Name=Alpha, Group=None }
+    CollectedScalarParameters[11] = { Value=0.5, Name=UVMask_Off_X, Group=None }
+    CollectedScalarParameters[12] = { Value=0.6, Name=UVMask_Scale_Y, Group=None }
+    CollectedScalarParameters[13] = { Value=0.6, Name=Mask_Radius2, Group=None }
+    CollectedScalarParameters[14] = { Value=0.2, Name=UVMask_Off_Y, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=VTiling, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=OpacityController, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=MainTextSpeedX, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=MainTextSpeedY, Group=None }
+    CollectedScalarParameters[19] = { Value=2, Name=DistortionLevel, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=Flowmap_Tiling_X, Group=None }
+    CollectedScalarParameters[21] = { Value=0.2, Name=UVMask_Off_Y2, Group=None }
+    CollectedScalarParameters[22] = { Value=-1.45861, Name=SymbolY, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=IconOpacity, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=UTiling, Group=None }
+    CollectedScalarParameters[25] = { Value=1.2, Name=UVMask_Scale_X, Group=None }
+    CollectedScalarParameters[26] = { Value=0.05, Name=Flowmap_PanSpeed_X, Group=None }
+    CollectedScalarParameters[27] = { Value=1.5, Name=EmissiveLevel, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = 0.2
+        Name = MF_PP_RectangleDiscard_X
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=1, Name=Flowmap_Tiling_Y, Group=None }
+    CollectedScalarParameters[30] = { Value=1.2, Name=UVMask_Scale_X2, Group=None }
+    CollectedScalarParameters[31] = { Value=0, Name=FlowmapSpeedx, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.219829, G=0.439657, B=0.299061, A=1 }
+        Name = Param
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.0159963, G=0.450786, B=0.174647, A=1 }
+        Name = SmokeColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FlowMap_Distortion_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 4.18333
+        UVChannelIndex = 0
+        TextureName = T_K30_PowerIcons_VFX_Perspective
+    }
+}

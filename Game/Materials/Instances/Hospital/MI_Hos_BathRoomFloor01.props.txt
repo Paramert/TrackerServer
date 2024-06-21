@@ -1,0 +1,157 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Substance/MI_SbsarHospital.MI_SbsarHospital'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=00_MasterTiling }
+        ParameterValue = 6.3
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=08_RoughDetailAmount }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=08_RoughDetailScale }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=08_NormalDetailScale }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=00_BaseColorTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_FloorTilesBathroom01_BC.T_Hos_FloorTilesBathroom01_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=00_NormalTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_FloorTilesBathroom01_N.T_Hos_FloorTilesBathroom01_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=06_ORMTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_FloorTilesBathroom01_ORM.T_Hos_FloorTilesBathroom01_ORM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=06_TextureORM }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=UseRoughNormalDetail }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=25_TextureMetallic }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = false
+            ParameterInfo = { Name=25_TextureRoughness }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[14] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[7] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_basecolor.T_Swamp_Mud_basecolor'
+    CachedReferencedTextures[8] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+    CachedReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Vegetations/T_Normal_Noise.T_Normal_Noise'
+    CachedReferencedTextures[11] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    CachedReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.078125
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hos_FloorTilesBathroom01_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hos_FloorTilesBathroom01_ORM
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 15
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_01
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 0.046875
+        UVChannelIndex = 0
+        TextureName = T_SmokeTile
+    }
+}

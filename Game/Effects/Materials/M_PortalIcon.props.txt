@@ -1,0 +1,138 @@
+TwoSided = false
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/PortalIcons/beartrap.beartrap'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/SphereNormalPortal.SphereNormalPortal'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[1] = { Name=Atl_Roughness }
+                    ParameterInfos[2] = { Name=TextureScale }
+                    ParameterInfos[3] = { Name=DistancetoNoseMobile }
+                    ParameterInfos[4] = { Name=UVOffsetX }
+                    ParameterInfos[5] = { Name=Atl_Metallic }
+                    ParameterInfos[6] = { Name=GlowPower }
+                    ParameterInfos[7] = { Name=TextureYScaleMobile }
+                    ParameterInfos[8] = { Name=UVOffsetY }
+                    ParameterInfos[9] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[10] = { Name=IconOpacity }
+                    ParameterInfos[11] = { Name=TextureXScaleMobile }
+                    ParameterInfos[12] = { Name=DistancetoNose }
+                    ParameterInfos[13] = { Name=Atl_Specular }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Atl_DiffuseTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Icon }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 10
+            ScalarValues[1] = 1
+            ScalarValues[2] = 3
+            ScalarValues[3] = 250
+            ScalarValues[4] = 0.5
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0.05
+            ScalarValues[7] = 7
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 12
+            ScalarValues[12] = 250
+            ScalarValues[13] = 0
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/PortalIcons/beartrap.beartrap'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/SphereNormalPortal.SphereNormalPortal'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/PortalIcons/beartrap.beartrap'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/PortalIcons/beartrap.beartrap'
+        Name = Icon
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=TextureScale, Group=None }
+    CollectedScalarParameters[3] = { Value=250, Name=DistancetoNoseMobile, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=UVOffsetX, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[6] = { Value=0.05, Name=GlowPower, Group=None }
+    CollectedScalarParameters[7] = { Value=7, Name=TextureYScaleMobile, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=UVOffsetY, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=IconOpacity, Group=None }
+    CollectedScalarParameters[11] = { Value=12, Name=TextureXScaleMobile, Group=None }
+    CollectedScalarParameters[12] = { Value=250, Name=DistancetoNose, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Atl_Specular, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

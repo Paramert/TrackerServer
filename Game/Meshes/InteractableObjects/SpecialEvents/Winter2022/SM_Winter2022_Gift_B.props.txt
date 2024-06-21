@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Ribbons.MI_Winter2022_Ribbons'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Props.MI_Winter2022_Props'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Ribbons.MI_Winter2022_Ribbons'
+        MaterialSlotName = MI_Winter2022_Ribbons
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 20.2206, 133.017, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Props.MI_Winter2022_Props'
+        MaterialSlotName = MI_Winter2022_Props
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 174.954, 127.261, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=22.7282 }
+    BoxExtent = { X=17.7122, Y=17.3047, Z=21.9143 }
+    SphereRadius = 31.3444
+}

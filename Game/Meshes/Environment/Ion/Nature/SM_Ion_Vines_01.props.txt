@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_ION_WoodBark_02.MI_Ion_WoodBark_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_ION_WoodBark_02.MI_Ion_WoodBark_02'
+        MaterialSlotName = MI_ION_WoodBark_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 28.9802, 190.77, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8.91682, Y=-19.8657, Z=148.54 }
+    BoxExtent = { X=60.2651, Y=116.118, Z=150.877 }
+    SphereRadius = 163.79
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Materials/M_PlantAtlasAlpha01.M_PlantAtlasAlpha01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Materials/M_PlantAtlasAlpha01.M_PlantAtlasAlpha01'
+        MaterialSlotName = M_PlantAtlasAlpha01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 586.808, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=42.3819 }
+    BoxExtent = { X=49.2659, Y=58.0213, Z=53.8254 }
+    SphereRadius = 69.4734
+}

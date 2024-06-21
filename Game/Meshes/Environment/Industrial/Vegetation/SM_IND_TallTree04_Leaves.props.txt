@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_TallTree04_Leaves_ATL.MI_TallTree04_Leaves_ATL'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_TallTree04_Leaves_ATL.MI_TallTree04_Leaves_ATL'
+        MaterialSlotName = MI_TallTree04_Leaves_ATL
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 185.482, 2520.11, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-32.0793, Y=-12.1666, Z=1019.86 }
+    BoxExtent = { X=405.071, Y=409.654, Z=717.661 }
+    SphereRadius = 794.947
+}

@@ -1,0 +1,110 @@
+Materials[8] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Torso01_01.MI_K32Torso01_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Head01.MI_K32Head01'
+    Materials[2] = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32RightArm01_01.MI_K32RightArm01_01'
+    Materials[3] = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Legs01_01.MI_K32Legs01_01'
+    Materials[4] = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Body01.MI_K32Body01'
+    Materials[5] = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32HeadMetal01_01.MI_K32HeadMetal01_01'
+    Materials[6] = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32LeftArm01_01.MI_K32LeftArm01_01'
+    Materials[7] = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Rock01.MI_K32Rock01'
+}
+SourceModels[0] = {}
+StaticMaterials[8] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Torso01_01.MI_K32Torso01_01'
+        MaterialSlotName = MI_K32Torso00
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 95.3153, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Head01.MI_K32Head01'
+        MaterialSlotName = MI_K32Head00
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 84.7427, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32RightArm01_01.MI_K32RightArm01_01'
+        MaterialSlotName = MI_K32RightArm00
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 132.909, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Legs01_01.MI_K32Legs01_01'
+        MaterialSlotName = MI_K32Legs00
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.612, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Body01.MI_K32Body01'
+        MaterialSlotName = MI_K32Body00
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 197.722, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32HeadMetal01_01.MI_K32HeadMetal01_01'
+        MaterialSlotName = MI_K32HeadMetal00
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 85.8654, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32LeftArm01_01.MI_K32LeftArm01_01'
+        MaterialSlotName = MI_K32LeftArm00
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 107.053, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32Rock01.MI_K32Rock01'
+        MaterialSlotName = MI_K32Rock00
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 265.064, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.81659, Y=-26.8199, Z=108.238 }
+    BoxExtent = { X=125.176, Y=56.6533, Z=108.888 }
+    SphereRadius = 132.655
+}

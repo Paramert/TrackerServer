@@ -1,0 +1,468 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[11] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_3.T_BloodSplatter_Angled_3'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_4.T_BloodSplatter_Angled_4'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_5.T_BloodSplatter_Angled_5'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_Combined.T_Small_BloodSplatter_Combined'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_CombinedBlurred.T_Small_BloodSplatter_CombinedBlurred'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_FSbloodmist_03.T_FSbloodmist_03'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_RainDrop_DST.T_FX_RainDrop_DST'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_GradientBlood_02.T_GradientBlood_02'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_Noise03.T_Noise03'
+    ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[70] =
+                {
+                    ParameterInfos[0] = { Name=BloodDroplets3_Speed }
+                    ParameterInfos[1] = { Name=BloodtextureVignette_Tilling }
+                    ParameterInfos[2] = { Name=DistortionAmount }
+                    ParameterInfos[3] = { Name=OffsetX_Layer5 }
+                    ParameterInfos[4] = { Name=Threshold }
+                    ParameterInfos[5] = { Name=DistortionTilingV }
+                    ParameterInfos[6] = { Name=BloodtextureVignette_Speed }
+                    ParameterInfos[7] = { Name=Brightness }
+                    ParameterInfos[8] = { Name=BloodDroplets1_STR }
+                    ParameterInfos[9] = { Name=DistortionTilingU }
+                    ParameterInfos[10] = { Name=BloodDroplets1_UV }
+                    ParameterInfos[11] = { Name=BloodDroplets1_V }
+                    ParameterInfos[12] = { Name=OpacityMaxClamp }
+                    ParameterInfos[13] = { Name=Frame }
+                    ParameterInfos[14] = { Name=Distortion }
+                    ParameterInfos[15] = { Name=DropletsRadius }
+                    ParameterInfos[16] = { Name=OffsetY_Layer1 }
+                    ParameterInfos[17] = { Name=BloodThickness }
+                    ParameterInfos[18] = { Name=scale_Layer2 }
+                    ParameterInfos[19] = { Name=Alpha }
+                    ParameterInfos[20] = { Name=OffsetY_Layer2 }
+                    ParameterInfos[21] = { Name=BloodDroplets3Distortion_Tilling }
+                    ParameterInfos[22] = { Name=OpacityMax }
+                    ParameterInfos[23] = { Name=BloodDroplets1DistortionAmount }
+                    ParameterInfos[24] = { Name=scale_Layer3 }
+                    ParameterInfos[25] = { Name=Darken }
+                    ParameterInfos[26] = { Name=OffsetX_Layer2 }
+                    ParameterInfos[27] = { Name=DropletsHardness }
+                    ParameterInfos[28] = { Name=BloodDroplets1Distortion_Tilling }
+                    ParameterInfos[29] = { Name=Power }
+                    ParameterInfos[30] = { Name=DropletsIntensity }
+                    ParameterInfos[31] = { Name=OffsetY_Layer5 }
+                    ParameterInfos[32] = { Name=ErosionNoiseY }
+                    ParameterInfos[33] = { Name=BloodDroplets1_Speed }
+                    ParameterInfos[34] = { Name=ErosionNoiseY2 }
+                    ParameterInfos[35] = { Name=BloodDroplets2_UV }
+                    ParameterInfos[36] = { Name=LayerBlendMult }
+                    ParameterInfos[37] = { Name=OffsetX_Layer4 }
+                    ParameterInfos[38] = { Name=BloodDroplets3_STR }
+                    ParameterInfos[39] = { Name=BloodDroplets2_STR }
+                    ParameterInfos[40] = { Name=ErosionGlobalUV }
+                    ParameterInfos[41] = { Name=ColorRampMax }
+                    ParameterInfos[42] = { Name=BloodDroplets3_UV }
+                    ParameterInfos[43] = { Name=ErosionNoiseX2 }
+                    ParameterInfos[44] = { Name=BloodtextureVignettePower }
+                    ParameterInfos[45] = { Name=ErosionNoiseX }
+                    ParameterInfos[46] = { Name=OffsetX_Layer3 }
+                    ParameterInfos[47] = { Name=BloodtextureVignette_U }
+                    ParameterInfos[48] = { Name=OpacityMax_Alt }
+                    ParameterInfos[49] = { Name=SlashOpacity }
+                    ParameterInfos[50] = { Name=VignetteContrast }
+                    ParameterInfos[51] = { Name=MaxThreshold }
+                    ParameterInfos[52] = { Name=BloodDroplets2Distortion_Tilling }
+                    ParameterInfos[53] = { Name=OpacityTHresholdContrast }
+                    ParameterInfos[54] = { Name=Desat }
+                    ParameterInfos[55] = { Name=BloodtextureVignetteMultiply }
+                    ParameterInfos[56] = { Name=scale_Layer4 }
+                    ParameterInfos[57] = { Name=scale_Layer5 }
+                    ParameterInfos[58] = { Name=scale_Layer1 }
+                    ParameterInfos[59] = { Name=SlashOpacityAdjustment }
+                    ParameterInfos[60] = { Name=Opacity }
+                    ParameterInfos[61] = { Name=DistortionAdd }
+                    ParameterInfos[62] = { Name=OffsetY_Layer4 }
+                    ParameterInfos[63] = { Name=BloodDroplets2_Speed }
+                    ParameterInfos[64] = { Name=BloodtextureVignetteDistortionAmount }
+                    ParameterInfos[65] = { Name=OffsetY_Layer3 }
+                    ParameterInfos[66] = { Name=BloodtextureVignette_V }
+                    ParameterInfos[67] = { Name=ErosionGlobalSpeed }
+                    ParameterInfos[68] = { Name=OffsetX_Layer1 }
+                    ParameterInfos[69] = { Name=VignetteIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=BloodDropletsColor }
+                    ParameterInfos[1] = { Name=DistortionSpeed }
+                    ParameterInfos[2] = { Name=VignetteColor }
+                    ParameterInfos[3] = { Name=Tilling }
+                    ParameterInfos[4] = { Name=ErosionSpeed2 }
+                    ParameterInfos[5] = { Name=ErosionSpeed }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=TextureVignette }
+                    ParameterInfos[1] = { Name=Distortion }
+                    ParameterInfos[2] = { Name=Texture_Layer5 }
+                    ParameterInfos[3] = { Name=Texture_Layer1 }
+                    ParameterInfos[4] = { Name=Texture_Layer3 }
+                    ParameterInfos[5] = { Name=Texture_Layer4 }
+                    ParameterInfos[6] = { Name=Texture_Layer2 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[70] =
+        {
+            ScalarValues[0] = -0.005
+            ScalarValues[1] = 10
+            ScalarValues[2] = 0.03
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0.25
+            ScalarValues[5] = 5
+            ScalarValues[6] = -0.005
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 8
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 25
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0.02
+            ScalarValues[15] = 0.5
+            ScalarValues[16] = -0.12
+            ScalarValues[17] = 1.5
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0.25
+            ScalarValues[20] = 0.966758
+            ScalarValues[21] = 10
+            ScalarValues[22] = 25
+            ScalarValues[23] = 0
+            ScalarValues[24] = 1
+            ScalarValues[25] = 3.5
+            ScalarValues[26] = 0.057778
+            ScalarValues[27] = 0.75
+            ScalarValues[28] = 10
+            ScalarValues[29] = 0.95
+            ScalarValues[30] = 0.5
+            ScalarValues[31] = -1.17476
+            ScalarValues[32] = 1
+            ScalarValues[33] = -0.005
+            ScalarValues[34] = 0.2
+            ScalarValues[35] = 1
+            ScalarValues[36] = 25
+            ScalarValues[37] = 0.273651
+            ScalarValues[38] = 0.2
+            ScalarValues[39] = 0.25
+            ScalarValues[40] = 0.07
+            ScalarValues[41] = 0.9
+            ScalarValues[42] = 1
+            ScalarValues[43] = 0.3
+            ScalarValues[44] = 1
+            ScalarValues[45] = 1.5
+            ScalarValues[46] = 0.153016
+            ScalarValues[47] = 1
+            ScalarValues[48] = 75
+            ScalarValues[49] = 1
+            ScalarValues[50] = 0.4
+            ScalarValues[51] = 1500
+            ScalarValues[52] = 10
+            ScalarValues[53] = 500000
+            ScalarValues[54] = 0
+            ScalarValues[55] = 1
+            ScalarValues[56] = 1
+            ScalarValues[57] = 1
+            ScalarValues[58] = 1
+            ScalarValues[59] = 1
+            ScalarValues[60] = 0
+            ScalarValues[61] = 0.5
+            ScalarValues[62] = 1.07482
+            ScalarValues[63] = -0.005
+            ScalarValues[64] = 0
+            ScalarValues[65] = 1.06918
+            ScalarValues[66] = 1
+            ScalarValues[67] = 0.03
+            ScalarValues[68] = -0.12
+            ScalarValues[69] = 0.1
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0.9, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=-0.15, B=0, A=1 }
+            VectorValues[2] = { R=1, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0.2, G=0.1, B=0, A=0 }
+            VectorValues[4] = { R=0, G=-0.01, B=0, A=1 }
+            VectorValues[5] = { R=0, G=-0.05, B=0, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_FSbloodmist_03.T_FSbloodmist_03'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_RainDrop_DST.T_FX_RainDrop_DST'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_Combined.T_Small_BloodSplatter_Combined'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_4.T_BloodSplatter_Angled_4'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_5.T_BloodSplatter_Angled_5'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_3.T_BloodSplatter_Angled_3'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_CombinedBlurred.T_Small_BloodSplatter_CombinedBlurred'
+        }
+    }
+    ReferencedTextures[12] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_GradientBlood_02.T_GradientBlood_02'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_4.T_BloodSplatter_Angled_4'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_CombinedBlurred.T_Small_BloodSplatter_CombinedBlurred'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_5.T_BloodSplatter_Angled_5'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_3.T_BloodSplatter_Angled_3'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_Combined.T_Small_BloodSplatter_Combined'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Noise03.T_Noise03'
+        ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_RainDrop_DST.T_FX_RainDrop_DST'
+        ReferencedTextures[11] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_FSbloodmist_03.T_FSbloodmist_03'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_FSbloodmist_03.T_FSbloodmist_03'
+        Name = TextureVignette
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_RainDrop_DST.T_FX_RainDrop_DST'
+        Name = Distortion
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_Combined.T_Small_BloodSplatter_Combined'
+        Name = Texture_Layer5
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_4.T_BloodSplatter_Angled_4'
+        Name = Texture_Layer1
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_5.T_BloodSplatter_Angled_5'
+        Name = Texture_Layer3
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_3.T_BloodSplatter_Angled_3'
+        Name = Texture_Layer4
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_CombinedBlurred.T_Small_BloodSplatter_CombinedBlurred'
+        Name = Texture_Layer2
+        Group = None
+    }
+}
+CollectedScalarParameters[70] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = -0.005
+        Name = BloodDroplets3_Speed
+        Group = None
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 10
+        Name = BloodtextureVignette_Tilling
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.03, Name=DistortionAmount, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=OffsetX_Layer5, Group=None }
+    CollectedScalarParameters[4] = { Value=0.25, Name=Threshold, Group=None }
+    CollectedScalarParameters[5] = { Value=5, Name=DistortionTilingV, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = -0.005
+        Name = BloodtextureVignette_Speed
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=BloodDroplets1_STR, Group=None }
+    CollectedScalarParameters[9] = { Value=8, Name=DistortionTilingU, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=BloodDroplets1_UV, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=BloodDroplets1_V, Group=None }
+    CollectedScalarParameters[12] = { Value=25, Name=OpacityMaxClamp, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Frame, Group=None }
+    CollectedScalarParameters[14] = { Value=0.02, Name=Distortion, Group=None }
+    CollectedScalarParameters[15] = { Value=0.5, Name=DropletsRadius, Group=None }
+    CollectedScalarParameters[16] = { Value=-0.12, Name=OffsetY_Layer1, Group=None }
+    CollectedScalarParameters[17] = { Value=1.5, Name=BloodThickness, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=scale_Layer2, Group=None }
+    CollectedScalarParameters[19] = { Value=0.25, Name=Alpha, Group=None }
+    CollectedScalarParameters[20] = { Value=0.966758, Name=OffsetY_Layer2, Group=None }
+    CollectedScalarParameters[21] =
+    {
+        Value = 10
+        Name = BloodDroplets3Distortion_Tilling
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=25, Name=OpacityMax, Group=None }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0
+        Name = BloodDroplets1DistortionAmount
+        Group = None
+    }
+    CollectedScalarParameters[24] = { Value=1, Name=scale_Layer3, Group=None }
+    CollectedScalarParameters[25] = { Value=3.5, Name=Darken, Group=None }
+    CollectedScalarParameters[26] = { Value=0.057778, Name=OffsetX_Layer2, Group=None }
+    CollectedScalarParameters[27] = { Value=0.75, Name=DropletsHardness, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = 10
+        Name = BloodDroplets1Distortion_Tilling
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=0.95, Name=Power, Group=None }
+    CollectedScalarParameters[30] = { Value=0.5, Name=DropletsIntensity, Group=None }
+    CollectedScalarParameters[31] = { Value=-1.17476, Name=OffsetY_Layer5, Group=None }
+    CollectedScalarParameters[32] = { Value=1, Name=ErosionNoiseY, Group=None }
+    CollectedScalarParameters[33] =
+    {
+        Value = -0.005
+        Name = BloodDroplets1_Speed
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=0.2, Name=ErosionNoiseY2, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=BloodDroplets2_UV, Group=None }
+    CollectedScalarParameters[36] = { Value=25, Name=LayerBlendMult, Group=None }
+    CollectedScalarParameters[37] = { Value=0.273651, Name=OffsetX_Layer4, Group=None }
+    CollectedScalarParameters[38] = { Value=0.2, Name=BloodDroplets3_STR, Group=None }
+    CollectedScalarParameters[39] = { Value=0.25, Name=BloodDroplets2_STR, Group=None }
+    CollectedScalarParameters[40] = { Value=0.07, Name=ErosionGlobalUV, Group=None }
+    CollectedScalarParameters[41] = { Value=0.9, Name=ColorRampMax, Group=None }
+    CollectedScalarParameters[42] = { Value=1, Name=BloodDroplets3_UV, Group=None }
+    CollectedScalarParameters[43] = { Value=0.3, Name=ErosionNoiseX2, Group=None }
+    CollectedScalarParameters[44] =
+    {
+        Value = 1
+        Name = BloodtextureVignettePower
+        Group = None
+    }
+    CollectedScalarParameters[45] = { Value=1.5, Name=ErosionNoiseX, Group=None }
+    CollectedScalarParameters[46] = { Value=0.153016, Name=OffsetX_Layer3, Group=None }
+    CollectedScalarParameters[47] = { Value=1, Name=BloodtextureVignette_U, Group=None }
+    CollectedScalarParameters[48] = { Value=75, Name=OpacityMax_Alt, Group=None }
+    CollectedScalarParameters[49] = { Value=1, Name=SlashOpacity, Group=None }
+    CollectedScalarParameters[50] = { Value=0.4, Name=VignetteContrast, Group=None }
+    CollectedScalarParameters[51] = { Value=1500, Name=MaxThreshold, Group=None }
+    CollectedScalarParameters[52] =
+    {
+        Value = 10
+        Name = BloodDroplets2Distortion_Tilling
+        Group = None
+    }
+    CollectedScalarParameters[53] =
+    {
+        Value = 500000
+        Name = OpacityTHresholdContrast
+        Group = None
+    }
+    CollectedScalarParameters[54] = { Value=0, Name=Desat, Group=None }
+    CollectedScalarParameters[55] =
+    {
+        Value = 1
+        Name = BloodtextureVignetteMultiply
+        Group = None
+    }
+    CollectedScalarParameters[56] = { Value=1, Name=scale_Layer4, Group=None }
+    CollectedScalarParameters[57] = { Value=1, Name=scale_Layer5, Group=None }
+    CollectedScalarParameters[58] = { Value=1, Name=scale_Layer1, Group=None }
+    CollectedScalarParameters[59] = { Value=1, Name=SlashOpacityAdjustment, Group=None }
+    CollectedScalarParameters[60] = { Value=0, Name=Opacity, Group=None }
+    CollectedScalarParameters[61] = { Value=0.5, Name=DistortionAdd, Group=None }
+    CollectedScalarParameters[62] = { Value=1.07482, Name=OffsetY_Layer4, Group=None }
+    CollectedScalarParameters[63] =
+    {
+        Value = -0.005
+        Name = BloodDroplets2_Speed
+        Group = None
+    }
+    CollectedScalarParameters[64] =
+    {
+        Value = 0
+        Name = BloodtextureVignetteDistortionAmount
+        Group = None
+    }
+    CollectedScalarParameters[65] = { Value=1.06918, Name=OffsetY_Layer3, Group=None }
+    CollectedScalarParameters[66] = { Value=1, Name=BloodtextureVignette_V, Group=None }
+    CollectedScalarParameters[67] = { Value=0.03, Name=ErosionGlobalSpeed, Group=None }
+    CollectedScalarParameters[68] = { Value=-0.12, Name=OffsetX_Layer1, Group=None }
+    CollectedScalarParameters[69] = { Value=0.1, Name=VignetteIntensity, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.9, G=0, B=0, A=1 }
+        Name = BloodDropletsColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=-0.15, B=0, A=1 }
+        Name = DistortionSpeed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = VignetteColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.2, G=0.1, B=0, A=0 }
+        Name = Tilling
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=-0.01, B=0, A=1 }
+        Name = ErosionSpeed2
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=-0.05, B=0, A=1 }
+        Name = ErosionSpeed
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

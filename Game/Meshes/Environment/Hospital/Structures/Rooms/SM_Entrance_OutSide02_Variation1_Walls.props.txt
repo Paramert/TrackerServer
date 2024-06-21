@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_IR_Floor01.MI_HOS_IR_Floor01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_PlasterWall01.MI_HOS_PlasterWall01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_IR_Floor01.MI_HOS_IR_Floor01'
+        MaterialSlotName = MI_HOS_IR_Floor01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 905.194, 3304.85, 6929.59, 4027.04 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_PlasterWall01.MI_HOS_PlasterWall01'
+        MaterialSlotName = MI_HOS_PlasterWall01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 941.724, 3288.05, 7015.08, 4323.53 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=13.5653, Y=372.165, Z=642.093 }
+    BoxExtent = { X=1969.4, Y=388.098, Z=981.513 }
+    SphereRadius = 2217.64
+}

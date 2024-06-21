@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Brick02_Basement.MI_Brick02_Basement'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rust04_Basement.MI_Rust04_Basement'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DriftWoodPlank01_Basement1.MI_DriftWoodPlank01_Basement1'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Brick02_Basement.MI_Brick02_Basement'
+        MaterialSlotName = MI_Brick02_Basement
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 361.856, 2676.38, 2964.43, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rust04_Basement.MI_Rust04_Basement'
+        MaterialSlotName = MI_Rust04_Basement
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 452.856, 2650.52, 2909.01, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DriftWoodPlank01_Basement1.MI_DriftWoodPlank01_Basement1'
+        MaterialSlotName = MI_DriftWoodPlank01_Basement1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 532.613, 2661.97, 2968.01, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-342.181, Y=-216.193, Z=-457.785 }
+    BoxExtent = { X=527.471, Y=835.072, Z=339.479 }
+    SphereRadius = 1033.12
+}

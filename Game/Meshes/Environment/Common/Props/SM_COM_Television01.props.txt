@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_Television01.MI_COM_Television01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_Television_Screen.MI_COM_Television_Screen'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_Television01.MI_COM_Television01'
+        MaterialSlotName = MI_Television01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 196.907, 369.051, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_Television_Screen.MI_COM_Television_Screen'
+        MaterialSlotName = MI_Television01_screen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 58.2438, 370.402, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=31.1892 }
+    BoxExtent = { X=28.3868, Y=44.8049, Z=31.1892 }
+    SphereRadius = 58.4729
+}

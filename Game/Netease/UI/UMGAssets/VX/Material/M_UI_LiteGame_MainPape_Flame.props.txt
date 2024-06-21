@@ -1,0 +1,163 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_NE_UI_LiteGame_MainPape_Flame_11.T_NE_UI_LiteGame_MainPape_Flame_11'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+    ReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Dissolve }
+                    ParameterInfos[1] = { Name=Time }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=PM2 }
+                    ParameterInfos[1] = { Name=DP_LightFlow_3 }
+                    ParameterInfos[2] = { Name=DP_LightFlow_2 }
+                    ParameterInfos[3] = { Name=Color }
+                    ParameterInfos[4] = { Name=DP_LightFlow_1 }
+                    ParameterInfos[5] = { Name=PM1 }
+                    ParameterInfos[6] = { Name=1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Lightflow_3 }
+                    ParameterInfos[1] = { Name=MainUI }
+                    ParameterInfos[2] = { Name=Lightflow_2 }
+                    ParameterInfos[3] = { Name=Lightflow_1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 0, 0 }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0.2, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0.2, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=0.1, A=0 }
+            VectorValues[5] = { R=1, G=1, B=0, A=1 }
+            VectorValues[6] = { R=1, G=1, B=0.1, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+            TextureValues[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_NE_UI_LiteGame_MainPape_Flame_11.T_NE_UI_LiteGame_MainPape_Flame_11'
+            TextureValues[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+            TextureValues[3] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_NE_UI_LiteGame_MainPape_Flame_11.T_NE_UI_LiteGame_MainPape_Flame_11'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+        ReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+        Name = Lightflow_3
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_NE_UI_LiteGame_MainPape_Flame_11.T_NE_UI_LiteGame_MainPape_Flame_11'
+        Name = MainUI
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+        Name = Lightflow_2
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+        Name = Lightflow_1
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Dissolve, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Time, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = PM2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0.2, A=0 }
+        Name = DP_LightFlow_3
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0.2, A=0 }
+        Name = DP_LightFlow_2
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0.1, A=0 }
+        Name = DP_LightFlow_1
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = PM1
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0.1, A=0 }
+        Name = 1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

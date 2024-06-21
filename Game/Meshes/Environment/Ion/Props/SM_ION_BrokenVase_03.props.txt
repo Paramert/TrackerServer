@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_ION_BrokenVases_01_03.MI_ION_BrokenVases_01_03'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_ION_BrokenVases_01_03.MI_ION_BrokenVases_01_03'
+        MaterialSlotName = MI_ION_BrokenVases_01_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 204.139, 192.956, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=2.53662, Z=24.8483 }
+    BoxExtent = { X=31.4103, Y=31.4103, Z=24.8483 }
+    SphereRadius = 33.0088
+}

@@ -1,0 +1,149 @@
+Parent = Material3'/Game/Characters/Slashers/Materials/M_Slasher_Burn.M_Slasher_Burn'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Scale (tm) }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Pointilism Source Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[5] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseEmissiveTile }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=UseAlphaDither }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=Enable Texture Mask }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=ScaleMask (tm) }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseDissolve }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[19] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[3] = Texture2D'/Game/Characters/Campers/Textures/T_ETouch_Tile.T_ETouch_Tile'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[5] = Texture2D'/Game/Characters/Slashers/K24/Weapons/Textures/SSW01/T_K24_SSW01_BC_Flowmap_01.T_K24_SSW01_BC_Flowmap_01'
+    CachedReferencedTextures[7] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    CachedReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_BurnLUT.T_BurnLUT'
+    CachedReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Asylum/T_Noise01.T_Noise01'
+    CachedReferencedTextures[12] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    CachedReferencedTextures[13] = Texture2D'/Game/Effects/Textures/T_BurnedEmbers.T_BurnedEmbers'
+    CachedReferencedTextures[14] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    CachedReferencedTextures[15] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    CachedReferencedTextures[16] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    CachedReferencedTextures[17] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    CachedReferencedTextures[18] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[7] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FlatNormal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Green_Linear
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 12
+        UVChannelIndex = 0
+        TextureName = T_Dissolve_spiderthing
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 29.9531
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_01
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = White
+    }
+}

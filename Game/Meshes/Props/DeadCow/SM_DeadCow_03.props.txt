@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeadCow01.MI_DeadCow01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rope01.MI_Rope01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances_Lod3/MI3_DeadCow03.MI3_DeadCow03'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeadCow01.MI_DeadCow01'
+        MaterialSlotName = MI_DeadCow01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 389.563, 405.197, 425.647, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rope01.MI_Rope01'
+        MaterialSlotName = MI_Rope01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11.6318, 423.668, 423.837, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances_Lod3/MI3_DeadCow03.MI3_DeadCow03'
+        MaterialSlotName = MI3_DeadCow03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.07276, Y=-26.7586, Z=-134.755 }
+    BoxExtent = { X=60.7448, Y=50.7709, Z=170.515 }
+    SphereRadius = 175.305
+}

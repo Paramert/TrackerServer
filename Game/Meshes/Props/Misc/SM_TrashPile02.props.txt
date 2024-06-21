@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Trash_Atlas01.MI_Trash_Atlas01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Trash_Atlas01.MI_Trash_Atlas01'
+        MaterialSlotName = MI_Trash_Atlas01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 159.527, 234.349, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.01776, Y=-7.19403, Z=8.10322 }
+    BoxExtent = { X=112.684, Y=75.8551, Z=9.1515 }
+    SphereRadius = 123.564
+}

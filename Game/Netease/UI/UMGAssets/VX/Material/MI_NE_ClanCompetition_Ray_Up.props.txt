@@ -1,0 +1,71 @@
+Parent = MaterialInstanceConstant'/Game/Netease/UI/UMGAssets/VX/Material/MI_NE_ClanCompetition_Ray_Down.MI_NE_ClanCompetition_Ray_Down'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Alpha_Tex_2 }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_NE_ClanCompetition_Ray_Up.T_NE_ClanCompetition_Ray_Up'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=DP_Alpha_2 }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=DP_Color_1 }
+        ParameterValue = { R=1, G=0.2, B=-0.02, A=0.1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=DP_Distor_1 }
+        ParameterValue = { R=1, G=2, B=0.1, A=0.2 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[2] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

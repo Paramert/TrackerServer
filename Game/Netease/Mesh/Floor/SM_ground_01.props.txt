@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Maps/Atlanta/GoldCard_Display/ground.ground'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Maps/Atlanta/GoldCard_Display/ground.ground'
+        MaterialSlotName = ground
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 883.368, 7000.82, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000488281, Y=-0.000488281, Z=201.816 }
+    BoxExtent = { X=3465.5, Y=3412.85, Z=201.816 }
+    SphereRadius = 3471.37
+}

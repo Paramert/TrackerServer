@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Car01_Wheel.MI_Car01_Wheel'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Car01_Wheel.MI_Car01_Wheel'
+        MaterialSlotName = MI_Car01_Wheel
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 146.035, 150.74, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.41046, Y=-0.343979, Z=2.21693 }
+    BoxExtent = { X=15.8953, Y=36.1163, Z=33.7563 }
+    SphereRadius = 40.3641
+}

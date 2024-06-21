@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Miscellaneous_ExitBuilding1.MI_Miscellaneous_ExitBuilding1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Miscellaneous_ExitBuilding1.MI_Miscellaneous_ExitBuilding1'
+        MaterialSlotName = MI_Miscellaneous_ExitBuilding1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 775.51, 282.304, 265.543, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.52588e-05, Y=-1.32851, Z=129.367 }
+    BoxExtent = { X=61.6225, Y=1.8345, Z=129.367 }
+    SphereRadius = 143.306
+}

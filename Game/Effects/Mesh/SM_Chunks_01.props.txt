@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/MI_Blood_Chunks.MI_Blood_Chunks'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_Blood_Chunks.MI_Blood_Chunks'
+        MaterialSlotName = MI_Blood_Chunks
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 198.912, 170.663, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-11.15, Y=-21.9414, Z=-6.8914 }
+    BoxExtent = { X=29.0428, Y=36.6604, Z=40.7505 }
+    SphereRadius = 48.7482
+}

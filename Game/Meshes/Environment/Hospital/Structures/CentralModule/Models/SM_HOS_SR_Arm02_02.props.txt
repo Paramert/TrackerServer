@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_CentralModule01_TVs.MI_CentralModule01_TVs'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_CentralModule01_TVs.MI_CentralModule01_TVs'
+        MaterialSlotName = MI_CentralModule01_TVs
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 851.187, 238.381, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-11.889, Y=-0.328852, Z=9.26843 }
+    BoxExtent = { X=44.6117, Y=31.0346, Z=41.7972 }
+    SphereRadius = 64.1431
+}

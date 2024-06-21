@@ -1,0 +1,12 @@
+Diffuse=T_Crow_BC
+Normal=T_Crow_N
+Opacity=T_Crow_M
+Other[0]=T_Crow_ORM
+Other[1]=Good64x64TilingNoiseHighFreq_Low
+Other[2]=T_Fire_SmokeWisps_Tile_Dup
+Other[3]=T_FlatNormal_01
+Other[4]=Black
+Other[5]=Green_Linear
+Other[6]=White
+Other[7]=T_Crow_BC
+Other[8]=T_Crow_M

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_TrashCanCompo01_B.MI_Eng_TrashCanCompo01_B'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_TrashCanCompo01_B.MI_Eng_TrashCanCompo01_B'
+        MaterialSlotName = MI_Eng_TrashCanCompo01_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 157.939, 163.552, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.55239, Y=0.899197, Z=41.3724 }
+    BoxExtent = { X=33.1503, Y=33.1478, Z=42.2126 }
+    SphereRadius = 46.8804
+}

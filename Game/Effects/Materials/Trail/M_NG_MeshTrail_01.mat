@@ -1,0 +1,5 @@
+Diffuse=T_FX_Gradient_Footsteps
+SpecPower=T_spume_01
+Other[0]=T_RGBclouds_map_01
+Other[1]=T_Smoke_Soft_Tile
+Other[2]=T_TrailLine_var_01

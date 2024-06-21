@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush1.MI_Bulrush1'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush1.MI_Bulrush1'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush1.MI_Bulrush1'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush_Imposter.MI_Bulrush_Imposter'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush1.MI_Bulrush1'
+        MaterialSlotName = MI_Bulrush1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 80.2529, 4240.95, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush1.MI_Bulrush1'
+        MaterialSlotName = MI_Bulrush1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 83.155, 4500.1, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush1.MI_Bulrush1'
+        MaterialSlotName = MI_Bulrush1_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 87.6137, 4704.19, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush_Imposter.MI_Bulrush_Imposter'
+        MaterialSlotName = MI_Bulrush_Imposter
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.81403, Y=-10.7897, Z=134.435 }
+    BoxExtent = { X=104.324, Y=180.628, Z=135.198 }
+    SphereRadius = 204.555
+}

@@ -1,0 +1,131 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Mask_Panner_X }
+                    ParameterInfos[1] = { Name=Opacity_Distortion }
+                    ParameterInfos[2] = { Name=Mask_Panner_Y }
+                    ParameterInfos[3] = { Name=Tile_Smoke }
+                    ParameterInfos[4] = { Name=Tile_Smoke_02 }
+                    ParameterInfos[5] = { Name=Intensity_AlphaDisto }
+                    ParameterInfos[6] = { Name=Fade_distance }
+                    ParameterInfos[7] = { Name=Opacity_Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Speed_Panner_02 }
+                    ParameterInfos[1] = { Name=Speed_Panner }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Whispy_Smoke_Texture }
+                    ParameterInfos[1] = { Name=Whispy_Smoke_Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 0.1, 0, 1, 2, 1, 150, 1 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0.1, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0.3, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+        Name = Whispy_Smoke_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+        Name = Whispy_Smoke_Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Mask_Panner_X, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=Opacity_Distortion, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Mask_Panner_Y, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Tile_Smoke, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=Tile_Smoke_02, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Intensity_AlphaDisto, Group=None }
+    CollectedScalarParameters[6] = { Value=150, Name=Fade_distance, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Opacity_Contrast, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.1, B=0, A=1 }
+        Name = Speed_Panner_02
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0.3, B=0, A=1 }
+        Name = Speed_Panner
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.982422
+        UVChannelIndex = 0
+        TextureName = T_Fire_SmokeWisps_Tile_Dup
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}

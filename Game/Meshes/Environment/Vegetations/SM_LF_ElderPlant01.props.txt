@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_Plants.MI_Plants'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_Plants.MI_Plants'
+        MaterialSlotName = MI_Plants
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 271.396, 312.34, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.60903, Z=53.5779 }
+    BoxExtent = { X=68.3355, Y=60.6383, Z=64.2024 }
+    SphereRadius = 71.9051
+}

@@ -1,0 +1,165 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK28/M_K28_BodySmoke_Particle_01.M_K28_BodySmoke_Particle_01'
+ScalarParameterValues[9] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DwC- Adjust Clipping Start }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Embers_opacity }
+        ParameterValue = 1.12
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Entity Contrast  Embers }
+        ParameterValue = 3.65
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=CoreDensity }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Emissive }
+        ParameterValue = 0.11
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Fade }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=TextureSizeSmoke_X }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=TextureSizeSmoke_Y }
+        ParameterValue = 0.55
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Blood_Alpha_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_cloud_02.T_cloud_02'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Particle_Mask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_cloud_02.T_cloud_02'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Smoke_Details }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Smoke Color Var_01 }
+        ParameterValue = { R=0.001, G=0.001, B=0.001, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Smoke Color Var_02 }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=SmokeDetails_Color_01 }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=SmokeDetails_Color_02 }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Speed_Distortion }
+        ParameterValue = { R=0.15, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Blood_03.T_Blood_03'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_caustic_02.T_caustic_02'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_cloud_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.533203
+        UVChannelIndex = 0
+        TextureName = T_Clouds_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}

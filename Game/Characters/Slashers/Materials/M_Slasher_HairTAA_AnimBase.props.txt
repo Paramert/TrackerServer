@@ -1,0 +1,357 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_Hair_05_M.T_Hair_05_M'
+    ReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_Mask.T_HKHair01_Mask'
+    ReferencedTextures[2] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_N.T_HKHair01_N'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[39] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=MaskLength }
+                    ParameterInfos[2] = { Name=E- Range Gradient }
+                    ParameterInfos[3] = { Name=BorderThresholdLow }
+                    ParameterInfos[4] = { Name=M- Y Tiling }
+                    ParameterInfos[5] = { Name=42 - GradientHardness }
+                    ParameterInfos[6] = { Name=Brightness }
+                    ParameterInfos[7] = { Name=BorderIntensity }
+                    ParameterInfos[8] = { Name=specular }
+                    ParameterInfos[9] = { Name=42 - BoundsMultiplier }
+                    ParameterInfos[10] = { Name=RootAO }
+                    ParameterInfos[11] = { Name=EndLocation_WorldSpace }
+                    ParameterInfos[12] = { Name=lengthMaskPow }
+                    ParameterInfos[13] = { Name=DIssolveBorderGreenChannel }
+                    ParameterInfos[14] = { Name=M- Y Speed }
+                    ParameterInfos[15] = { Name=HairEmissiveTouchMultiplier }
+                    ParameterInfos[16] = { Name=DissolveTexture_TileX }
+                    ParameterInfos[17] = { Name=RootAORange }
+                    ParameterInfos[18] = { Name=42 - InverseDissolve }
+                    ParameterInfos[19] = { Name=MaskLengthLow }
+                    ParameterInfos[20] = { Name=42 - Height }
+                    ParameterInfos[21] = { Name=M- X Tiling }
+                    ParameterInfos[22] = { Name=MaxBorderGlow }
+                    ParameterInfos[23] = { Name=AlphaClip }
+                    ParameterInfos[24] = { Name=42 - Base Offset }
+                    ParameterInfos[25] = { Name=CameraFade }
+                    ParameterInfos[26] = { Name=lengthMask }
+                    ParameterInfos[27] = { Name=DissolveTextureTile_Y }
+                    ParameterInfos[28] = { Name=BorderThresholdHigh }
+                    ParameterInfos[29] = { Name=E- Fade Gradient }
+                    ParameterInfos[30] = { Name=RootRange }
+                    ParameterInfos[31] = { Name=DissolveProgress }
+                    ParameterInfos[32] = { Name=AlphaClipLow }
+                    ParameterInfos[33] = { Name=StartLocation_WorldSpace }
+                    ParameterInfos[34] = { Name=M- X Speed }
+                    ParameterInfos[35] = { Name=GlowIntensity }
+                    ParameterInfos[36] = { Name=PushBack_Strength }
+                    ParameterInfos[37] = { Name=OpacityMaskOffset }
+                    ParameterInfos[38] = { Name=SquishFactor }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=ActorForwardVector }
+                    ParameterInfos[1] = { Name=VeinsColor }
+                    ParameterInfos[2] = { Name=HairEmissiveTouch }
+                    ParameterInfos[3] = { Name=E- Root Color }
+                    ParameterInfos[4] = { Name=E- Tip color }
+                    ParameterInfos[5] = { Name=TipColor }
+                    ParameterInfos[6] = { Name=BorderColor }
+                    ParameterInfos[7] = { Name=RootColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=HideHead_Mask }
+                    ParameterInfos[1] = { Name=DissolveRamps }
+                    ParameterInfos[2] = { Name=Alpha_Mask }
+                    ParameterInfos[3] = { Name=Global_Mask }
+                    ParameterInfos[4] = { Name=Normal }
+                    ParameterInfos[5] = { Name=DissolveTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[39] =
+        {
+            ScalarValues[0] = 0.8
+            ScalarValues[1] = 0.5
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 7
+            ScalarValues[5] = 200
+            ScalarValues[6] = 1
+            ScalarValues[7] = 40
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1.5
+            ScalarValues[10] = 0.2
+            ScalarValues[11] = 350
+            ScalarValues[12] = 0
+            ScalarValues[13] = 3
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 3
+            ScalarValues[17] = 0.25
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0.5
+            ScalarValues[20] = 400
+            ScalarValues[21] = 1
+            ScalarValues[22] = 10
+            ScalarValues[23] = 0.5
+            ScalarValues[24] = -25
+            ScalarValues[25] = 20
+            ScalarValues[26] = 0.5
+            ScalarValues[27] = 3
+            ScalarValues[28] = 0.015
+            ScalarValues[29] = 1
+            ScalarValues[30] = 0
+            ScalarValues[31] = 1
+            ScalarValues[32] = 0.5
+            ScalarValues[33] = 0
+            ScalarValues[34] = 0
+            ScalarValues[35] = 750
+            ScalarValues[36] = -40
+            ScalarValues[37] = 2.5
+            ScalarValues[38] = 0
+        }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=0, G=1, B=0, A=0 }
+            VectorValues[1] = { R=0.1, G=0.017777, B=0.0075, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=0.109804, G=0.07451, B=0.05098, A=1 }
+            VectorValues[6] = { R=5, G=2.25074, B=1.09375, A=1 }
+            VectorValues[7] = { R=0.109804, G=0.07451, B=0.047059, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+            TextureValues[2] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_Hair_05_M.T_Hair_05_M'
+            TextureValues[3] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_Mask.T_HKHair01_Mask'
+            TextureValues[4] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_N.T_HKHair01_N'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_N.T_HKHair01_N'
+        ReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_Mask.T_HKHair01_Mask'
+        ReferencedTextures[2] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_Hair_05_M.T_Hair_05_M'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = HideHead_Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        Name = DissolveRamps
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_Hair_05_M.T_Hair_05_M'
+        Name = Alpha_Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_Mask.T_HKHair01_Mask'
+        Name = Global_Mask
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_N.T_HKHair01_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        Name = DissolveTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[39] =
+{
+    CollectedScalarParameters[0] = { Value=0.8, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=MaskLength, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=E- Range Gradient, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=BorderThresholdLow, Group=None }
+    CollectedScalarParameters[4] = { Value=7, Name=M- Y Tiling, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 200
+        Name = 42 - GradientHardness
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[7] = { Value=40, Name=BorderIntensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=specular, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 1.5
+        Name = 42 - BoundsMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0.2, Name=RootAO, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 350
+        Name = EndLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=0, Name=lengthMaskPow, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 3
+        Name = DIssolveBorderGreenChannel
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=1, Name=M- Y Speed, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 1
+        Name = HairEmissiveTouchMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=3, Name=DissolveTexture_TileX, Group=None }
+    CollectedScalarParameters[17] = { Value=0.25, Name=RootAORange, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=42 - InverseDissolve, Group=None }
+    CollectedScalarParameters[19] = { Value=0.5, Name=MaskLengthLow, Group=None }
+    CollectedScalarParameters[20] = { Value=400, Name=42 - Height, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=M- X Tiling, Group=None }
+    CollectedScalarParameters[22] = { Value=10, Name=MaxBorderGlow, Group=None }
+    CollectedScalarParameters[23] = { Value=0.5, Name=AlphaClip, Group=None }
+    CollectedScalarParameters[24] = { Value=-25, Name=42 - Base Offset, Group=None }
+    CollectedScalarParameters[25] = { Value=20, Name=CameraFade, Group=None }
+    CollectedScalarParameters[26] = { Value=0.5, Name=lengthMask, Group=None }
+    CollectedScalarParameters[27] = { Value=3, Name=DissolveTextureTile_Y, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = 0.015
+        Name = BorderThresholdHigh
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=1, Name=E- Fade Gradient, Group=None }
+    CollectedScalarParameters[30] = { Value=0, Name=RootRange, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=DissolveProgress, Group=None }
+    CollectedScalarParameters[32] = { Value=0.5, Name=AlphaClipLow, Group=None }
+    CollectedScalarParameters[33] =
+    {
+        Value = 0
+        Name = StartLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=0, Name=M- X Speed, Group=None }
+    CollectedScalarParameters[35] = { Value=750, Name=GlowIntensity, Group=None }
+    CollectedScalarParameters[36] = { Value=-40, Name=PushBack_Strength, Group=None }
+    CollectedScalarParameters[37] = { Value=2.5, Name=OpacityMaskOffset, Group=None }
+    CollectedScalarParameters[38] = { Value=0, Name=SquishFactor, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = ActorForwardVector
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.1, G=0.017777, B=0.0075, A=1 }
+        Name = VeinsColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = HairEmissiveTouch
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = E- Root Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = E- Tip color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.109804, G=0.07451, B=0.05098, A=1 }
+        Name = TipColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=5, G=2.25074, B=1.09375, A=1 }
+        Name = BorderColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.109804, G=0.07451, B=0.047059, A=1 }
+        Name = RootColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hair_05_M
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_HKHair01_N
+    }
+}

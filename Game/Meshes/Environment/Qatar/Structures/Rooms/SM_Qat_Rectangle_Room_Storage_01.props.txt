@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_AlphaPattern.MI_Qat_AlphaPattern'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Ceiling01.MI_Qat_Ceiling01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Panels01.MI_Qat_Panels01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_ConcreteTrim01.MI_Qat_ConcreteTrim01'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_ConcreteFloor01.MI_Qat_ConcreteFloor01'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_AlphaPattern.MI_Qat_AlphaPattern'
+        MaterialSlotName = MI_Qat_AlphaPattern
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 129.641, 3470.87, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Ceiling01.MI_Qat_Ceiling01'
+        MaterialSlotName = Mi_Qat_Ceiling01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 397.735, 3420.55, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Panels01.MI_Qat_Panels01'
+        MaterialSlotName = MI_Qat_Panels01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 288.393, 3409.85, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_ConcreteTrim01.MI_Qat_ConcreteTrim01'
+        MaterialSlotName = MI_Qat_ConcreteTrim01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 431.48, 3460.42, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_ConcreteFloor01.MI_Qat_ConcreteFloor01'
+        MaterialSlotName = MI_Qat_ConcreteFloor01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.012, 3420.91, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00231934, Y=5.00006, Z=215 }
+    BoxExtent = { X=1370, Y=565.001, Z=215 }
+    SphereRadius = 1423.92
+}

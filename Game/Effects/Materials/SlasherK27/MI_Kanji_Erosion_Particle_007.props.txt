@@ -1,0 +1,136 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK27/M_Kanji_Erosion_Particle.M_Kanji_Erosion_Particle'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=NoiseTiling }
+        ParameterValue = 75
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=OutlineNoiseIntensity }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Use Circular Distortion }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Kanji_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K27/NE_T_K27_shufu_Noroi.NE_T_K27_shufu_Noroi'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Main_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_004.T_K27_Attack_Symbol_004'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Noise_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_011.T_K27_Attack_Ring_011'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Distortion_Tiling_Speed }
+        ParameterValue = { R=1, G=1, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Noise_Erosion_Tiling_Speed }
+        ParameterValue = { R=1, G=3, B=0.25, A=0.125 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Noise_Mask_Tiling_Speed }
+        ParameterValue = { R=0.7, G=0.7, B=0, A=0.055 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Noise_Tiling_Speed }
+        ParameterValue = { R=0.5, G=0.5, B=-0.04, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = true
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit013/T_HKHands013_Veins_Gradient.T_HKHands013_Veins_Gradient'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_005.T_K27_Attack_Symbol_005'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_011.T_K27_Attack_Ring_011'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_003.T_K27_Attack_Symbol_003'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_K27_shufu_Noroi
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_K27_Attack_Ring_011
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K27_Attack_Symbol_004
+    }
+}

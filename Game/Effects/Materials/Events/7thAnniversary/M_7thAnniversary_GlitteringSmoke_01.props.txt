@@ -1,0 +1,279 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Events/7thAnniversary/T_7thAnniv_Confetti_Normal.T_7thAnniv_Confetti_Normal'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Events/7thAnniversary/T_Gradient_GoldShine.T_Gradient_GoldShine'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_cloud_02.T_cloud_02'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[33] =
+                {
+                    ParameterInfos[0] = { Name=Glitter_A_PanSpeed_Y }
+                    ParameterInfos[1] = { Name=Color_Density }
+                    ParameterInfos[2] = { Name=Fresnel_HideAngle }
+                    ParameterInfos[3] = { Name=Glitter_A_PanSpeed_X }
+                    ParameterInfos[4] = { Name=Glitter_Density }
+                    ParameterInfos[5] = { Name=Smoke_Density }
+                    ParameterInfos[6] = { Name=SmokeDetail_Density_Max }
+                    ParameterInfos[7] = { Name=Glitter_B_PanSpeed_X }
+                    ParameterInfos[8] = { Name=Glitter_GradientMap_Scale_X }
+                    ParameterInfos[9] = { Name=Smoke_PanSpeed_X }
+                    ParameterInfos[10] = { Name=RefractionMax }
+                    ParameterInfos[11] = { Name=CameraFade_Length }
+                    ParameterInfos[12] = { Name=Glitter_A_Scale }
+                    ParameterInfos[13] = { Name=Smoke_Scale_X }
+                    ParameterInfos[14] = { Name=CameraFade_Offset }
+                    ParameterInfos[15] = { Name=Glitter_Intensity }
+                    ParameterInfos[16] = { Name=ColoredSmokeCoverage_Max }
+                    ParameterInfos[17] = { Name=Glitter_B_Scale }
+                    ParameterInfos[18] = { Name=Flowmap_Scale_Y }
+                    ParameterInfos[19] = { Name=SmokeMask_PanSpeed_X }
+                    ParameterInfos[20] = { Name=Glitter_B_PanSpeed_Y }
+                    ParameterInfos[21] = { Name=FadeDistance }
+                    ParameterInfos[22] = { Name=Glitter_GradientMap_Scale_Y }
+                    ParameterInfos[23] = { Name=SmokeMask_PanSpeed_Y }
+                    ParameterInfos[24] = { Name=ColoredSmokeCoverage_Min }
+                    ParameterInfos[25] = { Name=Smoke_PanSpeed_Y }
+                    ParameterInfos[26] = { Name=SmokeColor_EmissiveIntensity }
+                    ParameterInfos[27] = { Name=Smoke_Scale_Y }
+                    ParameterInfos[28] = { Name=SmokeDetail_Density_Min }
+                    ParameterInfos[29] = { Name=WPO_Intensity }
+                    ParameterInfos[30] = { Name=Flowmap_Scale_X }
+                    ParameterInfos[31] = { Name=FlowMapIntensity }
+                    ParameterInfos[32] = { Name=ErosionAmount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=SmokeColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Smoke_Texture }
+                    ParameterInfos[1] = { Name=GlitterTexture }
+                    ParameterInfos[2] = { Name=Glitter_GradientMap }
+                    ParameterInfos[3] = { Name=SmokeMask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[33] =
+        {
+            ScalarValues[0] = 0.1
+            ScalarValues[1] = 10
+            ScalarValues[2] = 3
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 5
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1.25
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 10
+            ScalarValues[16] = 1
+            ScalarValues[17] = 128
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 25
+            ScalarValues[22] = 1
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0.5
+            ScalarValues[25] = 0.05
+            ScalarValues[26] = 0
+            ScalarValues[27] = 1
+            ScalarValues[28] = -0.05
+            ScalarValues[29] = 1
+            ScalarValues[30] = 1
+            ScalarValues[31] = 0
+            ScalarValues[32] = 1
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.791667, G=0.563406, B=0.146432, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/Events/7thAnniversary/T_7thAnniv_Confetti_Normal.T_7thAnniv_Confetti_Normal'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/Events/7thAnniversary/T_Gradient_GoldShine.T_Gradient_GoldShine'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Events/7thAnniversary/T_7thAnniv_Confetti_Normal.T_7thAnniv_Confetti_Normal'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Events/7thAnniversary/T_Gradient_GoldShine.T_Gradient_GoldShine'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_cloud_02.T_cloud_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        Name = Smoke_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Events/7thAnniversary/T_7thAnniv_Confetti_Normal.T_7thAnniv_Confetti_Normal'
+        Name = GlitterTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Events/7thAnniversary/T_Gradient_GoldShine.T_Gradient_GoldShine'
+        Name = Glitter_GradientMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+        Name = SmokeMask
+        Group = None
+    }
+}
+CollectedScalarParameters[33] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Glitter_A_PanSpeed_Y, Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=Color_Density, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=Fresnel_HideAngle, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Glitter_A_PanSpeed_X, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Glitter_Density, Group=None }
+    CollectedScalarParameters[5] = { Value=5, Name=Smoke_Density, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1
+        Name = SmokeDetail_Density_Max
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0, Name=Glitter_B_PanSpeed_X, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1
+        Name = Glitter_GradientMap_Scale_X
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0, Name=Smoke_PanSpeed_X, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=RefractionMax, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=CameraFade_Length, Group=None }
+    CollectedScalarParameters[12] = { Value=1.25, Name=Glitter_A_Scale, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Smoke_Scale_X, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=CameraFade_Offset, Group=None }
+    CollectedScalarParameters[15] = { Value=10, Name=Glitter_Intensity, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 1
+        Name = ColoredSmokeCoverage_Max
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=128, Name=Glitter_B_Scale, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Flowmap_Scale_Y, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=SmokeMask_PanSpeed_X, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=Glitter_B_PanSpeed_Y, Group=None }
+    CollectedScalarParameters[21] = { Value=25, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 1
+        Name = Glitter_GradientMap_Scale_Y
+        Group = None
+    }
+    CollectedScalarParameters[23] = { Value=0, Name=SmokeMask_PanSpeed_Y, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0.5
+        Name = ColoredSmokeCoverage_Min
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=0.05, Name=Smoke_PanSpeed_Y, Group=None }
+    CollectedScalarParameters[26] =
+    {
+        Value = 0
+        Name = SmokeColor_EmissiveIntensity
+        Group = None
+    }
+    CollectedScalarParameters[27] = { Value=1, Name=Smoke_Scale_Y, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = -0.05
+        Name = SmokeDetail_Density_Min
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=1, Name=WPO_Intensity, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=Flowmap_Scale_X, Group=None }
+    CollectedScalarParameters[31] = { Value=0, Name=FlowMapIntensity, Group=None }
+    CollectedScalarParameters[32] = { Value=1, Name=ErosionAmount, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.791667, G=0.563406, B=0.146432, A=1 }
+        Name = SmokeColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_7thAnniv_Confetti_Normal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FlowMap_Wavy_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SmokeTile
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Soft_Smoke2
+    }
+}

@@ -1,0 +1,103 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/smoothNormalSphere.smoothNormalSphere'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_SmokeSubUV_8X8.T_SmokeSubUV_8X8'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Normal TIling Y }
+                    ParameterInfos[1] = { Name=DepthFade }
+                    ParameterInfos[2] = { Name=Ambient Color Intensity }
+                    ParameterInfos[3] = { Name=EmissiveIntensity }
+                    ParameterInfos[4] = { Name=Normal TIling X }
+                    ParameterInfos[5] = { Name=GestureIntensity }
+                    ParameterInfos[6] = { Name=NearFade Radius }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                    ParameterInfos[1] = { Name=NormalTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 8, 60, 0, 1, 8, 10, 256 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_SmokeSubUV_8X8.T_SmokeSubUV_8X8'
+            TextureValues[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/smoothNormalSphere.smoothNormalSphere'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeSubUV_8X8.T_SmokeSubUV_8X8'
+        ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/smoothNormalSphere.smoothNormalSphere'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_SmokeSubUV_8X8.T_SmokeSubUV_8X8'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/smoothNormalSphere.smoothNormalSphere'
+        Name = NormalTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=Normal TIling Y, Group=None }
+    CollectedScalarParameters[1] = { Value=60, Name=DepthFade, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0
+        Name = Ambient Color Intensity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=Normal TIling X, Group=None }
+    CollectedScalarParameters[5] = { Value=10, Name=GestureIntensity, Group=None }
+    CollectedScalarParameters[6] = { Value=256, Name=NearFade Radius, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 8
+        UVChannelIndex = 0
+        TextureName = smoothNormalSphere
+    }
+}

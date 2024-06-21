@@ -1,0 +1,327 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[11] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/K27/T_BluescreenTV_02.T_BluescreenTV_02'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/K27/T_CursedTape_9x9.T_CursedTape_9x9'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/K27/T_EjectTVScreen_01.T_EjectTVScreen_01'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/K27/T_KillerWell_Frame_01.T_KillerWell_Frame_01'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_FX_Water_Ripple_Normals.T_FX_Water_Ripple_Normals'
+    ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[44] =
+                {
+                    ParameterInfos[0] = { Name=Flipbook_ColumnsNumbers }
+                    ParameterInfos[1] = { Name=OpacityMainTexture }
+                    ParameterInfos[2] = { Name=Rotate_Glitch }
+                    ParameterInfos[3] = { Name=Noise_Opacity }
+                    ParameterInfos[4] = { Name=TV_MiddleMask_Opacity }
+                    ParameterInfos[5] = { Name=Speed_BlueScreen_02 }
+                    ParameterInfos[6] = { Name=TV_MiddleMask_Contrast }
+                    ParameterInfos[7] = { Name=TV_CloseLine_Visibility }
+                    ParameterInfos[8] = { Name=Tile_Noise_Y }
+                    ParameterInfos[9] = { Name=Tile_Y }
+                    ParameterInfos[10] = { Name=Tile_Noise_X }
+                    ParameterInfos[11] = { Name=Speed_BlueScreen }
+                    ParameterInfos[12] = { Name=Tile_Flipbook_Y }
+                    ParameterInfos[13] = { Name=AddColorToFlipbook }
+                    ParameterInfos[14] = { Name=Flipbook_Pos_X }
+                    ParameterInfos[15] = { Name=TV_Ouverture }
+                    ParameterInfos[16] = { Name=Aberation_Int }
+                    ParameterInfos[17] = { Name=Tile_X }
+                    ParameterInfos[18] = { Name=Flipbook_SpeedSineLag }
+                    ParameterInfos[19] = { Name=OpacityDirectionnalMask }
+                    ParameterInfos[20] = { Name=MinSmooth }
+                    ParameterInfos[21] = { Name=Core_TV_OuvertureInt }
+                    ParameterInfos[22] = { Name=Noise_Contrast }
+                    ParameterInfos[23] = { Name=ScaleGlitch_Y_02 }
+                    ParameterInfos[24] = { Name=Flipbook_Pos_Y }
+                    ParameterInfos[25] = { Name=MaxSmooth }
+                    ParameterInfos[26] = { Name=SwitchFlipbook }
+                    ParameterInfos[27] = { Name=Desaturate }
+                    ParameterInfos[28] = { Name=ScaleGlitch_X }
+                    ParameterInfos[29] = { Name=ScaleGlitch_Y }
+                    ParameterInfos[30] = { Name=Tile_Flipbook_X }
+                    ParameterInfos[31] = { Name=Bug_Visibility }
+                    ParameterInfos[32] = { Name=Rotate_Flipbook }
+                    ParameterInfos[33] = { Name=InvertGlitch }
+                    ParameterInfos[34] = { Name=ScaleGlitch_X_02 }
+                    ParameterInfos[35] = { Name=SwitchToEjectScreen }
+                    ParameterInfos[36] = { Name=CloseTVMask }
+                    ParameterInfos[37] = { Name=Opacity_CenterGlitch }
+                    ParameterInfos[38] = { Name=Show_Flipbook }
+                    ParameterInfos[39] = { Name=Flipbook_AnimationMult }
+                    ParameterInfos[40] = { Name=SwitchToBlueScreen }
+                    ParameterInfos[41] = { Name=Glitch_CoreContrast }
+                    ParameterInfos[42] = { Name=FakeTVGlow }
+                    ParameterInfos[43] = { Name=Speed_Bug }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Panner_Noise }
+                    ParameterInfos[1] = { Name=Speed_Glitch }
+                    ParameterInfos[2] = { Name=Flipbook_Color }
+                    ParameterInfos[3] = { Name=Speed_MainTexture }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MainTexture }
+                    ParameterInfos[1] = { Name=GlitchMask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[44] =
+        {
+            ScalarValues[0] = 3
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 5
+            ScalarValues[5] = 22
+            ScalarValues[6] = 3
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 22
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.4
+            ScalarValues[15] = 1000
+            ScalarValues[16] = 0.01
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 2
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0.028
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0
+            ScalarValues[25] = 1
+            ScalarValues[26] = 0
+            ScalarValues[27] = 0
+            ScalarValues[28] = 0
+            ScalarValues[29] = 1
+            ScalarValues[30] = 1
+            ScalarValues[31] = 0
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0
+            ScalarValues[34] = 0.01
+            ScalarValues[35] = 0
+            ScalarValues[36] = 0
+            ScalarValues[37] = 1
+            ScalarValues[38] = 0
+            ScalarValues[39] = 1
+            ScalarValues[40] = 0
+            ScalarValues[41] = 1
+            ScalarValues[42] = 1
+            ScalarValues[43] = 0.152381
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=-1, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+        }
+    }
+    ReferencedTextures[12] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_FX_Water_Ripple_Normals.T_FX_Water_Ripple_Normals'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/K27/T_BluescreenTV_02.T_BluescreenTV_02'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+        ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/K27/T_CursedTape_9x9.T_CursedTape_9x9'
+        ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/K27/T_KillerWell_Frame_01.T_KillerWell_Frame_01'
+        ReferencedTextures[11] = Texture2D'/Game/Effects/Textures/K27/T_EjectTVScreen_01.T_EjectTVScreen_01'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+        Name = GlitchMask
+        Group = None
+    }
+}
+CollectedScalarParameters[44] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 3
+        Name = Flipbook_ColumnsNumbers
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=OpacityMainTexture, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Rotate_Glitch, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Noise_Opacity, Group=None }
+    CollectedScalarParameters[4] = { Value=5, Name=TV_MiddleMask_Opacity, Group=None }
+    CollectedScalarParameters[5] = { Value=22, Name=Speed_BlueScreen_02, Group=None }
+    CollectedScalarParameters[6] = { Value=3, Name=TV_MiddleMask_Contrast, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0
+        Name = TV_CloseLine_Visibility
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1, Name=Tile_Noise_Y, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Tile_Y, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Tile_Noise_X, Group=None }
+    CollectedScalarParameters[11] = { Value=22, Name=Speed_BlueScreen, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Tile_Flipbook_Y, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=AddColorToFlipbook, Group=None }
+    CollectedScalarParameters[14] = { Value=0.4, Name=Flipbook_Pos_X, Group=None }
+    CollectedScalarParameters[15] = { Value=1000, Name=TV_Ouverture, Group=None }
+    CollectedScalarParameters[16] = { Value=0.01, Name=Aberation_Int, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Tile_X, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Flipbook_SpeedSineLag, Group=None }
+    CollectedScalarParameters[19] =
+    {
+        Value = 2
+        Name = OpacityDirectionnalMask
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=1, Name=MinSmooth, Group=None }
+    CollectedScalarParameters[21] =
+    {
+        Value = 0.028
+        Name = Core_TV_OuvertureInt
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=1, Name=Noise_Contrast, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=ScaleGlitch_Y_02, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=Flipbook_Pos_Y, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=MaxSmooth, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=SwitchFlipbook, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=Desaturate, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=ScaleGlitch_X, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=ScaleGlitch_Y, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=Tile_Flipbook_X, Group=None }
+    CollectedScalarParameters[31] = { Value=0, Name=Bug_Visibility, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=Rotate_Flipbook, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=InvertGlitch, Group=None }
+    CollectedScalarParameters[34] = { Value=0.01, Name=ScaleGlitch_X_02, Group=None }
+    CollectedScalarParameters[35] = { Value=0, Name=SwitchToEjectScreen, Group=None }
+    CollectedScalarParameters[36] = { Value=0, Name=CloseTVMask, Group=None }
+    CollectedScalarParameters[37] = { Value=1, Name=Opacity_CenterGlitch, Group=None }
+    CollectedScalarParameters[38] = { Value=0, Name=Show_Flipbook, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=Flipbook_AnimationMult, Group=None }
+    CollectedScalarParameters[40] = { Value=0, Name=SwitchToBlueScreen, Group=None }
+    CollectedScalarParameters[41] = { Value=1, Name=Glitch_CoreContrast, Group=None }
+    CollectedScalarParameters[42] = { Value=1, Name=FakeTVGlow, Group=None }
+    CollectedScalarParameters[43] = { Value=0.152381, Name=Speed_Bug, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Panner_Noise
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=-1, G=0, B=0, A=1 }
+        Name = Speed_Glitch
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Flipbook_Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Speed_MainTexture
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[6] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BluescreenTV_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.328125
+        UVChannelIndex = 0
+        TextureName = T_CursedTape_9x9
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Dust_Noise_02
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_EjectTVScreen_01
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_fxBloodTrail2
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 0.328125
+        UVChannelIndex = 0
+        TextureName = T_KillerWell_Frame_01
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_TarpBus01.MI_TarpBus01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_TarpBus01.MI_TarpBus01'
+        MaterialSlotName = MI_TarpBus01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 138.066, 646.254, 1359.83, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=207.159, Y=325.033, Z=170.479 }
+    BoxExtent = { X=185.313, Y=318.561, Z=162.589 }
+    SphereRadius = 364.263
+}

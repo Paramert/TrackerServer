@@ -1,0 +1,12 @@
+Diffuse=T_DissolveTextures
+Normal=T_HKHair01_N
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=T_ETouch_Tile
+Other[3]=T_HKHair01_M
+Other[4]=T_HKHair01_Mask
+Other[5]=Fxt_verticalGradient
+Other[6]=T_FX_DissolveRamp
+Other[7]=T_Noise02
+Other[8]=T_NoiseNormal_01
+Other[9]=Black

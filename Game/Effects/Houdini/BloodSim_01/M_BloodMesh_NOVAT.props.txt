@@ -1,0 +1,248 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Houdini/BloodSim_01/T_SplashMeshGround_Albedo_01.T_SplashMeshGround_Albedo_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Houdini/BloodSim_01/T_SplashMeshGround_ORM_01.T_SplashMeshGround_ORM_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Emissive }
+                    ParameterInfos[2] = { Name=Specular }
+                    ParameterInfos[3] = { Name=Reflection_Opacity }
+                    ParameterInfos[4] = { Name=Softness_Reflection }
+                    ParameterInfos[5] = { Name=Scale_noise }
+                    ParameterInfos[6] = { Name=TurnOffBloodColor }
+                    ParameterInfos[7] = { Name=NormalPanningSpeedY }
+                    ParameterInfos[8] = { Name=Scale_noise_WPO }
+                    ParameterInfos[9] = { Name=Scale_Normal_Reflection }
+                    ParameterInfos[10] = { Name=NormalPanningSpeedX }
+                    ParameterInfos[11] = { Name=Metallic_Strength }
+                    ParameterInfos[12] = { Name=WPO_int }
+                    ParameterInfos[13] = { Name=Reflection_Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Flesh Color 01 }
+                    ParameterInfos[1] = { Name=Flesh Color 02 }
+                    ParameterInfos[2] = { Name=Blood Color Reflection }
+                    ParameterInfos[3] = { Name=Color_Blood }
+                    ParameterInfos[4] = { Name=Test_sub }
+                    ParameterInfos[5] = { Name=Speed_WPO }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=CutoutTexture }
+                    ParameterInfos[1] = { Name=ORM }
+                    ParameterInfos[2] = { Name=WPO_Noise_texture }
+                    ParameterInfos[3] = { Name=Reflection Map }
+                    ParameterInfos[4] = { Name=Normal_texture }
+                    ParameterInfos[5] = { Name=ColorTexture }
+                    ParameterInfos[6] = { Name=NormalDistortionTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 5
+            ScalarValues[2] = 0.001
+            ScalarValues[3] = 5
+            ScalarValues[4] = 6
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0.2
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.2
+            ScalarValues[11] = 1
+            ScalarValues[12] = 15
+            ScalarValues[13] = 2
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0.151042, G=0.005974, B=0.004531, A=1 }
+            VectorValues[1] = { R=0.026042, G=0.000217, B=0, A=1 }
+            VectorValues[2] = { R=0.5, G=0.39, B=0.39, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=0.1, G=0.1, B=0, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+            TextureValues[1] = Texture2D'/Game/Effects/Houdini/BloodSim_01/T_SplashMeshGround_ORM_01.T_SplashMeshGround_ORM_01'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+            TextureValues[5] = Texture2D'/Game/Effects/Houdini/BloodSim_01/T_SplashMeshGround_Albedo_01.T_SplashMeshGround_Albedo_01'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Houdini/BloodSim_01/T_SplashMeshGround_ORM_01.T_SplashMeshGround_ORM_01'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Houdini/BloodSim_01/T_SplashMeshGround_Albedo_01.T_SplashMeshGround_Albedo_01'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = CutoutTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Houdini/BloodSim_01/T_SplashMeshGround_ORM_01.T_SplashMeshGround_ORM_01'
+        Name = ORM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = WPO_Noise_texture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        Name = Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+        Name = Normal_texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Houdini/BloodSim_01/T_SplashMeshGround_Albedo_01.T_SplashMeshGround_Albedo_01'
+        Name = ColorTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        Name = NormalDistortionTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=Emissive, Group=None }
+    CollectedScalarParameters[2] = { Value=0.001, Name=Specular, Group=None }
+    CollectedScalarParameters[3] = { Value=5, Name=Reflection_Opacity, Group=None }
+    CollectedScalarParameters[4] = { Value=6, Name=Softness_Reflection, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Scale_noise, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=TurnOffBloodColor, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=NormalPanningSpeedY, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Scale_noise_WPO, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 1
+        Name = Scale_Normal_Reflection
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0.2, Name=NormalPanningSpeedX, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Metallic_Strength, Group=None }
+    CollectedScalarParameters[12] = { Value=15, Name=WPO_int, Group=None }
+    CollectedScalarParameters[13] = { Value=2, Name=Reflection_Contrast, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.151042, G=0.005974, B=0.004531, A=1 }
+        Name = Flesh Color 01
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.026042, G=0.000217, B=0, A=1 }
+        Name = Flesh Color 02
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.5, G=0.39, B=0.39, A=1 }
+        Name = Blood Color Reflection
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Color_Blood
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Test_sub
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.1, G=0.1, B=0, A=1 }
+        Name = Speed_WPO
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Dust_Noise_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Houdini/BloodSim_01/MI_BloodMesh_NOVAT.MI_BloodMesh_NOVAT'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/BloodSim_01/MI_BloodMesh_NOVAT.MI_BloodMesh_NOVAT'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 54.8028, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.96275, Y=1.35725, Z=17.2943 }
+    BoxExtent = { X=16.9785, Y=14.766, Z=22.7058 }
+    SphereRadius = 28.8144
+}

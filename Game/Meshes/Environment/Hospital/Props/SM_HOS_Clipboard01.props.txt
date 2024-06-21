@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Clipboard01.MI_HOS_Clipboard01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Clipboard01.MI_HOS_Clipboard01'
+        MaterialSlotName = MI_HOS_Clipboard01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 78.9001, 130.205, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=11.1327 }
+    BoxExtent = { X=26.2722, Y=15.8359, Z=11.6945 }
+    SphereRadius = 32.6334
+}

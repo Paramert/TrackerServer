@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_Ion_RoseBushWood.MI_Ion_RoseBushWood'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_Ion_RoseBushPetals.MI_Ion_RoseBushPetals'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_Ion_RoseBushWood.MI_Ion_RoseBushWood'
+        MaterialSlotName = MI_Ion_WoodBark_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 41.1512, 41.1512, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_Ion_RoseBushPetals.MI_Ion_RoseBushPetals'
+        MaterialSlotName = MI_ION_Rose_and_Leaf_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 11.1118, 11.1118, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-20.9668, Y=11.3191, Z=59.4147 }
+    BoxExtent = { X=54.2263, Y=66.1486, Z=61.2234 }
+    SphereRadius = 82.3643
+}

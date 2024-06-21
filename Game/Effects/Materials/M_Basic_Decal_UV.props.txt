@@ -1,0 +1,253 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    ReferencedTextures[4] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[24] =
+                {
+                    ParameterInfos[0] = { Name=018_FadeRadius }
+                    ParameterInfos[1] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[2] = { Name=Atl_Roughness }
+                    ParameterInfos[3] = { Name=06_SpecularRoughAmount }
+                    ParameterInfos[4] = { Name=018_FadeRadiusDistance }
+                    ParameterInfos[5] = { Name=06_AOContrast }
+                    ParameterInfos[6] = { Name=Atl_Metallic }
+                    ParameterInfos[7] = { Name=UV_Scale }
+                    ParameterInfos[8] = { Name=UV_offsetV }
+                    ParameterInfos[9] = { Name=06_CustomSpecular }
+                    ParameterInfos[10] = { Name=06_(SW)UseTexCoord[1] }
+                    ParameterInfos[11] = { Name=CAOBlendContrast }
+                    ParameterInfos[12] = { Name=NE_Opacity }
+                    ParameterInfos[13] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[14] = { Name=Custom_Tile_U }
+                    ParameterInfos[15] = { Name=06_AOValue }
+                    ParameterInfos[16] = { Name=06_RoughnessContrast }
+                    ParameterInfos[17] = { Name=Atl_Specular }
+                    ParameterInfos[18] = { Name=Custom_Tile_V }
+                    ParameterInfos[19] = { Name=UV_offsetU }
+                    ParameterInfos[20] = { Name=06_RoughnessValue }
+                    ParameterInfos[21] = { Name=06_MetallicValue }
+                    ParameterInfos[22] = { Name=CAOBlendDistance }
+                    ParameterInfos[23] = { Name=Specular Amount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Atl_DiffuseTint }
+                    ParameterInfos[1] = { Name=ColorTint_Fade }
+                    ParameterInfos[2] = { Name=CAOBlendColor }
+                    ParameterInfos[3] = { Name=NE_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Diffuse }
+                    ParameterInfos[1] = { Name=Normal }
+                    ParameterInfos[2] = { Name=06_AOTexture }
+                    ParameterInfos[3] = { Name=06_MetallicTexture }
+                    ParameterInfos[4] = { Name=06_RoughnessTexture }
+                    ParameterInfos[5] = { Name=06_ORMTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[24] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 10
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 4000
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.5
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0.01
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0
+            ScalarValues[18] = 1
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+            ScalarValues[22] = 4000
+            ScalarValues[23] = 0.2
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[2] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = 06_AOTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = 06_MetallicTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = 06_RoughnessTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = 06_ORMTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[24] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=018_FadeRadius, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=06_SpecularRoughAmount, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 4000
+        Name = 018_FadeRadiusDistance
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0, Name=06_AOContrast, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=UV_Scale, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=UV_offsetV, Group=None }
+    CollectedScalarParameters[9] = { Value=0.5, Name=06_CustomSpecular, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=06_(SW)UseTexCoord[1], Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=CAOBlendContrast, Group=None }
+    CollectedScalarParameters[12] = { Value=0.01, Name=NE_Opacity, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Custom_Tile_U, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=06_AOValue, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=06_RoughnessContrast, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Custom_Tile_V, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=UV_offsetU, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=06_RoughnessValue, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=06_MetallicValue, Group=None }
+    CollectedScalarParameters[22] = { Value=4000, Name=CAOBlendDistance, Group=None }
+    CollectedScalarParameters[23] = { Value=0.2, Name=Specular Amount, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint_Fade
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = CAOBlendColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NE_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_checker_grid
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_FlatNormal_01
+    }
+}

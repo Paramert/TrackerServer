@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_Ion_Tomb_04.MI_Ion_Tomb_04'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_Ion_Tomb_04.MI_Ion_Tomb_04'
+        MaterialSlotName = MI_Ion_Tomb_04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 242.024, 146.91, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=39.489, Y=-21.5375, Z=10.2433 }
+    BoxExtent = { X=41.3062, Y=23.4822, Z=10.5951 }
+    SphereRadius = 47.6651
+}

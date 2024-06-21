@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/Bear/Materials/MI_BESW01.MI_BESW01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/Bear/Materials/MI_BESW01.MI_BESW01'
+        MaterialSlotName = MI_BESW01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50.0903, 530.206, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.77263, Y=-0.0852199, Z=30.7398 }
+    BoxExtent = { X=12.0408, Y=3.04364, Z=30.7287 }
+    SphereRadius = 32.5331
+}

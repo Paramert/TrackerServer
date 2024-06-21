@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/Slasher18/M_BloodOrb.M_BloodOrb'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/Slasher18/M_BloodOrb.M_BloodOrb'
+        MaterialSlotName = M_Bloodorb
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 68.3264, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=42.4588, Y=42.4588, Z=42.4588 }
+    SphereRadius = 43.6916
+}

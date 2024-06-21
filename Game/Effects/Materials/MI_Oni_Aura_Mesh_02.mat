@@ -1,0 +1,5 @@
+Diffuse=T_Gradient_Aura_03
+Normal=T_WaterNormal3
+SpecPower=T_Sphere_Tileable
+Other[0]=T_Smoke_02
+Other[1]=T_SmokeTile

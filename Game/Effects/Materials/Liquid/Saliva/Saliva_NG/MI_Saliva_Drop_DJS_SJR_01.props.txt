@@ -1,0 +1,204 @@
+Parent = MaterialInstanceConstant'/Game/Effects/Materials/Liquid/GlowyJuice/MI_HalloweenJuice.MI_HalloweenJuice'
+ScalarParameterValues[15] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Contrast_Reflection }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Depth Fade }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Detail -Intensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Detail -SpeedX }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Detail -SpeedY }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Detail-Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 2.3
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Opacity_Distortion }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Opacity_Reflection }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Reflection_Softness }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Scale_NoiseColor_Blood }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Smoot Step Max }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Smoot Step Min }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Time_Particle }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Erosion Texture RG }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_01.T_Saliva_Drop_01'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Normal Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_BloodDrips_01_N.T_BloodDrips_01_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Reflection Map }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Blood Color light }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Blood Color Outer }
+        ParameterValue = { R=0.1875, G=0.00628, B=0.098202, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Blood Color Outer_02 }
+        ParameterValue = { R=0.458333, G=0.458333, B=0.458333, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Emissive Color }
+        ParameterValue = { R=0.020833, G=0.003839, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[8] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4.79852
+        UVChannelIndex = 0
+        TextureName = T_IceNoise
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mud_01_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Saliva_Drop_01
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal
+    }
+}

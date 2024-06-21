@@ -1,0 +1,97 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_blood_various.T_blood_various'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_blood_various_01_N.T_blood_various_01_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Fresnel Power }
+                    ParameterInfos[1] = { Name=AtlantaIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Fresnel Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Diffuse }
+                    ParameterInfos[1] = { Name=NormalT }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 1.5, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.025, G=0.001125, B=0.001125, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_blood_various.T_blood_various'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_blood_various_01_N.T_blood_various_01_N'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_blood_various.T_blood_various'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_blood_various_01_N.T_blood_various_01_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_blood_various.T_blood_various'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_blood_various_01_N.T_blood_various_01_N'
+        Name = NormalT
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1.5, Name=Fresnel Power, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=AtlantaIntensity, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.025, G=0.001125, B=0.001125, A=1 }
+        Name = Fresnel Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

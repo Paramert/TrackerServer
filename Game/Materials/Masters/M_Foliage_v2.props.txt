@@ -1,0 +1,1211 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+    ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+    ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Vegetations/T_MapleOakLeaves01_Wind.T_MapleOakLeaves01_Wind'
+    ReferencedTextures[9] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[122] =
+                {
+                    ParameterInfos[0] = { Name=018_FadeRadius }
+                    ParameterInfos[1] = { Name=Main_AltUVsRotation }
+                    ParameterInfos[2] = { Name=Green_AOValue }
+                    ParameterInfos[3] = { Name=Green_Rotation }
+                    ParameterInfos[4] = { Name=Main_OpacityValue }
+                    ParameterInfos[5] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[6] = { Name=Atl_Roughness }
+                    ParameterInfos[7] = { Name=Splat_RGBAMaskRotation }
+                    ParameterInfos[8] = { Name=FollowScale }
+                    ParameterInfos[9] = { Name=Green_BaseColorHue }
+                    ParameterInfos[10] = { Name=050_WPOFlatness }
+                    ParameterInfos[11] = { Name=Green_MetalValue }
+                    ParameterInfos[12] = { Name=Splat_RedContrast }
+                    ParameterInfos[13] = { Name=050_WindSpeed }
+                    ParameterInfos[14] = { Name=Alpha_WPOValue }
+                    ParameterInfos[15] = { Name=Main_BaseColorSaturation }
+                    ParameterInfos[16] = { Name=Alpha_BaseColorSaturation }
+                    ParameterInfos[17] = { Name=Green_RoughBlackLvl }
+                    ParameterInfos[18] = { Name=Main_WPOValue }
+                    ParameterInfos[19] = { Name=050_WindIntensity }
+                    ParameterInfos[20] = { Name=Alpha_OpacityValue }
+                    ParameterInfos[21] = { Name=Cyan_OpacityValue }
+                    ParameterInfos[22] = { Name=050_DetailWPORotation }
+                    ParameterInfos[23] = { Name=Red_RoughValue }
+                    ParameterInfos[24] = { Name=Main_FeatureNormalFlatness }
+                    ParameterInfos[25] = { Name=050_DetailWPOFlatness }
+                    ParameterInfos[26] = { Name=Red_RoughBlackLvl }
+                    ParameterInfos[27] = { Name=Red_SpecValue }
+                    ParameterInfos[28] = { Name=018_FadeRadiusDistance }
+                    ParameterInfos[29] = { Name=Alpha_Height_Contrast }
+                    ParameterInfos[30] = { Name=Alpha_RoughWhiteLvl }
+                    ParameterInfos[31] = { Name=Green_HeightValue }
+                    ParameterInfos[32] = { Name=Green_Height_Contrast }
+                    ParameterInfos[33] = { Name=Splat_GreenContrast }
+                    ParameterInfos[34] = { Name=Main_HeightValue }
+                    ParameterInfos[35] = { Name=EffectIntensity }
+                    ParameterInfos[36] = { Name=EffectPeriod }
+                    ParameterInfos[37] = { Name=WobbleTimeScaleMax }
+                    ParameterInfos[38] = { Name=050_WeightHeight }
+                    ParameterInfos[39] = { Name=NE_FoliageInfluenceDistance }
+                    ParameterInfos[40] = { Name=WobbleIntensity }
+                    ParameterInfos[41] = { Name=Atl_Metallic }
+                    ParameterInfos[42] = { Name=Red_AOValue }
+                    ParameterInfos[43] = { Name=Main_RoughWhiteLvl }
+                    ParameterInfos[44] = { Name=Green_WPOValue }
+                    ParameterInfos[45] = { Name=Cyan_WPOValue }
+                    ParameterInfos[46] = { Name=Splat_AlphaContrast }
+                    ParameterInfos[47] = { Name=Red_BaseColorSaturation }
+                    ParameterInfos[48] = { Name=014_SpecularValue }
+                    ParameterInfos[49] = { Name=Main_SpecValue }
+                    ParameterInfos[50] = { Name=Red_MetalValue }
+                    ParameterInfos[51] = { Name=EffectDistance }
+                    ParameterInfos[52] = { Name=Red_HeightValue }
+                    ParameterInfos[53] = { Name=014_GroundHeight }
+                    ParameterInfos[54] = { Name=Red_RoughWhiteLvl }
+                    ParameterInfos[55] = { Name=050_GroundHeight }
+                    ParameterInfos[56] = { Name=Cyan_Rotation }
+                    ParameterInfos[57] = { Name=050_WindWeight }
+                    ParameterInfos[58] = { Name=Cyan_Height_Contrast }
+                    ParameterInfos[59] = { Name=Green_SpecValue }
+                    ParameterInfos[60] = { Name=014_BlendHeight }
+                    ParameterInfos[61] = { Name=Cyan_AOValue }
+                    ParameterInfos[62] = { Name=Main_Rotation }
+                    ParameterInfos[63] = { Name=Alpha_AOValue }
+                    ParameterInfos[64] = { Name=050_WindNormalFlatness }
+                    ParameterInfos[65] = { Name=Cyan_BaseColorSaturation }
+                    ParameterInfos[66] = { Name=Splat_RGBAMaskValue }
+                    ParameterInfos[67] = { Name=Red_Rotation }
+                    ParameterInfos[68] = { Name=Alpha_BaseColorHue }
+                    ParameterInfos[69] = { Name=Main_RoughBlackLvl }
+                    ParameterInfos[70] = { Name=036_RandomDitherAmount }
+                    ParameterInfos[71] = { Name=Main_BaseColorHue }
+                    ParameterInfos[72] = { Name=050_WPORotation }
+                    ParameterInfos[73] = { Name=036_Atl_ClampMax }
+                    ParameterInfos[74] = { Name=Red_Height_Contrast }
+                    ParameterInfos[75] = { Name=Alpha_RoughValue }
+                    ParameterInfos[76] = { Name=Cyan_BaseColorHue }
+                    ParameterInfos[77] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[78] = { Name=Red_OpacityValue }
+                    ParameterInfos[79] = { Name=Alpha_SpecRoughAmount }
+                    ParameterInfos[80] = { Name=Cyan_MetalValue }
+                    ParameterInfos[81] = { Name=018_Hardness }
+                    ParameterInfos[82] = { Name=Alpha_RoughBlackLvl }
+                    ParameterInfos[83] = { Name=Main_RoughValue }
+                    ParameterInfos[84] = { Name=Alpha_NormalFlatness }
+                    ParameterInfos[85] = { Name=Red_WPOValue }
+                    ParameterInfos[86] = { Name=Green_RoughWhiteLvl }
+                    ParameterInfos[87] = { Name=Alpha_HeightValue }
+                    ParameterInfos[88] = { Name=Alpha_MetalValue }
+                    ParameterInfos[89] = { Name=NE_FoliageEffectScale }
+                    ParameterInfos[90] = { Name=Alpha_Rotation }
+                    ParameterInfos[91] = { Name=Leaf Opacity }
+                    ParameterInfos[92] = { Name=Cyan_HeightValue }
+                    ParameterInfos[93] = { Name=Green_NormalFlatness }
+                    ParameterInfos[94] = { Name=050_SubsurfaceValue }
+                    ParameterInfos[95] = { Name=Cyan_RoughBlackLvl }
+                    ParameterInfos[96] = { Name=Main_NormalFlatness }
+                    ParameterInfos[97] = { Name=WobbleTimeScaleMin }
+                    ParameterInfos[98] = { Name=Atl_Specular }
+                    ParameterInfos[99] = { Name=014_BlendCurve }
+                    ParameterInfos[100] = { Name=Code_Emissive }
+                    ParameterInfos[101] = { Name=018_FadeToValue }
+                    ParameterInfos[102] = { Name=Cyan_NormalFlatness }
+                    ParameterInfos[103] = { Name=Green_OpacityValue }
+                    ParameterInfos[104] = { Name=050_DetailWPOPower }
+                    ParameterInfos[105] = { Name=014_RoughValue }
+                    ParameterInfos[106] = { Name=Splat_BlueContrast }
+                    ParameterInfos[107] = { Name=036_PixelDepthOffset }
+                    ParameterInfos[108] = { Name=Main_SpecRoughAmount }
+                    ParameterInfos[109] = { Name=Main_AOValue }
+                    ParameterInfos[110] = { Name=Cyan_SpecValue }
+                    ParameterInfos[111] = { Name=050_WPOPower }
+                    ParameterInfos[112] = { Name=Cyan_RoughValue }
+                    ParameterInfos[113] = { Name=Cyan_RoughWhiteLvl }
+                    ParameterInfos[114] = { Name=Green_RoughValue }
+                    ParameterInfos[115] = { Name=Green_BaseColorSaturation }
+                    ParameterInfos[116] = { Name=Green_SpecRoughAmount }
+                    ParameterInfos[117] = { Name=Main_MetalValue }
+                    ParameterInfos[118] = { Name=Red_NormalFlatness }
+                    ParameterInfos[119] = { Name=Alpha_SpecValue }
+                    ParameterInfos[120] = { Name=Red_BaseColorHue }
+                    ParameterInfos[121] = { Name=018_Distance }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[49] =
+                {
+                    ParameterInfos[0] = { Name=Green_BaseColorTint }
+                    ParameterInfos[1] = { Name=014_TerrainTextureTiling }
+                    ParameterInfos[2] = { Name=Alpha_EmissiveValue }
+                    ParameterInfos[3] = { Name=ClipRegion30 }
+                    ParameterInfos[4] = { Name=Main_Tiling }
+                    ParameterInfos[5] = { Name=ClipRegion32 }
+                    ParameterInfos[6] = { Name=Cyan_Offset }
+                    ParameterInfos[7] = { Name=ClipRegion20 }
+                    ParameterInfos[8] = { Name=050_DetailWPOSpeedXY }
+                    ParameterInfos[9] = { Name=Main_Offset }
+                    ParameterInfos[10] = { Name=050_DetailWPOScaleXY }
+                    ParameterInfos[11] = { Name=ClipRegion10 }
+                    ParameterInfos[12] = { Name=050_WPOScaleXY }
+                    ParameterInfos[13] = { Name=050_MaxVariation }
+                    ParameterInfos[14] = { Name=Main_AltUVsOffset }
+                    ParameterInfos[15] = { Name=Cyan_BaseColorTint }
+                    ParameterInfos[16] = { Name=ColorTint_Fade }
+                    ParameterInfos[17] = { Name=Red_EmissiveValue }
+                    ParameterInfos[18] = { Name=050_WPOSpeedXY }
+                    ParameterInfos[19] = { Name=ClipRegion02 }
+                    ParameterInfos[20] = { Name=Main_EmissiveValue }
+                    ParameterInfos[21] = { Name=Main_BaseColorTint }
+                    ParameterInfos[22] = { Name=ClipRegion12 }
+                    ParameterInfos[23] = { Name=ClipRegion01 }
+                    ParameterInfos[24] = { Name=ClipRegion11 }
+                    ParameterInfos[25] = { Name=Alpha_Tiling }
+                    ParameterInfos[26] = { Name=014_ColorValue }
+                    ParameterInfos[27] = { Name=ClipRegion31 }
+                    ParameterInfos[28] = { Name=Red_BaseColorTint }
+                    ParameterInfos[29] = { Name=Red_Offset }
+                    ParameterInfos[30] = { Name=Red_Tiling }
+                    ParameterInfos[31] = { Name=Main_AltUVsTiling }
+                    ParameterInfos[32] = { Name=Splat_RGBAMask_Offset }
+                    ParameterInfos[33] = { Name=Cyan_EmissiveValue }
+                    ParameterInfos[34] = { Name=ClipBoxExtents }
+                    ParameterInfos[35] = { Name=ClipBoxCenter }
+                    ParameterInfos[36] = { Name=Green_EmissiveValue }
+                    ParameterInfos[37] = { Name=Green_Tiling }
+                    ParameterInfos[38] = { Name=Splat_RGBAMask_Tiling }
+                    ParameterInfos[39] = { Name=ClipRegion00 }
+                    ParameterInfos[40] = { Name=Alpha_Offset }
+                    ParameterInfos[41] = { Name=ClipRegion22 }
+                    ParameterInfos[42] = { Name=014_TextureColorTint }
+                    ParameterInfos[43] = { Name=Cyan_Tiling }
+                    ParameterInfos[44] = { Name=Alpha_BaseColorTint }
+                    ParameterInfos[45] = { Name=ClipRegion21 }
+                    ParameterInfos[46] = { Name=Offset+Scale }
+                    ParameterInfos[47] = { Name=050_MinVariation }
+                    ParameterInfos[48] = { Name=Green_Offset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[37] =
+                {
+                    ParameterInfos[0] = { Name=Red_BaseColor }
+                    ParameterInfos[1] = { Name=Green_ORM }
+                    ParameterInfos[2] = { Name=DetailWPOTexture }
+                    ParameterInfos[3] = { Name=Cyan_BaseColor }
+                    ParameterInfos[4] = { Name=Red_ORM }
+                    ParameterInfos[5] = { Name=Main_ORM }
+                    ParameterInfos[6] = { Name=Splat_RGBAMask }
+                    ParameterInfos[7] = { Name=Main_WPO }
+                    ParameterInfos[8] = { Name=Alpha_ORM }
+                    ParameterInfos[9] = { Name=Cyan_ORM }
+                    ParameterInfos[10] = { Name=014_TerrainTexture }
+                    ParameterInfos[11] = { Name=Red_Normal }
+                    ParameterInfos[12] = { Name=Red_CustomOpacity }
+                    ParameterInfos[13] = { Name=Green_CustomOpacity }
+                    ParameterInfos[14] = { Name=Main_FeatureNormal }
+                    ParameterInfos[15] = { Name=Cyan_Height }
+                    ParameterInfos[16] = { Name=Green_BaseColor }
+                    ParameterInfos[17] = { Name=Red_EmissiveMask }
+                    ParameterInfos[18] = { Name=Main_ColorTintMask }
+                    ParameterInfos[19] = { Name=Main_CustomOpacity }
+                    ParameterInfos[20] = { Name=050_WindMaskTexture }
+                    ParameterInfos[21] = { Name=Main_EmissiveMask }
+                    ParameterInfos[22] = { Name=Main_BaseColor }
+                    ParameterInfos[23] = { Name=Cyan_EmissiveMask }
+                    ParameterInfos[24] = { Name=050_WPOTexture }
+                    ParameterInfos[25] = { Name=Cyan_Normal }
+                    ParameterInfos[26] = { Name=Alpha_Normal }
+                    ParameterInfos[27] = { Name=Main_Normal }
+                    ParameterInfos[28] = { Name=Alpha_BaseColor }
+                    ParameterInfos[29] = { Name=Alpha_CustomOpacity }
+                    ParameterInfos[30] = { Name=Red_WPO }
+                    ParameterInfos[31] = { Name=Alpha_WPO }
+                    ParameterInfos[32] = { Name=Green_EmissiveMask }
+                    ParameterInfos[33] = { Name=Green_WPO }
+                    ParameterInfos[34] = { Name=Cyan_CustomOpacity }
+                    ParameterInfos[35] = { Name=Alpha_EmissiveMask }
+                    ParameterInfos[36] = { Name=Green_Normal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[122] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 10
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.75
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0
+            ScalarValues[20] = 1
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0
+            ScalarValues[25] = 1
+            ScalarValues[26] = 0
+            ScalarValues[27] = 0.5
+            ScalarValues[28] = 4000
+            ScalarValues[29] = 0
+            ScalarValues[30] = 1
+            ScalarValues[31] = 1
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0
+            ScalarValues[34] = 1
+            ScalarValues[35] = 5
+            ScalarValues[36] = 5
+            ScalarValues[37] = 0.1
+            ScalarValues[38] = 30
+            ScalarValues[39] = 100
+            ScalarValues[40] = 5
+            ScalarValues[41] = 0
+            ScalarValues[42] = 1
+            ScalarValues[43] = 1
+            ScalarValues[44] = 1
+            ScalarValues[45] = 1
+            ScalarValues[46] = 0
+            ScalarValues[47] = 1
+            ScalarValues[48] = 0
+            ScalarValues[49] = 0.5
+            ScalarValues[50] = 1
+            ScalarValues[51] = 5
+            ScalarValues[52] = 1
+            ScalarValues[53] = 5
+            ScalarValues[54] = 1
+            ScalarValues[55] = 5
+            ScalarValues[56] = 0
+            ScalarValues[57] = 0
+            ScalarValues[58] = 0
+            ScalarValues[59] = 0.5
+            ScalarValues[60] = 10
+            ScalarValues[61] = 1
+            ScalarValues[62] = 0
+            ScalarValues[63] = 1
+            ScalarValues[64] = 0.9
+            ScalarValues[65] = 1
+            ScalarValues[66] = 1
+            ScalarValues[67] = 0
+            ScalarValues[68] = 0
+            ScalarValues[69] = 0
+            ScalarValues[70] = 1
+            ScalarValues[71] = 0
+            ScalarValues[72] = 0
+            ScalarValues[73] = 1.55
+            ScalarValues[74] = 0
+            ScalarValues[75] = 1
+            ScalarValues[76] = 0
+            ScalarValues[77] = 0
+            ScalarValues[78] = 1
+            ScalarValues[79] = 0
+            ScalarValues[80] = 1
+            ScalarValues[81] = 0.5
+            ScalarValues[82] = 0
+            ScalarValues[83] = 1
+            ScalarValues[84] = 0
+            ScalarValues[85] = 1
+            ScalarValues[86] = 1
+            ScalarValues[87] = 1
+            ScalarValues[88] = 1
+            ScalarValues[89] = 1
+            ScalarValues[90] = 0
+            ScalarValues[91] = 1
+            ScalarValues[92] = 1
+            ScalarValues[93] = 0
+            ScalarValues[94] = 0
+            ScalarValues[95] = 0
+            ScalarValues[96] = 0
+            ScalarValues[97] = 0.1
+            ScalarValues[98] = 0
+            ScalarValues[99] = 1
+            ScalarValues[100] = 1
+            ScalarValues[101] = 0.1
+            ScalarValues[102] = 0
+            ScalarValues[103] = 1
+            ScalarValues[104] = 0
+            ScalarValues[105] = 1
+            ScalarValues[106] = 0
+            ScalarValues[107] = 0
+            ScalarValues[108] = 0
+            ScalarValues[109] = 1
+            ScalarValues[110] = 0.5
+            ScalarValues[111] = 0
+            ScalarValues[112] = 1
+            ScalarValues[113] = 1
+            ScalarValues[114] = 1
+            ScalarValues[115] = 1
+            ScalarValues[116] = 0
+            ScalarValues[117] = 1
+            ScalarValues[118] = 0
+            ScalarValues[119] = 0.5
+            ScalarValues[120] = 0
+            ScalarValues[121] = 800
+        }
+        VectorValues[49] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[6] = { R=0, G=0, B=0, A=0 }
+            VectorValues[7] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[8] = { R=0, G=0, B=0, A=0 }
+            VectorValues[9] = { R=0, G=0, B=0, A=0 }
+            VectorValues[10] = { R=1, G=1, B=0, A=0 }
+            VectorValues[11] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[12] = { R=1, G=1, B=0, A=0 }
+            VectorValues[13] = { R=0.810169, G=1, B=0, A=0 }
+            VectorValues[14] = { R=0, G=0, B=0, A=0 }
+            VectorValues[15] = { R=1, G=1, B=1, A=0 }
+            VectorValues[16] = { R=1, G=1, B=1, A=1 }
+            VectorValues[17] = { R=0, G=0, B=0, A=0 }
+            VectorValues[18] = { R=0, G=0, B=0, A=0 }
+            VectorValues[19] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[20] = { R=0, G=0, B=0, A=0 }
+            VectorValues[21] = { R=1, G=1, B=1, A=0 }
+            VectorValues[22] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[23] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[24] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[25] = { R=1, G=1, B=0, A=0 }
+            VectorValues[26] = { R=0.030573, G=0.05, B=0, A=0 }
+            VectorValues[27] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[28] = { R=1, G=1, B=1, A=0 }
+            VectorValues[29] = { R=0, G=0, B=0, A=0 }
+            VectorValues[30] = { R=1, G=1, B=0, A=0 }
+            VectorValues[31] = { R=1, G=1, B=0, A=0 }
+            VectorValues[32] = { R=0, G=0, B=0, A=0 }
+            VectorValues[33] = { R=0, G=0, B=0, A=0 }
+            VectorValues[34] = { R=200000, G=200000, B=200000, A=0 }
+            VectorValues[35] = { R=0, G=0, B=0, A=0 }
+            VectorValues[36] = { R=0, G=0, B=0, A=0 }
+            VectorValues[37] = { R=1, G=1, B=0, A=0 }
+            VectorValues[38] = { R=1, G=1, B=0, A=0 }
+            VectorValues[39] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[40] = { R=0, G=0, B=0, A=0 }
+            VectorValues[41] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[42] = { R=1, G=1, B=1, A=0 }
+            VectorValues[43] = { R=1, G=1, B=0, A=0 }
+            VectorValues[44] = { R=1, G=1, B=1, A=0 }
+            VectorValues[45] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[46] = { R=0, G=-1, B=100, A=-100 }
+            VectorValues[47] = { R=1, G=1, B=1, A=0 }
+            VectorValues[48] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[37] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[2] = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+            TextureValues[3] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[6] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[7] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[8] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[9] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[10] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[11] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[12] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[13] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[14] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[15] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[16] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[17] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[18] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[19] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[20] = Texture2D'/Game/Textures/Environment/Vegetations/T_MapleOakLeaves01_Wind.T_MapleOakLeaves01_Wind'
+            TextureValues[21] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[22] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[23] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[24] = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+            TextureValues[25] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[26] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[27] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[28] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[29] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[30] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[31] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[32] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[33] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[34] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[35] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[36] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        ReferencedTextures[7] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+        ReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Vegetations/T_MapleOakLeaves01_Wind.T_MapleOakLeaves01_Wind'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[37] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Red_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Green_ORM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+        Name = DetailWPOTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Cyan_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Red_ORM
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Main_ORM
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Splat_RGBAMask
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Main_WPO
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Alpha_ORM
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Cyan_ORM
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = 014_TerrainTexture
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Red_Normal
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Red_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Green_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Main_FeatureNormal
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Cyan_Height
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Green_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Red_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[18] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Main_ColorTintMask
+        Group = None
+    }
+    CollectedTextureParameters[19] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Main_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[20] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/T_MapleOakLeaves01_Wind.T_MapleOakLeaves01_Wind'
+        Name = 050_WindMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[21] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Main_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[22] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Main_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[23] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Cyan_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[24] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+        Name = 050_WPOTexture
+        Group = None
+    }
+    CollectedTextureParameters[25] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Cyan_Normal
+        Group = None
+    }
+    CollectedTextureParameters[26] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Alpha_Normal
+        Group = None
+    }
+    CollectedTextureParameters[27] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Main_Normal
+        Group = None
+    }
+    CollectedTextureParameters[28] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Alpha_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[29] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Alpha_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[30] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Red_WPO
+        Group = None
+    }
+    CollectedTextureParameters[31] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Alpha_WPO
+        Group = None
+    }
+    CollectedTextureParameters[32] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Green_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[33] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Green_WPO
+        Group = None
+    }
+    CollectedTextureParameters[34] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Cyan_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[35] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Alpha_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[36] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Green_Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[122] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=018_FadeRadius, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Main_AltUVsRotation, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Green_AOValue, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Green_Rotation, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Main_OpacityValue, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Splat_RGBAMaskRotation, Group=None }
+    CollectedScalarParameters[8] = { Value=0.75, Name=FollowScale, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Green_BaseColorHue, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=050_WPOFlatness, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Green_MetalValue, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Splat_RedContrast, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=050_WindSpeed, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Alpha_WPOValue, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 1
+        Name = Main_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 1
+        Name = Alpha_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=0, Name=Green_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Main_WPOValue, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=050_WindIntensity, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=Alpha_OpacityValue, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=Cyan_OpacityValue, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=050_DetailWPORotation, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=Red_RoughValue, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0
+        Name = Main_FeatureNormalFlatness
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=1, Name=050_DetailWPOFlatness, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=Red_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[27] = { Value=0.5, Name=Red_SpecValue, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = 4000
+        Name = 018_FadeRadiusDistance
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=0, Name=Alpha_Height_Contrast, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=Alpha_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=Green_HeightValue, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=Green_Height_Contrast, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=Splat_GreenContrast, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Main_HeightValue, Group=None }
+    CollectedScalarParameters[35] = { Value=5, Name=EffectIntensity, Group=None }
+    CollectedScalarParameters[36] = { Value=5, Name=EffectPeriod, Group=None }
+    CollectedScalarParameters[37] = { Value=0.1, Name=WobbleTimeScaleMax, Group=None }
+    CollectedScalarParameters[38] = { Value=30, Name=050_WeightHeight, Group=None }
+    CollectedScalarParameters[39] =
+    {
+        Value = 100
+        Name = NE_FoliageInfluenceDistance
+        Group = None
+    }
+    CollectedScalarParameters[40] = { Value=5, Name=WobbleIntensity, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[42] = { Value=1, Name=Red_AOValue, Group=None }
+    CollectedScalarParameters[43] = { Value=1, Name=Main_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=Green_WPOValue, Group=None }
+    CollectedScalarParameters[45] = { Value=1, Name=Cyan_WPOValue, Group=None }
+    CollectedScalarParameters[46] = { Value=0, Name=Splat_AlphaContrast, Group=None }
+    CollectedScalarParameters[47] =
+    {
+        Value = 1
+        Name = Red_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[48] = { Value=0, Name=014_SpecularValue, Group=None }
+    CollectedScalarParameters[49] = { Value=0.5, Name=Main_SpecValue, Group=None }
+    CollectedScalarParameters[50] = { Value=1, Name=Red_MetalValue, Group=None }
+    CollectedScalarParameters[51] = { Value=5, Name=EffectDistance, Group=None }
+    CollectedScalarParameters[52] = { Value=1, Name=Red_HeightValue, Group=None }
+    CollectedScalarParameters[53] = { Value=5, Name=014_GroundHeight, Group=None }
+    CollectedScalarParameters[54] = { Value=1, Name=Red_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[55] = { Value=5, Name=050_GroundHeight, Group=None }
+    CollectedScalarParameters[56] = { Value=0, Name=Cyan_Rotation, Group=None }
+    CollectedScalarParameters[57] = { Value=0, Name=050_WindWeight, Group=None }
+    CollectedScalarParameters[58] = { Value=0, Name=Cyan_Height_Contrast, Group=None }
+    CollectedScalarParameters[59] = { Value=0.5, Name=Green_SpecValue, Group=None }
+    CollectedScalarParameters[60] = { Value=10, Name=014_BlendHeight, Group=None }
+    CollectedScalarParameters[61] = { Value=1, Name=Cyan_AOValue, Group=None }
+    CollectedScalarParameters[62] = { Value=0, Name=Main_Rotation, Group=None }
+    CollectedScalarParameters[63] = { Value=1, Name=Alpha_AOValue, Group=None }
+    CollectedScalarParameters[64] =
+    {
+        Value = 0.9
+        Name = 050_WindNormalFlatness
+        Group = None
+    }
+    CollectedScalarParameters[65] =
+    {
+        Value = 1
+        Name = Cyan_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[66] = { Value=1, Name=Splat_RGBAMaskValue, Group=None }
+    CollectedScalarParameters[67] = { Value=0, Name=Red_Rotation, Group=None }
+    CollectedScalarParameters[68] = { Value=0, Name=Alpha_BaseColorHue, Group=None }
+    CollectedScalarParameters[69] = { Value=0, Name=Main_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[70] = { Value=1, Name=036_RandomDitherAmount, Group=None }
+    CollectedScalarParameters[71] = { Value=0, Name=Main_BaseColorHue, Group=None }
+    CollectedScalarParameters[72] = { Value=0, Name=050_WPORotation, Group=None }
+    CollectedScalarParameters[73] = { Value=1.55, Name=036_Atl_ClampMax, Group=None }
+    CollectedScalarParameters[74] = { Value=0, Name=Red_Height_Contrast, Group=None }
+    CollectedScalarParameters[75] = { Value=1, Name=Alpha_RoughValue, Group=None }
+    CollectedScalarParameters[76] = { Value=0, Name=Cyan_BaseColorHue, Group=None }
+    CollectedScalarParameters[77] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[78] = { Value=1, Name=Red_OpacityValue, Group=None }
+    CollectedScalarParameters[79] = { Value=0, Name=Alpha_SpecRoughAmount, Group=None }
+    CollectedScalarParameters[80] = { Value=1, Name=Cyan_MetalValue, Group=None }
+    CollectedScalarParameters[81] = { Value=0.5, Name=018_Hardness, Group=None }
+    CollectedScalarParameters[82] = { Value=0, Name=Alpha_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[83] = { Value=1, Name=Main_RoughValue, Group=None }
+    CollectedScalarParameters[84] = { Value=0, Name=Alpha_NormalFlatness, Group=None }
+    CollectedScalarParameters[85] = { Value=1, Name=Red_WPOValue, Group=None }
+    CollectedScalarParameters[86] = { Value=1, Name=Green_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[87] = { Value=1, Name=Alpha_HeightValue, Group=None }
+    CollectedScalarParameters[88] = { Value=1, Name=Alpha_MetalValue, Group=None }
+    CollectedScalarParameters[89] = { Value=1, Name=NE_FoliageEffectScale, Group=None }
+    CollectedScalarParameters[90] = { Value=0, Name=Alpha_Rotation, Group=None }
+    CollectedScalarParameters[91] = { Value=1, Name=Leaf Opacity, Group=None }
+    CollectedScalarParameters[92] = { Value=1, Name=Cyan_HeightValue, Group=None }
+    CollectedScalarParameters[93] = { Value=0, Name=Green_NormalFlatness, Group=None }
+    CollectedScalarParameters[94] = { Value=0, Name=050_SubsurfaceValue, Group=None }
+    CollectedScalarParameters[95] = { Value=0, Name=Cyan_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[96] = { Value=0, Name=Main_NormalFlatness, Group=None }
+    CollectedScalarParameters[97] = { Value=0.1, Name=WobbleTimeScaleMin, Group=None }
+    CollectedScalarParameters[98] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[99] = { Value=1, Name=014_BlendCurve, Group=None }
+    CollectedScalarParameters[100] = { Value=1, Name=Code_Emissive, Group=None }
+    CollectedScalarParameters[101] = { Value=0.1, Name=018_FadeToValue, Group=None }
+    CollectedScalarParameters[102] = { Value=0, Name=Cyan_NormalFlatness, Group=None }
+    CollectedScalarParameters[103] = { Value=1, Name=Green_OpacityValue, Group=None }
+    CollectedScalarParameters[104] = { Value=0, Name=050_DetailWPOPower, Group=None }
+    CollectedScalarParameters[105] = { Value=1, Name=014_RoughValue, Group=None }
+    CollectedScalarParameters[106] = { Value=0, Name=Splat_BlueContrast, Group=None }
+    CollectedScalarParameters[107] = { Value=0, Name=036_PixelDepthOffset, Group=None }
+    CollectedScalarParameters[108] = { Value=0, Name=Main_SpecRoughAmount, Group=None }
+    CollectedScalarParameters[109] = { Value=1, Name=Main_AOValue, Group=None }
+    CollectedScalarParameters[110] = { Value=0.5, Name=Cyan_SpecValue, Group=None }
+    CollectedScalarParameters[111] = { Value=0, Name=050_WPOPower, Group=None }
+    CollectedScalarParameters[112] = { Value=1, Name=Cyan_RoughValue, Group=None }
+    CollectedScalarParameters[113] = { Value=1, Name=Cyan_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[114] = { Value=1, Name=Green_RoughValue, Group=None }
+    CollectedScalarParameters[115] =
+    {
+        Value = 1
+        Name = Green_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[116] = { Value=0, Name=Green_SpecRoughAmount, Group=None }
+    CollectedScalarParameters[117] = { Value=1, Name=Main_MetalValue, Group=None }
+    CollectedScalarParameters[118] = { Value=0, Name=Red_NormalFlatness, Group=None }
+    CollectedScalarParameters[119] = { Value=0.5, Name=Alpha_SpecValue, Group=None }
+    CollectedScalarParameters[120] = { Value=0, Name=Red_BaseColorHue, Group=None }
+    CollectedScalarParameters[121] = { Value=800, Name=018_Distance, Group=None }
+}
+CollectedVectorParameters[49] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Green_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = 014_TerrainTextureTiling
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Alpha_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion30
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Main_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion32
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Cyan_Offset
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion20
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = 050_DetailWPOSpeedXY
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Main_Offset
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = 050_DetailWPOScaleXY
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion10
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = 050_WPOScaleXY
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0.810169, G=1, B=0, A=0 }
+        Name = 050_MaxVariation
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Main_AltUVsOffset
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Cyan_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint_Fade
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Red_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = 050_WPOSpeedXY
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion02
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Main_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Main_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion12
+        Group = None
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion01
+        Group = None
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion11
+        Group = None
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Alpha_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=0.030573, G=0.05, B=0, A=0 }
+        Name = 014_ColorValue
+        Group = None
+    }
+    CollectedVectorParameters[27] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion31
+        Group = None
+    }
+    CollectedVectorParameters[28] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Red_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[29] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Red_Offset
+        Group = None
+    }
+    CollectedVectorParameters[30] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Red_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[31] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Main_AltUVsTiling
+        Group = None
+    }
+    CollectedVectorParameters[32] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Splat_RGBAMask_Offset
+        Group = None
+    }
+    CollectedVectorParameters[33] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Cyan_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[34] =
+    {
+        Value = { R=200000, G=200000, B=200000, A=0 }
+        Name = ClipBoxExtents
+        Group = None
+    }
+    CollectedVectorParameters[35] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipBoxCenter
+        Group = None
+    }
+    CollectedVectorParameters[36] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Green_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[37] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Green_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[38] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Splat_RGBAMask_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[39] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion00
+        Group = None
+    }
+    CollectedVectorParameters[40] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Alpha_Offset
+        Group = None
+    }
+    CollectedVectorParameters[41] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion22
+        Group = None
+    }
+    CollectedVectorParameters[42] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 014_TextureColorTint
+        Group = None
+    }
+    CollectedVectorParameters[43] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Cyan_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[44] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Alpha_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[45] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion21
+        Group = None
+    }
+    CollectedVectorParameters[46] =
+    {
+        Value = { R=0, G=-1, B=100, A=-100 }
+        Name = Offset+Scale
+        Group = None
+    }
+    CollectedVectorParameters[47] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 050_MinVariation
+        Group = None
+    }
+    CollectedVectorParameters[48] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Green_Offset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FlatNormal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_checker_grid
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Yellow_Linear
+    }
+}

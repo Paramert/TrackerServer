@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TilesRectClean01.MI_Hos_TilesRectClean01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TilesRectClean01.MI_Hos_TilesRectClean01'
+        MaterialSlotName = MI_Hos_TilesRectClean01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 500.088, 2744.87, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.00012207, Z=255.314 }
+    BoxExtent = { X=1600, Y=1600, Z=255.315 }
+    SphereRadius = 1958.36
+}

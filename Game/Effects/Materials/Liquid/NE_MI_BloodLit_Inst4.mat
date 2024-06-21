@@ -1,0 +1,8 @@
+Diffuse=T_Saliva_Drop_05
+Normal=T_BloodDrip_N
+Cube=T_Tile_106_tex
+Other[0]=T_Saliva_Drop_04
+Other[1]=T_BloodDrip
+Other[2]=T_reflection_map_01
+Other[3]=T_Tilling_Distortion_Map_01
+Other[4]=T_Water_N

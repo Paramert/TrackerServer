@@ -1,0 +1,12 @@
+Diffuse=T_HKW013_BC
+Normal=DefaultNormal
+Other[0]=FlatNormal
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=DefaultTexture
+Other[3]=T_DissolveTextures
+Other[4]=T_FX_DissolveRamp
+Other[5]=T_Veins2_N
+Other[6]=Black
+Other[7]=White
+Other[8]=14-Hamarikyu_Bridge_B_Env
+Other[9]=T_Lobby_HDR

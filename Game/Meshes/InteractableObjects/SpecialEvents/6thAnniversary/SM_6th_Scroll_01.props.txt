@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_DissolveWP_Scroll.MI_6th_DissolveWP_Scroll'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_DissolveWP_Scroll.MI_6th_DissolveWP_Scroll'
+        MaterialSlotName = MI_6th_Scroll_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 78.4435, 75.1493, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.160354, Y=0.10936, Z=-0.168671 }
+    BoxExtent = { X=2.72543, Y=21.5349, Z=3.02182 }
+    SphereRadius = 21.5878
+}

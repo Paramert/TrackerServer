@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/Bear/Materials/Outfit015/MI_BEOutfit015.MI_BEOutfit015'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/Bear/Materials/Outfit015/MI_BEOutfit015.MI_BEOutfit015'
+        MaterialSlotName = MI_BEMask015
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 40.5838, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-1.44017 }
+    BoxExtent = { X=11.0781, Y=8.74474, Z=10.3626 }
+    SphereRadius = 14.8623
+}

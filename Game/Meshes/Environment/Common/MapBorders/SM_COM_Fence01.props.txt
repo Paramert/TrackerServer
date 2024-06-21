@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/MI_Ind_Bricks_Plaster_C.MI_Ind_Bricks_Plaster_C'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Concrete-Asphalt/MI_Com_Concrete_A_Dmg_01.MI_Com_Concrete_A_Dmg_01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_ConcreteWall02_C.MI_Foundry_ConcreteWall02_C'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_Cracks_A.MI_Ind_Cracks_A'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_IronMetal_A_2.MI_Ind_IronMetal_A_2'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/MI_Ind_Bricks_Plaster_C.MI_Ind_Bricks_Plaster_C'
+        MaterialSlotName = MI_Ind_Bricks_Plaster_C
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 644.266, 8256.78, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Concrete-Asphalt/MI_Com_Concrete_A_Dmg_01.MI_Com_Concrete_A_Dmg_01'
+        MaterialSlotName = MI_Concrete_Trim_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 468.433, 9053.13, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_ConcreteWall02_C.MI_Foundry_ConcreteWall02_C'
+        MaterialSlotName = MI_Foundry_ConcreteWall02_C
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 513.135, 8053.27, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_Cracks_A.MI_Ind_Cracks_A'
+        MaterialSlotName = MI_Ind_Cracks_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 228.281, 7865.89, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_IronMetal_A_2.MI_Ind_IronMetal_A_2'
+        MaterialSlotName = MI_Ind_IronMetal_A_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 243.557, 8246.26, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-374.246, Y=2.86774, Z=201.591 }
+    BoxExtent = { X=410.543, Y=37.7384, Z=201.631 }
+    SphereRadius = 458.718
+}

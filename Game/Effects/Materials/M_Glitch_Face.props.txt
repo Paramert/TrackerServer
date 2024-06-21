@@ -1,0 +1,230 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Fx_grassBlades.Fx_grassBlades'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Fx_radialGradientInverse.Fx_radialGradientInverse'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Killer07Screen03.T_Killer07Screen03'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_LightRays02.T_LightRays02'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Vegetations/T_Normal_Noise.T_Normal_Noise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=DistortIntensity }
+                    ParameterInfos[1] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[2] = { Name=Atl_Roughness }
+                    ParameterInfos[3] = { Name=Intermittence }
+                    ParameterInfos[4] = { Name=DistanceAtWhichOutlineIsAlwaysVisible }
+                    ParameterInfos[5] = { Name=DistortNoiseScale }
+                    ParameterInfos[6] = { Name=Atl_Metallic }
+                    ParameterInfos[7] = { Name=DistortSpeedX }
+                    ParameterInfos[8] = { Name=EmissiveGlitch }
+                    ParameterInfos[9] = { Name=DistortSpeedY }
+                    ParameterInfos[10] = { Name=Scale (rb) }
+                    ParameterInfos[11] = { Name=Speed (rb) }
+                    ParameterInfos[12] = { Name=Mask Tiling }
+                    ParameterInfos[13] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[14] = { Name=Glitch_Rotation }
+                    ParameterInfos[15] = { Name=MinimumOutlineDistance }
+                    ParameterInfos[16] = { Name=Atl_Specular }
+                    ParameterInfos[17] = { Name=Opacity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Atl_DiffuseTint }
+                    ParameterInfos[1] = { Name=OutlineColour }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Mask }
+                    ParameterInfos[1] = { Name=DoctorFace }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 10
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0.5
+            ScalarValues[4] = 7000
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 200
+            ScalarValues[11] = 1000
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 100
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0.1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Killer07Screen03.T_Killer07Screen03'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_LightRays02.T_LightRays02'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Fx_grassBlades.Fx_grassBlades'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/Fx_radialGradientInverse.Fx_radialGradientInverse'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Vegetations/T_Normal_Noise.T_Normal_Noise'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Killer07Screen03.T_Killer07Screen03'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Killer07Screen03.T_Killer07Screen03'
+        Name = DoctorFace
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=DistortIntensity, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Intermittence, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 7000
+        Name = DistanceAtWhichOutlineIsAlwaysVisible
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=DistortNoiseScale, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=DistortSpeedX, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=EmissiveGlitch, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=DistortSpeedY, Group=None }
+    CollectedScalarParameters[10] = { Value=200, Name=Scale (rb), Group=None }
+    CollectedScalarParameters[11] = { Value=1000, Name=Speed (rb), Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Mask Tiling, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Glitch_Rotation, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 100
+        Name = MinimumOutlineDistance
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[17] = { Value=0.1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = OutlineColour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[7] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.046875
+        UVChannelIndex = 0
+        TextureName = Fx_grassBlades
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fx_radialGradientInverse
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 7
+        UVChannelIndex = 0
+        TextureName = T_DustParticles
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Fire_SmokeWisps_Tile_Dup
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_FSbloodmist
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_LightRays02
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = White
+    }
+}

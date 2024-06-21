@@ -1,0 +1,86 @@
+Materials[6] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSignLetter.MI_GS_FrontSignLetter'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSignFlicker.MI_GS_FrontSignFlicker'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSign01.MI_GS_FrontSign01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSign01_Metal02.MI_GS_FrontSign01_Metal02'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSign02.MI_GS_FrontSign02'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSign01_Metal01.MI_GS_FrontSign01_Metal01'
+}
+SourceModels[0] = {}
+StaticMaterials[6] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSignLetter.MI_GS_FrontSignLetter'
+        MaterialSlotName = MI_GS_FrontSignLetter
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1014.76, 2288.81, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSignFlicker.MI_GS_FrontSignFlicker'
+        MaterialSlotName = MI_GS_FrontSignFlicker
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1012.04, 2256.9, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSign01.MI_GS_FrontSign01'
+        MaterialSlotName = MI_GS_FrontSign01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1069.35, 2311.19, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSign01_Metal02.MI_GS_FrontSign01_Metal02'
+        MaterialSlotName = MI_GS_FrontSign01_Metal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 890.221, 2593.09, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSign02.MI_GS_FrontSign02'
+        MaterialSlotName = MI_GS_FrontSign02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 920.41, 2435.66, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_GS_FrontSign01_Metal01.MI_GS_FrontSign01_Metal01'
+        MaterialSlotName = MI_GS_FrontSign01_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 643.247, 2482.53, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-27.6533, Y=-2.02069, Z=706.768 }
+    BoxExtent = { X=61.4799, Y=539.624, Z=712.984 }
+    SphereRadius = 734.426
+}

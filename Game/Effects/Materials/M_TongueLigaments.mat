@@ -1,0 +1,6 @@
+Diffuse=T_CMMTongue01_BC
+Normal=T_CMMTongue01_N
+Other[0]=DefaultTexture
+Other[1]=T_CMMTongue01_ORM
+Other[2]=Fxt_StetchedBeam
+Other[3]=Fxt_StetchedBeam_HM

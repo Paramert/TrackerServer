@@ -1,0 +1,130 @@
+Parent = Material3'/Game/Materials/Masters/M_Structures.M_Structures'
+ScalarParameterValues[7] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=CAOBlendContrast }
+        ParameterValue = 0.610902
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=CAOBlendDistance }
+        ParameterValue = 1065.08
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=21_MossCurve }
+        ParameterValue = 3.96178
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=21_GroundHeight }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=21_MossHeight }
+        ParameterValue = 70.394
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=CustomSpecular }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=CAOBlendTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Structures/T_ExitFloor01_CAO.T_ExitFloor01_CAO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColorTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Structures/T_Concrete03_BC.T_Concrete03_BC'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=21_UseCrawlingMoss }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=Blend AO Into Diffuse }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseCAOBlend }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseBaseColor }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[14] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+    CachedReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    CachedReferencedTextures[9] = Texture2D'/Engine/EngineDebugMaterials/HeatmapGradient.HeatmapGradient'
+    CachedReferencedTextures[10] = Texture2D'/Game/Meshes/Environment/Tiles/Textures/environment_mud_diffuse.environment_mud_diffuse'
+    CachedReferencedTextures[11] = Texture2D'/Game/Meshes/Environment/Tiles/Textures/environment_mud_N.environment_mud_N'
+    CachedReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

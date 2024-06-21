@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_Rope01.MI_BRL_Rope01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_Rope01.MI_BRL_Rope01'
+        MaterialSlotName = MI_BRL_Rope01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14.2512, 191.364, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=4.45617, Z=-13.3081 }
+    BoxExtent = { X=10.9804, Y=4.45617, Z=40.1297 }
+    SphereRadius = 40.5859
+}

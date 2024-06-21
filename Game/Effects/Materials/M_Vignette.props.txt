@@ -1,0 +1,106 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_MudSplatter_01.T_MudSplatter_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Mud.T_Mud'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Emissive }
+                    ParameterInfos[1] = { Name=Mud Tiling }
+                    ParameterInfos[2] = { Name=Mud Mask Tiling }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=DiffuseMud }
+                    ParameterInfos[1] = { Name=Diffuse }
+                    ParameterInfos[2] = { Name=Mud }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.15, 1, 0.5 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_MudSplatter_01.T_MudSplatter_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Mud.T_Mud'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Mud.T_Mud'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_MudSplatter_01.T_MudSplatter_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Water/T_MudSplatter_01.T_MudSplatter_01'
+        Name = DiffuseMud
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Mud.T_Mud'
+        Name = Mud
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.15, Name=Emissive, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Mud Tiling, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=Mud Mask Tiling, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FSbloodmist
+    }
+}

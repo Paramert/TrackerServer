@@ -1,0 +1,60 @@
+Parent = MaterialInstanceConstant'/Game/Effects/Materials/Liquid/MI_BloodSmearDecal.MI_BloodSmearDecal'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Blood_Texture_Normal }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Decal_BloodSmear03_N.T_Decal_BloodSmear03_N'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Blood_Texture_RGBA }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Decal_BloodSmear03.T_Decal_BloodSmear03'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/T_Liquid_Splatter04.T_Liquid_Splatter04'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise03.T_Noise03'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

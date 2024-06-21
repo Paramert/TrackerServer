@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_StreetLight01.MI_StreetLight01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_StreetLight01.MI_StreetLight01'
+        MaterialSlotName = MI_StreetLight01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 379.289, 368.331, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.651764, Y=-1.40873, Z=269.1 }
+    BoxExtent = { X=61.6566, Y=56.129, Z=269.063 }
+    SphereRadius = 281.686
+}

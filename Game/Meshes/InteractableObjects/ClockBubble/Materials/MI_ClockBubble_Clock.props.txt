@@ -1,0 +1,198 @@
+Parent = Material3'/Game/Materials/Masters/M_InteractableObject_Dream.M_InteractableObject_Dream'
+ScalarParameterValues[15] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DwC- Adjust Clipping Start }
+        ParameterValue = -100
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=DwC- Gradient Controller }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=DwC- Gradient Radius }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=DwC- Band Lenght }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=DwC- Dissolve Tiling }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=DwC- Diffuse Speed X }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=DwC- Diffusel Speed Y }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=DwC- Mask Tiling Texture }
+        ParameterValue = 6
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=contrast }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=pixelfade }
+        ParameterValue = 25000
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Metallic Intensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Metallic Texture Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Roughness Texture Intensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Specular Texture Intensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[8] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=DwC- Dissolve Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Hand.T_Blood_Hand'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=DwC- Dissolve Normal }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=DwC- Dissolve Mask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=DwC- FlowMap }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_WaterNormal3.T_WaterNormal3'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Diffuse }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/ClockBubble/T_ClockBubble_Drawer01_BC.T_ClockBubble_Drawer01_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Metallic }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/ClockBubble/T_ClockBubble_Drawer01_M.T_ClockBubble_Drawer01_M'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=NormalMap Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/ClockBubble/T_ClockBubble_Drawer01_N.T_ClockBubble_Drawer01_N'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/ClockBubble/T_ClockBubble_Drawer01_R.T_ClockBubble_Drawer01_R'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = true
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[10] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[5] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_BC.T_Vomit01_BC'
+    CachedReferencedTextures[6] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_ORM.T_Vomit01_ORM'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    CachedReferencedTextures[8] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_N.T_Vomit01_N'
+    CachedReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.998535
+        UVChannelIndex = 0
+        TextureName = T_ClockBubble_Drawer01_N
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.97821
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}

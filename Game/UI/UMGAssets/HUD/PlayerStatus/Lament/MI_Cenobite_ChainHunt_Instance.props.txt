@@ -1,0 +1,50 @@
+Parent = Material3'/Game/UI/UMGAssets/HUD/PlayerStatus/Lament/MI_Cenobite_ProgressGauge.MI_Cenobite_ProgressGauge'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Percent }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[3] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/UI/UMGAssets/HUD/PlayerStatus/Lament/MI_UI_NoiseRGB.MI_UI_NoiseRGB'
+    CachedReferencedTextures[1] = Texture2D'/Game/UI/UMGAssets/HUD/PlayerStatus/Lament/statusIconChainHunt_Glow.statusIconChainHunt_Glow'
+    CachedReferencedTextures[2] = Texture2D'/Game/UI/UMGAssets/HUD/PlayerStatus/Lament/statusIcon_ChainHunt_Mask.statusIcon_ChainHunt_Mask'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

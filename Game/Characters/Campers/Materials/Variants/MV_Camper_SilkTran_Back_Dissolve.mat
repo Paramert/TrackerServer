@@ -1,0 +1,6 @@
+Diffuse=DefaultTexture
+Normal=FlatNormal
+Opacity=White
+Other[0]=Green_Linear
+Other[1]=T_DissolveTextures
+Other[2]=T_FX_DissolveRamp

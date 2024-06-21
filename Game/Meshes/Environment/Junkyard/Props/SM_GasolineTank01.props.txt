@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_GasolineTank01.MI_GasolineTank01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_GasolineTank01.MI_GasolineTank01'
+        MaterialSlotName = MI_GasolineTank01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 91.0653, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0232344, Y=-0.0573788, Z=22.7675 }
+    BoxExtent = { X=9.0399, Y=16.6275, Z=22.1852 }
+    SphereRadius = 26.4128
+}

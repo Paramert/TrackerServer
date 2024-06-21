@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Panels01.MI_Qat_Panels01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Wall_HallWay01.MI_Qat_Wall_HallWay01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Wall_HallWay02.MI_Qat_Wall_HallWay02'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Panels01.MI_Qat_Panels01'
+        MaterialSlotName = MI_Qat_Panels01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300, 979.715, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Wall_HallWay01.MI_Qat_Wall_HallWay01'
+        MaterialSlotName = MI_Qat_Wall_HallWay01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 487.222, 996.934, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Wall_HallWay02.MI_Qat_Wall_HallWay02'
+        MaterialSlotName = MI_Qat_Wall_HallWay02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 476.249, 978.961, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-05, Y=21.8445, Z=180 }
+    BoxExtent = { X=300, Y=51.8452, Z=180 }
+    SphereRadius = 353.678
+}

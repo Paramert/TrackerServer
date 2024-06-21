@@ -1,0 +1,151 @@
+Parent = Material3'/Game/Materials/Substance/M_Sbsar_Walls.M_Sbsar_Walls'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=00_MasterTilingX }
+        ParameterValue = -1.6
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=00_MasterTilingY }
+        ParameterValue = -3.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=06_CustomSpecular }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=CustomMossAO }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=00_BaseColorTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_PlasterBare01_BC.T_Hos_PlasterBare01_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=00_NormalTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_PlasterBare01_N.T_Hos_PlasterBare01_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=06_ORMTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_PlasterBare01_ORM.T_Hos_PlasterBare01_ORM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[6] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=06_TextureORM }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=CustomMossNormal_On }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=CustomMossMetallic_On }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = false
+            ParameterInfo = { Name=TextureMossAO }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = false
+            ParameterInfo = { Name=Atl_UseNormal }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = false
+            ParameterInfo = { Name=Atl_UseCustUVs_0 }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[8] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Asylum/T_Noise01.T_Noise01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_basecolor.T_Swamp_Mud_basecolor'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineResources/Black.Black'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hos_PlasterBare01_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hos_PlasterBare01_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hos_PlasterBare01_ORM
+    }
+}

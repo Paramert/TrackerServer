@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Trims/MI_TrimSheet_MetalRusty_01.MI_TrimSheet_MetalRusty_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Trims/MI_TrimSheet_MetalRusty_01.MI_TrimSheet_MetalRusty_01'
+        MaterialSlotName = MI_TrimSheet_MetalRusty_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 135.93, 549.288, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.311691, Y=1.33044, Z=108.876 }
+    BoxExtent = { X=63.1991, Y=3.53367, Z=99.5194 }
+    SphereRadius = 117.944
+}

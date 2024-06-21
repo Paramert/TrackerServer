@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Props.MI_Winter2022_Props'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Fir01.MI_Winter2022_Fir01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Bark.MI_Winter2022_Bark'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Fir02.MI_Winter2022_Fir02'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Lights.MI_Winter2022_Lights'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Props.MI_Winter2022_Props'
+        MaterialSlotName = MI_Winter2022_Props
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 148.491, 839, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Fir01.MI_Winter2022_Fir01'
+        MaterialSlotName = MI_Winter2022_Fir01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 98.4144, 808.824, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Bark.MI_Winter2022_Bark'
+        MaterialSlotName = MI_Winter2022_Bark
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 396.314, 805.583, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Fir02.MI_Winter2022_Fir02'
+        MaterialSlotName = MI_Winter2022_Fir02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 82.4988, 810.369, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Lights.MI_Winter2022_Lights'
+        MaterialSlotName = MI_Winter2022_Lights
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 34.8665, 833.678, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.48594, Y=0, Z=-2.28252 }
+    BoxExtent = { X=27.1172, Y=169.976, Z=40.5878 }
+    SphereRadius = 173.062
+}

@@ -1,0 +1,13 @@
+Diffuse=T_Hti_Plant_01_BC
+Normal=T_Hti_Plant_01_N
+Other[0]=T_Hti_Plant_01_ORM
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=FlatNormal
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=Black_Linear
+Other[6]=White_Linear
+Other[7]=Yellow_Linear
+Other[8]=T_FoliageWaves_02_N
+Other[9]=T_MapleOakLeaves01_Wind
+Other[10]=T_checker_grid

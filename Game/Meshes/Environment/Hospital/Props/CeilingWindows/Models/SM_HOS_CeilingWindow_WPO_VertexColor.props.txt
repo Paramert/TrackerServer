@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_WinSnow01_WPO_VertexColor.MI_HOS_WinSnow01_WPO_VertexColor'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_CeilingWin_Metal01_WPO_VertexColor.MI_HOS_CeilingWin_Metal01_WPO_VertexColor'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_GlassDirty01_WPO_VertexColor.MI_Hos_GlassDirty01_WPO_VertexColor'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_WinSnow01_WPO_VertexColor.MI_HOS_WinSnow01_WPO_VertexColor'
+        MaterialSlotName = MI_HOS_WinSnow01_WPOVertClr
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 467.129, 335.234, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_CeilingWin_Metal01_WPO_VertexColor.MI_HOS_CeilingWin_Metal01_WPO_VertexColor'
+        MaterialSlotName = MI_HOS_CeilingWin_Metal01_WPOVertClr
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 659.347, 331.936, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_GlassDirty01_WPO_VertexColor.MI_Hos_GlassDirty01_WPO_VertexColor'
+        MaterialSlotName = MI_Hos_GlassDirty01_WPOVertClr
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 134.296, 335.12, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=58.7245, Y=0.0088501, Z=-38.5417 }
+    BoxExtent = { X=61.9066, Y=50.3847, Z=51.7063 }
+    SphereRadius = 90.3698
+}

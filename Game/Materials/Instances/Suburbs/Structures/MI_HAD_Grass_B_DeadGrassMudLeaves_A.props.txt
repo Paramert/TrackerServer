@@ -1,0 +1,774 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Master_Instances/Environment/MIM_BlendMapRgb_Ground_VP_World.MIM_BlendMapRgb_Ground_VP_World'
+ScalarParameterValues[48] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=|     Normal Map Intensity }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=|     Normal Map Detail Intensity }
+        ParameterValue = 8
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=|     Normal Map Detail Tiling }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=|     Occlusion Map Black Level }
+        ParameterValue = 0.35
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=|     Occlusion Map Contrast }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=UV Tiling Master }
+        ParameterValue = 2.5
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=UV Channel }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=|     Tint Opacity Map Black Level }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=|     Tint Opacity Map Contrast }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=|     Tint Opacity Map Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=|     Adjustment Hue . }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=|     Adjustment Saturation . }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=|     Previous Normal Map Intensity . }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=|     Roughness Intensity . }
+        ParameterValue = 2.07978
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=|     Roughness Map Intensity . }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=|     Occlusion Map Black Level . }
+        ParameterValue = 0.35
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=|     Occlusion Map Contrast . }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=UV Tiling Master . }
+        ParameterValue = 2.5
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=|     BaseColor Tint Intensity . }
+        ParameterValue = 0.75
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=|     Tint Opacity Map Black Level . }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=|     Tint Opacity Map Tiling . }
+        ParameterValue = 2.5
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=|     Heightmap Black Level . }
+        ParameterValue = 0.75
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=|     Heightmap Contrast . }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=|     VertexPaint Transition }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=|     VertexPaint Contrast . }
+        ParameterValue = -0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=|     Previous Normal Map Intensity  . }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=|     Roughness Intensity  . }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=|     Occlusion Map Black Level  . }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=|     Occlusion Map Contrast  . }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=UV Tiling Master  . }
+        ParameterValue = 1.25
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=|     BaseColor Intensity        . }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=Opacity        . }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=|     Roughness Intensity        . }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=|     Heightmap Black Level  . }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=|     Heightmap Contrast  . }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=|     Previous Normal Map Intensity   . }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[36] =
+    {
+        ParameterInfo = { Name=|     Normal Map Intensity   . }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[37] =
+    {
+        ParameterInfo = { Name=|     Occlusion Map Black Level   . }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[38] =
+    {
+        ParameterInfo = { Name=UV Tiling Master   . }
+        ParameterValue = 0.75
+        ParameterName = None
+    }
+    ScalarParameterValues[39] =
+    {
+        ParameterInfo = { Name=|     BaseColor Tint Intensity   . }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[40] =
+    {
+        ParameterInfo = { Name=|     Heightmap Black Level   . }
+        ParameterValue = 1.25
+        ParameterName = None
+    }
+    ScalarParameterValues[41] =
+    {
+        ParameterInfo = { Name=|     Heightmap Contrast   . }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[42] =
+    {
+        ParameterInfo = { Name=|     VertexPaint Transition   . }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[43] =
+    {
+        ParameterInfo = { Name=|     BaseColor Map Tiling Low. }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[44] =
+    {
+        ParameterInfo = { Name=UV Tiling Master Low. }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[45] =
+    {
+        ParameterInfo = { Name=|     BaseColor Intensity     . }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[46] =
+    {
+        ParameterInfo = { Name=|     Normal Map Intensity     . }
+        ParameterValue = 0.933333
+        ParameterName = None
+    }
+    ScalarParameterValues[47] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[15] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor Map }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Grass/T_Com_Grass_B_BC.T_Com_Grass_B_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Normal Map }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Grass/T_Com_Grass_B_N.T_Com_Grass_B_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal Map Detail }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Mask/T_Clouds1_N.T_Clouds1_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=HRM\ORM Map }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Grass/T_Com_Grass_B_HRM.T_Com_Grass_B_HRM'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=|     Tint Opacity Map }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=HRM\ORM Map . }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Grass/T_Com_Grass_B_HRM.T_Com_Grass_B_HRM'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=|     Tint Opacity Map . }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Grass/T_Com_Grass_B_HRM.T_Com_Grass_B_HRM'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=BaseColor Map  . }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Ground/T_Com_Mud_A_BC.T_Com_Mud_A_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = { Name=Normal Map }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Ground/T_Com_Mud_A_N.T_Com_Mud_A_N'
+        ParameterName = None
+    }
+    TextureParameterValues[9] =
+    {
+        ParameterInfo = { Name=HRM\ORM Map  . }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Ground/T_Com_Mud_A_HRM.T_Com_Mud_A_HRM'
+        ParameterName = None
+    }
+    TextureParameterValues[10] =
+    {
+        ParameterInfo = { Name=BaseColor Map   . }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Nature/T_Com_LeavesDead_A_BCA.T_Com_LeavesDead_A_BCA'
+        ParameterName = None
+    }
+    TextureParameterValues[11] =
+    {
+        ParameterInfo = { Name=Normal Map   . }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Nature/T_Com_LeavesDead_A_N.T_Com_LeavesDead_A_N'
+        ParameterName = None
+    }
+    TextureParameterValues[12] =
+    {
+        ParameterInfo = { Name=HRM\ORM Map   . }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Nature/T_Com_LeavesDead_A_HRM.T_Com_LeavesDead_A_HRM'
+        ParameterName = None
+    }
+    TextureParameterValues[13] =
+    {
+        ParameterInfo = { Name=BaseColor Map Low. }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Tilable/Grass/T_Com_Grass_B_BC.T_Com_Grass_B_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[14] =
+    {
+        ParameterInfo = { Name=Normal Map     . }
+        ParameterValue = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        ParameterName = None
+    }
+}
+VectorParameterValues[8] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = { R=0.156764, G=0.18153, B=0.21875, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=|     Tint Color . }
+        ParameterValue = { R=0.59375, G=0.550007, B=0.482422, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=|     Tint Color  . }
+        ParameterValue = { R=0.2, G=0.158, B=0.074, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=BaseColor        . }
+        ParameterValue = { R=0.177083, G=0.140397, B=0.045287, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=|     Tint Color   . }
+        ParameterValue = { R=0, G=1, B=0.950892, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Material Low Vertex Color Channel }
+        ParameterValue = { R=1, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=BaseColor . }
+        ParameterValue = { R=0.479167, G=0.394831, B=0.101373, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=BaseColor     . }
+        ParameterValue = { R=0.212088, G=0, B=0.927083, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[39] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Material 3 }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Material 4 }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use Material 3 Borders }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use ORM }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use BaseColor Map }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Normal Map }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use Normal Map Detail }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use HRM\ORM Map }
+            bOverride = true
+        }
+        StaticSwitchParameters[8] =
+        {
+            Value = true
+            ParameterInfo = { Name=Is 100% Dialectric }
+            bOverride = true
+        }
+        StaticSwitchParameters[9] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use ORM . }
+            bOverride = true
+        }
+        StaticSwitchParameters[10] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use BaseColor . }
+            bOverride = true
+        }
+        StaticSwitchParameters[11] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use BaseColor Map . }
+            bOverride = true
+        }
+        StaticSwitchParameters[12] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Tint . }
+            bOverride = true
+        }
+        StaticSwitchParameters[13] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use Normal Map . }
+            bOverride = true
+        }
+        StaticSwitchParameters[14] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use HRM\ORM Map . }
+            bOverride = true
+        }
+        StaticSwitchParameters[15] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Tint Opacity Map . }
+            bOverride = true
+        }
+        StaticSwitchParameters[16] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use HeightBlend . }
+            bOverride = true
+        }
+        StaticSwitchParameters[17] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Heightmap from Material 1 . }
+            bOverride = true
+        }
+        StaticSwitchParameters[18] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use ORM  . }
+            bOverride = true
+        }
+        StaticSwitchParameters[19] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use BaseColor Map  . }
+            bOverride = true
+        }
+        StaticSwitchParameters[20] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Normal Map  . }
+            bOverride = true
+        }
+        StaticSwitchParameters[21] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use HRM\ORM Map  . }
+            bOverride = true
+        }
+        StaticSwitchParameters[22] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Heightmap from Material 2  . }
+            bOverride = true
+        }
+        StaticSwitchParameters[23] =
+        {
+            Value = true
+            ParameterInfo = { Name=|     Invert Heightmap  . }
+            bOverride = true
+        }
+        StaticSwitchParameters[24] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use VertexPaint Options  . }
+            bOverride = true
+        }
+        StaticSwitchParameters[25] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use BaseColor Alpha as Opacity   . }
+            bOverride = true
+        }
+        StaticSwitchParameters[26] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use Material 3 as Opacity   . }
+            bOverride = true
+        }
+        StaticSwitchParameters[27] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use ORM   . }
+            bOverride = true
+        }
+        StaticSwitchParameters[28] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use BaseColor Map   . }
+            bOverride = true
+        }
+        StaticSwitchParameters[29] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Normal Map   . }
+            bOverride = true
+        }
+        StaticSwitchParameters[30] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use HRM\ORM Map   . }
+            bOverride = true
+        }
+        StaticSwitchParameters[31] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use HeightBlend   . }
+            bOverride = true
+        }
+        StaticSwitchParameters[32] =
+        {
+            Value = false
+            ParameterInfo = { Name=|     Invert Heightmap   . }
+            bOverride = true
+        }
+        StaticSwitchParameters[33] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use VertexPaint Options   . }
+            bOverride = true
+        }
+        StaticSwitchParameters[34] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use BaseColor Low. }
+            bOverride = true
+        }
+        StaticSwitchParameters[35] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Material Low Blend }
+            bOverride = true
+        }
+        StaticSwitchParameters[36] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use BaseColor Map Low. }
+            bOverride = true
+        }
+        StaticSwitchParameters[37] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use UV World Projection Low. }
+            bOverride = true
+        }
+        StaticSwitchParameters[38] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Normal Map     . }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[3] =
+    {
+        StaticComponentMaskParameters[0] =
+        {
+            R = false
+            G = false
+            B = true
+            A = false
+            ParameterInfo = { Name=|     Tint Opacity Map Channel }
+            bOverride = true
+        }
+        StaticComponentMaskParameters[1] =
+        {
+            R = true
+            G = false
+            B = false
+            A = false
+            ParameterInfo = { Name=|     Tint Opacity Map Channel . }
+            bOverride = true
+        }
+        StaticComponentMaskParameters[2] =
+        {
+            R = false
+            G = true
+            B = false
+            A = false
+            ParameterInfo = { Name=|     Roughness Map Channel   . }
+            bOverride = true
+        }
+    }
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[25] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+    CachedReferencedTextures[6] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+    CachedReferencedTextures[8] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    CachedReferencedTextures[10] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[12] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[14] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[15] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[16] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Liquid/T_Rain_Drops_A.T_Rain_Drops_A'
+    CachedReferencedTextures[17] = Texture2D'/Game/Effects/Textures/T_BurnLUT.T_BurnLUT'
+    CachedReferencedTextures[18] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Mask/T_Noise01.T_Noise01'
+    CachedReferencedTextures[19] = Texture2D'/Game/Effects/Textures/T_BurnedEmbers.T_BurnedEmbers'
+    CachedReferencedTextures[20] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    CachedReferencedTextures[21] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    CachedReferencedTextures[22] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    CachedReferencedTextures[23] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+    CachedReferencedTextures[24] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Com_Mud_A_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SmokeTile
+    }
+}

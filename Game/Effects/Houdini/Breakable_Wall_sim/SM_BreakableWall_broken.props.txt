@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Houdini/Breakable_Wall_sim/MI_BWWood_Outside_Broken.MI_BWWood_Outside_Broken'
+    Materials[1] = MaterialInstanceConstant'/Game/Effects/Houdini/Breakable_Wall_sim/MI_BWWood_Inside_Broken.MI_BWWood_Inside_Broken'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Breakable_Wall_sim/MI_BWWood_Outside_Broken.MI_BWWood_Outside_Broken'
+        MaterialSlotName = piece0SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 516, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Breakable_Wall_sim/MI_BWWood_Inside_Broken.MI_BWWood_Inside_Broken'
+        MaterialSlotName = piece0SG1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 416.827, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.17561, Y=15.5116, Z=2.75225 }
+    BoxExtent = { X=145.349, Y=133.244, Z=9.11899 }
+    SphereRadius = 191.532
+}

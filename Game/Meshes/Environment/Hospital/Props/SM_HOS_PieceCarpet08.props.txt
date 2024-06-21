@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_PieceCarpet01.MI_HOS_PieceCarpet01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_PieceCarpet01.MI_HOS_PieceCarpet01'
+        MaterialSlotName = MI_HOS_PieceCarpet01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 248.802, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.57764e-05, Y=-3.8147e-06, Z=2.11758e-22 }
+    BoxExtent = { X=34.2475, Y=7.6911, Z=4.70944e-16 }
+    SphereRadius = 35.1005
+}

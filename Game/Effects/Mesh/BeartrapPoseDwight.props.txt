@@ -1,0 +1,59 @@
+Materials[4] =
+{
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/MI_BearTrap01.MI_BearTrap01'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = MaterialSlot
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 141.695, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = MaterialSlot_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 78.1023, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = MaterialSlot_1_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 136.497, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_BearTrap01.MI_BearTrap01'
+        MaterialSlotName = MI_BearTrap01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 88.8025, 91.4042, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8.34025, Y=7.0368, Z=74.1209 }
+    BoxExtent = { X=45.6027, Y=52.016, Z=76.6408 }
+    SphereRadius = 95.7601
+}

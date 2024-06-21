@@ -1,0 +1,7 @@
+Diffuse=T_BRL_SpiderWeb01_Decal
+Emissive=T_BRL_SpiderWeb01_Decal
+Other[0]=T_Rocks
+Other[1]=Fx_radialGradient
+Other[2]=T_TilingNoise03
+Other[3]=Black
+Other[4]=White

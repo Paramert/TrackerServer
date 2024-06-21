@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Metal02.MI_HOS_Metal02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Metal02.MI_HOS_Metal02'
+        MaterialSlotName = MI_HOS_Metal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 302.262, 4227.46, 2351.81, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.84436, Y=496.782, Z=762.433 }
+    BoxExtent = { X=1353.49, Y=856.134, Z=221.432 }
+    SphereRadius = 1604.4
+}

@@ -1,0 +1,295 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04.T_Liquid_Splatter04'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[27] =
+                {
+                    ParameterInfos[0] = { Name=PoolMotion }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=BloodAnim }
+                    ParameterInfos[3] = { Name=BorderEdgeSmooth }
+                    ParameterInfos[4] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[5] = { Name=Atl_Roughness }
+                    ParameterInfos[6] = { Name=Textures Tiling }
+                    ParameterInfos[7] = { Name=BorderOpacity }
+                    ParameterInfos[8] = { Name=Metallic }
+                    ParameterInfos[9] = { Name=Border }
+                    ParameterInfos[10] = { Name=Atl_Vibrance }
+                    ParameterInfos[11] = { Name=Normal2Intensity }
+                    ParameterInfos[12] = { Name=Normal3Intensity }
+                    ParameterInfos[13] = { Name=Atl_Metallic }
+                    ParameterInfos[14] = { Name=Blood_MaskOffset }
+                    ParameterInfos[15] = { Name=Spec }
+                    ParameterInfos[16] = { Name=EmissiveIntensity }
+                    ParameterInfos[17] = { Name=EdgeSmooth }
+                    ParameterInfos[18] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[19] = { Name=PoolMotion Intensity }
+                    ParameterInfos[20] = { Name=PoolMotion Tiling }
+                    ParameterInfos[21] = { Name=NormalIntensity }
+                    ParameterInfos[22] = { Name=Atl_Specular }
+                    ParameterInfos[23] = { Name=Opacity }
+                    ParameterInfos[24] = { Name=OpacityAnim }
+                    ParameterInfos[25] = { Name=Atl_HueShift }
+                    ParameterInfos[26] = { Name=Blood_VeinsOffset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                    ParameterInfos[1] = { Name=Atl_DiffuseTint }
+                    ParameterInfos[2] = { Name=BloodColor2 }
+                    ParameterInfos[3] = { Name=BloodColor_Edge }
+                    ParameterInfos[4] = { Name=BloodColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Motion Map }
+                    ParameterInfos[1] = { Name=Detail Texture }
+                    ParameterInfos[2] = { Name=Normal2 }
+                    ParameterInfos[3] = { Name=Blood Mask Detail }
+                    ParameterInfos[4] = { Name=Normal3 }
+                    ParameterInfos[5] = { Name=Blood_Mask }
+                    ParameterInfos[6] = { Name=Blood_MaskNormal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[27] =
+        {
+            ScalarValues[0] = 0.3
+            ScalarValues[1] = 0.3
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0.2
+            ScalarValues[4] = 10
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0.7
+            ScalarValues[8] = 0.02
+            ScalarValues[9] = 0.3
+            ScalarValues[10] = 0.1
+            ScalarValues[11] = 0.2
+            ScalarValues[12] = 0.2
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0.005
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0.01
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0.1
+            ScalarValues[20] = 0.7
+            ScalarValues[21] = 0.2
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0.9
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0
+            ScalarValues[26] = 0
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0.02, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0.01, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0.02, G=0, B=0, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04.T_Liquid_Splatter04'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04.T_Liquid_Splatter04'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+        ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        Name = Motion Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        Name = Detail Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+        Name = Normal2
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+        Name = Blood Mask Detail
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = Normal3
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04.T_Liquid_Splatter04'
+        Name = Blood_Mask
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+        Name = Blood_MaskNormal
+        Group = None
+    }
+}
+CollectedScalarParameters[27] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=PoolMotion, Group=None }
+    CollectedScalarParameters[1] = { Value=0.3, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=BloodAnim, Group=None }
+    CollectedScalarParameters[3] = { Value=0.2, Name=BorderEdgeSmooth, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Textures Tiling, Group=None }
+    CollectedScalarParameters[7] = { Value=0.7, Name=BorderOpacity, Group=None }
+    CollectedScalarParameters[8] = { Value=0.02, Name=Metallic, Group=None }
+    CollectedScalarParameters[9] = { Value=0.3, Name=Border, Group=None }
+    CollectedScalarParameters[10] = { Value=0.1, Name=Atl_Vibrance, Group=None }
+    CollectedScalarParameters[11] = { Value=0.2, Name=Normal2Intensity, Group=None }
+    CollectedScalarParameters[12] = { Value=0.2, Name=Normal3Intensity, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Blood_MaskOffset, Group=None }
+    CollectedScalarParameters[15] = { Value=0.005, Name=Spec, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[17] = { Value=0.01, Name=EdgeSmooth, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[19] = { Value=0.1, Name=PoolMotion Intensity, Group=None }
+    CollectedScalarParameters[20] = { Value=0.7, Name=PoolMotion Tiling, Group=None }
+    CollectedScalarParameters[21] = { Value=0.2, Name=NormalIntensity, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[23] = { Value=0.9, Name=Opacity, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=OpacityAnim, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=Atl_HueShift, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=Blood_VeinsOffset, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.02, G=0, B=0, A=1 }
+        Name = BloodColor2
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.01, G=0, B=0, A=1 }
+        Name = BloodColor_Edge
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.02, G=0, B=0, A=1 }
+        Name = BloodColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fx_radialGradient
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Liquid_Splatter04_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_SmokeTile
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Veins
+    }
+}

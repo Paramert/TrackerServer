@@ -1,0 +1,6 @@
+Diffuse=White
+Emissive=White
+Other[0]=T_Cockroach
+Other[1]=Fx_radialGradient
+Other[2]=T_TilingNoise03
+Other[3]=Black

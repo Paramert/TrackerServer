@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Netease/Mesh/Stone/Final/Stone_A/MI_FinalStone_A.MI_FinalStone_A'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Netease/Mesh/Stone/Final/Stone_A/MI_FinalStone_A.MI_FinalStone_A'
+        MaterialSlotName = default1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 49.8531, 49.8531, 49.8134, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-4.76837e-07, Z=0 }
+    BoxExtent = { X=11.3735, Y=7.98264, Z=13.9351 }
+    SphereRadius = 14.1274
+}

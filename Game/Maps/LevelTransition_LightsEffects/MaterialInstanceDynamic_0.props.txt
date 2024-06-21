@@ -1,0 +1,112 @@
+Parent = Material3'/Engine/EngineSky/M_Sky_Panning_Clouds2.M_Sky_Panning_Clouds2'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Horizon falloff }
+        ParameterValue = 0.451179
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Cloud speed }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Sun brightness }
+        ParameterValue = 120.009
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Sun height }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Cloud opacity }
+        ParameterValue = 0.20354
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Stars brightness }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[6] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Light direction }
+        ParameterValue = { R=-1.62054e-08, G=1.18103e-07, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Sun color }
+        ParameterValue = { R=1, G=0.221, B=0.04, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Horizon color }
+        ParameterValue = { R=0.01, G=0.006554, B=0.00528, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Zenith color }
+        ParameterValue = { R=0.215, G=0.215, B=0.215, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Overall color }
+        ParameterValue = { R=0.024468, G=0.028845, B=0.03, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Cloud color }
+        ParameterValue = { R=0.545, G=0.407042, B=0.427898, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[3] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Engine/EngineSky/T_Sky_Clouds_M.T_Sky_Clouds_M'
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineSky/T_Sky_Blue.T_Sky_Blue'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_Metal01.MI_Hos_SHKR_Metal01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_Metal01.MI_Hos_SHKR_Metal01'
+        MaterialSlotName = MI_Hos_SHKR_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 263.077, 14237.1, 292.334, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-935.126, Y=2.13394, Z=440.776 }
+    BoxExtent = { X=164.254, Y=400.234, Z=131.67 }
+    SphereRadius = 445.743
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Bed01.MI_HOS_Bed01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Bed01_Sheet.MI_HOS_Bed01_Sheet'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Bed01.MI_HOS_Bed01'
+        MaterialSlotName = MI_HOS_Bed01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 283.682, 717.344, 844.866, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Bed01_Sheet.MI_HOS_Bed01_Sheet'
+        MaterialSlotName = MI_HOS_Bed01_Sheet
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 366.736, 744.732, 860.7, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.35062, Y=-9.88555, Z=95.6283 }
+    BoxExtent = { X=114.119, Y=79.1944, Z=95.6397 }
+    SphereRadius = 159.58
+}

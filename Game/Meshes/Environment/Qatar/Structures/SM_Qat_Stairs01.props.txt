@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Grid01.MI_Qat_Grid01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MetalTrim_Black03.MI_Qat_MetalTrim_Black03'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Grid01.MI_Qat_Grid01'
+        MaterialSlotName = MI_Qat_Grid01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 174.109, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MetalTrim_Black03.MI_Qat_MetalTrim_Black03'
+        MaterialSlotName = MI_Qat_MetalTrim_Black03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 172.324, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-250, Y=-100, Z=165 }
+    BoxExtent = { X=250, Y=100, Z=165 }
+    SphereRadius = 315.793
+}

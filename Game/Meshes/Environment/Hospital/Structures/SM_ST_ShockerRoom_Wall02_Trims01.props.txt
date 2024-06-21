@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Trims01.MI_Hos_Trims01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Trims01.MI_Hos_Trims01'
+        MaterialSlotName = MI_Hos_Trims01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 374.178, 6147.78, 1344.27, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-913.548, Y=1.60834, Z=497.577 }
+    BoxExtent = { X=306.599, Y=395.677, Z=187.939 }
+    SphereRadius = 516.384
+}

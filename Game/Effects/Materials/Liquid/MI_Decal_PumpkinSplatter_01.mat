@@ -1,0 +1,10 @@
+Diffuse=DefaultDiffuse
+Normal=T_BloodSplat_03_N
+SpecPower=T_Liquid_Splatter04
+Other[0]=T_WaterNormal
+Other[1]=T_BloodSplat_03_M
+Other[2]=T_FX_Gradient_Footsteps
+Other[3]=T_Liquid_Splatter04_N
+Other[4]=T_Mud_01_M
+Other[5]=T_reflection_map_01
+Other[6]=T_SmokeTile

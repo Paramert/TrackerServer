@@ -1,0 +1,4 @@
+Diffuse=DefaultTexture
+Emissive=T_ConfettiPop
+Other[0]=T_Snowflake
+Other[1]=Fx_radialGradient

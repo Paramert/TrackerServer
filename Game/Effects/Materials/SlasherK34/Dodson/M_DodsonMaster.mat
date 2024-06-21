@@ -1,0 +1,10 @@
+Diffuse=T_DissolveTextures
+Opacity=T_DodsonOpacityMask
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=Black
+Other[2]=DefaultTexture
+Other[3]=Fxt_verticalGradient
+Other[4]=T_OpacityMaskDodson_YerkesVisible_Body
+Other[5]=T_FX_DissolveRamp
+Other[6]=T_TilingNoise05
+Other[7]=Black

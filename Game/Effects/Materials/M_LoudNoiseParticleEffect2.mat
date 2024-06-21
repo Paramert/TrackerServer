@@ -1,0 +1,9 @@
+Diffuse=T_HoleInTheWallGlow
+Normal=SphereNormal
+Other[0]=T_HoleInTheWallMask
+Other[1]=Fx_radialGradient
+Other[2]=T_Noise01
+Other[3]=T_NoiseNormal_01
+Other[4]=T_PortalMaskTendril
+Other[5]=T_TilingNoise03
+Other[6]=TendrilMask

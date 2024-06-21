@@ -1,0 +1,191 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[11] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Fx_grassBlades.Fx_grassBlades'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Glitch.T_Glitch'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Killer07Screen03.T_Killer07Screen03'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_LightRays02.T_LightRays02'
+    ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Vegetations/T_Normal_Noise.T_Normal_Noise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=DistortIntensity }
+                    ParameterInfos[1] = { Name=Intermittence }
+                    ParameterInfos[2] = { Name=Mask_Radius }
+                    ParameterInfos[3] = { Name=NoiseScaleX }
+                    ParameterInfos[4] = { Name=NoiseContrast }
+                    ParameterInfos[5] = { Name=Mask_Hardness }
+                    ParameterInfos[6] = { Name=NoiseIntensity }
+                    ParameterInfos[7] = { Name=UVMask_Off_X }
+                    ParameterInfos[8] = { Name=NoiseColor }
+                    ParameterInfos[9] = { Name=DistortNoiseScale }
+                    ParameterInfos[10] = { Name=Vignette_Glitch }
+                    ParameterInfos[11] = { Name=UVMask_Scale_Y }
+                    ParameterInfos[12] = { Name=Vignette_GlitchFace }
+                    ParameterInfos[13] = { Name=UVMask_Off_Y }
+                    ParameterInfos[14] = { Name=DistortSpeedX }
+                    ParameterInfos[15] = { Name=DistortSpeedY }
+                    ParameterInfos[16] = { Name=NoisePower }
+                    ParameterInfos[17] = { Name=Mask Tiling }
+                    ParameterInfos[18] = { Name=Glitch_Rotation }
+                    ParameterInfos[19] = { Name=MaskPower }
+                    ParameterInfos[20] = { Name=MaskTilingX }
+                    ParameterInfos[21] = { Name=UVMask_Scale_X }
+                    ParameterInfos[22] = { Name=MaskTilingY }
+                    ParameterInfos[23] = { Name=Opacity }
+                    ParameterInfos[24] = { Name=NoiseScaleY }
+                    ParameterInfos[25] = { Name=Vignette_Power }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Colour }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Mask }
+                    ParameterInfos[1] = { Name=DoctorFace }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[26] =
+        {
+            ScalarValues[0] = 55
+            ScalarValues[1] = 0.1
+            ScalarValues[2] = 0.6
+            ScalarValues[3] = 1000
+            ScalarValues[4] = 5
+            ScalarValues[5] = 0.5
+            ScalarValues[6] = 0.5
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 2
+            ScalarValues[9] = 0.001
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0.58381
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0.5
+            ScalarValues[14] = 0.01
+            ScalarValues[15] = 0.05
+            ScalarValues[16] = 0.8
+            ScalarValues[17] = 2.5
+            ScalarValues[18] = 0.5
+            ScalarValues[19] = 2
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0.685532
+            ScalarValues[22] = 0.5625
+            ScalarValues[23] = 0.1
+            ScalarValues[24] = 500
+            ScalarValues[25] = 0
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1.53905, G=1.53125, B=2, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Glitch.T_Glitch'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Killer07Screen03.T_Killer07Screen03'
+        }
+    }
+    ReferencedTextures[12] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Glitch.T_Glitch'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_LightRays02.T_LightRays02'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Fx_grassBlades.Fx_grassBlades'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Killer07Screen03.T_Killer07Screen03'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Vegetations/T_Normal_Noise.T_Normal_Noise'
+        ReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[10] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[11] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Glitch.T_Glitch'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Killer07Screen03.T_Killer07Screen03'
+        Name = DoctorFace
+        Group = None
+    }
+}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=55, Name=DistortIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=Intermittence, Group=None }
+    CollectedScalarParameters[2] = { Value=0.6, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[3] = { Value=1000, Name=NoiseScaleX, Group=None }
+    CollectedScalarParameters[4] = { Value=5, Name=NoiseContrast, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=Mask_Hardness, Group=None }
+    CollectedScalarParameters[6] = { Value=0.5, Name=NoiseIntensity, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=UVMask_Off_X, Group=None }
+    CollectedScalarParameters[8] = { Value=2, Name=NoiseColor, Group=None }
+    CollectedScalarParameters[9] = { Value=0.001, Name=DistortNoiseScale, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Vignette_Glitch, Group=None }
+    CollectedScalarParameters[11] = { Value=0.58381, Name=UVMask_Scale_Y, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Vignette_GlitchFace, Group=None }
+    CollectedScalarParameters[13] = { Value=0.5, Name=UVMask_Off_Y, Group=None }
+    CollectedScalarParameters[14] = { Value=0.01, Name=DistortSpeedX, Group=None }
+    CollectedScalarParameters[15] = { Value=0.05, Name=DistortSpeedY, Group=None }
+    CollectedScalarParameters[16] = { Value=0.8, Name=NoisePower, Group=None }
+    CollectedScalarParameters[17] = { Value=2.5, Name=Mask Tiling, Group=None }
+    CollectedScalarParameters[18] = { Value=0.5, Name=Glitch_Rotation, Group=None }
+    CollectedScalarParameters[19] = { Value=2, Name=MaskPower, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=MaskTilingX, Group=None }
+    CollectedScalarParameters[21] = { Value=0.685532, Name=UVMask_Scale_X, Group=None }
+    CollectedScalarParameters[22] = { Value=0.5625, Name=MaskTilingY, Group=None }
+    CollectedScalarParameters[23] = { Value=0.1, Name=Opacity, Group=None }
+    CollectedScalarParameters[24] = { Value=500, Name=NoiseScaleY, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=Vignette_Power, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1.53905, G=1.53125, B=2, A=0 }
+        Name = Colour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

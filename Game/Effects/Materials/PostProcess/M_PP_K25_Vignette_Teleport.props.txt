@@ -1,0 +1,169 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K25/T_K25_Power_Vignette.T_K25_Power_Vignette'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=Lightning_Erode }
+                    ParameterInfos[1] = { Name=Distortion_01_Intensity }
+                    ParameterInfos[2] = { Name=Intensity }
+                    ParameterInfos[3] = { Name=FadeToBlack }
+                    ParameterInfos[4] = { Name=GlowAmount_02 }
+                    ParameterInfos[5] = { Name=Distortion_02_Intensity }
+                    ParameterInfos[6] = { Name=Tiling_Lightning_X }
+                    ParameterInfos[7] = { Name=Outline_Intensity }
+                    ParameterInfos[8] = { Name=Tiling_Lightning_Y }
+                    ParameterInfos[9] = { Name=Offset_Lightning_X }
+                    ParameterInfos[10] = { Name=GlowAmount }
+                    ParameterInfos[11] = { Name=Outline_Erode }
+                    ParameterInfos[12] = { Name=Offset_Lightning_Y }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Mask_Tiling_Speed }
+                    ParameterInfos[1] = { Name=Distortion_02_Tiling_PannerSpeeds }
+                    ParameterInfos[2] = { Name=Distortion_01_Tiling_PannerSpeeds }
+                    ParameterInfos[3] = { Name=Lightning_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Distortion_02_Texture }
+                    ParameterInfos[1] = { Name=Mask_Noise }
+                    ParameterInfos[2] = { Name=Pattern }
+                    ParameterInfos[3] = { Name=Distortion_01_Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] = { 0, 0, 2.5, 0, 0, 0, 1, 100, 1, 4, 0, 0, 4 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0.25, A=0.1 }
+            VectorValues[1] = { R=1, G=1, B=0.5, A=0.25 }
+            VectorValues[2] = { R=1, G=1, B=0.5, A=0.25 }
+            VectorValues[3] = { R=0.25, G=0.5, B=1, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/K25/T_K25_Power_Vignette.T_K25_Power_Vignette'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/K25/T_K25_Power_Vignette.T_K25_Power_Vignette'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K25/T_K25_Power_Vignette.T_K25_Power_Vignette'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        Name = Distortion_02_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K25/T_K25_Power_Vignette.T_K25_Power_Vignette'
+        Name = Mask_Noise
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K25/T_K25_Power_Vignette.T_K25_Power_Vignette'
+        Name = Pattern
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        Name = Distortion_01_Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Lightning_Erode, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = Distortion_01_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=2.5, Name=Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=FadeToBlack, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=GlowAmount_02, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0
+        Name = Distortion_02_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1, Name=Tiling_Lightning_X, Group=None }
+    CollectedScalarParameters[7] = { Value=100, Name=Outline_Intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Tiling_Lightning_Y, Group=None }
+    CollectedScalarParameters[9] = { Value=4, Name=Offset_Lightning_X, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=GlowAmount, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Outline_Erode, Group=None }
+    CollectedScalarParameters[12] = { Value=4, Name=Offset_Lightning_Y, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0.25, A=0.1 }
+        Name = Mask_Tiling_Speed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0.5, A=0.25 }
+        Name = Distortion_02_Tiling_PannerSpeeds
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0.5, A=0.25 }
+        Name = Distortion_01_Tiling_PannerSpeeds
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.25, G=0.5, B=1, A=0 }
+        Name = Lightning_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

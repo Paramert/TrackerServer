@@ -1,0 +1,11 @@
+Diffuse=Moss_diffuse
+Normal=FlatNormal
+Other[0]=DefaultDiffuse
+Other[1]=T_MetalMaze1m01_CAO
+Other[2]=T_MetalMaze1m01_MASK
+Other[3]=T_MetalMaze1m01_N
+Other[4]=Blue
+Other[5]=Green
+Other[6]=Red
+Other[7]=Yellow_Linear
+Other[8]=T_CrawlingMoss_Mask_01

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Mori/MI_MoriFace.MI_MoriFace'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K32/Materials/Mori/MI_MoriFace.MI_MoriFace'
+        MaterialSlotName = MI_MoriFace
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 51.1824, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.171783, Y=4.47302, Z=3.95192 }
+    BoxExtent = { X=7.07894, Y=5.36019, Z=10.7739 }
+    SphereRadius = 10.9006
+}

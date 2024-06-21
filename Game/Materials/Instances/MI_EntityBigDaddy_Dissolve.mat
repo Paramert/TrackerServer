@@ -1,0 +1,16 @@
+Diffuse=T_Bigdaddy_Finger_BC
+Normal=T_Bigdaddy_Finger_N
+SpecPower=T_Bigdaddy_Finger_S
+Other[0]=T_Bigdaddy_Finger_R
+Other[1]=T_DissolveTexturesEntity
+Other[2]=T_MeatHookSpider_BC
+Other[3]=T_MeatHookSpider_N
+Other[4]=T_MeatHookSpider_R
+Other[5]=T_MeatHookSpider_S
+Other[6]=SphereNormal
+Other[7]=T_Dissolve_spiderthing
+Other[8]=T_DissolveFlowmap
+Other[9]=T_DissolveTextures
+Other[10]=T_FX_DissolveRamp
+Other[11]=Black
+Other[12]=Black_Linear

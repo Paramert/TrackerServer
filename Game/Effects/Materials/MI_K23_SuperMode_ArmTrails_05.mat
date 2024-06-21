@@ -1,0 +1,5 @@
+Diffuse=T_SmokeTile
+Normal=T_WaterNormal
+Other[0]=NE_T_Smoke_LyLct_003
+Other[1]=T_K23_Knife_Trail_02
+Other[2]=T_Volumelight

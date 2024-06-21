@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_MetalMazeDeco.MI_MetalMazeDeco'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_MetalMazeDeco.MI_MetalMazeDeco'
+        MaterialSlotName = MI_MetalMazeDeco
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 317.709, 154.104, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.190186, Y=0.338593, Z=1.06549 }
+    BoxExtent = { X=35.1534, Y=34.6231, Z=12.6278 }
+    SphereRadius = 36.1626
+}

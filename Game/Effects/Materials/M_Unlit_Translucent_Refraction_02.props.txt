@@ -1,0 +1,224 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_blood_cloud_01.T_blood_cloud_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Gradient_Halloween2022_01.T_Gradient_Halloween2022_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=DistotionTilingX }
+                    ParameterInfos[1] = { Name=DistortionAmount }
+                    ParameterInfos[2] = { Name=DepthFade }
+                    ParameterInfos[3] = { Name=TexPanningSpeedX }
+                    ParameterInfos[4] = { Name=RefractionAmount }
+                    ParameterInfos[5] = { Name=WPOTexPanningSpeedY }
+                    ParameterInfos[6] = { Name=FadeLength }
+                    ParameterInfos[7] = { Name=LayerTilingX }
+                    ParameterInfos[8] = { Name=WPOTexPanningSpeedX }
+                    ParameterInfos[9] = { Name=FadeOffset }
+                    ParameterInfos[10] = { Name=DistotionPanningSpeedY }
+                    ParameterInfos[11] = { Name=DistotionPanningSpeedX }
+                    ParameterInfos[12] = { Name=TexTilingY }
+                    ParameterInfos[13] = { Name=Emissive_PreMultiply }
+                    ParameterInfos[14] = { Name=WPOStrength }
+                    ParameterInfos[15] = { Name=LayerPanningSpeedX }
+                    ParameterInfos[16] = { Name=LayerPanningSpeedY }
+                    ParameterInfos[17] = { Name=opacityMult }
+                    ParameterInfos[18] = { Name=WPOTexTilingY }
+                    ParameterInfos[19] = { Name=MaskPower }
+                    ParameterInfos[20] = { Name=RotationAngle0-1 }
+                    ParameterInfos[21] = { Name=TexPanningSpeedY }
+                    ParameterInfos[22] = { Name=LayerTilinfY }
+                    ParameterInfos[23] = { Name=DistotionTilingY }
+                    ParameterInfos[24] = { Name=TexTilingX }
+                    ParameterInfos[25] = { Name=WPOTexTilingX }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=ConstantColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=DistortionTex }
+                    ParameterInfos[1] = { Name=EmissiveTex }
+                    ParameterInfos[2] = { Name=MaskShape }
+                    ParameterInfos[3] = { Name=WPOTex }
+                    ParameterInfos[4] = { Name=GradientColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[26] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.1
+            ScalarValues[2] = 200
+            ScalarValues[3] = 0.05
+            ScalarValues[4] = 2
+            ScalarValues[5] = 0
+            ScalarValues[6] = 512
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.1
+            ScalarValues[9] = 24
+            ScalarValues[10] = -0.2
+            ScalarValues[11] = -0.03
+            ScalarValues[12] = 1
+            ScalarValues[13] = 2
+            ScalarValues[14] = 10
+            ScalarValues[15] = -0.001
+            ScalarValues[16] = -0.25
+            ScalarValues[17] = 1
+            ScalarValues[18] = 1
+            ScalarValues[19] = 2
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0.01
+            ScalarValues[22] = 1
+            ScalarValues[23] = 0.25
+            ScalarValues[24] = 1
+            ScalarValues[25] = 1
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.109375, G=1.5, B=0.542587, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_blood_cloud_01.T_blood_cloud_01'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/T_Gradient_Halloween2022_01.T_Gradient_Halloween2022_01'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Gradient_Halloween2022_01.T_Gradient_Halloween2022_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_blood_cloud_01.T_blood_cloud_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = DistortionTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+        Name = EmissiveTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_blood_cloud_01.T_blood_cloud_01'
+        Name = MaskShape
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+        Name = WPOTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Gradient_Halloween2022_01.T_Gradient_Halloween2022_01'
+        Name = GradientColor
+        Group = None
+    }
+}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=DistotionTilingX, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=DistortionAmount, Group=None }
+    CollectedScalarParameters[2] = { Value=200, Name=DepthFade, Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=TexPanningSpeedX, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=RefractionAmount, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=WPOTexPanningSpeedY, Group=None }
+    CollectedScalarParameters[6] = { Value=512, Name=FadeLength, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=LayerTilingX, Group=None }
+    CollectedScalarParameters[8] = { Value=0.1, Name=WPOTexPanningSpeedX, Group=None }
+    CollectedScalarParameters[9] = { Value=24, Name=FadeOffset, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = -0.2
+        Name = DistotionPanningSpeedY
+        Group = None
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = -0.03
+        Name = DistotionPanningSpeedX
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=1, Name=TexTilingY, Group=None }
+    CollectedScalarParameters[13] = { Value=2, Name=Emissive_PreMultiply, Group=None }
+    CollectedScalarParameters[14] = { Value=10, Name=WPOStrength, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = -0.001
+        Name = LayerPanningSpeedX
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=-0.25, Name=LayerPanningSpeedY, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=opacityMult, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=WPOTexTilingY, Group=None }
+    CollectedScalarParameters[19] = { Value=2, Name=MaskPower, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=RotationAngle0-1, Group=None }
+    CollectedScalarParameters[21] = { Value=0.01, Name=TexPanningSpeedY, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=LayerTilinfY, Group=None }
+    CollectedScalarParameters[23] = { Value=0.25, Name=DistotionTilingY, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=TexTilingX, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=WPOTexTilingX, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.109375, G=1.5, B=0.542587, A=1 }
+        Name = ConstantColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+}

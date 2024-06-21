@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampTreeBlocker04.MI_SwampTreeBlocker04'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampTreeBlocker04.MI_SwampTreeBlocker04'
+        MaterialSlotName = MI_SwampTreeBlocker04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 390.917, 655.102, 835.12, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.81508, Y=-9.81279, Z=112.186 }
+    BoxExtent = { X=148.782, Y=148.134, Z=127.28 }
+    SphereRadius = 192.302
+}

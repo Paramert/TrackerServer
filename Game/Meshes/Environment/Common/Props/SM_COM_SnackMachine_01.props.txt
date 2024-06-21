@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_SnackMachineMetal01.MI_COM_SnackMachineMetal01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_SnackMachine01.MI_COM_SnackMachine01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/_Com/Props/MI_DirtyGlass03.MI_DirtyGlass03'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_SnackMachineMetal01.MI_COM_SnackMachineMetal01'
+        MaterialSlotName = MI_COM_SnackMachineMetal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 490.178, 903.055, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_SnackMachine01.MI_COM_SnackMachine01'
+        MaterialSlotName = MI_COM_SnackMachine01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 286.618, 898.844, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/_Com/Props/MI_DirtyGlass03.MI_DirtyGlass03'
+        MaterialSlotName = MI_DirtyGlass03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 119.917, 902.48, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.917091, Y=0.369503, Z=106.199 }
+    BoxExtent = { X=60.9032, Y=50.4817, Z=108.137 }
+    SphereRadius = 131.859
+}

@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Other[0]=BlendFunc_DefBlend
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=NE_Store_BG
+Other[3]=T_Noise40
+Other[4]=T_Noise41

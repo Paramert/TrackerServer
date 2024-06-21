@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_EndGame_VA.MI_EndGame_VA'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_EndGame_VA.MI_EndGame_VA'
+        MaterialSlotName = MI_EndGame
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 93.4601, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0929246, Y=-0.117142, Z=6.78568 }
+    BoxExtent = { X=1.69443, Y=1.56238, Z=9.00341 }
+    SphereRadius = 9.12935
+}

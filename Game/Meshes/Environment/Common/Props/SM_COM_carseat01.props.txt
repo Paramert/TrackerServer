@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_Carseat01.MI_COM_Carseat01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_Carseat01.MI_COM_Carseat01'
+        MaterialSlotName = MI_Carseat01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 249.122, 338.392, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.27328, Y=0, Z=59.914 }
+    BoxExtent = { X=49.1787, Y=43.2835, Z=59.6405 }
+    SphereRadius = 79.7847
+}

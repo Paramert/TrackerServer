@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStandCorner_01.MI_JNK_GasStationStandCorner_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Wood_03.MI_JNK_GasStationStand_Wood_03'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Metal_Corner_01.MI_JNK_GasStationStand_Metal_Corner_01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStandCorner_01.MI_JNK_GasStationStandCorner_01'
+        MaterialSlotName = MI_JNK_GasStationStandCorner_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 685.705, 1219.34, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Wood_03.MI_JNK_GasStationStand_Wood_03'
+        MaterialSlotName = MI_JNK_GasStationStand_Wood_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 405.233, 1206.76, 950.397, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Metal_Corner_01.MI_JNK_GasStationStand_Metal_Corner_01'
+        MaterialSlotName = MI_JNK_GasStationStand_Metal_Corner_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 350.677, 1204.77, 946.943, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=149.833, Y=149.76, Z=93.3023 }
+    BoxExtent = { X=149.833, Y=149.76, Z=93.3023 }
+    SphereRadius = 231.481
+}

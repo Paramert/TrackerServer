@@ -1,0 +1,181 @@
+TwoSided = true
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[21] =
+                {
+                    ParameterInfos[0] = { Name=Pulse Size -Max }
+                    ParameterInfos[1] = { Name=Vignette Glow }
+                    ParameterInfos[2] = { Name=Detail- Y Tiling }
+                    ParameterInfos[3] = { Name=Detail- Level }
+                    ParameterInfos[4] = { Name=Smoke- X Tiling }
+                    ParameterInfos[5] = { Name=Pulse Size -Min }
+                    ParameterInfos[6] = { Name=Contraller- Alpha X Color }
+                    ParameterInfos[7] = { Name=Detail- X Speed }
+                    ParameterInfos[8] = { Name=Lines }
+                    ParameterInfos[9] = { Name=WeaponDistortionThreshold }
+                    ParameterInfos[10] = { Name=Controller- Texture Blend }
+                    ParameterInfos[11] = { Name=Smoke- Y Speed }
+                    ParameterInfos[12] = { Name=Smoke- Y Tiling }
+                    ParameterInfos[13] = { Name=VignetteStalking_Fade }
+                    ParameterInfos[14] = { Name=Lines Intensity }
+                    ParameterInfos[15] = { Name=Smoke- X Speed }
+                    ParameterInfos[16] = { Name=Detail- X Tiling }
+                    ParameterInfos[17] = { Name=Detail- Y Speed }
+                    ParameterInfos[18] = { Name=Pulse Time }
+                    ParameterInfos[19] = { Name=Frenzy Controller }
+                    ParameterInfos[20] = { Name=Controller- Detail }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Vignette Color }
+                    ParameterInfos[1] = { Name=Frenzy Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Smoke }
+                    ParameterInfos[1] = { Name=Details }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[21] =
+        {
+            ScalarValues[0] = 7
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 5
+            ScalarValues[5] = 6
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 5
+            ScalarValues[9] = 70
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 0.1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 3
+            ScalarValues[17] = 0.02
+            ScalarValues[18] = 2
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0.6
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=3, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        Name = Smoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+        Name = Details
+        Group = None
+    }
+}
+CollectedScalarParameters[21] =
+{
+    CollectedScalarParameters[0] = { Value=7, Name=Pulse Size -Max, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Vignette Glow, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Detail- Y Tiling, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Detail- Level, Group=None }
+    CollectedScalarParameters[4] = { Value=5, Name=Smoke- X Tiling, Group=None }
+    CollectedScalarParameters[5] = { Value=6, Name=Pulse Size -Min, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = Contraller- Alpha X Color
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0, Name=Detail- X Speed, Group=None }
+    CollectedScalarParameters[8] = { Value=5, Name=Lines, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 70
+        Name = WeaponDistortionThreshold
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.5
+        Name = Controller- Texture Blend
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=0.1, Name=Smoke- Y Speed, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Smoke- Y Tiling, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=VignetteStalking_Fade, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Lines Intensity, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Smoke- X Speed, Group=None }
+    CollectedScalarParameters[16] = { Value=3, Name=Detail- X Tiling, Group=None }
+    CollectedScalarParameters[17] = { Value=0.02, Name=Detail- Y Speed, Group=None }
+    CollectedScalarParameters[18] = { Value=2, Name=Pulse Time, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Frenzy Controller, Group=None }
+    CollectedScalarParameters[20] = { Value=0.6, Name=Controller- Detail, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Vignette Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=3, G=0, B=0, A=1 }
+        Name = Frenzy Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

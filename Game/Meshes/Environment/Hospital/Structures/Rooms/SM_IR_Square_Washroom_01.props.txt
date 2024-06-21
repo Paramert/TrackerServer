@@ -1,0 +1,98 @@
+Materials[7] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_BathroomCeiling01.MI_Hos_BathroomCeiling01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_BathRoomFloor01.MI_Hos_BathRoomFloor01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_IR_Ceiling01.MI_HOS_IR_Ceiling01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Trims01.MI_Hos_Trims01'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_PlasterBare_Wall01.MI_Hos_PlasterBare_Wall01'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_WoodPlanks01.MI_Hos_WoodPlanks01'
+    Materials[6] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TilesSquareClean01.MI_Hos_TilesSquareClean01'
+}
+SourceModels[0] = {}
+StaticMaterials[7] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_BathroomCeiling01.MI_Hos_BathroomCeiling01'
+        MaterialSlotName = MI_Hos_BathroomCeiling01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 472.966, 2602.95, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_BathRoomFloor01.MI_Hos_BathRoomFloor01'
+        MaterialSlotName = MI_Hos_BathRoomFloor01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.477, 2608.46, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_IR_Ceiling01.MI_HOS_IR_Ceiling01'
+        MaterialSlotName = MI_HOS_IR_Ceiling01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 511.392, 2611.95, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Trims01.MI_Hos_Trims01'
+        MaterialSlotName = MI_Hos_Trims01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 617.543, 2701.98, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_PlasterBare_Wall01.MI_Hos_PlasterBare_Wall01'
+        MaterialSlotName = MI_Hos_PlasterBare_Wall01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 486.614, 2613.48, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_WoodPlanks01.MI_Hos_WoodPlanks01'
+        MaterialSlotName = MI_Hos_WoodPlanks01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 286.313, 2602.12, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TilesSquareClean01.MI_Hos_TilesSquareClean01'
+        MaterialSlotName = MI_Hos_TilesSquareClean01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 514.823, 2594.18, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-12.4069, Y=-2.0083, Z=248.461 }
+    BoxExtent = { X=512.407, Y=502.008, Z=262.948 }
+    SphereRadius = 764.012
+}

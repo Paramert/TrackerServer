@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Props/MI_UKR_OilLamp01.MI_UKR_OilLamp01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Props/MI_UKR_OilLamp_GlassEmissive.MI_UKR_OilLamp_GlassEmissive'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Props/MI_UKR_OilLamp01.MI_UKR_OilLamp01'
+        MaterialSlotName = MI_UKR_OilLamp01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.104, 154.488, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Props/MI_UKR_OilLamp_GlassEmissive.MI_UKR_OilLamp_GlassEmissive'
+        MaterialSlotName = MI_UKR_OilLamp_GlassEmissive
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 55.208, 152.527, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.193148, Y=0.00656319, Z=32.4095 }
+    BoxExtent = { X=17.5586, Y=14.5579, Z=32.4175 }
+    SphereRadius = 35.736
+}

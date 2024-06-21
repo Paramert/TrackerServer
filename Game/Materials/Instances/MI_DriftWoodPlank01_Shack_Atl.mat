@@ -1,0 +1,11 @@
+Diffuse=T_DriftWoodPlank01_BC
+Normal=FlatNormal
+Other[0]=tree_mud_diffuse
+Other[1]=DefaultDiffuse
+Other[2]=T_FlatNormal_01
+Other[3]=T_GS_FrontSign_Flickerama
+Other[4]=Black
+Other[5]=White_Linear
+Other[6]=Yellow_Linear
+Other[7]=Moss_diffuse
+Other[8]=T_CrawlingMoss_Mask_01

@@ -1,0 +1,6 @@
+Diffuse=NE_T_Noise_TP068_032
+Normal=DefaultNormal
+Opacity=T_NE_ClanCompetition_Ray_Up
+Other[0]=T_NE_ClanCompetition_Ray_Down
+Other[1]=NE_T_NoiseNormal_TP068_002
+Other[2]=DefaultTexture

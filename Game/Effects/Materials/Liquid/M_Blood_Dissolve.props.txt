@@ -1,0 +1,112 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_GroundDirt03.T_GroundDirt03'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/InteractableObjects/PullDown/T_PD_Plank_01_BC.T_PD_Plank_01_BC'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Noise Threshold }
+                    ParameterInfos[1] = { Name=Normal }
+                    ParameterInfos[2] = { Name=DWP_Band Lenght }
+                    ParameterInfos[3] = { Name=TextureTiling }
+                    ParameterInfos[4] = { Name=Gradient Radius }
+                    ParameterInfos[5] = { Name=Adjust Radius Start }
+                    ParameterInfos[6] = { Name=DWP_Distance }
+                    ParameterInfos[7] = { Name=EffectTiling G }
+                    ParameterInfos[8] = { Name=Gradient -Controller }
+                    ParameterInfos[9] = { Name=DWP_BandIntensity }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Diffuse }
+                    ParameterInfos[1] = { Name=EffectTexture }
+                    ParameterInfos[2] = { Name=Blood Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 1, 0, 50, 0, 20, 0, 0.05, 1, 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/InteractableObjects/PullDown/T_PD_Plank_01_BC.T_PD_Plank_01_BC'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_GroundDirt03.T_GroundDirt03'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+        ReferencedTextures[1] = Texture2D'/Game/Textures/InteractableObjects/PullDown/T_PD_Plank_01_BC.T_PD_Plank_01_BC'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_GroundDirt03.T_GroundDirt03'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/InteractableObjects/PullDown/T_PD_Plank_01_BC.T_PD_Plank_01_BC'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+        Name = EffectTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_GroundDirt03.T_GroundDirt03'
+        Name = Blood Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Noise Threshold, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Normal, Group=None }
+    CollectedScalarParameters[2] = { Value=50, Name=DWP_Band Lenght, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=TextureTiling, Group=None }
+    CollectedScalarParameters[4] = { Value=20, Name=Gradient Radius, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Adjust Radius Start, Group=None }
+    CollectedScalarParameters[6] = { Value=0.05, Name=DWP_Distance, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=EffectTiling G, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Gradient -Controller, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=DWP_BandIntensity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

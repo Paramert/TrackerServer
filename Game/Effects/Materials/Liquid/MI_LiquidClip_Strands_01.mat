@@ -1,0 +1,5 @@
+Diffuse=T_Liquid_Clip_A
+Normal=T_Mud_N
+Other[0]=T_Liquid_Spray_SubUV_4x1
+Other[1]=T_Mud
+Other[2]=T_Noise_N_02

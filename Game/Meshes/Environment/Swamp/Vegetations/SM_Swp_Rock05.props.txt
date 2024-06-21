@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Swp_Rock_All_01.MI_Swp_Rock_All_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Swp_Rock_All_01.MI_Swp_Rock_All_01'
+        MaterialSlotName = MI_Swp_Rock05
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 800.242, 809.835, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=104.775 }
+    BoxExtent = { X=203.002, Y=127.321, Z=119.004 }
+    SphereRadius = 251.164
+}

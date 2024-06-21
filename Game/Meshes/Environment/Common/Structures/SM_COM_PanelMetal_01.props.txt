@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_MetalPlate03.MI_Foundry_MetalPlate03'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_MetalPlate03.MI_Foundry_MetalPlate03'
+        MaterialSlotName = MI_Foundry_MetalPlate03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 670.699, 205.571, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.419556, Z=0 }
+    BoxExtent = { X=50, Y=2.28217, Z=90.8838 }
+    SphereRadius = 103.745
+}

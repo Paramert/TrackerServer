@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_PlasticStorage_01.MI_COM_PlasticStorage_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_PlasticStorage_01.MI_COM_PlasticStorage_01'
+        MaterialSlotName = COM_PlasticStorage_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 154.659, 425.379, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.0248814, Z=21.3626 }
+    BoxExtent = { X=24.6613, Y=19.0228, Z=21.3568 }
+    SphereRadius = 35.3546
+}

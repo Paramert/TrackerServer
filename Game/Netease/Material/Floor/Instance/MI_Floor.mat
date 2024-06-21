@@ -1,0 +1,5 @@
+Diffuse=T_Floor_BaseColor
+Normal=T_Floor_Normal
+Other[0]=T_BloodFloor_BaseColor
+Other[1]=T_BloodFloor_Rough
+Other[2]=T_Floor_Occlussion

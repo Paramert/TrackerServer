@@ -1,0 +1,110 @@
+Parent = Material3'/Game/Netease/UI/UMGAssets/VX/Material/MI_Smoke_03_GL.MI_Smoke_03_GL'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Dissolve }
+        ParameterValue = -0.071428
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Dissolve }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/Noise_03.Noise_03'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/NE_HideSeek_Banner_Mask.NE_HideSeek_Banner_Mask'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex_01 }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/Noise_04.Noise_04'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Coole }
+        ParameterValue = { R=0.40479, G=1, B=0.960179, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Dissolve_UV }
+        ParameterValue = { R=1, G=1, B=0.25, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex_UV }
+        ParameterValue = { R=2, G=0.327102, B=-8, A=0.06 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[3] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/T_Mask_06_adcgl005.T_Mask_06_adcgl005'
+    CachedReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/Events/FirstCharge/Noise_09.Noise_09'
+    CachedReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_4.NE_GachaGemstone_VX_Noise_4'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = Noise_03
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Noise_04
+    }
+}

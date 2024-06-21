@@ -1,0 +1,212 @@
+Parent = Material3'/Game/Effects/UI/M_CardOffering_Rarity.M_CardOffering_Rarity'
+ScalarParameterValues[15] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DissolveProgress }
+        ParameterValue = -2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=GraDis_NoiseAmount }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=GraDis_NoiseTiling }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=ObjectHeight }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=ObjectGroundPosition }
+        ParameterValue = -10
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Emissive Threshold (rb) }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Emissive Border Level (rb) }
+        ParameterValue = -1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Emissive Border Base (rb) }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=border_brightness (rb) }
+        ParameterValue = 25
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Noise_Scale }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Noise_Speed }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Scale (tm) }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Tiling U }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Tiling V }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Texture (rb) }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=dissolve_texture (tm) }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[8] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=GenerateGradientFromWorld }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Border Ramp (rb) }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Dynamic Mask (rb) }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=(rb) Use 2D Lookup for Noise }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Detail Texture (rb) }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=Enable Texture Mask }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=ScaleMask (tm) }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=Enable Texture Tiling }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    CachedReferencedTextures[1] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_masks_01.Dissolve_masks_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[6] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/UI/logo_diffuse.logo_diffuse'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = logo_diffuse
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1.5
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}

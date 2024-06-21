@@ -1,0 +1,10 @@
+Diffuse=NE_T_TNTorso001_01_BC
+Normal=NE_T_TNTorso001_01_N
+Opacity=NE_T_TNTorso001_01_M
+Other[0]=NE_T_TNTorso001_01_ORM
+Other[1]=White
+Other[2]=FlatNormal
+Other[3]=DefaultTexture
+Other[4]=T_DissolveTextures
+Other[5]=T_FX_DissolveRamp
+Other[6]=Green_Linear

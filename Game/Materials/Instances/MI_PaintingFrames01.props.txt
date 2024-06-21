@@ -1,0 +1,101 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Master_Instances/Environment/MIM_Simple_01.MIM_Simple_01'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=|     Specular Value }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=|     Roughness Intensity }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=UV Channel }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor Map }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Suburbs/Props/T_PaintingFrame_BC.T_PaintingFrame_BC'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = true
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use BaseColor Map }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[27] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+    CachedReferencedTextures[1] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+    CachedReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+    CachedReferencedTextures[6] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+    CachedReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[13] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[14] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[15] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    CachedReferencedTextures[16] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Liquid/T_Rain_Drops_A.T_Rain_Drops_A'
+    CachedReferencedTextures[17] = Texture2D'/Game/Effects/Textures/T_BurnLUT.T_BurnLUT'
+    CachedReferencedTextures[18] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Mask/T_Noise01.T_Noise01'
+    CachedReferencedTextures[19] = Texture2D'/Game/Effects/Textures/T_BurnedEmbers.T_BurnedEmbers'
+    CachedReferencedTextures[20] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    CachedReferencedTextures[21] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    CachedReferencedTextures[22] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    CachedReferencedTextures[23] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+    CachedReferencedTextures[24] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    CachedReferencedTextures[25] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    CachedReferencedTextures[26] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

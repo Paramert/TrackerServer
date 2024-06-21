@@ -1,0 +1,164 @@
+Parent = Material3'/Game/Effects/Houdini/BloodSim_01/M_BloodMesh_VAT.M_BloodMesh_VAT'
+ScalarParameterValues[13] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Frame }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=SpeedOffset }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Number Of Frames }
+        ParameterValue = 24
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Position Min }
+        ParameterValue = -34.3241
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Position Max }
+        ParameterValue = 104.358
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Blood Contrast }
+        ParameterValue = 7.92
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Emissive }
+        ParameterValue = 0.234757
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Spec }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Time }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=UVX }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=UVY }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Flesh_string_tex }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Position_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Houdini/BloodSim_01/T_VAT_BloodMesh_01_pos.T_VAT_BloodMesh_01_pos'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Flesh Color 01 }
+        ParameterValue = { R=0.003, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Flesh Color 02 }
+        ParameterValue = { R=0.001, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Flesh String Color }
+        ParameterValue = { R=0.276042, G=0.157985, B=0.15524, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[10] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+    CachedReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineResources/Black.Black'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    CachedReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal
+    }
+}

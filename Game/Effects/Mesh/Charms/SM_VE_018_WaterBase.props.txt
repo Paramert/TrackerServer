@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/Charms/Venus/M_VE_018_Water.M_VE_018_Water'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/Charms/Venus/M_VE_018_Water.M_VE_018_Water'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 82.8397, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.07843, Y=10.8976, Z=-0.174187 }
+    BoxExtent = { X=39.7163, Y=39.964, Z=0.00969696 }
+    SphereRadius = 41.6976
+}

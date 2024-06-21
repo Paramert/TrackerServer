@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Eclipse/Props/MI_ECL_FlashGrenade.MI_ECL_FlashGrenade'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_FlashGrenade_M.MI_COM_FlashGrenade_M'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Eclipse/Props/MI_ECL_FlashGrenade.MI_ECL_FlashGrenade'
+        MaterialSlotName = MI_ECL_FlashGrenade
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 36.8302, 40.0348, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_FlashGrenade_M.MI_COM_FlashGrenade_M'
+        MaterialSlotName = MI_ECL_FlashGrenade_M
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 36.878, 41.1038, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.17298, Y=0.934335, Z=2.76493 }
+    BoxExtent = { X=5.12594, Y=4.3577, Z=13.22 }
+    SphereRadius = 13.9407
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Chest/Materials/MI_Chest.MI_Chest'
+    Materials[1] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Chest/Materials/MI_Padlock.MI_Padlock'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Chest/Materials/MI_Chest.MI_Chest'
+        MaterialSlotName = MI_Chest
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 272.653, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Chest/Materials/MI_Padlock.MI_Padlock'
+        MaterialSlotName = MI_Padlock
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 32.2444, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.267189, Y=8.89573, Z=57.8689 }
+    BoxExtent = { X=59.5476, Y=71.1243, Z=58.7606 }
+    SphereRadius = 103.227
+}

@@ -1,0 +1,181 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_Flag_N.T_Flag_N'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_Flag_N2.T_Flag_N2'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_UnrealEngineDecal.T_UnrealEngineDecal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=DirectionWave }
+                    ParameterInfos[1] = { Name=DirectionWave2 }
+                    ParameterInfos[2] = { Name=SpeedWave2 }
+                    ParameterInfos[3] = { Name=FallOffVetexMask }
+                    ParameterInfos[4] = { Name=HeightWave2 }
+                    ParameterInfos[5] = { Name=HeightWave1 }
+                    ParameterInfos[6] = { Name=ScaleWave }
+                    ParameterInfos[7] = { Name=SpeedWave }
+                    ParameterInfos[8] = { Name=ScaleWave2 }
+                    ParameterInfos[9] = { Name=DirectionJiggleSpeedWave2 }
+                    ParameterInfos[10] = { Name=DirectionJiggleSpeedWave }
+                    ParameterInfos[11] = { Name=NormalIntesityWave1 }
+                    ParameterInfos[12] = { Name=DirectionJiggleWave2 }
+                    ParameterInfos[13] = { Name=NormalIntesityWave2 }
+                    ParameterInfos[14] = { Name=DirectionJiggleWave }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=NormalDirectionMultiplierWave2 }
+                    ParameterInfos[1] = { Name=ColorTintColourATL }
+                    ParameterInfos[2] = { Name=ColorTintColour }
+                    ParameterInfos[3] = { Name=NormalDirectionMultiplierWave1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 2.68261
+            ScalarValues[1] = 2.68261
+            ScalarValues[2] = 1
+            ScalarValues[3] = 3
+            ScalarValues[4] = 50
+            ScalarValues[5] = 50
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.01
+            ScalarValues[10] = 0.01
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0.01
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.01
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=2, G=2, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=2, G=2, B=1, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_UnrealEngineDecal.T_UnrealEngineDecal'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_UnrealEngineDecal.T_UnrealEngineDecal'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_Flag_N.T_Flag_N'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_Flag_N2.T_Flag_N2'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.8
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_UnrealEngineDecal.T_UnrealEngineDecal'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=2.68261, Name=DirectionWave, Group=None }
+    CollectedScalarParameters[1] = { Value=2.68261, Name=DirectionWave2, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=SpeedWave2, Group=None }
+    CollectedScalarParameters[3] = { Value=3, Name=FallOffVetexMask, Group=None }
+    CollectedScalarParameters[4] = { Value=50, Name=HeightWave2, Group=None }
+    CollectedScalarParameters[5] = { Value=50, Name=HeightWave1, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=ScaleWave, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=SpeedWave, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=ScaleWave2, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.01
+        Name = DirectionJiggleSpeedWave2
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.01
+        Name = DirectionJiggleSpeedWave
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=1, Name=NormalIntesityWave1, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.01
+        Name = DirectionJiggleWave2
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=1, Name=NormalIntesityWave2, Group=None }
+    CollectedScalarParameters[14] = { Value=0.01, Name=DirectionJiggleWave, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=2, B=1, A=1 }
+        Name = NormalDirectionMultiplierWave2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ColorTintColourATL
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ColorTintColour
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=2, G=2, B=1, A=1 }
+        Name = NormalDirectionMultiplierWave1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Flag_N2
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/Charms/Venus/M_VE_018_Waterfalls2.M_VE_018_Waterfalls2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/Charms/Venus/M_VE_018_Waterfalls2.M_VE_018_Waterfalls2'
+        MaterialSlotName = pasted__lambert4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 30.5339, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=18.2752, Y=10.4655, Z=-17.4042 }
+    BoxExtent = { X=35.3276, Y=43.2542, Z=16.9944 }
+    SphereRadius = 53.779
+}

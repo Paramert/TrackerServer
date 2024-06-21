@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_TrimMetal03_B.MI_Foundry_TrimMetal03_B'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_TrimMetal03_B.MI_Foundry_TrimMetal03_B'
+        MaterialSlotName = MI_Miscellaneous_ExitBuilding1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 232.001, 190.823, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-67.1144, Y=-0.0660706, Z=131.945 }
+    BoxExtent = { X=76.0834, Y=3.75528, Z=132.198 }
+    SphereRadius = 149.422
+}

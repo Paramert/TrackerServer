@@ -1,0 +1,172 @@
+Parent = Material3'/Game/Materials/M_Entity.M_Entity'
+ScalarParameterValues[10] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DissolveProgress }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BorderThresholdHigh }
+        ParameterValue = 0.007165
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=BorderThresholdLow }
+        ParameterValue = 0.004154
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=DIssolveBorderBlueChannel }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=DIssolveBorderGreenChannel }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=DissolveOpacityOffset }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=DissolveTexture_TileX }
+        ParameterValue = 8
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=DissolveTextureTile_Y }
+        ParameterValue = 6
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=CustomMetallic }
+        ParameterValue = 0.547003
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=DissolveTexture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Base Color Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/T_MeatHookSpider_BC.T_MeatHookSpider_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NormalMap Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/T_MeatHookSpider_N.T_MeatHookSpider_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=RoughnessMap Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/T_MeatHookSpider_R.T_MeatHookSpider_R'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Specular Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/T_MeatHookSpider_S.T_MeatHookSpider_S'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[6] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseDissolve }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseObjectLocalBounds }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseBaseColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseNormal }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseRoughness }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSpecular }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[7] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DissolveFlowmap.T_DissolveFlowmap'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/SphereNormal.SphereNormal'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

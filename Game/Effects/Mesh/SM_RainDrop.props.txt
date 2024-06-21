@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/MI_RainSplash.MI_RainSplash'
+    Materials[1] = MaterialInstanceConstant'/Game/Effects/Materials/MI_RainSplash.MI_RainSplash'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_RainSplash.MI_RainSplash'
+        MaterialSlotName = MI_RainSplash
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 23.5064, 63.941, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_RainSplash.MI_RainSplash'
+        MaterialSlotName = MI_RainSplash_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 26.852, 63.1141, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=22.5127 }
+    BoxExtent = { X=17.2343, Y=17.2343, Z=22.5127 }
+    SphereRadius = 24.6688
+}

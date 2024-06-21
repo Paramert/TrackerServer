@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_SM_Kenya_Valise01.MI_SM_Kenya_Valise01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_SM_Kenya_Valise01.MI_SM_Kenya_Valise01'
+        MaterialSlotName = MI_SM_Kenya_Valise01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 266.884, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=26.45 }
+    BoxExtent = { X=34.0433, Y=9.84319, Z=26.6316 }
+    SphereRadius = 41.1137
+}

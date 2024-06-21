@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Houdini/Crows/K26/MI_VAT_K26_CrowAttackAttached_Body_01.MI_VAT_K26_CrowAttackAttached_Body_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Effects/Houdini/Crows/K26/MI_VAT_K26_CrowAttackAttached_Wings_01.MI_VAT_K26_CrowAttackAttached_Wings_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Crows/K26/MI_VAT_K26_CrowAttackAttached_Body_01.MI_VAT_K26_CrowAttackAttached_Body_01'
+        MaterialSlotName = redvelvet
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 43.4264, 0, 71.7503, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Crows/K26/MI_VAT_K26_CrowAttackAttached_Wings_01.MI_VAT_K26_CrowAttackAttached_Wings_01'
+        MaterialSlotName = cloth
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 29.7584, 0, 75.8788, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0968018, Y=-3.07033, Z=6.92017 }
+    BoxExtent = { X=48.9313, Y=16.2619, Z=16.3331 }
+    SphereRadius = 49.5905
+}

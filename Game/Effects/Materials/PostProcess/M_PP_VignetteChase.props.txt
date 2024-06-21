@@ -1,0 +1,136 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteBreaks_Legion.T_VignetteBreaks_Legion'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+    ReferencedTextures[2] = Texture2D'/Game/StarterContent/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=SpeedX_2 }
+                    ParameterInfos[1] = { Name=Mask_Radius }
+                    ParameterInfos[2] = { Name=SpeedX_1 }
+                    ParameterInfos[3] = { Name=Mask_Hardness }
+                    ParameterInfos[4] = { Name=SpeedY_3 }
+                    ParameterInfos[5] = { Name=SpeedY_1 }
+                    ParameterInfos[6] = { Name=MaskAmount }
+                    ParameterInfos[7] = { Name=SpeedY_2 }
+                    ParameterInfos[8] = { Name=RadialScaling }
+                    ParameterInfos[9] = { Name=DepthTest }
+                    ParameterInfos[10] = { Name=DetailMaskPower }
+                    ParameterInfos[11] = { Name=Opacity }
+                    ParameterInfos[12] = { Name=SpeedX_3 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Colour }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Smoke }
+                    ParameterInfos[1] = { Name=Break }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 0.05
+            ScalarValues[1] = 0.8
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.3
+            ScalarValues[4] = -0.4
+            ScalarValues[5] = -0.2
+            ScalarValues[6] = 1
+            ScalarValues[7] = -0.05
+            ScalarValues[8] = 1
+            ScalarValues[9] = 50
+            ScalarValues[10] = 0.3
+            ScalarValues[11] = 0.2
+            ScalarValues[12] = 0.4
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.8, G=0.8, B=0.8, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteBreaks_Legion.T_VignetteBreaks_Legion'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+        ReferencedTextures[1] = Texture2D'/Game/StarterContent/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteBreaks_Legion.T_VignetteBreaks_Legion'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+        Name = Smoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteBreaks_Legion.T_VignetteBreaks_Legion'
+        Name = Break
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0.05, Name=SpeedX_2, Group=None }
+    CollectedScalarParameters[1] = { Value=0.8, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=SpeedX_1, Group=None }
+    CollectedScalarParameters[3] = { Value=0.3, Name=Mask_Hardness, Group=None }
+    CollectedScalarParameters[4] = { Value=-0.4, Name=SpeedY_3, Group=None }
+    CollectedScalarParameters[5] = { Value=-0.2, Name=SpeedY_1, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=MaskAmount, Group=None }
+    CollectedScalarParameters[7] = { Value=-0.05, Name=SpeedY_2, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=RadialScaling, Group=None }
+    CollectedScalarParameters[9] = { Value=50, Name=DepthTest, Group=None }
+    CollectedScalarParameters[10] = { Value=0.3, Name=DetailMaskPower, Group=None }
+    CollectedScalarParameters[11] = { Value=0.2, Name=Opacity, Group=None }
+    CollectedScalarParameters[12] = { Value=0.4, Name=SpeedX_3, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.8, G=0.8, B=0.8, A=1 }
+        Name = Colour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

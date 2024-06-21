@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Mesh/WorldGridMaterial_001.WorldGridMaterial_001'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Mesh/WorldGridMaterial_001.WorldGridMaterial_001'
+        MaterialSlotName = WorldGridMaterial_001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 105.842, 107.609, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.40772, Y=-2.16953, Z=-5.39764 }
+    BoxExtent = { X=98.1816, Y=33.28, Z=106.851 }
+    SphereRadius = 134.108
+}

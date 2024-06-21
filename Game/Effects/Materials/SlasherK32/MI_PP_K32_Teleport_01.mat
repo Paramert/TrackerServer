@@ -1,0 +1,5 @@
+Diffuse=T_K32_Teleport_01
+Other[0]=T_Tiling_Caustics_02
+Other[1]=T_Gradient_K32_Teleport_01
+Other[2]=T_K23_Trail_Gradient
+Other[3]=T_Tiling_Cloud_05

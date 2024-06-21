@@ -1,0 +1,133 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/NE_T_disort_test.NE_T_disort_test'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Fire_Candle.T_Fire_Candle'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=wave_scaleX }
+                    ParameterInfos[1] = { Name=rotate }
+                    ParameterInfos[2] = { Name=wave_scaleY }
+                    ParameterInfos[3] = { Name=Flowspeed_X }
+                    ParameterInfos[4] = { Name=bottom_offset }
+                    ParameterInfos[5] = { Name=main_scale }
+                    ParameterInfos[6] = { Name=Fade_Dist }
+                    ParameterInfos[7] = { Name=Amount }
+                    ParameterInfos[8] = { Name=Flowspeed_Y }
+                    ParameterInfos[9] = { Name=Strength }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=offset_XY }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                    ParameterInfos[1] = { Name=worldoffset_noise_Tex_1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 6.28
+            ScalarValues[2] = 0.25
+            ScalarValues[3] = -0.1
+            ScalarValues[4] = -0.2
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0.005
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 50
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Fire_Candle.T_Fire_Candle'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/NE_T_disort_test.NE_T_disort_test'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Fire_Candle.T_Fire_Candle'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_disort_test.NE_T_disort_test'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Fire_Candle.T_Fire_Candle'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_disort_test.NE_T_disort_test'
+        Name = worldoffset_noise_Tex_1
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=wave_scaleX, Group=None }
+    CollectedScalarParameters[1] = { Value=6.28, Name=rotate, Group=None }
+    CollectedScalarParameters[2] = { Value=0.25, Name=wave_scaleY, Group=None }
+    CollectedScalarParameters[3] = { Value=-0.1, Name=Flowspeed_X, Group=None }
+    CollectedScalarParameters[4] = { Value=-0.2, Name=bottom_offset, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=main_scale, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Fade_Dist, Group=None }
+    CollectedScalarParameters[7] = { Value=0.005, Name=Amount, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Flowspeed_Y, Group=None }
+    CollectedScalarParameters[9] = { Value=50, Name=Strength, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = offset_XY
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = NE_T_disort_test
+    }
+}

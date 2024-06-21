@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Suburbs/Structures/MI_HAD_PavementSideWalkDmg_A.MI_HAD_PavementSideWalkDmg_A'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Suburbs/Structures/MI_HAD_PavementSideWalkDmg_A.MI_HAD_PavementSideWalkDmg_A'
+        MaterialSlotName = MI_HAD_PavementSideWalkDmg_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 132.981, 134.888, 126.606, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-10, Y=50.0001, Z=6.57037 }
+    BoxExtent = { X=10, Y=50, Z=6.57038 }
+    SphereRadius = 51.4118
+}

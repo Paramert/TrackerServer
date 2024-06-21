@@ -1,0 +1,7 @@
+Diffuse=BlendFunc_DefBase
+Other[0]=T_Trail
+Other[1]=T_Tiling_Cells_01
+Other[2]=BlendFunc_DefBlend
+Other[3]=T_Gradient_Halloween2022_01
+Other[4]=T_Tiling_Caustics_02
+Other[5]=T_Tiling_Gaussian_01

@@ -1,0 +1,133 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K26/T_Feather_01.T_Feather_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K26/T_Feather_01_N.T_Feather_01_N'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=ExponentIn }
+                    ParameterInfos[1] = { Name=Feather_Opacity }
+                    ParameterInfos[2] = { Name=EmissiveBoost }
+                    ParameterInfos[3] = { Name=Feather_SideMaskContrast }
+                    ParameterInfos[4] = { Name=FadeDistance }
+                    ParameterInfos[5] = { Name=Fresnel_Contrast }
+                    ParameterInfos[6] = { Name=Feather_SideMaskOpacity }
+                    ParameterInfos[7] = { Name=OpacityFresnel }
+                    ParameterInfos[8] = { Name=FadeLenght }
+                    ParameterInfos[9] = { Name=FadeExponent }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=FresnelColor }
+                    ParameterInfos[1] = { Name=AddColorReflection }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Fresnel Normal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 0, 1, 0, 0.5, 15, 1, 10, 0, 0, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.32954, G=0.32739, B=0.338542, A=1 }
+            VectorValues[1] = { R=0.086598, G=0.021891, B=0.114583, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K26/T_Feather_01_N.T_Feather_01_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K26/T_Feather_01.T_Feather_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+        Name = Fresnel Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=ExponentIn, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Feather_Opacity, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=EmissiveBoost, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.5
+        Name = Feather_SideMaskContrast
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=15, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Fresnel_Contrast, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 10
+        Name = Feather_SideMaskOpacity
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0, Name=OpacityFresnel, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=FadeLenght, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=FadeExponent, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.32954, G=0.32739, B=0.338542, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.086598, G=0.021891, B=0.114583, A=1 }
+        Name = AddColorReflection
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Feather_01
+    }
+}

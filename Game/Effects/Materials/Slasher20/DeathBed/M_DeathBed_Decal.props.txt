@@ -1,0 +1,93 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_K20_GroundOpening_00.T_K20_GroundOpening_00'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Height }
+                    ParameterInfos[1] = { Name=HeightRatio }
+                    ParameterInfos[2] = { Name=Erosion Controller }
+                    ParameterInfos[3] = { Name=B }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Decal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { -1, 0.00629, 1, 42.2125 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.1, G=0.01, B=0.01, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_K20_GroundOpening_00.T_K20_GroundOpening_00'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_K20_GroundOpening_00.T_K20_GroundOpening_00'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_K20_GroundOpening_00.T_K20_GroundOpening_00'
+        Name = Decal
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=-1, Name=Height, Group=None }
+    CollectedScalarParameters[1] = { Value=0.00629, Name=HeightRatio, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Erosion Controller, Group=None }
+    CollectedScalarParameters[3] = { Value=42.2125, Name=B, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1, G=0.01, B=0.01, A=1 }
+        Name = Param
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

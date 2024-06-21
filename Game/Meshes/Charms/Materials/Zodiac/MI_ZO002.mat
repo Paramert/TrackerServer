@@ -1,0 +1,8 @@
+Diffuse=T_ZO002_BC
+Normal=T_ZO002_N
+Other[0]=T_ZO002_ORM
+Other[1]=DefaultTexture
+Other[2]=FlatNormal
+Other[3]=T_DissolveTextures
+Other[4]=T_FX_DissolveRamp
+Other[5]=Green_Linear

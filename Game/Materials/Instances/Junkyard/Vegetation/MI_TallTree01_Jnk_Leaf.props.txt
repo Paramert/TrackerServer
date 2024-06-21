@@ -1,0 +1,81 @@
+Parent = Material3'/Game/Materials/M_treeLeaf01_NoShadow.M_treeLeaf01_NoShadow'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Junkyard/Vegetation/T_TallTree01_Jnk_Leaf_BC.T_TallTree01_Jnk_Leaf_BC'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=NeteaseColorReduce }
+        ParameterValue = { R=0.02, G=0.02, B=0.02, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = true
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[16] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Vegetations/T_treeLeaf01_BC.T_treeLeaf01_BC'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    CachedReferencedTextures[7] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[8] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Vegetations/Atlanta/T_treeLeaf01_Atl_MaskRGB.T_treeLeaf01_Atl_MaskRGB'
+    CachedReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    CachedReferencedTextures[13] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[14] = Texture2D'/Game/Textures/Environment/Vegetations/T_FoliageWaves_02_N.T_FoliageWaves_02_N'
+    CachedReferencedTextures[15] = Texture2D'/Game/Textures/Environment/Vegetations/T_MapleOakLeaves01_Wind.T_MapleOakLeaves01_Wind'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TallTree01_Jnk_Leaf_BC
+    }
+}

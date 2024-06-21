@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_Stump01.MI_BRL_Stump01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_TreebarkA_01.MI_Kenya_TreebarkA_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_Stump01.MI_BRL_Stump01'
+        MaterialSlotName = MI_BRL_Stump01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 107.376, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_TreebarkA_01.MI_Kenya_TreebarkA_01'
+        MaterialSlotName = MI_Kenya_TreebarkA_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 169.411, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-11.9948, Y=-13.8365, Z=16.8752 }
+    BoxExtent = { X=127.853, Y=84.8674, Z=46.3866 }
+    SphereRadius = 133.797
+}

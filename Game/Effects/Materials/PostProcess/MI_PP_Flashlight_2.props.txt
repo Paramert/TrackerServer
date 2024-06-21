@@ -1,0 +1,237 @@
+Parent = Material3'/Game/Effects/Materials/PostProcess/M_PP_Flashlight_2.M_PP_Flashlight_2'
+ScalarParameterValues[22] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color_Intensity }
+        ParameterValue = 0.675
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Corner Mask Radius }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=CornerMaskNormal_Intensity }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=CornerMaskNormal_Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Outline Mask Radius }
+        ParameterValue = 1.55
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=ETM - Mask Intensity }
+        ParameterValue = 0.275
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=ETM- M1- Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=ETM- M2-Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=GC - Blinking Light }
+        ParameterValue = 1.75
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=GC- Max Size }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=GC- Min Size }
+        ParameterValue = 0.575
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Outline_Mask_Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Outline_Mask_Scale }
+        ParameterValue = 1.15
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=CG-Noise1_Tiling }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=CG-Noise2_Tiling }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=FlashlightIntensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=Noise Intensity }
+        ParameterValue = 3.25
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Outline_Veins_Intensity }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Spot_Intensity }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=Spots_Veins_Intensity }
+        ParameterValue = 0.0375
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Veiny_Spots_Intensity }
+        ParameterValue = 0.45
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=T_CornerMask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_EyeBall_CornerMask.T_EyeBall_CornerMask'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=T_EntityVeins }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_EyeBall_Background_05.T_EyeBall_Background_05'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Center Glow - Pattern }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=T_Mask_Eye }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Mask_Eye_08.T_Mask_Eye_08'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=T_RadialGradient }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Panner_Speeds }
+        ParameterValue = { R=0.0637, G=-0.1215, B=-0.03875, A=0.075 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Center_Color }
+        ParameterValue = { R=0.869792, G=0.750413, B=0.465717, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=CG_Noise_Speed }
+        ParameterValue = { R=0.1, G=0.1, B=-0.1, A=-0.1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=EyeSpots_Color }
+        ParameterValue = { R=2.5, G=1.415, B=0.875, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[12] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_HalloweenJuice2.T_Gradient_HalloweenJuice2'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Mask_Eye_07.T_Mask_Eye_07'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_BigDust_04.T_BigDust_04'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_BigDust_01.T_BigDust_01'
+    CachedReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_Veins_05.T_Veins_05'
+    CachedReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_EyeBall_Outline_02.T_EyeBall_Outline_02'
+    CachedReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_EyeBall_Outline_03.T_EyeBall_Outline_03'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

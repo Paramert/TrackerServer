@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/MI_Hatch.MI_Hatch'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_Hatch.MI_Hatch'
+        MaterialSlotName = MI_Hatch
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 264.911, 122.823, 362.199, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.088501, Y=157.68, Z=1.72359 }
+    BoxExtent = { X=65.3257, Y=102.795, Z=51.7339 }
+    SphereRadius = 125.571
+}

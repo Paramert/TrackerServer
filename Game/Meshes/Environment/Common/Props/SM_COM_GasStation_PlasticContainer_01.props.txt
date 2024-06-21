@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_GasStation_PlasticContainer_01.MI_COM_GasStation_PlasticContainer_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_GasStation_PlasticContainer_01.MI_COM_GasStation_PlasticContainer_01'
+        MaterialSlotName = MI_COM_GasStation_PlasticContainer_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 54.1187, 65.5058, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=15.2864 }
+    BoxExtent = { X=10.288, Y=6.60603, Z=15.1859 }
+    SphereRadius = 18.1977
+}

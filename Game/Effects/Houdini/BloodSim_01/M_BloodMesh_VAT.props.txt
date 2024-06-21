@@ -1,0 +1,203 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineResources/Black.Black'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=Cutout_progress }
+                    ParameterInfos[1] = { Name=Blood Contrast }
+                    ParameterInfos[2] = { Name=Roughness }
+                    ParameterInfos[3] = { Name=UVY }
+                    ParameterInfos[4] = { Name=SpeedOffset }
+                    ParameterInfos[5] = { Name=Scale_texture_cutout }
+                    ParameterInfos[6] = { Name=Emissive }
+                    ParameterInfos[7] = { Name=Frame }
+                    ParameterInfos[8] = { Name=Position Max }
+                    ParameterInfos[9] = { Name=Position Min }
+                    ParameterInfos[10] = { Name=Spec }
+                    ParameterInfos[11] = { Name=Padded Size X }
+                    ParameterInfos[12] = { Name=Texture Size Y }
+                    ParameterInfos[13] = { Name=Number Of Frames }
+                    ParameterInfos[14] = { Name=Time }
+                    ParameterInfos[15] = { Name=UVX }
+                    ParameterInfos[16] = { Name=Padded Size Y }
+                    ParameterInfos[17] = { Name=Texture Size X }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Flesh Color 01 }
+                    ParameterInfos[1] = { Name=Flesh Color 02 }
+                    ParameterInfos[2] = { Name=Flesh String Color }
+                    ParameterInfos[3] = { Name=Speed_cutout }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Position_Texture }
+                    ParameterInfos[1] = { Name=Flesh_string_tex }
+                    ParameterInfos[2] = { Name=Noise_texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 2
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 5
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 239
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.151042, G=0.005974, B=0.004531, A=1 }
+            VectorValues[1] = { R=0.026042, G=0.000217, B=0, A=1 }
+            VectorValues[2] = { R=0.724, G=0.193155, B=0.157119, A=1 }
+            VectorValues[3] = { R=0.1, G=0.1, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineResources/Black.Black'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = Position_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        Name = Flesh_string_tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = Noise_texture
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Cutout_progress, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=Blood Contrast, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=UVY, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=SpeedOffset, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Scale_texture_cutout, Group=None }
+    CollectedScalarParameters[6] = { Value=5, Name=Emissive, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Frame, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Position Max, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Position Min, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Spec, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Padded Size X, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Texture Size Y, Group=None }
+    CollectedScalarParameters[13] = { Value=239, Name=Number Of Frames, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Time, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=UVX, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Padded Size Y, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Texture Size X, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.151042, G=0.005974, B=0.004531, A=1 }
+        Name = Flesh Color 01
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.026042, G=0.000217, B=0, A=1 }
+        Name = Flesh Color 02
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.724, G=0.193155, B=0.157119, A=1 }
+        Name = Flesh String Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.1, G=0.1, B=0, A=1 }
+        Name = Speed_cutout
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Veins
+    }
+}

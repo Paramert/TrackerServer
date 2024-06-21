@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Lunar/Materials/MI_LanterneLunar_NY020.MI_LanterneLunar_NY020'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Lunar/Materials/MI_LanterneLunar_NY020.MI_LanterneLunar_NY020'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 105.44, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-36.1675 }
+    BoxExtent = { X=29.1568, Y=25.6343, Z=38.2036 }
+    SphereRadius = 40.3106
+}

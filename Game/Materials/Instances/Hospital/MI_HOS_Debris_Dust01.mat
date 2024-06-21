@@ -1,0 +1,17 @@
+Diffuse=T_HOS_Debris_A_BC
+Normal=T_HOS_Debris_A_N
+Opacity=T_HOS_Debris_A_A
+Other[0]=Black
+Other[1]=T_HOS_Debris_A_R
+Other[2]=HeatmapGradient
+Other[3]=DefaultDiffuse
+Other[4]=FlatNormal
+Other[5]=environment_mud_diffuse
+Other[6]=environment_mud_N
+Other[7]=T_Brick01_BC
+Other[8]=Black_Linear
+Other[9]=Green_Linear
+Other[10]=White
+Other[11]=Yellow_Linear
+Other[12]=Moss_diffuse
+Other[13]=T_CrawlingMoss_Mask_01

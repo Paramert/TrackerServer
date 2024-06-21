@@ -1,0 +1,928 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[24] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[4] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_body_Aurora_DEMO.T_Aurora_body_Aurora_DEMO'
+    ReferencedTextures[5] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_Noise_N.T_Aurora_Noise_N'
+    ReferencedTextures[6] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_Veins.T_Aurora_Veins'
+    ReferencedTextures[7] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Crunchy_2_D.T_Crunchy_2_D'
+    ReferencedTextures[8] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Glacier_Cap_N.T_Glacier_Cap_N'
+    ReferencedTextures[9] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Metal_Lights_S.T_Metal_Lights_S'
+    ReferencedTextures[10] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Anisotropic.T_Noise_Anisotropic'
+    ReferencedTextures[11] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Naki2.T_Noise_Naki2'
+    ReferencedTextures[12] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Water.T_Noise_Water'
+    ReferencedTextures[13] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Normal.T_Normal'
+    ReferencedTextures[14] = Texture2D'/Game/Characters/Slashers/Witch/Textures/NE_Outfit001/Tex2/HK_Outfit001_Base_Color.HK_Outfit001_Base_Color'
+    ReferencedTextures[15] = Texture2D'/Game/Effects/Textures/K31/T_Halftone.T_Halftone'
+    ReferencedTextures[16] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+    ReferencedTextures[17] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    ReferencedTextures[18] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    ReferencedTextures[19] = Texture2D'/Game/Netease/Texture/skin_lut.skin_lut'
+    ReferencedTextures[20] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    ReferencedTextures[21] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[22] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    ReferencedTextures[23] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[131] =
+                {
+                    ParameterInfos[0] = { Name=Intensity Fresnel A }
+                    ParameterInfos[1] = { Name=Rotation }
+                    ParameterInfos[2] = { Name=Power High }
+                    ParameterInfos[3] = { Name=CfPower }
+                    ParameterInfos[4] = { Name=BorderThresholdLow }
+                    ParameterInfos[5] = { Name=Outer_NormalWS_Alpha }
+                    ParameterInfos[6] = { Name=TilingX }
+                    ParameterInfos[7] = { Name=42 - GradientHardness }
+                    ParameterInfos[8] = { Name=UnderRockHeight }
+                    ParameterInfos[9] = { Name=Power Low }
+                    ParameterInfos[10] = { Name=Gradient 5 power }
+                    ParameterInfos[11] = { Name=CfSpeed }
+                    ParameterInfos[12] = { Name=Flickering Intensity }
+                    ParameterInfos[13] = { Name=DetailNormalTiling }
+                    ParameterInfos[14] = { Name=UnderBodyHeight }
+                    ParameterInfos[15] = { Name=Outer_Power }
+                    ParameterInfos[16] = { Name=Intensity Fresnel B }
+                    ParameterInfos[17] = { Name=BorderIntensity }
+                    ParameterInfos[18] = { Name=ActivateLines6 }
+                    ParameterInfos[19] = { Name=SpecMax }
+                    ParameterInfos[20] = { Name=IceBrightness }
+                    ParameterInfos[21] = { Name=Specular }
+                    ParameterInfos[22] = { Name=Gradient 4 Speed }
+                    ParameterInfos[23] = { Name=UnderReflectionScale }
+                    ParameterInfos[24] = { Name=UnderRockTiling }
+                    ParameterInfos[25] = { Name=42 - BoundsMultiplier }
+                    ParameterInfos[26] = { Name=I_NormalWS_Alpha }
+                    ParameterInfos[27] = { Name=Dream- NoiseController }
+                    ParameterInfos[28] = { Name=EndLocation_WorldSpace }
+                    ParameterInfos[29] = { Name=ActivateLines1 }
+                    ParameterInfos[30] = { Name=AO_Intensity }
+                    ParameterInfos[31] = { Name=DarkenAmount }
+                    ParameterInfos[32] = { Name=Tile amount B }
+                    ParameterInfos[33] = { Name=BaseColorBrightness }
+                    ParameterInfos[34] = { Name=FresnelPower }
+                    ParameterInfos[35] = { Name=UnderIceBumpIntensity }
+                    ParameterInfos[36] = { Name=CfGridWPOScale }
+                    ParameterInfos[37] = { Name=IceEmissiveMax }
+                    ParameterInfos[38] = { Name=HeightOuter }
+                    ParameterInfos[39] = { Name=Speed Noise Diffuse }
+                    ParameterInfos[40] = { Name=LinesEmissive }
+                    ParameterInfos[41] = { Name=DIssolveBorderGreenChannel }
+                    ParameterInfos[42] = { Name=UnderRockContrast }
+                    ParameterInfos[43] = { Name=Tiling_Noise }
+                    ParameterInfos[44] = { Name=ReflectionVectorLerp }
+                    ParameterInfos[45] = { Name=UnderCrackIntensity }
+                    ParameterInfos[46] = { Name=Gradient 4 power }
+                    ParameterInfos[47] = { Name=NE_ClipDistance }
+                    ParameterInfos[48] = { Name=HeightInner }
+                    ParameterInfos[49] = { Name=DitherNoiseOffset }
+                    ParameterInfos[50] = { Name=Min B }
+                    ParameterInfos[51] = { Name=Min A }
+                    ParameterInfos[52] = { Name=DissolveTexture_TileX }
+                    ParameterInfos[53] = { Name=Power }
+                    ParameterInfos[54] = { Name=OpacityController }
+                    ParameterInfos[55] = { Name=Noise_Intensity }
+                    ParameterInfos[56] = { Name=IceClearness }
+                    ParameterInfos[57] = { Name=CfScale }
+                    ParameterInfos[58] = { Name=SpecMin }
+                    ParameterInfos[59] = { Name=ActivateDitherTemporalAA }
+                    ParameterInfos[60] = { Name=Master_Texture_Tiling }
+                    ParameterInfos[61] = { Name=NormalFlatness_Detail }
+                    ParameterInfos[62] = { Name=Gradient 2 power }
+                    ParameterInfos[63] = { Name=IceReflectionNoise }
+                    ParameterInfos[64] = { Name=42 - InverseDissolve }
+                    ParameterInfos[65] = { Name=42 - Height }
+                    ParameterInfos[66] = { Name=HeightInnerPow }
+                    ParameterInfos[67] = { Name=EmissiveIntensity }
+                    ParameterInfos[68] = { Name=Highlight Far }
+                    ParameterInfos[69] = { Name=Gradient 3 power }
+                    ParameterInfos[70] = { Name=Gradient 1 Speed }
+                    ParameterInfos[71] = { Name=Gradient 1 power }
+                    ParameterInfos[72] = { Name=Chaos }
+                    ParameterInfos[73] = { Name=MaxBorderGlow }
+                    ParameterInfos[74] = { Name=RoughnessMax }
+                    ParameterInfos[75] = { Name=HeightOfGradient }
+                    ParameterInfos[76] = { Name=42 - Base Offset }
+                    ParameterInfos[77] = { Name=Dither Tiling }
+                    ParameterInfos[78] = { Name=TilingY }
+                    ParameterInfos[79] = { Name=Gradient 2 Speed }
+                    ParameterInfos[80] = { Name=IceNoiseColorPow }
+                    ParameterInfos[81] = { Name=Cf_Atl_Push }
+                    ParameterInfos[82] = { Name=DissolveTextureTile_Y }
+                    ParameterInfos[83] = { Name=DeepCoreIntensity }
+                    ParameterInfos[84] = { Name=Gradient 3 Speed }
+                    ParameterInfos[85] = { Name=Scale Noise Diffuse }
+                    ParameterInfos[86] = { Name=Min Emissive }
+                    ParameterInfos[87] = { Name=ActivateLines2 }
+                    ParameterInfos[88] = { Name=ReflectionVectorContribution }
+                    ParameterInfos[89] = { Name=SpecularTiling }
+                    ParameterInfos[90] = { Name=IceCracksHeight }
+                    ParameterInfos[91] = { Name=Gradient 5 Speed }
+                    ParameterInfos[92] = { Name=Outer_BoostCore }
+                    ParameterInfos[93] = { Name=HeightOuterPow }
+                    ParameterInfos[94] = { Name=BigDetailNormalTiling }
+                    ParameterInfos[95] = { Name=DitherIntensity }
+                    ParameterInfos[96] = { Name=BorderThresholdHigh }
+                    ParameterInfos[97] = { Name=DistSquare }
+                    ParameterInfos[98] = { Name=Max B }
+                    ParameterInfos[99] = { Name=UnderRockIntensity }
+                    ParameterInfos[100] = { Name=ScatterMax }
+                    ParameterInfos[101] = { Name=NoiseTiling }
+                    ParameterInfos[102] = { Name=Amount B }
+                    ParameterInfos[103] = { Name=Max Emissive }
+                    ParameterInfos[104] = { Name=SubsurfaceNoiseFade }
+                    ParameterInfos[105] = { Name=Amount A }
+                    ParameterInfos[106] = { Name=DitherNoiseIntensity }
+                    ParameterInfos[107] = { Name=DissolveProgress }
+                    ParameterInfos[108] = { Name=ActivateLines7 }
+                    ParameterInfos[109] = { Name=StartLocation_WorldSpace }
+                    ParameterInfos[110] = { Name=ScatterMin }
+                    ParameterInfos[111] = { Name=ActivateLines3 }
+                    ParameterInfos[112] = { Name=CrackTiling }
+                    ParameterInfos[113] = { Name=Scale Offset }
+                    ParameterInfos[114] = { Name=BoostCore }
+                    ParameterInfos[115] = { Name=GlowIntensity }
+                    ParameterInfos[116] = { Name=ActivateLines4 }
+                    ParameterInfos[117] = { Name=PointillismTextureSize }
+                    ParameterInfos[118] = { Name=DesaturationAmount }
+                    ParameterInfos[119] = { Name=AO_Power }
+                    ParameterInfos[120] = { Name=RoughnessMin }
+                    ParameterInfos[121] = { Name=NormalFlatness }
+                    ParameterInfos[122] = { Name=ActivateLines5 }
+                    ParameterInfos[123] = { Name=IceNoiseSpeed }
+                    ParameterInfos[124] = { Name=Highlight Near }
+                    ParameterInfos[125] = { Name=PushBack_Strength }
+                    ParameterInfos[126] = { Name=OpacityMaskOffset }
+                    ParameterInfos[127] = { Name=SquishFactor }
+                    ParameterInfos[128] = { Name=Max A }
+                    ParameterInfos[129] = { Name=Tile Amount A }
+                    ParameterInfos[130] = { Name=EdgeFlatness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=LinesColor }
+                    ParameterInfos[1] = { Name=RChannel_Tint }
+                    ParameterInfos[2] = { Name=EmissiveColor }
+                    ParameterInfos[3] = { Name=InnerCoreColor }
+                    ParameterInfos[4] = { Name=IceColor }
+                    ParameterInfos[5] = { Name=ActorForwardVector }
+                    ParameterInfos[6] = { Name=VeinsColor }
+                    ParameterInfos[7] = { Name=HighlightColor }
+                    ParameterInfos[8] = { Name=Subsurface }
+                    ParameterInfos[9] = { Name=DeepIceColour }
+                    ParameterInfos[10] = { Name=AChannel_Tint }
+                    ParameterInfos[11] = { Name=GChannel_Tint }
+                    ParameterInfos[12] = { Name=SSSColor }
+                    ParameterInfos[13] = { Name=InnerCoreColor_Down }
+                    ParameterInfos[14] = { Name=BChannel_Tint }
+                    ParameterInfos[15] = { Name=OuterCoreColor }
+                    ParameterInfos[16] = { Name=OuterCoreColor_Down }
+                    ParameterInfos[17] = { Name=SubsurfaceEdge }
+                    ParameterInfos[18] = { Name=BorderColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=Pointilism Source Texture }
+                    ParameterInfos[1] = { Name=HideHead_Mask }
+                    ParameterInfos[2] = { Name=AORoughnessMetallic A }
+                    ParameterInfos[3] = { Name=T_DetailNormal }
+                    ParameterInfos[4] = { Name=RhythmictasticallyOnOff }
+                    ParameterInfos[5] = { Name=DissolveRamps }
+                    ParameterInfos[6] = { Name=Opacity Mask Texture }
+                    ParameterInfos[7] = { Name=T_Specular }
+                    ParameterInfos[8] = { Name=T_PrimaryColor }
+                    ParameterInfos[9] = { Name=Normal A }
+                    ParameterInfos[10] = { Name=T_UnderRock }
+                    ParameterInfos[11] = { Name=T_Normal }
+                    ParameterInfos[12] = { Name=Dream Noise Texture }
+                    ParameterInfos[13] = { Name=AORoughnessMetallic B }
+                    ParameterInfos[14] = { Name=ColorMask_Tint }
+                    ParameterInfos[15] = { Name=T_BumpOffset }
+                    ParameterInfos[16] = { Name=T_BigDetailNormal }
+                    ParameterInfos[17] = { Name=T_DeepCracks }
+                    ParameterInfos[18] = { Name=T_SSS_LUT }
+                    ParameterInfos[19] = { Name=Diffuse A }
+                    ParameterInfos[20] = { Name=T_IceNoise }
+                    ParameterInfos[21] = { Name=Diffuse B }
+                    ParameterInfos[22] = { Name=Normal B }
+                    ParameterInfos[23] = { Name=Blood Dirt Emissive }
+                    ParameterInfos[24] = { Name=DissolveTexture }
+                    ParameterInfos[25] = { Name=T_Subsurface }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[131] =
+        {
+            ScalarValues[0] = 0.2
+            ScalarValues[1] = 0.4
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.3
+            ScalarValues[6] = 0.05
+            ScalarValues[7] = 200
+            ScalarValues[8] = -10
+            ScalarValues[9] = 0.5
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 10
+            ScalarValues[13] = 4
+            ScalarValues[14] = -5
+            ScalarValues[15] = 0.5
+            ScalarValues[16] = 0.005
+            ScalarValues[17] = 40
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1.41315
+            ScalarValues[21] = 0.5
+            ScalarValues[22] = 0.35
+            ScalarValues[23] = 1
+            ScalarValues[24] = 80
+            ScalarValues[25] = 1.5
+            ScalarValues[26] = 0.3
+            ScalarValues[27] = 0
+            ScalarValues[28] = 350
+            ScalarValues[29] = 0
+            ScalarValues[30] = 1
+            ScalarValues[31] = 10
+            ScalarValues[32] = 1
+            ScalarValues[33] = 0.175
+            ScalarValues[34] = 0.85
+            ScalarValues[35] = 1
+            ScalarValues[36] = 128
+            ScalarValues[37] = 2
+            ScalarValues[38] = 100
+            ScalarValues[39] = 16.3639
+            ScalarValues[40] = 1
+            ScalarValues[41] = 3
+            ScalarValues[42] = 1.5
+            ScalarValues[43] = 100
+            ScalarValues[44] = 0.2
+            ScalarValues[45] = 6
+            ScalarValues[46] = 9
+            ScalarValues[47] = 0
+            ScalarValues[48] = 100
+            ScalarValues[49] = 1
+            ScalarValues[50] = 0
+            ScalarValues[51] = 0
+            ScalarValues[52] = 3
+            ScalarValues[53] = 15
+            ScalarValues[54] = 1
+            ScalarValues[55] = 1.55
+            ScalarValues[56] = 1
+            ScalarValues[57] = 0
+            ScalarValues[58] = 0.66
+            ScalarValues[59] = 0
+            ScalarValues[60] = 1
+            ScalarValues[61] = 1
+            ScalarValues[62] = 8
+            ScalarValues[63] = 0.2
+            ScalarValues[64] = 0
+            ScalarValues[65] = 400
+            ScalarValues[66] = 1
+            ScalarValues[67] = 1
+            ScalarValues[68] = 1
+            ScalarValues[69] = 5
+            ScalarValues[70] = 0.2
+            ScalarValues[71] = 1
+            ScalarValues[72] = 500
+            ScalarValues[73] = 10
+            ScalarValues[74] = 0.25
+            ScalarValues[75] = 2.1
+            ScalarValues[76] = -25
+            ScalarValues[77] = 1
+            ScalarValues[78] = 0.05
+            ScalarValues[79] = 0.28
+            ScalarValues[80] = 1
+            ScalarValues[81] = 0
+            ScalarValues[82] = 3
+            ScalarValues[83] = 1
+            ScalarValues[84] = 0.3
+            ScalarValues[85] = 100
+            ScalarValues[86] = 0.05
+            ScalarValues[87] = 0
+            ScalarValues[88] = 1
+            ScalarValues[89] = 50
+            ScalarValues[90] = -5
+            ScalarValues[91] = 0.2
+            ScalarValues[92] = 1
+            ScalarValues[93] = 1
+            ScalarValues[94] = 1
+            ScalarValues[95] = 1
+            ScalarValues[96] = 0.015
+            ScalarValues[97] = 5000
+            ScalarValues[98] = 1
+            ScalarValues[99] = 7
+            ScalarValues[100] = 0.8
+            ScalarValues[101] = 1
+            ScalarValues[102] = 0
+            ScalarValues[103] = 0.2
+            ScalarValues[104] = 0.1
+            ScalarValues[105] = 0
+            ScalarValues[106] = 1
+            ScalarValues[107] = 1
+            ScalarValues[108] = 0
+            ScalarValues[109] = 0
+            ScalarValues[110] = 0.7
+            ScalarValues[111] = 0
+            ScalarValues[112] = 1.8
+            ScalarValues[113] = 1000
+            ScalarValues[114] = 1
+            ScalarValues[115] = 750
+            ScalarValues[116] = 0
+            ScalarValues[117] = 64
+            ScalarValues[118] = 0.8
+            ScalarValues[119] = 1
+            ScalarValues[120] = 0.15
+            ScalarValues[121] = 0
+            ScalarValues[122] = 0
+            ScalarValues[123] = 1
+            ScalarValues[124] = 7
+            ScalarValues[125] = -40
+            ScalarValues[126] = 2.5
+            ScalarValues[127] = 0
+            ScalarValues[128] = 1
+            ScalarValues[129] = 1
+            ScalarValues[130] = 0.3
+        }
+        VectorValues[19] =
+        {
+            VectorValues[0] = { R=0.85098, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0.380811, B=0.665, A=1 }
+            VectorValues[4] = { R=0.141375, G=0.256203, B=0.325, A=1 }
+            VectorValues[5] = { R=0, G=1, B=0, A=0 }
+            VectorValues[6] = { R=0.1, G=0.017777, B=0.0075, A=1 }
+            VectorValues[7] = { R=1, G=1, B=1, A=1 }
+            VectorValues[8] = { R=0.33, G=0.33, B=0.33, A=1 }
+            VectorValues[9] = { R=0.141375, G=0.256204, B=0.325, A=1 }
+            VectorValues[10] = { R=1, G=1, B=1, A=1 }
+            VectorValues[11] = { R=0, G=0, B=0, A=1 }
+            VectorValues[12] = { R=0.6, G=0.6, B=0.6, A=1 }
+            VectorValues[13] = { R=0, G=0.380811, B=0.665, A=1 }
+            VectorValues[14] = { R=0, G=0, B=0, A=1 }
+            VectorValues[15] = { R=0, G=0.380811, B=0.665, A=1 }
+            VectorValues[16] = { R=0, G=0.380811, B=0.665, A=1 }
+            VectorValues[17] = { R=5, G=5, B=5, A=1 }
+            VectorValues[18] = { R=5, G=2.25074, B=1.09375, A=1 }
+        }
+        TextureValues[26] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[2] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+            TextureValues[3] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Glacier_Cap_N.T_Glacier_Cap_N'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+            TextureValues[6] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[7] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Anisotropic.T_Noise_Anisotropic'
+            TextureValues[8] = Texture2D'/Game/Characters/Slashers/Witch/Textures/NE_Outfit001/Tex2/HK_Outfit001_Base_Color.HK_Outfit001_Base_Color'
+            TextureValues[9] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[10] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Crunchy_2_D.T_Crunchy_2_D'
+            TextureValues[11] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_body_Aurora_DEMO.T_Aurora_body_Aurora_DEMO'
+            TextureValues[12] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+            TextureValues[13] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+            TextureValues[14] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[15] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Naki2.T_Noise_Naki2'
+            TextureValues[16] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Normal.T_Normal'
+            TextureValues[17] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_Veins.T_Aurora_Veins'
+            TextureValues[18] = Texture2D'/Game/Netease/Texture/skin_lut.skin_lut'
+            TextureValues[19] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[20] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Water.T_Noise_Water'
+            TextureValues[21] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[22] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[23] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[24] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+            TextureValues[25] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Metal_Lights_S.T_Metal_Lights_S'
+        }
+    }
+    ReferencedTextures[25] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_body_Aurora_DEMO.T_Aurora_body_Aurora_DEMO'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        ReferencedTextures[11] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_Noise_N.T_Aurora_Noise_N'
+        ReferencedTextures[12] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Water.T_Noise_Water'
+        ReferencedTextures[13] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Normal.T_Normal'
+        ReferencedTextures[14] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Glacier_Cap_N.T_Glacier_Cap_N'
+        ReferencedTextures[15] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_Veins.T_Aurora_Veins'
+        ReferencedTextures[16] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Anisotropic.T_Noise_Anisotropic'
+        ReferencedTextures[17] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Naki2.T_Noise_Naki2'
+        ReferencedTextures[18] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Crunchy_2_D.T_Crunchy_2_D'
+        ReferencedTextures[19] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Metal_Lights_S.T_Metal_Lights_S'
+        ReferencedTextures[20] = Texture2D'/Game/Characters/Slashers/Witch/Textures/NE_Outfit001/Tex2/HK_Outfit001_Base_Color.HK_Outfit001_Base_Color'
+        ReferencedTextures[21] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+        ReferencedTextures[22] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+        ReferencedTextures[23] = Texture2D'/Game/Netease/Texture/skin_lut.skin_lut'
+        ReferencedTextures[24] = Texture2D'/Game/Effects/Textures/K31/T_Halftone.T_Halftone'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[26] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        Name = Pointilism Source Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = HideHead_Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = AORoughnessMetallic A
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Glacier_Cap_N.T_Glacier_Cap_N'
+        Name = T_DetailNormal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+        Name = RhythmictasticallyOnOff
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        Name = DissolveRamps
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = Opacity Mask Texture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Anisotropic.T_Noise_Anisotropic'
+        Name = T_Specular
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Witch/Textures/NE_Outfit001/Tex2/HK_Outfit001_Base_Color.HK_Outfit001_Base_Color'
+        Name = T_PrimaryColor
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Normal A
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Crunchy_2_D.T_Crunchy_2_D'
+        Name = T_UnderRock
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_body_Aurora_DEMO.T_Aurora_body_Aurora_DEMO'
+        Name = T_Normal
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+        Name = Dream Noise Texture
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = AORoughnessMetallic B
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = ColorMask_Tint
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Naki2.T_Noise_Naki2'
+        Name = T_BumpOffset
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Normal.T_Normal'
+        Name = T_BigDetailNormal
+        Group = None
+    }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_Veins.T_Aurora_Veins'
+        Name = T_DeepCracks
+        Group = None
+    }
+    CollectedTextureParameters[18] =
+    {
+        Texture = Texture2D'/Game/Netease/Texture/skin_lut.skin_lut'
+        Name = T_SSS_LUT
+        Group = None
+    }
+    CollectedTextureParameters[19] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = Diffuse A
+        Group = None
+    }
+    CollectedTextureParameters[20] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Water.T_Noise_Water'
+        Name = T_IceNoise
+        Group = None
+    }
+    CollectedTextureParameters[21] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = Diffuse B
+        Group = None
+    }
+    CollectedTextureParameters[22] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Normal B
+        Group = None
+    }
+    CollectedTextureParameters[23] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = Blood Dirt Emissive
+        Group = None
+    }
+    CollectedTextureParameters[24] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        Name = DissolveTexture
+        Group = None
+    }
+    CollectedTextureParameters[25] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Metal_Lights_S.T_Metal_Lights_S'
+        Name = T_Subsurface
+        Group = None
+    }
+}
+CollectedScalarParameters[131] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=Intensity Fresnel A, Group=None }
+    CollectedScalarParameters[1] = { Value=0.4, Name=Rotation, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Power High, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=CfPower, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=BorderThresholdLow, Group=None }
+    CollectedScalarParameters[5] = { Value=0.3, Name=Outer_NormalWS_Alpha, Group=None }
+    CollectedScalarParameters[6] = { Value=0.05, Name=TilingX, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 200
+        Name = 42 - GradientHardness
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=-10, Name=UnderRockHeight, Group=None }
+    CollectedScalarParameters[9] = { Value=0.5, Name=Power Low, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Gradient 5 power, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=CfSpeed, Group=None }
+    CollectedScalarParameters[12] = { Value=10, Name=Flickering Intensity, Group=None }
+    CollectedScalarParameters[13] = { Value=4, Name=DetailNormalTiling, Group=None }
+    CollectedScalarParameters[14] = { Value=-5, Name=UnderBodyHeight, Group=None }
+    CollectedScalarParameters[15] = { Value=0.5, Name=Outer_Power, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0.005
+        Name = Intensity Fresnel B
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=40, Name=BorderIntensity, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=ActivateLines6, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=SpecMax, Group=None }
+    CollectedScalarParameters[20] = { Value=1.41315, Name=IceBrightness, Group=None }
+    CollectedScalarParameters[21] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[22] = { Value=0.35, Name=Gradient 4 Speed, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=UnderReflectionScale, Group=None }
+    CollectedScalarParameters[24] = { Value=80, Name=UnderRockTiling, Group=None }
+    CollectedScalarParameters[25] =
+    {
+        Value = 1.5
+        Name = 42 - BoundsMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[26] = { Value=0.3, Name=I_NormalWS_Alpha, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=Dream- NoiseController, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = 350
+        Name = EndLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=0, Name=ActivateLines1, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=AO_Intensity, Group=None }
+    CollectedScalarParameters[31] = { Value=10, Name=DarkenAmount, Group=None }
+    CollectedScalarParameters[32] = { Value=1, Name=Tile amount B, Group=None }
+    CollectedScalarParameters[33] =
+    {
+        Value = 0.175
+        Name = BaseColorBrightness
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=0.85, Name=FresnelPower, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=UnderIceBumpIntensity, Group=None }
+    CollectedScalarParameters[36] = { Value=128, Name=CfGridWPOScale, Group=None }
+    CollectedScalarParameters[37] = { Value=2, Name=IceEmissiveMax, Group=None }
+    CollectedScalarParameters[38] = { Value=100, Name=HeightOuter, Group=None }
+    CollectedScalarParameters[39] =
+    {
+        Value = 16.3639
+        Name = Speed Noise Diffuse
+        Group = None
+    }
+    CollectedScalarParameters[40] = { Value=1, Name=LinesEmissive, Group=None }
+    CollectedScalarParameters[41] =
+    {
+        Value = 3
+        Name = DIssolveBorderGreenChannel
+        Group = None
+    }
+    CollectedScalarParameters[42] = { Value=1.5, Name=UnderRockContrast, Group=None }
+    CollectedScalarParameters[43] = { Value=100, Name=Tiling_Noise, Group=None }
+    CollectedScalarParameters[44] = { Value=0.2, Name=ReflectionVectorLerp, Group=None }
+    CollectedScalarParameters[45] = { Value=6, Name=UnderCrackIntensity, Group=None }
+    CollectedScalarParameters[46] = { Value=9, Name=Gradient 4 power, Group=None }
+    CollectedScalarParameters[47] = { Value=0, Name=NE_ClipDistance, Group=None }
+    CollectedScalarParameters[48] = { Value=100, Name=HeightInner, Group=None }
+    CollectedScalarParameters[49] = { Value=1, Name=DitherNoiseOffset, Group=None }
+    CollectedScalarParameters[50] = { Value=0, Name=Min B, Group=None }
+    CollectedScalarParameters[51] = { Value=0, Name=Min A, Group=None }
+    CollectedScalarParameters[52] = { Value=3, Name=DissolveTexture_TileX, Group=None }
+    CollectedScalarParameters[53] = { Value=15, Name=Power, Group=None }
+    CollectedScalarParameters[54] = { Value=1, Name=OpacityController, Group=None }
+    CollectedScalarParameters[55] = { Value=1.55, Name=Noise_Intensity, Group=None }
+    CollectedScalarParameters[56] = { Value=1, Name=IceClearness, Group=None }
+    CollectedScalarParameters[57] = { Value=0, Name=CfScale, Group=None }
+    CollectedScalarParameters[58] = { Value=0.66, Name=SpecMin, Group=None }
+    CollectedScalarParameters[59] =
+    {
+        Value = 0
+        Name = ActivateDitherTemporalAA
+        Group = None
+    }
+    CollectedScalarParameters[60] = { Value=1, Name=Master_Texture_Tiling, Group=None }
+    CollectedScalarParameters[61] = { Value=1, Name=NormalFlatness_Detail, Group=None }
+    CollectedScalarParameters[62] = { Value=8, Name=Gradient 2 power, Group=None }
+    CollectedScalarParameters[63] = { Value=0.2, Name=IceReflectionNoise, Group=None }
+    CollectedScalarParameters[64] = { Value=0, Name=42 - InverseDissolve, Group=None }
+    CollectedScalarParameters[65] = { Value=400, Name=42 - Height, Group=None }
+    CollectedScalarParameters[66] = { Value=1, Name=HeightInnerPow, Group=None }
+    CollectedScalarParameters[67] = { Value=1, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[68] = { Value=1, Name=Highlight Far, Group=None }
+    CollectedScalarParameters[69] = { Value=5, Name=Gradient 3 power, Group=None }
+    CollectedScalarParameters[70] = { Value=0.2, Name=Gradient 1 Speed, Group=None }
+    CollectedScalarParameters[71] = { Value=1, Name=Gradient 1 power, Group=None }
+    CollectedScalarParameters[72] = { Value=500, Name=Chaos, Group=None }
+    CollectedScalarParameters[73] = { Value=10, Name=MaxBorderGlow, Group=None }
+    CollectedScalarParameters[74] = { Value=0.25, Name=RoughnessMax, Group=None }
+    CollectedScalarParameters[75] = { Value=2.1, Name=HeightOfGradient, Group=None }
+    CollectedScalarParameters[76] = { Value=-25, Name=42 - Base Offset, Group=None }
+    CollectedScalarParameters[77] = { Value=1, Name=Dither Tiling, Group=None }
+    CollectedScalarParameters[78] = { Value=0.05, Name=TilingY, Group=None }
+    CollectedScalarParameters[79] = { Value=0.28, Name=Gradient 2 Speed, Group=None }
+    CollectedScalarParameters[80] = { Value=1, Name=IceNoiseColorPow, Group=None }
+    CollectedScalarParameters[81] = { Value=0, Name=Cf_Atl_Push, Group=None }
+    CollectedScalarParameters[82] = { Value=3, Name=DissolveTextureTile_Y, Group=None }
+    CollectedScalarParameters[83] = { Value=1, Name=DeepCoreIntensity, Group=None }
+    CollectedScalarParameters[84] = { Value=0.3, Name=Gradient 3 Speed, Group=None }
+    CollectedScalarParameters[85] = { Value=100, Name=Scale Noise Diffuse, Group=None }
+    CollectedScalarParameters[86] = { Value=0.05, Name=Min Emissive, Group=None }
+    CollectedScalarParameters[87] = { Value=0, Name=ActivateLines2, Group=None }
+    CollectedScalarParameters[88] =
+    {
+        Value = 1
+        Name = ReflectionVectorContribution
+        Group = None
+    }
+    CollectedScalarParameters[89] = { Value=50, Name=SpecularTiling, Group=None }
+    CollectedScalarParameters[90] = { Value=-5, Name=IceCracksHeight, Group=None }
+    CollectedScalarParameters[91] = { Value=0.2, Name=Gradient 5 Speed, Group=None }
+    CollectedScalarParameters[92] = { Value=1, Name=Outer_BoostCore, Group=None }
+    CollectedScalarParameters[93] = { Value=1, Name=HeightOuterPow, Group=None }
+    CollectedScalarParameters[94] = { Value=1, Name=BigDetailNormalTiling, Group=None }
+    CollectedScalarParameters[95] = { Value=1, Name=DitherIntensity, Group=None }
+    CollectedScalarParameters[96] =
+    {
+        Value = 0.015
+        Name = BorderThresholdHigh
+        Group = None
+    }
+    CollectedScalarParameters[97] = { Value=5000, Name=DistSquare, Group=None }
+    CollectedScalarParameters[98] = { Value=1, Name=Max B, Group=None }
+    CollectedScalarParameters[99] = { Value=7, Name=UnderRockIntensity, Group=None }
+    CollectedScalarParameters[100] = { Value=0.8, Name=ScatterMax, Group=None }
+    CollectedScalarParameters[101] = { Value=1, Name=NoiseTiling, Group=None }
+    CollectedScalarParameters[102] = { Value=0, Name=Amount B, Group=None }
+    CollectedScalarParameters[103] = { Value=0.2, Name=Max Emissive, Group=None }
+    CollectedScalarParameters[104] = { Value=0.1, Name=SubsurfaceNoiseFade, Group=None }
+    CollectedScalarParameters[105] = { Value=0, Name=Amount A, Group=None }
+    CollectedScalarParameters[106] = { Value=1, Name=DitherNoiseIntensity, Group=None }
+    CollectedScalarParameters[107] = { Value=1, Name=DissolveProgress, Group=None }
+    CollectedScalarParameters[108] = { Value=0, Name=ActivateLines7, Group=None }
+    CollectedScalarParameters[109] =
+    {
+        Value = 0
+        Name = StartLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[110] = { Value=0.7, Name=ScatterMin, Group=None }
+    CollectedScalarParameters[111] = { Value=0, Name=ActivateLines3, Group=None }
+    CollectedScalarParameters[112] = { Value=1.8, Name=CrackTiling, Group=None }
+    CollectedScalarParameters[113] = { Value=1000, Name=Scale Offset, Group=None }
+    CollectedScalarParameters[114] = { Value=1, Name=BoostCore, Group=None }
+    CollectedScalarParameters[115] = { Value=750, Name=GlowIntensity, Group=None }
+    CollectedScalarParameters[116] = { Value=0, Name=ActivateLines4, Group=None }
+    CollectedScalarParameters[117] =
+    {
+        Value = 64
+        Name = PointillismTextureSize
+        Group = None
+    }
+    CollectedScalarParameters[118] = { Value=0.8, Name=DesaturationAmount, Group=None }
+    CollectedScalarParameters[119] = { Value=1, Name=AO_Power, Group=None }
+    CollectedScalarParameters[120] = { Value=0.15, Name=RoughnessMin, Group=None }
+    CollectedScalarParameters[121] = { Value=0, Name=NormalFlatness, Group=None }
+    CollectedScalarParameters[122] = { Value=0, Name=ActivateLines5, Group=None }
+    CollectedScalarParameters[123] = { Value=1, Name=IceNoiseSpeed, Group=None }
+    CollectedScalarParameters[124] = { Value=7, Name=Highlight Near, Group=None }
+    CollectedScalarParameters[125] = { Value=-40, Name=PushBack_Strength, Group=None }
+    CollectedScalarParameters[126] = { Value=2.5, Name=OpacityMaskOffset, Group=None }
+    CollectedScalarParameters[127] = { Value=0, Name=SquishFactor, Group=None }
+    CollectedScalarParameters[128] = { Value=1, Name=Max A, Group=None }
+    CollectedScalarParameters[129] = { Value=1, Name=Tile Amount A, Group=None }
+    CollectedScalarParameters[130] = { Value=0.3, Name=EdgeFlatness, Group=None }
+}
+CollectedVectorParameters[19] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.85098, G=0, B=0, A=0 }
+        Name = LinesColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = RChannel_Tint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0.380811, B=0.665, A=1 }
+        Name = InnerCoreColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.141375, G=0.256203, B=0.325, A=1 }
+        Name = IceColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = ActorForwardVector
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.1, G=0.017777, B=0.0075, A=1 }
+        Name = VeinsColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = HighlightColor
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.33, G=0.33, B=0.33, A=1 }
+        Name = Subsurface
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.141375, G=0.256204, B=0.325, A=1 }
+        Name = DeepIceColour
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = AChannel_Tint
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = GChannel_Tint
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0.6, G=0.6, B=0.6, A=1 }
+        Name = SSSColor
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0.380811, B=0.665, A=1 }
+        Name = InnerCoreColor_Down
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = BChannel_Tint
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0.380811, B=0.665, A=1 }
+        Name = OuterCoreColor
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0, G=0.380811, B=0.665, A=1 }
+        Name = OuterCoreColor_Down
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=5, G=5, B=5, A=1 }
+        Name = SubsurfaceEdge
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=5, G=2.25074, B=1.09375, A=1 }
+        Name = BorderColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

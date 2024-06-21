@@ -1,0 +1,189 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=Mask_Rot }
+                    ParameterInfos[1] = { Name=Noise_Power }
+                    ParameterInfos[2] = { Name=PointSoft }
+                    ParameterInfos[3] = { Name=Depth_Fade }
+                    ParameterInfos[4] = { Name=PointSizeChange }
+                    ParameterInfos[5] = { Name=Diss_Power }
+                    ParameterInfos[6] = { Name=Noise_Int }
+                    ParameterInfos[7] = { Name=Diff_Rot }
+                    ParameterInfos[8] = { Name=Noise_MaskPower }
+                    ParameterInfos[9] = { Name=Mask_Power }
+                    ParameterInfos[10] = { Name=RelativeTimeMult }
+                    ParameterInfos[11] = { Name=Diff_Power }
+                    ParameterInfos[12] = { Name=Diss_Plan }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Use_Mask }
+                    ParameterInfos[1] = { Name=Diff_UVS }
+                    ParameterInfos[2] = { Name=Mask_UVS }
+                    ParameterInfos[3] = { Name=Diff_ColorMult }
+                    ParameterInfos[4] = { Name=Diss_UVS }
+                    ParameterInfos[5] = { Name=PointColor_Alpha }
+                    ParameterInfos[6] = { Name=Noise_UVS }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Noise_Tex }
+                    ParameterInfos[1] = { Name=Diff_Tex }
+                    ParameterInfos[2] = { Name=Diss_Tex }
+                    ParameterInfos[3] = { Name=Mask_Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] = { 0, 1, 2, 0, -1, 1, 0, 0, 1, 1, 1, 1, 0 }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=5, G=4.10779, B=0.164095, A=1 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+            TextureValues[1] = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+            TextureValues[2] = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+            TextureValues[3] = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+        Name = Noise_Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+        Name = Diff_Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+        Name = Diss_Tex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+        Name = Mask_Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Mask_Rot, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Noise_Power, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=PointSoft, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Depth_Fade, Group=None }
+    CollectedScalarParameters[4] = { Value=-1, Name=PointSizeChange, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Diss_Power, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Noise_Int, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Diff_Rot, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Noise_MaskPower, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Mask_Power, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=RelativeTimeMult, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Diff_Power, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Diss_Plan, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Use_Mask
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Diff_UVS
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask_UVS
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Diff_ColorMult
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Diss_UVS
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=5, G=4.10779, B=0.164095, A=1 }
+        Name = PointColor_Alpha
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Noise_UVS
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mask_003
+    }
+}

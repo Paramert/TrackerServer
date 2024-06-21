@@ -1,0 +1,211 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=WPO_Weight }
+                    ParameterInfos[2] = { Name=Opacity_color }
+                    ParameterInfos[3] = { Name=Density }
+                    ParameterInfos[4] = { Name=Opacity_Reflection }
+                    ParameterInfos[5] = { Name=Exp_power }
+                    ParameterInfos[6] = { Name=Metallic }
+                    ParameterInfos[7] = { Name=Specular }
+                    ParameterInfos[8] = { Name=Radius }
+                    ParameterInfos[9] = { Name=Reflection_Opacity }
+                    ParameterInfos[10] = { Name=Softness_Reflection }
+                    ParameterInfos[11] = { Name=TexScale }
+                    ParameterInfos[12] = { Name=WPO_Int }
+                    ParameterInfos[13] = { Name=Reflection_Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Blood Color Reflection }
+                    ParameterInfos[1] = { Name=Speed_Normal_01 }
+                    ParameterInfos[2] = { Name=Speed_Normal_02 }
+                    ParameterInfos[3] = { Name=Speed_veins_panner }
+                    ParameterInfos[4] = { Name=Blood Color _02 }
+                    ParameterInfos[5] = { Name=Blood Color_01 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Reflection Map }
+                    ParameterInfos[1] = { Name=Normal_02 }
+                    ParameterInfos[2] = { Name=Texture_veins }
+                    ParameterInfos[3] = { Name=Normal_01 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0.1
+            ScalarValues[2] = 15
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0.1
+            ScalarValues[5] = 2
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 5
+            ScalarValues[10] = 6
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0.3
+            ScalarValues[13] = 2
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0.5, G=0.39, B=0.39, A=1 }
+            VectorValues[1] = { R=0.025, G=0.01, B=0, A=1 }
+            VectorValues[2] = { R=-0.04, G=-0.01, B=0, A=1 }
+            VectorValues[3] = { R=0, G=-1, B=0, A=1 }
+            VectorValues[4] = { R=0.075, G=0.000626, B=0, A=1 }
+            VectorValues[5] = { R=0.04, G=0.000334, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Veins_N.T_Veins_N'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        Name = Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        Name = Normal_02
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        Name = Texture_veins
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        Name = Normal_01
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=WPO_Weight, Group=None }
+    CollectedScalarParameters[2] = { Value=15, Name=Opacity_color, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Density, Group=None }
+    CollectedScalarParameters[4] = { Value=0.1, Name=Opacity_Reflection, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=Exp_power, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Specular, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Radius, Group=None }
+    CollectedScalarParameters[9] = { Value=5, Name=Reflection_Opacity, Group=None }
+    CollectedScalarParameters[10] = { Value=6, Name=Softness_Reflection, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=TexScale, Group=None }
+    CollectedScalarParameters[12] = { Value=0.3, Name=WPO_Int, Group=None }
+    CollectedScalarParameters[13] = { Value=2, Name=Reflection_Contrast, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.39, B=0.39, A=1 }
+        Name = Blood Color Reflection
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.025, G=0.01, B=0, A=1 }
+        Name = Speed_Normal_01
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=-0.04, G=-0.01, B=0, A=1 }
+        Name = Speed_Normal_02
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=-1, B=0, A=1 }
+        Name = Speed_veins_panner
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.075, G=0.000626, B=0, A=1 }
+        Name = Blood Color _02
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.04, G=0.000334, B=0, A=1 }
+        Name = Blood Color_01
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mud_N
+    }
+}

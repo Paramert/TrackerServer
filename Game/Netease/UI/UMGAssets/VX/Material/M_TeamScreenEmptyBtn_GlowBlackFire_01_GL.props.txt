@@ -1,0 +1,240 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_AboutFire_45.T_AboutFire_45'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_04_GL.T_Nois_04_GL'
+    ReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_05_GL.T_Nois_05_GL'
+    ReferencedTextures[3] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+    ReferencedTextures[4] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=Scale_U }
+                    ParameterInfos[1] = { Name=Exp }
+                    ParameterInfos[2] = { Name=Tex1_Noise }
+                    ParameterInfos[3] = { Name=Spend_Y }
+                    ParameterInfos[4] = { Name=Radius }
+                    ParameterInfos[5] = { Name=Spend_U }
+                    ParameterInfos[6] = { Name=Scale_V }
+                    ParameterInfos[7] = { Name=MaskRotator }
+                    ParameterInfos[8] = { Name=Tiling_V_2 }
+                    ParameterInfos[9] = { Name=Hardness }
+                    ParameterInfos[10] = { Name=U_Trill }
+                    ParameterInfos[11] = { Name=Tex2_Noise }
+                    ParameterInfos[12] = { Name=V_Trill }
+                    ParameterInfos[13] = { Name=Tiling_U_2 }
+                    ParameterInfos[14] = { Name=Mask_Noise }
+                    ParameterInfos[15] = { Name=Speed }
+                    ParameterInfos[16] = { Name=B }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Tex_2_Noise }
+                    ParameterInfos[1] = { Name=Tex_1 }
+                    ParameterInfos[2] = { Name=Mask }
+                    ParameterInfos[3] = { Name=Color }
+                    ParameterInfos[4] = { Name=Tex_1_Noise }
+                    ParameterInfos[5] = { Name=Mask_Noise }
+                    ParameterInfos[6] = { Name=Tex_2 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Tex_2_Noise }
+                    ParameterInfos[1] = { Name=Tex_UV }
+                    ParameterInfos[2] = { Name=Mask }
+                    ParameterInfos[3] = { Name=Tex_2_uv }
+                    ParameterInfos[4] = { Name=Tex_1_UV }
+                    ParameterInfos[5] = { Name=Tex_1_Noise }
+                    ParameterInfos[6] = { Name=Mask_Noise }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 50
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+            TextureValues[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+            TextureValues[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_AboutFire_45.T_AboutFire_45'
+            TextureValues[3] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_04_GL.T_Nois_04_GL'
+            TextureValues[4] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_05_GL.T_Nois_05_GL'
+            TextureValues[5] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+            TextureValues[6] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_05_GL.T_Nois_05_GL'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_AboutFire_45.T_AboutFire_45'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_05_GL.T_Nois_05_GL'
+        ReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_04_GL.T_Nois_04_GL'
+        ReferencedTextures[3] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+        ReferencedTextures[4] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+        Name = Tex_2_Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+        Name = Tex_UV
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_AboutFire_45.T_AboutFire_45'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_04_GL.T_Nois_04_GL'
+        Name = Tex_2_uv
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_05_GL.T_Nois_05_GL'
+        Name = Tex_1_UV
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+        Name = Tex_1_Noise
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_05_GL.T_Nois_05_GL'
+        Name = Mask_Noise
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Scale_U, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Exp, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Tex1_Noise, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Spend_Y, Group=None }
+    CollectedScalarParameters[4] = { Value=0.1, Name=Radius, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Spend_U, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Scale_V, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=MaskRotator, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Tiling_V_2, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Hardness, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=U_Trill, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Tex2_Noise, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=V_Trill, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Tiling_U_2, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Mask_Noise, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[16] = { Value=50, Name=B, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Tex_2_Noise
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Tex_1
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Tex_1_Noise
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask_Noise
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Tex_2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

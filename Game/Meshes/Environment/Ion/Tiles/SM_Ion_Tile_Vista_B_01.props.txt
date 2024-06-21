@@ -1,0 +1,122 @@
+Materials[9] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Ground/MI_Com_SandSmoothRed_A.MI_Com_SandSmoothRed_A'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Blockers/MI_ION_StatueA_01.MI_ION_StatueA_01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_D_01.MI_Com_Rocks_D_01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Pillar_01.MI_ION_Pillar_01'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_PillarStatueA_01.MI_ION_PillarStatueA_01'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_ConcreteGeneric01.MI_ION_ConcreteGeneric01'
+    Materials[6] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_01_Sand.MI_ION_BigStone_01_Sand'
+    Materials[7] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_Ion_Tomb_01a.MI_Ion_Tomb_01a'
+    Materials[8] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_D_02.MI_Com_Rocks_D_02'
+}
+SourceModels[0] = {}
+StaticMaterials[9] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Ground/MI_Com_SandSmoothRed_A.MI_Com_SandSmoothRed_A'
+        MaterialSlotName = MI_Com_SandSmoothRed_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 15383.8, 39672.4, 6337.8, 103887 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Blockers/MI_ION_StatueA_01.MI_ION_StatueA_01'
+        MaterialSlotName = MI_ION_StatueA_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1200.65, 21832.5, 0, 101561 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_D_01.MI_Com_Rocks_D_01'
+        MaterialSlotName = MI_Com_Rocks_D_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 22765.2, 21917.8, 0, 110559 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Pillar_01.MI_ION_Pillar_01'
+        MaterialSlotName = MI_ION_Pillar_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 843.118, 21908, 0, 104750 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_PillarStatueA_01.MI_ION_PillarStatueA_01'
+        MaterialSlotName = MI_ION_PillarStatueA_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 846.048, 22085, 0, 101669 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_ConcreteGeneric01.MI_ION_ConcreteGeneric01'
+        MaterialSlotName = MI_ION_ConcreteGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 397.244, 22537.6, 0, 101493 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_01_Sand.MI_ION_BigStone_01_Sand'
+        MaterialSlotName = MI_ION_BigStone_01_Sand
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 330.942, 22686.8, 0, 106383 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_Ion_Tomb_01a.MI_Ion_Tomb_01a'
+        MaterialSlotName = MI_Ion_Tomb_01a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 419.894, 22150.6, 0, 90527.3 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_D_02.MI_Com_Rocks_D_02'
+        MaterialSlotName = MI_Com_Rocks_D_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13276.7, 22145.6, 6796.1, 111919 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1191.54, Y=17986.6, Z=1633.98 }
+    BoxExtent = { X=31076.5, Y=12959.5, Z=2391.07 }
+    SphereRadius = 33679.4
+}

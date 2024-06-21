@@ -1,0 +1,168 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03_N.T_Tiling_Cloud_03_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=TexRotation }
+                    ParameterInfos[2] = { Name=WPOTexTiling_Y }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=TexScroll_X }
+                    ParameterInfos[5] = { Name=WPOTexScroll_Y }
+                    ParameterInfos[6] = { Name=TexTiling_X }
+                    ParameterInfos[7] = { Name=OpacityIntensity }
+                    ParameterInfos[8] = { Name=NormalFlatten }
+                    ParameterInfos[9] = { Name=TexTiling_Y }
+                    ParameterInfos[10] = { Name=WPOTexScale }
+                    ParameterInfos[11] = { Name=TexScale }
+                    ParameterInfos[12] = { Name=TexScroll_Y }
+                    ParameterInfos[13] = { Name=WPOTexTiling_X }
+                    ParameterInfos[14] = { Name=WPOIntensity }
+                    ParameterInfos[15] = { Name=Metalic }
+                    ParameterInfos[16] = { Name=BaseColorIntensity }
+                    ParameterInfos[17] = { Name=WPOTexScroll_X }
+                    ParameterInfos[18] = { Name=WPOTexRotation }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Param_1 }
+                    ParameterInfos[1] = { Name=Param }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=WPOTex }
+                    ParameterInfos[1] = { Name=NormalTex }
+                    ParameterInfos[2] = { Name=BaseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[19] =
+        {
+            ScalarValues[0] = 0.05
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0.9
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.3
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0.3
+            ScalarValues[13] = 1
+            ScalarValues[14] = 50
+            ScalarValues[15] = 0.5
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.015209, G=0.006512, B=0.005182, A=1 }
+            VectorValues[1] = { R=0.234551, G=0.111933, B=0.165132, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03_N.T_Tiling_Cloud_03_N'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03_N.T_Tiling_Cloud_03_N'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+        Name = WPOTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03_N.T_Tiling_Cloud_03_N'
+        Name = NormalTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+        Name = BaseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] = { Value=0.05, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=TexRotation, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=WPOTexTiling_Y, Group=None }
+    CollectedScalarParameters[3] = { Value=0.9, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=TexScroll_X, Group=None }
+    CollectedScalarParameters[5] = { Value=0.3, Name=WPOTexScroll_Y, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=TexTiling_X, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=OpacityIntensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=NormalFlatten, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=TexTiling_Y, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=WPOTexScale, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=TexScale, Group=None }
+    CollectedScalarParameters[12] = { Value=0.3, Name=TexScroll_Y, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=WPOTexTiling_X, Group=None }
+    CollectedScalarParameters[14] = { Value=50, Name=WPOIntensity, Group=None }
+    CollectedScalarParameters[15] = { Value=0.5, Name=Metalic, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=BaseColorIntensity, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=WPOTexScroll_X, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=WPOTexRotation, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.015209, G=0.006512, B=0.005182, A=1 }
+        Name = Param_1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.234551, G=0.111933, B=0.165132, A=1 }
+        Name = Param
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

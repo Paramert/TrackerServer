@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Plank_01.MI_Plank_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Plank_01.MI_Plank_01'
+        MaterialSlotName = MI_Plank_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 628.38, 492.371, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.89955, Y=98.6953, Z=4.89807 }
+    BoxExtent = { X=96.1911, Y=96.2288, Z=6.74509 }
+    SphereRadius = 122.575
+}

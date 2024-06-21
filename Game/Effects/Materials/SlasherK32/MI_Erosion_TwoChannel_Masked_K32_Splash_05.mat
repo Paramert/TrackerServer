@@ -1,0 +1,5 @@
+Diffuse=T_Blood_Erosion
+Normal=NE_T_blood_019
+Other[0]=T_Blood_Erosion_N
+Other[1]=T_FSbloodmist
+Other[2]=T_Water_N

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/Props/K27/Materials/MI_KEP_K27_Well.MI_KEP_K27_Well'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/Props/K27/Materials/MI_KEP_K27_Well.MI_KEP_K27_Well'
+        MaterialSlotName = MI_KEP_K27_Well
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 374.257, 375.513, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.0940323, Z=40.786 }
+    BoxExtent = { X=66.4805, Y=66.3864, Z=40.786 }
+    SphereRadius = 77.4835
+}

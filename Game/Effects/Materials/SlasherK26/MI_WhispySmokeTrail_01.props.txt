@@ -1,0 +1,112 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK26/M_WhispySmokeTrail_01.M_WhispySmokeTrail_01'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Emissive_Ramp }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=EmissiveBoost }
+        ParameterValue = -1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=OpacityBoost }
+        ParameterValue = 16.0276
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Smoke_Contrast }
+        ParameterValue = 0.623752
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=FL - MainTrail_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Decal_GroundImpact05_Blurred.T_Decal_GroundImpact05_Blurred'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=SmokeColor }
+        ParameterValue = { R=0.00077, G=0.0005, B=0.001, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Outside/Inside Emissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[3] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Clouds_RGB_02.T_Clouds_RGB_02'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_DirectionnalSmokeTrail_01.T_DirectionnalSmokeTrail_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Clouds_RGB_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_Decal_GroundImpact05_Blurred
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_Smoke_02_Tiling
+    }
+}

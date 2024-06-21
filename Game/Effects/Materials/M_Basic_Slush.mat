@@ -1,0 +1,9 @@
+Diffuse=T_SlushMachine01_BC
+Normal=T_SlushMachine01_N
+Other[0]=SlushTileable01
+Other[1]=T_SlushMachine01_CI
+Other[2]=T_SlushMachine01_E_PartA
+Other[3]=T_SlushMachine01_E_PartB
+Other[4]=T_Normal_Noise
+Other[5]=T_SlushMachine01_M
+Other[6]=T_SlushMachine01_R

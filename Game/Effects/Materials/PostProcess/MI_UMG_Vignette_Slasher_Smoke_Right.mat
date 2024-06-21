@@ -1,0 +1,6 @@
+Diffuse=DefaultDiffuse
+Normal=DefaultNormal
+Other[0]=LowResBlurredNoise
+Other[1]=FlowMap
+Other[2]=T_SmokeTile
+Other[3]=T_TilingNoise03

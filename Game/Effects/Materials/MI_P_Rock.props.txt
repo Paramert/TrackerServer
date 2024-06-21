@@ -1,0 +1,137 @@
+Parent = Material3'/Game/Effects/Materials/M_Basic_MeshFX.M_Basic_MeshFX'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Atl_Roughness }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Atl_Metallic }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Metallic Value }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Roughness Value }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Specular Value }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base Color }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_10.rock2_10'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Metallic Texture }
+        ParameterValue = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_S.T_BEWS01_S'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_10_normal.rock2_10_normal'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Metallic Texture }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Roughness Texture }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Specular Texture }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_S.T_BEWS01_S'
+    CachedReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_N.T_BEWS01_N'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[3] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_BC.T_BEWS01_BC'
+    CachedReferencedTextures[4] = Texture2D'/Game/Characters/Slashers/Haiti/Weapons/Textures/Outfit01/T_HKW01_ORM.T_HKW01_ORM'
+    CachedReferencedTextures[5] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_ORM.T_BEWS01_ORM'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = rock2_10
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = rock2_10_normal
+    }
+}

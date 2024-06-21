@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_OldPlanksShack.MI_Eng_OldPlanksShack'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Shack_FloorInside.MI_Eng_Shack_FloorInside'
+    Materials[2] = MaterialInstanceConstant'/Game/Effects/Materials/MI_GroundMud01.MI_GroundMud01'
+    Materials[3] = MaterialInstanceConstant'/Game/Effects/Materials/MI_BurnStain01.MI_BurnStain01'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_OldPlanksShack.MI_Eng_OldPlanksShack'
+        MaterialSlotName = MI_Eng_OldPlanksShack
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 276.159, 3395.57, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Shack_FloorInside.MI_Eng_Shack_FloorInside'
+        MaterialSlotName = MI_Eng_Shack_FloorInside
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 515.938, 3402.23, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_GroundMud01.MI_GroundMud01'
+        MaterialSlotName = MI_GroundMud01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_BurnStain01.MI_BurnStain01'
+        MaterialSlotName = MI_BurnStain01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-19.5868, Y=54.7058, Z=9.26084 }
+    BoxExtent = { X=509.455, Y=516.496, Z=19.0952 }
+    SphereRadius = 725.392
+}

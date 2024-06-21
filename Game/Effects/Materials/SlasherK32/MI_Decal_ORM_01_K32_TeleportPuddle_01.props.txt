@@ -1,0 +1,125 @@
+Parent = Material3'/Game/Effects/Materials/Decals/M_Decal_ORM_01.M_Decal_ORM_01'
+ScalarParameterValues[12] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Metalic }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Specular }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=TexScroll_Y }
+        ParameterValue = 0.207143
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MaskNoiseTexIntensity }
+        ParameterValue = 2.29093
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=MaskTexScale }
+        ParameterValue = 1.38173
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=MaskTexTiling_X }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=MaskTexTiling_Y }
+        ParameterValue = -0.330952
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=MaskTexScroll_Y }
+        ParameterValue = -0.195238
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=MaskGlobalPower }
+        ParameterValue = 2.04365
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03_N.T_Tiling_Cloud_03_N'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_04.T_Tiling_Cloud_04'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_radialGradient.T_radialGradient'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.71875
+        UVChannelIndex = 0
+        TextureName = T_radialGradient
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.65271
+        UVChannelIndex = 0
+        TextureName = T_Tiling_Cloud_04
+    }
+}

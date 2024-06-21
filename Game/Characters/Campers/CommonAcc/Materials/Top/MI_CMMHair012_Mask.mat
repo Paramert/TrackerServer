@@ -1,0 +1,14 @@
+Diffuse=T_CMMHair001_20_BC
+Normal=T_CMMHair000_N
+Opacity=T_CMMHair001_20_A
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=T_CMMHair000_M
+Other[4]=Fxt_verticalGradient
+Other[5]=T_Halftone
+Other[6]=T_TileNoise
+Other[7]=T_DissolveTextures
+Other[8]=T_FX_DissolveRamp
+Other[9]=T_GS_FrontSign_Flickerama
+Other[10]=Black

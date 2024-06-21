@@ -1,0 +1,10 @@
+Diffuse=Stone_B_d
+Normal=Stone_B_n
+Emissive=Stone_B_e
+Other[0]=Stone_B_m
+Other[1]=Stone_C_d
+Other[2]=Stone_C_e
+Other[3]=Stone_C_m
+Other[4]=Stone_C_n
+Other[5]=t_crackedmud_01_d
+Other[6]=T_Blood_HDR

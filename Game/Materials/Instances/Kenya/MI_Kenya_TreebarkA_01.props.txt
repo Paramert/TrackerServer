@@ -1,0 +1,150 @@
+Parent = Material3'/Game/Materials/Masters/M_TreeBark.M_TreeBark'
+ScalarParameterValues[9] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=CustomRoughness }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=06_CustomSpecular }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=21_MossTileAmount }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=21_MossCurve }
+        ParameterValue = 1.229
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=21_MossHeight }
+        ParameterValue = 110
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=21_GroundHeight }
+        ParameterValue = -11.08
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=contrast }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=pixelfade }
+        ParameterValue = 3000
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=NormalMap Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Kenya/Vegetation/T_Kenya_TreebarkA_01_N.T_Kenya_TreebarkA_01_N'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BC_Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Kenya/Vegetation/T_Kenya_TreebarkA_01_BC.T_Kenya_TreebarkA_01_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=21_MossTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Asylum/T_BurntFloor01.T_BurntFloor01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = true
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=21_UseCrawlingMoss }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[20] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+    CachedReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_BurnLUT.T_BurnLUT'
+    CachedReferencedTextures[9] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Mask/T_Noise01.T_Noise01'
+    CachedReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_BurnedEmbers.T_BurnedEmbers'
+    CachedReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    CachedReferencedTextures[12] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    CachedReferencedTextures[13] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    CachedReferencedTextures[14] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[15] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[16] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+    CachedReferencedTextures[17] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    CachedReferencedTextures[18] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[19] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Kenya_TreebarkA_01_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Kenya_TreebarkA_01_N
+    }
+}

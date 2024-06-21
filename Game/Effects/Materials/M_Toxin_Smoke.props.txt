@@ -1,0 +1,235 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_LitSmoke.T_LitSmoke'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling1.T_Smoke_02_Tiling1'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Smoke_Trails_003.T_Smoke_Trails_003'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Smoke_Wisps_001.T_Smoke_Wisps_001'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[20] =
+                {
+                    ParameterInfos[0] = { Name=Distortion Speed X }
+                    ParameterInfos[1] = { Name=Border Intensity }
+                    ParameterInfos[2] = { Name=Distortion Speed Y }
+                    ParameterInfos[3] = { Name=Distortion_Intensity_02 }
+                    ParameterInfos[4] = { Name=Detail Intensity }
+                    ParameterInfos[5] = { Name=SmokeTiling }
+                    ParameterInfos[6] = { Name=Fade Distance }
+                    ParameterInfos[7] = { Name=Distortion_Intensity_01 }
+                    ParameterInfos[8] = { Name=Distortion Mask Intensity }
+                    ParameterInfos[9] = { Name=Smokey Wisps Intensity }
+                    ParameterInfos[10] = { Name=Speed Y }
+                    ParameterInfos[11] = { Name=Mask Tiling }
+                    ParameterInfos[12] = { Name=Near Camera Fade Intensity }
+                    ParameterInfos[13] = { Name=Speed X }
+                    ParameterInfos[14] = { Name=Minimal Opacity }
+                    ParameterInfos[15] = { Name=Distortion_Intensity_03 }
+                    ParameterInfos[16] = { Name=Radial Mask Intensity }
+                    ParameterInfos[17] = { Name=Distortion Tiling }
+                    ParameterInfos[18] = { Name=NearFade Radius }
+                    ParameterInfos[19] = { Name=Mask Distortion Tiling }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=SpherePosition_Radius_Density }
+                    ParameterInfos[1] = { Name=Mask Speeds }
+                    ParameterInfos[2] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Lighting }
+                    ParameterInfos[1] = { Name=Noise RGB }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[20] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 175
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.025
+            ScalarValues[4] = 0.5
+            ScalarValues[5] = 1
+            ScalarValues[6] = 100
+            ScalarValues[7] = 0.0325
+            ScalarValues[8] = 0.275
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0.275
+            ScalarValues[16] = 0.5
+            ScalarValues[17] = 1
+            ScalarValues[18] = 256
+            ScalarValues[19] = 1
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.5, G=0.5, B=0.5, A=2.33 }
+            VectorValues[1] = { R=0.14, G=0.177, B=-0.111, A=0.077 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_LitSmoke.T_LitSmoke'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_LitSmoke.T_LitSmoke'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Wisps_001.T_Smoke_Wisps_001'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling1.T_Smoke_02_Tiling1'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Smoke_Trails_003.T_Smoke_Trails_003'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_LitSmoke.T_LitSmoke'
+        Name = Lighting
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+        Name = Noise RGB
+        Group = None
+    }
+}
+CollectedScalarParameters[20] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Distortion Speed X, Group=None }
+    CollectedScalarParameters[1] = { Value=175, Name=Border Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Distortion Speed Y, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.025
+        Name = Distortion_Intensity_02
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.5, Name=Detail Intensity, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=SmokeTiling, Group=None }
+    CollectedScalarParameters[6] = { Value=100, Name=Fade Distance, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.0325
+        Name = Distortion_Intensity_01
+        Group = None
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0.275
+        Name = Distortion Mask Intensity
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0, Name=Smokey Wisps Intensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Speed Y, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Mask Tiling, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0
+        Name = Near Camera Fade Intensity
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0, Name=Speed X, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Minimal Opacity, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0.275
+        Name = Distortion_Intensity_03
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0.5
+        Name = Radial Mask Intensity
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=1, Name=Distortion Tiling, Group=None }
+    CollectedScalarParameters[18] = { Value=256, Name=NearFade Radius, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Mask Distortion Tiling, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=2.33 }
+        Name = SpherePosition_Radius_Density
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.14, G=0.177, B=-0.111, A=0.077 }
+        Name = Mask Speeds
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LitSmoke
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.971436
+        UVChannelIndex = 0
+        TextureName = T_Smoke_02_Tiling1
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.971436
+        UVChannelIndex = 0
+        TextureName = T_Smoke_Trails_003
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal2
+    }
+}

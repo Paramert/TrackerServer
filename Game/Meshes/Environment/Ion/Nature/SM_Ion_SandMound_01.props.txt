@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Tiles/MI_Ion_SandSmoothRedSandMudDryPeebles_A.MI_Ion_SandSmoothRedSandMudDryPeebles_A'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Tiles/MI_Ion_SandSmoothRedSandMudDryPeebles_A.MI_Ion_SandSmoothRedSandMudDryPeebles_A'
+        MaterialSlotName = MI_Ion_SandSmoothRedSandMudDryPeebles_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 415.754, 435.798, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-29.9543, Y=-18.2364, Z=27.1469 }
+    BoxExtent = { X=194.029, Y=204.13, Z=27.8888 }
+    SphereRadius = 241.661
+}

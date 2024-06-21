@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_WoodBoard01.MI_HOS_WoodBoard01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_SR_Central_Module02.MI_HOS_SR_Central_Module02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_MaskingTape01.MI_HOS_MaskingTape01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_WoodBoard01.MI_HOS_WoodBoard01'
+        MaterialSlotName = MI_HOS_WoodBoard01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 276.575, 386.178, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_SR_Central_Module02.MI_HOS_SR_Central_Module02'
+        MaterialSlotName = MI_HOS_SR_Central_Module02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.212, 385.813, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_MaskingTape01.MI_HOS_MaskingTape01'
+        MaterialSlotName = MI_HOS_MaskingTape01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 121.966, 387.064, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.34567, Y=-0.124802, Z=127.032 }
+    BoxExtent = { X=27.8705, Y=87.1766, Z=129.458 }
+    SphereRadius = 158.196
+}

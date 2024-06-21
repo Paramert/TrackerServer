@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK24/UNLIT_VFX/MI_K24_TrailMeshFx_01_TPV_UNLIT.MI_K24_TrailMeshFx_01_TPV_UNLIT'
+    Materials[1] = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK24/UNLIT_VFX/MI_K24_TrailMeshFx_01_TPV_UNLIT.MI_K24_TrailMeshFx_01_TPV_UNLIT'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK24/UNLIT_VFX/MI_K24_TrailMeshFx_01_TPV_UNLIT.MI_K24_TrailMeshFx_01_TPV_UNLIT'
+        MaterialSlotName = Standardmaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 22.3014, 77.9353, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK24/UNLIT_VFX/MI_K24_TrailMeshFx_01_TPV_UNLIT.MI_K24_TrailMeshFx_01_TPV_UNLIT'
+        MaterialSlotName = Standardmaterial_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 42.8375, 76.2122, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.43051e-06, Y=30.9789, Z=24.0209 }
+    BoxExtent = { X=4.08417, Y=30.1743, Z=24.0209 }
+    SphereRadius = 36.2138
+}

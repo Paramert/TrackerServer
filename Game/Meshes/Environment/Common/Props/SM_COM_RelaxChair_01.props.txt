@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_RelaxChair01.MI_COM_RelaxChair01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_RelaxChair01.MI_COM_RelaxChair01'
+        MaterialSlotName = MI_COM_RelaxChair01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 158.499, 260.659, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.75902, Y=-3.47691, Z=45.1031 }
+    BoxExtent = { X=34.9393, Y=31.407, Z=45.4785 }
+    SphereRadius = 62.0601
+}

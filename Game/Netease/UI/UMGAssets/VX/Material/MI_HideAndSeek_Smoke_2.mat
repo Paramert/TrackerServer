@@ -1,0 +1,5 @@
+Diffuse=T_Cloud
+Normal=DefaultNormal
+Opacity=NE_T_Radial_016_tex
+Other[0]=T_Noise41
+Other[1]=DefaultTexture

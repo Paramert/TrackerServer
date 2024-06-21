@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Wire01.MI_Eng_Wire01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_MetalRust01.MI_Eng_MetalRust01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Wire01.MI_Eng_Wire01'
+        MaterialSlotName = MI_Eng_Wire01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 137.304, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_MetalRust01.MI_Eng_MetalRust01'
+        MaterialSlotName = MI_Eng_MetalRust01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 62.2459, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-39.0859, Y=-1591.09, Z=610.442 }
+    BoxExtent = { X=256.889, Y=1641.55, Z=324.275 }
+    SphereRadius = 1682.6
+}

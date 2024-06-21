@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_ShutterWindow01.MI_HOS_ShutterWindow01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_ShutterWindow01.MI_HOS_ShutterWindow01'
+        MaterialSlotName = MI_HOS_ShutterWindow01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 185.999, 311.208, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10, Y=10.95, Z=10 }
+    BoxExtent = { X=73.7284, Y=119.826, Z=11.0071 }
+    SphereRadius = 141.122
+}

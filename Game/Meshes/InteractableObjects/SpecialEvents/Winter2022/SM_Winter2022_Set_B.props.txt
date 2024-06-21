@@ -1,0 +1,98 @@
+Materials[7] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Quantum/MI_EntityWebs.MI_EntityWebs'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Entity_Ground.MI_Winter2022_Entity_Ground'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Props_Creepy.MI_Winter2022_Props_Creepy'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Ribbons_Creepy.MI_Winter2022_Ribbons_Creepy'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Props.MI_Winter2022_Props'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Ribbons.MI_Winter2022_Ribbons'
+    Materials[6] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_EntityTile.MI_Winter2022_EntityTile'
+}
+SourceModels[0] = {}
+StaticMaterials[7] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Quantum/MI_EntityWebs.MI_EntityWebs'
+        MaterialSlotName = MI_EntityWebs
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 57.0125, 644.931, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Entity_Ground.MI_Winter2022_Entity_Ground'
+        MaterialSlotName = MI_Winter2022_Entity_Ground
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 116.892, 649.651, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Props_Creepy.MI_Winter2022_Props_Creepy'
+        MaterialSlotName = MI_Winter2022_Props_Creepy
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 152.101, 649.516, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Ribbons_Creepy.MI_Winter2022_Ribbons_Creepy'
+        MaterialSlotName = MI_Winter2022_Ribbons_Creepy
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 16.7161, 650.064, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Props.MI_Winter2022_Props'
+        MaterialSlotName = MI_Winter2022_Props
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 194.704, 649.911, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_Ribbons.MI_Winter2022_Ribbons'
+        MaterialSlotName = MI_Winter2022_Ribbons
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 21.9268, 649.719, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/Winter2022/MI_Winter2022_EntityTile.MI_Winter2022_EntityTile'
+        MaterialSlotName = MI_Winter2022_EntityTile
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 212.198, 646.988, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.41272, Y=-3.42072, Z=43.5924 }
+    BoxExtent = { X=108.587, Y=108.193, Z=51.0166 }
+    SphereRadius = 128.196
+}

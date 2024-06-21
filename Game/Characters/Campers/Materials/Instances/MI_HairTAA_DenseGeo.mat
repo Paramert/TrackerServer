@@ -1,0 +1,15 @@
+Diffuse=T_DissolveTextures
+Normal=T_CMMHair000_N
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=T_CMMHair000_M
+Other[3]=Fxt_verticalGradient
+Other[4]=T_Halftone
+Other[5]=T_TileNoise
+Other[6]=T_Dust_Noise_02
+Other[7]=T_FX_DissolveRamp
+Other[8]=T_IceNoise
+Other[9]=T_Frost_A_M
+Other[10]=T_Frost_A_N
+Other[11]=T_GS_FrontSign_Flickerama
+Other[12]=Black

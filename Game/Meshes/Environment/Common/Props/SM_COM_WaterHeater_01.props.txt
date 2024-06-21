@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_WaterHeather01.MI_Eng_WaterHeather01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_WaterHeather01.MI_Eng_WaterHeather01'
+        MaterialSlotName = MI_Eng_WaterHeater01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 318.469, 374.645, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0226936, Y=-4.82382, Z=119.257 }
+    BoxExtent = { X=49.687, Y=57.1561, Z=119.257 }
+    SphereRadius = 130.153
+}

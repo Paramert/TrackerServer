@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/MI_HookFireCracker01.MI_HookFireCracker01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/MI_HookFireCracker01.MI_HookFireCracker01'
+        MaterialSlotName = MI_HookFireCracker01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 119.234, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.02002, Y=-59.8547, Z=340.586 }
+    BoxExtent = { X=38.4517, Y=45.1292, Z=142.15 }
+    SphereRadius = 145.088
+}

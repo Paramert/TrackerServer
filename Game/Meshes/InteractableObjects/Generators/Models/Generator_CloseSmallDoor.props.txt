@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Materials/M_Generators.M_Generators'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Materials/M_Generators.M_Generators'
+        MaterialSlotName = M_Generators
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 553.94, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0146418, Y=-55.5909, Z=95.5468 }
+    BoxExtent = { X=12.1181, Y=1.8494, Z=15.2285 }
+    SphereRadius = 19.4684
+}

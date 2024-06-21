@@ -1,0 +1,134 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Materials/PostProcess/FlowMap.FlowMap'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=Detail_UV_Scale_X }
+                    ParameterInfos[1] = { Name=Mask_Radius }
+                    ParameterInfos[2] = { Name=PP_BlackSmoke_Intensity }
+                    ParameterInfos[3] = { Name=DetailPannerSpeedY }
+                    ParameterInfos[4] = { Name=Mask_Hardness }
+                    ParameterInfos[5] = { Name=Shape_Intensity }
+                    ParameterInfos[6] = { Name=Param_1 }
+                    ParameterInfos[7] = { Name=UVMask_Off_X }
+                    ParameterInfos[8] = { Name=UV_Scale_X }
+                    ParameterInfos[9] = { Name=UVMask_Scale_Y }
+                    ParameterInfos[10] = { Name=UVMask_Off_Y }
+                    ParameterInfos[11] = { Name=Detail_UV_Scale_Y }
+                    ParameterInfos[12] = { Name=UV_Scale_Y }
+                    ParameterInfos[13] = { Name=Param }
+                    ParameterInfos[14] = { Name=Detail_Intensity }
+                    ParameterInfos[15] = { Name=DetailPannerSpeedX }
+                    ParameterInfos[16] = { Name=UVMask_Scale_X }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Colour }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.58
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.2
+            ScalarValues[4] = 0.6
+            ScalarValues[5] = 1.25
+            ScalarValues[6] = 3
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 2
+            ScalarValues[9] = 0.4
+            ScalarValues[10] = 0.4
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0.4
+            ScalarValues[14] = 1.25
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0.95
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Materials/PostProcess/FlowMap.FlowMap'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.33
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Detail_UV_Scale_X, Group=None }
+    CollectedScalarParameters[1] = { Value=0.58, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0
+        Name = PP_BlackSmoke_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0.2, Name=DetailPannerSpeedY, Group=None }
+    CollectedScalarParameters[4] = { Value=0.6, Name=Mask_Hardness, Group=None }
+    CollectedScalarParameters[5] = { Value=1.25, Name=Shape_Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=3, Name=Param_1, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=UVMask_Off_X, Group=None }
+    CollectedScalarParameters[8] = { Value=2, Name=UV_Scale_X, Group=None }
+    CollectedScalarParameters[9] = { Value=0.4, Name=UVMask_Scale_Y, Group=None }
+    CollectedScalarParameters[10] = { Value=0.4, Name=UVMask_Off_Y, Group=None }
+    CollectedScalarParameters[11] = { Value=0.5, Name=Detail_UV_Scale_Y, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=UV_Scale_Y, Group=None }
+    CollectedScalarParameters[13] = { Value=0.4, Name=Param, Group=None }
+    CollectedScalarParameters[14] = { Value=1.25, Name=Detail_Intensity, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=DetailPannerSpeedX, Group=None }
+    CollectedScalarParameters[16] = { Value=0.95, Name=UVMask_Scale_X, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Colour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

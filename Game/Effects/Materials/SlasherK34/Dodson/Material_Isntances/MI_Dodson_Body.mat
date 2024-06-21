@@ -1,0 +1,14 @@
+Diffuse=T_K34SWBody01_BC
+Normal=T_K34SWBody01_N
+Opacity=T_DodsonOpacityMask
+Other[0]=T_TilingNoise05
+Other[1]=T_K34SWBody01_ORM
+Other[2]=Fxt_verticalGradient2
+Other[3]=Good64x64TilingNoiseHighFreq
+Other[4]=Black
+Other[5]=DefaultTexture
+Other[6]=Fxt_verticalGradient
+Other[7]=T_OpacityMaskDodson_YerkesVisible_Body
+Other[8]=T_DissolveTextures
+Other[9]=T_FX_DissolveRamp
+Other[10]=Black

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Houdini/Breakable_Wall_sim/MI_InteractableWall_VA_V2.MI_InteractableWall_VA_V2'
+    Materials[1] = MaterialInstanceConstant'/Game/Effects/Houdini/Breakable_Wall_sim/MI_InteractableWallWood_VA_V2.MI_InteractableWallWood_VA_V2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Breakable_Wall_sim/MI_InteractableWall_VA_V2.MI_InteractableWall_VA_V2'
+        MaterialSlotName = M_pallet
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 462.041, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Breakable_Wall_sim/MI_InteractableWallWood_VA_V2.MI_InteractableWallWood_VA_V2'
+        MaterialSlotName = M_fracture_pieces
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 414.704, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.89259, Y=-1.00864, Z=121.906 }
+    BoxExtent = { X=77.1442, Y=11.6913, Z=127.661 }
+    SphereRadius = 145.319
+}

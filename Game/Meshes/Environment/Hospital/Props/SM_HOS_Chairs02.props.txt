@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_Chair02.MI_HOS_Chair02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_Chair02.MI_HOS_Chair02'
+        MaterialSlotName = MI_HOS_Chair02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 357.878, 372.751, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.60509, Z=64.8941 }
+    BoxExtent = { X=129.347, Y=40.4388, Z=64.8941 }
+    SphereRadius = 148.549
+}

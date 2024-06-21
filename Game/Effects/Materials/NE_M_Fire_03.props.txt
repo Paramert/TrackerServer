@@ -1,0 +1,165 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Large_Fire_Tile_01.T_Large_Fire_Tile_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_LightRays01.T_LightRays01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=Tex01_noise_U }
+                    ParameterInfos[1] = { Name=Tex02_noise_U }
+                    ParameterInfos[2] = { Name=Fade Offset (S) }
+                    ParameterInfos[3] = { Name=Normal_noise_U }
+                    ParameterInfos[4] = { Name=Fade Length (S) }
+                    ParameterInfos[5] = { Name=mask_qd }
+                    ParameterInfos[6] = { Name=Normal_noise_V }
+                    ParameterInfos[7] = { Name=Tex01_noise_V }
+                    ParameterInfos[8] = { Name=mask_noise_U }
+                    ParameterInfos[9] = { Name=Tex02_noise_V }
+                    ParameterInfos[10] = { Name=mask_noise_V }
+                    ParameterInfos[11] = { Name=Texnoise_qd }
+                    ParameterInfos[12] = { Name=twistUV }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Tex2 }
+                    ParameterInfos[2] = { Name=mask }
+                    ParameterInfos[3] = { Name=Tex1 }
+                    ParameterInfos[4] = { Name=Tex1_1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 0.5
+            ScalarValues[2] = 24
+            ScalarValues[3] = 3
+            ScalarValues[4] = 0
+            ScalarValues[5] = 2.5
+            ScalarValues[6] = 3
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 0.2
+            ScalarValues[9] = 0.42
+            ScalarValues[10] = 0.2
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+        }
+        VectorValues[0] = {}
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_LightRays01.T_LightRays01'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Large_Fire_Tile_01.T_Large_Fire_Tile_01'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/T_Large_Fire_Tile_01.T_Large_Fire_Tile_01'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Large_Fire_Tile_01.T_Large_Fire_Tile_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_LightRays01.T_LightRays01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_LightRays01.T_LightRays01'
+        Name = Tex2
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+        Name = mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Large_Fire_Tile_01.T_Large_Fire_Tile_01'
+        Name = Tex1
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Large_Fire_Tile_01.T_Large_Fire_Tile_01'
+        Name = Tex1_1
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Tex01_noise_U, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Tex02_noise_U, Group=None }
+    CollectedScalarParameters[2] = { Value=24, Name=Fade Offset (S), Group=None }
+    CollectedScalarParameters[3] = { Value=3, Name=Normal_noise_U, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Fade Length (S), Group=None }
+    CollectedScalarParameters[5] = { Value=2.5, Name=mask_qd, Group=None }
+    CollectedScalarParameters[6] = { Value=3, Name=Normal_noise_V, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=Tex01_noise_V, Group=None }
+    CollectedScalarParameters[8] = { Value=0.2, Name=mask_noise_U, Group=None }
+    CollectedScalarParameters[9] = { Value=0.42, Name=Tex02_noise_V, Group=None }
+    CollectedScalarParameters[10] = { Value=0.2, Name=mask_noise_V, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Texnoise_qd, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=twistUV, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LightRays01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Soft_Smoke2
+    }
+}

@@ -1,0 +1,8 @@
+Diffuse=T_Ind_Leak_01_BC
+Normal=FlatNormal
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=Black_Linear
+Other[3]=White_Linear
+Other[4]=Yellow_Linear
+Other[5]=T_checker_grid

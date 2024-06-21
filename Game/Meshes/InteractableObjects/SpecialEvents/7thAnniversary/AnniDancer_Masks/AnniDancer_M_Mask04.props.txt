@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Campers/Mali/Materials/Outfit017/MI_MSHead017.MI_MSHead017'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Mali/Materials/Outfit017/MI_MSHead017.MI_MSHead017'
+        MaterialSlotName = MI_MSHead017
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 25.2965, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.79803, Y=1.19546, Z=-5.17788 }
+    BoxExtent = { X=9.27736, Y=2.9665, Z=6.23382 }
+    SphereRadius = 9.90718
+}

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Brick02_Basement.MI_Brick02_Basement'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_WoodPlank04_Basement.MI_WoodPlank04_Basement'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DriftWoodPlank01_Basement.MI_DriftWoodPlank01_Basement'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rust04_Basement.MI_Rust04_Basement'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Brick02_Basement.MI_Brick02_Basement'
+        MaterialSlotName = MI_Brick02_Basement
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 404.689, 5146.96, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_WoodPlank04_Basement.MI_WoodPlank04_Basement'
+        MaterialSlotName = MI_WoodPlank04_Basement
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 403.564, 2944.75, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DriftWoodPlank01_Basement.MI_DriftWoodPlank01_Basement'
+        MaterialSlotName = MI_DriftWoodPlank01_Basement
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.99, 4562.89, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rust04_Basement.MI_Rust04_Basement'
+        MaterialSlotName = MI_Rust04_Basement
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.218, 4289.35, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-190.161, Y=-208.91, Z=-449.005 }
+    BoxExtent = { X=695.222, Y=837.353, Z=348.26 }
+    SphereRadius = 1134.84
+}

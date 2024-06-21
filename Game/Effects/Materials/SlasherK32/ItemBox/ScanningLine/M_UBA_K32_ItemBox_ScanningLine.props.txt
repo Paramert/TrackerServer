@@ -1,0 +1,147 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Fxt_VerticalGradient_BothSides_01.Fxt_VerticalGradient_BothSides_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/ItemBox_ScanningLine.ItemBox_ScanningLine'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Trail_Mask.T_Trail_Mask'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=Side  2 Edge Subtract }
+                    ParameterInfos[1] = { Name=Side 2 Power }
+                    ParameterInfos[2] = { Name=Side 1 Multiply }
+                    ParameterInfos[3] = { Name=Line 1 Main Control }
+                    ParameterInfos[4] = { Name=Emissive Control }
+                    ParameterInfos[5] = { Name=Line 1 Glow Scale }
+                    ParameterInfos[6] = { Name=Horizontal Move }
+                    ParameterInfos[7] = { Name=Side 1 Subtract }
+                    ParameterInfos[8] = { Name=Side 2 Edge Glow Opacity }
+                    ParameterInfos[9] = { Name=Side 2 Subtract }
+                    ParameterInfos[10] = { Name=Line 1 glow control }
+                    ParameterInfos[11] = { Name=Side 2 Multiply }
+                    ParameterInfos[12] = { Name=Side 1 power }
+                    ParameterInfos[13] = { Name=Opacity }
+                    ParameterInfos[14] = { Name=Line 1 Scale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 0.9
+            ScalarValues[1] = 1.3
+            ScalarValues[2] = 0.4
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0.2
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 3
+            ScalarValues[11] = 0.3
+            ScalarValues[12] = 1.5
+            ScalarValues[13] = 1
+            ScalarValues[14] = 2
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.11765, G=7.35293, B=10, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/ItemBox_ScanningLine.ItemBox_ScanningLine'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Fxt_VerticalGradient_BothSides_01.Fxt_VerticalGradient_BothSides_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Trail_Mask.T_Trail_Mask'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.9
+        Name = Side  2 Edge Subtract
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1.3, Name=Side 2 Power, Group=None }
+    CollectedScalarParameters[2] = { Value=0.4, Name=Side 1 Multiply, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Line 1 Main Control, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=Emissive Control, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Line 1 Glow Scale, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Horizontal Move, Group=None }
+    CollectedScalarParameters[7] = { Value=0.1, Name=Side 1 Subtract, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1
+        Name = Side 2 Edge Glow Opacity
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0.1, Name=Side 2 Subtract, Group=None }
+    CollectedScalarParameters[10] = { Value=3, Name=Line 1 glow control, Group=None }
+    CollectedScalarParameters[11] = { Value=0.3, Name=Side 2 Multiply, Group=None }
+    CollectedScalarParameters[12] = { Value=1.5, Name=Side 1 power, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[14] = { Value=2, Name=Line 1 Scale, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.11765, G=7.35293, B=10, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fxt_VerticalGradient_BothSides_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = ItemBox_ScanningLine
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Trail_Mask
+    }
+}

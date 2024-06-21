@@ -1,0 +1,8 @@
+Diffuse=DefaultDiffuse
+Normal=T_WaterNormal
+SpecPower=T_Liquid_Splatter04
+Other[0]=T_FX_Gradient_Footsteps
+Other[1]=T_Liquid_Splatter04_N
+Other[2]=T_Mud_01_M
+Other[3]=T_reflection_map_01
+Other[4]=T_SmokeTile

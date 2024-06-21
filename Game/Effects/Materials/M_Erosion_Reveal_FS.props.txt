@@ -1,0 +1,123 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01.T_Blood_Spread_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01_N.T_Blood_Spread_01_N'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01_N_02.T_Blood_Spread_01_N_02'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Exp }
+                    ParameterInfos[1] = { Name=Normal Red Channel Intensity }
+                    ParameterInfos[2] = { Name=Normal Green Channel Intensity }
+                    ParameterInfos[3] = { Name=Green Channel Intensity }
+                    ParameterInfos[4] = { Name=Param }
+                    ParameterInfos[5] = { Name=Distance }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Mask }
+                    ParameterInfos[1] = { Name=Ramp }
+                    ParameterInfos[2] = { Name=Normal Red Channel }
+                    ParameterInfos[3] = { Name=Normal Green Channel }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 2.93654, 2, 0.1, 2, 1.892, 1000 }
+        VectorValues[0] = {}
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01.T_Blood_Spread_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01_N.T_Blood_Spread_01_N'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01_N_02.T_Blood_Spread_01_N_02'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01_N.T_Blood_Spread_01_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01.T_Blood_Spread_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01_N_02.T_Blood_Spread_01_N_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01.T_Blood_Spread_01'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+        Name = Ramp
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01_N.T_Blood_Spread_01_N'
+        Name = Normal Red Channel
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Blood_Spread_01_N_02.T_Blood_Spread_01_N_02'
+        Name = Normal Green Channel
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=2.93654, Name=Exp, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 2
+        Name = Normal Red Channel Intensity
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.1
+        Name = Normal Green Channel Intensity
+        Group = None
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 2
+        Name = Green Channel Intensity
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=1.892, Name=Param, Group=None }
+    CollectedScalarParameters[5] = { Value=1000, Name=Distance, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,85 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_cloud_02.T_cloud_02'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_TilingNoise05.T_TilingNoise05'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=FlowmapTiling_X }
+                    ParameterInfos[1] = { Name=FlowmapTiling_Y }
+                    ParameterInfos[2] = { Name=MaskTiling_Y }
+                    ParameterInfos[3] = { Name=MaskOffset_Y }
+                    ParameterInfos[4] = { Name=MaskTiling_X }
+                    ParameterInfos[5] = { Name=MaskOpacity }
+                    ParameterInfos[6] = { Name=MaskPower }
+                    ParameterInfos[7] = { Name=MaskOffset_X }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0.65, 0.65, 1.25, -0.05, 1.25, 4, 0.65, -0.05 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_cloud_02.T_cloud_02'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_TilingNoise05.T_TilingNoise05'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.65, Name=FlowmapTiling_X, Group=None }
+    CollectedScalarParameters[1] = { Value=0.65, Name=FlowmapTiling_Y, Group=None }
+    CollectedScalarParameters[2] = { Value=1.25, Name=MaskTiling_Y, Group=None }
+    CollectedScalarParameters[3] = { Value=-0.05, Name=MaskOffset_Y, Group=None }
+    CollectedScalarParameters[4] = { Value=1.25, Name=MaskTiling_X, Group=None }
+    CollectedScalarParameters[5] = { Value=4, Name=MaskOpacity, Group=None }
+    CollectedScalarParameters[6] = { Value=0.65, Name=MaskPower, Group=None }
+    CollectedScalarParameters[7] = { Value=-0.05, Name=MaskOffset_X, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.859375
+        UVChannelIndex = 0
+        TextureName = T_cloud_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.65625
+        UVChannelIndex = 0
+        TextureName = T_FlowMap_Distortion_01
+    }
+}

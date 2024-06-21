@@ -1,0 +1,4 @@
+Diffuse=T_DissolveTextures
+Normal=T_Water_N
+Other[0]=T_FX_DissolveRamp
+Other[1]=T_WhispySmoke_Tile1

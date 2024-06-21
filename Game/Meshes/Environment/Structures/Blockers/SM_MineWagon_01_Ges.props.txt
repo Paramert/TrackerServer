@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Mine_Wagon01.MI_Mine_Wagon01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Mine_Wagon02.MI_Mine_Wagon02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Mine_Wagon01.MI_Mine_Wagon01'
+        MaterialSlotName = MI_IND_MineWagon_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 251.943, 776.68, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Mine_Wagon02.MI_Mine_Wagon02'
+        MaterialSlotName = MI_IND_MineWagon_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 476.808, 787.071, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.18158, Y=0.0216522, Z=65.5294 }
+    BoxExtent = { X=111.785, Y=82.3877, Z=65.0671 }
+    SphereRadius = 150.827
+}

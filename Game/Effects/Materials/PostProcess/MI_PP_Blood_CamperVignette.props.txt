@@ -1,0 +1,304 @@
+Parent = Material3'/Game/Effects/Materials/PostProcess/M_PP_BloodVignette.M_PP_BloodVignette'
+ScalarParameterValues[36] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=BloodDroplets1_Speed }
+        ParameterValue = -0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BloodDroplets1_STR }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=BloodDroplets1_UV }
+        ParameterValue = 0.35
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=BloodDroplets1_V }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=BloodDroplets1DistortionAmount }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=BloodDroplets2_Speed }
+        ParameterValue = -0.035
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=BloodDroplets2_STR }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=BloodDroplets2_UV }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=BloodDroplets3_Speed }
+        ParameterValue = -0.015
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=BloodDroplets3_STR }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=BloodDroplets3_UV }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=DropletsHardness }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=DropletsIntensity }
+        ParameterValue = 3.5
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=DropletsRadius }
+        ParameterValue = 4.25
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=BloodtextureVignette_Speed }
+        ParameterValue = -0.005
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=BloodtextureVignette_Tilling }
+        ParameterValue = 7
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=BloodtextureVignette_U }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=BloodtextureVignette_V }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=BloodtextureVignetteDistortionAmount }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=BloodtextureVignetteMultiply }
+        ParameterValue = 8
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=BloodtextureVignettePower }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=DistortionAdd }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=BloodDroplets1Distortion_Tilling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=Distortion }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=Brightness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=OpacityMax }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=OpacityMaxClamp }
+        ParameterValue = 15
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=Power }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=VignetteContrast }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=VignetteIntensity }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=BloodThickness }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=ColorRampMax }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=Darken }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=Desat }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=SlashOpacityAdjustment }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=TextureVignette }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling1.T_Smoke_02_Tiling1'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Distortion }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_RainDrop_DST.T_FX_RainDrop_DST'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BloodDropletsColor }
+        ParameterValue = { R=1, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tilling }
+        ParameterValue = { R=1, G=0.5, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=VignetteColor }
+        ParameterValue = { R=0.25, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=CamperVignette }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[12] =
+{
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_GradientBlood_02.T_GradientBlood_02'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_4.T_BloodSplatter_Angled_4'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_CombinedBlurred.T_Small_BloodSplatter_CombinedBlurred'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_5.T_BloodSplatter_Angled_5'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_BloodSplatter_Angled_3.T_BloodSplatter_Angled_3'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/Liquid/Blood/1024frames/T_Small_BloodSplatter_Combined.T_Small_BloodSplatter_Combined'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Noise03.T_Noise03'
+    CachedReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+    CachedReferencedTextures[10] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_RainDrop_DST.T_FX_RainDrop_DST'
+    CachedReferencedTextures[11] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_FSbloodmist_03.T_FSbloodmist_03'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,345 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_Blue.Dissolve_border_gradient_Blue'
+    ReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_BC.T_GkWS01_BC'
+    ReferencedTextures[2] = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_N.T_GkWS01_N'
+    ReferencedTextures[3] = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_ORM.T_GkWS01_ORM'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Gradient_01.T_Gradient_01'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[33] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Exp }
+                    ParameterInfos[2] = { Name=Dirt_Rougness }
+                    ParameterInfos[3] = { Name=Refraction }
+                    ParameterInfos[4] = { Name=DetailNormal_Offset_Y }
+                    ParameterInfos[5] = { Name=UOffSet }
+                    ParameterInfos[6] = { Name=VOffset }
+                    ParameterInfos[7] = { Name=DetailNormal_Rotation (0-360) }
+                    ParameterInfos[8] = { Name=Dirt_Offset_X }
+                    ParameterInfos[9] = { Name=Specular }
+                    ParameterInfos[10] = { Name=Dirt_Contrast }
+                    ParameterInfos[11] = { Name=DetailNormal_Tile }
+                    ParameterInfos[12] = { Name=DetailNormal_Offset_X }
+                    ParameterInfos[13] = { Name=Fresnel_Falloff }
+                    ParameterInfos[14] = { Name=Dirt_Tile }
+                    ParameterInfos[15] = { Name=OpacityOverride (0-1) }
+                    ParameterInfos[16] = { Name=VTiling }
+                    ParameterInfos[17] = { Name=ControlShine }
+                    ParameterInfos[18] = { Name=RoughnessOverride (0-1) }
+                    ParameterInfos[19] = { Name=Dirt_Offset_Y }
+                    ParameterInfos[20] = { Name=Dirt_Rotation (0-360) }
+                    ParameterInfos[21] = { Name=VValue }
+                    ParameterInfos[22] = { Name=UTiling }
+                    ParameterInfos[23] = { Name=ScaleV }
+                    ParameterInfos[24] = { Name=RefractionOverwrite (0-1) }
+                    ParameterInfos[25] = { Name=Opacity }
+                    ParameterInfos[26] = { Name=ScaleU }
+                    ParameterInfos[27] = { Name=ObjectHeight }
+                    ParameterInfos[28] = { Name=DetailNormal_Intensity }
+                    ParameterInfos[29] = { Name=Dirt_Intensity }
+                    ParameterInfos[30] = { Name=ObjNormal_Intensity }
+                    ParameterInfos[31] = { Name=UValue }
+                    ParameterInfos[32] = { Name=B }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=ShineIntensity }
+                    ParameterInfos[1] = { Name=DirtColor }
+                    ParameterInfos[2] = { Name=Color2 }
+                    ParameterInfos[3] = { Name=Weapon GlowNone }
+                    ParameterInfos[4] = { Name=Weapon Glow }
+                    ParameterInfos[5] = { Name=Color }
+                    ParameterInfos[6] = { Name=ShineColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=ORM }
+                    ParameterInfos[1] = { Name=EmmisiveMap Texture }
+                    ParameterInfos[2] = { Name=Emissive }
+                    ParameterInfos[3] = { Name=Diffuse }
+                    ParameterInfos[4] = { Name=Normal }
+                    ParameterInfos[5] = { Name=Shine Texture }
+                    ParameterInfos[6] = { Name=Shine }
+                    ParameterInfos[7] = { Name=Normal Detail }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[33] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 2
+            ScalarValues[2] = 0.85
+            ScalarValues[3] = 1.2
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.21101
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 10
+            ScalarValues[10] = 2
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 10
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+            ScalarValues[22] = 10
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0.1
+            ScalarValues[26] = 1
+            ScalarValues[27] = 50
+            ScalarValues[28] = 0
+            ScalarValues[29] = 1
+            ScalarValues[30] = 0
+            ScalarValues[31] = 0
+            ScalarValues[32] = 250
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0.88, G=0.847818, B=0.6644, A=1 }
+            VectorValues[2] = { R=0.1296, G=0.32, B=0.21309, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=0.886065, G=0.915, B=0.90611, A=1 }
+            VectorValues[6] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_ORM.T_GkWS01_ORM'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Gradient_01.T_Gradient_01'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Gradient_01.T_Gradient_01'
+            TextureValues[3] = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_BC.T_GkWS01_BC'
+            TextureValues[4] = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_N.T_GkWS01_N'
+            TextureValues[5] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_Blue.Dissolve_border_gradient_Blue'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_Gradient_01.T_Gradient_01'
+            TextureValues[7] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_ORM.T_GkWS01_ORM'
+        ReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_BC.T_GkWS01_BC'
+        ReferencedTextures[2] = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_N.T_GkWS01_N'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Gradient_01.T_Gradient_01'
+        ReferencedTextures[4] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_Blue.Dissolve_border_gradient_Blue'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_ORM.T_GkWS01_ORM'
+        Name = ORM
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Gradient_01.T_Gradient_01'
+        Name = EmmisiveMap Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Gradient_01.T_Gradient_01'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_BC.T_GkWS01_BC'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Guam/Textures/Outfit01/T_GkWS01_N.T_GkWS01_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_Blue.Dissolve_border_gradient_Blue'
+        Name = Shine Texture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Gradient_01.T_Gradient_01'
+        Name = Shine
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+        Name = Normal Detail
+        Group = None
+    }
+}
+CollectedScalarParameters[33] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=Exp, Group=None }
+    CollectedScalarParameters[2] = { Value=0.85, Name=Dirt_Rougness, Group=None }
+    CollectedScalarParameters[3] = { Value=1.2, Name=Refraction, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=DetailNormal_Offset_Y, Group=None }
+    CollectedScalarParameters[5] = { Value=0.21101, Name=UOffSet, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=VOffset, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0
+        Name = DetailNormal_Rotation (0-360)
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1, Name=Dirt_Offset_X, Group=None }
+    CollectedScalarParameters[9] = { Value=10, Name=Specular, Group=None }
+    CollectedScalarParameters[10] = { Value=2, Name=Dirt_Contrast, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=DetailNormal_Tile, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=DetailNormal_Offset_X, Group=None }
+    CollectedScalarParameters[13] = { Value=10, Name=Fresnel_Falloff, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Dirt_Tile, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=OpacityOverride (0-1), Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=VTiling, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=ControlShine, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0
+        Name = RoughnessOverride (0-1)
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=1, Name=Dirt_Offset_Y, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=Dirt_Rotation (0-360), Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=VValue, Group=None }
+    CollectedScalarParameters[22] = { Value=10, Name=UTiling, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=ScaleV, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0
+        Name = RefractionOverwrite (0-1)
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=0.1, Name=Opacity, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=ScaleU, Group=None }
+    CollectedScalarParameters[27] = { Value=50, Name=ObjectHeight, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=DetailNormal_Intensity, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=Dirt_Intensity, Group=None }
+    CollectedScalarParameters[30] = { Value=0, Name=ObjNormal_Intensity, Group=None }
+    CollectedScalarParameters[31] = { Value=0, Name=UValue, Group=None }
+    CollectedScalarParameters[32] = { Value=250, Name=B, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ShineIntensity
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.88, G=0.847818, B=0.6644, A=1 }
+        Name = DirtColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.1296, G=0.32, B=0.21309, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Weapon GlowNone
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Weapon Glow
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.886065, G=0.915, B=0.90611, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ShineColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GkWS01_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GkWS01_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GkWS01_ORM
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Gradient_01
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_01_Tiling
+    }
+}

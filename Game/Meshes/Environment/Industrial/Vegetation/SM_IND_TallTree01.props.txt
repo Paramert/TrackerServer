@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_TallTree01_Trunk.MI_TallTree01_Trunk'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_TallTree01_Trunk.MI_TallTree01_Trunk'
+        MaterialSlotName = MI_TallTree01_Trunk
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 64.5345, 1847.63, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-34.6516, Y=-10.3343, Z=1280.17 }
+    BoxExtent = { X=806.912, Y=850.366, Z=1306.66 }
+    SphereRadius = 1321.22
+}

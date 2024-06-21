@@ -1,0 +1,110 @@
+Materials[8] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_OldWood02.MI_OldWood02'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_White02.MI_PaintedWood_White02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_FloorTiles.MI_FloorTiles'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/MI_CeillingTiles.MI_CeillingTiles'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_blue03.MI_PaintedWood_blue03'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedSteel_Blue02.MI_PaintedSteel_Blue02'
+    Materials[6] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_blue02.MI_PaintedWood_blue02'
+    Materials[7] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PegBoard.MI_PegBoard'
+}
+SourceModels[0] = {}
+StaticMaterials[8] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_OldWood02.MI_OldWood02'
+        MaterialSlotName = MI_OldWood02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1907.93, 10.3826, 10.3826, 5716.18 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_White02.MI_PaintedWood_White02'
+        MaterialSlotName = MI_PaintedWood_White02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1650.85, 6.6448, 6.6448, 4811.46 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_FloorTiles.MI_FloorTiles'
+        MaterialSlotName = MI_FloorTiles
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2321.14, 0, 0, 4647.04 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_CeillingTiles.MI_CeillingTiles'
+        MaterialSlotName = MI_CeillingTiles
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1719.56, 0, 0, 8036.89 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_blue03.MI_PaintedWood_blue03'
+        MaterialSlotName = MI_PaintedWood_Blue03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 586.982, 0, 0, 4557.65 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedSteel_Blue02.MI_PaintedSteel_Blue02'
+        MaterialSlotName = MI_PaintedSteel_Blue02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 429.634, 0, 0, 5350.37 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_blue02.MI_PaintedWood_blue02'
+        MaterialSlotName = MI_PaintedWood_Blue02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1604.9, 0, 0, 4642.17 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PegBoard.MI_PegBoard'
+        MaterialSlotName = MI_Pegboard
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1492.3, 0, 0, 4564.7 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-512.664, Y=-414.244, Z=203.45 }
+    BoxExtent = { X=1063.08, Y=807.349, Z=263.148 }
+    SphereRadius = 1199.32
+}

@@ -1,0 +1,93 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion.T_Blood_Erosion'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion_N.T_Blood_Erosion_N'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion_N.T_Blood_Erosion_N'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion.T_Blood_Erosion'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion_N.T_Blood_Erosion_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion.T_Blood_Erosion'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion_N.T_Blood_Erosion_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion.T_Blood_Erosion'
+        Name = Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Blood_Erosion
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FSbloodmist
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_N
+    }
+}

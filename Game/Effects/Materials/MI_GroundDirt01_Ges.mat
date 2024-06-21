@@ -1,0 +1,9 @@
+Diffuse=T_GroundDirt01_BC
+Normal=T_GroundDirt01_N
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=FlatNormal
+Other[3]=Black_Linear
+Other[4]=White_Linear
+Other[5]=Yellow_Linear
+Other[6]=T_checker_grid

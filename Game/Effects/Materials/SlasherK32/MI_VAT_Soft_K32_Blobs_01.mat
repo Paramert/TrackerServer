@@ -1,0 +1,14 @@
+Diffuse=White
+Normal=BaseFlattenNormalMap
+Other[0]=T_VAT_K32_Blob_01_pos
+Other[1]=T_VAT_K32_Blob_01_rot
+Other[2]=T_VAT_K32_Blob_01_col
+Other[3]=DefaultDiffuse
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=Black
+Other[6]=DebugNumberStrip
+Other[7]=DebugNumberPeriod
+Other[8]=Black_1x1_EXR_Texture
+Other[9]=T_Mud
+Other[10]=T_Mud_N
+Other[11]=AU_005_ORM

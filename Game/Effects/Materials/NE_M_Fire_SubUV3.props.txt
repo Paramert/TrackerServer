@@ -1,0 +1,110 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Fire_SubUV.T_Fire_SubUV'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Fire_Tiled_D.T_Fire_Tiled_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=fire_noise_V }
+                    ParameterInfos[1] = { Name=fire_noise_U }
+                    ParameterInfos[2] = { Name=noise+mask_U }
+                    ParameterInfos[3] = { Name=qd }
+                    ParameterInfos[4] = { Name=noise+mask_V }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=fire_noise }
+                    ParameterInfos[1] = { Name=noise+mask }
+                    ParameterInfos[2] = { Name=Tex_Sub }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 6, 6, 6, 1, 6 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Fire_Tiled_D.T_Fire_Tiled_D'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Fire_SubUV.T_Fire_SubUV'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Fire_Tiled_D.T_Fire_Tiled_D'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Fire_SubUV.T_Fire_SubUV'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Fire_Tiled_D.T_Fire_Tiled_D'
+        Name = fire_noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+        Name = noise+mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Fire_SubUV.T_Fire_SubUV'
+        Name = Tex_Sub
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=6, Name=fire_noise_V, Group=None }
+    CollectedScalarParameters[1] = { Value=6, Name=fire_noise_U, Group=None }
+    CollectedScalarParameters[2] = { Value=6, Name=noise+mask_U, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=qd, Group=None }
+    CollectedScalarParameters[4] = { Value=6, Name=noise+mask_V, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 6
+        UVChannelIndex = 0
+        TextureName = T_Fire_SmokeWisps_Tile_Dup
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 6
+        UVChannelIndex = 0
+        TextureName = T_Fire_Tiled_D
+    }
+}

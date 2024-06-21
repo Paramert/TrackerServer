@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Substance/MI_DirtTerrain02.MI_DirtTerrain02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Substance/MI_DirtTerrain02.MI_DirtTerrain02'
+        MaterialSlotName = MI_DirtTerrain02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 620.895, 504.83, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=101.293, Z=18.4744 }
+    BoxExtent = { X=283.803, Y=135.024, Z=18.4744 }
+    SphereRadius = 297.839
+}

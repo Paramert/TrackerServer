@@ -1,0 +1,7 @@
+Diffuse=T_Mud_01_M
+Normal=T_WaterNormal2
+Other[0]=T_Mud_N
+Other[1]=T_reflection_map_01
+Other[2]=T_SmokeTile
+Other[3]=T_Veins
+Other[4]=T_Veins_N

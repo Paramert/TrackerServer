@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Treads01.MI_Treads01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Treads01.MI_Treads01'
+        MaterialSlotName = MI_Treads01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 453.988, 1400.98, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-20.1671, Y=12.9443, Z=63.1719 }
+    BoxExtent = { X=231.369, Y=74.1567, Z=65.962 }
+    SphereRadius = 240.732
+}

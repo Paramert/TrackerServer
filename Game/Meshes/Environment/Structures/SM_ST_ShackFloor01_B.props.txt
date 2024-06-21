@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_OldPlanksShack.MI_Eng_OldPlanksShack'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Shack_FloorInside.MI_Eng_Shack_FloorInside'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_OldPlanksShack.MI_Eng_OldPlanksShack'
+        MaterialSlotName = MI_Eng_OldPlanksShack
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 280.19, 3062.91, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Shack_FloorInside.MI_Eng_Shack_FloorInside'
+        MaterialSlotName = MI_Eng_Shack_FloorInside
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 522.567, 3093.81, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-21.1307, Y=68.4496, Z=9.26085 }
+    BoxExtent = { X=492.389, Y=497.652, Z=19.0952 }
+    SphereRadius = 700.335
+}

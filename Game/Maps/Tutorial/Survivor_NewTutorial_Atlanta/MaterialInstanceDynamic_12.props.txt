@@ -1,0 +1,39 @@
+Parent = Material3'/Game/Effects/Materials/PostProcess/M_PP_Vignette_K23_CamperLaceration.M_PP_Vignette_K23_CamperLaceration'
+ScalarParameterValues[0] = {}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_K23_Knife_Wind_01.T_K23_Knife_Wind_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_K23_Vignette_Textures_AlphaPacked_02.T_K23_Vignette_Textures_AlphaPacked_02'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_K23_VignetteMask_01.T_K23_VignetteMask_01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_K23_Vignette_Textures_AlphaPacked_01.T_K23_Vignette_Textures_AlphaPacked_01'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Gradient/T_K23_Vignette_Gradient.T_K23_Vignette_Gradient'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

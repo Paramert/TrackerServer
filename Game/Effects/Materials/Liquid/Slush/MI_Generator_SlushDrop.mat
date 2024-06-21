@@ -1,0 +1,6 @@
+Diffuse=T_BloodDrip2
+Normal=T_BloodDrip_N
+Other[0]=T_BloodDrip
+Other[1]=T_reflection_map_01
+Other[2]=T_Tilling_Distortion_Map_01
+Other[3]=T_Water_N

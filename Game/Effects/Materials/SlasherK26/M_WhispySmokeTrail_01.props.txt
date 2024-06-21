@@ -1,0 +1,178 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Clouds_RGB_02.T_Clouds_RGB_02'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DirectionnalSmokeTrail_01.T_DirectionnalSmokeTrail_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Opacity_Distortion }
+                    ParameterInfos[1] = { Name=SL - ScaleTilling_Y }
+                    ParameterInfos[2] = { Name=DirectionnalMask_Opacity }
+                    ParameterInfos[3] = { Name=EmissiveBoost }
+                    ParameterInfos[4] = { Name=SL - ScaleTilling_X }
+                    ParameterInfos[5] = { Name=OpacityBoost }
+                    ParameterInfos[6] = { Name=DirectionnalMask_Contrast }
+                    ParameterInfos[7] = { Name=Emissive_Ramp }
+                    ParameterInfos[8] = { Name=Smoke_Contrast }
+                    ParameterInfos[9] = { Name=FL - ScaleTilling }
+                    ParameterInfos[10] = { Name=DistanceFade }
+                    ParameterInfos[11] = { Name=Scale_Distortion }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=SL - Speed_WhispySmoke }
+                    ParameterInfos[1] = { Name=FL - Speed_WhispySmoke }
+                    ParameterInfos[2] = { Name=SmokeColor }
+                    ParameterInfos[3] = { Name=Speed_Distortion }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=SL - TextureSmoke }
+                    ParameterInfos[1] = { Name=FL - MainTrail_Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 0.0375, 1, 1, -1, 1, 1, 1, 5, 1, 1, 0, 1 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0, G=-1, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0.5, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_DirectionnalSmokeTrail_01.T_DirectionnalSmokeTrail_01'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Clouds_RGB_02.T_Clouds_RGB_02'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_DirectionnalSmokeTrail_01.T_DirectionnalSmokeTrail_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+        Name = SL - TextureSmoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DirectionnalSmokeTrail_01.T_DirectionnalSmokeTrail_01'
+        Name = FL - MainTrail_Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.0375
+        Name = Opacity_Distortion
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=SL - ScaleTilling_Y, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = DirectionnalMask_Opacity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=-1, Name=EmissiveBoost, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=SL - ScaleTilling_X, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=OpacityBoost, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1
+        Name = DirectionnalMask_Contrast
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=5, Name=Emissive_Ramp, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Smoke_Contrast, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=FL - ScaleTilling, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=DistanceFade, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Scale_Distortion, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=-1, B=0, A=1 }
+        Name = SL - Speed_WhispySmoke
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FL - Speed_WhispySmoke
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = SmokeColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0.5, B=0, A=1 }
+        Name = Speed_Distortion
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Clouds_RGB_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_DirectionnalSmokeTrail_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_Smoke_02_Tiling
+    }
+}

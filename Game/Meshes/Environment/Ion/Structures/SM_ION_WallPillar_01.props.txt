@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Shack_ExtColumn_02.MI_ION_Shack_ExtColumn_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Shack_ExtColumn_02.MI_ION_Shack_ExtColumn_02'
+        MaterialSlotName = MI_ION_Shack_ExtColumn_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 416.447, 471.649, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00161362, Y=-2.91907, Z=213.774 }
+    BoxExtent = { X=50.4893, Y=50.4875, Z=221.578 }
+    SphereRadius = 230.983
+}

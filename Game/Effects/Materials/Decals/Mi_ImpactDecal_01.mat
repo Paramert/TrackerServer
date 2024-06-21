@@ -1,0 +1,5 @@
+Diffuse=T_Decal_GroundImpact05_Blurred
+Normal=T_Decal_GroundImpact01_N
+Other[0]=DefaultTexture
+Other[1]=SphereNormal
+Other[2]=T_Decal_GroundImpact05_N

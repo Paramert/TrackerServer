@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Netease/Material/Floor/Instance/MI_Floor.MI_Floor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Netease/Material/Floor/Instance/MI_Floor.MI_Floor'
+        MaterialSlotName = MI_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 660.891, 7560.4, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.000244141, Y=-0.000244141, Z=0 }
+    BoxExtent = { X=3762.41, Y=3762.41, Z=0 }
+    SphereRadius = 5320.85
+}

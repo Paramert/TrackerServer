@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_MetalPlate_Ground01.MI_Hos_MetalPlate_Ground01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_RustMetal01.MI_HOS_RustMetal01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Concreat01.MI_HOS_Concreat01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Metal02.MI_HOS_Metal02'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_MetalPlate_Ground01.MI_Hos_MetalPlate_Ground01'
+        MaterialSlotName = MI_Hos_MetalPlate_Ground01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1101.32, 1749.87, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_RustMetal01.MI_HOS_RustMetal01'
+        MaterialSlotName = MI_HOS_RustMetal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 210.735, 1989.77, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Concreat01.MI_HOS_Concreat01'
+        MaterialSlotName = MI_HOS_Concreat01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Metal02.MI_HOS_Metal02'
+        MaterialSlotName = MI_HOS_Metal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0509033, Y=3.07813, Z=-8.58751 }
+    BoxExtent = { X=693.501, Y=689.419, Z=10.6149 }
+    SphereRadius = 791.453
+}

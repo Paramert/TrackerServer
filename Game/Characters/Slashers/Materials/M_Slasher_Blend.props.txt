@@ -1,0 +1,785 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[16] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[3] = Texture2D'/Game/Characters/Campers/Textures/T_ETouch_Tile.T_ETouch_Tile'
+    ReferencedTextures[4] = Texture2D'/Game/Characters/Slashers/K24/Weapons/Textures/SSW01/T_K24_SSW01_BC_Flowmap_01.T_K24_SSW01_BC_Flowmap_01'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+    ReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_Veins_04_N.T_Veins_04_N'
+    ReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    ReferencedTextures[14] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    ReferencedTextures[15] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[86] =
+                {
+                    ParameterInfos[0] = { Name=Atl_PointilismContrast }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=Noise_Speed_Y }
+                    ParameterInfos[3] = { Name=BigDetail -Tiling X }
+                    ParameterInfos[4] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[5] = { Name=BorderThresholdLow }
+                    ParameterInfos[6] = { Name=42 - GradientHardness }
+                    ParameterInfos[7] = { Name=Atl_Roughness }
+                    ParameterInfos[8] = { Name=Global Intensity }
+                    ParameterInfos[9] = { Name=BorderIntensity }
+                    ParameterInfos[10] = { Name=EmissiveMask Custom }
+                    ParameterInfos[11] = { Name=42 - BoundsMultiplier }
+                    ParameterInfos[12] = { Name=Emissive_Tile_Y }
+                    ParameterInfos[13] = { Name=SpecularValue }
+                    ParameterInfos[14] = { Name=EndLocation_WorldSpace }
+                    ParameterInfos[15] = { Name=Emissive_Tile }
+                    ParameterInfos[16] = { Name=IsInGame }
+                    ParameterInfos[17] = { Name=Tile amount B }
+                    ParameterInfos[18] = { Name=EM Noise ScaleFar }
+                    ParameterInfos[19] = { Name=Atl_Metallic }
+                    ParameterInfos[20] = { Name=DIssolveBorderGreenChannel }
+                    ParameterInfos[21] = { Name=BigDetail - Normal Intensity }
+                    ParameterInfos[22] = { Name=EM Noise Speed Y }
+                    ParameterInfos[23] = { Name=DitherNoiseOffset }
+                    ParameterInfos[24] = { Name=Min B }
+                    ParameterInfos[25] = { Name=Min A }
+                    ParameterInfos[26] = { Name=Tilling_WPO_EmissiveMask }
+                    ParameterInfos[27] = { Name=DissolveTexture_TileX }
+                    ParameterInfos[28] = { Name=Noise Opacity }
+                    ParameterInfos[29] = { Name=OpacityController }
+                    ParameterInfos[30] = { Name=Emissive_Offset_Y }
+                    ParameterInfos[31] = { Name=ActivateDitherTemporalAA }
+                    ParameterInfos[32] = { Name=Scale (rb) }
+                    ParameterInfos[33] = { Name=42 - InverseDissolve }
+                    ParameterInfos[34] = { Name=42 - Height }
+                    ParameterInfos[35] = { Name=Speed (rb) }
+                    ParameterInfos[36] = { Name=MaxBorderGlow }
+                    ParameterInfos[37] = { Name=WPO EmissiveSpeed Y }
+                    ParameterInfos[38] = { Name=42 - Base Offset }
+                    ParameterInfos[39] = { Name=Dither Tiling }
+                    ParameterInfos[40] = { Name=SmallDetail -Diffuse Intensity }
+                    ParameterInfos[41] = { Name=SmallDetail -Tiling Y }
+                    ParameterInfos[42] = { Name=Speed Y }
+                    ParameterInfos[43] = { Name=Flow Map Intensity }
+                    ParameterInfos[44] = { Name=EmissiveTouchMultiplier_InGame }
+                    ParameterInfos[45] = { Name=EM Noise Intensity }
+                    ParameterInfos[46] = { Name=EM Noise Speed X }
+                    ParameterInfos[47] = { Name=Band Lenght Normal }
+                    ParameterInfos[48] = { Name=BigDetail - Diffuse Intensity }
+                    ParameterInfos[49] = { Name=DissolveTextureTile_Y }
+                    ParameterInfos[50] = { Name=WPO EmissiveSpeed X }
+                    ParameterInfos[51] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[52] = { Name=Noise_Speed_X }
+                    ParameterInfos[53] = { Name=Speed X }
+                    ParameterInfos[54] = { Name=EM Intensity }
+                    ParameterInfos[55] = { Name=Band Lenght }
+                    ParameterInfos[56] = { Name=DitherIntensity }
+                    ParameterInfos[57] = { Name=Emissive_Tile_X }
+                    ParameterInfos[58] = { Name=BorderThresholdHigh }
+                    ParameterInfos[59] = { Name=Emissive_Offset_X }
+                    ParameterInfos[60] = { Name=Max B }
+                    ParameterInfos[61] = { Name=SmallDetail -Normal Intensity }
+                    ParameterInfos[62] = { Name=Amount B }
+                    ParameterInfos[63] = { Name=EmissiveTouchMultiplier }
+                    ParameterInfos[64] = { Name=Atl_Specular }
+                    ParameterInfos[65] = { Name=Object Lenght }
+                    ParameterInfos[66] = { Name=Amount A }
+                    ParameterInfos[67] = { Name=DitherNoiseIntensity }
+                    ParameterInfos[68] = { Name=Opacity }
+                    ParameterInfos[69] = { Name=DissolveProgress }
+                    ParameterInfos[70] = { Name=StartLocation_WorldSpace }
+                    ParameterInfos[71] = { Name=Distance }
+                    ParameterInfos[72] = { Name=Metalic }
+                    ParameterInfos[73] = { Name=GlowIntensity }
+                    ParameterInfos[74] = { Name=PointillismTextureSize }
+                    ParameterInfos[75] = { Name=Panner }
+                    ParameterInfos[76] = { Name=EM Noise Scale }
+                    ParameterInfos[77] = { Name=Distance Normal }
+                    ParameterInfos[78] = { Name=BigDetail -Tiling Y }
+                    ParameterInfos[79] = { Name=PushBack_Strength }
+                    ParameterInfos[80] = { Name=OpacityMaskOffset }
+                    ParameterInfos[81] = { Name=SquishFactor }
+                    ParameterInfos[82] = { Name=EM Noise Distance }
+                    ParameterInfos[83] = { Name=Max A }
+                    ParameterInfos[84] = { Name=Tile Amount A }
+                    ParameterInfos[85] = { Name=SmallDetail -Tiling X }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=RChannel_Tint }
+                    ParameterInfos[1] = { Name=ActorForwardVector }
+                    ParameterInfos[2] = { Name=VeinsColor }
+                    ParameterInfos[3] = { Name=EM Color }
+                    ParameterInfos[4] = { Name=AChannel_Tint }
+                    ParameterInfos[5] = { Name=GChannel_Tint }
+                    ParameterInfos[6] = { Name=Detail Color }
+                    ParameterInfos[7] = { Name=BChannel_Tint }
+                    ParameterInfos[8] = { Name=EmissiveTouch }
+                    ParameterInfos[9] = { Name=BorderColor }
+                    ParameterInfos[10] = { Name=WrinkleMap Channel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[27] =
+                {
+                    ParameterInfos[0] = { Name=Pointilism Source Texture }
+                    ParameterInfos[1] = { Name=EM Noise Texture }
+                    ParameterInfos[2] = { Name=HideHead_Mask }
+                    ParameterInfos[3] = { Name=EmmisiveMask Texture }
+                    ParameterInfos[4] = { Name=AORoughnessMetallic A }
+                    ParameterInfos[5] = { Name=DissolveRamps }
+                    ParameterInfos[6] = { Name=WPO_EmissiveFlowMap }
+                    ParameterInfos[7] = { Name=Opacity Mask Texture }
+                    ParameterInfos[8] = { Name=Diffuse }
+                    ParameterInfos[9] = { Name=Normal }
+                    ParameterInfos[10] = { Name=NormalMap_Exp02 }
+                    ParameterInfos[11] = { Name=NormalMap Texture }
+                    ParameterInfos[12] = { Name=Normal A }
+                    ParameterInfos[13] = { Name=NormalMap_Exp01 }
+                    ParameterInfos[14] = { Name=AORoughnessMetallic B }
+                    ParameterInfos[15] = { Name=AORoughnessMetallic }
+                    ParameterInfos[16] = { Name=ColorMask_Tint }
+                    ParameterInfos[17] = { Name=Localized Normal Detail }
+                    ParameterInfos[18] = { Name=Emissive_Tileable_Texture }
+                    ParameterInfos[19] = { Name=Diffuse A }
+                    ParameterInfos[20] = { Name=Diffuse B }
+                    ParameterInfos[21] = { Name=Normal B }
+                    ParameterInfos[22] = { Name=Localized Diffuse Detail }
+                    ParameterInfos[23] = { Name=FlowMap Emissive }
+                    ParameterInfos[24] = { Name=NormalMap_Exp03 }
+                    ParameterInfos[25] = { Name=Blood Dirt Emissive }
+                    ParameterInfos[26] = { Name=DissolveTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[86] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 10
+            ScalarValues[5] = 0
+            ScalarValues[6] = 200
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 40
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1.5
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0.2
+            ScalarValues[14] = 350
+            ScalarValues[15] = 35
+            ScalarValues[16] = 0
+            ScalarValues[17] = 1
+            ScalarValues[18] = 3
+            ScalarValues[19] = 0
+            ScalarValues[20] = 3
+            ScalarValues[21] = 1.5
+            ScalarValues[22] = 0
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0
+            ScalarValues[26] = 1
+            ScalarValues[27] = 3
+            ScalarValues[28] = 1
+            ScalarValues[29] = 1
+            ScalarValues[30] = 0
+            ScalarValues[31] = 0
+            ScalarValues[32] = 5
+            ScalarValues[33] = 0
+            ScalarValues[34] = 400
+            ScalarValues[35] = 64
+            ScalarValues[36] = 10
+            ScalarValues[37] = 0
+            ScalarValues[38] = -25
+            ScalarValues[39] = 1
+            ScalarValues[40] = 0.7
+            ScalarValues[41] = 2
+            ScalarValues[42] = 0
+            ScalarValues[43] = 0
+            ScalarValues[44] = 0
+            ScalarValues[45] = 10
+            ScalarValues[46] = 0.3
+            ScalarValues[47] = 50
+            ScalarValues[48] = 1.5
+            ScalarValues[49] = 3
+            ScalarValues[50] = 1
+            ScalarValues[51] = 0
+            ScalarValues[52] = 1
+            ScalarValues[53] = 0
+            ScalarValues[54] = 10
+            ScalarValues[55] = 50
+            ScalarValues[56] = 1
+            ScalarValues[57] = 1
+            ScalarValues[58] = 0.015
+            ScalarValues[59] = 0
+            ScalarValues[60] = 1
+            ScalarValues[61] = 0.7
+            ScalarValues[62] = 0
+            ScalarValues[63] = 1
+            ScalarValues[64] = 0
+            ScalarValues[65] = 0
+            ScalarValues[66] = 0
+            ScalarValues[67] = 1
+            ScalarValues[68] = 1
+            ScalarValues[69] = 1
+            ScalarValues[70] = 0
+            ScalarValues[71] = 0.05
+            ScalarValues[72] = 1
+            ScalarValues[73] = 750
+            ScalarValues[74] = 64
+            ScalarValues[75] = 0
+            ScalarValues[76] = 10
+            ScalarValues[77] = 0.05
+            ScalarValues[78] = 1
+            ScalarValues[79] = -40
+            ScalarValues[80] = 2.5
+            ScalarValues[81] = 0
+            ScalarValues[82] = 500
+            ScalarValues[83] = 1
+            ScalarValues[84] = 1
+            ScalarValues[85] = 2
+        }
+        VectorValues[11] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0.1, G=0.017777, B=0.0075, A=1 }
+            VectorValues[3] = { R=1, G=0.690196, B=0.937255, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=0, G=0, B=0, A=1 }
+            VectorValues[6] = { R=0.06, G=0, B=0, A=1 }
+            VectorValues[7] = { R=0, G=0, B=0, A=1 }
+            VectorValues[8] = { R=0, G=0, B=0, A=0 }
+            VectorValues[9] = { R=5, G=2.25074, B=1.09375, A=1 }
+            VectorValues[10] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[27] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+            TextureValues[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+            TextureValues[6] = Texture2D'/Game/Characters/Slashers/K24/Weapons/Textures/SSW01/T_K24_SSW01_BC_Flowmap_01.T_K24_SSW01_BC_Flowmap_01'
+            TextureValues[7] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[8] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[9] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[10] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[11] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[12] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[13] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[14] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+            TextureValues[15] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+            TextureValues[16] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[17] = Texture2D'/Game/Effects/Textures/T_Veins_04_N.T_Veins_04_N'
+            TextureValues[18] = Texture2D'/Game/Characters/Campers/Textures/T_ETouch_Tile.T_ETouch_Tile'
+            TextureValues[19] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[20] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[21] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[22] = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+            TextureValues[23] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[24] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[25] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[26] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        }
+    }
+    ReferencedTextures[17] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        ReferencedTextures[5] = Texture2D'/Game/Characters/Campers/Textures/T_ETouch_Tile.T_ETouch_Tile'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        ReferencedTextures[7] = Texture2D'/Game/Characters/Slashers/K24/Weapons/Textures/SSW01/T_K24_SSW01_BC_Flowmap_01.T_K24_SSW01_BC_Flowmap_01'
+        ReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        ReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_Veins_04_N.T_Veins_04_N'
+        ReferencedTextures[12] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[13] = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+        ReferencedTextures[14] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[15] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        ReferencedTextures[16] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[27] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        Name = Pointilism Source Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        Name = EM Noise Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = HideHead_Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = EmmisiveMask Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = AORoughnessMetallic A
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        Name = DissolveRamps
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/K24/Weapons/Textures/SSW01/T_K24_SSW01_BC_Flowmap_01.T_K24_SSW01_BC_Flowmap_01'
+        Name = WPO_EmissiveFlowMap
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = Opacity Mask Texture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = NormalMap_Exp02
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = NormalMap Texture
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Normal A
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = NormalMap_Exp01
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = AORoughnessMetallic B
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = AORoughnessMetallic
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = ColorMask_Tint
+        Group = None
+    }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins_04_N.T_Veins_04_N'
+        Name = Localized Normal Detail
+        Group = None
+    }
+    CollectedTextureParameters[18] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/T_ETouch_Tile.T_ETouch_Tile'
+        Name = Emissive_Tileable_Texture
+        Group = None
+    }
+    CollectedTextureParameters[19] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = Diffuse A
+        Group = None
+    }
+    CollectedTextureParameters[20] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = Diffuse B
+        Group = None
+    }
+    CollectedTextureParameters[21] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Normal B
+        Group = None
+    }
+    CollectedTextureParameters[22] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+        Name = Localized Diffuse Detail
+        Group = None
+    }
+    CollectedTextureParameters[23] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = FlowMap Emissive
+        Group = None
+    }
+    CollectedTextureParameters[24] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = NormalMap_Exp03
+        Group = None
+    }
+    CollectedTextureParameters[25] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = Blood Dirt Emissive
+        Group = None
+    }
+    CollectedTextureParameters[26] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        Name = DissolveTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[86] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Atl_PointilismContrast, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Noise_Speed_Y, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=BigDetail -Tiling X, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0, Name=BorderThresholdLow, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 200
+        Name = 42 - GradientHardness
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Global Intensity, Group=None }
+    CollectedScalarParameters[9] = { Value=40, Name=BorderIntensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=EmissiveMask Custom, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 1.5
+        Name = 42 - BoundsMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=1, Name=Emissive_Tile_Y, Group=None }
+    CollectedScalarParameters[13] = { Value=0.2, Name=SpecularValue, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 350
+        Name = EndLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=35, Name=Emissive_Tile, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=IsInGame, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Tile amount B, Group=None }
+    CollectedScalarParameters[18] = { Value=3, Name=EM Noise ScaleFar, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 3
+        Name = DIssolveBorderGreenChannel
+        Group = None
+    }
+    CollectedScalarParameters[21] =
+    {
+        Value = 1.5
+        Name = BigDetail - Normal Intensity
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=0, Name=EM Noise Speed Y, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=DitherNoiseOffset, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=Min B, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=Min A, Group=None }
+    CollectedScalarParameters[26] =
+    {
+        Value = 1
+        Name = Tilling_WPO_EmissiveMask
+        Group = None
+    }
+    CollectedScalarParameters[27] = { Value=3, Name=DissolveTexture_TileX, Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=Noise Opacity, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=OpacityController, Group=None }
+    CollectedScalarParameters[30] = { Value=0, Name=Emissive_Offset_Y, Group=None }
+    CollectedScalarParameters[31] =
+    {
+        Value = 0
+        Name = ActivateDitherTemporalAA
+        Group = None
+    }
+    CollectedScalarParameters[32] = { Value=5, Name=Scale (rb), Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=42 - InverseDissolve, Group=None }
+    CollectedScalarParameters[34] = { Value=400, Name=42 - Height, Group=None }
+    CollectedScalarParameters[35] = { Value=64, Name=Speed (rb), Group=None }
+    CollectedScalarParameters[36] = { Value=10, Name=MaxBorderGlow, Group=None }
+    CollectedScalarParameters[37] = { Value=0, Name=WPO EmissiveSpeed Y, Group=None }
+    CollectedScalarParameters[38] = { Value=-25, Name=42 - Base Offset, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=Dither Tiling, Group=None }
+    CollectedScalarParameters[40] =
+    {
+        Value = 0.7
+        Name = SmallDetail -Diffuse Intensity
+        Group = None
+    }
+    CollectedScalarParameters[41] = { Value=2, Name=SmallDetail -Tiling Y, Group=None }
+    CollectedScalarParameters[42] = { Value=0, Name=Speed Y, Group=None }
+    CollectedScalarParameters[43] = { Value=0, Name=Flow Map Intensity, Group=None }
+    CollectedScalarParameters[44] =
+    {
+        Value = 0
+        Name = EmissiveTouchMultiplier_InGame
+        Group = None
+    }
+    CollectedScalarParameters[45] = { Value=10, Name=EM Noise Intensity, Group=None }
+    CollectedScalarParameters[46] = { Value=0.3, Name=EM Noise Speed X, Group=None }
+    CollectedScalarParameters[47] = { Value=50, Name=Band Lenght Normal, Group=None }
+    CollectedScalarParameters[48] =
+    {
+        Value = 1.5
+        Name = BigDetail - Diffuse Intensity
+        Group = None
+    }
+    CollectedScalarParameters[49] = { Value=3, Name=DissolveTextureTile_Y, Group=None }
+    CollectedScalarParameters[50] = { Value=1, Name=WPO EmissiveSpeed X, Group=None }
+    CollectedScalarParameters[51] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[52] = { Value=1, Name=Noise_Speed_X, Group=None }
+    CollectedScalarParameters[53] = { Value=0, Name=Speed X, Group=None }
+    CollectedScalarParameters[54] = { Value=10, Name=EM Intensity, Group=None }
+    CollectedScalarParameters[55] = { Value=50, Name=Band Lenght, Group=None }
+    CollectedScalarParameters[56] = { Value=1, Name=DitherIntensity, Group=None }
+    CollectedScalarParameters[57] = { Value=1, Name=Emissive_Tile_X, Group=None }
+    CollectedScalarParameters[58] =
+    {
+        Value = 0.015
+        Name = BorderThresholdHigh
+        Group = None
+    }
+    CollectedScalarParameters[59] = { Value=0, Name=Emissive_Offset_X, Group=None }
+    CollectedScalarParameters[60] = { Value=1, Name=Max B, Group=None }
+    CollectedScalarParameters[61] =
+    {
+        Value = 0.7
+        Name = SmallDetail -Normal Intensity
+        Group = None
+    }
+    CollectedScalarParameters[62] = { Value=0, Name=Amount B, Group=None }
+    CollectedScalarParameters[63] =
+    {
+        Value = 1
+        Name = EmissiveTouchMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[64] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[65] = { Value=0, Name=Object Lenght, Group=None }
+    CollectedScalarParameters[66] = { Value=0, Name=Amount A, Group=None }
+    CollectedScalarParameters[67] = { Value=1, Name=DitherNoiseIntensity, Group=None }
+    CollectedScalarParameters[68] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[69] = { Value=1, Name=DissolveProgress, Group=None }
+    CollectedScalarParameters[70] =
+    {
+        Value = 0
+        Name = StartLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[71] = { Value=0.05, Name=Distance, Group=None }
+    CollectedScalarParameters[72] = { Value=1, Name=Metalic, Group=None }
+    CollectedScalarParameters[73] = { Value=750, Name=GlowIntensity, Group=None }
+    CollectedScalarParameters[74] =
+    {
+        Value = 64
+        Name = PointillismTextureSize
+        Group = None
+    }
+    CollectedScalarParameters[75] = { Value=0, Name=Panner, Group=None }
+    CollectedScalarParameters[76] = { Value=10, Name=EM Noise Scale, Group=None }
+    CollectedScalarParameters[77] = { Value=0.05, Name=Distance Normal, Group=None }
+    CollectedScalarParameters[78] = { Value=1, Name=BigDetail -Tiling Y, Group=None }
+    CollectedScalarParameters[79] = { Value=-40, Name=PushBack_Strength, Group=None }
+    CollectedScalarParameters[80] = { Value=2.5, Name=OpacityMaskOffset, Group=None }
+    CollectedScalarParameters[81] = { Value=0, Name=SquishFactor, Group=None }
+    CollectedScalarParameters[82] = { Value=500, Name=EM Noise Distance, Group=None }
+    CollectedScalarParameters[83] = { Value=1, Name=Max A, Group=None }
+    CollectedScalarParameters[84] = { Value=1, Name=Tile Amount A, Group=None }
+    CollectedScalarParameters[85] = { Value=2, Name=SmallDetail -Tiling X, Group=None }
+}
+CollectedVectorParameters[11] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = RChannel_Tint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = ActorForwardVector
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.1, G=0.017777, B=0.0075, A=1 }
+        Name = VeinsColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=0.690196, B=0.937255, A=1 }
+        Name = EM Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = AChannel_Tint
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = GChannel_Tint
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.06, G=0, B=0, A=1 }
+        Name = Detail Color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = BChannel_Tint
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveTouch
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=5, G=2.25074, B=1.09375, A=1 }
+        Name = BorderColor
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WrinkleMap Channel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[7] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FlatNormal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Green_Linear
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FlatNormal_01
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 29.9531
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_01
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = White
+    }
+}

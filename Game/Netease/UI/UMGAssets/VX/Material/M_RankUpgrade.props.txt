@@ -1,0 +1,116 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_RankUpgrade_anim.T_RankUpgrade_anim'
+    ReferencedTextures[5] = Texture2D'/Game/UI/UMGAssets/Tally/Rank/rankBackground.rankBackground'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=PowerM }
+                    ParameterInfos[1] = { Name=Animation  Phase (0-1) (S) }
+                    ParameterInfos[2] = { Name=Power }
+                    ParameterInfos[3] = { Name=Number of Columns (S) }
+                    ParameterInfos[4] = { Name=Number of Rows (S) }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Fire }
+                    ParameterInfos[1] = { Name=Icon }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 1, 0.2, 1, 8, 8 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_RankUpgrade_anim.T_RankUpgrade_anim'
+            TextureValues[1] = Texture2D'/Game/UI/UMGAssets/Tally/Rank/rankBackground.rankBackground'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[5] = Texture2D'/Game/UI/UMGAssets/Tally/Rank/rankBackground.rankBackground'
+        ReferencedTextures[6] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_RankUpgrade_anim.T_RankUpgrade_anim'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_RankUpgrade_anim.T_RankUpgrade_anim'
+        Name = Fire
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/UI/UMGAssets/Tally/Rank/rankBackground.rankBackground'
+        Name = Icon
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=PowerM, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.2
+        Name = Animation  Phase (0-1) (S)
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=Power, Group=None }
+    CollectedScalarParameters[3] = { Value=8, Name=Number of Columns (S), Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=Number of Rows (S), Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Param
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

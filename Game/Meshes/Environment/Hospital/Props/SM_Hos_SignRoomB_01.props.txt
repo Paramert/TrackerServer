@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SignRooms_Flicker01.MI_Hos_SignRooms_Flicker01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SignRooms_Flicker01.MI_Hos_SignRooms_Flicker01'
+        MaterialSlotName = MI_Hos_SignRooms01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 193.781, 128.529, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=35.7713, Y=1.52588e-05, Z=4.57764e-05 }
+    BoxExtent = { X=39.3038, Y=9.32289, Z=21.6747 }
+    SphereRadius = 45.321
+}

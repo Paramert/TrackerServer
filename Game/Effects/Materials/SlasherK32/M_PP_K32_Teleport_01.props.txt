@@ -1,0 +1,219 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Gradient/T_K23_Trail_Gradient.T_K23_Trail_Gradient'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K32/T_K32_Teleport_01.T_K32_Teleport_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_05.T_Tiling_Cloud_05'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[30] =
+                {
+                    ParameterInfos[0] = { Name=TexRotation }
+                    ParameterInfos[1] = { Name=Density }
+                    ParameterInfos[2] = { Name=BGTexTexScroll_Y }
+                    ParameterInfos[3] = { Name=BGTexTexTiling_Y }
+                    ParameterInfos[4] = { Name=EmissivePower }
+                    ParameterInfos[5] = { Name=EmissiveScroll_X }
+                    ParameterInfos[6] = { Name=TexPower }
+                    ParameterInfos[7] = { Name=Radius }
+                    ParameterInfos[8] = { Name=BGTexTexRotation }
+                    ParameterInfos[9] = { Name=BGCenterGlowRadius }
+                    ParameterInfos[10] = { Name=EmissiveTiling_Y }
+                    ParameterInfos[11] = { Name=TexScroll_X }
+                    ParameterInfos[12] = { Name=EmissiveScroll_Y }
+                    ParameterInfos[13] = { Name=TextureIntensity }
+                    ParameterInfos[14] = { Name=EmissiveRotation }
+                    ParameterInfos[15] = { Name=TexTiling_X }
+                    ParameterInfos[16] = { Name=BGCenterGlowDensity }
+                    ParameterInfos[17] = { Name=MaskOpacity }
+                    ParameterInfos[18] = { Name=BGTexTiling_X }
+                    ParameterInfos[19] = { Name=EmissiveIntensity }
+                    ParameterInfos[20] = { Name=BGColorLerp }
+                    ParameterInfos[21] = { Name=TexTiling_Y }
+                    ParameterInfos[22] = { Name=OpacityPower }
+                    ParameterInfos[23] = { Name=EmissiveTiling_X }
+                    ParameterInfos[24] = { Name=TexScroll_Y }
+                    ParameterInfos[25] = { Name=BGTexTexPower }
+                    ParameterInfos[26] = { Name=BGOpacity }
+                    ParameterInfos[27] = { Name=BaseColorIntensity }
+                    ParameterInfos[28] = { Name=BGTexTexScroll_X }
+                    ParameterInfos[29] = { Name=BGTexIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                    ParameterInfos[1] = { Name=Color_Light }
+                    ParameterInfos[2] = { Name=Color_Shadow }
+                    ParameterInfos[3] = { Name=BGColor01 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=BGTex }
+                    ParameterInfos[1] = { Name=BGTexRamp }
+                    ParameterInfos[2] = { Name=BaseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[30] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 5
+            ScalarValues[2] = -0.3
+            ScalarValues[3] = 0.1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0.304762
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.2
+            ScalarValues[10] = 0.1
+            ScalarValues[11] = 0
+            ScalarValues[12] = -0.3
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 2
+            ScalarValues[16] = 0
+            ScalarValues[17] = 1
+            ScalarValues[18] = 2
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0.1
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1
+            ScalarValues[24] = -0.3
+            ScalarValues[25] = 1
+            ScalarValues[26] = 1
+            ScalarValues[27] = 1
+            ScalarValues[28] = 0
+            ScalarValues[29] = 1
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.000303, G=0.991102, B=0.423268, A=1 }
+            VectorValues[1] = { R=0.234551, G=0.111933, B=0.165132, A=1 }
+            VectorValues[2] = { R=0.015209, G=0.006512, B=0.005182, A=1 }
+            VectorValues[3] = { R=0.234375, G=1, B=0.561214, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_05.T_Tiling_Cloud_05'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/Gradient/T_K23_Trail_Gradient.T_K23_Trail_Gradient'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/K32/T_K32_Teleport_01.T_K32_Teleport_01'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_05.T_Tiling_Cloud_05'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K32/T_K32_Teleport_01.T_K32_Teleport_01'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Gradient/T_K23_Trail_Gradient.T_K23_Trail_Gradient'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_05.T_Tiling_Cloud_05'
+        Name = BGTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Gradient/T_K23_Trail_Gradient.T_K23_Trail_Gradient'
+        Name = BGTexRamp
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K32/T_K32_Teleport_01.T_K32_Teleport_01'
+        Name = BaseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[30] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=TexRotation, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=Density, Group=None }
+    CollectedScalarParameters[2] = { Value=-0.3, Name=BGTexTexScroll_Y, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=BGTexTexTiling_Y, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=EmissivePower, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=EmissiveScroll_X, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=TexPower, Group=None }
+    CollectedScalarParameters[7] = { Value=0.304762, Name=Radius, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=BGTexTexRotation, Group=None }
+    CollectedScalarParameters[9] = { Value=0.2, Name=BGCenterGlowRadius, Group=None }
+    CollectedScalarParameters[10] = { Value=0.1, Name=EmissiveTiling_Y, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=TexScroll_X, Group=None }
+    CollectedScalarParameters[12] = { Value=-0.3, Name=EmissiveScroll_Y, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=TextureIntensity, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=EmissiveRotation, Group=None }
+    CollectedScalarParameters[15] = { Value=2, Name=TexTiling_X, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=BGCenterGlowDensity, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=MaskOpacity, Group=None }
+    CollectedScalarParameters[18] = { Value=2, Name=BGTexTiling_X, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=BGColorLerp, Group=None }
+    CollectedScalarParameters[21] = { Value=0.1, Name=TexTiling_Y, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=OpacityPower, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=EmissiveTiling_X, Group=None }
+    CollectedScalarParameters[24] = { Value=-0.3, Name=TexScroll_Y, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=BGTexTexPower, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=BGOpacity, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=BaseColorIntensity, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=BGTexTexScroll_X, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=BGTexIntensity, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.000303, G=0.991102, B=0.423268, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.234551, G=0.111933, B=0.165132, A=1 }
+        Name = Color_Light
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.015209, G=0.006512, B=0.005182, A=1 }
+        Name = Color_Shadow
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.234375, G=1, B=0.561214, A=1 }
+        Name = BGColor01
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

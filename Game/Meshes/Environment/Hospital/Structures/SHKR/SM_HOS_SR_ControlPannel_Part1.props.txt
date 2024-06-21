@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_ControlPannel.MI_HOS_ControlPannel'
+    Materials[1] = MaterialInstanceConstant'/Game/Effects/Materials/MI_TVNoise01.MI_TVNoise01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_WiresWall_A.MI_Hos_SHKR_WiresWall_A'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_ControlPannel.MI_HOS_ControlPannel'
+        MaterialSlotName = MI_HOS_ControlPannel
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 292.089, 935.37, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_TVNoise01.MI_TVNoise01'
+        MaterialSlotName = MI_TVNoise01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 42.2383, 415.337, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_WiresWall_A.MI_Hos_SHKR_WiresWall_A'
+        MaterialSlotName = MI_Hos_SHKR_WiresWall_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.8069, 1002.8, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=12.5854, Y=4.29947, Z=102.673 }
+    BoxExtent = { X=60.3283, Y=182.923, Z=103.571 }
+    SphereRadius = 209.915
+}

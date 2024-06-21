@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_trim_driftwood_light01.MI_Eng_trim_driftwood_light01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_RustMetal01.MI_HOS_RustMetal01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_trim_driftwood_light01.MI_Eng_trim_driftwood_light01'
+        MaterialSlotName = MI_Eng_trim_driftwood_light01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 275.779, 668.225, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_RustMetal01.MI_HOS_RustMetal01'
+        MaterialSlotName = MI_HOS_RustMetal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.5678, 614.888, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-6.86646e-05, Z=-1.52588e-05 }
+    BoxExtent = { X=14.0847, Y=100.758, Z=94.0301 }
+    SphereRadius = 134.333
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Houdini/Pallet_sim01/MI_InteractablePallet_VA_V2.MI_InteractablePallet_VA_V2'
+    Materials[1] = MaterialInstanceConstant'/Game/Effects/Houdini/Pallet_sim01/MI_InteractablePalletWood_VA_V2.MI_InteractablePalletWood_VA_V2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Pallet_sim01/MI_InteractablePallet_VA_V2.MI_InteractablePallet_VA_V2'
+        MaterialSlotName = M_pallet
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 552.343, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Pallet_sim01/MI_InteractablePalletWood_VA_V2.MI_InteractablePalletWood_VA_V2'
+        MaterialSlotName = M_fracture_pieces
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 697.254, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.75061, Y=102.472, Z=68.4162 }
+    BoxExtent = { X=80.4357, Y=100.962, Z=69.8615 }
+    SphereRadius = 124.466
+}

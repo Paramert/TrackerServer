@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_SM_Hos_Trolley01.MI_SM_Hos_Trolley01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_SM_Hos_Trolley01.MI_SM_Hos_Trolley01'
+        MaterialSlotName = MI_SM_Hos_Trolley01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 197.48, 488.465, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.77258, Y=-0.0549202, Z=74.1165 }
+    BoxExtent = { X=62.307, Y=57.199, Z=74.1577 }
+    SphereRadius = 107.981
+}

@@ -1,0 +1,7 @@
+Diffuse=T_Qat_WallCrack01_A
+Normal=T_Qat_WallCrack01_N
+Other[0]=Fx_radialGradient
+Other[1]=T_FlatNormal_01
+Other[2]=Black
+Other[3]=Green_Linear
+Other[4]=White

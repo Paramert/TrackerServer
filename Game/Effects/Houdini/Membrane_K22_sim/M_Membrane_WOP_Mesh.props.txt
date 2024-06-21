@@ -1,0 +1,181 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthingBlurred.T_Dissolve_spiderthingBlurred'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Wales/Structures/T_WAL_FleshWall01_BC.T_WAL_FleshWall01_BC'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Wales/Structures/T_WAL_FleshWall01_N.T_WAL_FleshWall01_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Normal Strenght }
+                    ParameterInfos[2] = { Name=UVY }
+                    ParameterInfos[3] = { Name=Cutout }
+                    ParameterInfos[4] = { Name=Scale_noise }
+                    ParameterInfos[5] = { Name=Spec }
+                    ParameterInfos[6] = { Name=UV_Cutout_Scale }
+                    ParameterInfos[7] = { Name=UVX }
+                    ParameterInfos[8] = { Name=WPO_int }
+                    ParameterInfos[9] = { Name=Opacity_MovingBlood }
+                    ParameterInfos[10] = { Name=Flesh String Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Flesh Color 01 }
+                    ParameterInfos[1] = { Name=Flesh Color 02 }
+                    ParameterInfos[2] = { Name=Flesh String Color }
+                    ParameterInfos[3] = { Name=Subsurface }
+                    ParameterInfos[4] = { Name=Speed_WOP }
+                    ParameterInfos[5] = { Name=Speed_Normal }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Noise_texture }
+                    ParameterInfos[1] = { Name=Opacity_Cutout_texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 0, 1, 1, 0, 0, 1, 1, 1, 15, 0.5, 2 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0.151042, G=0.005974, B=0.004531, A=1 }
+            VectorValues[1] = { R=0.026042, G=0.000217, B=0, A=1 }
+            VectorValues[2] = { R=0.724, G=0.193155, B=0.157119, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0.1, G=0.1, B=0, A=1 }
+            VectorValues[5] = { R=0.1, G=0.1, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthingBlurred.T_Dissolve_spiderthingBlurred'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Wales/Structures/T_WAL_FleshWall01_N.T_WAL_FleshWall01_N'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthingBlurred.T_Dissolve_spiderthingBlurred'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Wales/Structures/T_WAL_FleshWall01_BC.T_WAL_FleshWall01_BC'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = Noise_texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthingBlurred.T_Dissolve_spiderthingBlurred'
+        Name = Opacity_Cutout_texture
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Normal Strenght, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=UVY, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Cutout, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Scale_noise, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Spec, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=UV_Cutout_Scale, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=UVX, Group=None }
+    CollectedScalarParameters[8] = { Value=15, Name=WPO_int, Group=None }
+    CollectedScalarParameters[9] = { Value=0.5, Name=Opacity_MovingBlood, Group=None }
+    CollectedScalarParameters[10] = { Value=2, Name=Flesh String Contrast, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.151042, G=0.005974, B=0.004531, A=1 }
+        Name = Flesh Color 01
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.026042, G=0.000217, B=0, A=1 }
+        Name = Flesh Color 02
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.724, G=0.193155, B=0.157119, A=1 }
+        Name = Flesh String Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Subsurface
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.1, G=0.1, B=0, A=1 }
+        Name = Speed_WOP
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.1, G=0.1, B=0, A=1 }
+        Name = Speed_Normal
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Veins
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WAL_FleshWall01_BC
+    }
+}

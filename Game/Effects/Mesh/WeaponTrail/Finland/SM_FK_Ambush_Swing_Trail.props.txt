@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/Trail/M_Mesh_Trail_Houdini_TV.M_Mesh_Trail_Houdini_TV'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/Trail/M_Mesh_Trail_Houdini_TV.M_Mesh_Trail_Houdini_TV'
+        MaterialSlotName = M_Mesh_Trail_Houdini
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 73.3194, 396.763, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=24.6105, Y=72.6486, Z=118.441 }
+    BoxExtent = { X=70.4783, Y=90.6999, Z=68.9266 }
+    SphereRadius = 121.053
+}

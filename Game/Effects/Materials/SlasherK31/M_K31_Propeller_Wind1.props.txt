@@ -1,0 +1,100 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K31/T_Propeller.T_Propeller'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_K23_Trail_Particle_01.T_K23_Trail_Particle_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Detail Intensity }
+                    ParameterInfos[1] = { Name=Refraction Radius }
+                    ParameterInfos[2] = { Name=Opacity }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Tex2 }
+                    ParameterInfos[1] = { Name=Tex1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.8, 0.55, 0.1 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_K23_Trail_Particle_01.T_K23_Trail_Particle_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/K31/T_Propeller.T_Propeller'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = Tex2
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        Name = Tex1
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.8, Name=Detail Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0.55, Name=Refraction Radius, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K23_Trail_Particle_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Propeller
+    }
+}

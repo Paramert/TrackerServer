@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/MI_MacheteTrail_02.MI_MacheteTrail_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_MacheteTrail_02.MI_MacheteTrail_02'
+        MaterialSlotName = houdini_default_material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 117.052, 550.043, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=31.78, Y=55.6574, Z=156.449 }
+    BoxExtent = { X=96.6822, Y=110.693, Z=89.4825 }
+    SphereRadius = 131.551
+}

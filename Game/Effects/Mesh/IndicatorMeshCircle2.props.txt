@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/M_indicatorMaskSmokeBaseBU.M_indicatorMaskSmokeBaseBU'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/M_indicatorMaskSmokeBaseBU.M_indicatorMaskSmokeBaseBU'
+        MaterialSlotName = M_indicatorMaskSmokeBaseBU
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 95.669, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.39162, Y=0.0241127, Z=1.43809e-05 }
+    BoxExtent = { X=11.1817, Y=7.20763, Z=3.2044e-06 }
+    SphereRadius = 11.6928
+}

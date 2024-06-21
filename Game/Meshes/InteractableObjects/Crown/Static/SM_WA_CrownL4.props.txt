@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/Research/MI_DissolveWP_CrownL3_Survivor.MI_DissolveWP_CrownL3_Survivor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/Research/MI_DissolveWP_CrownL3_Survivor.MI_DissolveWP_CrownL3_Survivor'
+        MaterialSlotName = MI_DissolveWP_CrownL3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 66.9523, 66.9853, 67.0675, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.523697, Y=1.05339, Z=18.826 }
+    BoxExtent = { X=22.1519, Y=2.50753, Z=21.7122 }
+    SphereRadius = 26.5538
+}

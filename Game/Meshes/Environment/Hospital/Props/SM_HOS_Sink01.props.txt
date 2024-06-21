@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Sink01.MI_HOS_Sink01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Mirror01.MI_HOS_Mirror01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Sink01.MI_HOS_Sink01'
+        MaterialSlotName = MI_HOS_Sink01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 118.567, 189.412, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Mirror01.MI_HOS_Mirror01'
+        MaterialSlotName = MI_HOS_Mirror01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 108.471, 188.181, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=26.3748, Z=38.6998 }
+    BoxExtent = { X=30.3566, Y=26.6446, Z=76.125 }
+    SphereRadius = 84.5034
+}

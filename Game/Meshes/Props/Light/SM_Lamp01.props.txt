@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Trims/MI_Trim_PaintedMetal_B.MI_Trim_PaintedMetal_B'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_LightBulb_01.MI_Eng_LightBulb_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Trims/MI_Trim_PaintedMetal_B.MI_Trim_PaintedMetal_B'
+        MaterialSlotName = MI_Trim_PaintedMetal_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 74.1047, 114.103, 82.1267, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_LightBulb_01.MI_Eng_LightBulb_01'
+        MaterialSlotName = MI_Eng_LightBulb_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 238.692, 109.756, 75.1582, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.90735e-06, Y=22.4994, Z=-22.0107 }
+    BoxExtent = { X=17.4794, Y=22.51, Z=24.3855 }
+    SphereRadius = 33.1441
+}

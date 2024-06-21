@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_Debris_All01.MI_HOS_Debris_All01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_Debris_All01.MI_HOS_Debris_All01'
+        MaterialSlotName = MI_HOS_Debris_All01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 231.234, 345.821, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-11.7167, Y=-18.0696, Z=1.84141 }
+    BoxExtent = { X=170.775, Y=163.665, Z=1.0956 }
+    SphereRadius = 211.798
+}

@@ -1,0 +1,17 @@
+Diffuse=environment_mud_diffuse
+Normal=T_CabinWood01_N
+Other[0]=T_CabinWood01
+Other[1]=T_TreeBlocker02_CAO
+Other[2]=T_Swamp_Mud_basecolor
+Other[3]=FlatNormal
+Other[4]=T_FlatNormal_01
+Other[5]=T_Noise02
+Other[6]=T_NoiseNormal_01
+Other[7]=T_SmokeTile
+Other[8]=T_Swamp_Mud_roughness
+Other[9]=Black
+Other[10]=Black_Linear
+Other[11]=Green_Linear
+Other[12]=White
+Other[13]=rock_floor_diffuse
+Other[14]=tree_mud_diffuse

@@ -1,0 +1,77 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Charms/T_Mask_005.T_Mask_005'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Charms/T_NoiseRay_001.T_NoiseRay_001'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Colour }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=0.467686, B=0.03125, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Charms/T_NoiseRay_001.T_NoiseRay_001'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Charms/T_Mask_005.T_Mask_005'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.467686, B=0.03125, A=1 }
+        Name = Colour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fx_radialGradient
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mask_005
+    }
+}

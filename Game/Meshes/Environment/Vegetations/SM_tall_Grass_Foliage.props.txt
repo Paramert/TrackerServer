@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_TallGrass.MI_TallGrass'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_TallGrass.MI_TallGrass'
+        MaterialSlotName = MI_TallGrass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 38.3656, 183.496, 162.327, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.78598, Y=0.942303, Z=9.76019 }
+    BoxExtent = { X=53.0881, Y=59.9359, Z=10.1628 }
+    SphereRadius = 61.5182
+}

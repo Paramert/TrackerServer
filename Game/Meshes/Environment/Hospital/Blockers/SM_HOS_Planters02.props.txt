@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_Planters02.MI_HOS_Planters02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_Planters02.MI_HOS_Planters02'
+        MaterialSlotName = MI_HOS_Planters02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 318.468, 324.636, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-12.8031, Y=-0.711044, Z=72.1583 }
+    BoxExtent = { X=26.5067, Y=102.019, Z=71.8015 }
+    SphereRadius = 127.139
+}

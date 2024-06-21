@@ -1,0 +1,115 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/Material/FollowLine/T_Fire_Tiled_D.T_Fire_Tiled_D'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/Material/FollowLine/T_FollowLine.T_FollowLine'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Mix }
+                    ParameterInfos[1] = { Name=Max }
+                    ParameterInfos[2] = { Name=EnengyRotSpeed }
+                    ParameterInfos[3] = { Name=EnengyUVScale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Emissive }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=enengy }
+                    ParameterInfos[1] = { Name=Line }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0, 1, 0.5, 0.5 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=10, G=1, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/Material/FollowLine/T_Fire_Tiled_D.T_Fire_Tiled_D'
+            TextureValues[1] = Texture2D'/Game/Netease/Material/FollowLine/T_FollowLine.T_FollowLine'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/Material/FollowLine/T_FollowLine.T_FollowLine'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/Material/FollowLine/T_Fire_Tiled_D.T_Fire_Tiled_D'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/Material/FollowLine/T_Fire_Tiled_D.T_Fire_Tiled_D'
+        Name = enengy
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/Material/FollowLine/T_FollowLine.T_FollowLine'
+        Name = Line
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Mix, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Max, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=EnengyRotSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=EnengyUVScale, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=10, G=1, B=0, A=1 }
+        Name = Emissive
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Fire_Tiled_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FollowLine
+    }
+}

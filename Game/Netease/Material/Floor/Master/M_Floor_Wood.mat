@@ -1,0 +1,4 @@
+Diffuse=T_Floor_BaseColor
+Normal=T_Floor_Normal
+Other[0]=T_Floor_Occlusion
+Other[1]=T_Floor_Roughness

@@ -1,0 +1,246 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[20] =
+                {
+                    ParameterInfos[0] = { Name=Darkness_Opacity }
+                    ParameterInfos[1] = { Name=TextureSizeDarkness }
+                    ParameterInfos[2] = { Name=FL_TextureSizeDistortion }
+                    ParameterInfos[3] = { Name=Opacity_SphereMask }
+                    ParameterInfos[4] = { Name=Contrast_DistortionSphereMask }
+                    ParameterInfos[5] = { Name=SphereMaskRotation_02 }
+                    ParameterInfos[6] = { Name=Density }
+                    ParameterInfos[7] = { Name=Border Intensity }
+                    ParameterInfos[8] = { Name=Inverse_Color }
+                    ParameterInfos[9] = { Name=Add_DarknessLayerDetails }
+                    ParameterInfos[10] = { Name=Radius }
+                    ParameterInfos[11] = { Name=Edge Intensity }
+                    ParameterInfos[12] = { Name=DarknessContrast }
+                    ParameterInfos[13] = { Name=Contrast_SphereMask }
+                    ParameterInfos[14] = { Name=Opacity_DistortionDarkness }
+                    ParameterInfos[15] = { Name=TextureSizeDistortion_SphereMask }
+                    ParameterInfos[16] = { Name=Vignette_Ink_Int }
+                    ParameterInfos[17] = { Name=Opacity_DistortionSphereMask }
+                    ParameterInfos[18] = { Name=TextureSizeDistortion_Details }
+                    ParameterInfos[19] = { Name=SphereMaskRotation_01 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Speed_DistortionSphereMask }
+                    ParameterInfos[1] = { Name=ColorDarkness }
+                    ParameterInfos[2] = { Name=Speed_DistortionDarkness }
+                    ParameterInfos[3] = { Name=PositionRotationMask }
+                    ParameterInfos[4] = { Name=PositionUV_02 }
+                    ParameterInfos[5] = { Name=PositionUV_SphereMask }
+                    ParameterInfos[6] = { Name=Speed_Darkness_Panner }
+                    ParameterInfos[7] = { Name=PositionUV_01 }
+                    ParameterInfos[8] = { Name=Speed_DistortionDarkness_02 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=DarknessTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[20] =
+        {
+            ScalarValues[0] = 0.2
+            ScalarValues[1] = 1
+            ScalarValues[2] = 2
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 2.33
+            ScalarValues[7] = 250
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 5
+            ScalarValues[11] = 100
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0.1
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0
+        }
+        VectorValues[9] =
+        {
+            VectorValues[0] = { R=0.5, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0.520833, G=0.255674, B=0, A=1 }
+            VectorValues[2] = { R=0.5, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0.5, G=0.5, B=0, A=1 }
+            VectorValues[4] = { R=0.5, G=0.5, B=0, A=1 }
+            VectorValues[5] = { R=0.5, G=0.5, B=0, A=1 }
+            VectorValues[6] = { R=0.4, G=0, B=0, A=1 }
+            VectorValues[7] = { R=0.5, G=0.5, B=0, A=1 }
+            VectorValues[8] = { R=0.5, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+        Name = DarknessTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[20] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=Darkness_Opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=TextureSizeDarkness, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 2
+        Name = FL_TextureSizeDistortion
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0, Name=Opacity_SphereMask, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.1
+        Name = Contrast_DistortionSphereMask
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0, Name=SphereMaskRotation_02, Group=None }
+    CollectedScalarParameters[6] = { Value=2.33, Name=Density, Group=None }
+    CollectedScalarParameters[7] = { Value=250, Name=Border Intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Inverse_Color, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0
+        Name = Add_DarknessLayerDetails
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=5, Name=Radius, Group=None }
+    CollectedScalarParameters[11] = { Value=100, Name=Edge Intensity, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=DarknessContrast, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Contrast_SphereMask, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.1
+        Name = Opacity_DistortionDarkness
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 1
+        Name = TextureSizeDistortion_SphereMask
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0, Name=Vignette_Ink_Int, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 0.1
+        Name = Opacity_DistortionSphereMask
+        Group = None
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = 1
+        Name = TextureSizeDistortion_Details
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=0, Name=SphereMaskRotation_01, Group=None }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0, B=0, A=1 }
+        Name = Speed_DistortionSphereMask
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.520833, G=0.255674, B=0, A=1 }
+        Name = ColorDarkness
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.5, G=0, B=0, A=1 }
+        Name = Speed_DistortionDarkness
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.5, G=0.5, B=0, A=1 }
+        Name = PositionRotationMask
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.5, G=0.5, B=0, A=1 }
+        Name = PositionUV_02
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.5, G=0.5, B=0, A=1 }
+        Name = PositionUV_SphereMask
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.4, G=0, B=0, A=1 }
+        Name = Speed_Darkness_Panner
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.5, G=0.5, B=0, A=1 }
+        Name = PositionUV_01
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.5, G=0, B=0, A=1 }
+        Name = Speed_DistortionDarkness_02
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,271 @@
+Parent = Material3'/Game/Effects/Materials/NE_M_Ort_Mat_Base_Optimization.NE_M_Ort_Mat_Base_Optimization'
+ScalarParameterValues[8] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Hard_Dissolve }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Hard_Dissolve_Power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Hard_Dissolve_Sharpness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tex1+2_Lerp }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Tex2_Des }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Noise_Intensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Alpha_FD }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Dissolve_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_016.NE_T_Noise_TP068_016'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tex_1 }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_DYG_FHY_004.NE_T_DYG_FHY_004'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex_2 }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_DYG_FHY_004.NE_T_DYG_FHY_004'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Mask_Tex }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP143_016.NE_T_Mask_TP143_016'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Mask_Tex_B }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP143_016.NE_T_Mask_TP143_016'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=NoiseA_Tex }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_DYG_FHY_012.NE_T_DYG_FHY_012'
+        ParameterName = None
+    }
+}
+VectorParameterValues[15] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Dissolve_UV_a }
+        ParameterValue = { R=2, G=2, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Dissolve_UV_b }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex01_Refine }
+        ParameterValue = { R=1, G=1, B=1, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tex1_Color }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Tex1_UV_a }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Tex1_UV_b }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=Tex02_Refine }
+        ParameterValue = { R=1, G=1, B=1, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=Tex2_Color }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=Tex2_UV_a }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=Tex2_UV_b }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=Alpha+Mask_Contrast }
+        ParameterValue = { R=1, G=1, B=0.5, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=Mask_UV_a }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[12] =
+    {
+        ParameterInfo = { Name=Mask_UV_b }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[13] =
+    {
+        ParameterInfo = { Name=Noise_A_UV_a }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[14] =
+    {
+        ParameterInfo = { Name=Noise_A_UV_b }
+        ParameterValue = { R=0, G=0.1, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[4] =
+    {
+        StaticComponentMaskParameters[0] =
+        {
+            R = false
+            G = false
+            B = false
+            A = true
+            ParameterInfo = { Name=Tex_1_Alpha_Channel }
+            bOverride = true
+        }
+        StaticComponentMaskParameters[1] =
+        {
+            R = true
+            G = true
+            B = true
+            A = false
+            ParameterInfo = { Name=Tex_1_RGB_Channel }
+            bOverride = true
+        }
+        StaticComponentMaskParameters[2] =
+        {
+            R = false
+            G = false
+            B = false
+            A = true
+            ParameterInfo = { Name=Tex_2_Alpha_Channel }
+            bOverride = true
+        }
+        StaticComponentMaskParameters[3] =
+        {
+            R = true
+            G = true
+            B = true
+            A = false
+            ParameterInfo = { Name=Tex_2_RGB_Channel }
+            bOverride = true
+        }
+    }
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[7] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_024.NE_T_Noise_TP068_024'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_025.NE_T_Noise_TP068_025'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/NE_T_Trail_Tp068_001.NE_T_Trail_Tp068_001'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP068_001.NE_T_Mask_TP068_001'
+    CachedReferencedTextures[5] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_016.NE_T_Noise_TP068_016'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_DYG_FHY_004
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_Mask_TP143_016
+    }
+}

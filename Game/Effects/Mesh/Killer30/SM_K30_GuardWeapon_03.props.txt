@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/SlasherK30/M_K30_PathIndicator_Mesh.M_K30_PathIndicator_Mesh'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/SlasherK30/M_K30_PathIndicator_Mesh.M_K30_PathIndicator_Mesh'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 145.619, 56.4095, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0226479, Y=-0.0759277, Z=33.8945 }
+    BoxExtent = { X=7.27541, Y=7.27178, Z=43.5529 }
+    SphereRadius = 43.5898
+}

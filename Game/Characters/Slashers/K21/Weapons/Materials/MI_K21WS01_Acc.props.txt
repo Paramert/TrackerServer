@@ -1,0 +1,237 @@
+Parent = Material3'/Game/Effects/Materials/Slasher21/M_K21_SyringeGlass.M_K21_SyringeGlass'
+ScalarParameterValues[12] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tile Amount A }
+        ParameterValue = 10.1302
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tile amount B }
+        ParameterValue = 4.80202
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal Intensity }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Crack Tiling }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Amount A }
+        ParameterValue = 3.822
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Min A }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Max A }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Amount B }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Min B }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Max B }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=FresnelFalloff }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[12] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Diffuse }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=AORoughnessMetallic }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Swamp/Structures/T_WallCrack_ORM.T_WallCrack_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NormalMap Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Swamp/Structures/T_WallCrack_N.T_WallCrack_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Opacity Mask Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Tiles/Grey.Grey'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Normal A }
+        ParameterValue = Texture2D'/Game/Characters/Campers/Textures/BloodDirt/T_BloodTile_Normal.T_BloodTile_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=AORoughnessMetallic A }
+        ParameterValue = Texture2D'/Game/Characters/Campers/Textures/BloodDirt/T_BloodTile_RGB.T_BloodTile_RGB'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=Diffuse B }
+        ParameterValue = Texture2D'/Game/Characters/Campers/Textures/BloodDirt/T_DirtTile_Base_Color.T_DirtTile_Base_Color'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=Normal B }
+        ParameterValue = Texture2D'/Game/Characters/Campers/Textures/BloodDirt/T_DirtTile_Normal.T_DirtTile_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = { Name=AORoughnessMetallic B }
+        ParameterValue = Texture2D'/Game/Characters/Campers/Textures/BloodDirt/T_DirtTile_RGB.T_DirtTile_RGB'
+        ParameterName = None
+    }
+    TextureParameterValues[9] =
+    {
+        ParameterInfo = { Name=Crack Normal }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Swamp/Structures/T_WallCrack_N.T_WallCrack_N'
+        ParameterName = None
+    }
+    TextureParameterValues[10] =
+    {
+        ParameterInfo = { Name=Blood Dirt Emissive }
+        ParameterValue = Texture2D'/Game/Characters/Campers/David/Textures/Outfit01/T_DKTorso01_BDE.T_DKTorso01_BDE'
+        ParameterName = None
+    }
+    TextureParameterValues[11] =
+    {
+        ParameterInfo = { Name=CubeMap Texture }
+        ParameterValue = TextureCube4'/Game/Textures/Environment/Sky/T_Skylight.T_Skylight'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=RimLight Color }
+        ParameterValue = { R=0.027656, G=0.037886, B=0.041667, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=Reflection }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Atl_UseEmissive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    CachedReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[6] = TextureCube4'/Game/Textures/Environment/Sky/T_Lobby_HDR.T_Lobby_HDR'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Veins2_N.T_Veins2_N'
+    CachedReferencedTextures[8] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BloodTile_Normal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BloodTile_RGB
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DirtTile_Base_Color
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FSbloodmist
+    }
+}

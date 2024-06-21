@@ -1,0 +1,84 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Trail_Mesh_01.T_Trail_Mesh_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Volumelight.T_Volumelight'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Smoke_TillingV }
+                    ParameterInfos[1] = { Name=Blending Textures }
+                    ParameterInfos[2] = { Name=Smoke_TillingU }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Smoke }
+                    ParameterInfos[1] = { Name=Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 1, 0.2, 0.05 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Volumelight.T_Volumelight'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Trail_Mesh_01.T_Trail_Mesh_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Volumelight.T_Volumelight'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        Name = Smoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Volumelight.T_Volumelight'
+        Name = Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Smoke_TillingV, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=Blending Textures, Group=None }
+    CollectedScalarParameters[2] = { Value=0.05, Name=Smoke_TillingU, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

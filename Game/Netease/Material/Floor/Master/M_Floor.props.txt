@@ -1,0 +1,163 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_BaseColor.T_BloodFloor_BaseColor'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_Rough.T_BloodFloor_Rough'
+    ReferencedTextures[2] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_BaseColor.T_Floor_BaseColor'
+    ReferencedTextures[3] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Normal.T_Floor_Normal'
+    ReferencedTextures[4] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Occlussion.T_Floor_Occlussion'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Normal_strength }
+                    ParameterInfos[1] = { Name=Specular }
+                    ParameterInfos[2] = { Name=AO }
+                    ParameterInfos[3] = { Name=roughness2 }
+                    ParameterInfos[4] = { Name=tilling }
+                    ParameterInfos[5] = { Name=Metallic_strength }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Metallic }
+                    ParameterInfos[1] = { Name=color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=AO }
+                    ParameterInfos[2] = { Name=Roughness2 }
+                    ParameterInfos[3] = { Name=Basecolor }
+                    ParameterInfos[4] = { Name=Basecolor2 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 1, 0.5, 1, 1, 1, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Normal.T_Floor_Normal'
+            TextureValues[1] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Occlussion.T_Floor_Occlussion'
+            TextureValues[2] = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_Rough.T_BloodFloor_Rough'
+            TextureValues[3] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_BaseColor.T_Floor_BaseColor'
+            TextureValues[4] = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_BaseColor.T_BloodFloor_BaseColor'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_BaseColor.T_Floor_BaseColor'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Occlussion.T_Floor_Occlussion'
+        ReferencedTextures[2] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Normal.T_Floor_Normal'
+        ReferencedTextures[3] = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_BaseColor.T_BloodFloor_BaseColor'
+        ReferencedTextures[4] = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_Rough.T_BloodFloor_Rough'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Normal.T_Floor_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Occlussion.T_Floor_Occlussion'
+        Name = AO
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_Rough.T_BloodFloor_Rough'
+        Name = Roughness2
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Netease/Texture/Floor/T_Floor_BaseColor.T_Floor_BaseColor'
+        Name = Basecolor
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_BaseColor.T_BloodFloor_BaseColor'
+        Name = Basecolor2
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Normal_strength, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=AO, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=roughness2, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=tilling, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Metallic_strength, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Metallic
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BloodFloor_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BloodFloor_Rough
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Floor_Occlussion
+    }
+}

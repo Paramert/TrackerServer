@@ -1,0 +1,141 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_White_Smoke_Loop_RGBA.T_White_Smoke_Loop_RGBA'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/NE_GachaGemstone_VX_Halfbody_Noise_05_GL.NE_GachaGemstone_VX_Halfbody_Noise_05_GL'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Contrast_1n2 }
+                    ParameterInfos[1] = { Name=Contrast_12n3 }
+                    ParameterInfos[2] = { Name=Smoke_Rate_Level_3 }
+                    ParameterInfos[3] = { Name=Smoke_Rate_Level_2 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Color_Level_1 }
+                    ParameterInfos[1] = { Name=Color_Level_2 }
+                    ParameterInfos[2] = { Name=P_UV_Noise }
+                    ParameterInfos[3] = { Name=Color_Level_3 }
+                    ParameterInfos[4] = { Name=P_UV_Smoke }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=M_Tex_Smoke }
+                    ParameterInfos[1] = { Name=M_Tex_Noise }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0, 0, 0, 0 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_White_Smoke_Loop_RGBA.T_White_Smoke_Loop_RGBA'
+            TextureValues[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/NE_GachaGemstone_VX_Halfbody_Noise_05_GL.NE_GachaGemstone_VX_Halfbody_Noise_05_GL'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_White_Smoke_Loop_RGBA.T_White_Smoke_Loop_RGBA'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/NE_GachaGemstone_VX_Halfbody_Noise_05_GL.NE_GachaGemstone_VX_Halfbody_Noise_05_GL'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_White_Smoke_Loop_RGBA.T_White_Smoke_Loop_RGBA'
+        Name = M_Tex_Smoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/NE_GachaGemstone_VX_Halfbody_Noise_05_GL.NE_GachaGemstone_VX_Halfbody_Noise_05_GL'
+        Name = M_Tex_Noise
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Contrast_1n2, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Contrast_12n3, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Smoke_Rate_Level_3, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Smoke_Rate_Level_2, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Color_Level_1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = Color_Level_2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = P_UV_Noise
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Color_Level_3
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = P_UV_Smoke
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_White_Smoke_Loop_RGBA
+    }
+}

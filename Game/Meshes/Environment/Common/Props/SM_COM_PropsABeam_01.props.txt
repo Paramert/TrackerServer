@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_TrimMetalShelfA_01.MI_Ind_TrimMetalShelfA_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_TrimMetalShelfA_01.MI_Ind_TrimMetalShelfA_01'
+        MaterialSlotName = MI_Ind_TrimMetalShelfA_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 221.322, 170.34, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-81.4485, Y=7.62939e-06, Z=11.071 }
+    BoxExtent = { X=81.4485, Y=8.69861, Z=11.071 }
+    SphereRadius = 82.6564
+}

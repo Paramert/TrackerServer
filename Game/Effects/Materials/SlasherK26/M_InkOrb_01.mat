@@ -1,0 +1,10 @@
+Diffuse=T_Tilling_Distortion_Map_01
+Normal=T_FlatNormal_01
+SpecPower=T_Sphere_Tileable
+Other[0]=DefaultDiffuse
+Other[1]=T_Blood_Hand
+Other[2]=T_PowerArm_Veins_01
+Other[3]=T_reflection_map_01
+Other[4]=T_SmokeTile
+Other[5]=T_WaterNormal
+Other[6]=T_WaterNormal3

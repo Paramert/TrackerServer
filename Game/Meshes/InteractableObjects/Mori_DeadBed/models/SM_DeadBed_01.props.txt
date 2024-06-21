@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/InteractableObjects/MI_MoriDeathBed01.MI_MoriDeathBed01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/InteractableObjects/MI_MoriDeathBed01.MI_MoriDeathBed01'
+        MaterialSlotName = MI_MoriDeathBed01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 306.566, 809.027, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.366219, Y=2.10947, Z=-158.528 }
+    BoxExtent = { X=81.2868, Y=63.6205, Z=134.963 }
+    SphereRadius = 151.204
+}

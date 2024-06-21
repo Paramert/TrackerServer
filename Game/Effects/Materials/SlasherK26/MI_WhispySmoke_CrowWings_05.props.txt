@@ -1,0 +1,385 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK26/M_WhispySmoke_Sprites_01.M_WhispySmoke_Sprites_01'
+ScalarParameterValues[41] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Contrast_Tube }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Opacity_Tube }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Opacity_Tube_Distortion }
+        ParameterValue = 0.2375
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Rotation Angle }
+        ParameterValue = 0.495238
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Scale_Tube_Distortion }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Tube - ScaleTilling_X }
+        ParameterValue = 0.096634
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Tube - ScaleTilling_Y }
+        ParameterValue = 2.61706
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=ExponentIn }
+        ParameterValue = 0.209524
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=OpacityFresnel }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Fresnel_Contrast_Mask }
+        ParameterValue = 0.350015
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=OpacityFresnelMask }
+        ParameterValue = 40.0402
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Blend_Amount }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Opacity_VertexNM }
+        ParameterValue = 23.0655
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=OpacityVector }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Speed }
+        ParameterValue = 0.17381
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=TextureTilling }
+        ParameterValue = 588.544
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=WPO Strenght 01 }
+        ParameterValue = 59.1338
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=WPO Strenght 02 }
+        ParameterValue = 92.9368
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Contrast_Smoke }
+        ParameterValue = 2.11531
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=DownMask_Contrast }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=DownMask_Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=Emissive_Outside_Ramp }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=Emissive_Ramp }
+        ParameterValue = 0.055192
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=EmissiveBoost }
+        ParameterValue = -0.123809
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=FadeDistance }
+        ParameterValue = 400
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=FadeLenght }
+        ParameterValue = 400
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=FL - ScaleTilling_X }
+        ParameterValue = 0.522456
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=FL - ScaleTilling_Y }
+        ParameterValue = 1.0686
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=Opacity_Distortion }
+        ParameterValue = 0.247619
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=Opacity_Smoke }
+        ParameterValue = 12.3267
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=OpacityBoost }
+        ParameterValue = 0.609524
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=RadialMask_Density }
+        ParameterValue = 0.818323
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=RadialMask_Radius }
+        ParameterValue = 0.480953
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=Rotate_Tube }
+        ParameterValue = 8.3
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=Scale_Distortion }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=SideMask_Contrast }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[36] =
+    {
+        ParameterInfo = { Name=SL - ScaleTilling_X }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[37] =
+    {
+        ParameterInfo = { Name=SL - ScaleTilling_Y }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[38] =
+    {
+        ParameterInfo = { Name=UpMask_Contrast }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[39] =
+    {
+        ParameterInfo = { Name=UpMask_Opacity }
+        ParameterValue = 17.2696
+        ParameterName = None
+    }
+    ScalarParameterValues[40] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=WPO_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=DistortionTexture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tube_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_TrailLine_var_02.T_TrailLine_var_02'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=WhispySmokeTexture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling1.T_Smoke_02_Tiling1'
+        ParameterName = None
+    }
+}
+VectorParameterValues[8] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Rotation_Center }
+        ParameterValue = { R=0.5, G=0.5, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Speed_Tube_Distortion }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tube - SpeedMask }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=FresnelColor }
+        ParameterValue = { R=0.128179, G=0.117408, B=0.151042, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=FL - Speed_WhispySmoke }
+        ParameterValue = { R=0.433333, G=-0.467141, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=SL - Speed_WhispySmoke }
+        ParameterValue = { R=0.5, G=-0.3, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=SmokeColor }
+        ParameterValue = { R=0.026366, G=0.025237, B=0.036458, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=Speed_Distortion }
+        ParameterValue = { R=0.1, G=-0.1, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = true
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Outside/Inside Emissive }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseCameraDepthFade? }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[7] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_TrailLine_var_02.T_TrailLine_var_02'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_PowerArm_Veins_01.T_PowerArm_Veins_01'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}

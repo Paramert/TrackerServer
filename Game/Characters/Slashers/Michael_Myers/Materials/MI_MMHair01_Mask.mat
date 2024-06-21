@@ -1,0 +1,14 @@
+Diffuse=T_DissolveTextures
+Normal=T_CMMHair000_N
+Opacity=T_DFHair01_M
+Other[0]=White
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=Good64x64TilingNoiseHighFreq
+Other[4]=T_CMMHair000_M
+Other[5]=Fxt_verticalGradient
+Other[6]=T_Halftone
+Other[7]=T_TileNoise
+Other[8]=T_FX_DissolveRamp
+Other[9]=T_GS_FrontSign_Flickerama
+Other[10]=Black

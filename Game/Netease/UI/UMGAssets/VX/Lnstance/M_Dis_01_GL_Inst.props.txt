@@ -1,0 +1,186 @@
+Parent = Material3'/Game/Netease/UI/UMGAssets/VX/Material/M_Dis_01_GL.M_Dis_01_GL'
+ScalarParameterValues[12] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=LightSoft }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=LightWidith }
+        ParameterValue = 0.06
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=LineMax }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=LineMin }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=LineWidith }
+        ParameterValue = 0.001
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=MaskAngle }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=MaskUMove }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=MaskUScale }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=MaskVMove }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=MaskVScale }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=ChangeAmount }
+        ParameterValue = 1.70519
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Dis_Tex }
+        ParameterValue = Texture2D'/Game/UI/UMGAssets/Icons/Customization/NE_David_Outfit_Gold_001.NE_David_Outfit_Gold_001'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=LineMaskDetil }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_22_GL.T_Nois_22_GL'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_20_GL.T_Nois_20_GL'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Mask_add }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_18_GL.T_Nois_18_GL'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=LightColor }
+        ParameterValue = { R=10, G=0.05, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=LineColor }
+        ParameterValue = { R=20, G=1.14454, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = { R=0.09375, G=0.09375, B=0.09375, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Mask_ADD }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[2] =
+    {
+        StaticComponentMaskParameters[0] =
+        {
+            R = true
+            G = false
+            B = false
+            A = false
+            ParameterInfo = { Name=LineMaskChannel }
+            bOverride = true
+        }
+        StaticComponentMaskParameters[1] =
+        {
+            R = true
+            G = false
+            B = false
+            A = false
+            ParameterInfo = { Name=MaskChannel }
+            bOverride = true
+        }
+    }
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_02_GL.T_Nois_02_GL'
+    CachedReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_19_GL.T_Nois_19_GL'
+    CachedReferencedTextures[2] = Texture2D'/Game/UI/UMGAssets/Icons/Customization/NE_David_Outfit_Gold_001.NE_David_Outfit_Gold_001'
+    CachedReferencedTextures[3] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/NE_Common_Frame_Blood_2.NE_Common_Frame_Blood_2'
+    CachedReferencedTextures[4] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Mask_03_adcgl005.T_Mask_03_adcgl005'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

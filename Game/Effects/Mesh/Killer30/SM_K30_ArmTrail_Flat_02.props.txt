@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK30/MI_K30_ArmMist_01.MI_K30_ArmMist_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK30/MI_K30_ArmMist_01.MI_K30_ArmMist_01'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 19.0524, 19.369, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.06821, Y=1.77448, Z=8.7141 }
+    BoxExtent = { X=10.7304, Y=14.3486, Z=16.8966 }
+    SphereRadius = 22.0501
+}

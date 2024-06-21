@@ -1,0 +1,5 @@
+Diffuse=T_fire01
+Normal=DefaultNormal
+Opacity=T_fire01
+Other[0]=NE_T_Noise_LyTc_07
+Other[1]=DefaultTexture

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Chair01.MI_Qat_Chair01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Chair01.MI_Qat_Chair01'
+        MaterialSlotName = MI_Qtr_Chair01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 145.904, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.39413, Y=0, Z=53.3644 }
+    BoxExtent = { X=26.7782, Y=25.612, Z=53.8883 }
+    SphereRadius = 64.7043
+}

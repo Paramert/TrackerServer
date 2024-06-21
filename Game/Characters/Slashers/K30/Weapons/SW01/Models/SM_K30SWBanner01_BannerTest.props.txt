@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/K30/Weapons/Materials/K30_SWBanner01/MI_K30_SWBanner01.MI_K30_SWBanner01'
+    Materials[1] = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK30/MI_K30_BurningBanner_01.MI_K30_BurningBanner_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K30/Weapons/Materials/K30_SWBanner01/MI_K30_SWBanner01.MI_K30_SWBanner01'
+        MaterialSlotName = MI_K30_SWBanner01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 132.039, 104.339, 104.36, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK30/MI_K30_BurningBanner_01.MI_K30_BurningBanner_01'
+        MaterialSlotName = MI_K30_BurningBanner
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 140.22, 104.682, 104.708, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.525108, Y=2.50898, Z=98.5544 }
+    BoxExtent = { X=30.3396, Y=15.9327, Z=82.7923 }
+    SphereRadius = 82.8095
+}

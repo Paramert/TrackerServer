@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Mushroom01.MI_Mushroom01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Mushroom01.MI_Mushroom01'
+        MaterialSlotName = MI_Mushroom01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 195.126, 360.142, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.378525, Y=0, Z=0.835024 }
+    BoxExtent = { X=80.4535, Y=59.5656, Z=31.6429 }
+    SphereRadius = 85.1419
+}

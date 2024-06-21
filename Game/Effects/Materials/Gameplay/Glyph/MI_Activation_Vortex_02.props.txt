@@ -1,0 +1,191 @@
+Parent = Material3'/Game/Effects/Materials/Gameplay/Glyph/M_Activation_Vortex_02.M_Activation_Vortex_02'
+ScalarParameterValues[17] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=SecondOutline_Rift_Opacity }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BH_Stars_opacity }
+        ParameterValue = 30
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Blackhole_Contrast }
+        ParameterValue = 0.318365
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Blackhole_density }
+        ParameterValue = 4.43624
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Blackhole_opacity }
+        ParameterValue = 0.280952
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Intensity_Glow_Outline }
+        ParameterValue = 15
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Opacity_Outline_Particle }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Overall_Emissive }
+        ParameterValue = 4.22568
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=SVCloud_Density }
+        ParameterValue = 2.33
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=SVCloud_Radius }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Texture Scale }
+        ParameterValue = 6
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=VClouds_Smooth_max }
+        ParameterValue = 1.58178
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=VClouds_Smooth_min }
+        ParameterValue = -1.23326
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Veins_Density }
+        ParameterValue = 0.894474
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Veins_Exp_power }
+        ParameterValue = 1.475
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Veins_Radius }
+        ParameterValue = 0.51
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Rift_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Vortex_Rift_Outline_02.T_Vortex_Rift_Outline_02'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Texture_Veins }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Veins_05.T_Veins_05'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Scale_VeinsByCenter }
+        ParameterValue = { R=0.3, G=0.6, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=SpeedVeins_panner }
+        ParameterValue = { R=0, G=-1, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Vortex_Rift_01.T_Vortex_Rift_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DustParticles_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Vortex_Rift_Outline_02
+    }
+}

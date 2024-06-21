@@ -1,0 +1,8 @@
+Diffuse=T_DissolveTextures
+Normal=T_WaterNormal2
+Opacity=T_K28_BodySmokeMask
+Other[0]=DefaultDiffuse
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=T_Dust_Noise_02
+Other[3]=T_FX_DissolveRamp
+Other[4]=T_Mud_01_M

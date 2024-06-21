@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_DeprivationTank01.MI_Qat_DeprivationTank01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DirtyGlass.MI_DirtyGlass'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_DeprivationTank01.MI_Qat_DeprivationTank01'
+        MaterialSlotName = MI_Qat_DeprivationTank01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 991.653, 991.653, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DirtyGlass.MI_DirtyGlass'
+        MaterialSlotName = MI_DirtyGlass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 948.757, 948.757, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.42763, Y=2.71217, Z=200.914 }
+    BoxExtent = { X=136.495, Y=132.355, Z=200.914 }
+    SphereRadius = 242.909
+}

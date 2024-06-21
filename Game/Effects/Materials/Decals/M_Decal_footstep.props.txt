@@ -1,0 +1,179 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/SphereNormal.SphereNormal'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Decal_GroundImpact05_N.T_Decal_GroundImpact05_N'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Footstep_Drag_Mask.T_Footstep_Drag_Mask'
+    ReferencedTextures[5] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Normal Map Intensity (S) }
+                    ParameterInfos[1] = { Name=Mask Intensity }
+                    ParameterInfos[2] = { Name=BlendIntensity (S) }
+                    ParameterInfos[3] = { Name=BlendIntensity_CircleImprint }
+                    ParameterInfos[4] = { Name=Color Intensity }
+                    ParameterInfos[5] = { Name=Mask Opacity }
+                    ParameterInfos[6] = { Name=Ambient Coloration }
+                    ParameterInfos[7] = { Name=BaseIntensity (S) }
+                    ParameterInfos[8] = { Name=Opacity }
+                    ParameterInfos[9] = { Name=Rotation Angle }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Mask Density }
+                    ParameterInfos[1] = { Name=Normal }
+                    ParameterInfos[2] = { Name=Mask }
+                    ParameterInfos[3] = { Name=Color Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { -7, 1, 1, -0.5, 1, -0.1, 0, -0.5, 1, -0.25 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.107023, G=0.155926, B=0.313989, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Decal_GroundImpact05_N.T_Decal_GroundImpact05_N'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Footstep_Drag_Mask.T_Footstep_Drag_Mask'
+            TextureValues[3] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Decal_GroundImpact05_N.T_Decal_GroundImpact05_N'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/SphereNormal.SphereNormal'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Footstep_Drag_Mask.T_Footstep_Drag_Mask'
+        ReferencedTextures[5] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+        Name = Mask Density
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Decal_GroundImpact05_N.T_Decal_GroundImpact05_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Footstep_Drag_Mask.T_Footstep_Drag_Mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        Name = Color Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = -7
+        Name = Normal Map Intensity (S)
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Mask Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=BlendIntensity (S), Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = -0.5
+        Name = BlendIntensity_CircleImprint
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=1, Name=Color Intensity, Group=None }
+    CollectedScalarParameters[5] = { Value=-0.1, Name=Mask Opacity, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Ambient Coloration, Group=None }
+    CollectedScalarParameters[7] = { Value=-0.5, Name=BaseIntensity (S), Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[9] = { Value=-0.25, Name=Rotation Angle, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.107023, G=0.155926, B=0.313989, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SphereNormal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Decal_GroundImpact05_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Footstep_Drag_Mask
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FX_Gradient_Footsteps
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Perlin_Noise_M
+    }
+}

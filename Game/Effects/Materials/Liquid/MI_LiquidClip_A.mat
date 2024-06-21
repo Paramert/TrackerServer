@@ -1,0 +1,6 @@
+Diffuse=T_Liquid_Clip_A
+Normal=T_FlatNormal_01
+Cube=T_Liquid_Reflection
+Other[0]=T_Mud
+Other[1]=T_Mud_N
+Other[2]=T_Noise_N_02

@@ -1,0 +1,14 @@
+Diffuse=environment_mud_diffuse
+Normal=FlatNormal
+Other[0]=T_FlatNormal_01
+Other[1]=T_Noise02
+Other[2]=T_NoiseNormal_01
+Other[3]=T_SmokeTile
+Other[4]=T_Swamp_Mud_basecolor
+Other[5]=T_Swamp_Mud_roughness
+Other[6]=Black
+Other[7]=Black_Linear
+Other[8]=Green_Linear
+Other[9]=White
+Other[10]=rock_floor_diffuse
+Other[11]=tree_mud_diffuse

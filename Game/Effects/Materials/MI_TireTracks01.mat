@@ -1,0 +1,6 @@
+Diffuse=T_Fin_TireTrack01
+Normal=T_FlatNormal_01
+Other[0]=Fx_radialGradient
+Other[1]=Black
+Other[2]=Green_Linear
+Other[3]=White

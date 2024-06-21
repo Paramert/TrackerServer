@@ -1,0 +1,91 @@
+Parent = Material3'/Game/Netease/Material/UI/NE_GachaGemstone_VX_Smoke_1.NE_GachaGemstone_VX_Smoke_1'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=liangdu }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=xiaosan }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tex_01 }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_5.NE_GachaGemstone_VX_Noise_5'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tex_02 }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_6.NE_GachaGemstone_VX_Noise_6'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex_03 }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_7.NE_GachaGemstone_VX_Noise_7'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tex_04 }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Ice_1.NE_GachaGemstone_VX_Ice_1'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=10, G=4.22123, B=0, A=0.01 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Additive (3)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_8.NE_GachaGemstone_VX_Noise_8'
+    CachedReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Mask_6.NE_GachaGemstone_VX_Mask_6'
+    CachedReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Noise_4.NE_GachaGemstone_VX_Noise_4'
+    CachedReferencedTextures[3] = Texture2D'/Game/Netease/UI/UMGAssets/Gacha/GachaGemstone/NE_GachaGemstone_VX_Tex/NE_GachaGemstone_VX_Mask_7.NE_GachaGemstone_VX_Mask_7'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

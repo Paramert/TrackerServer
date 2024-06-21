@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK25/MI_K25_TrailMeshFx_01_TPV_01.MI_K25_TrailMeshFx_01_TPV_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK25/MI_K25_TrailMeshFx_01_TPV_01.MI_K25_TrailMeshFx_01_TPV_01'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 40.5842, 41.2131, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=49982.8, Y=50033.5, Z=50066.3 }
+    BoxExtent = { X=50029.1, Y=50019.4, Z=50004.1 }
+    SphereRadius = 86632.9
+}

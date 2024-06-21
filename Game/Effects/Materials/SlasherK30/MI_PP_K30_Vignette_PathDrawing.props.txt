@@ -1,0 +1,234 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK30/M_PP_K30_Vignette_Chased.M_PP_K30_Vignette_Chased'
+ScalarParameterValues[29] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=MF_PP_RectangleDiscard_DebugControl }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=MF_PP_RectangleDiscard_X }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=MF_PP_RectangleDiscard_Y }
+        ParameterValue = 0.175
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Alpha }
+        ParameterValue = -0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=DistortionLevel }
+        ParameterValue = 2.15
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=EmissiveLevel }
+        ParameterValue = 1.35
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Flowmap_PanSpeed_X }
+        ParameterValue = 0.002381
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Flowmap_PanSpeed_Y }
+        ParameterValue = 0.171429
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=FlowmapSpeedx }
+        ParameterValue = 0.005
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=FlowmapSpeedy }
+        ParameterValue = 0.0095
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=IconOpacity }
+        ParameterValue = 0.541429
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=MainTextSpeedX }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=MainTextSpeedY }
+        ParameterValue = 0.125
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Mask_Hardness }
+        ParameterValue = 0.695
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Mask_Radius }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=OpacityController }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=SymbolX }
+        ParameterValue = -1.3591
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=SymbolY }
+        ParameterValue = -1.42823
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=UTiling }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=UVMask_Off_X }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=UVMask_Off_X2 }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=UVMask_Off_Y }
+        ParameterValue = 0.009525
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=UVMask_Off_Y2 }
+        ParameterValue = -1
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=UVMask_Scale_X }
+        ParameterValue = 1.51848
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=UVMask_Scale_X2 }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=UVMask_Scale_Y }
+        ParameterValue = 0.72619
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=UVMask_Scale_Y2 }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=VTiling }
+        ParameterValue = 0.48
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=SmokeColor }
+        ParameterValue = { R=0.223529, G=0.45098, B=0.282353, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[3] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K30/T_K30_PowerIcons_VFX_Perspective.T_K30_PowerIcons_VFX_Perspective'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_3In1.T_Smoke_3In1'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FlowMap_Distortion_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 4.2113
+        UVChannelIndex = 0
+        TextureName = T_K30_PowerIcons_VFX_Perspective
+    }
+}

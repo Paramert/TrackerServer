@@ -1,0 +1,390 @@
+Parent = Material3'/Game/Effects/Materials/PostProcess/M_PP_Vignette_K27_IdleInterrupt_02.M_PP_Vignette_K27_IdleInterrupt_02'
+ScalarParameterValues[50] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Vignette_Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color_Intensity }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=VignetteDistortion }
+        ParameterValue = 0.12
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=VignetteDistortion2 }
+        ParameterValue = 0.12
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Aberation_Int }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=ChromaticIntensity }
+        ParameterValue = 0.019048
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=ChromaticPower }
+        ParameterValue = 3.42876
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Tile_X }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Tile_Y }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Outline_Erode_Lightning }
+        ParameterValue = 0.2798
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Outline_Intensity_Lightning }
+        ParameterValue = 13.2409
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Bug_Visibility }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=NoiseIntensity }
+        ParameterValue = 0.005
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=NoiseTiling_X }
+        ParameterValue = 150
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=NoiseTiling_Y }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Speed_Bug }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=Speed_NoisePanner_01 }
+        ParameterValue = 3.68623
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Speed_NoisePanner_02 }
+        ParameterValue = 1.45624
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=TimeIntensity }
+        ParameterValue = 40
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=MaskOuverture }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Glitch_CoreContrast }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=Invert_Color }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=MaxSmooth }
+        ParameterValue = 3.02271
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=MinSmooth }
+        ParameterValue = 0.142857
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=Opacity_CenterGlitch }
+        ParameterValue = 0.75
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=OpacityOverall_Glitch }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=ScaleGlitch_Y }
+        ParameterValue = 0.583477
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=Noise_Contrast }
+        ParameterValue = -0.56375
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=Noise_Opacity }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=Rotate_Noise_01 }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=Tile_Noise_X }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=Tile_Noise_Y }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=Distortion_OpacitySine }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=Opacity_sine }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=Scale_DistortionSine }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=ScaleDistortionSine }
+        ParameterValue = 0.52805
+        ParameterName = None
+    }
+    ScalarParameterValues[36] =
+    {
+        ParameterInfo = { Name=Sine_Pos_X }
+        ParameterValue = 0.638095
+        ParameterName = None
+    }
+    ScalarParameterValues[37] =
+    {
+        ParameterInfo = { Name=Sine_Pos_Y }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[38] =
+    {
+        ParameterInfo = { Name=Sine_Smooth_Max }
+        ParameterValue = 0.528676
+        ParameterName = None
+    }
+    ScalarParameterValues[39] =
+    {
+        ParameterInfo = { Name=Sine_Smooth_Min }
+        ParameterValue = 0.07857
+        ParameterName = None
+    }
+    ScalarParameterValues[40] =
+    {
+        ParameterInfo = { Name=Sine_Speed }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[41] =
+    {
+        ParameterInfo = { Name=Sine_Width }
+        ParameterValue = 3.14
+        ParameterName = None
+    }
+    ScalarParameterValues[42] =
+    {
+        ParameterInfo = { Name=SineHeight }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[43] =
+    {
+        ParameterInfo = { Name=Distortion_Opacity }
+        ParameterValue = 0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[44] =
+    {
+        ParameterInfo = { Name=MixTripleVision_01 }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[45] =
+    {
+        ParameterInfo = { Name=MixTripleVision_02 }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[46] =
+    {
+        ParameterInfo = { Name=Scale_Distortion }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[47] =
+    {
+        ParameterInfo = { Name=SwitchSide_Speed }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[48] =
+    {
+        ParameterInfo = { Name=TripleVision_Int }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[49] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[8] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.0055, G=0.0055, B=0.0055, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Speed_MainTexture }
+        ParameterValue = { R=6, G=5, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Speed_Glitch }
+        ParameterValue = { R=-0.05, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Panner_Noise }
+        ParameterValue = { R=0, G=1, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Distortion_Sine_Speed }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Speed_Distortion_Sine }
+        ParameterValue = { R=0.5, G=0.5, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=Speed_Distortion }
+        ParameterValue = { R=5, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=Speed_Distortion_02 }
+        ParameterValue = { R=-5, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K27/T_K27_Vignette_Distortion_001.T_K27_Vignette_Distortion_001'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FX_Water_Ripple_Normals.T_FX_Water_Ripple_Normals'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

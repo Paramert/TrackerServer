@@ -1,0 +1,12 @@
+Diffuse=T_HL_DryPlantHook_BC
+Normal=T_HL_DryPlantHook_N
+Other[0]=T_HL_DryPlantHook_M
+Other[1]=T_HL_DryPlantHook_R
+Other[2]=DefaultDiffuse
+Other[3]=T_Vomit01_BC
+Other[4]=T_Vomit01_N
+Other[5]=T_Vomit01_ORM
+Other[6]=T_FlatNormal_01
+Other[7]=T_SmokeTile
+Other[8]=Black
+Other[9]=Yellow_Linear

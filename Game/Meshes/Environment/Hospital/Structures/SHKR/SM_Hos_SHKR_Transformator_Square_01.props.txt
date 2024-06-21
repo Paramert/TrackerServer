@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_WiresWall_A.MI_Hos_SHKR_WiresWall_A'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_Metal01.MI_Hos_SHKR_Metal01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_Copper01.MI_Hos_SHKR_Copper01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_WiresWall_A.MI_Hos_SHKR_WiresWall_A'
+        MaterialSlotName = MI_Hos_SHKR_WiresWall_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 107.457, 662.488, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_Metal01.MI_Hos_SHKR_Metal01'
+        MaterialSlotName = MI_Hos_SHKR_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.885, 662.831, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_Copper01.MI_Hos_SHKR_Copper01'
+        MaterialSlotName = MI_Hos_SHKR_Copper01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 39.6536, 662.771, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-132.973, Y=0.00012207, Z=138.288 }
+    BoxExtent = { X=157.92, Y=71.1041, Z=216.411 }
+    SphereRadius = 277.05
+}

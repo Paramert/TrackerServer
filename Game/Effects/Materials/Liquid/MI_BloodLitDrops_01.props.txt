@@ -1,0 +1,130 @@
+Parent = MaterialInstanceConstant'/Game/Effects/Materials/Liquid/MI_BloodLitDrops.MI_BloodLitDrops'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Blood_Distortion }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Blood_Distortion2 }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Reflection_Softness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=time }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Reflection Map }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Diffuse }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_BloodDrip2.T_BloodDrip2'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Blood Color light }
+        ParameterValue = { R=0.588542, G=0.202924, B=0.202924, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BloodColor }
+        ParameterValue = { R=0.201042, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_BloodDrip.T_BloodDrip'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_BloodDrip_N.T_BloodDrip_N'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.8125
+        UVChannelIndex = 0
+        TextureName = T_BloodDrip2
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.966675
+        UVChannelIndex = 0
+        TextureName = T_BloodDrip_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = T_Water_N
+    }
+}

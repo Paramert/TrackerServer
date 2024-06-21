@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Blend/Wood/MI_Com_WoodPlanks_B_Snow.MI_Com_WoodPlanks_B_Snow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Blend/Wood/MI_Com_WoodPlanks_B_Snow.MI_Com_WoodPlanks_B_Snow'
+        MaterialSlotName = MI_Com_WoodPlanks_B_Snow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 328.048, 193.261, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.00885, Y=21.9679, Z=91.3389 }
+    BoxExtent = { X=6.27015, Y=40.755, Z=97.4141 }
+    SphereRadius = 102.949
+}

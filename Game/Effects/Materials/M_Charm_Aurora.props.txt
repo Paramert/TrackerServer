@@ -1,0 +1,123 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_LightRays05.T_LightRays05'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Mask_Radius }
+                    ParameterInfos[1] = { Name=Mask_Density }
+                    ParameterInfos[2] = { Name=Power }
+                    ParameterInfos[3] = { Name=Depth Fade Distance }
+                    ParameterInfos[4] = { Name=Use Radial UVs }
+                    ParameterInfos[5] = { Name=Mask_Intensity }
+                    ParameterInfos[6] = { Name=OffsetMultiplier }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Offset_Tiling_Panner }
+                    ParameterInfos[1] = { Name=LightRays_Tiling_Panner }
+                    ParameterInfos[2] = { Name=Initial_Offset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Offset }
+                    ParameterInfos[1] = { Name=Rays }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0.5, 2.33, 2, 25, 1, 100, 20 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=2, G=2, B=0.1, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_LightRays05.T_LightRays05'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_LightRays05.T_LightRays05'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        Name = Offset
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_LightRays05.T_LightRays05'
+        Name = Rays
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[1] = { Value=2.33, Name=Mask_Density, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=Power, Group=None }
+    CollectedScalarParameters[3] = { Value=25, Name=Depth Fade Distance, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Use Radial UVs, Group=None }
+    CollectedScalarParameters[5] = { Value=100, Name=Mask_Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=20, Name=OffsetMultiplier, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Offset_Tiling_Panner
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=2, G=2, B=0.1, A=0 }
+        Name = LightRays_Tiling_Panner
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Initial_Offset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

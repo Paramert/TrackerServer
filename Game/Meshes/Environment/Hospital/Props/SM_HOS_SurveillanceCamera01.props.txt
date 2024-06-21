@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_SurveillanceCamera01.MI_HOS_SurveillanceCamera01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_SurveillanceCamera01.MI_HOS_SurveillanceCamera01'
+        MaterialSlotName = MI_HOS_SurveillanceCamera01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.314, 128.655, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.19454, Y=-34.424, Z=6.30247 }
+    BoxExtent = { X=10.4648, Y=34.4225, Z=19.2311 }
+    SphereRadius = 40.4619
+}

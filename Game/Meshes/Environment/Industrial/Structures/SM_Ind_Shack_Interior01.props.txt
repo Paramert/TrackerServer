@@ -1,0 +1,122 @@
+Materials[9] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_WoodShack01.MI_Ind_WoodShack01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_Tarp01A.MI_Ind_Tarp01A'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_Tarp01.MI_Ind_Tarp01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_Foundry_MoltenBucket_Metal_03.MI_Ind_Foundry_MoltenBucket_Metal_03'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_MetalGrill01.MI_Ind_MetalGrill01'
+    Materials[5] = MaterialInstanceConstant'/Game/Effects/Materials/MI_GroundDirt02.MI_GroundDirt02'
+    Materials[6] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_WoodenBeamPlanks.MI_Ind_WoodenBeamPlanks'
+    Materials[7] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Ind_CorrugatedMetal02.MI_Ind_CorrugatedMetal02'
+    Materials[8] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_CorrugatedMetal03.MI_Ind_CorrugatedMetal03'
+}
+SourceModels[0] = {}
+StaticMaterials[9] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_WoodShack01.MI_Ind_WoodShack01'
+        MaterialSlotName = MI_Ind_WoodShack01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 498.617, 4051.27, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_Tarp01A.MI_Ind_Tarp01A'
+        MaterialSlotName = MI_Ind_Tarp01A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 138.382, 4046.43, 138.382, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_Tarp01.MI_Ind_Tarp01'
+        MaterialSlotName = MI_Ind_Tarp01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 138.649, 4080.77, 138.649, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_Foundry_MoltenBucket_Metal_03.MI_Ind_Foundry_MoltenBucket_Metal_03'
+        MaterialSlotName = MI_Ind_Foundry_MoltenBucket_Metal_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 257.04, 4007.18, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_MetalGrill01.MI_Ind_MetalGrill01'
+        MaterialSlotName = MI_Ind_MetalGrill01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 141.986, 4093.54, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_GroundDirt02.MI_GroundDirt02'
+        MaterialSlotName = MI_GroundDirt02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 302.118, 4085.56, 302.118, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_WoodenBeamPlanks.MI_Ind_WoodenBeamPlanks'
+        MaterialSlotName = MI_Ind_WoodenBeamPlanks
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 317.342, 4029, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Ind_CorrugatedMetal02.MI_Ind_CorrugatedMetal02'
+        MaterialSlotName = MI_Ind_CorrugatedMetal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 287.557, 3958.79, 0, 0 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_CorrugatedMetal03.MI_Ind_CorrugatedMetal03'
+        MaterialSlotName = MI_Ind_CorrugatedMetal03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 279.214, 4065.42, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-24.7471, Y=80.7845, Z=349.774 }
+    BoxExtent = { X=603.811, Y=618.6, Z=357.579 }
+    SphereRadius = 863.282
+}

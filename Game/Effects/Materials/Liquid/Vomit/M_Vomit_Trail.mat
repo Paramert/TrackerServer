@@ -1,0 +1,6 @@
+Diffuse=T_Vomit01_BC
+Normal=T_Mud_N
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=T_Vomit_Tiling
+Other[2]=T_Vomit_Trail_02
+Other[3]=T_Veins

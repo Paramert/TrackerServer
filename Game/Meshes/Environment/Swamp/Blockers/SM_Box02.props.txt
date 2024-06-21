@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampBox01.MI_SwampBox01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampBox02.MI_SwampBox02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances_Lod2/MI_SwampBox02_LOD2.MI_SwampBox02_LOD2'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampBox01.MI_SwampBox01'
+        MaterialSlotName = MI_SwampBox01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 211.042, 793.564, 504.932, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampBox02.MI_SwampBox02'
+        MaterialSlotName = MI_SwampBox02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 237.576, 795.556, 506.157, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances_Lod2/MI_SwampBox02_LOD2.MI_SwampBox02_LOD2'
+        MaterialSlotName = MI_SwampBox02_LOD2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.734486, Y=0.743233, Z=54.9076 }
+    BoxExtent = { X=55.6421, Y=55.6508, Z=54.9076 }
+    SphereRadius = 95.9578
+}

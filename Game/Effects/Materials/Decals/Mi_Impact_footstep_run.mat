@@ -1,0 +1,8 @@
+Diffuse=T_SandyNoise
+Normal=T_Footstep_Drag
+Other[0]=T_Footstep_Drag_Mask
+Other[1]=T_FX_Gradient_Footsteps
+Other[2]=DefaultTexture
+Other[3]=SphereNormal
+Other[4]=T_Decal_GroundImpact05_N
+Other[5]=T_Perlin_Noise_M

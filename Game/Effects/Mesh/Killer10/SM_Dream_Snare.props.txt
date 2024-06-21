@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/Liquid/M_Dream_Snare.M_Dream_Snare'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/Liquid/M_Dream_Snare.M_Dream_Snare'
+        MaterialSlotName = M_Dream_Snare
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 184.635, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.62939e-06, Y=-1.52588e-05, Z=2.43744 }
+    BoxExtent = { X=100, Y=100, Z=2.69275 }
+    SphereRadius = 100.036
+}

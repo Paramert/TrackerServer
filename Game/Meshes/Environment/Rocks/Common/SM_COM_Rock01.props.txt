@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Rock01.MI_Eng_Rock01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Rock01.MI_Eng_Rock01'
+        MaterialSlotName = MI_Eng_Rock01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 503.22, 528.567, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.701248, Y=5.13265, Z=70.6021 }
+    BoxExtent = { X=136.591, Y=85.3308, Z=91.7071 }
+    SphereRadius = 155.912
+}

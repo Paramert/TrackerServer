@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_SM_Hos_ElectricalConsole_01.MI_SM_Hos_ElectricalConsole_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_WiresWall_A.MI_Hos_SHKR_WiresWall_A'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_SM_Hos_ElectricalConsole_01.MI_SM_Hos_ElectricalConsole_01'
+        MaterialSlotName = MI_SM_Hos_ElectricalConsole_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 422.218, 585.063, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_SHKR_WiresWall_A.MI_Hos_SHKR_WiresWall_A'
+        MaterialSlotName = MI_Hos_SHKR_WiresWall_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 58.8111, 609.207, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0863342, Y=0, Z=155.617 }
+    BoxExtent = { X=97.9882, Y=70.9863, Z=156.749 }
+    SphereRadius = 183.476
+}

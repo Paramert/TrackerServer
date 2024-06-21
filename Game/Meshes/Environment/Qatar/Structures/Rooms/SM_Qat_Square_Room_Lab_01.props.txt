@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_ConcreteTrim01.MI_Qat_ConcreteTrim01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_ConcreteFloor01.MI_Qat_ConcreteFloor01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Panels01.MI_Qat_Panels01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_AlphaPattern.MI_Qat_AlphaPattern'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_ConcreteTrim01.MI_Qat_ConcreteTrim01'
+        MaterialSlotName = MI_Qat_ConcreteTrim01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 449.761, 2168.19, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_ConcreteFloor01.MI_Qat_ConcreteFloor01'
+        MaterialSlotName = MI_Qat_ConcreteFloor01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 426.749, 2166.17, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Panels01.MI_Qat_Panels01'
+        MaterialSlotName = MI_Qat_Panels01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 297.693, 2958, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_AlphaPattern.MI_Qat_AlphaPattern'
+        MaterialSlotName = MI_Qat_AlphaPattern
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 211.494, 2165.77, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00238037, Y=0.000305176, Z=300 }
+    BoxExtent = { X=570, Y=570, Z=300 }
+    SphereRadius = 781.154
+}

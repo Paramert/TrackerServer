@@ -1,0 +1,23 @@
+Materials[1] = {  }
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = MI_HKEyes01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 6.50326, 5.5659, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.19209e-07, Y=0, Z=7.62939e-06 }
+    BoxExtent = { X=1.73551, Y=0.967171, Z=1.73287 }
+    SphereRadius = 1.98042
+}

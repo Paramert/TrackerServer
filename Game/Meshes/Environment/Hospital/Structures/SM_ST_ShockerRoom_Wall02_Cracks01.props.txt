@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Cracks01.MI_Hos_Cracks01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Cracks01.MI_Hos_Cracks01'
+        MaterialSlotName = MI_Hos_Cracks01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.3194, 225.262, 14739.5, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=949.302, Y=-360.528, Z=420.727 }
+    BoxExtent = { X=156.597, Y=15.578, Z=21.2561 }
+    SphereRadius = 158.608
+}

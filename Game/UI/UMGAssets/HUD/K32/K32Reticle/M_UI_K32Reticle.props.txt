@@ -1,0 +1,212 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/UMGAssets/HUD/K32/K32Reticle/T_UI_GlitchFrequencies.T_UI_GlitchFrequencies'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[33] =
+                {
+                    ParameterInfos[0] = { Name=areGaugesVertical }
+                    ParameterInfos[1] = { Name=SliceFrequency }
+                    ParameterInfos[2] = { Name=ReticleRadius }
+                    ParameterInfos[3] = { Name=IsGlitchOn }
+                    ParameterInfos[4] = { Name=ReticlePercent }
+                    ParameterInfos[5] = { Name=CrossLength }
+                    ParameterInfos[6] = { Name=GaugeFeather }
+                    ParameterInfos[7] = { Name=LinesOuterMask }
+                    ParameterInfos[8] = { Name=SliceStep }
+                    ParameterInfos[9] = { Name=ReticleThickness }
+                    ParameterInfos[10] = { Name=AnimSpeed }
+                    ParameterInfos[11] = { Name=GaugeBorderThicknessLarge }
+                    ParameterInfos[12] = { Name=CrossFeather }
+                    ParameterInfos[13] = { Name=Scale }
+                    ParameterInfos[14] = { Name=GaugeBackgroundOpacity }
+                    ParameterInfos[15] = { Name=ReticleFeather }
+                    ParameterInfos[16] = { Name=FlashStep }
+                    ParameterInfos[17] = { Name=Percent }
+                    ParameterInfos[18] = { Name=FlashFrequency }
+                    ParameterInfos[19] = { Name=GaugeFadeValue }
+                    ParameterInfos[20] = { Name=LinesInnerMask }
+                    ParameterInfos[21] = { Name=LinesFeather }
+                    ParameterInfos[22] = { Name=X-Offset }
+                    ParameterInfos[23] = { Name=ReticleThicknessCooldown }
+                    ParameterInfos[24] = { Name=CrossRotation }
+                    ParameterInfos[25] = { Name=GaugeLength }
+                    ParameterInfos[26] = { Name=CrossThickness }
+                    ParameterInfos[27] = { Name=RingFeather }
+                    ParameterInfos[28] = { Name=PixelScale }
+                    ParameterInfos[29] = { Name=GaugeBorderThicknessSmall }
+                    ParameterInfos[30] = { Name=GaugeRadius }
+                    ParameterInfos[31] = { Name=Y-Offset }
+                    ParameterInfos[32] = { Name=GaugeThickness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=ReticleColor }
+                    ParameterInfos[1] = { Name=MainColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=GlitchTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[33] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = -3
+            ScalarValues[2] = 0.7
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0.171428
+            ScalarValues[5] = 0.1
+            ScalarValues[6] = 0.015
+            ScalarValues[7] = 1
+            ScalarValues[8] = 10
+            ScalarValues[9] = 0.01
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 0.04
+            ScalarValues[12] = 0.01
+            ScalarValues[13] = 0.9
+            ScalarValues[14] = 0.4
+            ScalarValues[15] = 0.015
+            ScalarValues[16] = 3
+            ScalarValues[17] = 0.923809
+            ScalarValues[18] = 5
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0.5
+            ScalarValues[21] = 0.015
+            ScalarValues[22] = 0.02
+            ScalarValues[23] = 0.03
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0.25
+            ScalarValues[26] = 0.002
+            ScalarValues[27] = 0.015
+            ScalarValues[28] = 500
+            ScalarValues[29] = 0.02
+            ScalarValues[30] = 0.3
+            ScalarValues[31] = 0.02
+            ScalarValues[32] = 0.1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.723958, G=0.0113118, B=0.0751725, A=1 }
+            VectorValues[1] = { R=0.006995, G=0.514918, B=0.327778, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/UI/UMGAssets/HUD/K32/K32Reticle/T_UI_GlitchFrequencies.T_UI_GlitchFrequencies'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/UI/UMGAssets/HUD/K32/K32Reticle/T_UI_GlitchFrequencies.T_UI_GlitchFrequencies'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/UI/UMGAssets/HUD/K32/K32Reticle/T_UI_GlitchFrequencies.T_UI_GlitchFrequencies'
+        Name = GlitchTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[33] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=areGaugesVertical, Group=None }
+    CollectedScalarParameters[1] = { Value=-3, Name=SliceFrequency, Group=None }
+    CollectedScalarParameters[2] = { Value=0.7, Name=ReticleRadius, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=IsGlitchOn, Group=None }
+    CollectedScalarParameters[4] = { Value=0.171428, Name=ReticlePercent, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=CrossLength, Group=None }
+    CollectedScalarParameters[6] = { Value=0.015, Name=GaugeFeather, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=LinesOuterMask, Group=None }
+    CollectedScalarParameters[8] = { Value=10, Name=SliceStep, Group=None }
+    CollectedScalarParameters[9] = { Value=0.01, Name=ReticleThickness, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=AnimSpeed, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0.04
+        Name = GaugeBorderThicknessLarge
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=0.01, Name=CrossFeather, Group=None }
+    CollectedScalarParameters[13] = { Value=0.9, Name=Scale, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.4
+        Name = GaugeBackgroundOpacity
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=0.015, Name=ReticleFeather, Group=None }
+    CollectedScalarParameters[16] = { Value=3, Name=FlashStep, Group=None }
+    CollectedScalarParameters[17] = { Value=0.923809, Name=Percent, Group=None }
+    CollectedScalarParameters[18] = { Value=5, Name=FlashFrequency, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=GaugeFadeValue, Group=None }
+    CollectedScalarParameters[20] = { Value=0.5, Name=LinesInnerMask, Group=None }
+    CollectedScalarParameters[21] = { Value=0.015, Name=LinesFeather, Group=None }
+    CollectedScalarParameters[22] = { Value=0.02, Name=X-Offset, Group=None }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0.03
+        Name = ReticleThicknessCooldown
+        Group = None
+    }
+    CollectedScalarParameters[24] = { Value=0, Name=CrossRotation, Group=None }
+    CollectedScalarParameters[25] = { Value=0.25, Name=GaugeLength, Group=None }
+    CollectedScalarParameters[26] = { Value=0.002, Name=CrossThickness, Group=None }
+    CollectedScalarParameters[27] = { Value=0.015, Name=RingFeather, Group=None }
+    CollectedScalarParameters[28] = { Value=500, Name=PixelScale, Group=None }
+    CollectedScalarParameters[29] =
+    {
+        Value = 0.02
+        Name = GaugeBorderThicknessSmall
+        Group = None
+    }
+    CollectedScalarParameters[30] = { Value=0.3, Name=GaugeRadius, Group=None }
+    CollectedScalarParameters[31] = { Value=0.02, Name=Y-Offset, Group=None }
+    CollectedScalarParameters[32] = { Value=0.1, Name=GaugeThickness, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.723958, G=0.0113118, B=0.0751725, A=1 }
+        Name = ReticleColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.006995, G=0.514918, B=0.327778, A=1 }
+        Name = MainColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

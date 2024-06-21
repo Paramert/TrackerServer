@@ -1,0 +1,477 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Hand.T_Blood_Hand'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_PowerArm_Veins_01.T_PowerArm_Veins_01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Sphere_Tileable.T_Sphere_Tileable'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_WaterNormal3.T_WaterNormal3'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[43] =
+                {
+                    ParameterInfos[0] = { Name=RotationRadius }
+                    ParameterInfos[1] = { Name=00 - OpacityNormalDetails }
+                    ParameterInfos[2] = { Name=Opacity_VertexNM }
+                    ParameterInfos[3] = { Name=WindWeight }
+                    ParameterInfos[4] = { Name=Mask_radius }
+                    ParameterInfos[5] = { Name=Rotation Variation Speed }
+                    ParameterInfos[6] = { Name=WindInt }
+                    ParameterInfos[7] = { Name=WPO A - Size }
+                    ParameterInfos[8] = { Name=WPO A - Y Tiling }
+                    ParameterInfos[9] = { Name=01 - N2 - ScaleTilling_X }
+                    ParameterInfos[10] = { Name=WPO B - Size Variation Speed }
+                    ParameterInfos[11] = { Name=02 - Power_reflect }
+                    ParameterInfos[12] = { Name=WPO A - Size Variation Speed }
+                    ParameterInfos[13] = { Name=WPO A - X Tiling }
+                    ParameterInfos[14] = { Name=Stretch Intensity }
+                    ParameterInfos[15] = { Name=WPO Strenght 01 }
+                    ParameterInfos[16] = { Name=01 - N2 - ScaleTilling_Y }
+                    ParameterInfos[17] = { Name=Opacity_WPO_Texture }
+                    ParameterInfos[18] = { Name=01 - Opacity_Distortion }
+                    ParameterInfos[19] = { Name=Scale }
+                    ParameterInfos[20] = { Name=Mask Falloff }
+                    ParameterInfos[21] = { Name=OpacityVector }
+                    ParameterInfos[22] = { Name=Emissive Intensity }
+                    ParameterInfos[23] = { Name=TextureTilling }
+                    ParameterInfos[24] = { Name=FresnelIntensity }
+                    ParameterInfos[25] = { Name=WPO B - Size }
+                    ParameterInfos[26] = { Name=01 - N1 - ScaleTilling_X }
+                    ParameterInfos[27] = { Name=WindSpeed }
+                    ParameterInfos[28] = { Name=02 - Softness_Reflect }
+                    ParameterInfos[29] = { Name=Flowmap Intensity }
+                    ParameterInfos[30] = { Name=Blend_Amount }
+                    ParameterInfos[31] = { Name=01 - N1 - ScaleTilling_Y }
+                    ParameterInfos[32] = { Name=RotationTimeMult }
+                    ParameterInfos[33] = { Name=WPO Strenght 02 }
+                    ParameterInfos[34] = { Name=Speed }
+                    ParameterInfos[35] = { Name=Erosion Level }
+                    ParameterInfos[36] = { Name=WPO B - Speed Y }
+                    ParameterInfos[37] = { Name=WPO B - Speed X }
+                    ParameterInfos[38] = { Name=WPO Add_ Tilling }
+                    ParameterInfos[39] = { Name=Rotation Controller }
+                    ParameterInfos[40] = { Name=TillingDetails }
+                    ParameterInfos[41] = { Name=02 - Opacity_reflect }
+                    ParameterInfos[42] = { Name=Contrast_WPO_Texture }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=WPO A - Max Size }
+                    ParameterInfos[1] = { Name=Pivot }
+                    ParameterInfos[2] = { Name=Speed_Details }
+                    ParameterInfos[3] = { Name=01 - Speed_Distortion }
+                    ParameterInfos[4] = { Name=LookAtVector }
+                    ParameterInfos[5] = { Name=WPO_Strenght_02_Direction }
+                    ParameterInfos[6] = { Name=WPO B - Max Size }
+                    ParameterInfos[7] = { Name=01 - N2 - Speed_Normal }
+                    ParameterInfos[8] = { Name=AdditionnalWPO }
+                    ParameterInfos[9] = { Name=02 - Color Reflection }
+                    ParameterInfos[10] = { Name=Pivot_Point }
+                    ParameterInfos[11] = { Name=RotationAxis }
+                    ParameterInfos[12] = { Name=WPO A - Min Size }
+                    ParameterInfos[13] = { Name=WPO_Strenght_01_Direction }
+                    ParameterInfos[14] = { Name=01 - N1 - Speed_Normal }
+                    ParameterInfos[15] = { Name=Speed_PannerWPO }
+                    ParameterInfos[16] = { Name=WPO B - Min Size }
+                    ParameterInfos[17] = { Name=Fresnel Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=01 - Add Normal Details_02 }
+                    ParameterInfos[1] = { Name=02 - Add Normal Reflection Map }
+                    ParameterInfos[2] = { Name=ColorRamp }
+                    ParameterInfos[3] = { Name=Texture }
+                    ParameterInfos[4] = { Name=WPO_Texture }
+                    ParameterInfos[5] = { Name=Texture Detail }
+                    ParameterInfos[6] = { Name=Flowmap }
+                    ParameterInfos[7] = { Name=01 - Add Normal Details_01 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[43] =
+        {
+            ScalarValues[0] = 1000
+            ScalarValues[1] = 0
+            ScalarValues[2] = 23.0655
+            ScalarValues[3] = 0
+            ScalarValues[4] = 350
+            ScalarValues[5] = 0.1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 16
+            ScalarValues[8] = 0.75
+            ScalarValues[9] = 2
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 2
+            ScalarValues[12] = 0.1
+            ScalarValues[13] = 0.75
+            ScalarValues[14] = 0
+            ScalarValues[15] = 59.1338
+            ScalarValues[16] = 2
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0.01
+            ScalarValues[19] = 0
+            ScalarValues[20] = 1.5
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0.035
+            ScalarValues[23] = 588.544
+            ScalarValues[24] = 1
+            ScalarValues[25] = 32
+            ScalarValues[26] = 2
+            ScalarValues[27] = 0
+            ScalarValues[28] = 6
+            ScalarValues[29] = 0.5
+            ScalarValues[30] = 1
+            ScalarValues[31] = 2
+            ScalarValues[32] = 0
+            ScalarValues[33] = 92.9368
+            ScalarValues[34] = 0.17381
+            ScalarValues[35] = -0.5
+            ScalarValues[36] = 0.25
+            ScalarValues[37] = -0.01
+            ScalarValues[38] = 1
+            ScalarValues[39] = 1
+            ScalarValues[40] = 1
+            ScalarValues[41] = 5
+            ScalarValues[42] = 2
+        }
+        VectorValues[18] =
+        {
+            VectorValues[0] = { R=3, G=3, B=3, A=1 }
+            VectorValues[1] = { R=0, G=0, B=-5, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0.5, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=1, A=1 }
+            VectorValues[5] = { R=0, G=0, B=1, A=1 }
+            VectorValues[6] = { R=3, G=3, B=3, A=1 }
+            VectorValues[7] = { R=0, G=-0.5, B=0, A=1 }
+            VectorValues[8] = { R=0, G=0, B=0, A=1 }
+            VectorValues[9] = { R=0.5, G=0.39, B=0.39, A=1 }
+            VectorValues[10] = { R=0, G=0, B=0, A=1 }
+            VectorValues[11] = { R=0, G=1, B=1, A=0 }
+            VectorValues[12] = { R=-2, G=-2, B=-2, A=1 }
+            VectorValues[13] = { R=0, G=1, B=1, A=1 }
+            VectorValues[14] = { R=0, G=-1, B=0, A=1 }
+            VectorValues[15] = { R=0, G=0, B=0, A=1 }
+            VectorValues[16] = { R=-2, G=-2, B=-2, A=1 }
+            VectorValues[17] = { R=1, G=0.001, B=0, A=1 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Hand.T_Blood_Hand'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Sphere_Tileable.T_Sphere_Tileable'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/T_PowerArm_Veins_01.T_PowerArm_Veins_01'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_WaterNormal3.T_WaterNormal3'
+            TextureValues[7] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        }
+    }
+    ReferencedTextures[11] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Sphere_Tileable.T_Sphere_Tileable'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal3.T_WaterNormal3'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Hand.T_Blood_Hand'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_PowerArm_Veins_01.T_PowerArm_Veins_01'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = 01 - Add Normal Details_02
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = 02 - Add Normal Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Hand.T_Blood_Hand'
+        Name = ColorRamp
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Sphere_Tileable.T_Sphere_Tileable'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_PowerArm_Veins_01.T_PowerArm_Veins_01'
+        Name = WPO_Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        Name = Texture Detail
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal3.T_WaterNormal3'
+        Name = Flowmap
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = 01 - Add Normal Details_01
+        Group = None
+    }
+}
+CollectedScalarParameters[43] =
+{
+    CollectedScalarParameters[0] = { Value=1000, Name=RotationRadius, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = 00 - OpacityNormalDetails
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=23.0655, Name=Opacity_VertexNM, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=WindWeight, Group=None }
+    CollectedScalarParameters[4] = { Value=350, Name=Mask_radius, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.1
+        Name = Rotation Variation Speed
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0, Name=WindInt, Group=None }
+    CollectedScalarParameters[7] = { Value=16, Name=WPO A - Size, Group=None }
+    CollectedScalarParameters[8] = { Value=0.75, Name=WPO A - Y Tiling, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 2
+        Name = 01 - N2 - ScaleTilling_X
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.5
+        Name = WPO B - Size Variation Speed
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=2, Name=02 - Power_reflect, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.1
+        Name = WPO A - Size Variation Speed
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0.75, Name=WPO A - X Tiling, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Stretch Intensity, Group=None }
+    CollectedScalarParameters[15] = { Value=59.1338, Name=WPO Strenght 01, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 2
+        Name = 01 - N2 - ScaleTilling_Y
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=1, Name=Opacity_WPO_Texture, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0.01
+        Name = 01 - Opacity_Distortion
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=0, Name=Scale, Group=None }
+    CollectedScalarParameters[20] = { Value=1.5, Name=Mask Falloff, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=OpacityVector, Group=None }
+    CollectedScalarParameters[22] = { Value=0.035, Name=Emissive Intensity, Group=None }
+    CollectedScalarParameters[23] = { Value=588.544, Name=TextureTilling, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=FresnelIntensity, Group=None }
+    CollectedScalarParameters[25] = { Value=32, Name=WPO B - Size, Group=None }
+    CollectedScalarParameters[26] =
+    {
+        Value = 2
+        Name = 01 - N1 - ScaleTilling_X
+        Group = None
+    }
+    CollectedScalarParameters[27] = { Value=0, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[28] = { Value=6, Name=02 - Softness_Reflect, Group=None }
+    CollectedScalarParameters[29] = { Value=0.5, Name=Flowmap Intensity, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=Blend_Amount, Group=None }
+    CollectedScalarParameters[31] =
+    {
+        Value = 2
+        Name = 01 - N1 - ScaleTilling_Y
+        Group = None
+    }
+    CollectedScalarParameters[32] = { Value=0, Name=RotationTimeMult, Group=None }
+    CollectedScalarParameters[33] = { Value=92.9368, Name=WPO Strenght 02, Group=None }
+    CollectedScalarParameters[34] = { Value=0.17381, Name=Speed, Group=None }
+    CollectedScalarParameters[35] = { Value=-0.5, Name=Erosion Level, Group=None }
+    CollectedScalarParameters[36] = { Value=0.25, Name=WPO B - Speed Y, Group=None }
+    CollectedScalarParameters[37] = { Value=-0.01, Name=WPO B - Speed X, Group=None }
+    CollectedScalarParameters[38] = { Value=1, Name=WPO Add_ Tilling, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=Rotation Controller, Group=None }
+    CollectedScalarParameters[40] = { Value=1, Name=TillingDetails, Group=None }
+    CollectedScalarParameters[41] = { Value=5, Name=02 - Opacity_reflect, Group=None }
+    CollectedScalarParameters[42] = { Value=2, Name=Contrast_WPO_Texture, Group=None }
+}
+CollectedVectorParameters[18] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=3, G=3, B=3, A=1 }
+        Name = WPO A - Max Size
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=-5, A=1 }
+        Name = Pivot
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Speed_Details
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0.5, B=0, A=1 }
+        Name = 01 - Speed_Distortion
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = LookAtVector
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = WPO_Strenght_02_Direction
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=3, G=3, B=3, A=1 }
+        Name = WPO B - Max Size
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=-0.5, B=0, A=1 }
+        Name = 01 - N2 - Speed_Normal
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = AdditionnalWPO
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.5, G=0.39, B=0.39, A=1 }
+        Name = 02 - Color Reflection
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Pivot_Point
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=1, B=1, A=0 }
+        Name = RotationAxis
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=-2, G=-2, B=-2, A=1 }
+        Name = WPO A - Min Size
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=1, B=1, A=1 }
+        Name = WPO_Strenght_01_Direction
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0, G=-1, B=0, A=1 }
+        Name = 01 - N1 - Speed_Normal
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Speed_PannerWPO
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=-2, G=-2, B=-2, A=1 }
+        Name = WPO B - Min Size
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=1, G=0.001, B=0, A=1 }
+        Name = Fresnel Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Blood_Hand
+    }
+}

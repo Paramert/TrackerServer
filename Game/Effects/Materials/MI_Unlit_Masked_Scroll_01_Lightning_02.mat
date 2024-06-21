@@ -1,0 +1,5 @@
+Diffuse=T_Gradient_Blackbody_01
+Emissive=T_Tiling_Gaussian_01
+Other[0]=HorizontalGradient
+Other[1]=T_Tiling_Caustics_02
+Other[2]=T_Trail_Mask

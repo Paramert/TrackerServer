@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_TrimMetal03_B.MI_Foundry_TrimMetal03_B'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_TrimMetal02.MI_Foundry_TrimMetal02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_Jnk_Garage_Tiles_Dirty_01.MI_Jnk_Garage_Tiles_Dirty_01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_JNK_Concrete_Garage_01.MI_JNK_Concrete_Garage_01'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/MI_GS_Concrete02.MI_GS_Concrete02'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_TrimMetal03_B.MI_Foundry_TrimMetal03_B'
+        MaterialSlotName = MI_Foundry_TrimMetal03_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.924, 2404.47, 3086.85, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_TrimMetal02.MI_Foundry_TrimMetal02'
+        MaterialSlotName = MI_Foundry_TrimMetal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 254.681, 2400.29, 3076.32, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_Jnk_Garage_Tiles_Dirty_01.MI_Jnk_Garage_Tiles_Dirty_01'
+        MaterialSlotName = MI_Jnk_Garage_Tiles_Dirty_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 861.356, 2577.73, 3136.42, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_JNK_Concrete_Garage_01.MI_JNK_Concrete_Garage_01'
+        MaterialSlotName = MI_JNK_Concrete_Garage_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 167.467, 0, 2805.44, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_GS_Concrete02.MI_GS_Concrete02'
+        MaterialSlotName = MI_GS_Concrete02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1454.06, 2397.93, 2972.93, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=796.544, Y=-826.099, Z=354.366 }
+    BoxExtent = { X=622.402, Y=568.922, Z=368.122 }
+    SphereRadius = 859.86
+}

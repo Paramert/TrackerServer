@@ -1,0 +1,5 @@
+Diffuse=T_GuideDialog_Noise
+Normal=DefaultNormal
+Opacity=T_GuideDialog_Noise
+Other[0]=T_UI_NoiseRGB
+Other[1]=DefaultTexture

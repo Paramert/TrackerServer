@@ -1,0 +1,10 @@
+Diffuse=Moss_diffuse
+Normal=FlatNormal
+Other[0]=DefaultDiffuse
+Other[1]=T_FlatNormal_01
+Other[2]=T_HOS_BathTubPipe_R
+Other[3]=Black
+Other[4]=White
+Other[5]=White_Linear
+Other[6]=Yellow_Linear
+Other[7]=T_CrawlingMoss_Mask_01

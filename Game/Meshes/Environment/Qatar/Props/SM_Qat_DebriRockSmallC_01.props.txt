@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Debris01.MI_Qat_Debris01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Debris01.MI_Qat_Debris01'
+        MaterialSlotName = MI_Qat_Debris01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 83.9142, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.841259, Y=-0.0517597, Z=-2.33288 }
+    BoxExtent = { X=9.66952, Y=9.8573, Z=7.221 }
+    SphereRadius = 11.9028
+}

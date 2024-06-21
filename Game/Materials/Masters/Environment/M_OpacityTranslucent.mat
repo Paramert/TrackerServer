@@ -1,0 +1,10 @@
+Diffuse=T_DiffuseWithAlpha_Default
+Normal=T_NormalMap_Default
+Opacity=T_DiffuseWithAlpha_Default
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=T_MRH_Default
+Other[4]=T_RgbMask_Default
+Other[5]=T_RgbMaskWithAlpha_Default
+Other[6]=Topanga_Forest_B_Env

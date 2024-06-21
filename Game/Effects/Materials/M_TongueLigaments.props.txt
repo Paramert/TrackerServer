@@ -1,0 +1,137 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Characters/Campers/CommonAcc/Textures/Tongue/T_CMMTongue01_BC.T_CMMTongue01_BC'
+    ReferencedTextures[2] = Texture2D'/Game/Characters/Campers/CommonAcc/Textures/Tongue/T_CMMTongue01_N.T_CMMTongue01_N'
+    ReferencedTextures[3] = Texture2D'/Game/Characters/Campers/CommonAcc/Textures/Tongue/T_CMMTongue01_ORM.T_CMMTongue01_ORM'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Fxt_StetchedBeam.Fxt_StetchedBeam'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Fxt_StetchedBeam_HM.Fxt_StetchedBeam_HM'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Emissive }
+                    ParameterInfos[1] = { Name=BlendIntensity (S) }
+                    ParameterInfos[2] = { Name=Contrast (S) }
+                    ParameterInfos[3] = { Name=BaseIntensity (S) }
+                    ParameterInfos[4] = { Name=MultMaskByTexture }
+                    ParameterInfos[5] = { Name=UV }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Offset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=GradientMask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0.1, 5, 0.5, 0.5, 1, 0.4 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.8, G=0.25, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Fxt_StetchedBeam_HM.Fxt_StetchedBeam_HM'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Characters/Campers/CommonAcc/Textures/Tongue/T_CMMTongue01_ORM.T_CMMTongue01_ORM'
+        ReferencedTextures[1] = Texture2D'/Game/Characters/Campers/CommonAcc/Textures/Tongue/T_CMMTongue01_N.T_CMMTongue01_N'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Fxt_StetchedBeam.Fxt_StetchedBeam'
+        ReferencedTextures[3] = Texture2D'/Game/Characters/Campers/CommonAcc/Textures/Tongue/T_CMMTongue01_BC.T_CMMTongue01_BC'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/Fxt_StetchedBeam_HM.Fxt_StetchedBeam_HM'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Fxt_StetchedBeam_HM.Fxt_StetchedBeam_HM'
+        Name = GradientMask
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Emissive, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=BlendIntensity (S), Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=Contrast (S), Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=BaseIntensity (S), Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=MultMaskByTexture, Group=None }
+    CollectedScalarParameters[5] = { Value=0.4, Name=UV, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.8, G=0.25, B=0, A=1 }
+        Name = Offset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fxt_StetchedBeam
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fxt_StetchedBeam_HM
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.40625
+        UVChannelIndex = 0
+        TextureName = T_CMMTongue01_BC
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.40625
+        UVChannelIndex = 0
+        TextureName = T_CMMTongue01_N
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 0.40625
+        UVChannelIndex = 0
+        TextureName = T_CMMTongue01_ORM
+    }
+}

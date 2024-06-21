@@ -1,0 +1,199 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Veins03.T_Veins03'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+    ReferencedTextures[5] = Texture2D'/Game/StarterContent/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[21] =
+                {
+                    ParameterInfos[0] = { Name=MF_PP_DiskDiscard_Radius }
+                    ParameterInfos[1] = { Name=SpeedX_2 }
+                    ParameterInfos[2] = { Name=Mask_Radius }
+                    ParameterInfos[3] = { Name=SpeedX_1 }
+                    ParameterInfos[4] = { Name=Mask_Hardness }
+                    ParameterInfos[5] = { Name=F_Pulse Time }
+                    ParameterInfos[6] = { Name=SpeedY_3 }
+                    ParameterInfos[7] = { Name=SpeedY_1 }
+                    ParameterInfos[8] = { Name=MaskAmount }
+                    ParameterInfos[9] = { Name=SpeedY_2 }
+                    ParameterInfos[10] = { Name=RadialScaling }
+                    ParameterInfos[11] = { Name=F_Pulse Size -Max }
+                    ParameterInfos[12] = { Name=F_Pulse Size -Min }
+                    ParameterInfos[13] = { Name=DepthTest }
+                    ParameterInfos[14] = { Name=Veins }
+                    ParameterInfos[15] = { Name=F_Mask_Hardness }
+                    ParameterInfos[16] = { Name=VignetteBolt_Fade }
+                    ParameterInfos[17] = { Name=DetailMaskPower }
+                    ParameterInfos[18] = { Name=Opacity }
+                    ParameterInfos[19] = { Name=SpeedX_3 }
+                    ParameterInfos[20] = { Name=Frenzy Controller }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Colour }
+                    ParameterInfos[1] = { Name=Frenzy Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Smoke }
+                    ParameterInfos[1] = { Name=Break }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[21] =
+        {
+            ScalarValues[0] = 0.45
+            ScalarValues[1] = 0.01
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.3
+            ScalarValues[5] = 2
+            ScalarValues[6] = -0.3
+            ScalarValues[7] = -0.1
+            ScalarValues[8] = 1
+            ScalarValues[9] = -0.01
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1.7
+            ScalarValues[12] = 1.9
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0.3
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0.2
+            ScalarValues[18] = 0.5
+            ScalarValues[19] = -0.1
+            ScalarValues[20] = 0
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=0.425999, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Veins03.T_Veins03'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+        ReferencedTextures[1] = Texture2D'/Game/StarterContent/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Veins03.T_Veins03'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+        Name = Smoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins03.T_Veins03'
+        Name = Break
+        Group = None
+    }
+}
+CollectedScalarParameters[21] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.45
+        Name = MF_PP_DiskDiscard_Radius
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0.01, Name=SpeedX_2, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=SpeedX_1, Group=None }
+    CollectedScalarParameters[4] = { Value=0.3, Name=Mask_Hardness, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=F_Pulse Time, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.3, Name=SpeedY_3, Group=None }
+    CollectedScalarParameters[7] = { Value=-0.1, Name=SpeedY_1, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=MaskAmount, Group=None }
+    CollectedScalarParameters[9] = { Value=-0.01, Name=SpeedY_2, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=RadialScaling, Group=None }
+    CollectedScalarParameters[11] = { Value=1.7, Name=F_Pulse Size -Max, Group=None }
+    CollectedScalarParameters[12] = { Value=1.9, Name=F_Pulse Size -Min, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=DepthTest, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Veins, Group=None }
+    CollectedScalarParameters[15] = { Value=0.3, Name=F_Mask_Hardness, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=VignetteBolt_Fade, Group=None }
+    CollectedScalarParameters[17] = { Value=0.2, Name=DetailMaskPower, Group=None }
+    CollectedScalarParameters[18] = { Value=0.5, Name=Opacity, Group=None }
+    CollectedScalarParameters[19] = { Value=-0.1, Name=SpeedX_3, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=Frenzy Controller, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Colour
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.425999, B=0, A=1 }
+        Name = Frenzy Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Veins
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Veins2
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Veins_04
+    }
+}

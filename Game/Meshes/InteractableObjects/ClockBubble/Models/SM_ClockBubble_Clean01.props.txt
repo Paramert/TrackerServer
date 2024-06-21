@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/ClockBubble/Materials/MI_ClockBubble_DrawerClean01.MI_ClockBubble_DrawerClean01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/ClockBubble/Materials/MI_ClockBubble_DrawerClean01.MI_ClockBubble_DrawerClean01'
+        MaterialSlotName = MI_ClockBubble_DrawerClean01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 170.677, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-06, Y=1.09286, Z=43.4042 }
+    BoxExtent = { X=59.3801, Y=30.7544, Z=43.4042 }
+    SphereRadius = 79.723
+}

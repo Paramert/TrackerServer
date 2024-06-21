@@ -1,0 +1,17 @@
+Diffuse=T_Qat_AlphaPattern01
+Normal=T_Qat_AlphaPattern01_N
+Opacity=T_Qat_AlphaPattern01_A
+Other[0]=T_FishNet01_CAO
+Other[1]=HeatmapGradient
+Other[2]=DefaultDiffuse
+Other[3]=FlatNormal
+Other[4]=environment_mud_diffuse
+Other[5]=environment_mud_N
+Other[6]=T_Brick01_BC
+Other[7]=Black
+Other[8]=Black_Linear
+Other[9]=Green_Linear
+Other[10]=White
+Other[11]=Yellow_Linear
+Other[12]=Moss_diffuse
+Other[13]=T_CrawlingMoss_Mask_01

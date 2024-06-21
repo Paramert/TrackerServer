@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Closets/Materials/MI_ClosetWood02.MI_ClosetWood02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Closets/Materials/MI_ClosetWood02.MI_ClosetWood02'
+        MaterialSlotName = MI_ClosetWood02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 310.48, 639.044, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00326538, Y=-3.628, Z=121.093 }
+    BoxExtent = { X=53.3284, Y=44.5086, Z=121.132 }
+    SphereRadius = 136.976
+}

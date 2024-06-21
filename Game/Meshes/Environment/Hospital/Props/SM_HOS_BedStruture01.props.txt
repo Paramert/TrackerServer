@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_BedStucture01.MI_HOS_BedStucture01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_BedStucture01.MI_HOS_BedStucture01'
+        MaterialSlotName = MI_HOS_BedStucture01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 195.407, 195.18, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=10.3272, Z=163.225 }
+    BoxExtent = { X=60.2832, Y=121.335, Z=93.0613 }
+    SphereRadius = 161.368
+}

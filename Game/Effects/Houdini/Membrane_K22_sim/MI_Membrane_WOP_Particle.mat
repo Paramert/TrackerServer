@@ -1,0 +1,10 @@
+Diffuse=T_Dissolve_spiderthingBlurred
+Normal=T_WAL_FleshWall01_N
+SpecPower=T_Dissolve_spiderthingBlurred
+Opacity=T_Veins
+Other[0]=T_Dust_Noise_02
+Other[1]=T_BurnedAsh
+Other[2]=T_reflection_map_01
+Other[3]=T_SmokeTile
+Other[4]=T_Tilling_Distortion_Map_01
+Other[5]=T_WAL_FleshWall01_BC

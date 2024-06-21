@@ -1,0 +1,69 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/T_Puddlemap2.T_Puddlemap2'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/Liquid/T_Puddlemap2.T_Puddlemap2'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/T_Puddlemap2.T_Puddlemap2'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/T_Puddlemap2.T_Puddlemap2'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

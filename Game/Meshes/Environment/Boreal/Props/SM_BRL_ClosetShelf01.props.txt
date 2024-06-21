@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_Shelves01.MI_BRL_Shelves01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_Shelves01.MI_BRL_Shelves01'
+        MaterialSlotName = MI_BRL_Shelves01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.388, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.261269, Y=-8.2634, Z=7.62939e-06 }
+    BoxExtent = { X=51.0335, Y=8.58904, Z=9.05878 }
+    SphereRadius = 52.5169
+}

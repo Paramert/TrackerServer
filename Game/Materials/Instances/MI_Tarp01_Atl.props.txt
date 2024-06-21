@@ -1,0 +1,194 @@
+Parent = Material3'/Game/Effects/Materials/Flags/Assets/Materials/M_Flag.M_Flag'
+ScalarParameterValues[17] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=FallOffVetexMask }
+        ParameterValue = 2.75145
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 0.566372
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=SSSAmount }
+        ParameterValue = 0.495497
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=SSSBrightness }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=DirectionJiggleSpeedWave }
+        ParameterValue = 0.355581
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=DirectionJiggleWave }
+        ParameterValue = 0.105668
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=DirectionWave }
+        ParameterValue = 4.14506
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=HeightWave1 }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=ScaleWave }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=SpeedWave }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=DirectionJiggleSpeedWave2 }
+        ParameterValue = 0.119454
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=DirectionJiggleWave2 }
+        ParameterValue = 0.390357
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=DirectionWave2 }
+        ParameterValue = 4.19963
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=HeightWave2 }
+        ParameterValue = 25
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=ScaleWave2 }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=SpeedWave2 }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Texture }
+        ParameterValue = Texture2D'/Game/Textures/Props/T_Tarps_BC.T_Tarps_BC'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.65, G=0.619637, B=0.600497, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color2 }
+        ParameterValue = { R=0.915, G=0.915, B=0.915, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=NormalDirectionMultiplierWave1 }
+        ParameterValue = { R=-0.331859, G=-0.526549, B=-0.587575, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=NormalDirectionMultiplierWave2 }
+        ParameterValue = { R=0.150443, G=0.132743, B=-0.557522, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = true
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = true
+    OpacityMaskClipValue = 0.8
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[3] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_UnrealEngineDecal.T_UnrealEngineDecal'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_Flag_N.T_Flag_N'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Materials/Flags/Assets/Texture/T_Flag_N2.T_Flag_N2'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.203125
+        UVChannelIndex = 0
+        TextureName = T_Flag_N
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.09375
+        UVChannelIndex = 0
+        TextureName = T_Flag_N2
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tarps_BC
+    }
+}

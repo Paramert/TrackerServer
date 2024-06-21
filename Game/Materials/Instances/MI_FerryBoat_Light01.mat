@@ -1,0 +1,6 @@
+Diffuse=T_SwampFerryBoat_Light01_BC
+Opacity=T_SwampFerryBoat_Light01_EMask
+Other[0]=T_Brick01_BC
+Other[1]=Black
+Other[2]=Black_Linear
+Other[3]=T_Normal_Noise

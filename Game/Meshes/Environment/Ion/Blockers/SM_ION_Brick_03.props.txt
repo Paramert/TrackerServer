@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_01_Sand.MI_ION_BigStone_01_Sand'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_01_Sand.MI_ION_BigStone_01_Sand'
+        MaterialSlotName = MI_ION_BigStone_01_Sand
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 422.103, 234.397, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.05498, Y=-0.891045, Z=-0.00163651 }
+    BoxExtent = { X=33.3382, Y=70.8227, Z=33.5844 }
+    SphereRadius = 82.4923
+}

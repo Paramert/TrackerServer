@@ -1,0 +1,131 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion.T_Blood_Erosion'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_Shiny_MC.T_FX_Shiny_MC'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/SphereNormalPortal.SphereNormalPortal'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=NoiseUVs }
+                    ParameterInfos[1] = { Name=EmissiveStrength }
+                    ParameterInfos[2] = { Name=SceneColorAmount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Param_1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 2, 0.01, 0.75 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.1, G=0.2, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/SphereNormalPortal.SphereNormalPortal'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion.T_Blood_Erosion'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion.T_Blood_Erosion'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/SphereNormalPortal.SphereNormalPortal'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_Shiny_MC.T_FX_Shiny_MC'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/SphereNormalPortal.SphereNormalPortal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion.T_Blood_Erosion'
+        Name = Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=NoiseUVs, Group=None }
+    CollectedScalarParameters[1] = { Value=0.01, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[2] = { Value=0.75, Name=SceneColorAmount, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1, G=0.2, B=0, A=1 }
+        Name = Param_1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SphereNormalPortal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Blood_Erosion
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FSbloodmist
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_N
+    }
+}

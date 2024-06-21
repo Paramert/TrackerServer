@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/InteractableObjects/SpecialEvents/partygame/MI_Partygame_Dirtpile.MI_Partygame_Dirtpile'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/InteractableObjects/SpecialEvents/partygame/MI_Partygame_Dirtpile.MI_Partygame_Dirtpile'
+        MaterialSlotName = MI_Partygame_Dirtpile
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 211.581, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.58063, Y=-8.38033, Z=44.1253 }
+    BoxExtent = { X=68.2113, Y=63.7436, Z=44.2769 }
+    SphereRadius = 88.8405
+}

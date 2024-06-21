@@ -1,0 +1,219 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Vortex_Rift_01.T_Vortex_Rift_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[20] =
+                {
+                    ParameterInfos[0] = { Name=Veins_Radius }
+                    ParameterInfos[1] = { Name=SecondOutline_Rift_Opacity }
+                    ParameterInfos[2] = { Name=Intensity_Glow_Outline }
+                    ParameterInfos[3] = { Name=Veins_Density }
+                    ParameterInfos[4] = { Name=Opacity_Outline_Particle }
+                    ParameterInfos[5] = { Name=VClouds_Smooth_max }
+                    ParameterInfos[6] = { Name=Overall_Emissive }
+                    ParameterInfos[7] = { Name=VClouds_Smooth_min }
+                    ParameterInfos[8] = { Name=Opacity_Disto_Outline }
+                    ParameterInfos[9] = { Name=Scale_Disto_Veins }
+                    ParameterInfos[10] = { Name=SVCloud_Density }
+                    ParameterInfos[11] = { Name=Texture Scale }
+                    ParameterInfos[12] = { Name=Intensity_Glow_Outline_Power }
+                    ParameterInfos[13] = { Name=Blackhole_Contrast }
+                    ParameterInfos[14] = { Name=SVCloud_Radius }
+                    ParameterInfos[15] = { Name=Fade_distance }
+                    ParameterInfos[16] = { Name=Blackhole_opacity }
+                    ParameterInfos[17] = { Name=Blackhole_density }
+                    ParameterInfos[18] = { Name=Veins_Exp_power }
+                    ParameterInfos[19] = { Name=BH_Stars_opacity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Scale_VeinsByCenter }
+                    ParameterInfos[1] = { Name=SpeedVeins_panner }
+                    ParameterInfos[2] = { Name=Split_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Rift_Texture }
+                    ParameterInfos[1] = { Name=Texture_Veins }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[20] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 0.25
+            ScalarValues[9] = 0.5
+            ScalarValues[10] = 2.33
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0.1
+            ScalarValues[14] = 0.5
+            ScalarValues[15] = 30
+            ScalarValues[16] = 1
+            ScalarValues[17] = 5
+            ScalarValues[18] = 2
+            ScalarValues[19] = 30
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=1 }
+            VectorValues[1] = { R=0, G=-1, B=0, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Vortex_Rift_01.T_Vortex_Rift_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Vortex_Rift_01.T_Vortex_Rift_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Vortex_Rift_01.T_Vortex_Rift_01'
+        Name = Rift_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+        Name = Texture_Veins
+        Group = None
+    }
+}
+CollectedScalarParameters[20] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Veins_Radius, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = SecondOutline_Rift_Opacity
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=Intensity_Glow_Outline, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Veins_Density, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = Opacity_Outline_Particle
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=VClouds_Smooth_max, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Overall_Emissive, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=VClouds_Smooth_min, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0.25
+        Name = Opacity_Disto_Outline
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0.5, Name=Scale_Disto_Veins, Group=None }
+    CollectedScalarParameters[10] = { Value=2.33, Name=SVCloud_Density, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Texture Scale, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1
+        Name = Intensity_Glow_Outline_Power
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0.1, Name=Blackhole_Contrast, Group=None }
+    CollectedScalarParameters[14] = { Value=0.5, Name=SVCloud_Radius, Group=None }
+    CollectedScalarParameters[15] = { Value=30, Name=Fade_distance, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Blackhole_opacity, Group=None }
+    CollectedScalarParameters[17] = { Value=5, Name=Blackhole_density, Group=None }
+    CollectedScalarParameters[18] = { Value=2, Name=Veins_Exp_power, Group=None }
+    CollectedScalarParameters[19] = { Value=30, Name=BH_Stars_opacity, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = Scale_VeinsByCenter
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=-1, B=0, A=1 }
+        Name = SpeedVeins_panner
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Split_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DustParticles_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Vortex_Rift_01
+    }
+}

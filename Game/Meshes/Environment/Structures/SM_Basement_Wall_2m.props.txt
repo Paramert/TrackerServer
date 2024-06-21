@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_WoodWall_Basement01.MI_WoodWall_Basement01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_WoodWall_Basement02.MI_WoodWall_Basement02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_WoodWallMetal_Basement01.MI_WoodWallMetal_Basement01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_WoodWall_Basement01.MI_WoodWall_Basement01'
+        MaterialSlotName = MI_WoodWall_Basement01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 171.833, 1229.76, 968.392, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_WoodWall_Basement02.MI_WoodWall_Basement02'
+        MaterialSlotName = MI_WoodWall_Basement02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 172.565, 1228.32, 970.911, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_WoodWallMetal_Basement01.MI_WoodWallMetal_Basement01'
+        MaterialSlotName = MI_WoodWallMetal_Basement01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 74.54, 1199.51, 954.863, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.6205, Y=102.854, Z=260.219 }
+    BoxExtent = { X=36.1512, Y=134.058, Z=294.898 }
+    SphereRadius = 315.232
+}

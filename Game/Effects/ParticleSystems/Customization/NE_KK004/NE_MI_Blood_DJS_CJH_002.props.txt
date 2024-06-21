@@ -1,0 +1,102 @@
+Parent = MaterialInstanceConstant'/Game/Effects/Materials/Liquid/GlowyJuice/MI_HalloweenJuice.MI_HalloweenJuice'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Erosion Texture RG }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_05.T_Saliva_Drop_05'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Blood Color light }
+        ParameterValue = { R=0.03, G=0.000877, B=0.002669, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Blood Color Outer }
+        ParameterValue = { R=0.03, G=0.000298, B=0.001193, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Blood Color Outer_02 }
+        ParameterValue = { R=0.661458, G=0, B=0.039021, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Emissive Color }
+        ParameterValue = { R=0.01, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[8] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mud_01_M
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Saliva_Drop_05
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal
+    }
+}

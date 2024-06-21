@@ -1,0 +1,13 @@
+Diffuse=T_S24HeadACC02_BC
+Normal=T_S24HeadACC02_N
+Other[0]=T_S24HeadACC02_ORM
+Other[1]=FlatNormal
+Other[2]=DefaultTexture
+Other[3]=T_Halftone
+Other[4]=T_TileNoise
+Other[5]=T_DissolveTextures
+Other[6]=T_FX_DissolveRamp
+Other[7]=T_GS_FrontSign_Flickerama
+Other[8]=Black
+Other[9]=Green_Linear
+Other[10]=Grey

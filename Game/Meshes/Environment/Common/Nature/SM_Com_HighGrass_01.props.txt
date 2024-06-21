@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_HideGrass01.MI_HideGrass01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_HideGrass01.MI_HideGrass01'
+        MaterialSlotName = MI_HideGrass01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 183.44, 538.598, 306.383, 567.429 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.98781, Y=-7.03003, Z=136.088 }
+    BoxExtent = { X=93.814, Y=89.3893, Z=144.671 }
+    SphereRadius = 160.117
+}

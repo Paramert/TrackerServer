@@ -1,0 +1,9 @@
+Diffuse=Moss_diffuse
+Normal=FlatNormal
+Other[0]=DefaultDiffuse
+Other[1]=T_FlatNormal_01
+Other[2]=T_GS_FrontSign_Flickerama
+Other[3]=Black
+Other[4]=White_Linear
+Other[5]=Yellow_Linear
+Other[6]=T_CrawlingMoss_Mask_01

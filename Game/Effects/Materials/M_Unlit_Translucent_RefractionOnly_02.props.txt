@@ -1,0 +1,151 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FX_Gradient_Radial_LightBloom_02.T_FX_Gradient_Radial_LightBloom_02'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01_N.T_Tiling_Gaussian_01_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=DistotionTilingX }
+                    ParameterInfos[1] = { Name=DistortionAmount }
+                    ParameterInfos[2] = { Name=TexPanningSpeedX }
+                    ParameterInfos[3] = { Name=RefractionAmount }
+                    ParameterInfos[4] = { Name=DepthFadeDistance }
+                    ParameterInfos[5] = { Name=FadeLength }
+                    ParameterInfos[6] = { Name=FadeOffset }
+                    ParameterInfos[7] = { Name=TwistStrength }
+                    ParameterInfos[8] = { Name=DistotionPanningSpeedY }
+                    ParameterInfos[9] = { Name=DistotionPanningSpeedX }
+                    ParameterInfos[10] = { Name=TexTilingY }
+                    ParameterInfos[11] = { Name=TristTiling }
+                    ParameterInfos[12] = { Name=TexPanningSpeedY }
+                    ParameterInfos[13] = { Name=DistotionTilingY }
+                    ParameterInfos[14] = { Name=TexTilingX }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=DistortionTex }
+                    ParameterInfos[1] = { Name=EmissiveTex }
+                    ParameterInfos[2] = { Name=ShapeMask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.01
+            ScalarValues[2] = -0.015
+            ScalarValues[3] = 2
+            ScalarValues[4] = 10
+            ScalarValues[5] = 512
+            ScalarValues[6] = 24
+            ScalarValues[7] = 0.2
+            ScalarValues[8] = -0.2
+            ScalarValues[9] = -0.03
+            ScalarValues[10] = 0.25
+            ScalarValues[11] = 1
+            ScalarValues[12] = -0.2
+            ScalarValues[13] = 0.25
+            ScalarValues[14] = 1
+        }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01_N.T_Tiling_Gaussian_01_N'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_FX_Gradient_Radial_LightBloom_02.T_FX_Gradient_Radial_LightBloom_02'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01_N.T_Tiling_Gaussian_01_N'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FX_Gradient_Radial_LightBloom_02.T_FX_Gradient_Radial_LightBloom_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01_N.T_Tiling_Gaussian_01_N'
+        Name = DistortionTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Gaussian_01.T_Tiling_Gaussian_01'
+        Name = EmissiveTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FX_Gradient_Radial_LightBloom_02.T_FX_Gradient_Radial_LightBloom_02'
+        Name = ShapeMask
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=DistotionTilingX, Group=None }
+    CollectedScalarParameters[1] = { Value=0.01, Name=DistortionAmount, Group=None }
+    CollectedScalarParameters[2] = { Value=-0.015, Name=TexPanningSpeedX, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=RefractionAmount, Group=None }
+    CollectedScalarParameters[4] = { Value=10, Name=DepthFadeDistance, Group=None }
+    CollectedScalarParameters[5] = { Value=512, Name=FadeLength, Group=None }
+    CollectedScalarParameters[6] = { Value=24, Name=FadeOffset, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=TwistStrength, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = -0.2
+        Name = DistotionPanningSpeedY
+        Group = None
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = -0.03
+        Name = DistotionPanningSpeedX
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0.25, Name=TexTilingY, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=TristTiling, Group=None }
+    CollectedScalarParameters[12] = { Value=-0.2, Name=TexPanningSpeedY, Group=None }
+    CollectedScalarParameters[13] = { Value=0.25, Name=DistotionTilingY, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=TexTilingX, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FX_Gradient_Radial_LightBloom_02
+    }
+}

@@ -1,0 +1,197 @@
+Parent = Material3'/Game/Netease/UI/UMGAssets/VX/Material/M_Golw_06_GL.M_Golw_06_GL'
+ScalarParameterValues[8] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Exp }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Speed }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tiling_U_2 }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tiling_V_2 }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MaskRotator }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Mask_Noise }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Tex2_Noise }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_014.NE_T_Noise_LyLct_014'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Mask_Noise }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_001.NE_T_Noise_TP068_001'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex_1_UV }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_NE_Event_HalloweenChallenge_Mask.T_NE_Event_HalloweenChallenge_Mask'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tex_2_uv }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Tile_tp203_001.NE_T_Tile_tp203_001'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Tex_2_Noise }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+        ParameterName = None
+    }
+}
+VectorParameterValues[6] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=1, G=0.77531, B=0.298362, A=3 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = { R=0.2, G=0.2, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mask_Noise }
+        ParameterValue = { R=4, G=4, B=-0.2, A=0.2 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tex_1 }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Tex_2 }
+        ParameterValue = { R=2, G=2, B=0, A=0.2 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Tex_2_Noise }
+        ParameterValue = { R=1, G=1, B=1, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Additive (3)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=Enable Zoom }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=VectorTo }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[1] =
+    {
+        StaticComponentMaskParameters[0] =
+        {
+            R = true
+            G = false
+            B = false
+            A = false
+            ParameterInfo = { Name=MaskRGBA }
+            bOverride = true
+        }
+    }
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_AboutFire_45.T_AboutFire_45'
+    CachedReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_05_GL.T_Nois_05_GL'
+    CachedReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_04_GL.T_Nois_04_GL'
+    CachedReferencedTextures[3] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+    CachedReferencedTextures[4] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_Noise_LyLct_014
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 2
+        TextureName = NE_T_Tile_tp203_001
+    }
+}

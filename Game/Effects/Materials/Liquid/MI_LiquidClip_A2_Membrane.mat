@@ -1,0 +1,7 @@
+Diffuse=White
+Normal=T_FlatNormal_01
+Other[0]=T_Liquid_Clip_C
+Other[1]=T_Liquid_Clip_A
+Other[2]=T_Mud
+Other[3]=T_Mud_N
+Other[4]=T_Noise_N_02

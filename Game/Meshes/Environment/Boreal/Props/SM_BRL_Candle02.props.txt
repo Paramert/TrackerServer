@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_MeltCadelWax.MI_BRL_MeltCadelWax'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_MeltCadelWax.MI_BRL_MeltCadelWax'
+        MaterialSlotName = MI_BRL_MeltCadelWax
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 39.3282, 13.3114, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0377183, Y=-0.152038, Z=2.09435 }
+    BoxExtent = { X=2.01609, Y=2.17774, Z=2.55022 }
+    SphereRadius = 3.44682
+}

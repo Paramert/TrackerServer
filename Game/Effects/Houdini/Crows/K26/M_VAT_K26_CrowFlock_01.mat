@@ -1,0 +1,14 @@
+Diffuse=T_K26Crow01_BC
+Normal=T_Default_Normal
+SpecPower=T_spume_01
+Other[0]=Black
+Other[1]=WhiteSquareTexture
+Other[2]=T_K26Crow01_BDE
+Other[3]=T_K26Crow01_N
+Other[4]=T_K26Crow01_ORM
+Other[5]=T_reflection_map_01
+Other[6]=T_Smoke_02_Tiling
+Other[7]=T_SmokeTile
+Other[8]=T_Tilling_Distortion_Map_01
+Other[9]=T_WaterNormal
+Other[10]=value_51

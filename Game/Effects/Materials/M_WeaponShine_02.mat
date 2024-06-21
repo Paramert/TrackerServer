@@ -1,0 +1,6 @@
+Diffuse=T_GkWS01_BC
+Normal=T_GkWS01_N
+Other[0]=Dissolve_border_gradient_Blue
+Other[1]=T_GkWS01_ORM
+Other[2]=T_Gradient_01
+Other[3]=T_NoiseNormal_01_Tiling

@@ -1,0 +1,254 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_d.Stone_C_d'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_e.Stone_C_e'
+    ReferencedTextures[2] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_m.Stone_C_m'
+    ReferencedTextures[3] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_n.Stone_C_n'
+    ReferencedTextures[4] = Texture2D'/Game/Netease/Texture/t_crackedmud_01_d.t_crackedmud_01_d'
+    ReferencedTextures[5] = TextureCube4'/Game/Netease/Texture/HDR/T_Blood_HDR.T_Blood_HDR'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Height }
+                    ParameterInfos[2] = { Name=EmissivePower }
+                    ParameterInfos[3] = { Name=Metallic }
+                    ParameterInfos[4] = { Name=RadiusSoft }
+                    ParameterInfos[5] = { Name=BumpMask }
+                    ParameterInfos[6] = { Name=Radius }
+                    ParameterInfos[7] = { Name=LineSize }
+                    ParameterInfos[8] = { Name=NoiseScale }
+                    ParameterInfos[9] = { Name=SoftPower }
+                    ParameterInfos[10] = { Name=LineNoiseStrengthMax }
+                    ParameterInfos[11] = { Name=CutDistance }
+                    ParameterInfos[12] = { Name=FakeReflectionPower }
+                    ParameterInfos[13] = { Name=LineNoiseStrengthMin }
+                    ParameterInfos[14] = { Name=Level }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=CutFaceColor }
+                    ParameterInfos[1] = { Name=LOC2 }
+                    ParameterInfos[2] = { Name=PositionOffset }
+                    ParameterInfos[3] = { Name=LOC }
+                    ParameterInfos[4] = { Name=BaseColor }
+                    ParameterInfos[5] = { Name=LineColor }
+                    ParameterInfos[6] = { Name=NormalMapScale }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Emissive }
+                    ParameterInfos[1] = { Name=Diffuse }
+                    ParameterInfos[2] = { Name=FakeReflecion }
+                    ParameterInfos[3] = { Name=Normal }
+                    ParameterInfos[4] = { Name=LineNoise }
+                    ParameterInfos[5] = { Name=Channel }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 8
+            ScalarValues[5] = 4
+            ScalarValues[6] = 20
+            ScalarValues[7] = 3
+            ScalarValues[8] = 10
+            ScalarValues[9] = 1
+            ScalarValues[10] = 200
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = -50
+            ScalarValues[14] = 1
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=0.484317, B=0.146469, A=1 }
+            VectorValues[5] = { R=10, G=0, B=3.87881, A=1 }
+            VectorValues[6] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_e.Stone_C_e'
+            TextureValues[1] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_d.Stone_C_d'
+            TextureValues[2] = TextureCube4'/Game/Netease/Texture/HDR/T_Blood_HDR.T_Blood_HDR'
+            TextureValues[3] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_n.Stone_C_n'
+            TextureValues[4] = Texture2D'/Game/Netease/Texture/t_crackedmud_01_d.t_crackedmud_01_d'
+            TextureValues[5] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_m.Stone_C_m'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/Texture/t_crackedmud_01_d.t_crackedmud_01_d'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_n.Stone_C_n'
+        ReferencedTextures[2] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_d.Stone_C_d'
+        ReferencedTextures[3] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_e.Stone_C_e'
+        ReferencedTextures[4] = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_m.Stone_C_m'
+        ReferencedTextures[5] = TextureCube4'/Game/Netease/Texture/HDR/T_Blood_HDR.T_Blood_HDR'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_e.Stone_C_e'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_d.Stone_C_d'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = TextureCube4'/Game/Netease/Texture/HDR/T_Blood_HDR.T_Blood_HDR'
+        Name = FakeReflecion
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_n.Stone_C_n'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Netease/Texture/t_crackedmud_01_d.t_crackedmud_01_d'
+        Name = LineNoise
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Netease/Mesh/Stone/Final/Stone_C/Stone_C_m.Stone_C_m'
+        Name = Channel
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Height, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=EmissivePower, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Metallic, Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=RadiusSoft, Group=None }
+    CollectedScalarParameters[5] = { Value=4, Name=BumpMask, Group=None }
+    CollectedScalarParameters[6] = { Value=20, Name=Radius, Group=None }
+    CollectedScalarParameters[7] = { Value=3, Name=LineSize, Group=None }
+    CollectedScalarParameters[8] = { Value=10, Name=NoiseScale, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=SoftPower, Group=None }
+    CollectedScalarParameters[10] = { Value=200, Name=LineNoiseStrengthMax, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=CutDistance, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=FakeReflectionPower, Group=None }
+    CollectedScalarParameters[13] = { Value=-50, Name=LineNoiseStrengthMin, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Level, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = CutFaceColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = LOC2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = PositionOffset
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = LOC
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0.484317, B=0.146469, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=10, G=0, B=3.87881, A=1 }
+        Name = LineColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = NormalMapScale
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Stone_C_d
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Stone_C_m
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Stone_C_n
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 10
+        UVChannelIndex = 0
+        TextureName = t_crackedmud_01_d
+    }
+}

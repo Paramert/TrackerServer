@@ -1,0 +1,11 @@
+Diffuse=T_Ind_Cracks_A_BC
+Normal=T_Ind_Cracks_A_N
+Opacity=T_Decal_GroundImpact02
+Other[0]=T_Ind_Cracks_A_ORM
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=FlatNormal
+Other[4]=Black_Linear
+Other[5]=White_Linear
+Other[6]=Yellow_Linear
+Other[7]=T_checker_grid

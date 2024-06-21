@@ -1,0 +1,166 @@
+Parent = Material3'/Game/Effects/Materials/PostProcess/M_PP_Vignette_K12_Bomb.M_PP_Vignette_K12_Bomb'
+ScalarParameterValues[18] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Border Intensity }
+        ParameterValue = 750
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Distortion Mask Intensity }
+        ParameterValue = 0.055
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Distortion Speed X }
+        ParameterValue = 0.0125
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Distortion Speed Y }
+        ParameterValue = 0.02875
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Mask Distortion Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Mask Power Value }
+        ParameterValue = 1.51175
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Mask Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Bubbles Intensity }
+        ParameterValue = 4.25
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Bubbles Tiling }
+        ParameterValue = 1.55
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Color Intensity }
+        ParameterValue = 0.055
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Distortion Bubbles Intensity }
+        ParameterValue = 0.55
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Distortion_Intensity_01 }
+        ParameterValue = 0.065
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Distortion_Intensity_02 }
+        ParameterValue = 0.055
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Distortion_Intensity_03 }
+        ParameterValue = 0.0275
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Master Mask Distortion }
+        ParameterValue = 0.0111
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Minimal Opacity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=SmokeTiling }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Mask Speeds }
+        ParameterValue = { R=0.0166, G=0.036, B=-0.0111, A=0.0555 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Mask_UVScaling_Offset }
+        ParameterValue = { R=0.375, G=1, B=1.06702, A=-0.15 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Smoke_Wisps_001.T_Smoke_Wisps_001'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Bubbles_002.T_Bubbles_002'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Bubbles_001.T_Bubbles_001'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Trail_005.T_Trail_005'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling1.T_Smoke_02_Tiling1'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Smoke_Trails_004.T_Smoke_Trails_004'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

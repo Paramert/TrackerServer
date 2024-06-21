@@ -1,0 +1,147 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Brightness }
+                    ParameterInfos[1] = { Name=Flickering Intensity }
+                    ParameterInfos[2] = { Name=CustomSpecular }
+                    ParameterInfos[3] = { Name=CustomMetallic }
+                    ParameterInfos[4] = { Name=EmissiveValue }
+                    ParameterInfos[5] = { Name=Chaos }
+                    ParameterInfos[6] = { Name=Blink }
+                    ParameterInfos[7] = { Name=CustomRoughness }
+                    ParameterInfos[8] = { Name=TilingAmount }
+                    ParameterInfos[9] = { Name=NormalFlatness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Emmisive Color }
+                    ParameterInfos[1] = { Name=CustomNormal }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=RhythmictasticallyOnOff }
+                    ParameterInfos[1] = { Name=BaseColorTexture }
+                    ParameterInfos[2] = { Name=NormalTexture }
+                    ParameterInfos[3] = { Name=EmmisiveColorTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 1, 22, 0.5, 0, 1, 0, 0.001, 1, 1, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=1, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+        Name = RhythmictasticallyOnOff
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = BaseColorTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = NormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = EmmisiveColorTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=22, Name=Flickering Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=CustomSpecular, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=CustomMetallic, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=EmissiveValue, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Chaos, Group=None }
+    CollectedScalarParameters[6] = { Value=0.001, Name=Blink, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=CustomRoughness, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=TilingAmount, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=NormalFlatness, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Emmisive Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = CustomNormal
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_Shovel_01.MI_COM_Shovel_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_Shovel_01.MI_COM_Shovel_01'
+        MaterialSlotName = MI_COM_Shovel_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 53.9351, 68.1954, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.09118, Y=0, Z=67.7868 }
+    BoxExtent = { X=3.21886, Y=11.1118, Z=67.824 }
+    SphereRadius = 68.0998
+}

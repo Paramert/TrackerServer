@@ -1,0 +1,481 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[14] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineResources/Black.Black'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BC.T_K26Crow01_BC'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BDE.T_K26Crow01_BDE'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_N.T_K26Crow01_N'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_ORM.T_K26Crow01_ORM'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+    ReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    ReferencedTextures[12] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    ReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/value_51.value_51'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[39] =
+                {
+                    ParameterInfos[0] = { Name=PaddedSizeY }
+                    ParameterInfos[1] = { Name=00 - OpacityNormalDetails }
+                    ParameterInfos[2] = { Name=Opacity_Distortion }
+                    ParameterInfos[3] = { Name=Tilling_Cutoff_Texture }
+                    ParameterInfos[4] = { Name=ExponentIn }
+                    ParameterInfos[5] = { Name=01 - N2 - ScaleTilling_X }
+                    ParameterInfos[6] = { Name=02 - Power_reflect }
+                    ParameterInfos[7] = { Name=Position Max }
+                    ParameterInfos[8] = { Name=EmissiveBoost }
+                    ParameterInfos[9] = { Name=01 - N2 - ScaleTilling_Y }
+                    ParameterInfos[10] = { Name=AddEmissive }
+                    ParameterInfos[11] = { Name=Position Min }
+                    ParameterInfos[12] = { Name=01 - Opacity_Distortion }
+                    ParameterInfos[13] = { Name=Opacity_BaseTexture }
+                    ParameterInfos[14] = { Name=OpacityAura }
+                    ParameterInfos[15] = { Name=SmokeContrast }
+                    ParameterInfos[16] = { Name=PaddedSizeX }
+                    ParameterInfos[17] = { Name=OpacityTopMask }
+                    ParameterInfos[18] = { Name=OpacityBoost }
+                    ParameterInfos[19] = { Name=AnimationFrame }
+                    ParameterInfos[20] = { Name=SL - ScaleTilling }
+                    ParameterInfos[21] = { Name=Emissive_Ramp }
+                    ParameterInfos[22] = { Name=Fresnel_Contrast }
+                    ParameterInfos[23] = { Name=BaseTexture - ScaleTilling }
+                    ParameterInfos[24] = { Name=01 - N1 - ScaleTilling_X }
+                    ParameterInfos[25] = { Name=TextureSizeY }
+                    ParameterInfos[26] = { Name=02 - Softness_Reflect }
+                    ParameterInfos[27] = { Name=BaseTexture - Opacity_Distortion }
+                    ParameterInfos[28] = { Name=OpacityFresnel }
+                    ParameterInfos[29] = { Name=Number Of Frames }
+                    ParameterInfos[30] = { Name=TextureSizeX }
+                    ParameterInfos[31] = { Name=PowerTopMask }
+                    ParameterInfos[32] = { Name=01 - N1 - ScaleTilling_Y }
+                    ParameterInfos[33] = { Name=RotationTimeMult }
+                    ParameterInfos[34] = { Name=Contrast_BaseTexture }
+                    ParameterInfos[35] = { Name=FL - ScaleTilling }
+                    ParameterInfos[36] = { Name=SpeedAnimationMult }
+                    ParameterInfos[37] = { Name=Scale_Distortion }
+                    ParameterInfos[38] = { Name=02 - Opacity_reflect }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=SL - Speed_WhispySmoke }
+                    ParameterInfos[1] = { Name=FL - Speed_WhispySmoke }
+                    ParameterInfos[2] = { Name=EmissiveColor }
+                    ParameterInfos[3] = { Name=Speed_BaseTexture }
+                    ParameterInfos[4] = { Name=BaseTexture_Color }
+                    ParameterInfos[5] = { Name=BaseTexture - Speed_Distortion }
+                    ParameterInfos[6] = { Name=FresnelColor }
+                    ParameterInfos[7] = { Name=01 - Speed_Distortion }
+                    ParameterInfos[8] = { Name=LookAtVector }
+                    ParameterInfos[9] = { Name=01 - N2 - Speed_Normal }
+                    ParameterInfos[10] = { Name=02 - Color Reflection }
+                    ParameterInfos[11] = { Name=SmokeColor }
+                    ParameterInfos[12] = { Name=Pivot_Point }
+                    ParameterInfos[13] = { Name=01 - N1 - Speed_Normal }
+                    ParameterInfos[14] = { Name=Speed_Distortion }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Cutout_Texture }
+                    ParameterInfos[1] = { Name=ORM }
+                    ParameterInfos[2] = { Name=Emissive }
+                    ParameterInfos[3] = { Name=01 - Add Normal Details_02 }
+                    ParameterInfos[4] = { Name=02 - Add Normal Reflection Map }
+                    ParameterInfos[5] = { Name=Normal }
+                    ParameterInfos[6] = { Name=Add Reflection Map }
+                    ParameterInfos[7] = { Name=Position Texture }
+                    ParameterInfos[8] = { Name=OpacityMask }
+                    ParameterInfos[9] = { Name=BaseColor }
+                    ParameterInfos[10] = { Name=DistortionMap }
+                    ParameterInfos[11] = { Name=01 - Add Normal Details_01 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[39] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0.0375
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 2
+            ScalarValues[6] = 2
+            ScalarValues[7] = 21.876
+            ScalarValues[8] = 1
+            ScalarValues[9] = 2
+            ScalarValues[10] = 0
+            ScalarValues[11] = -6.97459
+            ScalarValues[12] = 0.01
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 10
+            ScalarValues[18] = 1
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1.5
+            ScalarValues[21] = 5
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1.5
+            ScalarValues[24] = 2
+            ScalarValues[25] = 1
+            ScalarValues[26] = 6
+            ScalarValues[27] = 0.0375
+            ScalarValues[28] = 1
+            ScalarValues[29] = 18
+            ScalarValues[30] = 1
+            ScalarValues[31] = 1
+            ScalarValues[32] = 2
+            ScalarValues[33] = 1
+            ScalarValues[34] = 1
+            ScalarValues[35] = 1.5
+            ScalarValues[36] = 1
+            ScalarValues[37] = 1
+            ScalarValues[38] = 5
+        }
+        VectorValues[15] =
+        {
+            VectorValues[0] = { R=0, G=-1, B=0, A=1 }
+            VectorValues[1] = { R=0, G=-0.5, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=-0.5, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=0, G=0.5, B=0, A=1 }
+            VectorValues[6] = { R=0.16069, G=0, B=0.338542, A=1 }
+            VectorValues[7] = { R=0, G=0.5, B=0, A=1 }
+            VectorValues[8] = { R=0, G=0, B=1, A=1 }
+            VectorValues[9] = { R=0, G=-0.5, B=0, A=1 }
+            VectorValues[10] = { R=0.5, G=0.39, B=0.39, A=1 }
+            VectorValues[11] = { R=0.113705, G=0.108156, B=0.114583, A=1 }
+            VectorValues[12] = { R=0, G=0, B=0, A=1 }
+            VectorValues[13] = { R=0, G=-1, B=0, A=1 }
+            VectorValues[14] = { R=0, G=0.5, B=0, A=1 }
+        }
+        TextureValues[12] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_ORM.T_K26Crow01_ORM'
+            TextureValues[2] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BDE.T_K26Crow01_BDE'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+            TextureValues[5] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_N.T_K26Crow01_N'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+            TextureValues[7] = Texture2D'/Game/Textures/Environment/Tiles/value_51.value_51'
+            TextureValues[8] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+            TextureValues[9] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BC.T_K26Crow01_BC'
+            TextureValues[10] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+            TextureValues[11] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        }
+    }
+    ReferencedTextures[15] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_ORM.T_K26Crow01_ORM'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_N.T_K26Crow01_N'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BC.T_K26Crow01_BC'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineResources/Black.Black'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/value_51.value_51'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BDE.T_K26Crow01_BDE'
+        ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+        ReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[12] = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+        ReferencedTextures[13] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ReferencedTextures[14] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[12] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+        Name = Cutout_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_ORM.T_K26Crow01_ORM'
+        Name = ORM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BDE.T_K26Crow01_BDE'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = 01 - Add Normal Details_02
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = 02 - Add Normal Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_N.T_K26Crow01_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        Name = Add Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/value_51.value_51'
+        Name = Position Texture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+        Name = OpacityMask
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Effects/Houdini/Crows/K26/Textures/T_K26Crow01_BC.T_K26Crow01_BC'
+        Name = BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        Name = DistortionMap
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = 01 - Add Normal Details_01
+        Group = None
+    }
+}
+CollectedScalarParameters[39] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=PaddedSizeY, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = 00 - OpacityNormalDetails
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.0375
+        Name = Opacity_Distortion
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=Tilling_Cutoff_Texture, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=ExponentIn, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 2
+        Name = 01 - N2 - ScaleTilling_X
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=2, Name=02 - Power_reflect, Group=None }
+    CollectedScalarParameters[7] = { Value=21.876, Name=Position Max, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=EmissiveBoost, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 2
+        Name = 01 - N2 - ScaleTilling_Y
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0, Name=AddEmissive, Group=None }
+    CollectedScalarParameters[11] = { Value=-6.97459, Name=Position Min, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.01
+        Name = 01 - Opacity_Distortion
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=1, Name=Opacity_BaseTexture, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=OpacityAura, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=SmokeContrast, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=PaddedSizeX, Group=None }
+    CollectedScalarParameters[17] = { Value=10, Name=OpacityTopMask, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=OpacityBoost, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=AnimationFrame, Group=None }
+    CollectedScalarParameters[20] = { Value=1.5, Name=SL - ScaleTilling, Group=None }
+    CollectedScalarParameters[21] = { Value=5, Name=Emissive_Ramp, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=Fresnel_Contrast, Group=None }
+    CollectedScalarParameters[23] =
+    {
+        Value = 1.5
+        Name = BaseTexture - ScaleTilling
+        Group = None
+    }
+    CollectedScalarParameters[24] =
+    {
+        Value = 2
+        Name = 01 - N1 - ScaleTilling_X
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=1, Name=TextureSizeY, Group=None }
+    CollectedScalarParameters[26] = { Value=6, Name=02 - Softness_Reflect, Group=None }
+    CollectedScalarParameters[27] =
+    {
+        Value = 0.0375
+        Name = BaseTexture - Opacity_Distortion
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=1, Name=OpacityFresnel, Group=None }
+    CollectedScalarParameters[29] = { Value=18, Name=Number Of Frames, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=TextureSizeX, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=PowerTopMask, Group=None }
+    CollectedScalarParameters[32] =
+    {
+        Value = 2
+        Name = 01 - N1 - ScaleTilling_Y
+        Group = None
+    }
+    CollectedScalarParameters[33] = { Value=1, Name=RotationTimeMult, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Contrast_BaseTexture, Group=None }
+    CollectedScalarParameters[35] = { Value=1.5, Name=FL - ScaleTilling, Group=None }
+    CollectedScalarParameters[36] = { Value=1, Name=SpeedAnimationMult, Group=None }
+    CollectedScalarParameters[37] = { Value=1, Name=Scale_Distortion, Group=None }
+    CollectedScalarParameters[38] = { Value=5, Name=02 - Opacity_reflect, Group=None }
+}
+CollectedVectorParameters[15] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=-1, B=0, A=1 }
+        Name = SL - Speed_WhispySmoke
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=-0.5, B=0, A=1 }
+        Name = FL - Speed_WhispySmoke
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=-0.5, B=0, A=1 }
+        Name = Speed_BaseTexture
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BaseTexture_Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0.5, B=0, A=1 }
+        Name = BaseTexture - Speed_Distortion
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.16069, G=0, B=0.338542, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0.5, B=0, A=1 }
+        Name = 01 - Speed_Distortion
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = LookAtVector
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=-0.5, B=0, A=1 }
+        Name = 01 - N2 - Speed_Normal
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0.5, G=0.39, B=0.39, A=1 }
+        Name = 02 - Color Reflection
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.113705, G=0.108156, B=0.114583, A=1 }
+        Name = SmokeColor
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Pivot_Point
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=-1, B=0, A=1 }
+        Name = 01 - N1 - Speed_Normal
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0, G=0.5, B=0, A=1 }
+        Name = Speed_Distortion
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = value_51
+    }
+}

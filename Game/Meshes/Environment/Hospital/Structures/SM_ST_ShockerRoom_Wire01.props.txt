@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Materials/MI_HOS_BlackMetal.MI_HOS_BlackMetal'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_RustMetal01.MI_HOS_RustMetal01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Materials/MI_HOS_BlackMetal.MI_HOS_BlackMetal'
+        MaterialSlotName = MI_HOS_BlackMetal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 656.271, 16973.6, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_RustMetal01.MI_HOS_RustMetal01'
+        MaterialSlotName = MI_HOS_RustMetal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 205.023, 13848, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.897339, Y=6.22437, Z=818.733 }
+    BoxExtent = { X=1370.41, Y=1413.92, Z=640.039 }
+    SphereRadius = 1886.03
+}

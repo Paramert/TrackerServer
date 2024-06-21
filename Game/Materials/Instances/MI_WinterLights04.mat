@@ -1,0 +1,7 @@
+Diffuse=T_WinterLights01
+Normal=T_FlatNormal_01
+Other[0]=T_WinterLights01_Mask03
+Other[1]=T_HOS_Cam_Flicker
+Other[2]=T_WinterLights01_Mask04
+Other[3]=T_GS_FrontSign_Flickerama
+Other[4]=Black

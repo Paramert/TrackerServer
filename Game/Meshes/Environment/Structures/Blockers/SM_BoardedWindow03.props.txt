@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_BusMetal02.MI_BusMetal02'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_BusMetal04.MI_BusMetal04'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_BusMetal02.MI_BusMetal02'
+        MaterialSlotName = MI_BusMetal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 451.522, 3458.06, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_BusMetal04.MI_BusMetal04'
+        MaterialSlotName = MI_BusMetal04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 297.265, 3060.35, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.35659, Y=1.15724, Z=0.142052 }
+    BoxExtent = { X=81.2457, Y=15.6359, Z=64.5927 }
+    SphereRadius = 91.5796
+}

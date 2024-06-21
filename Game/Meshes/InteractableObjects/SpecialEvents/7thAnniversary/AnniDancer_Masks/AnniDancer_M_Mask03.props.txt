@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/Outfit025/MI_MTMask025.MI_MTMask025'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/Outfit025/MI_MTMask025.MI_MTMask025'
+        MaterialSlotName = MI_MTMask025
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 25.6818, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.13449, Y=-0.369648, Z=0.634834 }
+    BoxExtent = { X=8.96098, Y=4.83722, Z=10.6795 }
+    SphereRadius = 12.4922
+}

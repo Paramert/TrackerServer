@@ -1,0 +1,237 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK32/M_K32_Pod_01.M_K32_Pod_01'
+ScalarParameterValues[13] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=SpecularValue }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=GlobalEmissiveMultiplyer }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=EmissivePulseMinimumValue }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=PulseSpeed }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=PulseEmissiveMultiplyer }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=PulseEmissiveTextureSize }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=PulseEmissiveTexturePower }
+        ParameterValue = 1.20923
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=FresnelExponent }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=FresnelPower }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=WPOStrength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=WPOTexturePower }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=WPOPulseMinimumValue }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AORoughnessMetallic }
+        ParameterValue = Texture2D'/Game/Characters/Slashers/K32/Power/Textures/Assimilation/T_K32Assimilation_ORM.T_K32Assimilation_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=NormalMap Texture }
+        ParameterValue = Texture2D'/Game/Characters/Slashers/K32/Power/Textures/Assimilation/T_K32Assimilation_N.T_K32Assimilation_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Diffuse }
+        ParameterValue = Texture2D'/Game/Characters/Slashers/K32/Power/Textures/Assimilation/T_K32Assimilation_BC.T_K32Assimilation_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=EmissiveColorTexture }
+        ParameterValue = Texture2D'/Game/Characters/Slashers/K32/Power/Textures/Assimilation/T_K32Assimilation_Em.T_K32Assimilation_Em'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=MaskTexture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K32/T_K32_Assimilation_Mask_01.T_K32_Assimilation_Mask_01'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=PulseWaveTexture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_gradient_stripes_02.T_gradient_stripes_02'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=PulseEmissiveTexture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=PulseEmissiveScrollSpeed }
+        ParameterValue = { R=0.1, G=0.1, B=0.1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=FresnelColor }
+        ParameterValue = { R=0.000303, G=0.991102, B=0.423268, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=WPOScrollSpeed }
+        ParameterValue = { R=0.1, G=0.1, B=0.1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Pulse }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_WPO }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use_Ramdom value by object position }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile1.T_Smoke_Soft_Tile1'
+    CachedReferencedTextures[6] = Texture2D'/Game/Characters/Slashers/K32/Power/Textures/KillerPod01/T_K32KillerPod01_Em.T_K32KillerPod01_Em'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/K32/T_K32_KillerPod_Mask_01.T_K32_KillerPod_Mask_01'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_gradient_stripes_01.T_gradient_stripes_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FlatNormal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K32_Assimilation_Mask_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K32Assimilation_BC
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K32Assimilation_Em
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K32Assimilation_ORM
+    }
+}

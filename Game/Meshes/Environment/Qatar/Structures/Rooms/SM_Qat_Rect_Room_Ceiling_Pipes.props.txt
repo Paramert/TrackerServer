@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Ventilation01.MI_Qat_Ventilation01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Tube01.MI_Qat_Tube01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Metal03.MI_Qat_Metal03'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Ventilation01.MI_Qat_Ventilation01'
+        MaterialSlotName = MI_Qat_Ventilation01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 261.984, 128.898, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Tube01.MI_Qat_Tube01'
+        MaterialSlotName = MI_Qat_Tube01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 127.172, 74.9299, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Metal03.MI_Qat_Metal03'
+        MaterialSlotName = MI_Qat_Metal03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 163.976, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=800.111, Y=0.291443, Z=617.837 }
+    BoxExtent = { X=1300.78, Y=501.616, Z=54.0909 }
+    SphereRadius = 1346.8
+}

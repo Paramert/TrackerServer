@@ -1,0 +1,86 @@
+Materials[6] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Concreat01.MI_HOS_Concreat01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Hos_IR_Wall01.MI_HOS_IR_Wall01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_ShockRoom_Lamp.MI_ShockRoom_Lamp'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_RustMetal01.MI_HOS_RustMetal01'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Metal02.MI_HOS_Metal02'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Substance/MI_Hospital_Floor03.MI_Hospital_Floor03'
+}
+SourceModels[0] = {}
+StaticMaterials[6] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Concreat01.MI_HOS_Concreat01'
+        MaterialSlotName = MI_HOS_Concreat01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Hos_IR_Wall01.MI_HOS_IR_Wall01'
+        MaterialSlotName = MI_HOS_IR_Wall01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_ShockRoom_Lamp.MI_ShockRoom_Lamp'
+        MaterialSlotName = MI_ShockRoom_Lamp
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_RustMetal01.MI_HOS_RustMetal01'
+        MaterialSlotName = MI_HOS_RustMetal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Metal02.MI_HOS_Metal02'
+        MaterialSlotName = MI_HOS_Metal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Substance/MI_Hospital_Floor03.MI_Hospital_Floor03'
+        MaterialSlotName = MI_Hospital_Floor03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 607.455, 620.171, 429.541, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=50.5839, Y=-9.15527e-05, Z=98.4032 }
+    BoxExtent = { X=303.086, Y=146.436, Z=1.64227 }
+    SphereRadius = 336.611
+}

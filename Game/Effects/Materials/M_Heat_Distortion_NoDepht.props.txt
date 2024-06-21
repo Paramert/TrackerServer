@@ -1,0 +1,121 @@
+TwoSided = true
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Slasher2CloakFS_Mask.T_Slasher2CloakFS_Mask'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Slasher2CloakFS_NRM.T_Slasher2CloakFS_NRM'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=ClipRegion10 }
+                    ParameterInfos[1] = { Name=ClipRegion02 }
+                    ParameterInfos[2] = { Name=ClipRegion12 }
+                    ParameterInfos[3] = { Name=ClipRegion01 }
+                    ParameterInfos[4] = { Name=ClipRegion11 }
+                    ParameterInfos[5] = { Name=ClipBoxExtents }
+                    ParameterInfos[6] = { Name=ClipBoxCenter }
+                    ParameterInfos[7] = { Name=ClipRegion00 }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[5] = { R=200000, G=200000, B=200000, A=0 }
+            VectorValues[6] = { R=0, G=0, B=0, A=0 }
+            VectorValues[7] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Slasher2CloakFS_Mask.T_Slasher2CloakFS_Mask'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Slasher2CloakFS_NRM.T_Slasher2CloakFS_NRM'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion10
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipRegion02
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion12
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipRegion01
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion11
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=200000, G=200000, B=200000, A=0 }
+        Name = ClipBoxExtents
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipBoxCenter
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipRegion00
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

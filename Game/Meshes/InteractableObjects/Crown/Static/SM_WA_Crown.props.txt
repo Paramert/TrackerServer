@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/Research/MI_DissolveWP_Crown.MI_DissolveWP_Crown'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/Research/MI_DissolveWP_Crown.MI_DissolveWP_Crown'
+        MaterialSlotName = MI_WA_Crown
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 73.9682, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.523697, Y=-0.163079, Z=18.1805 }
+    BoxExtent = { X=22.1519, Y=2.50753, Z=21.7122 }
+    SphereRadius = 26.5538
+}

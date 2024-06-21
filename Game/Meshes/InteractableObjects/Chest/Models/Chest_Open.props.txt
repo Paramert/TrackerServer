@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Chest01.MI_Chest01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Chest01.MI_Chest01'
+        MaterialSlotName = CT01:HD:MI_Chest01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 291.579, 291.579, 463.966, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-30.2619, Z=45.1018 }
+    BoxExtent = { X=59.326, Y=66.2296, Z=45.6147 }
+    SphereRadius = 97.1196
+}

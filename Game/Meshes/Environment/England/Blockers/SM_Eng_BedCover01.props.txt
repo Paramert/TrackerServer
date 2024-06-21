@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Eng_BedCover01.MI_Eng_BedCover01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Eng_BedCover01.MI_Eng_BedCover01'
+        MaterialSlotName = M_Eng_CoverBed01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 224.831, 267.504, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.30276, Y=36.3763, Z=31.7079 }
+    BoxExtent = { X=77.0047, Y=78.5269, Z=30.9171 }
+    SphereRadius = 106.193
+}

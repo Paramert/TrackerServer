@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_FireCracker.MI_FireCracker'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_FireCracker.MI_FireCracker'
+        MaterialSlotName = MI_FireCracker
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 56.9392, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.394318, Y=18.9048, Z=0.0932508 }
+    BoxExtent = { X=10.3841, Y=29.0923, Z=2.57799 }
+    SphereRadius = 29.1738
+}

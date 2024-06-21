@@ -1,0 +1,80 @@
+Parent = Material3'/Game/Effects/Materials/M_NG_BloodSplash_Mesh_01.M_NG_BloodSplash_Mesh_01'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Blood Color Reflection }
+        ParameterValue = { R=0.151042, G=0.151042, B=0.151042, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Mud Color Outer 01 }
+        ParameterValue = { R=0, G=0.04, B=0.030817, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mud Color Outer 02 }
+        ParameterValue = { R=0, G=0.075, B=0.010991, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Blood_02_N.T_Blood_02_N'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Blood_02.T_Blood_02'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Mud_01_M
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}

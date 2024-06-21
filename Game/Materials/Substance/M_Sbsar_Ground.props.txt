@@ -1,0 +1,486 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[14] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[7] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_basecolor.T_Swamp_Mud_basecolor'
+    ReferencedTextures[8] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+    ReferencedTextures[9] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    ReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    ReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Vegetations/T_Normal_Noise.T_Normal_Noise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[55] =
+                {
+                    ParameterInfos[0] = { Name=ECM- MaskA Intensity }
+                    ParameterInfos[1] = { Name=018_FadeRadius }
+                    ParameterInfos[2] = { Name=00_NormalFlatness }
+                    ParameterInfos[3] = { Name=Noise_Speed_Y }
+                    ParameterInfos[4] = { Name=ECM- MaskA Tiling }
+                    ParameterInfos[5] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[6] = { Name=00_MasterTiling }
+                    ParameterInfos[7] = { Name=Atl_Roughness }
+                    ParameterInfos[8] = { Name=ECM- MaskB Speed Y }
+                    ParameterInfos[9] = { Name=00_HeightAmount }
+                    ParameterInfos[10] = { Name=08_NormalDetailScale }
+                    ParameterInfos[11] = { Name=06_SpecularRoughAmount }
+                    ParameterInfos[12] = { Name=EmissiveMask Custom }
+                    ParameterInfos[13] = { Name=018_FadeRadiusDistance }
+                    ParameterInfos[14] = { Name=Intensity }
+                    ParameterInfos[15] = { Name=EmmisiveMask TextureTiling }
+                    ParameterInfos[16] = { Name=ECM- MaskB Intensity }
+                    ParameterInfos[17] = { Name=06_AOContrast }
+                    ParameterInfos[18] = { Name=EM Noise ScaleFar }
+                    ParameterInfos[19] = { Name=Atl_Metallic }
+                    ParameterInfos[20] = { Name=EM Noise Speed Y }
+                    ParameterInfos[21] = { Name=25_GroundHeight }
+                    ParameterInfos[22] = { Name=08_RoughDetailSpec }
+                    ParameterInfos[23] = { Name=Noise Opacity }
+                    ParameterInfos[24] = { Name=ECM- MaskA Speed X }
+                    ParameterInfos[25] = { Name=Scale (rb) }
+                    ParameterInfos[26] = { Name=25_CustomMetallic }
+                    ParameterInfos[27] = { Name=Speed (rb) }
+                    ParameterInfos[28] = { Name=06_CustomSpecular }
+                    ParameterInfos[29] = { Name=06_(SW)UseTexCoord[1] }
+                    ParameterInfos[30] = { Name=08_RoughDetailScale }
+                    ParameterInfos[31] = { Name=EM Noise Intensity }
+                    ParameterInfos[32] = { Name=EM Noise Speed X }
+                    ParameterInfos[33] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[34] = { Name=Noise_Speed_X }
+                    ParameterInfos[35] = { Name=018_Hardness }
+                    ParameterInfos[36] = { Name=ECM- MaskB Tiling }
+                    ParameterInfos[37] = { Name=25_MossSpecular }
+                    ParameterInfos[38] = { Name=EM Intensity }
+                    ParameterInfos[39] = { Name=06_AOValue }
+                    ParameterInfos[40] = { Name=ECM- MaskA Speed Y }
+                    ParameterInfos[41] = { Name=06_RoughnessContrast }
+                    ParameterInfos[42] = { Name=Atl_Specular }
+                    ParameterInfos[43] = { Name=018_FadeToValue }
+                    ParameterInfos[44] = { Name=25_MossCurve }
+                    ParameterInfos[45] = { Name=ECM- MaskB Speed X }
+                    ParameterInfos[46] = { Name=08_RoughDetailAmount }
+                    ParameterInfos[47] = { Name=06_RoughnessValue }
+                    ParameterInfos[48] = { Name=06_MetallicValue }
+                    ParameterInfos[49] = { Name=25_MossHeight }
+                    ParameterInfos[50] = { Name=EM Noise Scale }
+                    ParameterInfos[51] = { Name=25_RoughnessStrength }
+                    ParameterInfos[52] = { Name=25_MossTiling }
+                    ParameterInfos[53] = { Name=EM Noise Distance }
+                    ParameterInfos[54] = { Name=018_Distance }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Emmisive Color }
+                    ParameterInfos[1] = { Name=Atl_DiffuseTint }
+                    ParameterInfos[2] = { Name=EM Color }
+                    ParameterInfos[3] = { Name=ColorTint_Fade }
+                    ParameterInfos[4] = { Name=WrinkleMap Channel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=EM Noise Texture }
+                    ParameterInfos[1] = { Name=EmmisiveMask Texture }
+                    ParameterInfos[2] = { Name=ECM- CrackMask }
+                    ParameterInfos[3] = { Name=00_HeightTexture }
+                    ParameterInfos[4] = { Name=00_NormalTexture }
+                    ParameterInfos[5] = { Name=25_MossTexture }
+                    ParameterInfos[6] = { Name=06_AOTexture }
+                    ParameterInfos[7] = { Name=06_MetallicTexture }
+                    ParameterInfos[8] = { Name=00_BaseColorTexture }
+                    ParameterInfos[9] = { Name=NormalMap_Exp01 }
+                    ParameterInfos[10] = { Name=25_RoughnessTexture }
+                    ParameterInfos[11] = { Name=06_RoughnessTexture }
+                    ParameterInfos[12] = { Name=06_ORMTexture }
+                    ParameterInfos[13] = { Name=25_MetallicTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[55] =
+        {
+            ScalarValues[0] = 0.2
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.5
+            ScalarValues[5] = 10
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = -0.02
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0.562009
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 4000
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 3
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0.04
+            ScalarValues[25] = 5
+            ScalarValues[26] = 1
+            ScalarValues[27] = 64
+            ScalarValues[28] = 0.5
+            ScalarValues[29] = 0
+            ScalarValues[30] = -0.000531
+            ScalarValues[31] = 10
+            ScalarValues[32] = 0.3
+            ScalarValues[33] = 0
+            ScalarValues[34] = 1
+            ScalarValues[35] = 0.5
+            ScalarValues[36] = 1
+            ScalarValues[37] = 0
+            ScalarValues[38] = 10
+            ScalarValues[39] = 1
+            ScalarValues[40] = 0.04
+            ScalarValues[41] = 0
+            ScalarValues[42] = 0
+            ScalarValues[43] = 0.1
+            ScalarValues[44] = 2
+            ScalarValues[45] = -0.02
+            ScalarValues[46] = 0.06
+            ScalarValues[47] = 1
+            ScalarValues[48] = 0
+            ScalarValues[49] = 30
+            ScalarValues[50] = 10
+            ScalarValues[51] = 1
+            ScalarValues[52] = 1
+            ScalarValues[53] = 500
+            ScalarValues[54] = 800
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=0.690196, B=0.937255, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[14] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+            TextureValues[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[4] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[5] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_basecolor.T_Swamp_Mud_basecolor'
+            TextureValues[6] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[7] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[8] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[9] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[10] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+            TextureValues[11] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[12] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+            TextureValues[13] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        }
+    }
+    ReferencedTextures[14] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[7] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_basecolor.T_Swamp_Mud_basecolor'
+        ReferencedTextures[8] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+        ReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Vegetations/T_Normal_Noise.T_Normal_Noise'
+        ReferencedTextures[11] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        ReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        ReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[14] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        Name = EM Noise Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = EmmisiveMask Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        Name = ECM- CrackMask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = 00_HeightTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = 00_NormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_basecolor.T_Swamp_Mud_basecolor'
+        Name = 25_MossTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = 06_AOTexture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = 06_MetallicTexture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = 00_BaseColorTexture
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = NormalMap_Exp01
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+        Name = 25_RoughnessTexture
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = 06_RoughnessTexture
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = 06_ORMTexture
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = 25_MetallicTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[55] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=ECM- MaskA Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=018_FadeRadius, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=00_NormalFlatness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Noise_Speed_Y, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=ECM- MaskA Tiling, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1, Name=00_MasterTiling, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[8] = { Value=-0.02, Name=ECM- MaskB Speed Y, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=00_HeightAmount, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.562009
+        Name = 08_NormalDetailScale
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=0, Name=06_SpecularRoughAmount, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=EmissiveMask Custom, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 4000
+        Name = 018_FadeRadiusDistance
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=1, Name=Intensity, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 1
+        Name = EmmisiveMask TextureTiling
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=1, Name=ECM- MaskB Intensity, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=06_AOContrast, Group=None }
+    CollectedScalarParameters[18] = { Value=3, Name=EM Noise ScaleFar, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=EM Noise Speed Y, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=25_GroundHeight, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=08_RoughDetailSpec, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=Noise Opacity, Group=None }
+    CollectedScalarParameters[24] = { Value=0.04, Name=ECM- MaskA Speed X, Group=None }
+    CollectedScalarParameters[25] = { Value=5, Name=Scale (rb), Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=25_CustomMetallic, Group=None }
+    CollectedScalarParameters[27] = { Value=64, Name=Speed (rb), Group=None }
+    CollectedScalarParameters[28] = { Value=0.5, Name=06_CustomSpecular, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=06_(SW)UseTexCoord[1], Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = -0.000531
+        Name = 08_RoughDetailScale
+        Group = None
+    }
+    CollectedScalarParameters[31] = { Value=10, Name=EM Noise Intensity, Group=None }
+    CollectedScalarParameters[32] = { Value=0.3, Name=EM Noise Speed X, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Noise_Speed_X, Group=None }
+    CollectedScalarParameters[35] = { Value=0.5, Name=018_Hardness, Group=None }
+    CollectedScalarParameters[36] = { Value=1, Name=ECM- MaskB Tiling, Group=None }
+    CollectedScalarParameters[37] = { Value=0, Name=25_MossSpecular, Group=None }
+    CollectedScalarParameters[38] = { Value=10, Name=EM Intensity, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=06_AOValue, Group=None }
+    CollectedScalarParameters[40] = { Value=0.04, Name=ECM- MaskA Speed Y, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=06_RoughnessContrast, Group=None }
+    CollectedScalarParameters[42] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[43] = { Value=0.1, Name=018_FadeToValue, Group=None }
+    CollectedScalarParameters[44] = { Value=2, Name=25_MossCurve, Group=None }
+    CollectedScalarParameters[45] = { Value=-0.02, Name=ECM- MaskB Speed X, Group=None }
+    CollectedScalarParameters[46] =
+    {
+        Value = 0.06
+        Name = 08_RoughDetailAmount
+        Group = None
+    }
+    CollectedScalarParameters[47] = { Value=1, Name=06_RoughnessValue, Group=None }
+    CollectedScalarParameters[48] = { Value=0, Name=06_MetallicValue, Group=None }
+    CollectedScalarParameters[49] = { Value=30, Name=25_MossHeight, Group=None }
+    CollectedScalarParameters[50] = { Value=10, Name=EM Noise Scale, Group=None }
+    CollectedScalarParameters[51] = { Value=1, Name=25_RoughnessStrength, Group=None }
+    CollectedScalarParameters[52] = { Value=1, Name=25_MossTiling, Group=None }
+    CollectedScalarParameters[53] = { Value=500, Name=EM Noise Distance, Group=None }
+    CollectedScalarParameters[54] = { Value=800, Name=018_Distance, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Emmisive Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.690196, B=0.937255, A=1 }
+        Name = EM Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint_Fade
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WrinkleMap Channel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[7] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.0625
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FlatNormal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.0625
+        UVChannelIndex = 0
+        TextureName = T_FlatNormal_01
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 29.9922
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_01
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 53.9375
+        UVChannelIndex = 0
+        TextureName = T_Normal_Noise
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 0.046875
+        UVChannelIndex = 0
+        TextureName = T_Perlin_Noise_M
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 0.03125
+        UVChannelIndex = 0
+        TextureName = T_SmokeTile
+    }
+}

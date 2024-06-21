@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PhantomTrap.MI_PhantomTrap'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PhantomTrap.MI_PhantomTrap'
+        MaterialSlotName = MI_PhantomTrap
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 57.2179, 161.639, 105.498, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.32288, Y=-5.67033, Z=2.55726 }
+    BoxExtent = { X=31.5002, Y=35.1433, Z=3.23563 }
+    SphereRadius = 39.3901
+}

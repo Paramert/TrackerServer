@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Netease/Material/SM_DoorBorder/MI__DoorBorder.MI__DoorBorder'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Netease/Material/SM_DoorBorder/MI__DoorBorder.MI__DoorBorder'
+        MaterialSlotName = SM_DoorBorder
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 203.33, 308.539, 368.741, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=3.04435 }
+    BoxExtent = { X=252.446, Y=251.856, Z=3.04445 }
+    SphereRadius = 252.799
+}

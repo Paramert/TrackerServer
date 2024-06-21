@@ -1,0 +1,109 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_EN_CobbleStone_Rough_D.T_EN_CobbleStone_Rough_D'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_EN_Fire_Tiled_D.T_EN_Fire_Tiled_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Radius }
+                    ParameterInfos[1] = { Name=Move }
+                    ParameterInfos[2] = { Name=CenterU }
+                    ParameterInfos[3] = { Name=BackOpacity }
+                    ParameterInfos[4] = { Name=BackDark }
+                    ParameterInfos[5] = { Name=CenterV }
+                    ParameterInfos[6] = { Name=FontOpacity }
+                    ParameterInfos[7] = { Name=Rot }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=SizeOffset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Back }
+                    ParameterInfos[1] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0.2, 0, 0.5, 1, 1, 0.5, 1, 0 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_EN_Fire_Tiled_D.T_EN_Fire_Tiled_D'
+            TextureValues[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_EN_CobbleStone_Rough_D.T_EN_CobbleStone_Rough_D'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_EN_CobbleStone_Rough_D.T_EN_CobbleStone_Rough_D'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_EN_Fire_Tiled_D.T_EN_Fire_Tiled_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_EN_Fire_Tiled_D.T_EN_Fire_Tiled_D'
+        Name = Back
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_EN_CobbleStone_Rough_D.T_EN_CobbleStone_Rough_D'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=Radius, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Move, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=CenterU, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=BackOpacity, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=BackDark, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=CenterV, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=FontOpacity, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Rot, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = SizeOffset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

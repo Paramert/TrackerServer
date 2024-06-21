@@ -1,0 +1,7 @@
+Diffuse=BlendFunc_DefBase
+Normal=rock2_1_normal
+Other[0]=rock2_7_normal
+Other[1]=rock2_7
+Other[2]=BlendFunc_DefBlend
+Other[3]=rock2_1
+Other[4]=T_Rock01

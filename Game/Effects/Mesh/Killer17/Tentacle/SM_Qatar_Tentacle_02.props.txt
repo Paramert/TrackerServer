@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/MI_QK_Tentacles_Particle.MI_QK_Tentacles_Particle'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_QK_Tentacles_Particle.MI_QK_Tentacles_Particle'
+        MaterialSlotName = MI_QKSmallTentacles
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 94.245, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.08498, Y=47.9083, Z=6.61826 }
+    BoxExtent = { X=7.20696, Y=47.9187, Z=7.69204 }
+    SphereRadius = 48.8708
+}

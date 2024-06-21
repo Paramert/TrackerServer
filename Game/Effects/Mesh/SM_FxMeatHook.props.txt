@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Materials/Masters/M_FxMeetHook.M_FxMeetHook'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Materials/Masters/M_FxMeetHook.M_FxMeetHook'
+        MaterialSlotName = M_FxMeetHook
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 735.428, 1197.92, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=48.7801, Y=-17.3566, Z=189.92 }
+    BoxExtent = { X=116.748, Y=91.8772, Z=190.582 }
+    SphereRadius = 223.613
+}

@@ -1,0 +1,227 @@
+Parent = Material3'/Game/Materials/Masters/M_StructuresBurned.M_StructuresBurned'
+ScalarParameterValues[14] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=CustomSpecular }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=06_CustomSpecular }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=06_RoughnessValue }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=06_AOValue }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Burned Height }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Burned Width }
+        ParameterValue = 34.1986
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Atl_Metallic }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Atl_Specular }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=pixelfade }
+        ParameterValue = 4500
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Curve of BurnedMoss }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Height of BurnedMoss }
+        ParameterValue = 150
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=tile amount BurnedMoss }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Param }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=06_MetallicTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=06_RoughnessTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=06_ORMTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_HOS_OfficeWood02Broken_ORM.T_HOS_OfficeWood02Broken_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Burned Moss Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Asylum/T_BurntFloor01.T_BurntFloor01'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Base Color Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_HOS_OfficeWood02Broken_BC.T_HOS_OfficeWood02Broken_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=NormalMap Texture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_HOS_OfficeWood02Broken_N.T_HOS_OfficeWood02Broken_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=ColorTint_Fade }
+        ParameterValue = { R=0.598958, G=0.625694, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[8] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=06_TextureMetallic }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=06_TextureRoughness }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=06_TextureORM }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=Burned Moss On Ground }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=InverseTrasnsition }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = false
+            ParameterInfo = { Name=Blend AO Into Diffuse }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseBaseColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseNormal }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[12] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_BurnLUT.T_BurnLUT'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Mask/T_Noise01.T_Noise01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_BurnedEmbers.T_BurnedEmbers'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/SphereNormal.SphereNormal'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Asylum/T_AsylumPlasterMask.T_AsylumPlasterMask'
+    CachedReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Asylum/T_Asylum_Concrete02_BC_normal.T_Asylum_Concrete02_BC_normal'
+    CachedReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+    CachedReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_GasPump01.MI_GasPump01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_GasPump01.MI_GasPump01'
+        MaterialSlotName = Default1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 237.667, 259.977, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.53459, Y=0.120676, Z=86.5872 }
+    BoxExtent = { X=42.3155, Y=27.592, Z=86.7562 }
+    SphereRadius = 97.645
+}

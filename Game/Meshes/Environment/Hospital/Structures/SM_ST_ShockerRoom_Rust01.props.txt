@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rust01_Fence01.MI_Rust01_Fence01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rust01_Fence01.MI_Rust01_Fence01'
+        MaterialSlotName = MI_Rust01_Fence01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 456.633, 6201.74, 3889.39, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-47.8468, Y=-11.4508, Z=254.783 }
+    BoxExtent = { X=1649.6, Y=1616.18, Z=283.014 }
+    SphereRadius = 2007.27
+}

@@ -1,0 +1,110 @@
+Materials[8] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MetalCabinet01.MI_Qat_MetalCabinet01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MetalTrim_Black02.MI_Qat_MetalTrim_Black02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DirtyGlass01.MI_DirtyGlass01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_RubberBlack01.MI_Qat_RubberBlack01'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Metal02.MI_Qat_Metal02'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/T_Qat_Metal_Gridepattern01.T_Qat_Metal_Gridepattern01'
+    Materials[6] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Railing01.MI_Qat_Railing01'
+    Materials[7] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_AlphaPattern.MI_Qat_AlphaPattern'
+}
+SourceModels[0] = {}
+StaticMaterials[8] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MetalCabinet01.MI_Qat_MetalCabinet01'
+        MaterialSlotName = MI_Qat_MetalCabinet01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 389.636, 2159.75, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MetalTrim_Black02.MI_Qat_MetalTrim_Black02'
+        MaterialSlotName = MI_Qat_MetalTrim_Black02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 294.349, 2157.47, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DirtyGlass01.MI_DirtyGlass01'
+        MaterialSlotName = MI_DirtyGlass01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 65.2109, 2127.49, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_RubberBlack01.MI_Qat_RubberBlack01'
+        MaterialSlotName = MI_Qat_RubberBlack01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 334.963, 2205.91, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Metal02.MI_Qat_Metal02'
+        MaterialSlotName = MI_Qat_Metal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 419.717, 2248.94, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/T_Qat_Metal_Gridepattern01.T_Qat_Metal_Gridepattern01'
+        MaterialSlotName = T_Qat_Metal_Gridepattern01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 92.255, 2113.56, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Railing01.MI_Qat_Railing01'
+        MaterialSlotName = MI_Qat_Railing01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 417.661, 2145.28, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_AlphaPattern.MI_Qat_AlphaPattern'
+        MaterialSlotName = MI_Qat_AlphaPattern
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 234.101, 2135.29, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.488983, Y=-0.625, Z=162.85 }
+    BoxExtent = { X=371.421, Y=126.847, Z=165.582 }
+    SphereRadius = 404.677
+}

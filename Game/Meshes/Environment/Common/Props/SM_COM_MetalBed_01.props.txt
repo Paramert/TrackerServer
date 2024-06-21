@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_MetalBed_ChainNet01.MI_COM_MetalBed_ChainNet01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_MetalBedFRame_01.MI_COM_MetalBedFRame_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_MetalBed_ChainNet01.MI_COM_MetalBed_ChainNet01'
+        MaterialSlotName = MI_COM_MetalBed_ChainNet01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 203.072, 325.772, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_MetalBedFRame_01.MI_COM_MetalBedFRame_01'
+        MaterialSlotName = MI_COM_MetalBedFRame_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 213.489, 327.818, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=11.034, Y=0.0025177, Z=28.4835 }
+    BoxExtent = { X=66.5204, Y=104.664, Z=28.5214 }
+    SphereRadius = 126.636
+}

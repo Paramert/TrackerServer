@@ -1,0 +1,15 @@
+Diffuse=T_6th_ClothPattern_BC
+Normal=FlatNormal
+Other[0]=Black
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=DefaultDiffuse
+Other[4]=T_Vomit01_BC
+Other[5]=T_Vomit01_N
+Other[6]=T_Vomit01_ORM
+Other[7]=T_ClosetWood_Ges_K28_Mask
+Other[8]=T_SmokeTile
+Other[9]=Black_Linear
+Other[10]=White_Linear
+Other[11]=Yellow_Linear
+Other[12]=T_checker_grid

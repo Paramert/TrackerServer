@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_OldPlanksShack.MI_Eng_OldPlanksShack'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Shack_FloorInside.MI_Eng_Shack_FloorInside'
+    Materials[2] = MaterialInstanceConstant'/Game/Effects/Materials/MI_GroundMud01.MI_GroundMud01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_OldPlanksShack.MI_Eng_OldPlanksShack'
+        MaterialSlotName = MI_Eng_OldPlanksShack
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 281.91, 2317.68, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Shack_FloorInside.MI_Eng_Shack_FloorInside'
+        MaterialSlotName = MI_Eng_Shack_FloorInside
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 573.079, 2319.17, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_GroundMud01.MI_GroundMud01'
+        MaterialSlotName = MI_GroundMud01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 360.416, 2272.05, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-17.0868, Y=57.4419, Z=11.84 }
+    BoxExtent = { X=511.955, Y=518.763, Z=21.6744 }
+    SphereRadius = 729.166
+}

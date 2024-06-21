@@ -1,0 +1,77 @@
+Parent = Material3'/Game/Effects/Materials/M_Distortion_Shockwave.M_Distortion_Shockwave'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DepthFade }
+        ParameterValue = 75
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Additive (3)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Mud_Noise.T_Mud_Noise'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_Mud_Noise
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_SmokeTile
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal
+    }
+}

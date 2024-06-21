@@ -1,0 +1,153 @@
+Parent = Material3'/Game/Netease/UI/UMGAssets/VX/Material/M_Guide_UnLock_Dissolve.M_Guide_UnLock_Dissolve'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DistorIntensity_Color }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=EdgeSharpness }
+        ParameterValue = 25
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=DissovleMapBlend }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=EdgeHeat }
+        ParameterValue = 3000
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=FireAddIntensity }
+        ParameterValue = 0.88
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Distor_Tex }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Noise_N_02.T_Noise_N_02'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=T_FireAdd }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_012.NE_T_Noise_LyLct_012'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=DarkIcon }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Guide_UnLock_Activity_Mask.T_Guide_UnLock_Activity_Mask'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=DissolveMap2 }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyTc_09.NE_T_Noise_LyTc_09'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=DissolveMap }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP143_023.NE_T_Noise_TP143_023'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=DP_FireAdd }
+        ParameterValue = { R=6, G=1.5, B=0, A=0.8 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=DP_Distor_1 }
+        ParameterValue = { R=2, G=2, B=-0.1, A=0.1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Param }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=FireColor }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/MainMenu/NEW/NE_IllustrationSystem_icon_Exchange_LockMask.NE_IllustrationSystem_icon_Exchange_LockMask'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_EyeBall_Background_05.T_EyeBall_Background_05'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_004.NE_T_Noise_LyLct_004'
+    CachedReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.996216
+        UVChannelIndex = 0
+        TextureName = NE_T_Noise_LyTc_09
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_Noise_TP143_023
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_Noise_N_02
+    }
+}

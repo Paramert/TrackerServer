@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_MaskDissolve_01.MI_6th_MaskDissolve_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_MaskDissolve_02.MI_6th_MaskDissolve_02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_AltarDissolve_01.MI_6th_AltarDissolve_01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_lightsDissolve_02.MI_6th_lightsDissolve_02'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_DripDissolve_01.MI_6th_DripDissolve_01'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_MaskDissolve_01.MI_6th_MaskDissolve_01'
+        MaterialSlotName = MI_6th_MaskDissolve_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 92.7673, 263.834, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_MaskDissolve_02.MI_6th_MaskDissolve_02'
+        MaterialSlotName = MI_6th_MaskDissolve_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 98.862, 262.974, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_AltarDissolve_01.MI_6th_AltarDissolve_01'
+        MaterialSlotName = MI_6th_AltarDissolve_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 155.728, 234.609, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_lightsDissolve_02.MI_6th_lightsDissolve_02'
+        MaterialSlotName = MI_6th_lightsDissolve_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_DripDissolve_01.MI_6th_DripDissolve_01'
+        MaterialSlotName = MI_6th_DripDissolve_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 44.2132, 254.332, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.52588e-05, Y=0, Z=68.727 }
+    BoxExtent = { X=29.7731, Y=29.7731, Z=69.2288 }
+    SphereRadius = 81.0278
+}

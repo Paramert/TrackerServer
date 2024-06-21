@@ -1,0 +1,98 @@
+Materials[7] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Ground/MI_Com_SandSmoothRed_A.MI_Com_SandSmoothRed_A'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_ConcreteGeneric01.MI_ION_ConcreteGeneric01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_StatueMale_01.MI_ION_StatueMale_01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Blockers/MI_ION_StatueA_01.MI_ION_StatueA_01'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_01_Sand.MI_ION_BigStone_01_Sand'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_D_01.MI_Com_Rocks_D_01'
+    Materials[6] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_D_02.MI_Com_Rocks_D_02'
+}
+SourceModels[0] = {}
+StaticMaterials[7] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Ground/MI_Com_SandSmoothRed_A.MI_Com_SandSmoothRed_A'
+        MaterialSlotName = MI_Com_SandSmoothRed_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13238.5, 39013.9, 925.866, 105155 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_ConcreteGeneric01.MI_ION_ConcreteGeneric01'
+        MaterialSlotName = MI_ION_ConcreteGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 597.018, 33730.1, 82.2264, 107871 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_StatueMale_01.MI_ION_StatueMale_01'
+        MaterialSlotName = MI_ION_StatueMale_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4528.91, 33344.6, 0, 104794 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Blockers/MI_ION_StatueA_01.MI_ION_StatueA_01'
+        MaterialSlotName = MI_ION_StatueA_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3301.22, 33106.1, 0, 104372 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_01_Sand.MI_ION_BigStone_01_Sand'
+        MaterialSlotName = MI_ION_BigStone_01_Sand
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 336.505, 34601.1, 0, 106568 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_D_01.MI_Com_Rocks_D_01'
+        MaterialSlotName = MI_Com_Rocks_D_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 17784.3, 34234.3, 0, 107787 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Nature/Rocks/MI_Com_Rocks_D_02.MI_Com_Rocks_D_02'
+        MaterialSlotName = MI_Com_Rocks_D_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 7396.29, 33531, 3245.06, 107278 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1253.08, Y=-18844.2, Z=2064.83 }
+    BoxExtent = { X=31138, Y=12731.9, Z=2546.05 }
+    SphereRadius = 33569.1
+}

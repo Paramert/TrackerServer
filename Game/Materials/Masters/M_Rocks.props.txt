@@ -1,0 +1,111 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_1.rock2_1'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_1_normal.rock2_1_normal'
+    ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Vegetations/T_Rock01.T_Rock01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Custom_Specular }
+                    ParameterInfos[1] = { Name=Custom_Roughness }
+                    ParameterInfos[2] = { Name=Custom_Metallic }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Diffuse_Tint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] =
+                    {
+                        Name = MaterialExpressionTextureSampleParameter2D_2
+                    }
+                    ParameterInfos[1] =
+                    {
+                        Name = MaterialExpressionTextureSampleParameter2D_3
+                    }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0, 1, 0 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.635, G=0.635, B=0.635, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_1_normal.rock2_1_normal'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_1.rock2_1'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_1_normal.rock2_1_normal'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Vegetations/T_Rock01.T_Rock01'
+        ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_1.rock2_1'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_1_normal.rock2_1_normal'
+        Name = MaterialExpressionTextureSampleParameter2D_2
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/rocksSmall/rock2_1.rock2_1'
+        Name = MaterialExpressionTextureSampleParameter2D_3
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Custom_Specular, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Custom_Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Custom_Metallic, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.635, G=0.635, B=0.635, A=1 }
+        Name = Diffuse_Tint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

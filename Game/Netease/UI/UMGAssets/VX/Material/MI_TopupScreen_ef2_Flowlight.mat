@@ -1,0 +1,5 @@
+Diffuse=T_StoreEvent_WeekMonthPass_Glow
+Normal=DefaultNormal
+Opacity=T_TopupScreen_ef2_Mask
+Other[0]=NE_T_Noise_LyTc_07
+Other[1]=DefaultTexture

@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_BrokenTree03.MI_BRL_BrokenTree03'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_BrokenTree02.MI_BRL_BrokenTree02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_BrokenTree01.MI_BRL_BrokenTree01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_BrokenTree03.MI_BRL_BrokenTree03'
+        MaterialSlotName = MI_BRL_BrokenTree03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 146.991, 624.836, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_BrokenTree02.MI_BRL_BrokenTree02'
+        MaterialSlotName = MI_BRL_BrokenTree02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 125.487, 600.876, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_BrokenTree01.MI_BRL_BrokenTree01'
+        MaterialSlotName = MI_BRL_BrokenTree01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 193.305, 616.061, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.60474, Y=-2.00983, Z=76.138 }
+    BoxExtent = { X=289.757, Y=65.9924, Z=86.6562 }
+    SphereRadius = 301.597
+}

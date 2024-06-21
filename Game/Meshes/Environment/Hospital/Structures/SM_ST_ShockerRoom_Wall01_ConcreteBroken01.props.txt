@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_ConcreteBroken01.MI_Hos_ConcreteBroken01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_ConcreteBroken01.MI_Hos_ConcreteBroken01'
+        MaterialSlotName = MI_Hos_ConcreteBroken01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 499.654, 5280.71, 574.327, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=199.609, Y=122.172, Z=255.314 }
+    BoxExtent = { X=1329.61, Y=1375.97, Z=255.314 }
+    SphereRadius = 1836.47
+}

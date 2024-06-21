@@ -1,0 +1,159 @@
+Parent = Material3'/Game/Effects/Materials/M_Toxin_Smoke.M_Toxin_Smoke'
+ScalarParameterValues[14] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Distortion Mask Intensity }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Distortion Speed X }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Distortion Speed Y }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Mask Distortion Tiling }
+        ParameterValue = 0.322
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Mask Tiling }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Radial Mask Intensity }
+        ParameterValue = 0.35
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Near Camera Fade Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=NearFade Radius }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Border Intensity }
+        ParameterValue = 200
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Distortion_Intensity_01 }
+        ParameterValue = 0.0575
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Distortion_Intensity_02 }
+        ParameterValue = 0.046667
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Distortion_Intensity_03 }
+        ParameterValue = 0.033333
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=SmokeTiling }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Mask Speeds }
+        ParameterValue = { R=0.144, G=0.177, B=-0.111, A=0.088 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=SpherePosition_Radius_Density }
+        ParameterValue = { R=0.5, G=0.5, B=0.5, A=1.55 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Noise_08.T_Noise_08'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_LitSmoke.T_LitSmoke'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Wisps_001.T_Smoke_Wisps_001'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling1.T_Smoke_02_Tiling1'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Smoke_Trails_003.T_Smoke_Trails_003'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LitSmoke
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.968201
+        UVChannelIndex = 0
+        TextureName = T_Smoke_Trails_003
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.328125
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal2
+    }
+}

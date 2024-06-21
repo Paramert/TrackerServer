@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOSMiscellaneous.MI_HOSMiscellaneous'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOSMiscellaneous.MI_HOSMiscellaneous'
+        MaterialSlotName = MI_HOSMiscellaneous
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 190.086, 272.589, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.38419e-07, Y=-18.6185, Z=250.717 }
+    BoxExtent = { X=2.42859, Y=52.7836, Z=250.495 }
+    SphereRadius = 255.995
+}

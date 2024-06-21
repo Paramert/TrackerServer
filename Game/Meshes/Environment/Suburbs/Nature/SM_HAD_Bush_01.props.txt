@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Suburbs/Nature/MI_HAD_BushLeaves.MI_HAD_BushLeaves'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Suburbs/Nature/MI_HAD_BushLeaves.MI_HAD_BushLeaves'
+        MaterialSlotName = MI_HAD_BushLeaves
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 106.717, 749, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.93925, Y=1.49937, Z=51.5287 }
+    BoxExtent = { X=121.497, Y=120.67, Z=57.5806 }
+    SphereRadius = 149.746
+}

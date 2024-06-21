@@ -1,0 +1,13 @@
+Diffuse=T_S34Hair02_BC
+Normal=T_FlatNormal_01
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=BH_hairstyle_2uv_Chunks_2
+Other[2]=T_KKHair007_BC
+Other[3]=T_Halftone
+Other[4]=T_TileNoise
+Other[5]=T_DissolveTextures
+Other[6]=T_FX_DissolveRamp
+Other[7]=T_GS_FrontSign_Flickerama
+Other[8]=Black
+Other[9]=T_Anisotropic
+Other[10]=White

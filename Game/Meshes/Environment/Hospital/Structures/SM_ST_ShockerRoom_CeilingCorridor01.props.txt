@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_CeilingCorridor01.MI_HOS_CeilingCorridor01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_CeilingCorridor01.MI_HOS_CeilingCorridor01'
+        MaterialSlotName = MI_HOS_CeilingCorridor01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 434.173, 6160.64, 1795.87, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.47827, Y=1.66516, Z=481.791 }
+    BoxExtent = { X=1596.75, Y=1596.87, Z=19.3021 }
+    SphereRadius = 1919.84
+}

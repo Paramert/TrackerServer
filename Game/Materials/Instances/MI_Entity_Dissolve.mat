@@ -1,0 +1,12 @@
+Diffuse=T_MeatHookSpider_BC
+Normal=T_MeatHookSpider_N
+SpecPower=T_MeatHookSpider_S
+Other[0]=T_DissolveTexturesEntity
+Other[1]=T_MeatHookSpider_R
+Other[2]=SphereNormal
+Other[3]=T_Dissolve_spiderthing
+Other[4]=T_DissolveFlowmap
+Other[5]=T_DissolveTextures
+Other[6]=T_FX_DissolveRamp
+Other[7]=Black
+Other[8]=Black_Linear

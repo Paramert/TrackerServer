@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush1_Singularity.MI_Bulrush1_Singularity'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush_Imposter.MI_Bulrush_Imposter'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush1_Singularity.MI_Bulrush1_Singularity'
+        MaterialSlotName = MI_Bulrush1_Singularity
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 83.3761, 83.3761, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Bulrush_Imposter.MI_Bulrush_Imposter'
+        MaterialSlotName = MI_Bulrush_Imposter
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.1475, Y=-1.54188, Z=122.639 }
+    BoxExtent = { X=54.2922, Y=50.0049, Z=136.794 }
+    SphereRadius = 147.302
+}

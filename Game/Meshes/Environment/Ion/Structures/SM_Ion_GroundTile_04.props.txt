@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Tiles/MI_GroundTilesLarge_A.MI_GroundTilesLarge_A'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Tiles/MI_GroundTilesLarge_A.MI_GroundTilesLarge_A'
+        MaterialSlotName = MI_GroundTilesLarge_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 234.256, 122.965, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-50.3671, Y=-57.4128, Z=1.91904 }
+    BoxExtent = { X=59.4295, Y=59.5363, Z=1.91904 }
+    SphereRadius = 77.97
+}

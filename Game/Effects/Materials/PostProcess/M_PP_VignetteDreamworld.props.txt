@@ -1,0 +1,158 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteBreaks_Dreamworld.T_VignetteBreaks_Dreamworld'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+    ReferencedTextures[2] = Texture2D'/Game/StarterContent/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=MF_PP_DiskDiscard_Radius }
+                    ParameterInfos[1] = { Name=SpeedX_2 }
+                    ParameterInfos[2] = { Name=Mask_Radius }
+                    ParameterInfos[3] = { Name=SpeedX_1 }
+                    ParameterInfos[4] = { Name=ColorIntensity }
+                    ParameterInfos[5] = { Name=Mask_Hardness }
+                    ParameterInfos[6] = { Name=SpeedY_3 }
+                    ParameterInfos[7] = { Name=SpeedY_1 }
+                    ParameterInfos[8] = { Name=MaskAmount }
+                    ParameterInfos[9] = { Name=SpeedY_2 }
+                    ParameterInfos[10] = { Name=RadialScaling }
+                    ParameterInfos[11] = { Name=Scale }
+                    ParameterInfos[12] = { Name=DepthTest }
+                    ParameterInfos[13] = { Name=DetailMaskPower }
+                    ParameterInfos[14] = { Name=Opacity }
+                    ParameterInfos[15] = { Name=VignetteDream_Intensity }
+                    ParameterInfos[16] = { Name=SpeedX_3 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Colour }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Smoke }
+                    ParameterInfos[1] = { Name=Breaks }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 0.4
+            ScalarValues[1] = 0.01
+            ScalarValues[2] = 0.6
+            ScalarValues[3] = 0.1
+            ScalarValues[4] = 0.875
+            ScalarValues[5] = 0.8
+            ScalarValues[6] = -0.1
+            ScalarValues[7] = -0.2
+            ScalarValues[8] = 1
+            ScalarValues[9] = -0.01
+            ScalarValues[10] = 5
+            ScalarValues[11] = 1.5
+            ScalarValues[12] = 80
+            ScalarValues[13] = 0.2
+            ScalarValues[14] = 0.07
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0.1
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.527072, G=0.573516, B=0.697917, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteBreaks_Dreamworld.T_VignetteBreaks_Dreamworld'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+        ReferencedTextures[1] = Texture2D'/Game/StarterContent/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteBreaks_Dreamworld.T_VignetteBreaks_Dreamworld'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+        Name = Smoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteBreaks_Dreamworld.T_VignetteBreaks_Dreamworld'
+        Name = Breaks
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.4
+        Name = MF_PP_DiskDiscard_Radius
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0.01, Name=SpeedX_2, Group=None }
+    CollectedScalarParameters[2] = { Value=0.6, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=SpeedX_1, Group=None }
+    CollectedScalarParameters[4] = { Value=0.875, Name=ColorIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=0.8, Name=Mask_Hardness, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.1, Name=SpeedY_3, Group=None }
+    CollectedScalarParameters[7] = { Value=-0.2, Name=SpeedY_1, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=MaskAmount, Group=None }
+    CollectedScalarParameters[9] = { Value=-0.01, Name=SpeedY_2, Group=None }
+    CollectedScalarParameters[10] = { Value=5, Name=RadialScaling, Group=None }
+    CollectedScalarParameters[11] = { Value=1.5, Name=Scale, Group=None }
+    CollectedScalarParameters[12] = { Value=80, Name=DepthTest, Group=None }
+    CollectedScalarParameters[13] = { Value=0.2, Name=DetailMaskPower, Group=None }
+    CollectedScalarParameters[14] = { Value=0.07, Name=Opacity, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0
+        Name = VignetteDream_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0.1, Name=SpeedX_3, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.527072, G=0.573516, B=0.697917, A=1 }
+        Name = Colour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,4 @@
+Diffuse=T_Liquid_Goop_GP
+Normal=T_Mud_N
+Other[0]=T_Mud
+Other[1]=T_NoiseNormal_01

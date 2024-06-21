@@ -1,0 +1,295 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Grid_N.Grid_N'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/T_Default_MacroVariation.T_Default_MacroVariation'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Props/Misc/T_DirtMask_01.T_DirtMask_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[29] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Dirt_Rougness }
+                    ParameterInfos[2] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[3] = { Name=Refraction }
+                    ParameterInfos[4] = { Name=Atl_Roughness }
+                    ParameterInfos[5] = { Name=DetailNormal_Offset_Y }
+                    ParameterInfos[6] = { Name=DetailNormal_Rotation (0-360) }
+                    ParameterInfos[7] = { Name=Dirt_Offset_X }
+                    ParameterInfos[8] = { Name=Metallic }
+                    ParameterInfos[9] = { Name=Dirt_Contrast }
+                    ParameterInfos[10] = { Name=DetailNormal_Tile }
+                    ParameterInfos[11] = { Name=DistanceAtWhichOutlineIsAlwaysVisible }
+                    ParameterInfos[12] = { Name=VertexPaint_Influence (0-1) }
+                    ParameterInfos[13] = { Name=DetailNormal_Offset_X }
+                    ParameterInfos[14] = { Name=Atl_Metallic }
+                    ParameterInfos[15] = { Name=Fresnel_Falloff }
+                    ParameterInfos[16] = { Name=Dirt_Tile }
+                    ParameterInfos[17] = { Name=OpacityOverride (0-1) }
+                    ParameterInfos[18] = { Name=RoughnessOverride (0-1) }
+                    ParameterInfos[19] = { Name=Dirt_Offset_Y }
+                    ParameterInfos[20] = { Name=Dirt_Rotation (0-360) }
+                    ParameterInfos[21] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[22] = { Name=MinimumOutlineDistance }
+                    ParameterInfos[23] = { Name=RefractionOverwrite (0-1) }
+                    ParameterInfos[24] = { Name=Atl_Specular }
+                    ParameterInfos[25] = { Name=Opacity }
+                    ParameterInfos[26] = { Name=DetailNormal_Intensity }
+                    ParameterInfos[27] = { Name=Dirt_Intensity }
+                    ParameterInfos[28] = { Name=ObjNormal_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Atl_DiffuseTint }
+                    ParameterInfos[1] = { Name=DirtColor }
+                    ParameterInfos[2] = { Name=Color2 }
+                    ParameterInfos[3] = { Name=Color }
+                    ParameterInfos[4] = { Name=OutlineColour }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=ObjMask }
+                    ParameterInfos[1] = { Name=DetailNormal }
+                    ParameterInfos[2] = { Name=ObjNormal }
+                    ParameterInfos[3] = { Name=Dirt_Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[29] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0.85
+            ScalarValues[2] = 10
+            ScalarValues[3] = 1.2
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.75
+            ScalarValues[9] = 2
+            ScalarValues[10] = 1
+            ScalarValues[11] = 7000
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 10
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+            ScalarValues[22] = 100
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0.1
+            ScalarValues[26] = 0
+            ScalarValues[27] = 1
+            ScalarValues[28] = 0
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0.88, G=0.847818, B=0.6644, A=1 }
+            VectorValues[2] = { R=0.1296, G=0.32, B=0.21309, A=1 }
+            VectorValues[3] = { R=0.886065, G=0.915, B=0.90611, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineMaterials/T_Default_MacroVariation.T_Default_MacroVariation'
+            TextureValues[1] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+            TextureValues[2] = Texture2D'/Engine/EngineMaterials/Grid_N.Grid_N'
+            TextureValues[3] = Texture2D'/Game/Textures/Props/Misc/T_DirtMask_01.T_DirtMask_01'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/T_Default_MacroVariation.T_Default_MacroVariation'
+        ReferencedTextures[1] = Texture2D'/Game/Textures/Props/Misc/T_DirtMask_01.T_DirtMask_01'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/Grid_N.Grid_N'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/T_Default_MacroVariation.T_Default_MacroVariation'
+        Name = ObjMask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+        Name = DetailNormal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/Grid_N.Grid_N'
+        Name = ObjNormal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_DirtMask_01.T_DirtMask_01'
+        Name = Dirt_Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[29] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.85, Name=Dirt_Rougness, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1.2, Name=Refraction, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=DetailNormal_Offset_Y, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = DetailNormal_Rotation (0-360)
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=Dirt_Offset_X, Group=None }
+    CollectedScalarParameters[8] = { Value=0.75, Name=Metallic, Group=None }
+    CollectedScalarParameters[9] = { Value=2, Name=Dirt_Contrast, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=DetailNormal_Tile, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 7000
+        Name = DistanceAtWhichOutlineIsAlwaysVisible
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1
+        Name = VertexPaint_Influence (0-1)
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=1, Name=DetailNormal_Offset_X, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[15] = { Value=10, Name=Fresnel_Falloff, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Dirt_Tile, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=OpacityOverride (0-1), Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0
+        Name = RoughnessOverride (0-1)
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=1, Name=Dirt_Offset_Y, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=Dirt_Rotation (0-360), Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 100
+        Name = MinimumOutlineDistance
+        Group = None
+    }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0
+        Name = RefractionOverwrite (0-1)
+        Group = None
+    }
+    CollectedScalarParameters[24] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[25] = { Value=0.1, Name=Opacity, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=DetailNormal_Intensity, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=Dirt_Intensity, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=ObjNormal_Intensity, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.88, G=0.847818, B=0.6644, A=1 }
+        Name = DirtColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.1296, G=0.32, B=0.21309, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.886065, G=0.915, B=0.90611, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = OutlineColour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Grid_N
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Default_MacroVariation
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Default_Normal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DirtMask_01
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Pumpkins/Material/MI_Pumpkin005.MI_Pumpkin005'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Pumpkins/Material/MI_Pumpkin005.MI_Pumpkin005'
+        MaterialSlotName = MI_Pumpkin004
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1801.69, 232.333, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.23421, Y=-3.74316, Z=11.3702 }
+    BoxExtent = { X=68.8461, Y=54.4209, Z=26.1147 }
+    SphereRadius = 85.352
+}

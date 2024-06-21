@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_FuseBoxPanel_02.MI_COM_FuseBoxPanel_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_FuseBoxPanel_02.MI_COM_FuseBoxPanel_02'
+        MaterialSlotName = MI_SM_COM_FuseBoxPanel_02_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 196.479, 1151.11, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=9.36499, Z=0 }
+    BoxExtent = { X=58.1544, Y=9.7104, Z=123.154 }
+    SphereRadius = 126.045
+}

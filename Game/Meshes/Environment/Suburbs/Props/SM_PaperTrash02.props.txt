@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Can01.MI_Can01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_paperTrash01.MI_paperTrash01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Can01.MI_Can01'
+        MaterialSlotName = MI_Can01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 38.9284, 88.0751, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_paperTrash01.MI_paperTrash01'
+        MaterialSlotName = MI_paperTrash01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 121.815, 88.9295, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.52588e-05, Z=7.04601 }
+    BoxExtent = { X=37.6062, Y=44.6403, Z=9.36677 }
+    SphereRadius = 56.216
+}

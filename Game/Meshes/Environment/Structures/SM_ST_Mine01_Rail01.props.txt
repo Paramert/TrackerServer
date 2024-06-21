@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_ST_Mine01_Rail_01.MI_ST_Mine01_Rail_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_ST_Mine01_Rail_01.MI_ST_Mine01_Rail_01'
+        MaterialSlotName = SM_Mine_Rail_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 310.528, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=11.9866, Y=2.63452, Z=0.139385 }
+    BoxExtent = { X=109.074, Y=247.693, Z=17.5146 }
+    SphereRadius = 259.502
+}

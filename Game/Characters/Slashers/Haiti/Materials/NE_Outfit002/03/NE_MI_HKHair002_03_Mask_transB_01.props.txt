@@ -1,0 +1,169 @@
+Parent = Material3'/Game/Characters/Slashers/Materials/M_Slasher_HairTAA_AnimTransB.M_Slasher_HairTAA_AnimTransB'
+ScalarParameterValues[12] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Brightness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RootAO }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RootAORange }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Mask Gradient Multiplier }
+        ParameterValue = 0.95
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=MaskLength }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=M- X Speed }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=M- X Tiling }
+        ParameterValue = 3.7996
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=M- Y Speed }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=M- Y Tiling }
+        ParameterValue = 7
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=DissolveOpacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Alpha_Mask }
+        ParameterValue = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_M.T_HKHair01_M'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=HideHead_Mask }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=RootColor }
+        ParameterValue = { R=0.266356, G=0.262251, B=0.250158, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=TipColor }
+        ParameterValue = { R=0.286458, G=0.283053, B=0.27303, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseCameraFade }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseDissolve }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    CachedReferencedTextures[2] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_N.T_HKHair01_N'
+    CachedReferencedTextures[3] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_Hair_05_M.T_Hair_05_M'
+    CachedReferencedTextures[4] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit01/T_HKHair01_Mask.T_HKHair01_Mask'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_HKHair01_Mask
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 3.79688
+        UVChannelIndex = 0
+        TextureName = T_HKHair01_N
+    }
+}

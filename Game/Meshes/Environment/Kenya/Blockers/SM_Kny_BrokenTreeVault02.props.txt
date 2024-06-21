@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_TreeVault01.MI_BRL_TreeVault01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_TreeVault03.MI_BRL_TreeVault03'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_TreeVault02.MI_BRL_TreeVault02'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_TreeVault01.MI_BRL_TreeVault01'
+        MaterialSlotName = MI_BRL_TreeVault01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 244.782, 679.525, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_TreeVault03.MI_BRL_TreeVault03'
+        MaterialSlotName = MI_BRL_TreeVault03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 153.289, 674.445, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_TreeVault02.MI_BRL_TreeVault02'
+        MaterialSlotName = MI_BRL_TreeVault02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 157.766, 675.696, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-64.4478, Y=-10.6481, Z=96.4688 }
+    BoxExtent = { X=325.516, Y=70.8704, Z=105.761 }
+    SphereRadius = 330.431
+}

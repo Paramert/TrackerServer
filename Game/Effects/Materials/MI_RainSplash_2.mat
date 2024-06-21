@@ -1,0 +1,6 @@
+Diffuse=Black
+Emissive=Black
+Other[0]=T_TilingNoise03
+Other[1]=T_WaterSplash
+Other[2]=Fx_radialGradient
+Other[3]=White

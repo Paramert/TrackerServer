@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Haiti/MI_Haiti_BogMyrtleBush01.MI_Haiti_BogMyrtleBush01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Haiti/MI_Haiti_BogMyrtleBush01.MI_Haiti_BogMyrtleBush01'
+        MaterialSlotName = MI_Haiti_BogMyrtleBush01_Leaves_Leaf_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 27.5738, 266.535, 0, 1.0846 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.24626, Y=-2.60351, Z=29.2738 }
+    BoxExtent = { X=49.4702, Y=52.3477, Z=29.9756 }
+    SphereRadius = 56.4525
+}

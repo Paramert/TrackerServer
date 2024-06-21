@@ -1,0 +1,17 @@
+Diffuse=T_Ind_Concrete_Trim_A_BC
+Normal=T_Ind_Concrete_Trim_A_N
+Other[0]=T_Ind_Concrete_Trim_A_ORM
+Other[1]=HeatmapGradient
+Other[2]=BlendFunc_DefBase
+Other[3]=BlendFunc_DefBlend
+Other[4]=DefaultDiffuse
+Other[5]=FlatNormal
+Other[6]=environment_mud_diffuse
+Other[7]=environment_mud_N
+Other[8]=T_GS_FrontSign_Flickerama
+Other[9]=Black_Linear
+Other[10]=White_Linear
+Other[11]=Yellow_Linear
+Other[12]=Moss_diffuse
+Other[13]=T_CrawlingMoss_Mask_01
+Other[14]=T_checker_grid

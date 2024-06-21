@@ -1,0 +1,89 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/ParticleSystems/NIAGARA_VFX/TEXTURES_VFX/N_Smoke_Dense_Loop_1.N_Smoke_Dense_Loop_1'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/ParticleSystems/NIAGARA_VFX/TEXTURES_VFX/T_Smoke_Dense_Loop_1.T_Smoke_Dense_Loop_1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Ambiant Color Intensity }
+                    ParameterInfos[1] = { Name=Normal Intensity }
+                    ParameterInfos[2] = { Name=Depht Fade }
+                    ParameterInfos[3] = { Name=NearFade Radius }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Texture Normal }
+                    ParameterInfos[1] = { Name=Texture Albedo }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0, 0.15, 150, 156 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/ParticleSystems/NIAGARA_VFX/TEXTURES_VFX/N_Smoke_Dense_Loop_1.N_Smoke_Dense_Loop_1'
+            TextureValues[1] = Texture2D'/Game/Effects/ParticleSystems/NIAGARA_VFX/TEXTURES_VFX/T_Smoke_Dense_Loop_1.T_Smoke_Dense_Loop_1'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/ParticleSystems/NIAGARA_VFX/TEXTURES_VFX/N_Smoke_Dense_Loop_1.N_Smoke_Dense_Loop_1'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/ParticleSystems/NIAGARA_VFX/TEXTURES_VFX/T_Smoke_Dense_Loop_1.T_Smoke_Dense_Loop_1'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/ParticleSystems/NIAGARA_VFX/TEXTURES_VFX/N_Smoke_Dense_Loop_1.N_Smoke_Dense_Loop_1'
+        Name = Texture Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/ParticleSystems/NIAGARA_VFX/TEXTURES_VFX/T_Smoke_Dense_Loop_1.T_Smoke_Dense_Loop_1'
+        Name = Texture Albedo
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = Ambiant Color Intensity
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0.15, Name=Normal Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=150, Name=Depht Fade, Group=None }
+    CollectedScalarParameters[3] = { Value=156, Name=NearFade Radius, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

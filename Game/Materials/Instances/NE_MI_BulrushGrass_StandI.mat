@@ -1,0 +1,7 @@
+Diffuse=T_BulrushGrass_StandInMeshActor_Diffuse
+Normal=T_BulrushGrass_StandInMeshActor_Normal
+Other[0]=T_BulrushGrass_StandInMeshActor_MRS
+Other[1]=BaseFlattenDiffuseMap
+Other[2]=BaseFlattenEmissiveMap
+Other[3]=BaseFlattenGrayScaleMap
+Other[4]=BaseFlattenNormalMap

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/NE_MI_ice.NE_MI_ice'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/NE_MI_ice.NE_MI_ice'
+        MaterialSlotName = 01_-_Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 181.092, 594.946, 602.046, 646.186 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.61805, Y=-13.7148, Z=114.854 }
+    BoxExtent = { X=90.1258, Y=89.5085, Z=117.201 }
+    SphereRadius = 130.962
+}

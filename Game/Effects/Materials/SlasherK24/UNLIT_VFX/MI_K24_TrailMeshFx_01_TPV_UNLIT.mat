@@ -1,0 +1,9 @@
+Diffuse=T_Smoke_Tile_01_C
+Normal=T_Mud_N
+SpecPower=T_spume_01
+Other[0]=T_TrailLine_var_02
+Other[1]=T_FX_Gradient_Footsteps
+Other[2]=T_Mud_01_M
+Other[3]=T_RGBclouds_map_01
+Other[4]=T_Smoke_Soft_Tile
+Other[5]=T_TrailLine_var_01

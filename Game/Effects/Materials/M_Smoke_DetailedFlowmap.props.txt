@@ -1,0 +1,110 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Smoke_08.T_Smoke_08'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=DephtFade }
+                    ParameterInfos[1] = { Name=Camera Fade }
+                    ParameterInfos[2] = { Name=Emissive Intensity }
+                    ParameterInfos[3] = { Name=Flowmap - Speed X }
+                    ParameterInfos[4] = { Name=Flowmap - Speed Y }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Main Texture }
+                    ParameterInfos[1] = { Name=Ramp }
+                    ParameterInfos[2] = { Name=Flowmap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 3, 0, 0, 0, -0.1 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Smoke_08.T_Smoke_08'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Smoke_08.T_Smoke_08'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Smoke_08.T_Smoke_08'
+        Name = Main Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+        Name = Ramp
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        Name = Flowmap
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=DephtFade, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Camera Fade, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Emissive Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Flowmap - Speed X, Group=None }
+    CollectedScalarParameters[4] = { Value=-0.1, Name=Flowmap - Speed Y, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Smoke_08
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_N
+    }
+}

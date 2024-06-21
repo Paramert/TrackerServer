@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_Corn01.MI_Corn01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_Corn01_2.MI_Corn01_2'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_Corn02_CQ.MI_Corn02_CQ'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_Corn01.MI_Corn01'
+        MaterialSlotName = MI_Corn01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 24.4611, 209.86, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_Corn01_2.MI_Corn01_2'
+        MaterialSlotName = MI_Corn02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 8.99529, 208.404, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Vegetations/MI_Corn02_CQ.MI_Corn02_CQ'
+        MaterialSlotName = MI_SM_Corn02_CQ
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.25224, Y=9.99294, Z=116.225 }
+    BoxExtent = { X=29.4702, Y=47.0872, Z=121.45 }
+    SphereRadius = 122.656
+}

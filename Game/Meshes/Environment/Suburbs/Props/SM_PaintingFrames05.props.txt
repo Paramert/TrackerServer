@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintingFrames01.MI_PaintingFrames01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Painting01.MI_Painting01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintingFrames01.MI_PaintingFrames01'
+        MaterialSlotName = MI_PaintingFrames01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 75.0463, 114.054, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Painting01.MI_Painting01'
+        MaterialSlotName = MI_Painting01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 226.873, 111.104, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.09808e-05, Y=3.05176e-05, Z=0.00704074 }
+    BoxExtent = { X=27.2403, Y=35.1164, Z=2.77678 }
+    SphereRadius = 43.5404
+}

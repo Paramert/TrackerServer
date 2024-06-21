@@ -1,0 +1,284 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04.T_Liquid_Splatter04'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=BloodAnim }
+                    ParameterInfos[2] = { Name=DetailNormalTiling }
+                    ParameterInfos[3] = { Name=Metallic }
+                    ParameterInfos[4] = { Name=Reflection_Opacity }
+                    ParameterInfos[5] = { Name=Cutout Progress }
+                    ParameterInfos[6] = { Name=Spec }
+                    ParameterInfos[7] = { Name=ErosionNoiseY2 }
+                    ParameterInfos[8] = { Name=EmissiveIntensity }
+                    ParameterInfos[9] = { Name=Radial Mask Radius }
+                    ParameterInfos[10] = { Name=UV Cutout Speed Scale }
+                    ParameterInfos[11] = { Name=ErosionGlobalUV }
+                    ParameterInfos[12] = { Name=EdgeSmooth }
+                    ParameterInfos[13] = { Name=ErosionNoiseX2 }
+                    ParameterInfos[14] = { Name=Softness }
+                    ParameterInfos[15] = { Name=Radial Mask Density }
+                    ParameterInfos[16] = { Name=NormalIntensity }
+                    ParameterInfos[17] = { Name=UV_panner }
+                    ParameterInfos[18] = { Name=GradientContrast }
+                    ParameterInfos[19] = { Name=UV Cutout Scale }
+                    ParameterInfos[20] = { Name=DetailNormal_Intensity }
+                    ParameterInfos[21] = { Name=Reflection_Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                    ParameterInfos[1] = { Name=UV Distortion Direction }
+                    ParameterInfos[2] = { Name=Speed_reflection }
+                    ParameterInfos[3] = { Name=UV_panner_direction }
+                    ParameterInfos[4] = { Name=BloodColor }
+                    ParameterInfos[5] = { Name=BloodEdgeColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=DetailNormal }
+                    ParameterInfos[1] = { Name=Blood_Texture_RGBA }
+                    ParameterInfos[2] = { Name=Reflection Map }
+                    ParameterInfos[3] = { Name=UV Distortion Texture }
+                    ParameterInfos[4] = { Name=Blood_Texture_Normal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = 0.3
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0.02
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0.005
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.154165
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0.01
+            ScalarValues[13] = 1
+            ScalarValues[14] = 6
+            ScalarValues[15] = 0.70269
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 3
+            ScalarValues[19] = 15.5338
+            ScalarValues[20] = 0.2
+            ScalarValues[21] = 1
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0.2, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0.02, G=0, B=0, A=1 }
+            VectorValues[5] = { R=0.02, G=0, B=0, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04.T_Liquid_Splatter04'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04.T_Liquid_Splatter04'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = DetailNormal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04.T_Liquid_Splatter04'
+        Name = Blood_Texture_RGBA
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        Name = Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        Name = UV Distortion Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+        Name = Blood_Texture_Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=BloodAnim, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=DetailNormalTiling, Group=None }
+    CollectedScalarParameters[3] = { Value=0.02, Name=Metallic, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Reflection_Opacity, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Cutout Progress, Group=None }
+    CollectedScalarParameters[6] = { Value=0.005, Name=Spec, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=ErosionNoiseY2, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.154165
+        Name = Radial Mask Radius
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0, Name=UV Cutout Speed Scale, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=ErosionGlobalUV, Group=None }
+    CollectedScalarParameters[12] = { Value=0.01, Name=EdgeSmooth, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=ErosionNoiseX2, Group=None }
+    CollectedScalarParameters[14] = { Value=6, Name=Softness, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0.70269
+        Name = Radial Mask Density
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=1, Name=NormalIntensity, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=UV_panner, Group=None }
+    CollectedScalarParameters[18] = { Value=3, Name=GradientContrast, Group=None }
+    CollectedScalarParameters[19] = { Value=15.5338, Name=UV Cutout Scale, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0.2
+        Name = DetailNormal_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=1, Name=Reflection_Contrast, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = UV Distortion Direction
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Speed_reflection
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.2, G=0, B=0, A=1 }
+        Name = UV_panner_direction
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.02, G=0, B=0, A=1 }
+        Name = BloodColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.02, G=0, B=0, A=1 }
+        Name = BloodEdgeColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FX_Gradient_Footsteps
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Liquid_Splatter04
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Liquid_Splatter04_N
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.21875
+        UVChannelIndex = 2
+        TextureName = T_reflection_map_01
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal
+    }
+}

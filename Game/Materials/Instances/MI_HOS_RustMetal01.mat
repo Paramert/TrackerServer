@@ -1,0 +1,15 @@
+Diffuse=T_MetalRust01
+Normal=T_FlatNormal_01
+Other[0]=Black
+Other[1]=T_Rust04_R
+Other[2]=HeatmapGradient
+Other[3]=DefaultDiffuse
+Other[4]=FlatNormal
+Other[5]=environment_mud_diffuse
+Other[6]=environment_mud_N
+Other[7]=T_GS_FrontSign_Flickerama
+Other[8]=Green_Linear
+Other[9]=White
+Other[10]=Yellow_Linear
+Other[11]=Moss_diffuse
+Other[12]=T_CrawlingMoss_Mask_01

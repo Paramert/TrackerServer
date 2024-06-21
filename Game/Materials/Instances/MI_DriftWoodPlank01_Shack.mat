@@ -1,0 +1,17 @@
+Diffuse=T_DriftWoodPlank01_BC
+Normal=FlatNormal
+Opacity=T_DriftWoodPlank01_M
+Other[0]=tree_mud_diffuse
+Other[1]=T_DefaultA_CAO
+Other[2]=HeatmapGradient
+Other[3]=DefaultDiffuse
+Other[4]=environment_mud_diffuse
+Other[5]=environment_mud_N
+Other[6]=T_Brick01_BC
+Other[7]=Black
+Other[8]=Black_Linear
+Other[9]=Green_Linear
+Other[10]=White
+Other[11]=Yellow_Linear
+Other[12]=Moss_diffuse
+Other[13]=T_CrawlingMoss_Mask_01

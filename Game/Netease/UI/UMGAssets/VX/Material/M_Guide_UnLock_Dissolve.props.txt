@@ -1,0 +1,177 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_004.NE_T_Noise_LyLct_004'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_EyeBall_Background_05.T_EyeBall_Background_05'
+    ReferencedTextures[3] = Texture2D'/Game/Netease/UI/UMGAssets/MainMenu/NEW/NE_IllustrationSystem_icon_Exchange_LockMask.NE_IllustrationSystem_icon_Exchange_LockMask'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=DissovleMapBlend }
+                    ParameterInfos[1] = { Name=DistorIntensity_Color }
+                    ParameterInfos[2] = { Name=EdgeHeat }
+                    ParameterInfos[3] = { Name=Dissolve }
+                    ParameterInfos[4] = { Name=EdgeSharpness }
+                    ParameterInfos[5] = { Name=FireAddIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=DP_Dissolve }
+                    ParameterInfos[1] = { Name=DP_Distor_1 }
+                    ParameterInfos[2] = { Name=FireColor }
+                    ParameterInfos[3] = { Name=DP_FireAdd }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=DissolveMap2 }
+                    ParameterInfos[1] = { Name=Distor_Tex }
+                    ParameterInfos[2] = { Name=DarkIcon }
+                    ParameterInfos[3] = { Name=T_FireAdd }
+                    ParameterInfos[4] = { Name=DissolveMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0.5, 0, 0, 1, 3, 0 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_EyeBall_Background_05.T_EyeBall_Background_05'
+            TextureValues[1] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+            TextureValues[2] = Texture2D'/Game/Netease/UI/UMGAssets/MainMenu/NEW/NE_IllustrationSystem_icon_Exchange_LockMask.NE_IllustrationSystem_icon_Exchange_LockMask'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_EyeBall_Background_05.T_EyeBall_Background_05'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_004.NE_T_Noise_LyLct_004'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/MainMenu/NEW/NE_IllustrationSystem_icon_Exchange_LockMask.NE_IllustrationSystem_icon_Exchange_LockMask'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_EyeBall_Background_05.T_EyeBall_Background_05'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_004.NE_T_Noise_LyLct_004'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_EyeBall_Background_05.T_EyeBall_Background_05'
+        Name = DissolveMap2
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+        Name = Distor_Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/MainMenu/NEW/NE_IllustrationSystem_icon_Exchange_LockMask.NE_IllustrationSystem_icon_Exchange_LockMask'
+        Name = DarkIcon
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_EyeBall_Background_05.T_EyeBall_Background_05'
+        Name = T_FireAdd
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_004.NE_T_Noise_LyLct_004'
+        Name = DissolveMap
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=DissovleMapBlend, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=DistorIntensity_Color, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=EdgeHeat, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Dissolve, Group=None }
+    CollectedScalarParameters[4] = { Value=3, Name=EdgeSharpness, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=FireAddIntensity, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Dissolve
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Distor_1
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = FireColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_FireAdd
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 2
+        TextureName = DefaultNormal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = NE_T_Noise_LyLct_004
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_EyeBall_Background_05
+    }
+}

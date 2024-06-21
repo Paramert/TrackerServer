@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Fountain/Materials/MI_Fountain_01.MI_Fountain_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Fountain/Materials/MI_Fountain_01.MI_Fountain_01'
+        MaterialSlotName = MI_Fountain_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 371.473, 418.669, 0, 0 }
+        }
+    }
+}
+Sockets[1] = {  }
+ExtendedBounds =
+{
+    Origin = { X=-0.254803, Y=18.6627, Z=78.1864 }
+    BoxExtent = { X=55.2308, Y=42.9074, Z=78.4969 }
+    SphereRadius = 101.937
+}

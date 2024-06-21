@@ -1,0 +1,5 @@
+Diffuse=T_FX_Gradient_Footsteps
+Normal=T_WaterNormal
+SpecPower=T_Liquid_Splatter04
+Other[0]=T_Liquid_Splatter04_N
+Other[1]=T_Noise03

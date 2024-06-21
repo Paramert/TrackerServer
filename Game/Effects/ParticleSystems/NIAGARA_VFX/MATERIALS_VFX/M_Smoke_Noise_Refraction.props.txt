@@ -1,0 +1,140 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Smoke/T_SmokeLoop_8x8_01_N.T_SmokeLoop_8x8_01_N'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_WispySmoke_03.T_WispySmoke_03'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Tiling_NoiseDistortion }
+                    ParameterInfos[1] = { Name=UseNormalMap }
+                    ParameterInfos[2] = { Name=UseRedChannel }
+                    ParameterInfos[3] = { Name=Use Noise Erosion }
+                    ParameterInfos[4] = { Name=UseDistortion }
+                    ParameterInfos[5] = { Name=Tiling_Normal }
+                    ParameterInfos[6] = { Name=UseRefraction }
+                    ParameterInfos[7] = { Name=Depht Fade }
+                    ParameterInfos[8] = { Name=NearFade Radius }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=Smoke }
+                    ParameterInfos[2] = { Name=Distortion }
+                    ParameterInfos[3] = { Name=Normal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 8, 0, 0, 0, 0, 1, 0, 100, 175 }
+        VectorValues[0] = {}
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_WispySmoke_03.T_WispySmoke_03'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/Smoke/T_SmokeLoop_8x8_01_N.T_SmokeLoop_8x8_01_N'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Smoke/T_SmokeLoop_8x8_01_N.T_SmokeLoop_8x8_01_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WispySmoke_03.T_WispySmoke_03'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WispySmoke_03.T_WispySmoke_03'
+        Name = Smoke
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        Name = Distortion
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Smoke/T_SmokeLoop_8x8_01_N.T_SmokeLoop_8x8_01_N'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=Tiling_NoiseDistortion, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=UseNormalMap, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=UseRedChannel, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Use Noise Erosion, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=UseDistortion, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Tiling_Normal, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=UseRefraction, Group=None }
+    CollectedScalarParameters[7] = { Value=100, Name=Depht Fade, Group=None }
+    CollectedScalarParameters[8] = { Value=175, Name=NearFade Radius, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 8
+        UVChannelIndex = 0
+        TextureName = T_Dust_Noise_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SmokeLoop_8x8_01_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 8
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WispySmoke_03
+    }
+}

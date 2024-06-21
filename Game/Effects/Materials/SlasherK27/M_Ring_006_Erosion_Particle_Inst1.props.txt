@@ -1,0 +1,72 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK27/M_Ring_006_Erosion_Particle.M_Ring_006_Erosion_Particle'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=OpacityRing }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_009.T_K27_Attack_Ring_009'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_006.T_K27_Attack_Ring_006'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/K27/T_K27_006_Attack_Ring.T_K27_006_Attack_Ring'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.978394
+        UVChannelIndex = 0
+        TextureName = T_K27_006_Attack_Ring
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K27_Attack_Ring_006
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K27_Attack_Ring_009
+    }
+}

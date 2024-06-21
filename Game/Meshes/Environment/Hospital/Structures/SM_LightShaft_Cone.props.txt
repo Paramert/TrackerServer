@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_FakeLightShaft_Yellow.MI_FakeLightShaft_Yellow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_FakeLightShaft_Yellow.MI_FakeLightShaft_Yellow'
+        MaterialSlotName = MI_FakeLightShaft
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 518.145, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.85962, Y=0, Z=118.123 }
+    BoxExtent = { X=230.58, Y=231.784, Z=118.123 }
+    SphereRadius = 264.621
+}

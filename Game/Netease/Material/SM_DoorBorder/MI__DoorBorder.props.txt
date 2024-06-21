@@ -1,0 +1,117 @@
+Parent = Material3'/Game/Netease/Material/SM_Dookshelf/Master/M_Dookshelf.M_Dookshelf'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=AO }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Metallic_strength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal_strength }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=roughness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AO_R_M }
+        ParameterValue = Texture2D'/Game/Netease/Texture/SM_DoorBorder/SM_DoorBorder_M.SM_DoorBorder_M'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Basecolor }
+        ParameterValue = Texture2D'/Game/Netease/Texture/SM_DoorBorder/SM_DoorBorder_D.SM_DoorBorder_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/Game/Netease/Texture/SM_DoorBorder/SM_DoorBorder_N.SM_DoorBorder_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=color }
+        ParameterValue = { R=0.171875, G=0.171875, B=0.171875, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/Texture/SM_Candlestick/SM_Candlestick_d.SM_Candlestick_d'
+    CachedReferencedTextures[1] = Texture2D'/Game/Netease/Texture/SM_Candlestick/SM_Candlestick_m.SM_Candlestick_m'
+    CachedReferencedTextures[2] = Texture2D'/Game/Netease/Texture/SM_Candlestick/SM_Candlestick_n.SM_Candlestick_n'
+    CachedReferencedTextures[3] = Texture2D'/Game/Netease/Texture/SK_Door/SK_Door_01_E.SK_Door_01_E'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SM_DoorBorder_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SM_DoorBorder_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SM_DoorBorder_N
+    }
+}

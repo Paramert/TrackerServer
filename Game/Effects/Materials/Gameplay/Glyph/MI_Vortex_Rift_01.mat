@@ -1,0 +1,5 @@
+Diffuse=T_DustParticles
+SpecPower=T_portal_split_04
+Other[0]=T_DustParticles_02
+Other[1]=T_SmokeTile
+Other[2]=T_Veins2

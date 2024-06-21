@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_LightBoxHospital01.MI_LightBoxHospital01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_LightBoxHospital01.MI_LightBoxHospital01'
+        MaterialSlotName = MI_LightBoxHospital01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 132.98, 1856.13, 426.817, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.47852, Y=1.77881, Z=494.887 }
+    BoxExtent = { X=1463.96, Y=1463.96, Z=0.000106812 }
+    SphereRadius = 1735.88
+}

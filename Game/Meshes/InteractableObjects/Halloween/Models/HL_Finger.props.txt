@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Halloween/Materials/HL_Flower/MI_HLFinger_AV.MI_HLFinger_AV'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Halloween/Materials/HL_Flower/MI_HLFinger_AV.MI_HLFinger_AV'
+        MaterialSlotName = MI_HLFinger_AV
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 139.461, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0752258, Y=-1.68093, Z=5.60859 }
+    BoxExtent = { X=10.221, Y=10.0616, Z=6.87713 }
+    SphereRadius = 13.9339
+}

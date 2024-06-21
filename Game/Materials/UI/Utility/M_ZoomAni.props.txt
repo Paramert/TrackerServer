@@ -1,0 +1,104 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardBoard_1_NE.TenEvenDraw_CardBoard_1_NE'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardPro_1_NE.TenEvenDraw_CardPro_1_NE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Scale_U }
+                    ParameterInfos[1] = { Name=Tiling_U_1 }
+                    ParameterInfos[2] = { Name=Brightness }
+                    ParameterInfos[3] = { Name=TransB_U }
+                    ParameterInfos[4] = { Name=Scale_V }
+                    ParameterInfos[5] = { Name=TransA_U }
+                    ParameterInfos[6] = { Name=Tiling_V_2 }
+                    ParameterInfos[7] = { Name=TransB_V }
+                    ParameterInfos[8] = { Name=UITexture_Rotator }
+                    ParameterInfos[9] = { Name=Tiling_U_2 }
+                    ParameterInfos[10] = { Name=LerpPow }
+                    ParameterInfos[11] = { Name=Speed }
+                    ParameterInfos[12] = { Name=Tiling_V_1 }
+                    ParameterInfos[13] = { Name=TransA_V }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=UITexture2 }
+                    ParameterInfos[1] = { Name=UITexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] = { 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardPro_1_NE.TenEvenDraw_CardPro_1_NE'
+            TextureValues[1] = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardBoard_1_NE.TenEvenDraw_CardBoard_1_NE'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardBoard_1_NE.TenEvenDraw_CardBoard_1_NE'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardPro_1_NE.TenEvenDraw_CardPro_1_NE'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardPro_1_NE.TenEvenDraw_CardPro_1_NE'
+        Name = UITexture2
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/Events/TenEvenDraw/TenEvenDraw_CardBoard_1_NE.TenEvenDraw_CardBoard_1_NE'
+        Name = UITexture
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Scale_U, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Tiling_U_1, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=TransB_U, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Scale_V, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=TransA_U, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Tiling_V_2, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=TransB_V, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=UITexture_Rotator, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Tiling_U_2, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=LerpPow, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Tiling_V_1, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=TransA_V, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

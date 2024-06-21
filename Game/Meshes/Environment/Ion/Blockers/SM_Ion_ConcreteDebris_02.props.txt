@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_04_Floating_03.MI_ION_BigStone_04_Floating_03'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_BigStone_04_Floating_03.MI_ION_BigStone_04_Floating_03'
+        MaterialSlotName = MI_ION_BigStone_04_Floating_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 102.682, 206.51, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0446091, Y=-0.311462, Z=0.185394 }
+    BoxExtent = { X=36.2053, Y=44.3911, Z=50.1017 }
+    SphereRadius = 56.7608
+}

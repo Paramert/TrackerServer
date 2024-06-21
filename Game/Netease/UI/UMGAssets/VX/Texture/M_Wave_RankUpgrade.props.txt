@@ -1,0 +1,207 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_RankUpgrade_UV_yuan.T_RankUpgrade_UV_yuan'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=DistorIntensity_Color }
+                    ParameterInfos[1] = { Name=Dissolve }
+                    ParameterInfos[2] = { Name=EdgeSharpness }
+                    ParameterInfos[3] = { Name=DistorIntensity_Alpha }
+                    ParameterInfos[4] = { Name=Scale_Y }
+                    ParameterInfos[5] = { Name=Alpha_Power }
+                    ParameterInfos[6] = { Name=Speed }
+                    ParameterInfos[7] = { Name=Alpha_PM }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=DP_Color_2 }
+                    ParameterInfos[1] = { Name=DP_Alpha_1 }
+                    ParameterInfos[2] = { Name=DP_Distor_1 }
+                    ParameterInfos[3] = { Name=DP_Color_1 }
+                    ParameterInfos[4] = { Name=Color_1 }
+                    ParameterInfos[5] = { Name=DP_Alpha_2 }
+                    ParameterInfos[6] = { Name=Color }
+                    ParameterInfos[7] = { Name=Color_2 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Color_Tex_2 }
+                    ParameterInfos[1] = { Name=Distor_Tex }
+                    ParameterInfos[2] = { Name=Alpha_Tex_1 }
+                    ParameterInfos[3] = { Name=Color_Tex_1 }
+                    ParameterInfos[4] = { Name=UV_Tex }
+                    ParameterInfos[5] = { Name=Polygon_Tex }
+                    ParameterInfos[6] = { Name=Alpha_Tex_2 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 1, 3, 0, 1, 1, 1, 1 }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=0 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+            VectorValues[6] = { R=0, G=0, B=0, A=0 }
+            VectorValues[7] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[1] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+            TextureValues[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[3] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[4] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_RankUpgrade_UV_yuan.T_RankUpgrade_UV_yuan'
+            TextureValues[5] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[6] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+        ReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_RankUpgrade_UV_yuan.T_RankUpgrade_UV_yuan'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Color_Tex_2
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+        Name = Distor_Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Alpha_Tex_1
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Color_Tex_1
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_RankUpgrade_UV_yuan.T_RankUpgrade_UV_yuan'
+        Name = UV_Tex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Polygon_Tex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Alpha_Tex_2
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=DistorIntensity_Color, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Dissolve, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=EdgeSharpness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=DistorIntensity_Alpha, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Scale_Y, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Alpha_Power, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Alpha_PM, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Color_2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Alpha_1
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Distor_1
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Color_1
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color_1
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Alpha_2
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color_2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Materials/MI_HOS_BlackMetal.MI_HOS_BlackMetal'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Materials/MI_HOS_BlackMetal.MI_HOS_BlackMetal'
+        MaterialSlotName = MI_HOS_BlackMetal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 541.384, 15429.8, 162.677, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=239.938, Y=135.249, Z=58.9108 }
+    SphereRadius = 280.841
+}

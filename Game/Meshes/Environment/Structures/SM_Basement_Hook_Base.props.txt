@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeerHanger_BaseTrim01.MI_DeerHanger_BaseTrim01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeerHanger_MetalPlate01.MI_DeerHanger_MetalPlate01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_StoreHouseFloor.MI_Ind_StoreHouseFloor'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeerHanger02.MI_DeerHanger02'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeerHanger_BaseTrim01.MI_DeerHanger_BaseTrim01'
+        MaterialSlotName = MI_DeerHanger_BaseTrim01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 206.652, 843.032, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeerHanger_MetalPlate01.MI_DeerHanger_MetalPlate01'
+        MaterialSlotName = MI_DeerHanger_MetalPlate01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 434.337, 844.375, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_StoreHouseFloor.MI_Ind_StoreHouseFloor'
+        MaterialSlotName = MI_Ind_StoreHouseFloor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 316.569, 857.789, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeerHanger02.MI_DeerHanger02'
+        MaterialSlotName = MI_DeerHanger02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 255.849, 827.561, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.5103, Y=-0.125153, Z=20.1162 }
+    BoxExtent = { X=231.694, Y=231.745, Z=21.4313 }
+    SphereRadius = 323.944
+}

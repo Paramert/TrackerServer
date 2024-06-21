@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/MI_WT_LightString_01.MI_WT_LightString_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_WinterLights06.MI_WinterLights06'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_WinterLights05.MI_WinterLights05'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/MI_WT_LightString_01.MI_WT_LightString_01'
+        MaterialSlotName = MI_WT_LightString_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 146.445, 896.533, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_WinterLights06.MI_WinterLights06'
+        MaterialSlotName = MI_WinterLights06
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 10.7639, 100.047, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_WinterLights05.MI_WinterLights05'
+        MaterialSlotName = MI_WinterLights05
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 10.7639, 99.9664, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.601284, Y=-1.96571, Z=121.005 }
+    BoxExtent = { X=60.3031, Y=40.8672, Z=122.972 }
+    SphereRadius = 140.687
+}

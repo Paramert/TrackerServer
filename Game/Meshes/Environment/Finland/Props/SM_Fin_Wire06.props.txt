@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Finland/MI_Fin_BlackPlastic01.MI_Fin_BlackPlastic01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Finland/MI_Fin_BlackPlastic01.MI_Fin_BlackPlastic01'
+        MaterialSlotName = MI_Fin_BlackPlastic01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 307.492, 101.982, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.17588, Y=0.00338745, Z=-80.451 }
+    BoxExtent = { X=3.95974, Y=217.89, Z=95.1942 }
+    SphereRadius = 236.777
+}

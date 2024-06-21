@@ -1,0 +1,72 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/PlayerProfile/Portraits/NE_Portrait_Camper_004.NE_Portrait_Camper_004'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Radius }
+                    ParameterInfos[1] = { Name=Hardness }
+                    ParameterInfos[2] = { Name=Param }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=TEX }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.661905, 0, 0.495238 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/UI/UMGAssets/PlayerProfile/Portraits/NE_Portrait_Camper_004.NE_Portrait_Camper_004'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/PlayerProfile/Portraits/NE_Portrait_Camper_004.NE_Portrait_Camper_004'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/UI/UMGAssets/PlayerProfile/Portraits/NE_Portrait_Camper_004.NE_Portrait_Camper_004'
+        Name = TEX
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.661905, Name=Radius, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Hardness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.495238, Name=Param, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

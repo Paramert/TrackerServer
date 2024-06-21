@@ -1,0 +1,110 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP068_004.NE_T_Mask_TP068_004'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Aplha_DP_distance }
+                    ParameterInfos[1] = { Name=Fade Offset (S) }
+                    ParameterInfos[2] = { Name=Falsh_speed }
+                    ParameterInfos[3] = { Name=Fade Length (S) }
+                    ParameterInfos[4] = { Name=intensity }
+                    ParameterInfos[5] = { Name=Disitort_U_Speen }
+                    ParameterInfos[6] = { Name=power }
+                    ParameterInfos[7] = { Name=Distort_intensity }
+                    ParameterInfos[8] = { Name=Distort_V_speed }
+                    ParameterInfos[9] = { Name=Alpha_power }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Tex_SubUV }
+                    ParameterInfos[1] = { Name=Tex_Distort }
+                    ParameterInfos[2] = { Name=base }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 10, 24, 5, 0, 1, 0, 1, 0.5, 0, 1 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP068_004.NE_T_Mask_TP068_004'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP068_004.NE_T_Mask_TP068_004'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP068_004.NE_T_Mask_TP068_004'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP068_004.NE_T_Mask_TP068_004'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP068_004.NE_T_Mask_TP068_004'
+        Name = Tex_SubUV
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP068_004.NE_T_Mask_TP068_004'
+        Name = Tex_Distort
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_Mask_TP068_004.NE_T_Mask_TP068_004'
+        Name = base
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Aplha_DP_distance, Group=None }
+    CollectedScalarParameters[1] = { Value=24, Name=Fade Offset (S), Group=None }
+    CollectedScalarParameters[2] = { Value=5, Name=Falsh_speed, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Fade Length (S), Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=intensity, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Disitort_U_Speen, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=power, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=Distort_intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Distort_V_speed, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Alpha_power, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_Mask_TP068_004
+    }
+}

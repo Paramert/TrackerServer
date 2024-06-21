@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_XRayBorad_Neon02.MI_HOS_XRayBorad_Neon02'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_XRayBorad02.MI_HOS_XRayBorad02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_XRayBorad_Neon02.MI_HOS_XRayBorad_Neon02'
+        MaterialSlotName = MI_HOS_XRayBorad_Neon02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 107.273, 207.954, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_XRayBorad02.MI_HOS_XRayBorad02'
+        MaterialSlotName = MI_HOS_XRayBorad02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.889, 208.237, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000164032, Y=1.90735e-05, Z=0.000202179 }
+    BoxExtent = { X=54.1154, Y=7.73488, Z=39.035 }
+    SphereRadius = 67.1717
+}

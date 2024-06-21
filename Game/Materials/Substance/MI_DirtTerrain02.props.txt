@@ -1,0 +1,372 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Master_Instances/MI_Ground_v2.MI_Ground_v2'
+ScalarParameterValues[14] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Main_BaseColorSaturation }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Main_SpecValue }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Main_RoughValue }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Main_WPOValue }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Red_BaseColorSaturation }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Red_NormalFlatness }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Red_WPOValue }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Green_BaseColorSaturation }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Green_SpecValue }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Green_SpecRoughAmount }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Green_WPOValue }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Cyan_SpecValue }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Cyan_RoughValue }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[14] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Main_BaseColor }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_DirtTerrain_BC.T_Ind_DirtTerrain_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Main_Normal }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_DirtTerrain_N.T_Ind_DirtTerrain_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Main_ORM }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_Dirt_Roots_Terrain_ORM.T_Ind_Dirt_Roots_Terrain_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Red_BaseColor }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_DirtTerrain_BC.T_Ind_DirtTerrain_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Red_Normal }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_Dirt_Roots_Terrain_N.T_Ind_Dirt_Roots_Terrain_N'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Red_ORM }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_Dirt_Roots_Terrain_ORM.T_Ind_Dirt_Roots_Terrain_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=Red_WPO }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=Green_BaseColor }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_DirtTerrain_BC.T_Ind_DirtTerrain_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = { Name=Green_Normal }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_Dirt_Twigs_Terrain_N.T_Ind_Dirt_Twigs_Terrain_N'
+        ParameterName = None
+    }
+    TextureParameterValues[9] =
+    {
+        ParameterInfo = { Name=Green_ORM }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_Dirt_Twigs_Terrain_ORM.T_Ind_Dirt_Twigs_Terrain_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[10] =
+    {
+        ParameterInfo = { Name=Green_WPO }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[11] =
+    {
+        ParameterInfo = { Name=Cyan_BaseColor }
+        ParameterValue = Texture2D'/Game/Materials/Substance/Textures/T_Ind_DirtTerrain_BC.T_Ind_DirtTerrain_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[12] =
+    {
+        ParameterInfo = { Name=Cyan_Normal }
+        ParameterValue = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ParameterName = None
+    }
+    TextureParameterValues[13] =
+    {
+        ParameterInfo = { Name=Splat_RGBAMask }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Tiles/T_Generic_Mask_01.T_Generic_Mask_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Main_BaseColorTint }
+        ParameterValue = { R=0.7, G=0.7, B=0.7, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Main_Tiling }
+        ParameterValue = { R=8, G=8, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Red_BaseColorTint }
+        ParameterValue = { R=0.5, G=0.5, B=0.5, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Green_BaseColorTint }
+        ParameterValue = { R=0.7, G=0.7, B=0.7, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Cyan_BaseColorTint }
+        ParameterValue = { R=0.4, G=0.4, B=0.4, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[14] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use_Main_ExpandedAttributes }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_VertexColorBlending }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Red_CustomBaseColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use_Red_CustomNormal }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Red_CustomWPO }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Green_BaseColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Green_Normal }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Green_ORM }
+            bOverride = true
+        }
+        StaticSwitchParameters[8] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Green_WPO }
+            bOverride = true
+        }
+        StaticSwitchParameters[9] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Green_CustomWPO }
+            bOverride = true
+        }
+        StaticSwitchParameters[10] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Cyan_GreenVariant }
+            bOverride = true
+        }
+        StaticSwitchParameters[11] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Cyan_CustomBaseColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[12] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Cyan_CustomNormal }
+            bOverride = true
+        }
+        StaticSwitchParameters[13] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Splat_RGBAMask }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[18] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[7] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_basecolor.T_Swamp_Mud_basecolor'
+    CachedReferencedTextures[8] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+    CachedReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[10] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+    CachedReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    CachedReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+    CachedReferencedTextures[15] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[16] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+    CachedReferencedTextures[17] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Ind_Dirt_Roots_Terrain_ORM
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Ind_DirtTerrain_BC
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Ind_DirtTerrain_N
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 15
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_01
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 0.046875
+        UVChannelIndex = 0
+        TextureName = T_SmokeTile
+    }
+}

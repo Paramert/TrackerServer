@@ -1,0 +1,186 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_018_N.NE_T_Blood_TP068_018_N'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/NE_T_BT_01.NE_T_BT_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_001.NE_T_Noise_TP068_001'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=roughness }
+                    ParameterInfos[1] = { Name=B_1 }
+                    ParameterInfos[2] = { Name=disolve_Test }
+                    ParameterInfos[3] = { Name=A_1 }
+                    ParameterInfos[4] = { Name=Emissive }
+                    ParameterInfos[5] = { Name=A }
+                    ParameterInfos[6] = { Name=Dissolve_V }
+                    ParameterInfos[7] = { Name=Ref_Alpha_Strength }
+                    ParameterInfos[8] = { Name=FadeDistance }
+                    ParameterInfos[9] = { Name=Param }
+                    ParameterInfos[10] = { Name=Dissolve_U }
+                    ParameterInfos[11] = { Name=rot }
+                    ParameterInfos[12] = { Name=NormalStrength }
+                    ParameterInfos[13] = { Name=U }
+                    ParameterInfos[14] = { Name=Ref }
+                    ParameterInfos[15] = { Name=Soft_Dissolve }
+                    ParameterInfos[16] = { Name=V }
+                    ParameterInfos[17] = { Name=Soft_Sharoness }
+                    ParameterInfos[18] = { Name=B }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Dissolve_T }
+                    ParameterInfos[2] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[19] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 2
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1.1
+            ScalarValues[6] = 3
+            ScalarValues[7] = 1
+            ScalarValues[8] = 50
+            ScalarValues[9] = 1500
+            ScalarValues[10] = 3
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1.5
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 2
+            ScalarValues[18] = 1.05
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.5, G=0.5, B=1, A=1 }
+            VectorValues[1] = { R=1, G=0, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_018_N.NE_T_Blood_TP068_018_N'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_001.NE_T_Noise_TP068_001'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/NE_T_BT_01.NE_T_BT_01'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/NE_T_BT_01.NE_T_BT_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_001.NE_T_Noise_TP068_001'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_018_N.NE_T_Blood_TP068_018_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_018_N.NE_T_Blood_TP068_018_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_001.NE_T_Noise_TP068_001'
+        Name = Dissolve_T
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_BT_01.NE_T_BT_01'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=B_1, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=disolve_Test, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=A_1, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Emissive, Group=None }
+    CollectedScalarParameters[5] = { Value=1.1, Name=A, Group=None }
+    CollectedScalarParameters[6] = { Value=3, Name=Dissolve_V, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Ref_Alpha_Strength, Group=None }
+    CollectedScalarParameters[8] = { Value=50, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[9] = { Value=1500, Name=Param, Group=None }
+    CollectedScalarParameters[10] = { Value=3, Name=Dissolve_U, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=rot, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=NormalStrength, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=U, Group=None }
+    CollectedScalarParameters[14] = { Value=1.5, Name=Ref, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Soft_Dissolve, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=V, Group=None }
+    CollectedScalarParameters[17] = { Value=2, Name=Soft_Sharoness, Group=None }
+    CollectedScalarParameters[18] = { Value=1.05, Name=B, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=1, A=1 }
+        Name = Normal
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_BT_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = NE_T_Noise_TP068_001
+    }
+}

@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Metal_01.MI_JNK_GasStationStand_Metal_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Wood_03.MI_JNK_GasStationStand_Wood_03'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Stand01.MI_JNK_GasStationStand_Stand01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Metal_01.MI_JNK_GasStationStand_Metal_01'
+        MaterialSlotName = MI_JNK_GasStationStand_Metal_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 191.494, 627.826, 429.104, 496.871 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Wood_03.MI_JNK_GasStationStand_Wood_03'
+        MaterialSlotName = MI_JNK_GasStationStand_Wood_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 209, 326.74, 396.214, 483.717 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Stand01.MI_JNK_GasStationStand_Stand01'
+        MaterialSlotName = MI_JNK_GasStationStand_Stand01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 356.947, 0, 0, 488.096 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.14441e-05, Y=21.2354, Z=93.3022 }
+    BoxExtent = { X=49.7037, Y=42.8343, Z=93.3023 }
+    SphereRadius = 114.064
+}

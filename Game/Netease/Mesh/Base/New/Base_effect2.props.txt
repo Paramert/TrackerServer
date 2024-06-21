@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Netease/Mesh/Base/New/M_FollowLine_Inst1.M_FollowLine_Inst1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Netease/Mesh/Base/New/M_FollowLine_Inst1.M_FollowLine_Inst1'
+        MaterialSlotName = Material #26
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 322.64, 100.326, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.77929, Y=-38.2257, Z=7.45772 }
+    BoxExtent = { X=24.0489, Y=64.8421, Z=0 }
+    SphereRadius = 65.7405
+}

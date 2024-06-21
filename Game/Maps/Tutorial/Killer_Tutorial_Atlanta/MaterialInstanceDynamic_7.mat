@@ -1,0 +1,11 @@
+Diffuse=T_DustParticles
+Other[0]=DefaultDiffuse
+Other[1]=DebugNumberStrip
+Other[2]=DebugNumberPeriod
+Other[3]=Fx_grassBlades
+Other[4]=T_Fire_SmokeWisps_Tile_Dup
+Other[5]=T_FSbloodmist
+Other[6]=T_Glitch
+Other[7]=T_Killer07Screen03
+Other[8]=T_LightRays02
+Other[9]=T_Normal_Noise

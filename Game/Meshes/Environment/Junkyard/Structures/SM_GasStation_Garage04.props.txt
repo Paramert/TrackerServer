@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_TrimMetal03_B.MI_Foundry_TrimMetal03_B'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Ind_CorrugatedMetal01.MI_Ind_CorrugatedMetal01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Foundry_TrimMetal03_B.MI_Foundry_TrimMetal03_B'
+        MaterialSlotName = MI_Foundry_TrimMetal03_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 96.1552, 3964.98, 11404.2, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Ind_CorrugatedMetal01.MI_Ind_CorrugatedMetal01'
+        MaterialSlotName = MI_Ind_CorrugatedMetal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 189.986, 3856.49, 10263.6, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=986.447, Y=-817.031, Z=668.296 }
+    BoxExtent = { X=387.374, Y=521.969, Z=40.2122 }
+    SphereRadius = 651.001
+}

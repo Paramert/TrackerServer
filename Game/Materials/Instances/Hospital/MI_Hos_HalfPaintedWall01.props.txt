@@ -1,0 +1,129 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Instances/MI_Structures_WPO_VertexColor.MI_Structures_WPO_VertexColor'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=UV_Scale_Blue }
+        ParameterValue = 1.21649
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Heightmap }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_PlasterBroken01_H.T_Hos_PlasterBroken01_H'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Base_Color_Blue }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_PlasterBroken01_BC.T_Hos_PlasterBroken01_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal_Blue }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_PlasterBroken01_N.T_Hos_PlasterBroken01_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=ORM_Blue }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_PlasterBroken01_ORM.T_Hos_PlasterBroken01_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Base_Color_Red }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_HalfPaintedWall01_BC.T_Hos_HalfPaintedWall01_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Normal_Red }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_HalfPaintedWall01_N.T_Hos_HalfPaintedWall01_N'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=ORM_Red }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Hospital/Structures/T_Hos_HalfPaintedWall01_ORM.T_Hos_HalfPaintedWall01_ORM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=DirtColor }
+        ParameterValue = { R=0.5625, G=0.524091, B=0.489082, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[11] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Hospital/Props/T_HOS_BathTubPipe_R.T_HOS_BathTubPipe_R'
+    CachedReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+    CachedReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+    CachedReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hos_HalfPaintedWall01_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hos_HalfPaintedWall01_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Hos_HalfPaintedWall01_ORM
+    }
+}

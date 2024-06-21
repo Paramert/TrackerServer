@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Ground/MI_Com_SandSmoothRed_A.MI_Com_SandSmoothRed_A'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Tilable_07.MI_Ion_Trimsheet_A_Tilable_07'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Tilable/Simple/Ground/MI_Com_SandSmoothRed_A.MI_Com_SandSmoothRed_A'
+        MaterialSlotName = MI_Com_SandSmooth_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 102.641, 378.075, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Tilable_07.MI_Ion_Trimsheet_A_Tilable_07'
+        MaterialSlotName = MI_ION_ConcreteGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 103.251, 379.828, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=59.7596, Y=-129.442, Z=9.49157 }
+    BoxExtent = { X=60.7503, Y=130.703, Z=10.3832 }
+    SphereRadius = 143.35
+}

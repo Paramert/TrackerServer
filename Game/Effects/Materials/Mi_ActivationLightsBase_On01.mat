@@ -1,0 +1,5 @@
+Diffuse=Black
+Other[0]=T_ActivationlightsOn01
+Other[1]=T_ActivationlightsEmissive01
+Other[2]=HorizontalGradient
+Other[3]=T_ActivationlightsOff

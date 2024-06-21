@@ -1,0 +1,282 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K25/T_Gradient_Flicker.T_Gradient_Flicker'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K25/T_K25_Vignette_Power_Item_03.T_K25_Vignette_Power_Item_03'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=Offset_Chain_01_X }
+                    ParameterInfos[1] = { Name=MF_PP_DiskDiscard_Radius }
+                    ParameterInfos[2] = { Name=Offset_Chain_02_X }
+                    ParameterInfos[3] = { Name=Offset_Chain_01_Y }
+                    ParameterInfos[4] = { Name=Outline_Border_Intensity }
+                    ParameterInfos[5] = { Name=Outline_Intensity }
+                    ParameterInfos[6] = { Name=Chain_02_Rotator_Time }
+                    ParameterInfos[7] = { Name=Chain_02_Rotator_Length }
+                    ParameterInfos[8] = { Name=Chain_01_Rotator_Time }
+                    ParameterInfos[9] = { Name=Chain_01_Rotator }
+                    ParameterInfos[10] = { Name=Offset_Chain_02_Y }
+                    ParameterInfos[11] = { Name=Lightning_Opacity }
+                    ParameterInfos[12] = { Name=Chain_01_Rotator_Length }
+                    ParameterInfos[13] = { Name=InverseOutline }
+                    ParameterInfos[14] = { Name=MF_PP_DiskDiscard_DebugControl }
+                    ParameterInfos[15] = { Name=Chain_02_Rotator }
+                    ParameterInfos[16] = { Name=Outline_Erode }
+                    ParameterInfos[17] = { Name=Chain_Opacity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Chain_Metal_Opacity }
+                    ParameterInfos[1] = { Name=Color_Outline_02 }
+                    ParameterInfos[2] = { Name=Lightning_Mask_Offset_Scale }
+                    ParameterInfos[3] = { Name=Distortion_Tiling_Panners_Distortion }
+                    ParameterInfos[4] = { Name=Chain_Color_Emissive }
+                    ParameterInfos[5] = { Name=Lightning_02_Mask_Offset_Scale }
+                    ParameterInfos[6] = { Name=Pattern_01_Tiling_Speeds }
+                    ParameterInfos[7] = { Name=Chain_Color_Contraste }
+                    ParameterInfos[8] = { Name=Distortion_02_Tiling_Panners_Distortion }
+                    ParameterInfos[9] = { Name=Pattern_02_Tiling_Speeds }
+                    ParameterInfos[10] = { Name=Color_Outline_01 }
+                    ParameterInfos[11] = { Name=Lightning_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Item_Texture }
+                    ParameterInfos[1] = { Name=Outline_Rays_02 }
+                    ParameterInfos[2] = { Name=Outline_Rays_01 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0.375
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.25
+            ScalarValues[5] = 100
+            ScalarValues[6] = 0.125
+            ScalarValues[7] = 0.125
+            ScalarValues[8] = 0.125
+            ScalarValues[9] = 0.125
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0.125
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0.125
+            ScalarValues[16] = 0
+            ScalarValues[17] = 1
+        }
+        VectorValues[12] =
+        {
+            VectorValues[0] = { R=10, G=10, B=10, A=1 }
+            VectorValues[1] = { R=0, G=0, B=1, A=1 }
+            VectorValues[2] = { R=-0.25, G=0, B=0, A=1 }
+            VectorValues[3] = { R=4, G=1, B=1, A=0.055 }
+            VectorValues[4] = { R=1, G=1, B=1, A=0 }
+            VectorValues[5] = { R=-0.25, G=0, B=0, A=1 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+            VectorValues[7] = { R=1, G=0, B=0, A=1 }
+            VectorValues[8] = { R=4, G=1, B=1, A=0.055 }
+            VectorValues[9] = { R=1, G=1, B=0, A=0 }
+            VectorValues[10] = { R=1, G=0, B=0, A=1 }
+            VectorValues[11] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/K25/T_K25_Vignette_Power_Item_03.T_K25_Vignette_Power_Item_03'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/K25/T_Gradient_Flicker.T_Gradient_Flicker'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/K25/T_Gradient_Flicker.T_Gradient_Flicker'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K25/T_Gradient_Flicker.T_Gradient_Flicker'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K25/T_K25_Vignette_Power_Item_03.T_K25_Vignette_Power_Item_03'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K25/T_K25_Vignette_Power_Item_03.T_K25_Vignette_Power_Item_03'
+        Name = Item_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K25/T_Gradient_Flicker.T_Gradient_Flicker'
+        Name = Outline_Rays_02
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K25/T_Gradient_Flicker.T_Gradient_Flicker'
+        Name = Outline_Rays_01
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Offset_Chain_01_X, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.375
+        Name = MF_PP_DiskDiscard_Radius
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0, Name=Offset_Chain_02_X, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Offset_Chain_01_Y, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.25
+        Name = Outline_Border_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=100, Name=Outline_Intensity, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.125
+        Name = Chain_02_Rotator_Time
+        Group = None
+    }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.125
+        Name = Chain_02_Rotator_Length
+        Group = None
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0.125
+        Name = Chain_01_Rotator_Time
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0.125, Name=Chain_01_Rotator, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Offset_Chain_02_Y, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Lightning_Opacity, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.125
+        Name = Chain_01_Rotator_Length
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0, Name=InverseOutline, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0
+        Name = MF_PP_DiskDiscard_DebugControl
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=0.125, Name=Chain_02_Rotator, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=Outline_Erode, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Chain_Opacity, Group=None }
+}
+CollectedVectorParameters[12] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=10, G=10, B=10, A=1 }
+        Name = Chain_Metal_Opacity
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = Color_Outline_02
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=-0.25, G=0, B=0, A=1 }
+        Name = Lightning_Mask_Offset_Scale
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=4, G=1, B=1, A=0.055 }
+        Name = Distortion_Tiling_Panners_Distortion
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Chain_Color_Emissive
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=-0.25, G=0, B=0, A=1 }
+        Name = Lightning_02_Mask_Offset_Scale
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Pattern_01_Tiling_Speeds
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Chain_Color_Contraste
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=4, G=1, B=1, A=0.055 }
+        Name = Distortion_02_Tiling_Panners_Distortion
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Pattern_02_Tiling_Speeds
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Color_Outline_01
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Lightning_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

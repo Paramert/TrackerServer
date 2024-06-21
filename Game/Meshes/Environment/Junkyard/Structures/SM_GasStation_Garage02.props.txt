@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_JNK_Brick_Garage_02.MI_JNK_Brick_Garage_02'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_JNK_Concrete_Garage_01.MI_JNK_Concrete_Garage_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_JNK_Brick_Garage_02.MI_JNK_Brick_Garage_02'
+        MaterialSlotName = MI_JNK_Brick_Garage_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 768.229, 2802.57, 2505.87, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Structures/MI_JNK_Concrete_Garage_01.MI_JNK_Concrete_Garage_01'
+        MaterialSlotName = MI_JNK_Concrete_Garage_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 555.035, 2798.91, 1870.46, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=775.249, Y=-813.561, Z=369.05 }
+    BoxExtent = { X=618.107, Y=555.869, Z=384.135 }
+    SphereRadius = 914.845
+}

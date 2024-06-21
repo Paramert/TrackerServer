@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/InteractableObjects/SpecialEvents/partygame/MI_Partygame_Blood.MI_Partygame_Blood'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/InteractableObjects/SpecialEvents/partygame/MI_Partygame_Blood.MI_Partygame_Blood'
+        MaterialSlotName = MI_Partygame_Blood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.9907, 98.0763, 30.5163, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-5e-05 }
+    BoxExtent = { X=22.2896, Y=10.1058, Z=0 }
+    SphereRadius = 24.4735
+}

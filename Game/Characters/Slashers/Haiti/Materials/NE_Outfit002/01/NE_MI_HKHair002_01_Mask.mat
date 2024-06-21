@@ -1,0 +1,14 @@
+Diffuse=NE_T_HKHair002_01_BC
+Normal=FlatNormal
+Other[0]=White
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=T_ETouch_Tile
+Other[3]=T_K24_SSW01_BC_Flowmap_01
+Other[4]=T_Halftone
+Other[5]=T_DissolveTextures
+Other[6]=T_FX_DissolveRamp
+Other[7]=T_Noise02
+Other[8]=T_NoiseNormal_01
+Other[9]=Black
+Other[10]=Black_Linear
+Other[11]=Green_Linear

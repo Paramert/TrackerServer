@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Halloween/Materials/HL_PlantHook/MI_HLDryPlantHook.MI_HLDryPlantHook'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Halloween/Materials/HL_PlantHook/MI_HLDryPlantHook.MI_HLDryPlantHook'
+        MaterialSlotName = MI_HLDryPlantHook
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 295.552, 384.7, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.32703, Y=-8.18254, Z=128.357 }
+    BoxExtent = { X=69.5971, Y=73.3209, Z=135.813 }
+    SphereRadius = 156.521
+}

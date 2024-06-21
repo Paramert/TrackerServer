@@ -1,0 +1,12 @@
+Diffuse=T_UKR_HideBush_BC
+Normal=T_UKR_HideBush_N
+Other[0]=T_PlantAtlasAlpha_BC
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=DefaultDiffuse
+Other[4]=FlatNormal
+Other[5]=Good64x64TilingNoiseHighFreq
+Other[6]=Yellow_Linear
+Other[7]=T_treeLeaf01_Atl_MaskRGB
+Other[8]=Moss_diffuse
+Other[9]=T_CrawlingMoss_Mask_01

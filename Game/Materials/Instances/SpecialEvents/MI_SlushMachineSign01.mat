@@ -1,0 +1,9 @@
+Diffuse=T_SlushMachineSign01_BC
+Normal=T_SlushMachineSign01_N
+Opacity=T_SlushMachineSign01_EMask
+Other[0]=T_SlushMachineSign01_M
+Other[1]=T_SlushMachineSign01_R
+Other[2]=T_Brick01_BC
+Other[3]=Black
+Other[4]=Black_Linear
+Other[5]=T_Normal_Noise

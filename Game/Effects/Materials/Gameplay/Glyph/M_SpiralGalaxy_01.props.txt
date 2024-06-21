@@ -1,0 +1,96 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_caustic_02.T_caustic_02'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Emissive }
+                    ParameterInfos[1] = { Name=Spiral_density }
+                    ParameterInfos[2] = { Name=SpiralNumber }
+                    ParameterInfos[3] = { Name=Speed_spiral }
+                    ParameterInfos[4] = { Name=Time_waves }
+                    ParameterInfos[5] = { Name=Exp_shock_sparks }
+                    ParameterInfos[6] = { Name=Speed_waves }
+                    ParameterInfos[7] = { Name=V_waves }
+                    ParameterInfos[8] = { Name=U_waves }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Texture_waves_scale }
+                    ParameterInfos[1] = { Name=Spiral_Color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 0.05, 1, 1, -0.5, 0.5, 1, -0.05, 1, 1 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_caustic_02.T_caustic_02'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0.05, Name=Emissive, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Spiral_density, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=SpiralNumber, Group=None }
+    CollectedScalarParameters[3] = { Value=-0.5, Name=Speed_spiral, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=Time_waves, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Exp_shock_sparks, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.05, Name=Speed_waves, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=V_waves, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=U_waves, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = Texture_waves_scale
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Spiral_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

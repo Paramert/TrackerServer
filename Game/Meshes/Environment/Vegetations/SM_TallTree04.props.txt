@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_tree04.MI_tree04'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_tree04.MI_tree04'
+        MaterialSlotName = MI_tree04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 116.934, 1156.85, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=86.8805, Y=64.365, Z=1248.41 }
+    BoxExtent = { X=494.856, Y=626.974, Z=1258.02 }
+    SphereRadius = 1275.22
+}

@@ -1,0 +1,60 @@
+Parent = MaterialInstanceConstant'/Game/Netease/UI/UMGAssets/VX/Material/MI_LiteGame_MainPape_PhotoBorder_1.MI_LiteGame_MainPape_PhotoBorder_1'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=DarkIcon }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_NE_UI_LiteGame_MainPape_Flame_2.T_NE_UI_LiteGame_MainPape_Flame_2'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[3] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_EyeBall_Background_05.T_EyeBall_Background_05'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Noise_LyLct_004.NE_T_Noise_LyLct_004'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_EyeBall_Background_05
+    }
+}

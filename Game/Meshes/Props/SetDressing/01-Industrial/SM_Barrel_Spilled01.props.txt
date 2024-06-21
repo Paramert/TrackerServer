@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Barrel_01.MI_Barrel_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Barrel_01.MI_Barrel_01'
+        MaterialSlotName = MI_Barrel_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 243.724, 269.273, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-51.0988, Y=0.182281, Z=34.6538 }
+    BoxExtent = { X=51.7576, Y=33.9956, Z=34.4706 }
+    SphereRadius = 61.4168
+}

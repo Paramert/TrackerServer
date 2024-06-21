@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/MI_ReverseBearTrap_DissolvePart.MI_ReverseBearTrap_DissolvePart'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_ReverseBearTrap_DissolvePart.MI_ReverseBearTrap_DissolvePart'
+        MaterialSlotName = MI_ReverseBearTrap_DissolvePart
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 83.3748, 2.87437, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.7698, Y=-8.41282, Z=9.80953 }
+    BoxExtent = { X=1.30581, Y=1.25102, Z=1.34751 }
+    SphereRadius = 2.0161
+}

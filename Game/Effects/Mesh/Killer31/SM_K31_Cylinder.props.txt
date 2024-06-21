@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK31/ActiveZoneVFX/MI_K31_Survivor_ActiveZone.MI_K31_Survivor_ActiveZone'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK31/ActiveZoneVFX/MI_K31_Survivor_ActiveZone.MI_K31_Survivor_ActiveZone'
+        MaterialSlotName = M_K31_Cylinder
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 355.208, 361.028, 361.11, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4, Y=0, Z=0 }
+    BoxExtent = { X=104, Y=100.429, Z=2148 }
+    SphereRadius = 2152.86
+}

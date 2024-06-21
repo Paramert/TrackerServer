@@ -1,0 +1,123 @@
+Parent = Material3'/Game/Effects/Materials/Gameplay/BoonTotem/M_BoonTotemZone.M_BoonTotemZone'
+ScalarParameterValues[8] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=BoonLightBeam_Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Flowmap Intensity }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=WPO Intensity }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=WPO Pan Speed X }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=WPO Pan Speed Y }
+        ParameterValue = 0.65
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=WPO Tiling X }
+        ParameterValue = 2.5
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=WPO Tiling Y }
+        ParameterValue = 2.5
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=3, G=0.717968, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseWPO }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+    CachedReferencedTextures[1] = Texture2D'/Game/Textures/Props/T_TilingNoise02_M.T_TilingNoise02_M'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Large_Fire_Tile_01.T_Large_Fire_Tile_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FlowMap_Wavy_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.84375
+        UVChannelIndex = 0
+        TextureName = T_Large_Fire_Tile_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 2.12039
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise02_M
+    }
+}

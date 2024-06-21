@@ -1,0 +1,7 @@
+Diffuse=BlendFunc_DefBase
+Other[0]=T_VignetteSmoke
+Other[1]=NE_Store_BG
+Other[2]=T_Noise40
+Other[3]=BlendFunc_DefBlend
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=T_Noise41

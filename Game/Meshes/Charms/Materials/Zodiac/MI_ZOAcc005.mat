@@ -1,0 +1,11 @@
+Diffuse=Black
+Normal=FlatNormal
+Opacity=White
+Other[0]=Grey
+Other[1]=DefaultTexture
+Other[2]=T_Halftone
+Other[3]=T_TileNoise
+Other[4]=T_DissolveTextures
+Other[5]=T_FX_DissolveRamp
+Other[6]=T_GS_FrontSign_Flickerama
+Other[7]=Green_Linear

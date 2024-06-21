@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_WhiteFence01_Mobile.MI_WhiteFence01_Mobile'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_WhiteFence01_Mobile.MI_WhiteFence01_Mobile'
+        MaterialSlotName = MI_WhiteFence01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 145.749, 314.559, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.27305, Z=162.231 }
+    BoxExtent = { X=14.8439, Y=16.5224, Z=162.231 }
+    SphereRadius = 162.957
+}

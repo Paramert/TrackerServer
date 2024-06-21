@@ -1,0 +1,78 @@
+Parent = Material3'/Game/Effects/ParticleSystems/NIAGARA_VFX/BLOOD/Blood_Materials/M_Blood_Mesh_Vat_1.M_Blood_Mesh_Vat_1'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Bouding Max }
+        ParameterValue = 495.551
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Bounding Min }
+        ParameterValue = -479.219
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=metallic }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=num_frames }
+        ParameterValue = 39
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=PositionMap }
+        ParameterValue = Texture2D'/Game/Effects/ParticleSystems/NIAGARA_VFX/BLOOD/Blood_Textures/NE_T_Blood_Splat_V1_pos.NE_T_Blood_Splat_V1_pos'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/T_Default_Normal.T_Default_Normal'
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineResources/Black.Black'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Liquid_Splatter04_N.T_Liquid_Splatter04_N'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FSbloodhit2.T_FSbloodhit2'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,6 @@
+Diffuse=T_DissolveTextures
+Normal=T_HKHair01_N
+Other[0]=T_Hair_05_M
+Other[1]=T_HKHair01_Mask
+Other[2]=T_FX_DissolveRamp
+Other[3]=Black

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_gate_Metal01.MI_HOS_gate_Metal01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_gate_Metal01.MI_HOS_gate_Metal01'
+        MaterialSlotName = MI_HOS_gate_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 556.149, 7990.18, 4662.6, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-204.13, Y=6.10352e-05, Z=877.114 }
+    BoxExtent = { X=1012.68, Y=819.742, Z=573.714 }
+    SphereRadius = 1224.32
+}

@@ -1,0 +1,14 @@
+Diffuse=T_K34SWHair01_BC
+Opacity=Fxt_verticalGradient
+Other[0]=T_TilingNoise05
+Other[1]=OffsetNoiseDistanceFields_ForNormals
+Other[2]=T_IceNoise
+Other[3]=T_Perlin_Noise_M
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=Black
+Other[6]=DefaultTexture
+Other[7]=T_DodsonOpacityMask
+Other[8]=T_OpacityMaskDodson_YerkesVisible_Body
+Other[9]=T_DissolveTextures
+Other[10]=T_FX_DissolveRamp
+Other[11]=Black

@@ -1,0 +1,512 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[11] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/Kenya/Textures/Outfit007/T_KKHair007_BC.T_KKHair007_BC'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K31/T_Halftone.T_Halftone'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Tiles/T_Anisotropic.T_Anisotropic'
+    ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[79] =
+                {
+                    ParameterInfos[0] = { Name=Highlight Shift }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=Intensity Fresnel A }
+                    ParameterInfos[3] = { Name=Rotation }
+                    ParameterInfos[4] = { Name=Power High }
+                    ParameterInfos[5] = { Name=BorderThresholdLow }
+                    ParameterInfos[6] = { Name=Depth Darken }
+                    ParameterInfos[7] = { Name=42 - GradientHardness }
+                    ParameterInfos[8] = { Name=Power Low }
+                    ParameterInfos[9] = { Name=Gradient 5 power }
+                    ParameterInfos[10] = { Name=Brightness }
+                    ParameterInfos[11] = { Name=Flickering Intensity }
+                    ParameterInfos[12] = { Name=DepthIntensity }
+                    ParameterInfos[13] = { Name=Metallic }
+                    ParameterInfos[14] = { Name=Intensity Fresnel B }
+                    ParameterInfos[15] = { Name=BorderIntensity }
+                    ParameterInfos[16] = { Name=ActivateLines6 }
+                    ParameterInfos[17] = { Name=Specular }
+                    ParameterInfos[18] = { Name=Gradient 4 Speed }
+                    ParameterInfos[19] = { Name=HighLightExp }
+                    ParameterInfos[20] = { Name=42 - BoundsMultiplier }
+                    ParameterInfos[21] = { Name=ColorBlendPos }
+                    ParameterInfos[22] = { Name=Dream- NoiseController }
+                    ParameterInfos[23] = { Name=EndLocation_WorldSpace }
+                    ParameterInfos[24] = { Name=ActivateLines1 }
+                    ParameterInfos[25] = { Name=DarkenAmount }
+                    ParameterInfos[26] = { Name=SoftLightExp }
+                    ParameterInfos[27] = { Name=WPO }
+                    ParameterInfos[28] = { Name=Speed Noise Diffuse }
+                    ParameterInfos[29] = { Name=LinesEmissive }
+                    ParameterInfos[30] = { Name=DIssolveBorderGreenChannel }
+                    ParameterInfos[31] = { Name=Tiling_Noise }
+                    ParameterInfos[32] = { Name=Gradient 4 power }
+                    ParameterInfos[33] = { Name=NE_ClipDistance }
+                    ParameterInfos[34] = { Name=DissolveTexture_TileX }
+                    ParameterInfos[35] = { Name=DepthExp }
+                    ParameterInfos[36] = { Name=Highlight Intensity }
+                    ParameterInfos[37] = { Name=OpacityController }
+                    ParameterInfos[38] = { Name=Noise_Intensity }
+                    ParameterInfos[39] = { Name=ActivateDitherTemporalAA }
+                    ParameterInfos[40] = { Name=Gradient 2 power }
+                    ParameterInfos[41] = { Name=42 - InverseDissolve }
+                    ParameterInfos[42] = { Name=42 - Height }
+                    ParameterInfos[43] = { Name=Highlight Far }
+                    ParameterInfos[44] = { Name=Gradient 3 power }
+                    ParameterInfos[45] = { Name=Gradient 1 Speed }
+                    ParameterInfos[46] = { Name=Gradient 1 power }
+                    ParameterInfos[47] = { Name=Chaos }
+                    ParameterInfos[48] = { Name=MaxBorderGlow }
+                    ParameterInfos[49] = { Name=HeightOfGradient }
+                    ParameterInfos[50] = { Name=42 - Base Offset }
+                    ParameterInfos[51] = { Name=Gradient 2 Speed }
+                    ParameterInfos[52] = { Name=DissolveTextureTile_Y }
+                    ParameterInfos[53] = { Name=Gradient 3 Speed }
+                    ParameterInfos[54] = { Name=Scale Noise Diffuse }
+                    ParameterInfos[55] = { Name=Min Emissive }
+                    ParameterInfos[56] = { Name=ActivateLines2 }
+                    ParameterInfos[57] = { Name=Gradient 5 Speed }
+                    ParameterInfos[58] = { Name=TwoLigthShift }
+                    ParameterInfos[59] = { Name=BorderThresholdHigh }
+                    ParameterInfos[60] = { Name=UseClipping }
+                    ParameterInfos[61] = { Name=Max Emissive }
+                    ParameterInfos[62] = { Name=Opacity }
+                    ParameterInfos[63] = { Name=DissolveProgress }
+                    ParameterInfos[64] = { Name=ActivateLines7 }
+                    ParameterInfos[65] = { Name=StartLocation_WorldSpace }
+                    ParameterInfos[66] = { Name=ActivateLines3 }
+                    ParameterInfos[67] = { Name=Scale Offset }
+                    ParameterInfos[68] = { Name=MipBias }
+                    ParameterInfos[69] = { Name=GlowIntensity }
+                    ParameterInfos[70] = { Name=ActivateLines4 }
+                    ParameterInfos[71] = { Name=DesaturationAmount }
+                    ParameterInfos[72] = { Name=Adjust Clipping Start }
+                    ParameterInfos[73] = { Name=CustomColorAmt }
+                    ParameterInfos[74] = { Name=ActivateLines5 }
+                    ParameterInfos[75] = { Name=Highlight Near }
+                    ParameterInfos[76] = { Name=PushBack_Strength }
+                    ParameterInfos[77] = { Name=OpacityMaskOffset }
+                    ParameterInfos[78] = { Name=SquishFactor }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=LinesColor }
+                    ParameterInfos[1] = { Name=Highlight Dir }
+                    ParameterInfos[2] = { Name=ActorForwardVector }
+                    ParameterInfos[3] = { Name=VeinsColor }
+                    ParameterInfos[4] = { Name=HighlightColor }
+                    ParameterInfos[5] = { Name=TipColor }
+                    ParameterInfos[6] = { Name=BorderColor }
+                    ParameterInfos[7] = { Name=RootColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=HideHead_Mask }
+                    ParameterInfos[1] = { Name=RhythmictasticallyOnOff }
+                    ParameterInfos[2] = { Name=DissolveRamps }
+                    ParameterInfos[3] = { Name=Normal }
+                    ParameterInfos[4] = { Name=Dream Noise Texture }
+                    ParameterInfos[5] = { Name=Depth }
+                    ParameterInfos[6] = { Name=BaseColor }
+                    ParameterInfos[7] = { Name=DissolveTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[79] =
+        {
+            ScalarValues[0] = 0.3
+            ScalarValues[1] = 0.95
+            ScalarValues[2] = 0.2
+            ScalarValues[3] = 0.4
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 200
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.2
+            ScalarValues[11] = 10
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0.2
+            ScalarValues[14] = 0.005
+            ScalarValues[15] = 40
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0.35
+            ScalarValues[19] = 400
+            ScalarValues[20] = 1.5
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0
+            ScalarValues[23] = 350
+            ScalarValues[24] = 0
+            ScalarValues[25] = 10
+            ScalarValues[26] = 50
+            ScalarValues[27] = 0
+            ScalarValues[28] = 16.3639
+            ScalarValues[29] = 1
+            ScalarValues[30] = 3
+            ScalarValues[31] = 100
+            ScalarValues[32] = 9
+            ScalarValues[33] = 0
+            ScalarValues[34] = 3
+            ScalarValues[35] = 1
+            ScalarValues[36] = 1.8
+            ScalarValues[37] = 1
+            ScalarValues[38] = 1.55
+            ScalarValues[39] = 0
+            ScalarValues[40] = 8
+            ScalarValues[41] = 0
+            ScalarValues[42] = 400
+            ScalarValues[43] = 1
+            ScalarValues[44] = 5
+            ScalarValues[45] = 0.2
+            ScalarValues[46] = 1
+            ScalarValues[47] = 500
+            ScalarValues[48] = 10
+            ScalarValues[49] = 2.1
+            ScalarValues[50] = -25
+            ScalarValues[51] = 0.28
+            ScalarValues[52] = 3
+            ScalarValues[53] = 0.3
+            ScalarValues[54] = 100
+            ScalarValues[55] = 0.05
+            ScalarValues[56] = 0
+            ScalarValues[57] = 0.2
+            ScalarValues[58] = 0.05
+            ScalarValues[59] = 0.015
+            ScalarValues[60] = 0
+            ScalarValues[61] = 0.2
+            ScalarValues[62] = 1
+            ScalarValues[63] = 1
+            ScalarValues[64] = 0
+            ScalarValues[65] = 0
+            ScalarValues[66] = 0
+            ScalarValues[67] = 1000
+            ScalarValues[68] = -2
+            ScalarValues[69] = 750
+            ScalarValues[70] = 0
+            ScalarValues[71] = 0.8
+            ScalarValues[72] = -2.7
+            ScalarValues[73] = 1
+            ScalarValues[74] = 0
+            ScalarValues[75] = 7
+            ScalarValues[76] = -40
+            ScalarValues[77] = 2.5
+            ScalarValues[78] = 0
+        }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=0.85098, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0.5, B=1, A=0 }
+            VectorValues[2] = { R=0, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0.1, G=0.017777, B=0.0075, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=0.419079, B=0, A=0 }
+            VectorValues[6] = { R=5, G=2.25074, B=1.09375, A=1 }
+            VectorValues[7] = { R=0.25, G=0.150675, B=0.117981, A=0 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[6] = Texture2D'/Game/Characters/Slashers/Kenya/Textures/Outfit007/T_KKHair007_BC.T_KKHair007_BC'
+            TextureValues[7] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        }
+    }
+    ReferencedTextures[11] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Kenya/Textures/Outfit007/T_KKHair007_BC.T_KKHair007_BC'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/T_Anisotropic.T_Anisotropic'
+        ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+        ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+        ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/K31/T_Halftone.T_Halftone'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = HideHead_Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+        Name = RhythmictasticallyOnOff
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        Name = DissolveRamps
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+        Name = Dream Noise Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = Depth
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Kenya/Textures/Outfit007/T_KKHair007_BC.T_KKHair007_BC'
+        Name = BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        Name = DissolveTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[79] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=Highlight Shift, Group=None }
+    CollectedScalarParameters[1] = { Value=0.95, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=Intensity Fresnel A, Group=None }
+    CollectedScalarParameters[3] = { Value=0.4, Name=Rotation, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Power High, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=BorderThresholdLow, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Depth Darken, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 200
+        Name = 42 - GradientHardness
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Power Low, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Gradient 5 power, Group=None }
+    CollectedScalarParameters[10] = { Value=0.2, Name=Brightness, Group=None }
+    CollectedScalarParameters[11] = { Value=10, Name=Flickering Intensity, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=DepthIntensity, Group=None }
+    CollectedScalarParameters[13] = { Value=0.2, Name=Metallic, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.005
+        Name = Intensity Fresnel B
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=40, Name=BorderIntensity, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=ActivateLines6, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Specular, Group=None }
+    CollectedScalarParameters[18] = { Value=0.35, Name=Gradient 4 Speed, Group=None }
+    CollectedScalarParameters[19] = { Value=400, Name=HighLightExp, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 1.5
+        Name = 42 - BoundsMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=1, Name=ColorBlendPos, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=Dream- NoiseController, Group=None }
+    CollectedScalarParameters[23] =
+    {
+        Value = 350
+        Name = EndLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[24] = { Value=0, Name=ActivateLines1, Group=None }
+    CollectedScalarParameters[25] = { Value=10, Name=DarkenAmount, Group=None }
+    CollectedScalarParameters[26] = { Value=50, Name=SoftLightExp, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=WPO, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = 16.3639
+        Name = Speed Noise Diffuse
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=1, Name=LinesEmissive, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = 3
+        Name = DIssolveBorderGreenChannel
+        Group = None
+    }
+    CollectedScalarParameters[31] = { Value=100, Name=Tiling_Noise, Group=None }
+    CollectedScalarParameters[32] = { Value=9, Name=Gradient 4 power, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=NE_ClipDistance, Group=None }
+    CollectedScalarParameters[34] = { Value=3, Name=DissolveTexture_TileX, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=DepthExp, Group=None }
+    CollectedScalarParameters[36] = { Value=1.8, Name=Highlight Intensity, Group=None }
+    CollectedScalarParameters[37] = { Value=1, Name=OpacityController, Group=None }
+    CollectedScalarParameters[38] = { Value=1.55, Name=Noise_Intensity, Group=None }
+    CollectedScalarParameters[39] =
+    {
+        Value = 0
+        Name = ActivateDitherTemporalAA
+        Group = None
+    }
+    CollectedScalarParameters[40] = { Value=8, Name=Gradient 2 power, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=42 - InverseDissolve, Group=None }
+    CollectedScalarParameters[42] = { Value=400, Name=42 - Height, Group=None }
+    CollectedScalarParameters[43] = { Value=1, Name=Highlight Far, Group=None }
+    CollectedScalarParameters[44] = { Value=5, Name=Gradient 3 power, Group=None }
+    CollectedScalarParameters[45] = { Value=0.2, Name=Gradient 1 Speed, Group=None }
+    CollectedScalarParameters[46] = { Value=1, Name=Gradient 1 power, Group=None }
+    CollectedScalarParameters[47] = { Value=500, Name=Chaos, Group=None }
+    CollectedScalarParameters[48] = { Value=10, Name=MaxBorderGlow, Group=None }
+    CollectedScalarParameters[49] = { Value=2.1, Name=HeightOfGradient, Group=None }
+    CollectedScalarParameters[50] = { Value=-25, Name=42 - Base Offset, Group=None }
+    CollectedScalarParameters[51] = { Value=0.28, Name=Gradient 2 Speed, Group=None }
+    CollectedScalarParameters[52] = { Value=3, Name=DissolveTextureTile_Y, Group=None }
+    CollectedScalarParameters[53] = { Value=0.3, Name=Gradient 3 Speed, Group=None }
+    CollectedScalarParameters[54] = { Value=100, Name=Scale Noise Diffuse, Group=None }
+    CollectedScalarParameters[55] = { Value=0.05, Name=Min Emissive, Group=None }
+    CollectedScalarParameters[56] = { Value=0, Name=ActivateLines2, Group=None }
+    CollectedScalarParameters[57] = { Value=0.2, Name=Gradient 5 Speed, Group=None }
+    CollectedScalarParameters[58] = { Value=0.05, Name=TwoLigthShift, Group=None }
+    CollectedScalarParameters[59] =
+    {
+        Value = 0.015
+        Name = BorderThresholdHigh
+        Group = None
+    }
+    CollectedScalarParameters[60] = { Value=0, Name=UseClipping, Group=None }
+    CollectedScalarParameters[61] = { Value=0.2, Name=Max Emissive, Group=None }
+    CollectedScalarParameters[62] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[63] = { Value=1, Name=DissolveProgress, Group=None }
+    CollectedScalarParameters[64] = { Value=0, Name=ActivateLines7, Group=None }
+    CollectedScalarParameters[65] =
+    {
+        Value = 0
+        Name = StartLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[66] = { Value=0, Name=ActivateLines3, Group=None }
+    CollectedScalarParameters[67] = { Value=1000, Name=Scale Offset, Group=None }
+    CollectedScalarParameters[68] = { Value=-2, Name=MipBias, Group=None }
+    CollectedScalarParameters[69] = { Value=750, Name=GlowIntensity, Group=None }
+    CollectedScalarParameters[70] = { Value=0, Name=ActivateLines4, Group=None }
+    CollectedScalarParameters[71] = { Value=0.8, Name=DesaturationAmount, Group=None }
+    CollectedScalarParameters[72] =
+    {
+        Value = -2.7
+        Name = Adjust Clipping Start
+        Group = None
+    }
+    CollectedScalarParameters[73] = { Value=1, Name=CustomColorAmt, Group=None }
+    CollectedScalarParameters[74] = { Value=0, Name=ActivateLines5, Group=None }
+    CollectedScalarParameters[75] = { Value=7, Name=Highlight Near, Group=None }
+    CollectedScalarParameters[76] = { Value=-40, Name=PushBack_Strength, Group=None }
+    CollectedScalarParameters[77] = { Value=2.5, Name=OpacityMaskOffset, Group=None }
+    CollectedScalarParameters[78] = { Value=0, Name=SquishFactor, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.85098, G=0, B=0, A=0 }
+        Name = LinesColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0.5, B=1, A=0 }
+        Name = Highlight Dir
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = ActorForwardVector
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.1, G=0.017777, B=0.0075, A=1 }
+        Name = VeinsColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = HighlightColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0.419079, B=0, A=0 }
+        Name = TipColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=5, G=2.25074, B=1.09375, A=1 }
+        Name = BorderColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.25, G=0.150675, B=0.117981, A=0 }
+        Name = RootColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_KKHair007_BC
+    }
+}

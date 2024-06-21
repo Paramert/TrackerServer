@@ -1,0 +1,11 @@
+Diffuse=T_FlowMap_Distortion_01
+Normal=T_WaterNormal2
+Other[0]=T_K25_Gradient_Flicker_04
+Other[1]=T_K25_Vignette_Dust
+Other[2]=T_FX_Flamethrower_Distortion_01_
+Other[3]=T_FlowMap_Wavy_01
+Other[4]=T_Clouds_01
+Other[5]=T_K25_Vignette_Teleport_03
+Other[6]=T_Gradient_Flicker
+Other[7]=T_K25_Power_Vignette
+Other[8]=T_WhispySmoke_Tile1

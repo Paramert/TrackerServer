@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Cliniv_GlassCrack02.MI_Qat_Cliniv_GlassCrack02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Cliniv_GlassCrack02.MI_Qat_Cliniv_GlassCrack02'
+        MaterialSlotName = MI_Qat_Cliniv_GlassCrack02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 74.8947, 98.9864, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.52588e-05, Y=0, Z=0.444458 }
+    BoxExtent = { X=82.1556, Y=61.0062, Z=0.549561 }
+    SphereRadius = 94.2128
+}

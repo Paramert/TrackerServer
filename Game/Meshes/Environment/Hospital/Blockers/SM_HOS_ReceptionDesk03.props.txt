@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TableSurface02.MI_Hos_TableSurface02'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_OfficeWood02_BC.MI_HOS_OfficeWood02_BC'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TableSurface01.MI_Hos_TableSurface01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Trims01.MI_Hos_Trims01'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TableSurface02.MI_Hos_TableSurface02'
+        MaterialSlotName = MI_Hos_TableSurface02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.829, 724.197, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_OfficeWood02_BC.MI_HOS_OfficeWood02_BC'
+        MaterialSlotName = MI_HOS_OfficeWood02_BC
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 152.847, 781.12, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_TableSurface01.MI_Hos_TableSurface01'
+        MaterialSlotName = MI_Hos_TableSurface01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 156.896, 656.674, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Trims01.MI_Hos_Trims01'
+        MaterialSlotName = MI_Hos_Trims01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 239.249, 797.229, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-38.5992, Y=-4.04677, Z=68.2626 }
+    BoxExtent = { X=51.1598, Y=154.047, Z=68.2626 }
+    SphereRadius = 174.588
+}

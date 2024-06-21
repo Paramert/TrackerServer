@@ -1,0 +1,190 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_WispySmoke.T_WispySmoke'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Gesture }
+                    ParameterInfos[1] = { Name=FadeDistance }
+                    ParameterInfos[2] = { Name=twistUV }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=ClipRegion10 }
+                    ParameterInfos[1] = { Name=ClipRegion02 }
+                    ParameterInfos[2] = { Name=ClipRegion12 }
+                    ParameterInfos[3] = { Name=ClipRegion01 }
+                    ParameterInfos[4] = { Name=ClipRegion11 }
+                    ParameterInfos[5] = { Name=ClipBoxExtents }
+                    ParameterInfos[6] = { Name=ClipBoxCenter }
+                    ParameterInfos[7] = { Name=ClipRegion00 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=DetailSmoke }
+                    ParameterInfos[1] = { Name=CloudMask }
+                    ParameterInfos[2] =
+                    {
+                        Name = MaterialExpressionTextureSampleParameter2D_0
+                    }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 10, 15, 0.1 }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[5] = { R=200000, G=200000, B=200000, A=0 }
+            VectorValues[6] = { R=0, G=0, B=0, A=0 }
+            VectorValues[7] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_WispySmoke.T_WispySmoke'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WispySmoke.T_WispySmoke'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WispySmoke.T_WispySmoke'
+        Name = DetailSmoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Soft_Smoke2.T_Soft_Smoke2'
+        Name = CloudMask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+        Name = MaterialExpressionTextureSampleParameter2D_0
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Gesture, Group=None }
+    CollectedScalarParameters[1] = { Value=15, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=twistUV, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion10
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipRegion02
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion12
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipRegion01
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion11
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=200000, G=200000, B=200000, A=0 }
+        Name = ClipBoxExtents
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipBoxCenter
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipRegion00
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Soft_Smoke2
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WispySmoke
+    }
+}

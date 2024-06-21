@@ -1,0 +1,127 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/UMGAssets/HUD/PlayerStatus/K28/T_killerStatus_K28_Flash.T_killerStatus_K28_Flash'
+    ReferencedTextures[1] = Texture2D'/Game/UI/UMGAssets/HUD/PlayerStatus/K28/T_killerStatus_K28_RGB.T_killerStatus_K28_RGB'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=SmokeOpacity }
+                    ParameterInfos[1] = { Name=GlowFeather }
+                    ParameterInfos[2] = { Name=FlashOpacity }
+                    ParameterInfos[3] = { Name=GlowOpacity }
+                    ParameterInfos[4] = { Name=Percent }
+                    ParameterInfos[5] = { Name=SmokeSpeed }
+                    ParameterInfos[6] = { Name=Night Build-Up Scale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=InnerColor }
+                    ParameterInfos[1] = { Name=TimerColor }
+                    ParameterInfos[2] = { Name=BuildUpColor }
+                    ParameterInfos[3] = { Name=GlowColor }
+                    ParameterInfos[4] = { Name=SmokeColor }
+                    ParameterInfos[5] = { Name=FlashColor }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 1, 0.58, 1, 0, 0.25, 0.25, 0.95 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=1, A=1 }
+            VectorValues[2] = { R=1, G=0, B=0, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=0, G=1, B=0, A=1 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/UI/UMGAssets/HUD/PlayerStatus/K28/T_killerStatus_K28_RGB.T_killerStatus_K28_RGB'
+        ReferencedTextures[2] = Texture2D'/Game/UI/UMGAssets/HUD/PlayerStatus/K28/T_killerStatus_K28_Flash.T_killerStatus_K28_Flash'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=SmokeOpacity, Group=None }
+    CollectedScalarParameters[1] = { Value=0.58, Name=GlowFeather, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=FlashOpacity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=GlowOpacity, Group=None }
+    CollectedScalarParameters[4] = { Value=0.25, Name=Percent, Group=None }
+    CollectedScalarParameters[5] = { Value=0.25, Name=SmokeSpeed, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.95
+        Name = Night Build-Up Scale
+        Group = None
+    }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = InnerColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = TimerColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = BuildUpColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = GlowColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = SmokeColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = FlashColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

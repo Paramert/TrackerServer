@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Exit_Ground.MI_Exit_Ground'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Exit_Floor.MI_Exit_Floor'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Exit_Ground.MI_Exit_Ground'
+        MaterialSlotName = MI_Exit_Ground
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 928.204, 2296.94, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Exit_Floor.MI_Exit_Floor'
+        MaterialSlotName = MI_Exit_Floor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=17.6882, Y=-30.9732, Z=-29.7423 }
+    BoxExtent = { X=722.541, Y=351.689, Z=37.6592 }
+    SphereRadius = 765.665
+}

@@ -1,0 +1,99 @@
+Parent = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK31/ActiveZoneVFX/MI_K31_Survivor_ActiveZone.MI_K31_Survivor_ActiveZone'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Opacity_Main }
+        ParameterValue = 0.47
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[8] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_LightRays_Flashlight_01.T_LightRays_Flashlight_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_StaticGlitch_01.T_StaticGlitch_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K31/T_Halftone_Small.T_Halftone_Small'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/K31/T_Lines_K31_ActiveZone2.T_Lines_K31_ActiveZone2'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_Flicker_Flashlight.T_Gradient_Flicker_Flashlight'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Blurry_01.T_WhispySmoke_Blurry_01'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[7] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Fx_radialGradient
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Dust_Noise_02
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Gradient_Flicker_Flashlight
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 119.965
+        UVChannelIndex = 0
+        TextureName = T_Halftone_Small
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_LightRays_Flashlight_01
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_StaticGlitch_01
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_WhispySmoke_Blurry_01
+    }
+}

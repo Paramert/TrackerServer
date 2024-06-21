@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Netease/Material/SM_Candlestick/MI_Candlestick.MI_Candlestick'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Netease/Material/SM_Candlestick/MI_Candlestick.MI_Candlestick'
+        MaterialSlotName = lambert2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 54.4947, 72.9731, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.9924, Y=0.21525, Z=11.3821 }
+    BoxExtent = { X=5.8941, Y=5.71205, Z=11.3179 }
+    SphereRadius = 12.8714
+}

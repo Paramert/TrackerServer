@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/Trail/M_Mesh_Trail_Smoke.M_Mesh_Trail_Smoke'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/Trail/M_Mesh_Trail_Smoke.M_Mesh_Trail_Smoke'
+        MaterialSlotName = M_Mesh_Trail_Houdini2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.007, 275.291, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=20.0607, Y=-19.8098, Z=58.9366 }
+    BoxExtent = { X=67.2974, Y=61.9336, Z=58.4667 }
+    SphereRadius = 80.7696
+}

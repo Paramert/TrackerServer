@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_WhitePlastic01.MI_Qat_WhitePlastic01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_WhitePlasticBlue.MI_Qat_WhitePlasticBlue'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_LabTableParts01.MI_Qat_LabTableParts01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_LabTableMonitor01.MI_Qat_LabTableMonitor01'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons.MI_Qat_Bottons'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_WhitePlastic01.MI_Qat_WhitePlastic01'
+        MaterialSlotName = MI_Qat_WhitePlastic01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 240.908, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_WhitePlasticBlue.MI_Qat_WhitePlasticBlue'
+        MaterialSlotName = MI_Qat_WhitePlasticBlue
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 149.695, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_LabTableParts01.MI_Qat_LabTableParts01'
+        MaterialSlotName = MI_Qat_LabTableParts01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 250.178, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_LabTableMonitor01.MI_Qat_LabTableMonitor01'
+        MaterialSlotName = MI_Qat_LabTableMonitor01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 164.854, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons.MI_Qat_Bottons'
+        MaterialSlotName = MI_Qat_Bottons
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 150.141, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.532162, Z=54.9929 }
+    BoxExtent = { X=100, Y=53.1521, Z=54.9929 }
+    SphereRadius = 119.846
+}

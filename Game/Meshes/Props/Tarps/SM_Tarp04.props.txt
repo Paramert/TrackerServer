@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Tarp01.MI_Tarp01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Tarp01_Atl.MI_Tarp01_Atl'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Tarp01.MI_Tarp01'
+        MaterialSlotName = MI_Tarp01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 329.219, 159.964, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Tarp01_Atl.MI_Tarp01_Atl'
+        MaterialSlotName = MI_Tarp01_Atl
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.81448, Y=5.39507, Z=4.84347 }
+    BoxExtent = { X=13.4121, Y=75.5807, Z=114.316 }
+    SphereRadius = 137.697
+}

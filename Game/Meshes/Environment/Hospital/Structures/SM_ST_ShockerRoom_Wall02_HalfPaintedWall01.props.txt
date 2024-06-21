@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_HalfPaintedWall01.MI_Hos_HalfPaintedWall01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_HalfPaintedWall01.MI_Hos_HalfPaintedWall01'
+        MaterialSlotName = MI_Hos_HalfPaintedWall01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 453.976, 3636.72, 3458.33, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-10.431, Y=-3.73206, Z=542.673 }
+    BoxExtent = { X=1102.35, Y=1101.58, Z=253.908 }
+    SphereRadius = 1578.97
+}

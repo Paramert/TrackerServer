@@ -1,0 +1,218 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK27/M_TV_StaticNoise_01.M_TV_StaticNoise_01'
+ScalarParameterValues[20] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tile_X }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tile_Y }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Bug_Visibility }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Speed_BlueScreen }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Speed_BlueScreen_02 }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Speed_Bug }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=TV_MiddleMask_Contrast }
+        ParameterValue = 1.25
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=TV_MiddleMask_Opacity }
+        ParameterValue = 32
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Desaturate }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Flipbook_AnimationMult }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=InvertGlitch }
+        ParameterValue = 0.85
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=MaxSmooth }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=MinSmooth }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Opacity_CenterGlitch }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=ScaleGlitch_X_02 }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Noise_Contrast }
+        ParameterValue = -0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=Noise_Opacity }
+        ParameterValue = 0.075
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Tile_Noise_X }
+        ParameterValue = 0.006
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Tile_Noise_Y }
+        ParameterValue = 0.038
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Flipbook_Color }
+        ParameterValue = { R=0, G=0, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Speed_Glitch }
+        ParameterValue = { R=0.1, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Panner_Noise }
+        ParameterValue = { R=-0.05, G=0.01, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[12] =
+{
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    CachedReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    CachedReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_FX_Water_Ripple_Normals.T_FX_Water_Ripple_Normals'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/K27/T_BluescreenTV_02.T_BluescreenTV_02'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_fxBloodTrail2.T_fxBloodTrail2'
+    CachedReferencedTextures[9] = Texture2D'/Game/Effects/Textures/K27/T_CursedTape_9x9.T_CursedTape_9x9'
+    CachedReferencedTextures[10] = Texture2D'/Game/Effects/Textures/K27/T_KillerWell_Frame_01.T_KillerWell_Frame_01'
+    CachedReferencedTextures[11] = Texture2D'/Game/Effects/Textures/K27/T_EjectTVScreen_01.T_EjectTVScreen_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BluescreenTV_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.328125
+        UVChannelIndex = 0
+        TextureName = T_CursedTape_9x9
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_EjectTVScreen_01
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.046875
+        UVChannelIndex = 0
+        TextureName = T_fxBloodTrail2
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 0.328125
+        UVChannelIndex = 0
+        TextureName = T_KillerWell_Frame_01
+    }
+}

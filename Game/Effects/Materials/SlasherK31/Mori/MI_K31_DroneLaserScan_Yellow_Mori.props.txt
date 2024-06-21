@@ -1,0 +1,196 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK31/Mori/M_K31_DroneLaserScan_Mori.M_K31_DroneLaserScan_Mori'
+ScalarParameterValues[19] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Border }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Emissive Control }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Emissive Power }
+        ParameterValue = 1.75
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Highlight Intensity }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Lines 1 Opacity }
+        ParameterValue = -0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Lines 2 Opacity }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Noise 1 Multiply }
+        ParameterValue = 1.16667
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Noise 2 Intensity }
+        ParameterValue = 0.666667
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Noise 2 power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Opacity_Power }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Rotate Texture }
+        ParameterValue = 0.125
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Static }
+        ParameterValue = 55
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Texture Edge Fade Multiply }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Texture Edge Fade Power }
+        ParameterValue = 11
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Texture Edge Fade Subtract }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Texture Intensity }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=Texture Scale X }
+        ParameterValue = 9
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Texture Scale Y }
+        ParameterValue = 8.4
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Texure }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K31/T_Halftone_Small.T_Halftone_Small'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.947917, G=0.506351, B=0.072231, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_LightRays_Flashlight_01.T_LightRays_Flashlight_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Blurry_01.T_WhispySmoke_Blurry_01'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_StaticGlitch_01.T_StaticGlitch_01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Flowmap.T_Flowmap'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/K31/T_K31_Cross_Edges_Noise.T_K31_Cross_Edges_Noise'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Flowmap
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.983398
+        UVChannelIndex = 0
+        TextureName = T_Halftone_Small
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.203125
+        UVChannelIndex = 0
+        TextureName = T_StaticGlitch_01
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.984375
+        UVChannelIndex = 0
+        TextureName = T_WhispySmoke_Blurry_01
+    }
+}

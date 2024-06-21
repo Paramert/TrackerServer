@@ -1,0 +1,94 @@
+Parent = Material3'/Game/Netease/Material/Floor/Master/M_Floor.M_Floor'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=tilling }
+        ParameterValue = 3.4
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Specular }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Basecolor }
+        ParameterValue = Texture2D'/Game/Netease/Texture/Floor/T_Floor_BaseColor.T_Floor_BaseColor'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Basecolor2 }
+        ParameterValue = Texture2D'/Game/Netease/Texture/Floor/T_Floor_BaseColor.T_Floor_BaseColor'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=color }
+        ParameterValue = { R=0.302251, G=0.516928, B=0.609375, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_BaseColor.T_Floor_BaseColor'
+    CachedReferencedTextures[1] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Occlussion.T_Floor_Occlussion'
+    CachedReferencedTextures[2] = Texture2D'/Game/Netease/Texture/Floor/T_Floor_Normal.T_Floor_Normal'
+    CachedReferencedTextures[3] = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_BaseColor.T_BloodFloor_BaseColor'
+    CachedReferencedTextures[4] = Texture2D'/Game/Netease/Texture/Floor/T_BloodFloor_Rough.T_BloodFloor_Rough'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3.40625
+        UVChannelIndex = 0
+        TextureName = T_BloodFloor_Rough
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 3.40625
+        UVChannelIndex = 0
+        TextureName = T_Floor_Occlussion
+    }
+}

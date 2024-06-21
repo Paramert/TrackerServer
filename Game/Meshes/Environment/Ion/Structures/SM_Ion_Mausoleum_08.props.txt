@@ -1,0 +1,110 @@
+Materials[8] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Column_03.MI_ION_Column_03'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_B_03.MI_Ion_Trimsheet_B_03'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Tilable_04.MI_Ion_Trimsheet_A_Tilable_04'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Tilable_07.MI_Ion_Trimsheet_A_Tilable_07'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_ConcreteTrim01.MI_ION_ConcreteTrim01'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Painted.MI_Ion_Trimsheet_A_Painted'
+    Materials[6] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_Ion_ExteriorBench_01.MI_Ion_ExteriorBench_01'
+    Materials[7] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_ION_TreeBarkDead_A.MI_Ion_TreeBarkDead_A'
+}
+SourceModels[0] = {}
+StaticMaterials[8] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Column_03.MI_ION_Column_03'
+        MaterialSlotName = MI_ION_Column_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 153.149, 1542, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_B_03.MI_Ion_Trimsheet_B_03'
+        MaterialSlotName = MI_Ion_TrimSheet_B_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 182.956, 1539.69, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Tilable_04.MI_Ion_Trimsheet_A_Tilable_04'
+        MaterialSlotName = MI_Ion_Trimsheet_A_Tilable_04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 124.479, 1540.91, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Tilable_07.MI_Ion_Trimsheet_A_Tilable_07'
+        MaterialSlotName = MI_Ion_Trimsheet_A_Tilable_07
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 154.485, 1521.67, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_ConcreteTrim01.MI_ION_ConcreteTrim01'
+        MaterialSlotName = MI_ION_ConcreteTrim01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 337.727, 1522.46, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Painted.MI_Ion_Trimsheet_A_Painted'
+        MaterialSlotName = MI_Ion_Trimsheet_A_Painted
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.286, 1536.55, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_Ion_ExteriorBench_01.MI_Ion_ExteriorBench_01'
+        MaterialSlotName = MI_Ion_ExteriorBench_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 205.752, 1524.87, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Nature/MI_ION_TreeBarkDead_A.MI_Ion_TreeBarkDead_A'
+        MaterialSlotName = MI_Ion_TreeBarkDead_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 103.502, 1538.22, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-223.933, Y=77.7503, Z=263.199 }
+    BoxExtent = { X=245.919, Y=282.717, Z=273.215 }
+    SphereRadius = 388.177
+}

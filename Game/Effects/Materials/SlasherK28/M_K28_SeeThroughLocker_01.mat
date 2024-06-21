@@ -1,0 +1,14 @@
+Diffuse=T_Vomit01_BC
+Normal=FlatNormal
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=DefaultDiffuse
+Other[3]=T_Vomit01_N
+Other[4]=T_Vomit01_ORM
+Other[5]=T_ClosetWood_Ges_K28_Mask
+Other[6]=T_SmokeTile
+Other[7]=Black
+Other[8]=Black_Linear
+Other[9]=White_Linear
+Other[10]=Yellow_Linear
+Other[11]=T_checker_grid

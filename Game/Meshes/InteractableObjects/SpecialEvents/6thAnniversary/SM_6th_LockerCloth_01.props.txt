@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_Cloth_01.MI_6th_Cloth_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/SpecialEvents/6thAnniversary/MI_6th_Cloth_01.MI_6th_Cloth_01'
+        MaterialSlotName = MI_6th_Cloth_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 147.37, 105.653, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0166588, Y=-2.6475, Z=-33.7187 }
+    BoxExtent = { X=24.604, Y=2.76586, Z=35.6676 }
+    SphereRadius = 42.2261
+}

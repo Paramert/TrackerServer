@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/MI_Blight_ChainDashTrail_01.MI_Blight_ChainDashTrail_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_Blight_ChainDashTrail_01.MI_Blight_ChainDashTrail_01'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 48.6579, 237.289, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=17.752, Y=80.9457, Z=140.316 }
+    BoxExtent = { X=66.2057, Y=45.6134, Z=74.0521 }
+    SphereRadius = 106.095
+}

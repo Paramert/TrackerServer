@@ -1,0 +1,6 @@
+Diffuse=T_Vomit01_BC
+Normal=T_WaterNormal2
+Other[0]=T_BloodGround
+Other[1]=T_BloodGround_N
+Other[2]=T_Vomit_Tiling
+Other[3]=T_Mud_N

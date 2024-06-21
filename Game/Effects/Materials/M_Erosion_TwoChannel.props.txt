@@ -1,0 +1,205 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Reflection_Softness }
+                    ParameterInfos[1] = { Name=Opacity_Distortion }
+                    ParameterInfos[2] = { Name=Opacity_Reflection }
+                    ParameterInfos[3] = { Name=Detail-Tiling }
+                    ParameterInfos[4] = { Name=Scale_NoiseColor_Blood }
+                    ParameterInfos[5] = { Name=Time_Particle }
+                    ParameterInfos[6] = { Name=Smoot Step Min }
+                    ParameterInfos[7] = { Name=Detail -SpeedX }
+                    ParameterInfos[8] = { Name=Depth Fade }
+                    ParameterInfos[9] = { Name=Contrast_Reflection }
+                    ParameterInfos[10] = { Name=Detail -Intensity }
+                    ParameterInfos[11] = { Name=Smoot Step Max }
+                    ParameterInfos[12] = { Name=Opacity }
+                    ParameterInfos[13] = { Name=Detail -SpeedY }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Blood Color light }
+                    ParameterInfos[1] = { Name=Subsurface }
+                    ParameterInfos[2] = { Name=Blood Color Outer_02 }
+                    ParameterInfos[3] = { Name=Emissive Color }
+                    ParameterInfos[4] = { Name=Blood Color Outer }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Reflection Map }
+                    ParameterInfos[1] = { Name=Detail Map }
+                    ParameterInfos[2] = { Name=Erosion Texture RG }
+                    ParameterInfos[3] = { Name=Normal Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] = { 6, 0.05, 2, 1, 1, 0, 0, 0, 0, 2, 0, 1, 1, 0 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.5, G=0.39, B=0.39, A=1 }
+            VectorValues[1] = { R=0.09375, G=0.00153, B=0, A=1 }
+            VectorValues[2] = { R=0.04, G=0.000334, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0.322917, G=0.002696, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        Name = Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+        Name = Detail Map
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+        Name = Erosion Texture RG
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = Normal Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=6, Name=Reflection_Softness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.05, Name=Opacity_Distortion, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=Opacity_Reflection, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Detail-Tiling, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Scale_NoiseColor_Blood, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Time_Particle, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Smoot Step Min, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Detail -SpeedX, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Depth Fade, Group=None }
+    CollectedScalarParameters[9] = { Value=2, Name=Contrast_Reflection, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Detail -Intensity, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Smoot Step Max, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Detail -SpeedY, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.39, B=0.39, A=1 }
+        Name = Blood Color light
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.09375, G=0.00153, B=0, A=1 }
+        Name = Subsurface
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.04, G=0.000334, B=0, A=1 }
+        Name = Blood Color Outer_02
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Emissive Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.322917, G=0.002696, B=0, A=1 }
+        Name = Blood Color Outer
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4.79852
+        UVChannelIndex = 0
+        TextureName = T_IceNoise
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mud_01_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Saliva_Drop_02
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal
+    }
+}

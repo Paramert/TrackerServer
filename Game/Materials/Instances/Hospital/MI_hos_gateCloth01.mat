@@ -1,0 +1,17 @@
+Diffuse=T_hos_gateCloth01_BC
+Normal=T_hos_gateCloth01_N
+Opacity=T_hos_gateCloth01_A
+Other[0]=Black
+Other[1]=T_hos_gateCloth01_R
+Other[2]=HeatmapGradient
+Other[3]=DefaultDiffuse
+Other[4]=FlatNormal
+Other[5]=environment_mud_diffuse
+Other[6]=environment_mud_N
+Other[7]=T_Brick01_BC
+Other[8]=Black_Linear
+Other[9]=Green_Linear
+Other[10]=White
+Other[11]=Yellow_Linear
+Other[12]=Moss_diffuse
+Other[13]=T_CrawlingMoss_Mask_01

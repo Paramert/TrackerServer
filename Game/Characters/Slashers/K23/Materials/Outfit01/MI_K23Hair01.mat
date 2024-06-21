@@ -1,0 +1,17 @@
+Diffuse=T_k23_Hair00_BC
+Normal=T_S23_Hair00_N
+Opacity=T_S23_Hair00_A
+Other[0]=T_S23_Hair00_AO
+Other[1]=White
+Other[2]=BlendFunc_DefBase
+Other[3]=BlendFunc_DefBlend
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=T_CMMHair000_M
+Other[6]=T_CMMHair000_N
+Other[7]=Fxt_verticalGradient
+Other[8]=T_Halftone
+Other[9]=T_TileNoise
+Other[10]=T_DissolveTextures
+Other[11]=T_FX_DissolveRamp
+Other[12]=T_GS_FrontSign_Flickerama
+Other[13]=Black

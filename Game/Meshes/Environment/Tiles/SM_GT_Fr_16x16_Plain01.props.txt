@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_GT_Fr_16x16_Plain01.MI_GT_Fr_16x16_Plain01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_GT_Fr_16x16_Plain01.MI_GT_Fr_16x16_Plain01'
+        MaterialSlotName = MI_GT_Fr_16x16_Plain01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2022.47, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.15625, Y=-10.4591, Z=-55.5162 }
+    BoxExtent = { X=824.821, Y=832.151, Z=83.7773 }
+    SphereRadius = 1156.81
+}

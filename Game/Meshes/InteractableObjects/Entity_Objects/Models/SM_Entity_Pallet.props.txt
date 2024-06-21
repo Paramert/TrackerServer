@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_EntityPallet_Dissolve.MI_EntityPallet_Dissolve'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_EntityPallet_Dissolve.MI_EntityPallet_Dissolve'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_EntityPallet_Dissolve.MI_EntityPallet_Dissolve'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_EntityPallet_Dissolve.MI_EntityPallet_Dissolve'
+        MaterialSlotName = MI_EntityPallet_Dissolve
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 660.83, 66.9705, 282.183, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_EntityPallet_Dissolve.MI_EntityPallet_Dissolve'
+        MaterialSlotName = MI_EntityPallet_Dissolve_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 601.648, 61.3469, 259.749, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_EntityPallet_Dissolve.MI_EntityPallet_Dissolve'
+        MaterialSlotName = MI_EntityPallet_Dissolve_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 623.754, 74.4378, 270.785, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.62199, Y=86.079, Z=97.6746 }
+    BoxExtent = { X=63.2871, Y=117.585, Z=109.67 }
+    SphereRadius = 153.811
+}

@@ -1,0 +1,57 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Smoke/T_SmokeLoop_8x8_01.T_SmokeLoop_8x8_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Smoke/T_SmokeLoop_8x8_01_N.T_SmokeLoop_8x8_01_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Far Camera Fade }
+                    ParameterInfos[1] = { Name=Depht Fade }
+                    ParameterInfos[2] = { Name=NearFade Radius }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 2750, 150, 256 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Smoke/T_SmokeLoop_8x8_01_N.T_SmokeLoop_8x8_01_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Smoke/T_SmokeLoop_8x8_01.T_SmokeLoop_8x8_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=2750, Name=Far Camera Fade, Group=None }
+    CollectedScalarParameters[1] = { Value=150, Name=Depht Fade, Group=None }
+    CollectedScalarParameters[2] = { Value=256, Name=NearFade Radius, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

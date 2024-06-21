@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Props/Corpses/MI_UKR_Corpse_Head01.MI_UKR_Corpse_Head01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Props/Corpses/MI_UKR_Corpse_Hair01_TAA.MI_UKR_Corpse_Hair01_TAA'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Props/Corpses/MI_UKR_Corpse_Body01.MI_UKR_Corpse_Body01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Structures/MI_UKR_trim_driftwood_light01.MI_UKR_trim_driftwood_light01'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Props/Corpses/MI_UKR_Corpse_Head01.MI_UKR_Corpse_Head01'
+        MaterialSlotName = MI_UKR_Corpse_Head01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 57.214, 2420.84, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Props/Corpses/MI_UKR_Corpse_Hair01_TAA.MI_UKR_Corpse_Hair01_TAA'
+        MaterialSlotName = MI_UKR_Corpse_Hair01_TAA
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 40.5664, 2780.74, 1.67109, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Props/Corpses/MI_UKR_Corpse_Body01.MI_UKR_Corpse_Body01'
+        MaterialSlotName = MI_UKR_Corpse_Body01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 219.356, 2861.02, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Structures/MI_UKR_trim_driftwood_light01.MI_UKR_trim_driftwood_light01'
+        MaterialSlotName = MI_UKR_trim_driftwood_light01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 565.967, 2862.74, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.586189, Y=-3.217, Z=-139 }
+    BoxExtent = { X=24.9517, Y=24.57, Z=140.648 }
+    SphereRadius = 140.73
+}

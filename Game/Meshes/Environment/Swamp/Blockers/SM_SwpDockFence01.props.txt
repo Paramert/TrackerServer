@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwpDockFence01.MI_SwpDockFence01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwpDockFence01.MI_SwpDockFence01'
+        MaterialSlotName = MI_SwpDockFence01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 282.138, 526.265, 456.704, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-2.25749, Z=0.700478 }
+    BoxExtent = { X=4.91405, Y=200.555, Z=111.914 }
+    SphereRadius = 201.79
+}

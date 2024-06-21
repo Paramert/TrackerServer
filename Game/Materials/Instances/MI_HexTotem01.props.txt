@@ -1,0 +1,129 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Masters/MI_InteractableObject_v2.MI_InteractableObject_v2'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Min A }
+        ParameterValue = -0.161905
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Max A }
+        ParameterValue = 0.290476
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Main_BaseColor }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/HexBags/T_HexTotem_BC.T_HexTotem_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Main_Normal }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/HexBags/T_HexTotem_NM.T_HexTotem_NM'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Main_ORM }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/HexBags/T_HexTotem_ORM.T_HexTotem_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Diffuse }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/HexBags/T_HexTotem01_BC.T_HexTotem01_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Blood Dirt Emissive }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Texture Mask Size }
+        ParameterValue = { R=350, G=350, B=350, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = true
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[17] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+    CachedReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+    CachedReferencedTextures[8] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    CachedReferencedTextures[10] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_BC.T_Vomit01_BC'
+    CachedReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[12] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_ORM.T_Vomit01_ORM'
+    CachedReferencedTextures[13] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_N.T_Vomit01_N'
+    CachedReferencedTextures[14] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+    CachedReferencedTextures[15] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    CachedReferencedTextures[16] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_HexTotem_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_HexTotem_NM
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_HexTotem_ORM
+    }
+}

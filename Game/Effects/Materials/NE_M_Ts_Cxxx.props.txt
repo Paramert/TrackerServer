@@ -1,0 +1,147 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_018_N.NE_T_Blood_TP068_018_N'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_020.NE_T_Blood_TP068_020'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/NE_T_BT_01.NE_T_BT_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_001.NE_T_Noise_TP068_001'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=roughness }
+                    ParameterInfos[1] = { Name=disolve_Test }
+                    ParameterInfos[2] = { Name=Dissolve_V }
+                    ParameterInfos[3] = { Name=FadeDistance }
+                    ParameterInfos[4] = { Name=Dissolve_U }
+                    ParameterInfos[5] = { Name=NormalStrength }
+                    ParameterInfos[6] = { Name=U }
+                    ParameterInfos[7] = { Name=Soft_Dissolve }
+                    ParameterInfos[8] = { Name=V }
+                    ParameterInfos[9] = { Name=Soft_Sharoness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Dissolve_T }
+                    ParameterInfos[2] = { Name=Texture }
+                    ParameterInfos[3] = { Name=Mask(R) }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 0, 2, 3, 50, 3, 1, 1, 1, 1, 2 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_018_N.NE_T_Blood_TP068_018_N'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_001.NE_T_Noise_TP068_001'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/NE_T_BT_01.NE_T_BT_01'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_020.NE_T_Blood_TP068_020'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/NE_T_BT_01.NE_T_BT_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_001.NE_T_Noise_TP068_001'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_018_N.NE_T_Blood_TP068_018_N'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_020.NE_T_Blood_TP068_020'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_018_N.NE_T_Blood_TP068_018_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_001.NE_T_Noise_TP068_001'
+        Name = Dissolve_T
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_BT_01.NE_T_BT_01'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_020.NE_T_Blood_TP068_020'
+        Name = Mask(R)
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=disolve_Test, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=Dissolve_V, Group=None }
+    CollectedScalarParameters[3] = { Value=50, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[4] = { Value=3, Name=Dissolve_U, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=NormalStrength, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=U, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Soft_Dissolve, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=V, Group=None }
+    CollectedScalarParameters[9] = { Value=2, Name=Soft_Sharoness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_BT_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = NE_T_Noise_TP068_001
+    }
+}

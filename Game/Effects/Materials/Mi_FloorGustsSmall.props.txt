@@ -1,0 +1,186 @@
+Parent = Material3'/Game/Effects/Materials/M_SandstormFloorGust.M_SandstormFloorGust'
+ScalarParameterValues[16] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=FrequencyUV }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=FrequencyUVratio }
+        ParameterValue = 15
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Contrast }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Fade Length (S) }
+        ParameterValue = 1500
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Fade Offset (S) }
+        ParameterValue = 1000
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=FadeDistance }
+        ParameterValue = 25
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=FLowmap }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=FlowmapSTR }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=FlowmapUV }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=FLowmapUVratio }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=MinOpacity }
+        ParameterValue = 0.35
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=UV }
+        ParameterValue = 35
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=UV2 }
+        ParameterValue = 40
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=UVratio }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=FrequencySpeed }
+        ParameterValue = { R=0.1, G=0.1, B=0.1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.02, G=0.008167, B=0.005417, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=FLowmapSpeed }
+        ParameterValue = { R=-0.01, G=-0.01, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Speed }
+        ParameterValue = { R=-0.1, G=-0.1, B=0.05, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Speed2 }
+        ParameterValue = { R=-0.1, G=-0.1, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Smoke_Tile_01_C.T_Smoke_Tile_01_C'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 13.2302
+        UVChannelIndex = 0
+        TextureName = T_Smoke_Soft_Tile
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 3.32813
+        UVChannelIndex = 0
+        TextureName = T_Smoke_Tile_01_C
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.671875
+        UVChannelIndex = 0
+        TextureName = T_Veins
+    }
+}

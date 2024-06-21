@@ -1,0 +1,8 @@
+Diffuse=environment_mud_diffuse
+Normal=rock_floor_normal
+Other[0]=T_GT_Fr_32x32_Plain01_BC
+Other[1]=T_GT_Fr_32x32_Plain01_mask
+Other[2]=rock_floor_bump
+Other[3]=rock_floor_diffuse
+Other[4]=T_Water_N
+Other[5]=tree_mud_diffuse

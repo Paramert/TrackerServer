@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/M_ProgressLights_CustomDepth.M_ProgressLights_CustomDepth'
+    Materials[1] = Material3'/Game/Effects/Materials/M_SwitchPanelCustomDepth.M_SwitchPanelCustomDepth'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/M_ProgressLights_CustomDepth.M_ProgressLights_CustomDepth'
+        MaterialSlotName = M_ProgressLights_CustomDepth
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 73.5126, 573.077, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/M_SwitchPanelCustomDepth.M_SwitchPanelCustomDepth'
+        MaterialSlotName = M_SwitchPanelCustomDepth
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 226.271, 755.42, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.195999, Y=-0.437531, Z=9.17562 }
+    BoxExtent = { X=22.2978, Y=30.9729, Z=53.5653 }
+    SphereRadius = 64.829
+}

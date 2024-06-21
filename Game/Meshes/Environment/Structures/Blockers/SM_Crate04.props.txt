@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crate01.MI_Crate01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crate04_C.MI_Crate04_C'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crate04_B.MI_Crate04_B'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crate01.MI_Crate01'
+        MaterialSlotName = Crate_Wood
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 531.621, 978.114, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crate04_C.MI_Crate04_C'
+        MaterialSlotName = MI_Crate04_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 259.674, 954.766, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Crate04_B.MI_Crate04_B'
+        MaterialSlotName = MI_Crate04_C
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 246.034, 996.884, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=11.5245, Y=-10.0695, Z=64.4232 }
+    BoxExtent = { X=112.416, Y=88.9957, Z=64.5571 }
+    SphereRadius = 155.18
+}

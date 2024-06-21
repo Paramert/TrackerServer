@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_WoodenBeamPlanks01.MI_Ind_WoodenBeamPlanks01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_WoodenBeamPlanks01.MI_Ind_WoodenBeamPlanks01'
+        MaterialSlotName = MI_Ind_WoodenBeamPlanks01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 430.524, 104.831, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.834457, Y=-1.51006, Z=0.918033 }
+    BoxExtent = { X=78.6272, Y=3.76074, Z=12.3619 }
+    SphereRadius = 78.6728
+}

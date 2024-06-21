@@ -1,0 +1,272 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK32/M_PP_K32_Overclock.M_PP_K32_Overclock'
+ScalarParameterValues[33] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=MF_PP_DiskDiscard_DebugControl }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=MF_PP_DiskDiscard_Radius }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=TexTiling_X }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=TexTiling_Y }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=TexScroll_X }
+        ParameterValue = -0.057619
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=TexScroll_Y }
+        ParameterValue = -0.142857
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=OverlayPower }
+        ParameterValue = 3.93971
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=OverlayContrast }
+        ParameterValue = 0.757143
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=OverlayEmissiveIntensity }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=DistortionTexTiling_X }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=DistortionTexTiling_Y }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=DistortionTexScroll_X }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=DistortionTexScroll_Y }
+        ParameterValue = 0.180952
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=DIstortionIntensity }
+        ParameterValue = 0.030952
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=GlobalOpacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=CenterRadius }
+        ParameterValue = 2.7
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=CenterContrast }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=SwitchPattern }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=NoiseTexTiling_X }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=NoiseTexTiling_Y }
+        ParameterValue = 4.66274
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=NoiseTexScroll_X }
+        ParameterValue = 0.955469
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=NoiseTexScroll_Y }
+        ParameterValue = -0.752367
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=NoiseTexRotation }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=NoisePower }
+        ParameterValue = 1.39501
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=NoiseContrast }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=NoiseIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=Tex02Tiling_X }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=Tex02Tiling_Y }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=Tex02Scroll_X }
+        ParameterValue = 0.076667
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=Tex02Scroll_Y }
+        ParameterValue = 0.342858
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=VignetteRadius }
+        ParameterValue = 5.22833
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=VignetteContrast }
+        ParameterValue = 3.84455
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=OverlayEmissive }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Tiling_Crack_03.T_Tiling_Crack_03'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=DistortionTex }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_05.T_Tiling_Cloud_05'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NoiseTexture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Tiling_Block_01.T_Tiling_Block_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Additive (3)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Add/Mult }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Crack_03.T_Tiling_Crack_03'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_05_N.T_Tiling_Cloud_05_N'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Tiling_Block_01.T_Tiling_Block_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.65625
+        UVChannelIndex = 0
+        TextureName = T_Tiling_Cloud_05
+    }
+}

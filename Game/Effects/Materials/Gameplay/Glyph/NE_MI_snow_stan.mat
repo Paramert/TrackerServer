@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Other[0]=NE_T_TestSnowFlakes
+Other[1]=BlendFunc_DefBlend
+Other[2]=T_BurnedAsh
+Other[3]=T_Glyph_Symbol
+Other[4]=T_SmokeTile

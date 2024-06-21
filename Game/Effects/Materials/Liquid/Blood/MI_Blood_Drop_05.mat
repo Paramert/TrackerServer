@@ -1,0 +1,9 @@
+Diffuse=T_Saliva_Drop_02
+Normal=T_BloodDrips_04_N
+Cube=T_Smoke_Soft_Tile
+Other[0]=T_Saliva_Drop_04
+Other[1]=T_Gradient_BLood
+Other[2]=T_IceNoise
+Other[3]=T_NoiseNormal_01
+Other[4]=T_WaterNormal2
+Other[5]=T_Swamp_Mud_roughness

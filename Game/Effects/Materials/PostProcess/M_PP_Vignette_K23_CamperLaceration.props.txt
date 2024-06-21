@@ -1,0 +1,126 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Gradient/T_K23_Vignette_Gradient.T_K23_Vignette_Gradient'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_K23_Knife_Wind_01.T_K23_Knife_Wind_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_K23_Vignette_Textures_AlphaPacked_01.T_K23_Vignette_Textures_AlphaPacked_01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_K23_Vignette_Textures_AlphaPacked_02.T_K23_Vignette_Textures_AlphaPacked_02'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_K23_VignetteMask_01.T_K23_VignetteMask_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=Fade_Line5 }
+                    ParameterInfos[1] = { Name=Fade_Line1 }
+                    ParameterInfos[2] = { Name=Line 3 Rotation }
+                    ParameterInfos[3] = { Name=Line 6 Rotation }
+                    ParameterInfos[4] = { Name=Fade_Line2 }
+                    ParameterInfos[5] = { Name=Line 2 Rotation }
+                    ParameterInfos[6] = { Name=Line 4 Rotation }
+                    ParameterInfos[7] = { Name=Line 5 Rotation }
+                    ParameterInfos[8] = { Name=Line 7 Rotation }
+                    ParameterInfos[9] = { Name=Fade_Line3 }
+                    ParameterInfos[10] = { Name=WhiteIn }
+                    ParameterInfos[11] = { Name=Fade_Line7 }
+                    ParameterInfos[12] = { Name=FinalHitColor }
+                    ParameterInfos[13] = { Name=Line 1 Rotation }
+                    ParameterInfos[14] = { Name=Fade_Line4 }
+                    ParameterInfos[15] = { Name=Fade_Line6 }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=GradientRamp }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0.5
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.8
+            ScalarValues[6] = 0.7
+            ScalarValues[7] = 0.3
+            ScalarValues[8] = 0.4
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0.1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+        }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Gradient/T_K23_Vignette_Gradient.T_K23_Vignette_Gradient'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_DustParticles_02.T_DustParticles_02'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_K23_Knife_Wind_01.T_K23_Knife_Wind_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_K23_Vignette_Textures_AlphaPacked_02.T_K23_Vignette_Textures_AlphaPacked_02'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_K23_VignetteMask_01.T_K23_VignetteMask_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_K23_Vignette_Textures_AlphaPacked_01.T_K23_Vignette_Textures_AlphaPacked_01'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Gradient/T_K23_Vignette_Gradient.T_K23_Vignette_Gradient'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Gradient/T_K23_Vignette_Gradient.T_K23_Vignette_Gradient'
+        Name = GradientRamp
+        Group = None
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Fade_Line5, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Fade_Line1, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=Line 3 Rotation, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Line 6 Rotation, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Fade_Line2, Group=None }
+    CollectedScalarParameters[5] = { Value=0.8, Name=Line 2 Rotation, Group=None }
+    CollectedScalarParameters[6] = { Value=0.7, Name=Line 4 Rotation, Group=None }
+    CollectedScalarParameters[7] = { Value=0.3, Name=Line 5 Rotation, Group=None }
+    CollectedScalarParameters[8] = { Value=0.4, Name=Line 7 Rotation, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Fade_Line3, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=WhiteIn, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Fade_Line7, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=FinalHitColor, Group=None }
+    CollectedScalarParameters[13] = { Value=0.1, Name=Line 1 Rotation, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Fade_Line4, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Fade_Line6, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

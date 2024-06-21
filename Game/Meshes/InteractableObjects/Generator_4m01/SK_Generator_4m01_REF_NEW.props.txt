@@ -1,0 +1,72 @@
+Skeleton = Skeleton'/Game/Meshes/InteractableObjects/Generators/Models/SK_Generator01_REF_Skeleton.SK_Generator01_REF_Skeleton'
+bHasVertexColors = true
+bComputeNormalsToUVs = false
+bVertexCurvature = false
+bBuildVertexCurvature = false
+LODInfo[5] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[3] = { 0, 1, 2 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[2] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[3] = { 0, 1, 2 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[3] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[3] = { 0, 1, 2 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = "C:/Users/wb.adcyicui001/Desktop/SK_Generator_4m01_REF1.fbx"
+    }
+    LODInfo[4] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[3] = { 0, 1, 2 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = "C:/Users/wb.adcyicui001/Desktop/SK_Generator_4m01_REF1.fbx"
+    }
+}
+MorphTargets[0] = {}
+Sockets[0] = {}
+SamplingInfo =
+{
+    Regions[0] = {}
+    BuiltData =
+    {
+        WholeMeshBuiltData[5] = { , , , ,  }
+        RegionBuiltData[0] = {}
+    }
+}
+SkinWeightProfiles[0] = {}
+NumVertexColorChannels = 0
+DummyPropSK = 0

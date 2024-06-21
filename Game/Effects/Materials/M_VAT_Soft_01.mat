@@ -1,0 +1,9 @@
+Diffuse=Black_1x1_EXR_Texture
+Normal=T_Mud_N
+Other[0]=DefaultDiffuse
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=Black
+Other[3]=DebugNumberStrip
+Other[4]=DebugNumberPeriod
+Other[5]=T_Mud
+Other[6]=AU_005_ORM

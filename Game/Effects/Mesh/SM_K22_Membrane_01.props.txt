@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Houdini/Membrane_K22_sim/MI_Membrane_WOP_Mesh.MI_Membrane_WOP_Mesh'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Houdini/Membrane_K22_sim/MI_Membrane_WOP_Mesh.MI_Membrane_WOP_Mesh'
+        MaterialSlotName = S_CH_Gibs_Slab03SG
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 161.083, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.590052, Y=0.183066, Z=-1.42944 }
+    BoxExtent = { X=9.41784, Y=14.6827, Z=6.2098 }
+    SphereRadius = 16.3781
+}

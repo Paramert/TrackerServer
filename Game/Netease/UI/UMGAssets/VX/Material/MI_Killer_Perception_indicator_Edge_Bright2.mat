@@ -1,0 +1,7 @@
+Diffuse=T_Killer_Perception_indicator_Big_Noise
+Normal=DefaultNormal
+Opacity=T_Killer_Perception_indicator_Edge
+Other[0]=T_Killer_Perception_indicator_Big
+Other[1]=T_Radial_Lightning_Sphere
+Other[2]=Noise42
+Other[3]=DefaultTexture

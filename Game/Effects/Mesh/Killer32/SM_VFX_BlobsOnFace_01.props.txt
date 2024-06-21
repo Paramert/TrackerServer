@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/SlasherK32/M_K32_Mori_BlobOnFace_01.M_K32_Mori_BlobOnFace_01'
+    Materials[1] = Material3'/Game/Effects/Materials/SlasherK32/M_K32_Mori_BlobOnFace_Outline_01.M_K32_Mori_BlobOnFace_Outline_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/SlasherK32/M_K32_Mori_BlobOnFace_01.M_K32_Mori_BlobOnFace_01'
+        MaterialSlotName = lambert2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 25.3859, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/SlasherK32/M_K32_Mori_BlobOnFace_Outline_01.M_K32_Mori_BlobOnFace_Outline_01'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 18.2267, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.53674e-07, Y=-2.86102e-06, Z=4.11668 }
+    BoxExtent = { X=13.54, Y=13.54, Z=4.08267 }
+    SphereRadius = 14.1422
+}

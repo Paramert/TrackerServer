@@ -1,0 +1,339 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+    ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+    ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[27] =
+                {
+                    ParameterInfos[0] = { Name=018_FadeRadius }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=21_MossTileAmountY }
+                    ParameterInfos[3] = { Name=21_MetallicValue }
+                    ParameterInfos[4] = { Name=21_MossTileAmountX }
+                    ParameterInfos[5] = { Name=21_MossCurve }
+                    ParameterInfos[6] = { Name=21_RoughnessValue }
+                    ParameterInfos[7] = { Name=Metallic }
+                    ParameterInfos[8] = { Name=21_NormalFlatness }
+                    ParameterInfos[9] = { Name=MossMaskScaleXY }
+                    ParameterInfos[10] = { Name=Emissive_Scale }
+                    ParameterInfos[11] = { Name=Specular }
+                    ParameterInfos[12] = { Name=018_FadeRadiusDistance }
+                    ParameterInfos[13] = { Name=DistanceAtWhichOutlineIsAlwaysVisible }
+                    ParameterInfos[14] = { Name=Tile amount }
+                    ParameterInfos[15] = { Name=21_MossTileAmount }
+                    ParameterInfos[16] = { Name=21_MossHeight }
+                    ParameterInfos[17] = { Name=012_FlickerIntensity }
+                    ParameterInfos[18] = { Name=MossMaskScaleZ }
+                    ParameterInfos[19] = { Name=21_SpecularValue }
+                    ParameterInfos[20] = { Name=MossMaskPosZ }
+                    ParameterInfos[21] = { Name=21_GroundHeight }
+                    ParameterInfos[22] = { Name=MinimumOutlineDistance }
+                    ParameterInfos[23] = { Name=TilingAmount }
+                    ParameterInfos[24] = { Name=21_AOValue }
+                    ParameterInfos[25] = { Name=012_FlickerChaos }
+                    ParameterInfos[26] = { Name=CustomEmmisive }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Emmisive Color }
+                    ParameterInfos[1] = { Name=012_EmissiveValueR }
+                    ParameterInfos[2] = { Name=ColorTint_Fade }
+                    ParameterInfos[3] = { Name=ColorTintColourATL }
+                    ParameterInfos[4] = { Name=ColorTintColour }
+                    ParameterInfos[5] = { Name=OutlineColour }
+                    ParameterInfos[6] = { Name=21_MossColorTint }
+                    ParameterInfos[7] = { Name=012_EmissiveValueG }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=EmmisiveMask Texture }
+                    ParameterInfos[1] = { Name=012_FlickerMask }
+                    ParameterInfos[2] = { Name=21_MossORMTexture }
+                    ParameterInfos[3] = { Name=012_RhythmictasticallyOnOff }
+                    ParameterInfos[4] = { Name=MossMaskTexture }
+                    ParameterInfos[5] = { Name=BaseColor Texture }
+                    ParameterInfos[6] = { Name=21_MossNormalTexture }
+                    ParameterInfos[7] = { Name=012_EmissiveMask }
+                    ParameterInfos[8] = { Name=21_MossTexture }
+                    ParameterInfos[9] = { Name=Normal Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[27] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 2
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.2
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 4000
+            ScalarValues[13] = 7000
+            ScalarValues[14] = 3
+            ScalarValues[15] = 1
+            ScalarValues[16] = 30
+            ScalarValues[17] = 22
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0
+            ScalarValues[22] = 100
+            ScalarValues[23] = 1
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0
+            ScalarValues[26] = 0
+        }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=0 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=1, G=1, B=1, A=0 }
+            VectorValues[7] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[10] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[2] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[3] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[6] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[7] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[8] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+            TextureValues[9] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+        ReferencedTextures[8] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = EmmisiveMask Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = 012_FlickerMask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = 21_MossORMTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+        Name = 012_RhythmictasticallyOnOff
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+        Name = MossMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = BaseColor Texture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = 21_MossNormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = 012_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+        Name = 21_MossTexture
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = Normal Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[27] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=018_FadeRadius, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=21_MossTileAmountY, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=21_MetallicValue, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=21_MossTileAmountX, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=21_MossCurve, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=21_RoughnessValue, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=21_NormalFlatness, Group=None }
+    CollectedScalarParameters[9] = { Value=0.2, Name=MossMaskScaleXY, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Emissive_Scale, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Specular, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 4000
+        Name = 018_FadeRadiusDistance
+        Group = None
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 7000
+        Name = DistanceAtWhichOutlineIsAlwaysVisible
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=3, Name=Tile amount, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=21_MossTileAmount, Group=None }
+    CollectedScalarParameters[16] = { Value=30, Name=21_MossHeight, Group=None }
+    CollectedScalarParameters[17] = { Value=22, Name=012_FlickerIntensity, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=MossMaskScaleZ, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=21_SpecularValue, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=MossMaskPosZ, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=21_GroundHeight, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 100
+        Name = MinimumOutlineDistance
+        Group = None
+    }
+    CollectedScalarParameters[23] = { Value=1, Name=TilingAmount, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=21_AOValue, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=012_FlickerChaos, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=CustomEmmisive, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Emmisive Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = 012_EmissiveValueR
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint_Fade
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ColorTintColourATL
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ColorTintColour
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = OutlineColour
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 21_MossColorTint
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = 012_EmissiveValueG
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FlatNormal_01
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/ParticleSystems/NIAGARA_VFX/BLOOD/Blood_Materials/MI_Blood_Mesh_Vat_1.MI_Blood_Mesh_Vat_1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/ParticleSystems/NIAGARA_VFX/BLOOD/Blood_Materials/MI_Blood_Mesh_Vat_1.MI_Blood_Mesh_Vat_1'
+        MaterialSlotName = constant
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-111.151, Y=52.7214, Z=-46.9742 }
+    BoxExtent = { X=555.822, Y=606.068, Z=601.297 }
+    SphereRadius = 909.338
+}

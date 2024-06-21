@@ -1,0 +1,5 @@
+Diffuse=T_Large_Fire_Tile_01
+Normal=T_WaterNormal2
+Other[0]=NE_T_alpha_01
+Other[1]=T_NoiseNormal_01
+Other[2]=T_Soft_Smoke2

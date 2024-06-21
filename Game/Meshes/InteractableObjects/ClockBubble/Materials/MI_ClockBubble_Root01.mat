@@ -1,0 +1,17 @@
+Diffuse=T_ClockBubble_Root01_BC
+Normal=T_ClockBubble_Root01_N
+Other[0]=T_ClockBubble_Root01_M
+Other[1]=T_ClockBubble_Root01_R
+Other[2]=HeatmapGradient
+Other[3]=DefaultDiffuse
+Other[4]=FlatNormal
+Other[5]=T_FlatNormal_01
+Other[6]=environment_mud_diffuse
+Other[7]=environment_mud_N
+Other[8]=T_GS_FrontSign_Flickerama
+Other[9]=Black
+Other[10]=Green_Linear
+Other[11]=White
+Other[12]=Yellow_Linear
+Other[13]=Moss_diffuse
+Other[14]=T_CrawlingMoss_Mask_01

@@ -1,0 +1,316 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq_Low.Good64x64TilingNoiseHighFreq_Low'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    ReferencedTextures[6] = Texture2D'/Game/Textures/InteractableObjects/Animals/Crow/T_Crow_BC.T_Crow_BC'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/InteractableObjects/Animals/Crow/T_Crow_M.T_Crow_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=018_FadeRadius }
+                    ParameterInfos[1] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[2] = { Name=Atl_Roughness }
+                    ParameterInfos[3] = { Name=06_SpecularRoughAmount }
+                    ParameterInfos[4] = { Name=018_FadeRadiusDistance }
+                    ParameterInfos[5] = { Name=06_AOContrast }
+                    ParameterInfos[6] = { Name=Atl_Metallic }
+                    ParameterInfos[7] = { Name=DissolveAmount }
+                    ParameterInfos[8] = { Name=06_CustomSpecular }
+                    ParameterInfos[9] = { Name=06_(SW)UseTexCoord[1] }
+                    ParameterInfos[10] = { Name=NormalPower }
+                    ParameterInfos[11] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[12] = { Name=06_AOValue }
+                    ParameterInfos[13] = { Name=06_RoughnessContrast }
+                    ParameterInfos[14] = { Name=Atl_Specular }
+                    ParameterInfos[15] = { Name=06_RoughnessValue }
+                    ParameterInfos[16] = { Name=06_MetallicValue }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Atl_DiffuseTint }
+                    ParameterInfos[1] = { Name=ClipRegion10 }
+                    ParameterInfos[2] = { Name=ColorTint_Fade }
+                    ParameterInfos[3] = { Name=ClipRegion02 }
+                    ParameterInfos[4] = { Name=ClipRegion12 }
+                    ParameterInfos[5] = { Name=ClipRegion01 }
+                    ParameterInfos[6] = { Name=ClipRegion11 }
+                    ParameterInfos[7] = { Name=Emissive_Color }
+                    ParameterInfos[8] = { Name=CustomNormal }
+                    ParameterInfos[9] = { Name=ClipBoxExtents }
+                    ParameterInfos[10] = { Name=ClipBoxCenter }
+                    ParameterInfos[11] = { Name=ClipRegion00 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=diffuse }
+                    ParameterInfos[1] = { Name=Alpha Mask }
+                    ParameterInfos[2] = { Name=06_AOTexture }
+                    ParameterInfos[3] = { Name=06_MetallicTexture }
+                    ParameterInfos[4] = { Name=NormalTexture }
+                    ParameterInfos[5] = { Name=06_RoughnessTexture }
+                    ParameterInfos[6] = { Name=06_ORMTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 10
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 4000
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0
+        }
+        VectorValues[12] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=0, G=0, B=0, A=1e+07 }
+            VectorValues[7] = { R=0.807292, G=0.190764, B=0, A=1 }
+            VectorValues[8] = { R=0, G=0, B=1, A=1 }
+            VectorValues[9] = { R=200000, G=200000, B=200000, A=0 }
+            VectorValues[10] = { R=0, G=0, B=0, A=0 }
+            VectorValues[11] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/InteractableObjects/Animals/Crow/T_Crow_BC.T_Crow_BC'
+            TextureValues[1] = Texture2D'/Game/Textures/InteractableObjects/Animals/Crow/T_Crow_M.T_Crow_M'
+            TextureValues[2] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+            TextureValues[6] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/InteractableObjects/Animals/Crow/T_Crow_BC.T_Crow_BC'
+        ReferencedTextures[1] = Texture2D'/Game/Textures/InteractableObjects/Animals/Crow/T_Crow_M.T_Crow_M'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq_Low.Good64x64TilingNoiseHighFreq_Low'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/InteractableObjects/Animals/Crow/T_Crow_BC.T_Crow_BC'
+        Name = diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/InteractableObjects/Animals/Crow/T_Crow_M.T_Crow_M'
+        Name = Alpha Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = 06_AOTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = 06_MetallicTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = NormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+        Name = 06_RoughnessTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = 06_ORMTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=018_FadeRadius, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=06_SpecularRoughAmount, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 4000
+        Name = 018_FadeRadiusDistance
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0, Name=06_AOContrast, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=DissolveAmount, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=06_CustomSpecular, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=06_(SW)UseTexCoord[1], Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=NormalPower, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=06_AOValue, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=06_RoughnessContrast, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=06_RoughnessValue, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=06_MetallicValue, Group=None }
+}
+CollectedVectorParameters[12] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion10
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint_Fade
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipRegion02
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion12
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipRegion01
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=1e+07 }
+        Name = ClipRegion11
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.807292, G=0.190764, B=0, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = CustomNormal
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=200000, G=200000, B=200000, A=0 }
+        Name = ClipBoxExtents
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipBoxCenter
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ClipRegion00
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Crow_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Crow_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Fire_SmokeWisps_Tile_Dup
+    }
+}

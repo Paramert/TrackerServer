@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Lamp01.MI_Qat_Lamp01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Lamp01.MI_Qat_Lamp01'
+        MaterialSlotName = MI_Qat_Lamp01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 129.218, 76.5178, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=16.3324, Y=0, Z=-26.821 }
+    BoxExtent = { X=16.3324, Y=9.86111, Z=26.821 }
+    SphereRadius = 31.4253
+}

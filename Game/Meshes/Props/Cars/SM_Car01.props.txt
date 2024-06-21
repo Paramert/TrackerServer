@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Car01.MI_Car01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Car01_Windows.MI_Car01_Windows'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Car01.MI_Car01'
+        MaterialSlotName = MI_Car01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 494.998, 923.807, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Car01_Windows.MI_Car01_Windows'
+        MaterialSlotName = MI_Car01_Windows
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.639, 928.971, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-71.8151, Z=81.8653 }
+    BoxExtent = { X=102.598, Y=267.27, Z=68.0411 }
+    SphereRadius = 279.577
+}

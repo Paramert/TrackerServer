@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_MotorOilGun_04.MI_COM_MotorOilGun_04'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_MotorOilGun_04.MI_COM_MotorOilGun_04'
+        MaterialSlotName = MI_COM_MotorOilGun_04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 61.3508, 67.1434, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=40.3959, Y=4.06749, Z=18.2762 }
+    BoxExtent = { X=9.52844, Y=17.5881, Z=18.2675 }
+    SphereRadius = 25.1866
+}

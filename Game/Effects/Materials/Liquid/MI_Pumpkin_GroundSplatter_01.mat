@@ -1,0 +1,6 @@
+Diffuse=Grey
+Normal=T_Mud_N
+Other[0]=T_Liquid_SubUV_2x2_01
+Other[1]=T_Liquid_Clip_A
+Other[2]=T_Mud
+Other[3]=T_Noise_N_02

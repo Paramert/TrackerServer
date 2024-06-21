@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_BathroomCeiling01.MI_Hos_BathroomCeiling01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_CeilingWin_Metal01.MI_HOS_CeilingWin_Metal01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_CeilingPanal01.MI_HOS_CeilingPanal01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_SR_Central_Module03.MI_HOS_SR_Central_Module03'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_WinSnow01.MI_HOS_WinSnow01'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_BathroomCeiling01.MI_Hos_BathroomCeiling01'
+        MaterialSlotName = MI_Hos_BathroomCeiling01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 532.318, 3727.56, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_CeilingWin_Metal01.MI_HOS_CeilingWin_Metal01'
+        MaterialSlotName = MI_HOS_CeilingWin_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 692.614, 3744.39, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_CeilingPanal01.MI_HOS_CeilingPanal01'
+        MaterialSlotName = MI_HOS_CeilingPanal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 260.951, 3828.46, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_SR_Central_Module03.MI_HOS_SR_Central_Module03'
+        MaterialSlotName = MI_HOS_SR_Central_Module03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 96.1928, 3850.8, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_WinSnow01.MI_HOS_WinSnow01'
+        MaterialSlotName = MI_HOS_WinSnow01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 578.669, 3756.06, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=13.4525, Y=0, Z=628.803 }
+    BoxExtent = { X=1259.37, Y=230.152, Z=142.037 }
+    SphereRadius = 1260.96
+}

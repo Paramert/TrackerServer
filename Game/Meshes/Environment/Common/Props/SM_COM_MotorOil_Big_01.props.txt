@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_MotorOil_Big_01.MI_COM_MotorOil_Big_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/MI_COM_MotorOil_Big_01.MI_COM_MotorOil_Big_01'
+        MaterialSlotName = MI_COM_MotorOil_Big_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 93.827, 128.264, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=21.8679 }
+    BoxExtent = { X=17.1477, Y=17.1477, Z=21.8679 }
+    SphereRadius = 27.5052
+}

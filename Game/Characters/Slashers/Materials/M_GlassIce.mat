@@ -1,0 +1,10 @@
+Diffuse=T_DissolveTextures
+Normal=FlatNormal
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=DefaultTexture
+Other[2]=T_FX_DissolveRamp
+Other[3]=T_Veins2_N
+Other[4]=Black
+Other[5]=Green_Linear
+Other[6]=White
+Other[7]=T_Lobby_HDR

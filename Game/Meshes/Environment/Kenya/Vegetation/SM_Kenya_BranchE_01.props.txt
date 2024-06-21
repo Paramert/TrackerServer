@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_TreebarkA_01.MI_Kenya_TreebarkA_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_TreebarkA_01.MI_Kenya_TreebarkA_01'
+        MaterialSlotName = MI_Kenya_TreebarkA_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 72.8506, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=49.5529, Y=-2.70588, Z=70.2993 }
+    BoxExtent = { X=51.4106, Y=6.22193, Z=72.9974 }
+    SphereRadius = 88.443
+}

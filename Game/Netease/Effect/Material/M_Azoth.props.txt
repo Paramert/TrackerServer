@@ -1,0 +1,82 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/Effect/Texture/T_ShardNormal.T_ShardNormal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Fresnel Exponenth }
+                    ParameterInfos[1] = { Name=BaseReflect }
+                    ParameterInfos[2] = { Name=HLAdd }
+                    ParameterInfos[3] = { Name=NormalTextureSize }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=ShardColor }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 2.5, 0.05, 1, 4.5 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/Effect/Texture/T_ShardNormal.T_ShardNormal'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=2.5, Name=Fresnel Exponenth, Group=None }
+    CollectedScalarParameters[1] = { Value=0.05, Name=BaseReflect, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=HLAdd, Group=None }
+    CollectedScalarParameters[3] = { Value=4.5, Name=NormalTextureSize, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ShardColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4.5
+        UVChannelIndex = 0
+        TextureName = T_ShardNormal
+    }
+}

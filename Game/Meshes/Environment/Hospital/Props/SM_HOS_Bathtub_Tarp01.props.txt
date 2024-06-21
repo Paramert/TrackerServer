@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_StallWallTarp01.MI_HOS_StallWallTarp01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_StallWallTarp01.MI_HOS_StallWallTarp01'
+        MaterialSlotName = MI_HOS_StallWallTarp01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 89.7808, 200.888, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-38.5529, Y=-29.4394, Z=52.3095 }
+    BoxExtent = { X=45.9656, Y=58.7147, Z=52.1581 }
+    SphereRadius = 77.0509
+}

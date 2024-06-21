@@ -1,0 +1,6 @@
+Diffuse=SK_Door_01_D
+Normal=SK_Door_03_N
+Other[0]=SK_Door_01_M
+Other[1]=SK_Door_01_E
+Other[2]=SK_Door_01_N
+Other[3]=RTCube_Blood01_Tex

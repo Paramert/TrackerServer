@@ -1,0 +1,6 @@
+Diffuse=T_Flies
+Emissive=T_Flies
+Other[0]=White
+Other[1]=Fx_radialGradient
+Other[2]=T_TilingNoise03
+Other[3]=Black

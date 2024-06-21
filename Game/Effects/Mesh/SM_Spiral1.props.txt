@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/Mi_NiaMeshSmoke1.Mi_NiaMeshSmoke1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/Mi_NiaMeshSmoke1.Mi_NiaMeshSmoke1'
+        MaterialSlotName = lambert2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 427.853, 435.056, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.93866, Y=-2.55394, Z=84.2003 }
+    BoxExtent = { X=160.141, Y=156.29, Z=200.854 }
+    SphereRadius = 236.108
+}

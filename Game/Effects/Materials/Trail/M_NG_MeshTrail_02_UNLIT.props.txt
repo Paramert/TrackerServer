@@ -1,0 +1,323 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_RGBclouds_map_01.T_RGBclouds_map_01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_TrailLine_var_01.T_TrailLine_var_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[28] =
+                {
+                    ParameterInfos[0] = { Name=Reflection_Softness }
+                    ParameterInfos[1] = { Name=Trail SidesMask Opacity Int }
+                    ParameterInfos[2] = { Name=Opacity_Reflection }
+                    ParameterInfos[3] = { Name=Emissive_Boost }
+                    ParameterInfos[4] = { Name=ShowSlash }
+                    ParameterInfos[5] = { Name=Trail_Lenght_01 }
+                    ParameterInfos[6] = { Name=Erode_CoreLineMask }
+                    ParameterInfos[7] = { Name=DistortionContrastLvl }
+                    ParameterInfos[8] = { Name=Erode_SideMask }
+                    ParameterInfos[9] = { Name=Opacity_CoreLine }
+                    ParameterInfos[10] = { Name=Trail SidesMask Cutout Int }
+                    ParameterInfos[11] = { Name=ShowSlashGradient }
+                    ParameterInfos[12] = { Name=Erode_Distortion_Texture }
+                    ParameterInfos[13] = { Name=Trail_Contrast }
+                    ParameterInfos[14] = { Name=PowerLerpingMask }
+                    ParameterInfos[15] = { Name=HideSlashGradient }
+                    ParameterInfos[16] = { Name=Trail End Cutout Int }
+                    ParameterInfos[17] = { Name=Desaturate }
+                    ParameterInfos[18] = { Name=U }
+                    ParameterInfos[19] = { Name=Contrast_Reflection }
+                    ParameterInfos[20] = { Name=Trail_Blending }
+                    ParameterInfos[21] = { Name=Gradient_Lerp_Trail }
+                    ParameterInfos[22] = { Name=DistortionLvl }
+                    ParameterInfos[23] = { Name=V }
+                    ParameterInfos[24] = { Name=Opacity }
+                    ParameterInfos[25] = { Name=HideSlash }
+                    ParameterInfos[26] = { Name=Distance }
+                    ParameterInfos[27] = { Name=Trail_Lenght_02 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Trail Reflection }
+                    ParameterInfos[1] = { Name=Distortion_speed }
+                    ParameterInfos[2] = { Name=Distortion Mask Color Level }
+                    ParameterInfos[3] = { Name=Color_Trail_Top }
+                    ParameterInfos[4] = { Name=Color_CoreLine }
+                    ParameterInfos[5] = { Name=Color_Trail_Bot }
+                    ParameterInfos[6] = { Name=NoiseMask_speed }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Base_Texture }
+                    ParameterInfos[1] = { Name=Reflection Map }
+                    ParameterInfos[2] = { Name=Distortion_Texture }
+                    ParameterInfos[3] = { Name=NoiseMask_Texture }
+                    ParameterInfos[4] = { Name=Side_Mask_Texture }
+                    ParameterInfos[5] = { Name=T_lerpingMask }
+                    ParameterInfos[6] = { Name=CoreLine_Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[28] =
+        {
+            ScalarValues[0] = 5
+            ScalarValues[1] = 1
+            ScalarValues[2] = 4
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1.5
+            ScalarValues[6] = 1
+            ScalarValues[7] = 2
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 3.96037
+            ScalarValues[11] = 15
+            ScalarValues[12] = 1
+            ScalarValues[13] = 7.5
+            ScalarValues[14] = 2
+            ScalarValues[15] = 15
+            ScalarValues[16] = 3.96037
+            ScalarValues[17] = 0
+            ScalarValues[18] = 1
+            ScalarValues[19] = 2
+            ScalarValues[20] = 1.5
+            ScalarValues[21] = 4
+            ScalarValues[22] = 0.05
+            ScalarValues[23] = 0.5
+            ScalarValues[24] = 1
+            ScalarValues[25] = 1
+            ScalarValues[26] = 15
+            ScalarValues[27] = 1.5
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=1, G=0.78, B=0.78, A=1 }
+            VectorValues[1] = { R=0, G=-0.1, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0.140625, G=0.12817, B=0.123923, A=1 }
+            VectorValues[4] = { R=0.140625, G=0.12817, B=0.123923, A=1 }
+            VectorValues[5] = { R=0.140625, G=0.12817, B=0.123923, A=1 }
+            VectorValues[6] = { R=0, G=-0.1, B=0, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_RGBclouds_map_01.T_RGBclouds_map_01'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/T_TrailLine_var_01.T_TrailLine_var_01'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_TrailLine_var_01.T_TrailLine_var_01'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_TrailLine_var_01.T_TrailLine_var_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_RGBclouds_map_01.T_RGBclouds_map_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+        Name = Base_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        Name = Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+        Name = Distortion_Texture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_RGBclouds_map_01.T_RGBclouds_map_01'
+        Name = NoiseMask_Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TrailLine_var_01.T_TrailLine_var_01'
+        Name = Side_Mask_Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+        Name = T_lerpingMask
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TrailLine_var_01.T_TrailLine_var_01'
+        Name = CoreLine_Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[28] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=Reflection_Softness, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = Trail SidesMask Opacity Int
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=4, Name=Opacity_Reflection, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Emissive_Boost, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=ShowSlash, Group=None }
+    CollectedScalarParameters[5] = { Value=1.5, Name=Trail_Lenght_01, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Erode_CoreLineMask, Group=None }
+    CollectedScalarParameters[7] = { Value=2, Name=DistortionContrastLvl, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Erode_SideMask, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Opacity_CoreLine, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 3.96037
+        Name = Trail SidesMask Cutout Int
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=15, Name=ShowSlashGradient, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1
+        Name = Erode_Distortion_Texture
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=7.5, Name=Trail_Contrast, Group=None }
+    CollectedScalarParameters[14] = { Value=2, Name=PowerLerpingMask, Group=None }
+    CollectedScalarParameters[15] = { Value=15, Name=HideSlashGradient, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 3.96037
+        Name = Trail End Cutout Int
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=0, Name=Desaturate, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=U, Group=None }
+    CollectedScalarParameters[19] = { Value=2, Name=Contrast_Reflection, Group=None }
+    CollectedScalarParameters[20] = { Value=1.5, Name=Trail_Blending, Group=None }
+    CollectedScalarParameters[21] = { Value=4, Name=Gradient_Lerp_Trail, Group=None }
+    CollectedScalarParameters[22] = { Value=0.05, Name=DistortionLvl, Group=None }
+    CollectedScalarParameters[23] = { Value=0.5, Name=V, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=HideSlash, Group=None }
+    CollectedScalarParameters[26] = { Value=15, Name=Distance, Group=None }
+    CollectedScalarParameters[27] = { Value=1.5, Name=Trail_Lenght_02, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.78, B=0.78, A=1 }
+        Name = Trail Reflection
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=-0.1, B=0, A=1 }
+        Name = Distortion_speed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Distortion Mask Color Level
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.140625, G=0.12817, B=0.123923, A=1 }
+        Name = Color_Trail_Top
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.140625, G=0.12817, B=0.123923, A=1 }
+        Name = Color_CoreLine
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.140625, G=0.12817, B=0.123923, A=1 }
+        Name = Color_Trail_Bot
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=-0.1, B=0, A=1 }
+        Name = NoiseMask_speed
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FX_Gradient_Footsteps
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = T_RGBclouds_map_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.974609
+        UVChannelIndex = 0
+        TextureName = T_Smoke_Soft_Tile
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_spume_01
+    }
+}

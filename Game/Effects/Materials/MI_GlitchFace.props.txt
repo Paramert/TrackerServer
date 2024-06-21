@@ -1,0 +1,126 @@
+Parent = Material3'/Game/Effects/Materials/M_Glitch_Face.M_Glitch_Face'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DistortIntensity }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=DistortNoiseScale }
+        ParameterValue = 0.001
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=DistortSpeedX }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=DistortSpeedY }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=DoDistortion }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Enable DoctorFace }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_LightRays02.T_LightRays02'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Fx_grassBlades.Fx_grassBlades'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/Fx_radialGradientInverse.Fx_radialGradientInverse'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Vegetations/T_Normal_Noise.T_Normal_Noise'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_Killer07Screen03.T_Killer07Screen03'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[6] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.046875
+        UVChannelIndex = 0
+        TextureName = Fx_grassBlades
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 7
+        UVChannelIndex = 0
+        TextureName = T_DustParticles
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Fire_SmokeWisps_Tile_Dup
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_FSbloodmist
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 0.99884
+        UVChannelIndex = 0
+        TextureName = T_Killer07Screen03
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_LightRays02
+    }
+}

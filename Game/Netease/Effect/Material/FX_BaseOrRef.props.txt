@@ -1,0 +1,143 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Netease/Effect/Texture/T_GLow_002.T_GLow_002'
+    ReferencedTextures[1] = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+    ReferencedTextures[2] = Texture2D'/Game/Netease/Effect/Texture/txt_fx_underwater_distortion_bubble.txt_fx_underwater_distortion_bubble'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Diff_ColorPower }
+                    ParameterInfos[1] = { Name=Ref_Lerp_A }
+                    ParameterInfos[2] = { Name=Depth_Fade }
+                    ParameterInfos[3] = { Name=Diff_AlphaPower }
+                    ParameterInfos[4] = { Name=Ref_Alpha_TexSub }
+                    ParameterInfos[5] = { Name=Ref_Lerp_B }
+                    ParameterInfos[6] = { Name=DiffRot }
+                    ParameterInfos[7] = { Name=Normal_Int }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Diff_Alpha }
+                    ParameterInfos[1] = { Name=Diff_EmissColor }
+                    ParameterInfos[2] = { Name=Normal_TexUVS }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Diff_Tex }
+                    ParameterInfos[1] = { Name=Normal_Tex }
+                    ParameterInfos[2] = { Name=Ref_Alpha_Tex_R }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 1, 1, 100, 1, 0, 1.05, 0, 0 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Netease/Effect/Texture/T_GLow_002.T_GLow_002'
+            TextureValues[1] = Texture2D'/Game/Netease/Effect/Texture/txt_fx_underwater_distortion_bubble.txt_fx_underwater_distortion_bubble'
+            TextureValues[2] = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/Effect/Texture/T_GLow_002.T_GLow_002'
+        ReferencedTextures[1] = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+        ReferencedTextures[2] = Texture2D'/Game/Netease/Effect/Texture/txt_fx_underwater_distortion_bubble.txt_fx_underwater_distortion_bubble'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Netease/Effect/Texture/T_GLow_002.T_GLow_002'
+        Name = Diff_Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Netease/Effect/Texture/txt_fx_underwater_distortion_bubble.txt_fx_underwater_distortion_bubble'
+        Name = Normal_Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Netease/Effect/Texture/T_Mask_003.T_Mask_003'
+        Name = Ref_Alpha_Tex_R
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Diff_ColorPower, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Ref_Lerp_A, Group=None }
+    CollectedScalarParameters[2] = { Value=100, Name=Depth_Fade, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Diff_AlphaPower, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Ref_Alpha_TexSub, Group=None }
+    CollectedScalarParameters[5] = { Value=1.05, Name=Ref_Lerp_B, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=DiffRot, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Normal_Int, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Diff_Alpha
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Diff_EmissColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Normal_TexUVS
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GLow_002
+    }
+}

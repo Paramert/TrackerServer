@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK32/MI_VAT_Soft_K32_Blobs_01.MI_VAT_Soft_K32_Blobs_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK32/MI_VAT_Soft_K32_Blobs_01.MI_VAT_Soft_K32_Blobs_01'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 558.149, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.5, Z=-0.0499954 }
+    BoxExtent = { X=120, Y=128.5, Z=120.05 }
+    SphereRadius = 212.895
+}

@@ -1,0 +1,13 @@
+Diffuse=T_DiffuseWithAlpha_Default
+Normal=T_NormalMap_Default
+Opacity=T_RgbMaskWithAlpha_Default
+Other[0]=T_MRH_Default
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=T_FlatNormal_01
+Other[4]=T_Noise02
+Other[5]=T_NoiseNormal_01
+Other[6]=T_SmokeTile
+Other[7]=T_ConcreteGround_NM
+Other[8]=Black
+Other[9]=White

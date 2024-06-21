@@ -1,0 +1,130 @@
+Parent = Material3'/Game/Netease/UI/UMGAssets/VX/Material/M_UI_LiteGame_MainPape_Flame.M_UI_LiteGame_MainPape_Flame'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Lightflow_1 }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_FX_Tile_0154.T_FX_Tile_0154'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Lightflow_2 }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_FX_Tile_0159.T_FX_Tile_0159'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Lightflow_3 }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_FX_Tile_0145.T_FX_Tile_0145'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=MainUI }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_NE_UI_LiteGame_MainPape_Flame_11.T_NE_UI_LiteGame_MainPape_Flame_11'
+        ParameterName = None
+    }
+}
+VectorParameterValues[6] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=1 }
+        ParameterValue = { R=10, G=10, B=0.05, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=DP_LightFlow_2 }
+        ParameterValue = { R=4, G=6, B=-0.05, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=DP_LightFlow_3 }
+        ParameterValue = { R=2, G=3, B=0.1, A=-0.02 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=5, G=0.654444, B=0, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=PM1 }
+        ParameterValue = { R=1, G=5, B=20, A=20 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=PM2 }
+        ParameterValue = { R=20, G=0.2, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=Time }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[3] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_NE_UI_LiteGame_MainPape_Flame_11.T_NE_UI_LiteGame_MainPape_Flame_11'
+    CachedReferencedTextures[1] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Nois_09_GL.T_Nois_09_GL'
+    CachedReferencedTextures[2] = Texture2D'/Game/Netease/UI/UMGAssets/VX/Texture/T_Noise205.T_Noise205'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_FX_Tile_0145
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 10
+        UVChannelIndex = 0
+        TextureName = T_FX_Tile_0154
+    }
+}

@@ -1,0 +1,12 @@
+Diffuse=Moss_diffuse
+Normal=SphereNormal
+Other[0]=T_BurnedAsh
+Other[1]=T_BurnedEmbers
+Other[2]=T_BurnLUT
+Other[3]=T_Noise01
+Other[4]=T_Asylum_Concrete02_BC_normal
+Other[5]=T_AsylumPlasterMask
+Other[6]=Black
+Other[7]=Black_Linear
+Other[8]=Green_Linear
+Other[9]=White

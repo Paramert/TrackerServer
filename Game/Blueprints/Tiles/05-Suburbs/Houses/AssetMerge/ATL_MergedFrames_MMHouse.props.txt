@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Blueprints/Tiles/05-Suburbs/Houses/AssetMerge/M_ATL_MergedFrames_MMHouse.M_ATL_MergedFrames_MMHouse'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Blueprints/Tiles/05-Suburbs/Houses/AssetMerge/M_ATL_MergedFrames_MMHouse.M_ATL_MergedFrames_MMHouse'
+        MaterialSlotName = M_ATL_MergedFrames_MMHouse
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 521.651, 743.222, 552.334, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=378.72, Y=21.7227, Z=49.0282 }
+    BoxExtent = { X=382.641, Y=237.472, Z=234.266 }
+    SphereRadius = 484.48
+}

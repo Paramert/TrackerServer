@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Sb_AltHouse_Wood01.MI_Sb_AltHouse_Wood01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Asylum/MI_Asylum_BurnMetal01.MI_Asylum_BurnMetal01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_ChairMetal01.MI_ChairMetal01'
+    Materials[3] = Material3'/Game/Materials/lambert1.lambert1'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Sb_AltHouse_Wood01.MI_Sb_AltHouse_Wood01'
+        MaterialSlotName = MI_Sb_AltHouse_Wood01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 430.371, 712.887, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Asylum/MI_Asylum_BurnMetal01.MI_Asylum_BurnMetal01'
+        MaterialSlotName = MI_Asylum_BurnMetal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 303.784, 707.84, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_ChairMetal01.MI_ChairMetal01'
+        MaterialSlotName = MI_ChairMetal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 12.1465, 649.023, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Materials/lambert1.lambert1'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.743698, Z=204.351 }
+    BoxExtent = { X=114.878, Y=228.401, Z=205.48 }
+    SphereRadius = 314.299
+}

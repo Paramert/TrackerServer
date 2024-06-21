@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Haiti/MI_Haiti_BambooTree01.MI_Haiti_BambooTree01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Haiti/MI_Haiti_BambooTree01.MI_Haiti_BambooTree01'
+        MaterialSlotName = MI_Haiti_BambooTree01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 654.684, 175.378, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.62103, Y=-3.68432, Z=399.829 }
+    BoxExtent = { X=16.4472, Y=10.7671, Z=401.023 }
+    SphereRadius = 401.316
+}

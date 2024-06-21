@@ -1,0 +1,7 @@
+Diffuse=T_BEWS01_BC
+Normal=T_NoiseNormal_01
+SpecPower=T_BEWS01_S
+Other[0]=T_BEWS01_N
+Other[1]=T_BEWS01_ORM
+Other[2]=T_HKW01_ORM
+Other[3]=Black

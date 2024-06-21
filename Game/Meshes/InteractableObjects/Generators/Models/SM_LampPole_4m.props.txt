@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Generators/Materials/MI_Generator_Body02.MI_Generator_Body02'
+    Materials[1] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Generators/Materials/MI_Generator_Body01.MI_Generator_Body01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Generators/Materials/MI_Generator_Body02.MI_Generator_Body02'
+        MaterialSlotName = MI_Generator_Body02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 192.955, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Generators/Materials/MI_Generator_Body01.MI_Generator_Body01'
+        MaterialSlotName = MI_Generator_Trans01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 386.775, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.05031, Y=-69.7798, Z=233.394 }
+    BoxExtent = { X=65.9408, Y=37.206, Z=109.416 }
+    SphereRadius = 122.36
+}

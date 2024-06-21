@@ -1,0 +1,7 @@
+Normal=T_Trap_N
+Other[0]=T_Mud_Noise
+Other[1]=T_Trap01
+Other[2]=T_Trap02
+Other[3]=T_Trap03
+Other[4]=T_TrapLUT
+Other[5]=T_Water_N

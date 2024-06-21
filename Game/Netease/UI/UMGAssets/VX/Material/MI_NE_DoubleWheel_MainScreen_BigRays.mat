@@ -1,0 +1,5 @@
+Diffuse=T_EN_Fire_Tiled_D
+Normal=DefaultNormal
+Opacity=T_Mask_06_GL
+Other[0]=NE_T_WaterNormal_LyTc_001
+Other[1]=DefaultTexture

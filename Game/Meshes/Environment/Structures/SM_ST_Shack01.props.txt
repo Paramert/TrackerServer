@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_MetalPlates01_Shack.MI_MetalPlates01_Shack'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_ShackPlate01.MI_ShackPlate01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DriftWoodPlank01_Shack.MI_DriftWoodPlank01_Shack'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances_Lod3/MI_ST_Shack01_LOD3.MI_ST_Shack01_LOD3'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DriftWoodPlank01_Shack_Atl.MI_DriftWoodPlank01_Shack_Atl'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_MetalPlates01_Shack.MI_MetalPlates01_Shack'
+        MaterialSlotName = MI_MetalPlates01_Shack
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 685.637, 1412.72, 2712.79, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_ShackPlate01.MI_ShackPlate01'
+        MaterialSlotName = MI_ShackPlate01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 387.261, 2552.24, 2697.93, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DriftWoodPlank01_Shack.MI_DriftWoodPlank01_Shack'
+        MaterialSlotName = MI_DriftWoodPlank01_Shack
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances_Lod3/MI_ST_Shack01_LOD3.MI_ST_Shack01_LOD3'
+        MaterialSlotName = MI_ST_Shack01_LOD3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DriftWoodPlank01_Shack_Atl.MI_DriftWoodPlank01_Shack_Atl'
+        MaterialSlotName = MI_DriftWoodPlank01_Shack_Atl
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 110.473, 4242.8, 2698.79, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-26.3409, Y=70.0295, Z=508.803 }
+    BoxExtent = { X=500.046, Y=512.337, Z=42.4162 }
+    SphereRadius = 713.042
+}

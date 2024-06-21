@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_TireStacks.MI_TireStacks'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances_Lod3/MI_TireStacks01_LOD3.MI_TireStacks01_LOD3'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_TireStacks.MI_TireStacks'
+        MaterialSlotName = MI_TireStacks
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 421.759, 422.038, 371.447, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances_Lod3/MI_TireStacks01_LOD3.MI_TireStacks01_LOD3'
+        MaterialSlotName = MI_TireStacks01_LOD3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.04735, Y=0.922073, Z=66.8832 }
+    BoxExtent = { X=49.3402, Y=49.8436, Z=67.6603 }
+    SphereRadius = 81.9101
+}

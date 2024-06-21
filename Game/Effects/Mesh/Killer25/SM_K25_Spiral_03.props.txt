@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/Trail/MI_NG_MeshTrail_05.MI_NG_MeshTrail_05'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/Trail/MI_NG_MeshTrail_05.MI_NG_MeshTrail_05'
+        MaterialSlotName = M_Mesh_Trail_Smoke
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 69.042, 190.05, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-116.52, Y=-9.88581, Z=-76.4363 }
+    BoxExtent = { X=162.322, Y=36.0363, Z=82.0271 }
+    SphereRadius = 182.468
+}

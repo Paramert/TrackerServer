@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/InteractableObjects/SpecialEvents/partygame/MI_HAD_PavementSideWalkDmg_A_2.MI_HAD_PavementSideWalkDmg_A_2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/InteractableObjects/SpecialEvents/partygame/MI_HAD_PavementSideWalkDmg_A_2.MI_HAD_PavementSideWalkDmg_A_2'
+        MaterialSlotName = MI_HAD_PavementSideWalkDmg_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 200.687, 208.368, 187.727, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-74.5547, Y=100.183, Z=3.09424 }
+    BoxExtent = { X=74.5547, Y=100.183, Z=3.09424 }
+    SphereRadius = 124.917
+}

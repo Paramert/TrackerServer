@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_VendingMachine_Neon01.MI_VendingMachine_Neon01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_VendingMachine_Neon01.MI_VendingMachine_Neon01'
+        MaterialSlotName = MI_VendingMachine_Neon01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 403.032, 488.147, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.160309, Y=5.38763, Z=108.211 }
+    BoxExtent = { X=68.4913, Y=55.5985, Z=108.223 }
+    SphereRadius = 139.539
+}

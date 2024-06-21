@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MilitaryBarrel01.MI_Qat_MilitaryBarrel01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MilitaryBarrel01.MI_Qat_MilitaryBarrel01'
+        MaterialSlotName = MI_Qat_MilitaryBarrel01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 279.602, 279.602, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.8147e-06, Y=-0.894577, Z=65.975 }
+    BoxExtent = { X=50.6465, Y=51.5411, Z=65.9751 }
+    SphereRadius = 82.6946
+}

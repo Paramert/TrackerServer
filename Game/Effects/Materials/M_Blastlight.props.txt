@@ -1,0 +1,96 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Fxt_verticalGradient.Fxt_verticalGradient'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_LightRays01.T_LightRays01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Intensity }
+                    ParameterInfos[1] = { Name=Smoke_TillingV }
+                    ParameterInfos[2] = { Name=Smoke_TillingU }
+                    ParameterInfos[3] = { Name=FadeExponent }
+                    ParameterInfos[4] = { Name=Details_TillingV }
+                    ParameterInfos[5] = { Name=Details_TillingU }
+                    ParameterInfos[6] = { Name=Smoke_Opacity }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Smoke }
+                    ParameterInfos[1] = { Name=Details }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0.001, 0.1, 1, 10, 0.1, 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_LightRays01.T_LightRays01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Fxt_verticalGradient.Fxt_verticalGradient'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        Name = Smoke
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+        Name = Details
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0.001, Name=Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=Smoke_TillingV, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Smoke_TillingU, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=FadeExponent, Group=None }
+    CollectedScalarParameters[4] = { Value=0.1, Name=Details_TillingV, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Details_TillingU, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Smoke_Opacity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

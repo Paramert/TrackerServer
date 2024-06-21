@@ -1,0 +1,133 @@
+Skeleton = Skeleton'/Game/Characters/Campers/Kenya/Models/Heads/ACC/Skeletons/KS_Hair_ACC01_REF_Skeleton.KS_Hair_ACC01_REF_Skeleton'
+bHasVertexColors = false
+bComputeNormalsToUVs = false
+bVertexCurvature = false
+bBuildVertexCurvature = false
+LODInfo[4] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[18] =
+        {
+            BonesToRemove[0] = { BoneName=joint_Hair_L1_01 }
+            BonesToRemove[1] = { BoneName=joint_Hair_L1_02 }
+            BonesToRemove[2] = { BoneName=joint_Hair_L1_03 }
+            BonesToRemove[3] = { BoneName=joint_NoseMain_01 }
+            BonesToRemove[4] = { BoneName=joint_NoseSideLT_01 }
+            BonesToRemove[5] = { BoneName=joint_NoseSideRT_01 }
+            BonesToRemove[6] = { BoneName=joint_CheekLT_01 }
+            BonesToRemove[7] = { BoneName=joint_CheekRT_01 }
+            BonesToRemove[8] = { BoneName=joint_DimpleLT_01 }
+            BonesToRemove[9] = { BoneName=joint_DimpleRT_01 }
+            BonesToRemove[10] = { BoneName=joint_LipLowerRT_01 }
+            BonesToRemove[11] = { BoneName=joint_LipLower_01 }
+            BonesToRemove[12] = { BoneName=joint_LipLowerLT_01 }
+            BonesToRemove[13] = { BoneName=joint_LipCornerLT_01 }
+            BonesToRemove[14] = { BoneName=joint_LipCornerRT_01 }
+            BonesToRemove[15] = { BoneName=joint_LipUpperLT_01 }
+            BonesToRemove[16] = { BoneName=joint_LipUpperRT_01 }
+            BonesToRemove[17] = { BoneName=joint_LipUpper_01 }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[2] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[22] =
+        {
+            BonesToRemove[0] = { BoneName=joint_Hair_L1_01 }
+            BonesToRemove[1] = { BoneName=joint_Hair_L1_02 }
+            BonesToRemove[2] = { BoneName=joint_Hair_L1_03 }
+            BonesToRemove[3] = { BoneName=joint_Hair_L2_01 }
+            BonesToRemove[4] = { BoneName=joint_Hair_L2_02 }
+            BonesToRemove[5] = { BoneName=joint_Hair_L2_03 }
+            BonesToRemove[6] = { BoneName=joint_Hair_L2_04 }
+            BonesToRemove[7] = { BoneName=joint_Hair_L2_05 }
+            BonesToRemove[8] = { BoneName=joint_Hair_L2_06 }
+            BonesToRemove[9] = { BoneName=joint_NoseMain_01 }
+            BonesToRemove[10] = { BoneName=joint_NoseSideLT_01 }
+            BonesToRemove[11] = { BoneName=joint_NoseSideRT_01 }
+            BonesToRemove[12] = { BoneName=joint_CheekLT_01 }
+            BonesToRemove[13] = { BoneName=joint_CheekRT_01 }
+            BonesToRemove[14] = { BoneName=joint_DimpleLT_01 }
+            BonesToRemove[15] = { BoneName=joint_DimpleRT_01 }
+            BonesToRemove[16] = { BoneName=joint_Jaw_01 }
+            BonesToRemove[17] = { BoneName=joint_LipCornerLT_01 }
+            BonesToRemove[18] = { BoneName=joint_LipCornerRT_01 }
+            BonesToRemove[19] = { BoneName=joint_LipUpperLT_01 }
+            BonesToRemove[20] = { BoneName=joint_LipUpperRT_01 }
+            BonesToRemove[21] = { BoneName=joint_LipUpper_01 }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[3] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[25] =
+        {
+            BonesToRemove[0] = { BoneName=joint_Hair_L1_01 }
+            BonesToRemove[1] = { BoneName=joint_Hair_L1_02 }
+            BonesToRemove[2] = { BoneName=joint_Hair_L1_03 }
+            BonesToRemove[3] = { BoneName=joint_Hair_L2_01 }
+            BonesToRemove[4] = { BoneName=joint_Hair_L2_02 }
+            BonesToRemove[5] = { BoneName=joint_Hair_L2_03 }
+            BonesToRemove[6] = { BoneName=joint_Hair_L2_04 }
+            BonesToRemove[7] = { BoneName=joint_Hair_L2_05 }
+            BonesToRemove[8] = { BoneName=joint_Hair_L2_06 }
+            BonesToRemove[9] = { BoneName=joint_CheekLT_01 }
+            BonesToRemove[10] = { BoneName=joint_DimpleLT_01 }
+            BonesToRemove[11] = { BoneName=joint_LipCornerLT_01 }
+            BonesToRemove[12] = { BoneName=joint_LipUpperLT_01 }
+            BonesToRemove[13] = { BoneName=joint_LipUpper_01 }
+            BonesToRemove[14] = { BoneName=joint_CheekRT_01 }
+            BonesToRemove[15] = { BoneName=joint_DimpleRT_01 }
+            BonesToRemove[16] = { BoneName=joint_LipCornerRT_01 }
+            BonesToRemove[17] = { BoneName=joint_LipUpperRT_01 }
+            BonesToRemove[18] = { BoneName=joint_Jaw_01 }
+            BonesToRemove[19] = { BoneName=joint_NoseMain_01 }
+            BonesToRemove[20] = { BoneName=joint_NoseSideRT_01 }
+            BonesToRemove[21] = { BoneName=joint_NoseSideLT_01 }
+            BonesToRemove[22] = { BoneName=joint_Hair_L2_03 }
+            BonesToRemove[23] = { BoneName=joint_Hair_L2_01 }
+            BonesToRemove[24] = { BoneName=joint_Hair_L2_05 }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+}
+MorphTargets[0] = {}
+Sockets[0] = {}
+SamplingInfo =
+{
+    Regions[0] = {}
+    BuiltData =
+    {
+        WholeMeshBuiltData[4] = { , , ,  }
+        RegionBuiltData[0] = {}
+    }
+}
+SkinWeightProfiles[0] = {}
+NumVertexColorChannels = 0
+DummyPropSK = 0

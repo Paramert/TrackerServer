@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/Charms/Quantum/M_QU_010_02.M_QU_010_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/Charms/Quantum/M_QU_010_02.M_QU_010_02'
+        MaterialSlotName = M_QU_010_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 48.409, 49.2144, 49.2144, 49.2144 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=6.05944e-06, Y=24.2045, Z=24.2045 }
+    SphereRadius = 34.2303
+}

@@ -1,0 +1,289 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_StaticLines_01.T_StaticLines_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[21] =
+                {
+                    ParameterInfos[0] = { Name=Vignette_BlendWeight }
+                    ParameterInfos[1] = { Name=MF_PP_RectangleDiscard_Y }
+                    ParameterInfos[2] = { Name=Border Intensity }
+                    ParameterInfos[3] = { Name=Inverse_Color }
+                    ParameterInfos[4] = { Name=AddNoise_Erode }
+                    ParameterInfos[5] = { Name=Intensity }
+                    ParameterInfos[6] = { Name=DetailStaticOpacity_02 }
+                    ParameterInfos[7] = { Name=DetailStaticErode_02 }
+                    ParameterInfos[8] = { Name=Edge Intensity }
+                    ParameterInfos[9] = { Name=Scale_N_Distortion }
+                    ParameterInfos[10] = { Name=Distortion_Intensity_01 }
+                    ParameterInfos[11] = { Name=Erode_MiddleScreenMask }
+                    ParameterInfos[12] = { Name=Vignette_Tilling_Scale }
+                    ParameterInfos[13] = { Name=InkOpacity_01 }
+                    ParameterInfos[14] = { Name=InkErode_01 }
+                    ParameterInfos[15] = { Name=Contraste }
+                    ParameterInfos[16] = { Name=Vignette_Ink_Int }
+                    ParameterInfos[17] = { Name=LensEffect_Int }
+                    ParameterInfos[18] = { Name=MF_PP_RectangleDiscard_X }
+                    ParameterInfos[19] = { Name=LerpingStatic_Mask_Opacity }
+                    ParameterInfos[20] = { Name=MF_PP_RectangleDiscard_DebugControl }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=ColorStatic_02 }
+                    ParameterInfos[1] = { Name=ColorInk_01 }
+                    ParameterInfos[2] = { Name=Vignette Color }
+                    ParameterInfos[3] = { Name=ScaleUVs_Ink_01 }
+                    ParameterInfos[4] = { Name=Speed_Ink_01 }
+                    ParameterInfos[5] = { Name=ScaleUVs_Static_02 }
+                    ParameterInfos[6] = { Name=Speed_Static_02 }
+                    ParameterInfos[7] = { Name=Panner_LerpingStatic_Mask }
+                    ParameterInfos[8] = { Name=Speed_Distortion }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=InkTexture_01 }
+                    ParameterInfos[1] = { Name=Static_02 }
+                    ParameterInfos[2] = { Name=T_NormalDisto_01 }
+                    ParameterInfos[3] = { Name=LerpingColorStatic_Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[21] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0.25
+            ScalarValues[2] = 250
+            ScalarValues[3] = 0
+            ScalarValues[4] = -0.3
+            ScalarValues[5] = 0.02292
+            ScalarValues[6] = 0.2
+            ScalarValues[7] = -0.3
+            ScalarValues[8] = 100
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.275
+            ScalarValues[11] = 4
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0.2
+            ScalarValues[14] = -0.3
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0.25
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0
+        }
+        VectorValues[9] =
+        {
+            VectorValues[0] = { R=0.743795, G=1, B=0.22762, A=1 }
+            VectorValues[1] = { R=1, G=0.947917, B=0.947917, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=1, G=1, B=0, A=1 }
+            VectorValues[4] = { R=0.5, G=0, B=0, A=1 }
+            VectorValues[5] = { R=1, G=1, B=0, A=1 }
+            VectorValues[6] = { R=0.5, G=0, B=0, A=1 }
+            VectorValues[7] = { R=0, G=0, B=0, A=1 }
+            VectorValues[8] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_StaticLines_01.T_StaticLines_01'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_StaticLines_01.T_StaticLines_01'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_StaticLines_01.T_StaticLines_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/PostProcess/T_VignetteSmoke.T_VignetteSmoke'
+        Name = InkTexture_01
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_StaticLines_01.T_StaticLines_01'
+        Name = Static_02
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        Name = T_NormalDisto_01
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_StaticLines_01.T_StaticLines_01'
+        Name = LerpingColorStatic_Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[21] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Vignette_BlendWeight, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.25
+        Name = MF_PP_RectangleDiscard_Y
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=250, Name=Border Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Inverse_Color, Group=None }
+    CollectedScalarParameters[4] = { Value=-0.3, Name=AddNoise_Erode, Group=None }
+    CollectedScalarParameters[5] = { Value=0.02292, Name=Intensity, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.2
+        Name = DetailStaticOpacity_02
+        Group = None
+    }
+    CollectedScalarParameters[7] =
+    {
+        Value = -0.3
+        Name = DetailStaticErode_02
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=100, Name=Edge Intensity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Scale_N_Distortion, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.275
+        Name = Distortion_Intensity_01
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=4, Name=Erode_MiddleScreenMask, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Vignette_Tilling_Scale, Group=None }
+    CollectedScalarParameters[13] = { Value=0.2, Name=InkOpacity_01, Group=None }
+    CollectedScalarParameters[14] = { Value=-0.3, Name=InkErode_01, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Contraste, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=Vignette_Ink_Int, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=LensEffect_Int, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0.25
+        Name = MF_PP_RectangleDiscard_X
+        Group = None
+    }
+    CollectedScalarParameters[19] =
+    {
+        Value = 1
+        Name = LerpingStatic_Mask_Opacity
+        Group = None
+    }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0
+        Name = MF_PP_RectangleDiscard_DebugControl
+        Group = None
+    }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.743795, G=1, B=0.22762, A=1 }
+        Name = ColorStatic_02
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.947917, B=0.947917, A=1 }
+        Name = ColorInk_01
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Vignette Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = ScaleUVs_Ink_01
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.5, G=0, B=0, A=1 }
+        Name = Speed_Ink_01
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = ScaleUVs_Static_02
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.5, G=0, B=0, A=1 }
+        Name = Speed_Static_02
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Panner_LerpingStatic_Mask
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Speed_Distortion
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_VignetteSmoke
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal
+    }
+}

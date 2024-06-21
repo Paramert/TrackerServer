@@ -1,0 +1,5 @@
+Diffuse=Black
+Emissive=Black
+Other[0]=T_TilingNoise03
+Other[1]=Fx_radialGradient
+Other[2]=White

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Blockers/MI_UKR_Barrel_Wood_Burn01.MI_UKR_Barrel_Wood_Burn01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Blockers/MI_UKR_Barrel_Wood_Burn01.MI_UKR_Barrel_Wood_Burn01'
+        MaterialSlotName = MI_UKR_Barrel_Wood_Burn01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 280.274, 600.403, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.843464, Y=4.82261, Z=45.4928 }
+    BoxExtent = { X=40.6272, Y=54.4155, Z=46.5788 }
+    SphereRadius = 70.8031
+}

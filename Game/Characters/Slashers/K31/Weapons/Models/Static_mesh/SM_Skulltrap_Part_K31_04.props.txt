@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/K31/Weapons/Materials/KillerItem01/MI_K31KillerItem01.MI_K31KillerItem01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/K31/Weapons/Materials/KillerItem01/MI_K31KillerItem01.MI_K31KillerItem01'
+        MaterialSlotName = MI_K31KillerItem01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 29.5582, 33.521, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.85558, Y=1.68035, Z=2.73922 }
+    BoxExtent = { X=1.46595, Y=1.9192, Z=1.61233 }
+    SphereRadius = 2.63153
+}

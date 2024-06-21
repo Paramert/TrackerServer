@@ -1,0 +1,185 @@
+Parent = Material3'/Game/Effects/Materials/PostProcess/M_PP_K25_Vignette_Teleport.M_PP_K25_Vignette_Teleport'
+ScalarParameterValues[16] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Outline_Erode }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Outline_Intensity }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=MF_PP_RectangleDiscard_DebugControl }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=MF_PP_RectangleDiscard_X }
+        ParameterValue = 0.083333
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MF_PP_RectangleDiscard_Y }
+        ParameterValue = 0.092857
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Distortion_01_Intensity }
+        ParameterValue = 0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Distortion_02_Intensity }
+        ParameterValue = 0.022
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=GlowAmount }
+        ParameterValue = 2.75
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=GlowAmount_02 }
+        ParameterValue = 12.5
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Lightning_Erode }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Offset_Lightning_X }
+        ParameterValue = 0.015
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Offset_Lightning_Y }
+        ParameterValue = 0.015
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Tiling_Lightning_X }
+        ParameterValue = 0.985
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Tiling_Lightning_Y }
+        ParameterValue = 0.985
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Distortion_01_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Distortion_02_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mask_Noise }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Pattern }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K25/T_K25_Vignette_Teleport_03.T_K25_Vignette_Teleport_03'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Distortion_01_Tiling_PannerSpeeds }
+        ParameterValue = { R=4, G=4, B=0.5, A=-1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Distortion_02_Tiling_PannerSpeeds }
+        ParameterValue = { R=5, G=5, B=-0.22, A=1.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Lightning_Color }
+        ParameterValue = { R=0.25, G=0.5, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Mask_Tiling_Speed }
+        ParameterValue = { R=4, G=4, B=0.25, A=0.1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[2] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/K25/T_K25_Power_Vignette.T_K25_Power_Vignette'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

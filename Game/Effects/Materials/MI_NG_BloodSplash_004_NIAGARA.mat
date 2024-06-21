@@ -1,0 +1,9 @@
+Diffuse=T_Tilling_Distortion_Map_01
+Normal=T_Blood_Splat_02_N
+Opacity=T_Blood_Splat_02
+Cube=T_Smoke_Soft_Tile
+Other[0]=T_Blood_01
+Other[1]=T_Blood_01_N
+Other[2]=T_Mud_01_M
+Other[3]=T_Mud_N
+Other[4]=T_reflection_map_01

@@ -1,0 +1,113 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_BloodSplat_03.T_BloodSplat_03'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Contrast }
+                    ParameterInfos[1] = { Name=Fade }
+                    ParameterInfos[2] = { Name=ChannelSwitch }
+                    ParameterInfos[3] = { Name=Tilling }
+                    ParameterInfos[4] = { Name=Opacity }
+                    ParameterInfos[5] = { Name=Specular Amount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=SpeedMaskSwitch }
+                    ParameterInfos[1] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Diffuse }
+                    ParameterInfos[1] = { Name=Texture Switch }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 1, 1, 0, 1, 10, 0.2 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=0.372121, B=0.129974, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_BloodSplat_03.T_BloodSplat_03'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_BloodSplat_03.T_BloodSplat_03'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_BloodSplat_03.T_BloodSplat_03'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        Name = Texture Switch
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Contrast, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Fade, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=ChannelSwitch, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Tilling, Group=None }
+    CollectedScalarParameters[4] = { Value=10, Name=Opacity, Group=None }
+    CollectedScalarParameters[5] = { Value=0.2, Name=Specular Amount, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = SpeedMaskSwitch
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.372121, B=0.129974, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

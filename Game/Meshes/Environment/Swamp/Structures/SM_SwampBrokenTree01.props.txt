@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampBrokenTree01.MI_SwampBrokenTree01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampBrokenTree02.MI_SwampBrokenTree02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampBrokenTree01.MI_SwampBrokenTree01'
+        MaterialSlotName = MI_SwampBrokenTree01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 176.634, 611.711, 735.827, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_SwampBrokenTree02.MI_SwampBrokenTree02'
+        MaterialSlotName = MI_SwampBrokenTree02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 126.503, 605.714, 718.969, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.38452, Y=-2.18686, Z=76.4943 }
+    BoxExtent = { X=289.314, Y=65.5851, Z=86.3121 }
+    SphereRadius = 300.956
+}

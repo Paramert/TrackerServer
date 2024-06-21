@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood01.MI_Kenya_Plywood01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood02.MI_Kenya_Plywood02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Chalet_Wood04.MI_Kenya_Chalet_Wood04'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood01.MI_Kenya_Plywood01'
+        MaterialSlotName = MI_Kenya_Plywood01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 40.4694, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood02.MI_Kenya_Plywood02'
+        MaterialSlotName = MI_Kenya_Plywood02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 86.7929, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Chalet_Wood04.MI_Kenya_Chalet_Wood04'
+        MaterialSlotName = MI_Kenya_Chalet_Wood04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 85.4905, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.04739, Z=125.616 }
+    BoxExtent = { X=106.506, Y=8.38394, Z=113.943 }
+    SphereRadius = 137.799
+}

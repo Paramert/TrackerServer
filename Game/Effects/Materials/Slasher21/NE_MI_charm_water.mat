@@ -1,0 +1,5 @@
+Normal=T_Veins_04_N
+SpecPower=T_Sphere_Tileable
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=T_TilingNoise03
+Other[2]=T_TilingNoise03_N

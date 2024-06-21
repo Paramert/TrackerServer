@@ -1,0 +1,8 @@
+Diffuse=T_QU008_BC
+Normal=T_QU008_N
+Other[0]=T_QU008_ORM
+Other[1]=DefaultTexture
+Other[2]=FlatNormal
+Other[3]=T_DissolveTextures
+Other[4]=T_FX_DissolveRamp
+Other[5]=Green_Linear

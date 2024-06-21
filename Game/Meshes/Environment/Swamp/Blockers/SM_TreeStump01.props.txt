@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_SM_TreeStump02.MI_SM_TreeStump02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_SM_TreeStump02.MI_SM_TreeStump02'
+        MaterialSlotName = MI_SM_TreeStump02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 254.743, 291.455, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.51475, Y=0.625, Z=103.77 }
+    BoxExtent = { X=39.5204, Y=33.6084, Z=116.501 }
+    SphereRadius = 123.135
+}

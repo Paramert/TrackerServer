@@ -1,0 +1,236 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineSky/T_Sky_Blue.T_Sky_Blue'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineSky/T_Sky_Clouds_M.T_Sky_Clouds_M'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Dummy_PolarCoordSky_BC.T_Dummy_PolarCoordSky_BC'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_moon_01_tex.T_moon_01_tex'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=Horizon Falloff }
+                    ParameterInfos[1] = { Name=Horizon Tint Falloff }
+                    ParameterInfos[2] = { Name=Horizon move falloff curve }
+                    ParameterInfos[3] = { Name=alpha }
+                    ParameterInfos[4] = { Name=HDR tint }
+                    ParameterInfos[5] = { Name=Cloud opacity }
+                    ParameterInfos[6] = { Name=Sun/Moon radius }
+                    ParameterInfos[7] = { Name=Cloud Speed }
+                    ParameterInfos[8] = { Name=Sky saturation }
+                    ParameterInfos[9] = { Name=HDR intensity }
+                    ParameterInfos[10] = { Name=NoisePower2 }
+                    ParameterInfos[11] = { Name=Stars brightness }
+                    ParameterInfos[12] = { Name=Direction distance }
+                    ParameterInfos[13] = { Name=Sky contrast }
+                    ParameterInfos[14] = { Name=Directional speed }
+                    ParameterInfos[15] = { Name=Sun height }
+                    ParameterInfos[16] = { Name=NoisePower1 }
+                    ParameterInfos[17] = { Name=Horizon Move amount }
+                    ParameterInfos[18] = { Name=Moon contrast }
+                    ParameterInfos[19] = { Name=HDR power }
+                    ParameterInfos[20] = { Name=Fog Distance }
+                    ParameterInfos[21] = { Name=Sky orientation }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Direction }
+                    ParameterInfos[1] = { Name=Horizon Tint }
+                    ParameterInfos[2] = { Name=LightDir }
+                    ParameterInfos[3] = { Name=Horizon Color }
+                    ParameterInfos[4] = { Name=Sun/Moon Color }
+                    ParameterInfos[5] = { Name=Zenith Color }
+                    ParameterInfos[6] = { Name=Overall Color }
+                    ParameterInfos[7] = { Name=Cloud Color }
+                    ParameterInfos[8] = { Name=Sky Tint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Sky texture }
+                    ParameterInfos[1] = { Name=Moon Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = 3
+            ScalarValues[1] = 10
+            ScalarValues[2] = 2
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0.1
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 4
+            ScalarValues[11] = 0.1
+            ScalarValues[12] = 0.5
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.02
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0.5
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1000
+            ScalarValues[21] = 0
+        }
+        VectorValues[9] =
+        {
+            VectorValues[0] = { R=0, G=0, B=1, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=-1, B=3, A=1 }
+            VectorValues[3] = { R=0.940601, G=1, B=1, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=0.085177, G=0.153746, B=0.35, A=1 }
+            VectorValues[6] = { R=1, G=1, B=1, A=1 }
+            VectorValues[7] = { R=0.71685, G=0.782221, B=0.885, A=0 }
+            VectorValues[8] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Dummy_PolarCoordSky_BC.T_Dummy_PolarCoordSky_BC'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_moon_01_tex.T_moon_01_tex'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineSky/T_Sky_Clouds_M.T_Sky_Clouds_M'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineSky/T_Sky_Blue.T_Sky_Blue'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Dummy_PolarCoordSky_BC.T_Dummy_PolarCoordSky_BC'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_moon_01_tex.T_moon_01_tex'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dummy_PolarCoordSky_BC.T_Dummy_PolarCoordSky_BC'
+        Name = Sky texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_moon_01_tex.T_moon_01_tex'
+        Name = Moon Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Horizon Falloff, Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=Horizon Tint Falloff, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 2
+        Name = Horizon move falloff curve
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=alpha, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=HDR tint, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Cloud opacity, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=Sun/Moon radius, Group=None }
+    CollectedScalarParameters[7] = { Value=0.1, Name=Cloud Speed, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Sky saturation, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=HDR intensity, Group=None }
+    CollectedScalarParameters[10] = { Value=4, Name=NoisePower2, Group=None }
+    CollectedScalarParameters[11] = { Value=0.1, Name=Stars brightness, Group=None }
+    CollectedScalarParameters[12] = { Value=0.5, Name=Direction distance, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Sky contrast, Group=None }
+    CollectedScalarParameters[14] = { Value=0.02, Name=Directional speed, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Sun height, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=NoisePower1, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Horizon Move amount, Group=None }
+    CollectedScalarParameters[18] = { Value=0.5, Name=Moon contrast, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=HDR power, Group=None }
+    CollectedScalarParameters[20] = { Value=1000, Name=Fog Distance, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=Sky orientation, Group=None }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=1, A=0 }
+        Name = Direction
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Horizon Tint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=-1, B=3, A=1 }
+        Name = LightDir
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.940601, G=1, B=1, A=1 }
+        Name = Horizon Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Sun/Moon Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.085177, G=0.153746, B=0.35, A=1 }
+        Name = Zenith Color
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Overall Color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.71685, G=0.782221, B=0.885, A=0 }
+        Name = Cloud Color
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Sky Tint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

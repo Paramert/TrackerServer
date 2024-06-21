@@ -1,0 +1,6 @@
+Diffuse=T_Decal_GroundImpact05_N
+Normal=SphereNormal
+Other[0]=DefaultTexture
+Other[1]=T_FX_Gradient_Footsteps
+Other[2]=T_Footstep_Drag_Mask
+Other[3]=T_Perlin_Noise_M

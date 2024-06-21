@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Props/MI_GasStation_NeonLight.MI_GasStation_NeonLight'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Props/MI_GasStation_NeonLight.MI_GasStation_NeonLight'
+        MaterialSlotName = MI_GasStation_NeonLight
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 195.069, 192.32, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-72.9357, Y=0.091445, Z=-37.2889 }
+    BoxExtent = { X=82.4573, Y=13.5904, Z=37.2889 }
+    SphereRadius = 90.8741
+}

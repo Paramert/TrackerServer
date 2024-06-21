@@ -1,0 +1,144 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Lightning/T_lightning_strike_3x3_01.T_lightning_strike_3x3_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Lightning_Var_02_Visibility }
+                    ParameterInfos[1] = { Name=Smoke_Panner_Int }
+                    ParameterInfos[2] = { Name=Opacity_Boost }
+                    ParameterInfos[3] = { Name=Scale_DistortionTexture }
+                    ParameterInfos[4] = { Name=Lightning_Var_01_Visibility }
+                    ParameterInfos[5] = { Name=Distortion_Int }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=DistortionDirectionnal_Panner }
+                    ParameterInfos[1] = { Name=Color }
+                    ParameterInfos[2] = { Name=Speed_Distortion_Panner }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Lightning_Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0, 0, 50, 1, 1, 0.0375 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=-0.3, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Lightning/T_lightning_strike_3x3_01.T_lightning_strike_3x3_01'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Lightning/T_lightning_strike_3x3_01.T_lightning_strike_3x3_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Lightning/T_lightning_strike_3x3_01.T_lightning_strike_3x3_01'
+        Name = Lightning_Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = Lightning_Var_02_Visibility
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0, Name=Smoke_Panner_Int, Group=None }
+    CollectedScalarParameters[2] = { Value=50, Name=Opacity_Boost, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1
+        Name = Scale_DistortionTexture
+        Group = None
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = Lightning_Var_01_Visibility
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0.0375, Name=Distortion_Int, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = DistortionDirectionnal_Panner
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=-0.3, B=0, A=1 }
+        Name = Speed_Distortion_Panner
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_Clouds_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}

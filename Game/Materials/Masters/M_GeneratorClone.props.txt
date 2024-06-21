@@ -1,0 +1,107 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/InteractableObjects/Generators/T_Generator_BC.T_Generator_BC'
+    ReferencedTextures[1] = Texture2D'/Game/Textures/InteractableObjects/Generators/T_Generator_M.T_Generator_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                    ParameterInfos[1] = { Name=Code_Emissive }
+                    ParameterInfos[2] = { Name=CustomEmmisive }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Emmisive Color }
+                    ParameterInfos[1] = { Name=OutlineColour }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Alpha Texture }
+                    ParameterInfos[1] = { Name=Base Color Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 1700, 10, 10 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=10, G=10, B=10, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/InteractableObjects/Generators/T_Generator_M.T_Generator_M'
+            TextureValues[1] = Texture2D'/Game/Textures/InteractableObjects/Generators/T_Generator_BC.T_Generator_BC'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/InteractableObjects/Generators/T_Generator_BC.T_Generator_BC'
+        ReferencedTextures[1] = Texture2D'/Game/Textures/InteractableObjects/Generators/T_Generator_M.T_Generator_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/InteractableObjects/Generators/T_Generator_M.T_Generator_M'
+        Name = Alpha Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/InteractableObjects/Generators/T_Generator_BC.T_Generator_BC'
+        Name = Base Color Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1700, Name=Param, Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=Code_Emissive, Group=None }
+    CollectedScalarParameters[2] = { Value=10, Name=CustomEmmisive, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=10, G=10, B=10, A=1 }
+        Name = Emmisive Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = OutlineColour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

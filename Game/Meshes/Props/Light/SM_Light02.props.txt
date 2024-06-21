@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_LightBulb_02.MI_Eng_LightBulb_02'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_LightBulb_01.MI_Eng_LightBulb_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_LightBulb_02.MI_Eng_LightBulb_02'
+        MaterialSlotName = MI_Eng_LightBulb_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 78.9036, 62.7132, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_LightBulb_01.MI_Eng_LightBulb_01'
+        MaterialSlotName = MI_Eng_LightBulb_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 33.6088, 62.093, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.17875, Y=0.511272, Z=119.232 }
+    BoxExtent = { X=7.43553, Y=7.43553, Z=145.614 }
+    SphereRadius = 145.665
+}

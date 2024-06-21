@@ -1,0 +1,16 @@
+Diffuse=T_Vomit01_BC
+Normal=FlatNormal
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=DefaultDiffuse
+Other[3]=T_Vomit01_N
+Other[4]=T_Vomit01_ORM
+Other[5]=T_Clouds_01
+Other[6]=T_DissolveTextures
+Other[7]=T_FX_DissolveRamp
+Other[8]=T_SmokeTile
+Other[9]=Black
+Other[10]=Black_Linear
+Other[11]=White_Linear
+Other[12]=Yellow_Linear
+Other[13]=T_checker_grid

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Blockers/MI_UKR_BreakableWall01.MI_UKR_BreakableWall01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Blockers/MI_UKR_BreakableWall01.MI_UKR_BreakableWall01'
+        MaterialSlotName = MI_UKR_BreakableWall01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 498.12, 598.587, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.87461, Y=-121.875, Z=-0.23378 }
+    BoxExtent = { X=77.0081, Y=127.751, Z=12.6279 }
+    SphereRadius = 145.276
+}

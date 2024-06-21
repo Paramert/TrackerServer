@@ -1,0 +1,6 @@
+Diffuse=T_DissolveTextures
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=DefaultTexture
+Other[2]=T_TileNoise
+Other[3]=T_FX_DissolveRamp
+Other[4]=T_GS_FrontSign_Flickerama

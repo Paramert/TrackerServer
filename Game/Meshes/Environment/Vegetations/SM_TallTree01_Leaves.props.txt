@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Atlanta/MI_Leaf_NoShadow_Atl.MI_Leaf_NoShadow_Atl'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Atlanta/MI_Leaf_NoShadow_Atl.MI_Leaf_NoShadow_Atl'
+        MaterialSlotName = MI_Leaf_NoShadow_Atl
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1291.01, 6488.1, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=127.368, Y=-35.9163, Z=1919.69 }
+    BoxExtent = { X=1322.71, Y=1444.68, Z=1319.65 }
+    SphereRadius = 1780.92
+}

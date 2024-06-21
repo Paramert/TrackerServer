@@ -1,0 +1,317 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[3] = Texture2D'/Game/Characters/Slashers/K32/Power/Textures/KillerPod01/T_K32KillerPod01_Em.T_K32KillerPod01_Em'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/K32/T_K32_KillerPod_Mask_01.T_K32_KillerPod_Mask_01'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_gradient_stripes_01.T_gradient_stripes_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile1.T_Smoke_Soft_Tile1'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[23] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=FresnelExponent }
+                    ParameterInfos[2] = { Name=PulseEmissiveTexturePower }
+                    ParameterInfos[3] = { Name=EmissivePulseMinimumValue }
+                    ParameterInfos[4] = { Name=GlobalEmissiveMultiplyer }
+                    ParameterInfos[5] = { Name=DisableFresnelOpacity }
+                    ParameterInfos[6] = { Name=OutlineMinimumDistrance }
+                    ParameterInfos[7] = { Name=SpecularValue }
+                    ParameterInfos[8] = { Name=PulseSpeed }
+                    ParameterInfos[9] = { Name=IsKiller }
+                    ParameterInfos[10] = { Name=FresnelPower }
+                    ParameterInfos[11] = { Name=PulseEmissiveTextureSize }
+                    ParameterInfos[12] = { Name=DisableFresnelExponent }
+                    ParameterInfos[13] = { Name=WPOStrength }
+                    ParameterInfos[14] = { Name=WPOTextureSize }
+                    ParameterInfos[15] = { Name=Softness }
+                    ParameterInfos[16] = { Name=WPOPulseMinimumValue }
+                    ParameterInfos[17] = { Name=PulseEmissiveMultiplyer }
+                    ParameterInfos[18] = { Name=Opacity }
+                    ParameterInfos[19] = { Name=DisableFresnelPower }
+                    ParameterInfos[20] = { Name=Metalic }
+                    ParameterInfos[21] = { Name=DistranceLerpHardness }
+                    ParameterInfos[22] = { Name=WPOTexturePower }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=PulseEmissiveScrollSpeed }
+                    ParameterInfos[1] = { Name=FresnelColor }
+                    ParameterInfos[2] = { Name=WPODirection }
+                    ParameterInfos[3] = { Name=WPOScrollSpeed }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=PulseWaveTexture }
+                    ParameterInfos[1] = { Name=WPOTexture }
+                    ParameterInfos[2] = { Name=Diffuse }
+                    ParameterInfos[3] = { Name=Normal }
+                    ParameterInfos[4] = { Name=EmissiveColorTexture }
+                    ParameterInfos[5] = { Name=NormalMap Texture }
+                    ParameterInfos[6] = { Name=PulseEmissiveTexture }
+                    ParameterInfos[7] = { Name=AORoughnessMetallic }
+                    ParameterInfos[8] = { Name=MaskTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[23] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.2
+            ScalarValues[2] = 0.3
+            ScalarValues[3] = 0.2
+            ScalarValues[4] = 0.1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1500
+            ScalarValues[7] = 0.2
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 5
+            ScalarValues[11] = 100
+            ScalarValues[12] = 1
+            ScalarValues[13] = 10
+            ScalarValues[14] = 500
+            ScalarValues[15] = 2
+            ScalarValues[16] = 0.2
+            ScalarValues[17] = 3
+            ScalarValues[18] = 1
+            ScalarValues[19] = 5
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0.2
+            ScalarValues[22] = 1
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.5, G=0.5, B=0.5, A=1 }
+            VectorValues[1] = { R=0.149517, G=0.932292, B=0.443859, A=1 }
+            VectorValues[2] = { R=0, G=0, B=-1, A=1 }
+            VectorValues[3] = { R=0.5, G=0.5, B=0.5, A=1 }
+        }
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_gradient_stripes_01.T_gradient_stripes_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile1.T_Smoke_Soft_Tile1'
+            TextureValues[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[3] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[4] = Texture2D'/Game/Characters/Slashers/K32/Power/Textures/KillerPod01/T_K32KillerPod01_Em.T_K32KillerPod01_Em'
+            TextureValues[5] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile1.T_Smoke_Soft_Tile1'
+            TextureValues[7] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+            TextureValues[8] = Texture2D'/Game/Effects/Textures/K32/T_K32_KillerPod_Mask_01.T_K32_KillerPod_Mask_01'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile1.T_Smoke_Soft_Tile1'
+        ReferencedTextures[6] = Texture2D'/Game/Characters/Slashers/K32/Power/Textures/KillerPod01/T_K32KillerPod01_Em.T_K32KillerPod01_Em'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/K32/T_K32_KillerPod_Mask_01.T_K32_KillerPod_Mask_01'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_gradient_stripes_01.T_gradient_stripes_01'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_gradient_stripes_01.T_gradient_stripes_01'
+        Name = PulseWaveTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile1.T_Smoke_Soft_Tile1'
+        Name = WPOTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/K32/Power/Textures/KillerPod01/T_K32KillerPod01_Em.T_K32KillerPod01_Em'
+        Name = EmissiveColorTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = NormalMap Texture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile1.T_Smoke_Soft_Tile1'
+        Name = PulseEmissiveTexture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+        Name = AORoughnessMetallic
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K32/T_K32_KillerPod_Mask_01.T_K32_KillerPod_Mask_01'
+        Name = MaskTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[23] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=FresnelExponent, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.3
+        Name = PulseEmissiveTexturePower
+        Group = None
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.2
+        Name = EmissivePulseMinimumValue
+        Group = None
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.1
+        Name = GlobalEmissiveMultiplyer
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0, Name=DisableFresnelOpacity, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1500
+        Name = OutlineMinimumDistrance
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0.2, Name=SpecularValue, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=PulseSpeed, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=IsKiller, Group=None }
+    CollectedScalarParameters[10] = { Value=5, Name=FresnelPower, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 100
+        Name = PulseEmissiveTextureSize
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=1, Name=DisableFresnelExponent, Group=None }
+    CollectedScalarParameters[13] = { Value=10, Name=WPOStrength, Group=None }
+    CollectedScalarParameters[14] = { Value=500, Name=WPOTextureSize, Group=None }
+    CollectedScalarParameters[15] = { Value=2, Name=Softness, Group=None }
+    CollectedScalarParameters[16] = { Value=0.2, Name=WPOPulseMinimumValue, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 3
+        Name = PulseEmissiveMultiplyer
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[19] = { Value=5, Name=DisableFresnelPower, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=Metalic, Group=None }
+    CollectedScalarParameters[21] =
+    {
+        Value = 0.2
+        Name = DistranceLerpHardness
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=1, Name=WPOTexturePower, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = PulseEmissiveScrollSpeed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.149517, G=0.932292, B=0.443859, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=-1, A=1 }
+        Name = WPODirection
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = WPOScrollSpeed
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FlatNormal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Green_Linear
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K32KillerPod01_Em
+    }
+}

@@ -1,0 +1,13 @@
+Diffuse=T_6th_Drip_01_BC
+Normal=FlatNormal
+Opacity=T_6th_Drip_01_M
+Other[0]=T_6th_Flag_01_ORM
+Other[1]=DefaultTexture
+Other[2]=T_Halftone
+Other[3]=T_TileNoise
+Other[4]=T_DissolveTextures
+Other[5]=T_FX_DissolveRamp
+Other[6]=T_GS_FrontSign_Flickerama
+Other[7]=Black
+Other[8]=Green_Linear
+Other[9]=Grey

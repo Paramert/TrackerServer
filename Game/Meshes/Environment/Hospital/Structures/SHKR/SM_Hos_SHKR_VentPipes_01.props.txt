@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Metal03.MI_Eng_Metal03'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_Metal03.MI_Eng_Metal03'
+        MaterialSlotName = MI_Eng_Metal03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 431.372, 2115.89, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.9397, Y=2.78345, Z=276.491 }
+    BoxExtent = { X=1593.55, Y=1587.27, Z=290.98 }
+    SphereRadius = 1923.14
+}

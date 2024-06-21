@@ -1,0 +1,3850 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[24] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_BurnedEmbers.T_BurnedEmbers'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_BurnLUT.T_BurnLUT'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[12] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[13] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    ReferencedTextures[14] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+    ReferencedTextures[15] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+    ReferencedTextures[16] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+    ReferencedTextures[17] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+    ReferencedTextures[18] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+    ReferencedTextures[19] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+    ReferencedTextures[20] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Liquid/T_Rain_Drops_A.T_Rain_Drops_A'
+    ReferencedTextures[21] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Mask/T_Noise01.T_Noise01'
+    ReferencedTextures[22] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[23] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[490] =
+                {
+                    ParameterInfos[0] = { Name=ECM- MaskA Intensity }
+                    ParameterInfos[1] = { Name=|     Roughness Map Tiling Low }
+                    ParameterInfos[2] = { Name=|     Normal Map Detail Tiling . }
+                    ParameterInfos[3] = { Name=|     BaseColor Opacity    . }
+                    ParameterInfos[4] = { Name=018_FadeRadius }
+                    ParameterInfos[5] = { Name=|     U Offset  . }
+                    ParameterInfos[6] = { Name=|     Adjustment Hue     . }
+                    ParameterInfos[7] = { Name=Noise_Speed_Y }
+                    ParameterInfos[8] = { Name=|     V Offset Opacity ... }
+                    ParameterInfos[9] = { Name=|     AO Intensity         . }
+                    ParameterInfos[10] = { Name=UV Tiling Master   . }
+                    ParameterInfos[11] = { Name=|     V Offset        . }
+                    ParameterInfos[12] = { Name=|     Rotation Center   . }
+                    ParameterInfos[13] = { Name=Height Map Black Level }
+                    ParameterInfos[14] = { Name=ECM- MaskA Tiling }
+                    ParameterInfos[15] = { Name=|     U Offset ...... }
+                    ParameterInfos[16] = { Name=|     Roughness Map Intensity . }
+                    ParameterInfos[17] = { Name=|     Roughness Map Tiling     . }
+                    ParameterInfos[18] = { Name=|     Tint Opacity Map Intensity   . }
+                    ParameterInfos[19] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[20] = { Name=UV Channel Opacity .. }
+                    ParameterInfos[21] = { Name=|     U Tiling }
+                    ParameterInfos[22] = { Name=|     Roughness Map Contrast .. }
+                    ParameterInfos[23] = { Name=T_Embers Intensity }
+                    ParameterInfos[24] = { Name=|     Roughness Map Tiling    . }
+                    ParameterInfos[25] = { Name=|     Previous Normal Map Intensity . }
+                    ParameterInfos[26] = { Name=|     Occlusion Map Contrast   . }
+                    ParameterInfos[27] = { Name=|     V Offset Tint   . }
+                    ParameterInfos[28] = { Name=|     Rotation   . }
+                    ParameterInfos[29] = { Name=|     U Offset Tint }
+                    ParameterInfos[30] = { Name=Burned Width }
+                    ParameterInfos[31] = { Name=|     Rotation Center          . }
+                    ParameterInfos[32] = { Name=|     Roughness Map Detail Intensity  . }
+                    ParameterInfos[33] = { Name=|     Roughness Map Detail Black Level . }
+                    ParameterInfos[34] = { Name=|     V Tiling Tint   . }
+                    ParameterInfos[35] = { Name=Maximum rotation }
+                    ParameterInfos[36] = { Name=Atl_Roughness }
+                    ParameterInfos[37] = { Name=|     Tint Map Intensity  . }
+                    ParameterInfos[38] = { Name=|     BaseColor Map Intensity .. }
+                    ParameterInfos[39] = { Name=|     BaseColor Intensity .. }
+                    ParameterInfos[40] = { Name=Height Map Contrast  Low }
+                    ParameterInfos[41] = { Name=|     Occlusion Intensity  . }
+                    ParameterInfos[42] = { Name=|     Rotation Opacity ... }
+                    ParameterInfos[43] = { Name=|     Normal Map Tiling     . }
+                    ParameterInfos[44] = { Name=|     V Offset }
+                    ParameterInfos[45] = { Name=UV Channel }
+                    ParameterInfos[46] = { Name=|     Blend Min .. }
+                    ParameterInfos[47] = { Name=|     U Offset Opacity .. }
+                    ParameterInfos[48] = { Name=UV Channel Tint . }
+                    ParameterInfos[49] = { Name=UV Channel     . }
+                    ParameterInfos[50] = { Name=ECM- MaskB Speed Y }
+                    ParameterInfos[51] = { Name=|     BaseColor Map Intensity ... }
+                    ParameterInfos[52] = { Name=|     BaseColor Tint Intensity }
+                    ParameterInfos[53] = { Name=|     BaseColor Intensity     . }
+                    ParameterInfos[54] = { Name=|     Tint Opacity Map Black Level   . }
+                    ParameterInfos[55] = { Name=|     U Tiling Opacity .. }
+                    ParameterInfos[56] = { Name=Height Map Contrast }
+                    ParameterInfos[57] = { Name=|     Roughness Map Black Level ... }
+                    ParameterInfos[58] = { Name=|     V Offset ..... }
+                    ParameterInfos[59] = { Name=Height Map Black Level }
+                    ParameterInfos[60] = { Name=|     Roughness Map Contrast   . }
+                    ParameterInfos[61] = { Name=|     U Offset   . }
+                    ParameterInfos[62] = { Name=|     BaseColor Saturation . }
+                    ParameterInfos[63] = { Name=|     Blu Spread }
+                    ParameterInfos[64] = { Name=|     Grn FallOff }
+                    ParameterInfos[65] = { Name=|     U Tiling .. }
+                    ParameterInfos[66] = { Name=Noise_Speed }
+                    ParameterInfos[67] = { Name=UV Tiling Master      . }
+                    ParameterInfos[68] = { Name=UV Channel ... }
+                    ParameterInfos[69] = { Name=|     Roughness Map Tiling }
+                    ParameterInfos[70] = { Name=|     U Offset    . }
+                    ParameterInfos[71] = { Name=|     Occlusion Intensity   . }
+                    ParameterInfos[72] = { Name=|     Occlusion Map Contrast  . }
+                    ParameterInfos[73] = { Name=|     Roughness Map Tiling        . }
+                    ParameterInfos[74] = { Name=Hovering time offset }
+                    ParameterInfos[75] = { Name=|     BaseColor Opacity . }
+                    ParameterInfos[76] = { Name=|     U Tiling         . }
+                    ParameterInfos[77] = { Name=Roataion Speed }
+                    ParameterInfos[78] = { Name=|     Blend Contrast          . }
+                    ParameterInfos[79] = { Name=|     Adjustment Hue   . }
+                    ParameterInfos[80] = { Name=|     Tint Opacity Map Contrast . }
+                    ParameterInfos[81] = { Name=|     Roughness Map Detail Intensity   . }
+                    ParameterInfos[82] = { Name=|     Rotation  . }
+                    ParameterInfos[83] = { Name=UV Tiling Master     . }
+                    ParameterInfos[84] = { Name=Tiling U }
+                    ParameterInfos[85] = { Name=|     BaseColor Saturation }
+                    ParameterInfos[86] = { Name=|     BaseColor Hue }
+                    ParameterInfos[87] = { Name=|     Roughness Map Black Level  . }
+                    ParameterInfos[88] = { Name=|     U Offset Tint  . }
+                    ParameterInfos[89] = { Name=|     V Offset .... }
+                    ParameterInfos[90] = { Name=|     Rotation ... }
+                    ParameterInfos[91] = { Name=|     U Tiling Opacity ... }
+                    ParameterInfos[92] = { Name=EmissiveFade }
+                    ParameterInfos[93] = { Name=|     U Tiling Tint . }
+                    ParameterInfos[94] = { Name=UV Tiling Master       . }
+                    ParameterInfos[95] = { Name=EmissiveMask Custom }
+                    ParameterInfos[96] = { Name=|     Rotation        . }
+                    ParameterInfos[97] = { Name=|     BaseColor Hue   . }
+                    ParameterInfos[98] = { Name=|     Roughness Map Detail Contrast   . }
+                    ParameterInfos[99] = { Name=UV Channel . }
+                    ParameterInfos[100] = { Name=|     Normal Map Detail Intensity }
+                    ParameterInfos[101] = { Name=|     Adjustment Saturation     . }
+                    ParameterInfos[102] = { Name=|     BaseColor Hue . }
+                    ParameterInfos[103] = { Name=|     Roughness Intensity .. }
+                    ParameterInfos[104] = { Name=|     Occlusion Map Black Level   . }
+                    ParameterInfos[105] = { Name=|     V Offset . }
+                    ParameterInfos[106] = { Name=|     Roughness Map Black Level .. }
+                    ParameterInfos[107] = { Name=|     Adjustment Saturation .. }
+                    ParameterInfos[108] = { Name=|     BaseColor Tint Map Tiling  . }
+                    ParameterInfos[109] = { Name=|     BaseColor Intensity ... }
+                    ParameterInfos[110] = { Name=|     Tint Opacity Map Tiling . }
+                    ParameterInfos[111] = { Name=|     Roughness Map Black Level }
+                    ParameterInfos[112] = { Name=Tiling V }
+                    ParameterInfos[113] = { Name=|     Occlusion Map Contrast }
+                    ParameterInfos[114] = { Name=|     Roughness Map Tiling . }
+                    ParameterInfos[115] = { Name=Opacity        . }
+                    ParameterInfos[116] = { Name=018_FadeRadiusDistance }
+                    ParameterInfos[117] = { Name=|     Tint Opacity Map Intensity . }
+                    ParameterInfos[118] = { Name=CustomAmbientOcclusion }
+                    ParameterInfos[119] = { Name=|     Normal Map Intensity .. }
+                    ParameterInfos[120] = { Name=SphDis_switch_radius_multiplier }
+                    ParameterInfos[121] = { Name=|     Roughness Map Detail Black Level }
+                    ParameterInfos[122] = { Name=Intensity }
+                    ParameterInfos[123] = { Name=|     Rotation         . }
+                    ParameterInfos[124] = { Name=Emissive Border Base (rb) }
+                    ParameterInfos[125] = { Name=|     U Tiling Tint   . }
+                    ParameterInfos[126] = { Name=|     V Offset ... }
+                    ParameterInfos[127] = { Name=|     Normal Map Tiling    . }
+                    ParameterInfos[128] = { Name=Burned Height }
+                    ParameterInfos[129] = { Name=|     Roughness Map Contrast ... }
+                    ParameterInfos[130] = { Name=|     U Tiling   . }
+                    ParameterInfos[131] = { Name=|     U Offset ....... }
+                    ParameterInfos[132] = { Name=EmmisiveMask TextureTiling }
+                    ParameterInfos[133] = { Name=|     V Offset  . }
+                    ParameterInfos[134] = { Name=|     AO Intensity (Fake)         . }
+                    ParameterInfos[135] = { Name=|     V Tiling Tint . }
+                    ParameterInfos[136] = { Name=Height Map Black Level Low }
+                    ParameterInfos[137] = { Name=|     Occlusion Intensity . }
+                    ParameterInfos[138] = { Name=SphDis_mask_power }
+                    ParameterInfos[139] = { Name=|     U Tiling ....... }
+                    ParameterInfos[140] = { Name=|     Rotation Center    . }
+                    ParameterInfos[141] = { Name=ECM- MaskB Intensity }
+                    ParameterInfos[142] = { Name=|     Normal Map Detail Tiling }
+                    ParameterInfos[143] = { Name=|     BaseColor Opacity  . }
+                    ParameterInfos[144] = { Name=|     Normal Map Intensity . }
+                    ParameterInfos[145] = { Name=|     Roughness Map Detail Tiling . }
+                    ParameterInfos[146] = { Name=|     Previous Normals Map Intensity .. }
+                    ParameterInfos[147] = { Name=|     Intensity ....... }
+                    ParameterInfos[148] = { Name=|     Tint Opacity Map Contrast   . }
+                    ParameterInfos[149] = { Name=|     Intensity .... }
+                    ParameterInfos[150] = { Name=|     Roughness Map Tiling  . }
+                    ParameterInfos[151] = { Name=UV Tiling Master ...... }
+                    ParameterInfos[152] = { Name=CustomMetallic }
+                    ParameterInfos[153] = { Name=UV Channel       . }
+                    ParameterInfos[154] = { Name=|     U Offset     . }
+                    ParameterInfos[155] =
+                    {
+                        Name = |     Roughness Map Detail Tiling Multiplier
+                    }
+                    ParameterInfos[156] = { Name=|     U Offset         . }
+                    ParameterInfos[157] = { Name=|     Roughness Map Intensity ... }
+                    ParameterInfos[158] = { Name=|     U Tiling Tint }
+                    ParameterInfos[159] = { Name=|     V Offset ....... }
+                    ParameterInfos[160] = { Name=|     Rotation Center ... }
+                    ParameterInfos[161] = { Name=|     U Tiling          . }
+                    ParameterInfos[162] = { Name=UV Tiling Master . }
+                    ParameterInfos[163] = { Name=|     Occlusion Map Black Level }
+                    ParameterInfos[164] = { Name=|     VertexPaint Contrast . }
+                    ParameterInfos[165] = { Name=EM Noise ScaleFar }
+                    ParameterInfos[166] = { Name=Atl_Metallic }
+                    ParameterInfos[167] = { Name=|     WS Blend Contrast     . }
+                    ParameterInfos[168] = { Name=|     VertexPaint Black Level          . }
+                    ParameterInfos[169] = { Name=|     BaseColor Map Tiling        . }
+                    ParameterInfos[170] = { Name=|     Roughness Map Contrast }
+                    ParameterInfos[171] = { Name=|     U Offset       . }
+                    ParameterInfos[172] = { Name=|     V Tiling   . }
+                    ParameterInfos[173] = { Name=|     BaseColor Tint Map Tiling   . }
+                    ParameterInfos[174] = { Name=|     BaseColor Map Tiling    . }
+                    ParameterInfos[175] = { Name=|     U Tiling       . }
+                    ParameterInfos[176] = { Name=|     V Tiling .... }
+                    ParameterInfos[177] = { Name=Wetness Intensity }
+                    ParameterInfos[178] = { Name=T_Embers Tiling }
+                    ParameterInfos[179] = { Name=EM Noise Speed Y }
+                    ParameterInfos[180] = { Name=|     U Offset .. }
+                    ParameterInfos[181] = { Name=|     Rotation Center Tint }
+                    ParameterInfos[182] = { Name=Emissive Border Level (rb) }
+                    ParameterInfos[183] = { Name=Scale (tm) }
+                    ParameterInfos[184] = { Name=Custom Height Map Tiling }
+                    ParameterInfos[185] = { Name=|     Rotation Tint . }
+                    ParameterInfos[186] = { Name=|     BaseColor Hue  . }
+                    ParameterInfos[187] = { Name=|     Normal Map Detail Tiling   . }
+                    ParameterInfos[188] = { Name=UV Channel Opacity ... }
+                    ParameterInfos[189] = { Name=|     Rotation Center       . }
+                    ParameterInfos[190] = { Name=UV Tiling Master .. }
+                    ParameterInfos[191] = { Name=|     Roughness Intensity }
+                    ParameterInfos[192] = { Name=|     Rotation Tint }
+                    ParameterInfos[193] = { Name=|     V Tiling Opacity ... }
+                    ParameterInfos[194] = { Name=|     Previous Normals Map Intensity    . }
+                    ParameterInfos[195] = { Name=Porous Intensity }
+                    ParameterInfos[196] = { Name=Custom Height Map Tiling }
+                    ParameterInfos[197] = { Name=UV Tiling Master        . }
+                    ParameterInfos[198] = { Name=|     V Tiling    . }
+                    ParameterInfos[199] = { Name=|     Roughness Intensity         . }
+                    ParameterInfos[200] = { Name=|     Tint Opacity Map Black Level . }
+                    ParameterInfos[201] = { Name=UV Channel   . }
+                    ParameterInfos[202] = { Name=|     Roughness Map Detail Tiling  . }
+                    ParameterInfos[203] = { Name=|     BaseColor Map Tiling   . }
+                    ParameterInfos[204] = { Name=|     V Tiling      . }
+                    ParameterInfos[205] = { Name=|     Roughness Map Intensity     . }
+                    ParameterInfos[206] = { Name=|     Roughness Map Intensity .. }
+                    ParameterInfos[207] = { Name=Noise Opacity }
+                    ParameterInfos[208] = { Name=|     Rotation Center ....... }
+                    ParameterInfos[209] = { Name=|     Adjustment Hue Low. }
+                    ParameterInfos[210] = { Name=|     BaseColor Intensity    . }
+                    ParameterInfos[211] = { Name=|     Rotation Center Tint . }
+                    ParameterInfos[212] = { Name=|     Tint Opacity Map Tiling  . }
+                    ParameterInfos[213] = { Name=|     Rotation ....... }
+                    ParameterInfos[214] = { Name=|     Rotation Center      . }
+                    ParameterInfos[215] = { Name=|     Occlusion Map Black Level  . }
+                    ParameterInfos[216] = { Name=|     Heightmap Contrast   . }
+                    ParameterInfos[217] = { Name=|     Roughness Map Detail Intensity }
+                    ParameterInfos[218] = { Name=|     Opacity Intensity }
+                    ParameterInfos[219] = { Name=|     U Offset      . }
+                    ParameterInfos[220] = { Name=ECM- MaskA Speed X }
+                    ParameterInfos[221] = { Name=Noise Amount }
+                    ParameterInfos[222] = { Name=T_Ashes Tiling }
+                    ParameterInfos[223] = { Name=|     Normal Map Tiling ... }
+                    ParameterInfos[224] = { Name=|     U Offset Tint . }
+                    ParameterInfos[225] = { Name=UV Channel ..... }
+                    ParameterInfos[226] = { Name=Scale (rb) }
+                    ParameterInfos[227] = { Name=|     Rotation Center        . }
+                    ParameterInfos[228] = { Name=|     Rotation Center Opacity .. }
+                    ParameterInfos[229] = { Name=|     Roughness Map Detail Contrast }
+                    ParameterInfos[230] = { Name=UV Tiling Master }
+                    ParameterInfos[231] = { Name=|     Normal Map Tiling . }
+                    ParameterInfos[232] = { Name=|     BaseColor Saturation Low. }
+                    ParameterInfos[233] = { Name=|     Normal Map Tiling        . }
+                    ParameterInfos[234] = { Name=|     Tint Opacity Map Intensity }
+                    ParameterInfos[235] = { Name=|     BaseColor Tint Map Tiling }
+                    ParameterInfos[236] = { Name=UV Channel Tint   . }
+                    ParameterInfos[237] = { Name=|     U Offset          . }
+                    ParameterInfos[238] = { Name=UV Channel Tint  . }
+                    ParameterInfos[239] = { Name=|     BaseColor Hue Low. }
+                    ParameterInfos[240] = { Name=|     Roughness Intensity   . }
+                    ParameterInfos[241] = { Name=|     Occlusion Map Black Level . }
+                    ParameterInfos[242] = { Name=|     Rotation Opacity .. }
+                    ParameterInfos[243] = { Name=|     Roughness Map Intensity    . }
+                    ParameterInfos[244] = { Name=UV Channel Low. }
+                    ParameterInfos[245] = { Name=|     VertexPaint Transition   . }
+                    ParameterInfos[246] = { Name=|     Roughness Map Intensity   . }
+                    ParameterInfos[247] = { Name=SphDis_ObjectGroundPosition }
+                    ParameterInfos[248] = { Name=|     Rotation Center     . }
+                    ParameterInfos[249] = { Name=|     Blend Min ... }
+                    ParameterInfos[250] = { Name=|     Roughness Map Contrast     . }
+                    ParameterInfos[251] = { Name=UV Channel .. }
+                    ParameterInfos[252] = { Name=UV Tiling Master Opacity .. }
+                    ParameterInfos[253] = { Name=|     Roughness Map Detail Contrast . }
+                    ParameterInfos[254] = { Name=|     V Tiling .. }
+                    ParameterInfos[255] = { Name=|     V Offset          . }
+                    ParameterInfos[256] = { Name=|     Roughness Map Black Level     . }
+                    ParameterInfos[257] = { Name=|     Tint Map Intensity   . }
+                    ParameterInfos[258] = { Name=|     V Tiling . }
+                    ParameterInfos[259] = { Name=UV Tiling Master Low. }
+                    ParameterInfos[260] = { Name=Speed (rb) }
+                    ParameterInfos[261] = { Name=|     Normal Map Detail Intensity  . }
+                    ParameterInfos[262] = { Name=Noise Tiling }
+                    ParameterInfos[263] = { Name=|     BaseColor Tint Intensity   . }
+                    ParameterInfos[264] = { Name=|     Roughness Map Tiling   . }
+                    ParameterInfos[265] = { Name=|     U Tiling    . }
+                    ParameterInfos[266] = { Name=|     Intensity ..... }
+                    ParameterInfos[267] = { Name=|     Normal Map Intensity     . }
+                    ParameterInfos[268] = { Name=|     Normal Map Intensity ... }
+                    ParameterInfos[269] = { Name=|     U Tiling  . }
+                    ParameterInfos[270] = { Name=UV Tiling Master .... }
+                    ParameterInfos[271] = { Name=|     BaseColor Map Tiling .. }
+                    ParameterInfos[272] = { Name=Custom Height Map Tiling  Low }
+                    ParameterInfos[273] = { Name=|     U Offset        . }
+                    ParameterInfos[274] = { Name=|     Blend Intensity          . }
+                    ParameterInfos[275] = { Name=|     VertexPaint Black Level  . }
+                    ParameterInfos[276] = { Name=|     U Tiling ...... }
+                    ParameterInfos[277] = { Name=|     Roughness Map Contrast  . }
+                    ParameterInfos[278] = { Name=T_Ashes Intensity }
+                    ParameterInfos[279] = { Name=|     U Offset ..... }
+                    ParameterInfos[280] = { Name=SphDis_ObjectHeight }
+                    ParameterInfos[281] = { Name=|     Blend Contrast ... }
+                    ParameterInfos[282] = { Name=|     Tint Opacity Map Tiling }
+                    ParameterInfos[283] = { Name=Opacity }
+                    ParameterInfos[284] = { Name=|     WS Opacity     . }
+                    ParameterInfos[285] = { Name=|     U Tiling        . }
+                    ParameterInfos[286] = { Name=|     V Offset Opacity .. }
+                    ParameterInfos[287] = { Name=|     Occlusion Intensity }
+                    ParameterInfos[288] = { Name=UV Tiling         . }
+                    ParameterInfos[289] = { Name=|     V Tiling  . }
+                    ParameterInfos[290] = { Name=|     VertexPaint Transition }
+                    ParameterInfos[291] = { Name=SphDis_NoiseAmount }
+                    ParameterInfos[292] = { Name=|     Normal Map Detail Intensity . }
+                    ParameterInfos[293] = { Name=|     Rotation Center Opacity ... }
+                    ParameterInfos[294] = { Name=|     U Tiling     . }
+                    ParameterInfos[295] = { Name=|     VertexPaint Black Level . }
+                    ParameterInfos[296] = { Name=|     V Tiling       . }
+                    ParameterInfos[297] = { Name=|     Intensity ...... }
+                    ParameterInfos[298] = { Name=|     Tint Opacity Map Contrast }
+                    ParameterInfos[299] = { Name=|     Occlusion Map Contrast . }
+                    ParameterInfos[300] = { Name=UV Channel  . }
+                    ParameterInfos[301] = { Name=|     V Offset Tint . }
+                    ParameterInfos[302] = { Name=Height Map Contrast }
+                    ParameterInfos[303] = { Name=|     Roughness Intensity     . }
+                    ParameterInfos[304] = { Name=EM Noise Intensity }
+                    ParameterInfos[305] = { Name=|     BaseColor Map Tiling     . }
+                    ParameterInfos[306] = { Name=|     V Offset         . }
+                    ParameterInfos[307] = { Name=|     V Offset    . }
+                    ParameterInfos[308] = { Name=EM Noise Speed X }
+                    ParameterInfos[309] = { Name=|     BaseColor Saturation   . }
+                    ParameterInfos[310] = { Name=|     BaseColor Map Tiling . }
+                    ParameterInfos[311] = { Name=|     Adjustment Hue .. }
+                    ParameterInfos[312] = { Name=|     Rotation ...... }
+                    ParameterInfos[313] = { Name=Height Map Contrast }
+                    ParameterInfos[314] = { Name=|     V Offset ...... }
+                    ParameterInfos[315] = { Name=|     Normal Map Detail Intensity   . }
+                    ParameterInfos[316] = { Name=|     BaseColor Intensity        . }
+                    ParameterInfos[317] = { Name=|     Rotation Center . }
+                    ParameterInfos[318] = { Name=|     Rotation      . }
+                    ParameterInfos[319] = { Name=|     BaseColor Map Tiling      . }
+                    ParameterInfos[320] = { Name=|     Previous Normal Map Intensity   . }
+                    ParameterInfos[321] = { Name=|     Rotation Center ...... }
+                    ParameterInfos[322] = { Name=|     Normal Map Tiling  . }
+                    ParameterInfos[323] = { Name=|     Roughness Map Black Level . }
+                    ParameterInfos[324] = { Name=|     Normal Map Intensity  . }
+                    ParameterInfos[325] = { Name=|     Normal Map Intensity    . }
+                    ParameterInfos[326] = { Name=|     Rotation    . }
+                    ParameterInfos[327] = { Name=|     Rotation Center .... }
+                    ParameterInfos[328] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[329] = { Name=Hovering amount }
+                    ParameterInfos[330] = { Name=SphDis_NoiseTiling }
+                    ParameterInfos[331] = { Name=|     Normal Map Tiling .. }
+                    ParameterInfos[332] = { Name=|     VertexPaint Contrast          . }
+                    ParameterInfos[333] = { Name=CustomRoughness }
+                    ParameterInfos[334] = { Name=Noise_Speed_X }
+                    ParameterInfos[335] = { Name=|     Normal Map Intensity }
+                    ParameterInfos[336] = { Name=|     VertexPaint Contrast   . }
+                    ParameterInfos[337] = { Name=|     BaseColor Saturation  . }
+                    ParameterInfos[338] = { Name=|     Roughness Map Detail Intensity . }
+                    ParameterInfos[339] = { Name=ECM- MaskB Tiling }
+                    ParameterInfos[340] = { Name=|     Blending Intensity .. }
+                    ParameterInfos[341] = { Name=Height Map Black Level }
+                    ParameterInfos[342] = { Name=|     V Tiling ...... }
+                    ParameterInfos[343] = { Name=|     Roughness Map Contrast . }
+                    ParameterInfos[344] = { Name=|     BaseColor Map Tiling }
+                    ParameterInfos[345] = { Name=|     Adjustment Hue  . }
+                    ParameterInfos[346] = { Name=|     Heightmap Black Level . }
+                    ParameterInfos[347] = { Name=|     Normal Map Intensity        . }
+                    ParameterInfos[348] = { Name=|     Roughness Map Detail Black Level  . }
+                    ParameterInfos[349] = { Name=|     Rotation Center Tint  . }
+                    ParameterInfos[350] = { Name=|     V Tiling Tint  . }
+                    ParameterInfos[351] = { Name=|     Previous Normal Map Intensity  . }
+                    ParameterInfos[352] = { Name=UV Channel Tint }
+                    ParameterInfos[353] = { Name=|     Normal Map Tiling   . }
+                    ParameterInfos[354] = { Name=|     Roughness Map Tiling      . }
+                    ParameterInfos[355] = { Name=|     U Tiling .... }
+                    ParameterInfos[356] = { Name=|     Blend Contrast .. }
+                    ParameterInfos[357] = { Name=|     Rotation Tint   . }
+                    ParameterInfos[358] = { Name=|     Heightmap Black Level   . }
+                    ParameterInfos[359] = { Name=|     Adjustment Saturation ... }
+                    ParameterInfos[360] = { Name=|     Rotation Tint  . }
+                    ParameterInfos[361] = { Name=EM Intensity }
+                    ParameterInfos[362] = { Name=|     Adjustment Saturation . }
+                    ParameterInfos[363] = { Name=UV Tiling Master          . }
+                    ParameterInfos[364] = { Name=UV Tiling Master    . }
+                    ParameterInfos[365] = { Name=|     BaseColor Map Intensity     . }
+                    ParameterInfos[366] = { Name=|     Roughness Intensity    . }
+                    ParameterInfos[367] = { Name=|     Rotation .... }
+                    ParameterInfos[368] = { Name=|     Roughness Intensity      . }
+                    ParameterInfos[369] = { Name=|     U Tiling . }
+                    ParameterInfos[370] = { Name=|     V Offset Tint  . }
+                    ParameterInfos[371] = { Name=|     Opacity    . }
+                    ParameterInfos[372] = { Name=|     Blend Max ... }
+                    ParameterInfos[373] = { Name=|     V Offset       . }
+                    ParameterInfos[374] = { Name=|     V Tiling     . }
+                    ParameterInfos[375] = { Name=|     U Tiling Tint  . }
+                    ParameterInfos[376] = { Name=|     Rotation Center         . }
+                    ParameterInfos[377] = { Name=|     Tint Map Intensity }
+                    ParameterInfos[378] = { Name=|     Previous Normals Map Intensity ... }
+                    ParameterInfos[379] = { Name=|     U Offset . }
+                    ParameterInfos[380] = { Name=ECM- MaskA Speed Y }
+                    ParameterInfos[381] = { Name=|     Blending Intensity ... }
+                    ParameterInfos[382] = { Name=UV Channel         . }
+                    ParameterInfos[383] = { Name=|     BaseColor Map Tiling  . }
+                    ParameterInfos[384] = { Name=|     BaseColor Map Tiling Low. }
+                    ParameterInfos[385] = { Name=|     U Offset }
+                    ParameterInfos[386] = { Name=|     Heightmap Contrast  . }
+                    ParameterInfos[387] = { Name=UV Channel ....... }
+                    ParameterInfos[388] = { Name=|     VertexPaint Black Level   . }
+                    ParameterInfos[389] = { Name=|     Rotation }
+                    ParameterInfos[390] = { Name=|     Roughness Map Intensity }
+                    ParameterInfos[391] = { Name=UV Channel          . }
+                    ParameterInfos[392] = { Name=Hovering speed }
+                    ParameterInfos[393] = { Name=|     Roughness Intensity ... }
+                    ParameterInfos[394] = { Name=|     Adjustment Saturation  . }
+                    ParameterInfos[395] = { Name=|     Roughness Map Intensity      . }
+                    ParameterInfos[396] = { Name=|     Rotation .. }
+                    ParameterInfos[397] = { Name=|     Rotation Center }
+                    ParameterInfos[398] = { Name=|     Rotation Center .. }
+                    ParameterInfos[399] = { Name=|     Rotation          . }
+                    ParameterInfos[400] = { Name=|     V Offset Tint }
+                    ParameterInfos[401] = { Name=|     Red FallOff }
+                    ParameterInfos[402] = { Name=|     Roughness Map Black Level   . }
+                    ParameterInfos[403] = { Name=Atl_Specular }
+                    ParameterInfos[404] = { Name=|     Red Spread }
+                    ParameterInfos[405] = { Name=|     U Tiling      . }
+                    ParameterInfos[406] = { Name=UV Channel .... }
+                    ParameterInfos[407] =
+                    {
+                        Name = |     Roughness Map Detail Black Level   .
+                    }
+                    ParameterInfos[408] = { Name=|     V Offset     . }
+                    ParameterInfos[409] = { Name=Minimum rotation }
+                    ParameterInfos[410] = { Name=|     Roughness Map Intensity  . }
+                    ParameterInfos[411] = { Name=|     V Offset   . }
+                    ParameterInfos[412] = { Name=|     V Tiling Opacity .. }
+                    ParameterInfos[413] = { Name=|     Grn Spread }
+                    ParameterInfos[414] = { Name=MaxRandom_Speed }
+                    ParameterInfos[415] = { Name=|     Tint Opacity Map Contrast  . }
+                    ParameterInfos[416] = { Name=|     Normal Map Tiling      . }
+                    ParameterInfos[417] = { Name=|     Adjustment Hue . }
+                    ParameterInfos[418] = { Name=|     Heightmap Black Level  . }
+                    ParameterInfos[419] = { Name=|     Normal Map Intensity       . }
+                    ParameterInfos[420] = { Name=|     V Tiling ..... }
+                    ParameterInfos[421] = { Name=|     Normal Map Detail Tiling  . }
+                    ParameterInfos[422] = { Name=|     V Tiling }
+                    ParameterInfos[423] = { Name=UV Tiling Master  . }
+                    ParameterInfos[424] = { Name=|     Heightmap Contrast . }
+                    ParameterInfos[425] = { Name=|     U Tiling ... }
+                    ParameterInfos[426] = { Name=ECM- MaskB Speed X }
+                    ParameterInfos[427] = { Name=|     V Tiling ... }
+                    ParameterInfos[428] = { Name=|     Adjustment Saturation Low. }
+                    ParameterInfos[429] = { Name=|     Tint Map Intensity . }
+                    ParameterInfos[430] = { Name=|     VertexPaint Transition  . }
+                    ParameterInfos[431] = { Name=|     U Tiling ..... }
+                    ParameterInfos[432] = { Name=|     Blend Transition          . }
+                    ParameterInfos[433] = { Name=|     Blu FallOff }
+                    ParameterInfos[434] = { Name=|     V Tiling ....... }
+                    ParameterInfos[435] = { Name=|     Rotation Center Tint   . }
+                    ParameterInfos[436] = { Name=|     Tint Opacity Map Black Level  . }
+                    ParameterInfos[437] = { Name=|     V Offset      . }
+                    ParameterInfos[438] = { Name=UV Tiling Master ....... }
+                    ParameterInfos[439] = { Name=Dithering }
+                    ParameterInfos[440] = { Name=|     Rotation Center ..... }
+                    ParameterInfos[441] = { Name=|     V Tiling Tint }
+                    ParameterInfos[442] = { Name=|     V Offset .. }
+                    ParameterInfos[443] = { Name=|     Rotation ........ }
+                    ParameterInfos[444] = { Name=|     U Offset .... }
+                    ParameterInfos[445] = { Name=|     Rotation . }
+                    ParameterInfos[446] = { Name=UV Tiling Master Opacity ... }
+                    ParameterInfos[447] = { Name=|     BaseColor Tint Intensity . }
+                    ParameterInfos[448] = { Name=DetailTiling }
+                    ParameterInfos[449] = { Name=|     U Offset Tint   . }
+                    ParameterInfos[450] = { Name=Emissive Threshold (rb) }
+                    ParameterInfos[451] = { Name=|     U Offset Opacity ... }
+                    ParameterInfos[452] = { Name=|     Roughness Intensity        . }
+                    ParameterInfos[453] = { Name=|     Roughness Map Tiling ... }
+                    ParameterInfos[454] = { Name=|     Roughness Map Detail Tiling   . }
+                    ParameterInfos[455] = { Name=|     Rotation     . }
+                    ParameterInfos[456] = { Name=|     Roughness Map Tiling .. }
+                    ParameterInfos[457] = { Name=|     BaseColor Tint Intensity  . }
+                    ParameterInfos[458] = { Name=SphDis_emissive_border_level }
+                    ParameterInfos[459] = { Name=|     U Offset ... }
+                    ParameterInfos[460] = { Name=|     Tint Opacity Map Black Level }
+                    ParameterInfos[461] = { Name=|     Normal Map Intensity   . }
+                    ParameterInfos[462] = { Name=|     VertexPaint Contrast  . }
+                    ParameterInfos[463] = { Name=UV Channel ........ }
+                    ParameterInfos[464] = { Name=|     Tint Opacity Map Intensity  . }
+                    ParameterInfos[465] = { Name=|     V Tiling        . }
+                    ParameterInfos[466] = { Name=|     Normal Map Intensity      . }
+                    ParameterInfos[467] = { Name=|     V Tiling          . }
+                    ParameterInfos[468] = { Name=|     Roughness Map Detail Contrast  . }
+                    ParameterInfos[469] = { Name=Rain Drops Tiling }
+                    ParameterInfos[470] = { Name=EM Noise Scale }
+                    ParameterInfos[471] = { Name=|     WS Height     . }
+                    ParameterInfos[472] = { Name=|     Rotation       . }
+                    ParameterInfos[473] = { Name=|     Roughness Intensity  . }
+                    ParameterInfos[474] = { Name=|     V Tiling         . }
+                    ParameterInfos[475] = { Name=|     Normal Map Tiling }
+                    ParameterInfos[476] = { Name=UV Tiling Master ..... }
+                    ParameterInfos[477] = { Name=Custom Height Map Tiling }
+                    ParameterInfos[478] = { Name=|     BaseColor Intensity      . }
+                    ParameterInfos[479] = { Name=border_brightness (rb) }
+                    ParameterInfos[480] = { Name=|     Blend Max .. }
+                    ParameterInfos[481] = { Name=|     Rotation Center  . }
+                    ParameterInfos[482] = { Name=|     Roughness Intensity . }
+                    ParameterInfos[483] = { Name=EM Noise Distance }
+                    ParameterInfos[484] = { Name=|     BaseColor Tint Map Tiling . }
+                    ParameterInfos[485] = { Name=|     Adjustment Saturation   . }
+                    ParameterInfos[486] = { Name=|     BaseColor Map Tiling ... }
+                    ParameterInfos[487] = { Name=UV Tiling Master ... }
+                    ParameterInfos[488] = { Name=Noise_Scale }
+                    ParameterInfos[489] = { Name=|     Adjustment Hue ... }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[28] =
+                {
+                    ParameterInfos[0] = { Name=BaseColor . }
+                    ParameterInfos[1] = { Name=BaseColor      . }
+                    ParameterInfos[2] = { Name=Emmisive Color }
+                    ParameterInfos[3] = { Name=|     Tint Color . }
+                    ParameterInfos[4] = { Name=Emissive Color ..... }
+                    ParameterInfos[5] = { Name=BaseColor        . }
+                    ParameterInfos[6] = { Name=EM Color }
+                    ParameterInfos[7] = { Name=Emissive Color ...... }
+                    ParameterInfos[8] = { Name=Emissive Color ....... }
+                    ParameterInfos[9] = { Name=BaseColor    . }
+                    ParameterInfos[10] = { Name=ColorTint_Fade }
+                    ParameterInfos[11] = { Name=Pivots_Offsets }
+                    ParameterInfos[12] = { Name=Material Low Vertex Color Channel }
+                    ParameterInfos[13] = { Name=Emissive Color .... }
+                    ParameterInfos[14] = { Name=BaseColor     . }
+                    ParameterInfos[15] = { Name=constant emissive_color (rb) }
+                    ParameterInfos[16] = { Name=BaseColor .. }
+                    ParameterInfos[17] = { Name=T_Embers Color }
+                    ParameterInfos[18] = { Name=|     Tint Color  . }
+                    ParameterInfos[19] = { Name=BaseColor   . }
+                    ParameterInfos[20] = { Name=DetailTexture Color }
+                    ParameterInfos[21] = { Name=|     Tint Color   . }
+                    ParameterInfos[22] = { Name=|     Tint Color }
+                    ParameterInfos[23] = { Name=BaseColor ... }
+                    ParameterInfos[24] = { Name=Rotation axis }
+                    ParameterInfos[25] = { Name=BaseColor }
+                    ParameterInfos[26] = { Name=BaseColor  . }
+                    ParameterInfos[27] = { Name=WrinkleMap Channel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[74] =
+                {
+                    ParameterInfos[0] = { Name=EM Noise Texture }
+                    ParameterInfos[1] = { Name=|     BaseColor Tint Map   . }
+                    ParameterInfos[2] = { Name=BaseColor Map .. }
+                    ParameterInfos[3] = { Name=HRM\ORM Map     . }
+                    ParameterInfos[4] = { Name=EmmisiveMask Texture }
+                    ParameterInfos[5] = { Name=OpacityMap ... }
+                    ParameterInfos[6] = { Name=HRM\ORM Map . }
+                    ParameterInfos[7] = { Name=ECM- CrackMask }
+                    ParameterInfos[8] = { Name=Emissive Map ...... }
+                    ParameterInfos[9] = { Name=BurninatingMask }
+                    ParameterInfos[10] = { Name=Normal Map       . }
+                    ParameterInfos[11] = { Name=Blend Map RGB         . }
+                    ParameterInfos[12] = { Name=Opacity Map .... }
+                    ParameterInfos[13] = { Name=Opacity Map ....... }
+                    ParameterInfos[14] = { Name=Opacity Map          . }
+                    ParameterInfos[15] = { Name=BaseColor Map     . }
+                    ParameterInfos[16] = { Name=|     BaseColor Tint Map }
+                    ParameterInfos[17] = { Name=|     BaseColor Tint Map . }
+                    ParameterInfos[18] = { Name=Normal Map Detail  . }
+                    ParameterInfos[19] = { Name=Normal Map Detail   . }
+                    ParameterInfos[20] = { Name=BaseColor Map }
+                    ParameterInfos[21] = { Name=Normal Map     . }
+                    ParameterInfos[22] = { Name=Normal Map Detail . }
+                    ParameterInfos[23] = { Name=Roughness Map Detail  . }
+                    ParameterInfos[24] = { Name=Normal Map      . }
+                    ParameterInfos[25] = { Name=|     BaseColor Tint Map  . }
+                    ParameterInfos[26] = { Name=T_Ashes }
+                    ParameterInfos[27] = { Name=Normal Map    . }
+                    ParameterInfos[28] = { Name=Normal Map Detail }
+                    ParameterInfos[29] = { Name=Roughness Map Detail   . }
+                    ParameterInfos[30] = { Name=BaseColor Map        . }
+                    ParameterInfos[31] = { Name=HRM\ORM Map  . }
+                    ParameterInfos[32] = { Name=HRM\ORM Map   . }
+                    ParameterInfos[33] = { Name=HRM\ORM Map ... }
+                    ParameterInfos[34] = { Name=BaseColor Map . }
+                    ParameterInfos[35] = { Name=Roughness Map Detail }
+                    ParameterInfos[36] = { Name=BaseColor Map      . }
+                    ParameterInfos[37] = { Name=BaseColor Map    . }
+                    ParameterInfos[38] = { Name=HRM\ORM Map    . }
+                    ParameterInfos[39] = { Name=NormalMap_Exp01 }
+                    ParameterInfos[40] = { Name=BaseColor Map   . }
+                    ParameterInfos[41] = { Name=Normal Map   . }
+                    ParameterInfos[42] = { Name=Emissive Map .... }
+                    ParameterInfos[43] = { Name=Ramp Texture (rb) }
+                    ParameterInfos[44] = { Name=Texture (rb) }
+                    ParameterInfos[45] = { Name=dissolve_texture (tm) }
+                    ParameterInfos[46] = { Name=Normal Map ... }
+                    ParameterInfos[47] = { Name=Roughness Map Detail . }
+                    ParameterInfos[48] = { Name=Normal Map . }
+                    ParameterInfos[49] = { Name=Normal Map .. }
+                    ParameterInfos[50] = { Name=Custom HeightMap  Low. }
+                    ParameterInfos[51] = { Name=HRM\ORM Map        . }
+                    ParameterInfos[52] = { Name=Custom HeightMap }
+                    ParameterInfos[53] = { Name=HRM\ORM Map .. }
+                    ParameterInfos[54] = { Name=Custom HeightMap }
+                    ParameterInfos[55] = { Name=Normal Map        . }
+                    ParameterInfos[56] = { Name=Normal Map }
+                    ParameterInfos[57] = { Name=HRM\ORM Map      . }
+                    ParameterInfos[58] = { Name=|     Tint Opacity Map  . }
+                    ParameterInfos[59] = { Name=|     Tint Opacity Map    . }
+                    ParameterInfos[60] = { Name=|     Tint Opacity Map }
+                    ParameterInfos[61] = { Name=BaseColor Map  . }
+                    ParameterInfos[62] = { Name=Opacity Map ..... }
+                    ParameterInfos[63] = { Name=Emissive Map ..... }
+                    ParameterInfos[64] = { Name=|     Tint Opacity Map . }
+                    ParameterInfos[65] = { Name=HRM\ORM Map }
+                    ParameterInfos[66] = { Name=HRM\ORM Map Low }
+                    ParameterInfos[67] = { Name=OpacityMap .. }
+                    ParameterInfos[68] = { Name=BaseColor Map Low. }
+                    ParameterInfos[69] = { Name=Emissive Map ....... }
+                    ParameterInfos[70] = { Name=Normal Map }
+                    ParameterInfos[71] = { Name=Custom HeightMap  . }
+                    ParameterInfos[72] = { Name=BaseColor Map ... }
+                    ParameterInfos[73] = { Name=Opacity Map ...... }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[490] =
+        {
+            ScalarValues[0] = 0.2
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.5
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1
+            ScalarValues[18] = 1
+            ScalarValues[19] = 10
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0.7
+            ScalarValues[24] = 1
+            ScalarValues[25] = 1
+            ScalarValues[26] = 0
+            ScalarValues[27] = 0
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0
+            ScalarValues[30] = 100
+            ScalarValues[31] = 0
+            ScalarValues[32] = 1
+            ScalarValues[33] = 1
+            ScalarValues[34] = 1
+            ScalarValues[35] = 0
+            ScalarValues[36] = 1
+            ScalarValues[37] = 1
+            ScalarValues[38] = 1
+            ScalarValues[39] = 1
+            ScalarValues[40] = 1
+            ScalarValues[41] = 1
+            ScalarValues[42] = 0
+            ScalarValues[43] = 1
+            ScalarValues[44] = 0
+            ScalarValues[45] = 2
+            ScalarValues[46] = 0
+            ScalarValues[47] = 0
+            ScalarValues[48] = 0
+            ScalarValues[49] = 2
+            ScalarValues[50] = -0.02
+            ScalarValues[51] = 1
+            ScalarValues[52] = 1
+            ScalarValues[53] = 1
+            ScalarValues[54] = 1
+            ScalarValues[55] = 1
+            ScalarValues[56] = 1
+            ScalarValues[57] = 1
+            ScalarValues[58] = 0
+            ScalarValues[59] = 1
+            ScalarValues[60] = 0
+            ScalarValues[61] = 0
+            ScalarValues[62] = 1
+            ScalarValues[63] = 0.5
+            ScalarValues[64] = 0.5
+            ScalarValues[65] = 1
+            ScalarValues[66] = 1
+            ScalarValues[67] = 1
+            ScalarValues[68] = 0
+            ScalarValues[69] = 1
+            ScalarValues[70] = 0
+            ScalarValues[71] = 1
+            ScalarValues[72] = 0
+            ScalarValues[73] = 1
+            ScalarValues[74] = 0
+            ScalarValues[75] = 1
+            ScalarValues[76] = 1
+            ScalarValues[77] = 0.1
+            ScalarValues[78] = 0.5
+            ScalarValues[79] = 1
+            ScalarValues[80] = 0
+            ScalarValues[81] = 1
+            ScalarValues[82] = 0
+            ScalarValues[83] = 1
+            ScalarValues[84] = 1
+            ScalarValues[85] = 1
+            ScalarValues[86] = 1
+            ScalarValues[87] = 1
+            ScalarValues[88] = 0
+            ScalarValues[89] = 0
+            ScalarValues[90] = 0
+            ScalarValues[91] = 1
+            ScalarValues[92] = 3000
+            ScalarValues[93] = 1
+            ScalarValues[94] = 1
+            ScalarValues[95] = 0
+            ScalarValues[96] = 0
+            ScalarValues[97] = 1
+            ScalarValues[98] = 0
+            ScalarValues[99] = 2
+            ScalarValues[100] = 0
+            ScalarValues[101] = 1
+            ScalarValues[102] = 1
+            ScalarValues[103] = 0.3
+            ScalarValues[104] = 1
+            ScalarValues[105] = 0
+            ScalarValues[106] = 1
+            ScalarValues[107] = 1
+            ScalarValues[108] = 1
+            ScalarValues[109] = 1
+            ScalarValues[110] = 1
+            ScalarValues[111] = 1
+            ScalarValues[112] = 1
+            ScalarValues[113] = 0
+            ScalarValues[114] = 1
+            ScalarValues[115] = 0
+            ScalarValues[116] = 4000
+            ScalarValues[117] = 1
+            ScalarValues[118] = 1
+            ScalarValues[119] = 1
+            ScalarValues[120] = 2
+            ScalarValues[121] = 1
+            ScalarValues[122] = 1
+            ScalarValues[123] = 0
+            ScalarValues[124] = 0
+            ScalarValues[125] = 1
+            ScalarValues[126] = 0
+            ScalarValues[127] = 1
+            ScalarValues[128] = 100
+            ScalarValues[129] = 0
+            ScalarValues[130] = 1
+            ScalarValues[131] = 0
+            ScalarValues[132] = 1
+            ScalarValues[133] = 0
+            ScalarValues[134] = 0
+            ScalarValues[135] = 1
+            ScalarValues[136] = 1
+            ScalarValues[137] = 1
+            ScalarValues[138] = 1
+            ScalarValues[139] = 1
+            ScalarValues[140] = 0
+            ScalarValues[141] = 1
+            ScalarValues[142] = 1
+            ScalarValues[143] = 1
+            ScalarValues[144] = 1
+            ScalarValues[145] = 1
+            ScalarValues[146] = 1
+            ScalarValues[147] = 0.5
+            ScalarValues[148] = 0
+            ScalarValues[149] = 0.5
+            ScalarValues[150] = 1
+            ScalarValues[151] = 1
+            ScalarValues[152] = 0
+            ScalarValues[153] = 0
+            ScalarValues[154] = 0
+            ScalarValues[155] = 1
+            ScalarValues[156] = 0
+            ScalarValues[157] = 1
+            ScalarValues[158] = 1
+            ScalarValues[159] = 0
+            ScalarValues[160] = 0
+            ScalarValues[161] = 1
+            ScalarValues[162] = 1
+            ScalarValues[163] = 1
+            ScalarValues[164] = 0
+            ScalarValues[165] = 3
+            ScalarValues[166] = 0
+            ScalarValues[167] = 5
+            ScalarValues[168] = 1
+            ScalarValues[169] = 1
+            ScalarValues[170] = 0
+            ScalarValues[171] = 0
+            ScalarValues[172] = 1
+            ScalarValues[173] = 1
+            ScalarValues[174] = 1
+            ScalarValues[175] = 1
+            ScalarValues[176] = 1
+            ScalarValues[177] = 0.5
+            ScalarValues[178] = 1
+            ScalarValues[179] = 0
+            ScalarValues[180] = 0
+            ScalarValues[181] = 0
+            ScalarValues[182] = 0.5
+            ScalarValues[183] = 1
+            ScalarValues[184] = 1
+            ScalarValues[185] = 0
+            ScalarValues[186] = 1
+            ScalarValues[187] = 1
+            ScalarValues[188] = 0
+            ScalarValues[189] = 0
+            ScalarValues[190] = 1
+            ScalarValues[191] = 0.5
+            ScalarValues[192] = 0
+            ScalarValues[193] = 1
+            ScalarValues[194] = 1
+            ScalarValues[195] = 0.25
+            ScalarValues[196] = 1
+            ScalarValues[197] = 1
+            ScalarValues[198] = 1
+            ScalarValues[199] = 0.5
+            ScalarValues[200] = 1
+            ScalarValues[201] = 2
+            ScalarValues[202] = 1
+            ScalarValues[203] = 1
+            ScalarValues[204] = 1
+            ScalarValues[205] = 1
+            ScalarValues[206] = 1
+            ScalarValues[207] = 1
+            ScalarValues[208] = 0
+            ScalarValues[209] = 1
+            ScalarValues[210] = 0.5
+            ScalarValues[211] = 0
+            ScalarValues[212] = 1
+            ScalarValues[213] = 0
+            ScalarValues[214] = 0
+            ScalarValues[215] = 1
+            ScalarValues[216] = 0.5
+            ScalarValues[217] = 0
+            ScalarValues[218] = 0.5
+            ScalarValues[219] = 0
+            ScalarValues[220] = 0.04
+            ScalarValues[221] = 0.5
+            ScalarValues[222] = 1
+            ScalarValues[223] = 1
+            ScalarValues[224] = 0
+            ScalarValues[225] = 0
+            ScalarValues[226] = 5
+            ScalarValues[227] = 0
+            ScalarValues[228] = 0
+            ScalarValues[229] = 0
+            ScalarValues[230] = 1
+            ScalarValues[231] = 1
+            ScalarValues[232] = 1
+            ScalarValues[233] = 1
+            ScalarValues[234] = 1
+            ScalarValues[235] = 1
+            ScalarValues[236] = 0
+            ScalarValues[237] = 0
+            ScalarValues[238] = 0
+            ScalarValues[239] = 1
+            ScalarValues[240] = 0.5
+            ScalarValues[241] = 1
+            ScalarValues[242] = 0
+            ScalarValues[243] = 1
+            ScalarValues[244] = 2
+            ScalarValues[245] = 1
+            ScalarValues[246] = 1
+            ScalarValues[247] = 0
+            ScalarValues[248] = 0
+            ScalarValues[249] = 0
+            ScalarValues[250] = 0
+            ScalarValues[251] = 0
+            ScalarValues[252] = 1
+            ScalarValues[253] = 0
+            ScalarValues[254] = 1
+            ScalarValues[255] = 0
+            ScalarValues[256] = 1
+            ScalarValues[257] = 1
+            ScalarValues[258] = 1
+            ScalarValues[259] = 1
+            ScalarValues[260] = 64
+            ScalarValues[261] = 1
+            ScalarValues[262] = 0.5
+            ScalarValues[263] = 1
+            ScalarValues[264] = 1
+            ScalarValues[265] = 1
+            ScalarValues[266] = 0.5
+            ScalarValues[267] = 1
+            ScalarValues[268] = 1
+            ScalarValues[269] = 1
+            ScalarValues[270] = 1
+            ScalarValues[271] = 1
+            ScalarValues[272] = 1
+            ScalarValues[273] = 0
+            ScalarValues[274] = 0.5
+            ScalarValues[275] = 1
+            ScalarValues[276] = 1
+            ScalarValues[277] = 0
+            ScalarValues[278] = 1
+            ScalarValues[279] = 0
+            ScalarValues[280] = 1e+11
+            ScalarValues[281] = 5
+            ScalarValues[282] = 1
+            ScalarValues[283] = 0
+            ScalarValues[284] = 1
+            ScalarValues[285] = 1
+            ScalarValues[286] = 0
+            ScalarValues[287] = 1
+            ScalarValues[288] = 1
+            ScalarValues[289] = 1
+            ScalarValues[290] = 1
+            ScalarValues[291] = 0.01
+            ScalarValues[292] = 1
+            ScalarValues[293] = 0
+            ScalarValues[294] = 1
+            ScalarValues[295] = 1
+            ScalarValues[296] = 1
+            ScalarValues[297] = 0.5
+            ScalarValues[298] = 0
+            ScalarValues[299] = 0
+            ScalarValues[300] = 2
+            ScalarValues[301] = 0
+            ScalarValues[302] = 1
+            ScalarValues[303] = 0.3
+            ScalarValues[304] = 10
+            ScalarValues[305] = 1
+            ScalarValues[306] = 0
+            ScalarValues[307] = 0
+            ScalarValues[308] = 0.3
+            ScalarValues[309] = 1
+            ScalarValues[310] = 1
+            ScalarValues[311] = 1
+            ScalarValues[312] = 0
+            ScalarValues[313] = 1
+            ScalarValues[314] = 0
+            ScalarValues[315] = 1
+            ScalarValues[316] = 0.5
+            ScalarValues[317] = 0
+            ScalarValues[318] = 0
+            ScalarValues[319] = 1
+            ScalarValues[320] = 1
+            ScalarValues[321] = 0
+            ScalarValues[322] = 1
+            ScalarValues[323] = 1
+            ScalarValues[324] = 1
+            ScalarValues[325] = 0.5
+            ScalarValues[326] = 0
+            ScalarValues[327] = 0
+            ScalarValues[328] = 0
+            ScalarValues[329] = 10
+            ScalarValues[330] = 1
+            ScalarValues[331] = 1
+            ScalarValues[332] = 0
+            ScalarValues[333] = 1
+            ScalarValues[334] = 1
+            ScalarValues[335] = 1
+            ScalarValues[336] = 0
+            ScalarValues[337] = 1
+            ScalarValues[338] = 1
+            ScalarValues[339] = 1
+            ScalarValues[340] = 10
+            ScalarValues[341] = 1
+            ScalarValues[342] = 1
+            ScalarValues[343] = 0
+            ScalarValues[344] = 1
+            ScalarValues[345] = 1
+            ScalarValues[346] = 0.5
+            ScalarValues[347] = 0.5
+            ScalarValues[348] = 1
+            ScalarValues[349] = 0
+            ScalarValues[350] = 1
+            ScalarValues[351] = 1
+            ScalarValues[352] = 0
+            ScalarValues[353] = 1
+            ScalarValues[354] = 1
+            ScalarValues[355] = 1
+            ScalarValues[356] = 5
+            ScalarValues[357] = 0
+            ScalarValues[358] = 0.5
+            ScalarValues[359] = 1
+            ScalarValues[360] = 0
+            ScalarValues[361] = 10
+            ScalarValues[362] = 1
+            ScalarValues[363] = 1
+            ScalarValues[364] = 1
+            ScalarValues[365] = 1
+            ScalarValues[366] = 0.3
+            ScalarValues[367] = 0
+            ScalarValues[368] = 0.3
+            ScalarValues[369] = 1
+            ScalarValues[370] = 0
+            ScalarValues[371] = 0
+            ScalarValues[372] = 1
+            ScalarValues[373] = 0
+            ScalarValues[374] = 1
+            ScalarValues[375] = 1
+            ScalarValues[376] = 0
+            ScalarValues[377] = 1
+            ScalarValues[378] = 1
+            ScalarValues[379] = 0
+            ScalarValues[380] = 0.04
+            ScalarValues[381] = 10
+            ScalarValues[382] = 0
+            ScalarValues[383] = 1
+            ScalarValues[384] = 1
+            ScalarValues[385] = 0
+            ScalarValues[386] = 0.5
+            ScalarValues[387] = 0
+            ScalarValues[388] = 1
+            ScalarValues[389] = 0
+            ScalarValues[390] = 1
+            ScalarValues[391] = 0
+            ScalarValues[392] = 0.05
+            ScalarValues[393] = 0.3
+            ScalarValues[394] = 1
+            ScalarValues[395] = 1
+            ScalarValues[396] = 0
+            ScalarValues[397] = 0
+            ScalarValues[398] = 0
+            ScalarValues[399] = 0
+            ScalarValues[400] = 0
+            ScalarValues[401] = 0.5
+            ScalarValues[402] = 1
+            ScalarValues[403] = 0
+            ScalarValues[404] = 0.5
+            ScalarValues[405] = 1
+            ScalarValues[406] = 0
+            ScalarValues[407] = 1
+            ScalarValues[408] = 0
+            ScalarValues[409] = 0
+            ScalarValues[410] = 1
+            ScalarValues[411] = 0
+            ScalarValues[412] = 1
+            ScalarValues[413] = 0.5
+            ScalarValues[414] = 1
+            ScalarValues[415] = 0
+            ScalarValues[416] = 1
+            ScalarValues[417] = 1
+            ScalarValues[418] = 0.5
+            ScalarValues[419] = 1
+            ScalarValues[420] = 1
+            ScalarValues[421] = 1
+            ScalarValues[422] = 1
+            ScalarValues[423] = 1
+            ScalarValues[424] = 0.5
+            ScalarValues[425] = 1
+            ScalarValues[426] = -0.02
+            ScalarValues[427] = 1
+            ScalarValues[428] = 1
+            ScalarValues[429] = 1
+            ScalarValues[430] = 1
+            ScalarValues[431] = 1
+            ScalarValues[432] = 0
+            ScalarValues[433] = 0.5
+            ScalarValues[434] = 1
+            ScalarValues[435] = 0
+            ScalarValues[436] = 1
+            ScalarValues[437] = 0
+            ScalarValues[438] = 1
+            ScalarValues[439] = 1
+            ScalarValues[440] = 0
+            ScalarValues[441] = 1
+            ScalarValues[442] = 0
+            ScalarValues[443] = 0
+            ScalarValues[444] = 0
+            ScalarValues[445] = 0
+            ScalarValues[446] = 1
+            ScalarValues[447] = 1
+            ScalarValues[448] = 1
+            ScalarValues[449] = 0
+            ScalarValues[450] = 0.5
+            ScalarValues[451] = 0
+            ScalarValues[452] = 0.3
+            ScalarValues[453] = 1
+            ScalarValues[454] = 1
+            ScalarValues[455] = 0
+            ScalarValues[456] = 1
+            ScalarValues[457] = 1
+            ScalarValues[458] = 0.6
+            ScalarValues[459] = 0
+            ScalarValues[460] = 1
+            ScalarValues[461] = 1
+            ScalarValues[462] = 0
+            ScalarValues[463] = 0
+            ScalarValues[464] = 1
+            ScalarValues[465] = 1
+            ScalarValues[466] = 0.5
+            ScalarValues[467] = 1
+            ScalarValues[468] = 0
+            ScalarValues[469] = 5
+            ScalarValues[470] = 10
+            ScalarValues[471] = 1
+            ScalarValues[472] = 0
+            ScalarValues[473] = 0.5
+            ScalarValues[474] = 1
+            ScalarValues[475] = 1
+            ScalarValues[476] = 1
+            ScalarValues[477] = 1
+            ScalarValues[478] = 0.5
+            ScalarValues[479] = 25
+            ScalarValues[480] = 1
+            ScalarValues[481] = 0
+            ScalarValues[482] = 0.5
+            ScalarValues[483] = 500
+            ScalarValues[484] = 1
+            ScalarValues[485] = 1
+            ScalarValues[486] = 1
+            ScalarValues[487] = 1
+            ScalarValues[488] = 1
+            ScalarValues[489] = 1
+        }
+        VectorValues[28] =
+        {
+            VectorValues[0] = { R=0.856177, G=0, B=1, A=1 }
+            VectorValues[1] = { R=0.927083, G=0, B=0.253612, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=1, B=0.950892, A=1 }
+            VectorValues[4] = { R=1, G=0.821232, B=0, A=0 }
+            VectorValues[5] = { R=0.927083, G=0, B=0.253612, A=1 }
+            VectorValues[6] = { R=1, G=0.690196, B=0.937255, A=1 }
+            VectorValues[7] = { R=1, G=0.821232, B=0, A=0 }
+            VectorValues[8] = { R=1, G=0.821232, B=0, A=0 }
+            VectorValues[9] = { R=0.927083, G=0, B=0.253612, A=1 }
+            VectorValues[10] = { R=1, G=1, B=1, A=1 }
+            VectorValues[11] = { R=0, G=0, B=0, A=0 }
+            VectorValues[12] = { R=1, G=0, B=0, A=0 }
+            VectorValues[13] = { R=1, G=0.821232, B=0, A=0 }
+            VectorValues[14] = { R=0.212088, G=0, B=0.927083, A=1 }
+            VectorValues[15] = { R=3, G=4, B=5, A=1 }
+            VectorValues[16] = { R=0.212088, G=0, B=0.927083, A=1 }
+            VectorValues[17] = { R=1, G=0.427451, B=0.231373, A=1 }
+            VectorValues[18] = { R=0, G=1, B=0.950892, A=1 }
+            VectorValues[19] = { R=0.856177, G=0, B=1, A=1 }
+            VectorValues[20] = { R=1, G=1, B=1, A=1 }
+            VectorValues[21] = { R=0, G=1, B=0.950892, A=1 }
+            VectorValues[22] = { R=0, G=1, B=1, A=1 }
+            VectorValues[23] = { R=0.212088, G=0, B=0.927083, A=1 }
+            VectorValues[24] = { R=1, G=0.8, B=0, A=0 }
+            VectorValues[25] = { R=0.856177, G=0, B=1, A=1 }
+            VectorValues[26] = { R=0.856177, G=0, B=1, A=1 }
+            VectorValues[27] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[74] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[2] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+            TextureValues[3] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+            TextureValues[6] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[7] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+            TextureValues[8] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[9] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[10] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[11] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+            TextureValues[12] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[13] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[14] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[15] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+            TextureValues[16] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[17] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[18] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[19] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[20] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+            TextureValues[21] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[22] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[23] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+            TextureValues[24] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[25] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[26] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+            TextureValues[27] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[28] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[29] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+            TextureValues[30] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+            TextureValues[31] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[32] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[33] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[34] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+            TextureValues[35] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+            TextureValues[36] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+            TextureValues[37] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+            TextureValues[38] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[39] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+            TextureValues[40] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+            TextureValues[41] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[42] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[43] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+            TextureValues[44] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+            TextureValues[45] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+            TextureValues[46] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[47] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+            TextureValues[48] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[49] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[50] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[51] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[52] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[53] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[54] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[55] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[56] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[57] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[58] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[59] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[60] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[61] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+            TextureValues[62] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[63] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[64] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[65] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[66] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[67] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+            TextureValues[68] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+            TextureValues[69] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+            TextureValues[70] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+            TextureValues[71] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+            TextureValues[72] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+            TextureValues[73] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        }
+    }
+    ReferencedTextures[25] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+        ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+        ReferencedTextures[8] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[10] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[11] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[12] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        ReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[14] = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        ReferencedTextures[15] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[16] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Liquid/T_Rain_Drops_A.T_Rain_Drops_A'
+        ReferencedTextures[17] = Texture2D'/Game/Effects/Textures/T_BurnLUT.T_BurnLUT'
+        ReferencedTextures[18] = Texture2D'/Game/Textures/Environment/_Common/Tilable/Mask/T_Noise01.T_Noise01'
+        ReferencedTextures[19] = Texture2D'/Game/Effects/Textures/T_BurnedEmbers.T_BurnedEmbers'
+        ReferencedTextures[20] = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+        ReferencedTextures[21] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+        ReferencedTextures[22] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ReferencedTextures[23] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+        ReferencedTextures[24] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[74] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        Name = EM Noise Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = |     BaseColor Tint Map   .
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+        Name = BaseColor Map ..
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map     .
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = EmmisiveMask Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+        Name = OpacityMap ...
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map .
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        Name = ECM- CrackMask
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = Emissive Map ......
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = BurninatingMask
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map       .
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+        Name = Blend Map RGB         .
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = Opacity Map ....
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = Opacity Map .......
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = Opacity Map          .
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+        Name = BaseColor Map     .
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = |     BaseColor Tint Map
+        Group = None
+    }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = |     BaseColor Tint Map .
+        Group = None
+    }
+    CollectedTextureParameters[18] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map Detail  .
+        Group = None
+    }
+    CollectedTextureParameters[19] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map Detail   .
+        Group = None
+    }
+    CollectedTextureParameters[20] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+        Name = BaseColor Map
+        Group = None
+    }
+    CollectedTextureParameters[21] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map     .
+        Group = None
+    }
+    CollectedTextureParameters[22] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map Detail .
+        Group = None
+    }
+    CollectedTextureParameters[23] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+        Name = Roughness Map Detail  .
+        Group = None
+    }
+    CollectedTextureParameters[24] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map      .
+        Group = None
+    }
+    CollectedTextureParameters[25] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = |     BaseColor Tint Map  .
+        Group = None
+    }
+    CollectedTextureParameters[26] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_BurnedAsh.T_BurnedAsh'
+        Name = T_Ashes
+        Group = None
+    }
+    CollectedTextureParameters[27] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map    .
+        Group = None
+    }
+    CollectedTextureParameters[28] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map Detail
+        Group = None
+    }
+    CollectedTextureParameters[29] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+        Name = Roughness Map Detail   .
+        Group = None
+    }
+    CollectedTextureParameters[30] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+        Name = BaseColor Map        .
+        Group = None
+    }
+    CollectedTextureParameters[31] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map  .
+        Group = None
+    }
+    CollectedTextureParameters[32] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map   .
+        Group = None
+    }
+    CollectedTextureParameters[33] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map ...
+        Group = None
+    }
+    CollectedTextureParameters[34] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+        Name = BaseColor Map .
+        Group = None
+    }
+    CollectedTextureParameters[35] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+        Name = Roughness Map Detail
+        Group = None
+    }
+    CollectedTextureParameters[36] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+        Name = BaseColor Map      .
+        Group = None
+    }
+    CollectedTextureParameters[37] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+        Name = BaseColor Map    .
+        Group = None
+    }
+    CollectedTextureParameters[38] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map    .
+        Group = None
+    }
+    CollectedTextureParameters[39] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlatNormal_01.T_FlatNormal_01'
+        Name = NormalMap_Exp01
+        Group = None
+    }
+    CollectedTextureParameters[40] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+        Name = BaseColor Map   .
+        Group = None
+    }
+    CollectedTextureParameters[41] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map   .
+        Group = None
+    }
+    CollectedTextureParameters[42] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = Emissive Map ....
+        Group = None
+    }
+    CollectedTextureParameters[43] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        Name = Ramp Texture (rb)
+        Group = None
+    }
+    CollectedTextureParameters[44] =
+    {
+        Texture = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+        Name = Texture (rb)
+        Group = None
+    }
+    CollectedTextureParameters[45] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+        Name = dissolve_texture (tm)
+        Group = None
+    }
+    CollectedTextureParameters[46] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map ...
+        Group = None
+    }
+    CollectedTextureParameters[47] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+        Name = Roughness Map Detail .
+        Group = None
+    }
+    CollectedTextureParameters[48] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map .
+        Group = None
+    }
+    CollectedTextureParameters[49] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map ..
+        Group = None
+    }
+    CollectedTextureParameters[50] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = Custom HeightMap  Low.
+        Group = None
+    }
+    CollectedTextureParameters[51] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map        .
+        Group = None
+    }
+    CollectedTextureParameters[52] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = Custom HeightMap
+        Group = None
+    }
+    CollectedTextureParameters[53] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map ..
+        Group = None
+    }
+    CollectedTextureParameters[54] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = Custom HeightMap
+        Group = None
+    }
+    CollectedTextureParameters[55] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map        .
+        Group = None
+    }
+    CollectedTextureParameters[56] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map
+        Group = None
+    }
+    CollectedTextureParameters[57] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map      .
+        Group = None
+    }
+    CollectedTextureParameters[58] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = |     Tint Opacity Map  .
+        Group = None
+    }
+    CollectedTextureParameters[59] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = |     Tint Opacity Map    .
+        Group = None
+    }
+    CollectedTextureParameters[60] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = |     Tint Opacity Map
+        Group = None
+    }
+    CollectedTextureParameters[61] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+        Name = BaseColor Map  .
+        Group = None
+    }
+    CollectedTextureParameters[62] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = Opacity Map .....
+        Group = None
+    }
+    CollectedTextureParameters[63] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = Emissive Map .....
+        Group = None
+    }
+    CollectedTextureParameters[64] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = |     Tint Opacity Map .
+        Group = None
+    }
+    CollectedTextureParameters[65] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map
+        Group = None
+    }
+    CollectedTextureParameters[66] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = HRM\ORM Map Low
+        Group = None
+    }
+    CollectedTextureParameters[67] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMask_Default.T_RgbMask_Default'
+        Name = OpacityMap ..
+        Group = None
+    }
+    CollectedTextureParameters[68] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_DiffuseWithAlpha_Default.T_DiffuseWithAlpha_Default'
+        Name = BaseColor Map Low.
+        Group = None
+    }
+    CollectedTextureParameters[69] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = Emissive Map .......
+        Group = None
+    }
+    CollectedTextureParameters[70] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_NormalMap_Default.T_NormalMap_Default'
+        Name = Normal Map
+        Group = None
+    }
+    CollectedTextureParameters[71] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_MRH_Default.T_MRH_Default'
+        Name = Custom HeightMap  .
+        Group = None
+    }
+    CollectedTextureParameters[72] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_Diffuse_Default.T_Diffuse_Default'
+        Name = BaseColor Map ...
+        Group = None
+    }
+    CollectedTextureParameters[73] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/_Common/Defaults/T_RgbMaskWithAlpha_Default.T_RgbMaskWithAlpha_Default'
+        Name = Opacity Map ......
+        Group = None
+    }
+}
+CollectedScalarParameters[490] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=ECM- MaskA Intensity, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling Low
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = |     Normal Map Detail Tiling .
+        Group = None
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1
+        Name = |     BaseColor Opacity    .
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=1, Name=018_FadeRadius, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=|     U Offset  ., Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1
+        Name = |     Adjustment Hue     .
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0, Name=Noise_Speed_Y, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0
+        Name = |     V Offset Opacity ...
+        Group = None
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0
+        Name = |     AO Intensity         .
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=1, Name=UV Tiling Master   ., Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0
+        Name = |     V Offset        .
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0
+        Name = |     Rotation Center   .
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=1, Name=Height Map Black Level, Group=None }
+    CollectedScalarParameters[14] = { Value=0.5, Name=ECM- MaskA Tiling, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=|     U Offset ......, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 1
+        Name = |     Roughness Map Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling     .
+        Group = None
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[19] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=0, Name=UV Channel Opacity .., Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=|     U Tiling, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 0
+        Name = |     Roughness Map Contrast ..
+        Group = None
+    }
+    CollectedScalarParameters[23] = { Value=0.7, Name=T_Embers Intensity, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling    .
+        Group = None
+    }
+    CollectedScalarParameters[25] =
+    {
+        Value = 1
+        Name = |     Previous Normal Map Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[26] =
+    {
+        Value = 0
+        Name = |     Occlusion Map Contrast   .
+        Group = None
+    }
+    CollectedScalarParameters[27] =
+    {
+        Value = 0
+        Name = |     V Offset Tint   .
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=0, Name=|     Rotation   ., Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=|     U Offset Tint, Group=None }
+    CollectedScalarParameters[30] = { Value=100, Name=Burned Width, Group=None }
+    CollectedScalarParameters[31] =
+    {
+        Value = 0
+        Name = |     Rotation Center          .
+        Group = None
+    }
+    CollectedScalarParameters[32] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[33] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Black Level .
+        Group = None
+    }
+    CollectedScalarParameters[34] =
+    {
+        Value = 1
+        Name = |     V Tiling Tint   .
+        Group = None
+    }
+    CollectedScalarParameters[35] = { Value=0, Name=Maximum rotation, Group=None }
+    CollectedScalarParameters[36] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[37] =
+    {
+        Value = 1
+        Name = |     Tint Map Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[38] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Intensity ..
+        Group = None
+    }
+    CollectedScalarParameters[39] =
+    {
+        Value = 1
+        Name = |     BaseColor Intensity ..
+        Group = None
+    }
+    CollectedScalarParameters[40] =
+    {
+        Value = 1
+        Name = Height Map Contrast  Low
+        Group = None
+    }
+    CollectedScalarParameters[41] =
+    {
+        Value = 1
+        Name = |     Occlusion Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[42] =
+    {
+        Value = 0
+        Name = |     Rotation Opacity ...
+        Group = None
+    }
+    CollectedScalarParameters[43] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling     .
+        Group = None
+    }
+    CollectedScalarParameters[44] = { Value=0, Name=|     V Offset, Group=None }
+    CollectedScalarParameters[45] = { Value=2, Name=UV Channel, Group=None }
+    CollectedScalarParameters[46] = { Value=0, Name=|     Blend Min .., Group=None }
+    CollectedScalarParameters[47] =
+    {
+        Value = 0
+        Name = |     U Offset Opacity ..
+        Group = None
+    }
+    CollectedScalarParameters[48] = { Value=0, Name=UV Channel Tint ., Group=None }
+    CollectedScalarParameters[49] = { Value=2, Name=UV Channel     ., Group=None }
+    CollectedScalarParameters[50] = { Value=-0.02, Name=ECM- MaskB Speed Y, Group=None }
+    CollectedScalarParameters[51] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Intensity ...
+        Group = None
+    }
+    CollectedScalarParameters[52] =
+    {
+        Value = 1
+        Name = |     BaseColor Tint Intensity
+        Group = None
+    }
+    CollectedScalarParameters[53] =
+    {
+        Value = 1
+        Name = |     BaseColor Intensity     .
+        Group = None
+    }
+    CollectedScalarParameters[54] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Black Level   .
+        Group = None
+    }
+    CollectedScalarParameters[55] =
+    {
+        Value = 1
+        Name = |     U Tiling Opacity ..
+        Group = None
+    }
+    CollectedScalarParameters[56] = { Value=1, Name=Height Map Contrast, Group=None }
+    CollectedScalarParameters[57] =
+    {
+        Value = 1
+        Name = |     Roughness Map Black Level ...
+        Group = None
+    }
+    CollectedScalarParameters[58] = { Value=0, Name=|     V Offset ....., Group=None }
+    CollectedScalarParameters[59] = { Value=1, Name=Height Map Black Level, Group=None }
+    CollectedScalarParameters[60] =
+    {
+        Value = 0
+        Name = |     Roughness Map Contrast   .
+        Group = None
+    }
+    CollectedScalarParameters[61] = { Value=0, Name=|     U Offset   ., Group=None }
+    CollectedScalarParameters[62] =
+    {
+        Value = 1
+        Name = |     BaseColor Saturation .
+        Group = None
+    }
+    CollectedScalarParameters[63] = { Value=0.5, Name=|     Blu Spread, Group=None }
+    CollectedScalarParameters[64] = { Value=0.5, Name=|     Grn FallOff, Group=None }
+    CollectedScalarParameters[65] = { Value=1, Name=|     U Tiling .., Group=None }
+    CollectedScalarParameters[66] = { Value=1, Name=Noise_Speed, Group=None }
+    CollectedScalarParameters[67] =
+    {
+        Value = 1
+        Name = UV Tiling Master      .
+        Group = None
+    }
+    CollectedScalarParameters[68] = { Value=0, Name=UV Channel ..., Group=None }
+    CollectedScalarParameters[69] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling
+        Group = None
+    }
+    CollectedScalarParameters[70] = { Value=0, Name=|     U Offset    ., Group=None }
+    CollectedScalarParameters[71] =
+    {
+        Value = 1
+        Name = |     Occlusion Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[72] =
+    {
+        Value = 0
+        Name = |     Occlusion Map Contrast  .
+        Group = None
+    }
+    CollectedScalarParameters[73] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling        .
+        Group = None
+    }
+    CollectedScalarParameters[74] = { Value=0, Name=Hovering time offset, Group=None }
+    CollectedScalarParameters[75] =
+    {
+        Value = 1
+        Name = |     BaseColor Opacity .
+        Group = None
+    }
+    CollectedScalarParameters[76] =
+    {
+        Value = 1
+        Name = |     U Tiling         .
+        Group = None
+    }
+    CollectedScalarParameters[77] = { Value=0.1, Name=Roataion Speed, Group=None }
+    CollectedScalarParameters[78] =
+    {
+        Value = 0.5
+        Name = |     Blend Contrast          .
+        Group = None
+    }
+    CollectedScalarParameters[79] =
+    {
+        Value = 1
+        Name = |     Adjustment Hue   .
+        Group = None
+    }
+    CollectedScalarParameters[80] =
+    {
+        Value = 0
+        Name = |     Tint Opacity Map Contrast .
+        Group = None
+    }
+    CollectedScalarParameters[81] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[82] = { Value=0, Name=|     Rotation  ., Group=None }
+    CollectedScalarParameters[83] = { Value=1, Name=UV Tiling Master     ., Group=None }
+    CollectedScalarParameters[84] = { Value=1, Name=Tiling U, Group=None }
+    CollectedScalarParameters[85] =
+    {
+        Value = 1
+        Name = |     BaseColor Saturation
+        Group = None
+    }
+    CollectedScalarParameters[86] = { Value=1, Name=|     BaseColor Hue, Group=None }
+    CollectedScalarParameters[87] =
+    {
+        Value = 1
+        Name = |     Roughness Map Black Level  .
+        Group = None
+    }
+    CollectedScalarParameters[88] = { Value=0, Name=|     U Offset Tint  ., Group=None }
+    CollectedScalarParameters[89] = { Value=0, Name=|     V Offset ...., Group=None }
+    CollectedScalarParameters[90] = { Value=0, Name=|     Rotation ..., Group=None }
+    CollectedScalarParameters[91] =
+    {
+        Value = 1
+        Name = |     U Tiling Opacity ...
+        Group = None
+    }
+    CollectedScalarParameters[92] = { Value=3000, Name=EmissiveFade, Group=None }
+    CollectedScalarParameters[93] = { Value=1, Name=|     U Tiling Tint ., Group=None }
+    CollectedScalarParameters[94] =
+    {
+        Value = 1
+        Name = UV Tiling Master       .
+        Group = None
+    }
+    CollectedScalarParameters[95] = { Value=0, Name=EmissiveMask Custom, Group=None }
+    CollectedScalarParameters[96] =
+    {
+        Value = 0
+        Name = |     Rotation        .
+        Group = None
+    }
+    CollectedScalarParameters[97] =
+    {
+        Value = 1
+        Name = |     BaseColor Hue   .
+        Group = None
+    }
+    CollectedScalarParameters[98] =
+    {
+        Value = 0
+        Name = |     Roughness Map Detail Contrast   .
+        Group = None
+    }
+    CollectedScalarParameters[99] = { Value=2, Name=UV Channel ., Group=None }
+    CollectedScalarParameters[100] =
+    {
+        Value = 0
+        Name = |     Normal Map Detail Intensity
+        Group = None
+    }
+    CollectedScalarParameters[101] =
+    {
+        Value = 1
+        Name = |     Adjustment Saturation     .
+        Group = None
+    }
+    CollectedScalarParameters[102] = { Value=1, Name=|     BaseColor Hue ., Group=None }
+    CollectedScalarParameters[103] =
+    {
+        Value = 0.3
+        Name = |     Roughness Intensity ..
+        Group = None
+    }
+    CollectedScalarParameters[104] =
+    {
+        Value = 1
+        Name = |     Occlusion Map Black Level   .
+        Group = None
+    }
+    CollectedScalarParameters[105] = { Value=0, Name=|     V Offset ., Group=None }
+    CollectedScalarParameters[106] =
+    {
+        Value = 1
+        Name = |     Roughness Map Black Level ..
+        Group = None
+    }
+    CollectedScalarParameters[107] =
+    {
+        Value = 1
+        Name = |     Adjustment Saturation ..
+        Group = None
+    }
+    CollectedScalarParameters[108] =
+    {
+        Value = 1
+        Name = |     BaseColor Tint Map Tiling  .
+        Group = None
+    }
+    CollectedScalarParameters[109] =
+    {
+        Value = 1
+        Name = |     BaseColor Intensity ...
+        Group = None
+    }
+    CollectedScalarParameters[110] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Tiling .
+        Group = None
+    }
+    CollectedScalarParameters[111] =
+    {
+        Value = 1
+        Name = |     Roughness Map Black Level
+        Group = None
+    }
+    CollectedScalarParameters[112] = { Value=1, Name=Tiling V, Group=None }
+    CollectedScalarParameters[113] =
+    {
+        Value = 0
+        Name = |     Occlusion Map Contrast
+        Group = None
+    }
+    CollectedScalarParameters[114] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling .
+        Group = None
+    }
+    CollectedScalarParameters[115] = { Value=0, Name=Opacity        ., Group=None }
+    CollectedScalarParameters[116] =
+    {
+        Value = 4000
+        Name = 018_FadeRadiusDistance
+        Group = None
+    }
+    CollectedScalarParameters[117] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[118] = { Value=1, Name=CustomAmbientOcclusion, Group=None }
+    CollectedScalarParameters[119] =
+    {
+        Value = 1
+        Name = |     Normal Map Intensity ..
+        Group = None
+    }
+    CollectedScalarParameters[120] =
+    {
+        Value = 2
+        Name = SphDis_switch_radius_multiplier
+        Group = None
+    }
+    CollectedScalarParameters[121] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Black Level
+        Group = None
+    }
+    CollectedScalarParameters[122] = { Value=1, Name=Intensity, Group=None }
+    CollectedScalarParameters[123] =
+    {
+        Value = 0
+        Name = |     Rotation         .
+        Group = None
+    }
+    CollectedScalarParameters[124] =
+    {
+        Value = 0
+        Name = Emissive Border Base (rb)
+        Group = None
+    }
+    CollectedScalarParameters[125] =
+    {
+        Value = 1
+        Name = |     U Tiling Tint   .
+        Group = None
+    }
+    CollectedScalarParameters[126] = { Value=0, Name=|     V Offset ..., Group=None }
+    CollectedScalarParameters[127] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling    .
+        Group = None
+    }
+    CollectedScalarParameters[128] = { Value=100, Name=Burned Height, Group=None }
+    CollectedScalarParameters[129] =
+    {
+        Value = 0
+        Name = |     Roughness Map Contrast ...
+        Group = None
+    }
+    CollectedScalarParameters[130] = { Value=1, Name=|     U Tiling   ., Group=None }
+    CollectedScalarParameters[131] = { Value=0, Name=|     U Offset ......., Group=None }
+    CollectedScalarParameters[132] =
+    {
+        Value = 1
+        Name = EmmisiveMask TextureTiling
+        Group = None
+    }
+    CollectedScalarParameters[133] = { Value=0, Name=|     V Offset  ., Group=None }
+    CollectedScalarParameters[134] =
+    {
+        Value = 0
+        Name = |     AO Intensity (Fake)         .
+        Group = None
+    }
+    CollectedScalarParameters[135] = { Value=1, Name=|     V Tiling Tint ., Group=None }
+    CollectedScalarParameters[136] =
+    {
+        Value = 1
+        Name = Height Map Black Level Low
+        Group = None
+    }
+    CollectedScalarParameters[137] =
+    {
+        Value = 1
+        Name = |     Occlusion Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[138] = { Value=1, Name=SphDis_mask_power, Group=None }
+    CollectedScalarParameters[139] = { Value=1, Name=|     U Tiling ......., Group=None }
+    CollectedScalarParameters[140] =
+    {
+        Value = 0
+        Name = |     Rotation Center    .
+        Group = None
+    }
+    CollectedScalarParameters[141] = { Value=1, Name=ECM- MaskB Intensity, Group=None }
+    CollectedScalarParameters[142] =
+    {
+        Value = 1
+        Name = |     Normal Map Detail Tiling
+        Group = None
+    }
+    CollectedScalarParameters[143] =
+    {
+        Value = 1
+        Name = |     BaseColor Opacity  .
+        Group = None
+    }
+    CollectedScalarParameters[144] =
+    {
+        Value = 1
+        Name = |     Normal Map Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[145] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Tiling .
+        Group = None
+    }
+    CollectedScalarParameters[146] =
+    {
+        Value = 1
+        Name = |     Previous Normals Map Intensity ..
+        Group = None
+    }
+    CollectedScalarParameters[147] =
+    {
+        Value = 0.5
+        Name = |     Intensity .......
+        Group = None
+    }
+    CollectedScalarParameters[148] =
+    {
+        Value = 0
+        Name = |     Tint Opacity Map Contrast   .
+        Group = None
+    }
+    CollectedScalarParameters[149] = { Value=0.5, Name=|     Intensity ...., Group=None }
+    CollectedScalarParameters[150] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling  .
+        Group = None
+    }
+    CollectedScalarParameters[151] =
+    {
+        Value = 1
+        Name = UV Tiling Master ......
+        Group = None
+    }
+    CollectedScalarParameters[152] = { Value=0, Name=CustomMetallic, Group=None }
+    CollectedScalarParameters[153] = { Value=0, Name=UV Channel       ., Group=None }
+    CollectedScalarParameters[154] = { Value=0, Name=|     U Offset     ., Group=None }
+    CollectedScalarParameters[155] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Tiling Multiplier
+        Group = None
+    }
+    CollectedScalarParameters[156] =
+    {
+        Value = 0
+        Name = |     U Offset         .
+        Group = None
+    }
+    CollectedScalarParameters[157] =
+    {
+        Value = 1
+        Name = |     Roughness Map Intensity ...
+        Group = None
+    }
+    CollectedScalarParameters[158] = { Value=1, Name=|     U Tiling Tint, Group=None }
+    CollectedScalarParameters[159] = { Value=0, Name=|     V Offset ......., Group=None }
+    CollectedScalarParameters[160] =
+    {
+        Value = 0
+        Name = |     Rotation Center ...
+        Group = None
+    }
+    CollectedScalarParameters[161] =
+    {
+        Value = 1
+        Name = |     U Tiling          .
+        Group = None
+    }
+    CollectedScalarParameters[162] = { Value=1, Name=UV Tiling Master ., Group=None }
+    CollectedScalarParameters[163] =
+    {
+        Value = 1
+        Name = |     Occlusion Map Black Level
+        Group = None
+    }
+    CollectedScalarParameters[164] =
+    {
+        Value = 0
+        Name = |     VertexPaint Contrast .
+        Group = None
+    }
+    CollectedScalarParameters[165] = { Value=3, Name=EM Noise ScaleFar, Group=None }
+    CollectedScalarParameters[166] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[167] =
+    {
+        Value = 5
+        Name = |     WS Blend Contrast     .
+        Group = None
+    }
+    CollectedScalarParameters[168] =
+    {
+        Value = 1
+        Name = |     VertexPaint Black Level          .
+        Group = None
+    }
+    CollectedScalarParameters[169] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling        .
+        Group = None
+    }
+    CollectedScalarParameters[170] =
+    {
+        Value = 0
+        Name = |     Roughness Map Contrast
+        Group = None
+    }
+    CollectedScalarParameters[171] = { Value=0, Name=|     U Offset       ., Group=None }
+    CollectedScalarParameters[172] = { Value=1, Name=|     V Tiling   ., Group=None }
+    CollectedScalarParameters[173] =
+    {
+        Value = 1
+        Name = |     BaseColor Tint Map Tiling   .
+        Group = None
+    }
+    CollectedScalarParameters[174] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling    .
+        Group = None
+    }
+    CollectedScalarParameters[175] = { Value=1, Name=|     U Tiling       ., Group=None }
+    CollectedScalarParameters[176] = { Value=1, Name=|     V Tiling ...., Group=None }
+    CollectedScalarParameters[177] = { Value=0.5, Name=Wetness Intensity, Group=None }
+    CollectedScalarParameters[178] = { Value=1, Name=T_Embers Tiling, Group=None }
+    CollectedScalarParameters[179] = { Value=0, Name=EM Noise Speed Y, Group=None }
+    CollectedScalarParameters[180] = { Value=0, Name=|     U Offset .., Group=None }
+    CollectedScalarParameters[181] =
+    {
+        Value = 0
+        Name = |     Rotation Center Tint
+        Group = None
+    }
+    CollectedScalarParameters[182] =
+    {
+        Value = 0.5
+        Name = Emissive Border Level (rb)
+        Group = None
+    }
+    CollectedScalarParameters[183] = { Value=1, Name=Scale (tm), Group=None }
+    CollectedScalarParameters[184] =
+    {
+        Value = 1
+        Name = Custom Height Map Tiling
+        Group = None
+    }
+    CollectedScalarParameters[185] = { Value=0, Name=|     Rotation Tint ., Group=None }
+    CollectedScalarParameters[186] = { Value=1, Name=|     BaseColor Hue  ., Group=None }
+    CollectedScalarParameters[187] =
+    {
+        Value = 1
+        Name = |     Normal Map Detail Tiling   .
+        Group = None
+    }
+    CollectedScalarParameters[188] = { Value=0, Name=UV Channel Opacity ..., Group=None }
+    CollectedScalarParameters[189] =
+    {
+        Value = 0
+        Name = |     Rotation Center       .
+        Group = None
+    }
+    CollectedScalarParameters[190] = { Value=1, Name=UV Tiling Master .., Group=None }
+    CollectedScalarParameters[191] =
+    {
+        Value = 0.5
+        Name = |     Roughness Intensity
+        Group = None
+    }
+    CollectedScalarParameters[192] = { Value=0, Name=|     Rotation Tint, Group=None }
+    CollectedScalarParameters[193] =
+    {
+        Value = 1
+        Name = |     V Tiling Opacity ...
+        Group = None
+    }
+    CollectedScalarParameters[194] =
+    {
+        Value = 1
+        Name = |     Previous Normals Map Intensity    .
+        Group = None
+    }
+    CollectedScalarParameters[195] = { Value=0.25, Name=Porous Intensity, Group=None }
+    CollectedScalarParameters[196] =
+    {
+        Value = 1
+        Name = Custom Height Map Tiling
+        Group = None
+    }
+    CollectedScalarParameters[197] =
+    {
+        Value = 1
+        Name = UV Tiling Master        .
+        Group = None
+    }
+    CollectedScalarParameters[198] = { Value=1, Name=|     V Tiling    ., Group=None }
+    CollectedScalarParameters[199] =
+    {
+        Value = 0.5
+        Name = |     Roughness Intensity         .
+        Group = None
+    }
+    CollectedScalarParameters[200] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Black Level .
+        Group = None
+    }
+    CollectedScalarParameters[201] = { Value=2, Name=UV Channel   ., Group=None }
+    CollectedScalarParameters[202] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Tiling  .
+        Group = None
+    }
+    CollectedScalarParameters[203] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling   .
+        Group = None
+    }
+    CollectedScalarParameters[204] = { Value=1, Name=|     V Tiling      ., Group=None }
+    CollectedScalarParameters[205] =
+    {
+        Value = 1
+        Name = |     Roughness Map Intensity     .
+        Group = None
+    }
+    CollectedScalarParameters[206] =
+    {
+        Value = 1
+        Name = |     Roughness Map Intensity ..
+        Group = None
+    }
+    CollectedScalarParameters[207] = { Value=1, Name=Noise Opacity, Group=None }
+    CollectedScalarParameters[208] =
+    {
+        Value = 0
+        Name = |     Rotation Center .......
+        Group = None
+    }
+    CollectedScalarParameters[209] =
+    {
+        Value = 1
+        Name = |     Adjustment Hue Low.
+        Group = None
+    }
+    CollectedScalarParameters[210] =
+    {
+        Value = 0.5
+        Name = |     BaseColor Intensity    .
+        Group = None
+    }
+    CollectedScalarParameters[211] =
+    {
+        Value = 0
+        Name = |     Rotation Center Tint .
+        Group = None
+    }
+    CollectedScalarParameters[212] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Tiling  .
+        Group = None
+    }
+    CollectedScalarParameters[213] = { Value=0, Name=|     Rotation ......., Group=None }
+    CollectedScalarParameters[214] =
+    {
+        Value = 0
+        Name = |     Rotation Center      .
+        Group = None
+    }
+    CollectedScalarParameters[215] =
+    {
+        Value = 1
+        Name = |     Occlusion Map Black Level  .
+        Group = None
+    }
+    CollectedScalarParameters[216] =
+    {
+        Value = 0.5
+        Name = |     Heightmap Contrast   .
+        Group = None
+    }
+    CollectedScalarParameters[217] =
+    {
+        Value = 0
+        Name = |     Roughness Map Detail Intensity
+        Group = None
+    }
+    CollectedScalarParameters[218] =
+    {
+        Value = 0.5
+        Name = |     Opacity Intensity
+        Group = None
+    }
+    CollectedScalarParameters[219] = { Value=0, Name=|     U Offset      ., Group=None }
+    CollectedScalarParameters[220] = { Value=0.04, Name=ECM- MaskA Speed X, Group=None }
+    CollectedScalarParameters[221] = { Value=0.5, Name=Noise Amount, Group=None }
+    CollectedScalarParameters[222] = { Value=1, Name=T_Ashes Tiling, Group=None }
+    CollectedScalarParameters[223] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling ...
+        Group = None
+    }
+    CollectedScalarParameters[224] = { Value=0, Name=|     U Offset Tint ., Group=None }
+    CollectedScalarParameters[225] = { Value=0, Name=UV Channel ....., Group=None }
+    CollectedScalarParameters[226] = { Value=5, Name=Scale (rb), Group=None }
+    CollectedScalarParameters[227] =
+    {
+        Value = 0
+        Name = |     Rotation Center        .
+        Group = None
+    }
+    CollectedScalarParameters[228] =
+    {
+        Value = 0
+        Name = |     Rotation Center Opacity ..
+        Group = None
+    }
+    CollectedScalarParameters[229] =
+    {
+        Value = 0
+        Name = |     Roughness Map Detail Contrast
+        Group = None
+    }
+    CollectedScalarParameters[230] = { Value=1, Name=UV Tiling Master, Group=None }
+    CollectedScalarParameters[231] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling .
+        Group = None
+    }
+    CollectedScalarParameters[232] =
+    {
+        Value = 1
+        Name = |     BaseColor Saturation Low.
+        Group = None
+    }
+    CollectedScalarParameters[233] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling        .
+        Group = None
+    }
+    CollectedScalarParameters[234] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Intensity
+        Group = None
+    }
+    CollectedScalarParameters[235] =
+    {
+        Value = 1
+        Name = |     BaseColor Tint Map Tiling
+        Group = None
+    }
+    CollectedScalarParameters[236] = { Value=0, Name=UV Channel Tint   ., Group=None }
+    CollectedScalarParameters[237] =
+    {
+        Value = 0
+        Name = |     U Offset          .
+        Group = None
+    }
+    CollectedScalarParameters[238] = { Value=0, Name=UV Channel Tint  ., Group=None }
+    CollectedScalarParameters[239] =
+    {
+        Value = 1
+        Name = |     BaseColor Hue Low.
+        Group = None
+    }
+    CollectedScalarParameters[240] =
+    {
+        Value = 0.5
+        Name = |     Roughness Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[241] =
+    {
+        Value = 1
+        Name = |     Occlusion Map Black Level .
+        Group = None
+    }
+    CollectedScalarParameters[242] =
+    {
+        Value = 0
+        Name = |     Rotation Opacity ..
+        Group = None
+    }
+    CollectedScalarParameters[243] =
+    {
+        Value = 1
+        Name = |     Roughness Map Intensity    .
+        Group = None
+    }
+    CollectedScalarParameters[244] = { Value=2, Name=UV Channel Low., Group=None }
+    CollectedScalarParameters[245] =
+    {
+        Value = 1
+        Name = |     VertexPaint Transition   .
+        Group = None
+    }
+    CollectedScalarParameters[246] =
+    {
+        Value = 1
+        Name = |     Roughness Map Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[247] =
+    {
+        Value = 0
+        Name = SphDis_ObjectGroundPosition
+        Group = None
+    }
+    CollectedScalarParameters[248] =
+    {
+        Value = 0
+        Name = |     Rotation Center     .
+        Group = None
+    }
+    CollectedScalarParameters[249] = { Value=0, Name=|     Blend Min ..., Group=None }
+    CollectedScalarParameters[250] =
+    {
+        Value = 0
+        Name = |     Roughness Map Contrast     .
+        Group = None
+    }
+    CollectedScalarParameters[251] = { Value=0, Name=UV Channel .., Group=None }
+    CollectedScalarParameters[252] =
+    {
+        Value = 1
+        Name = UV Tiling Master Opacity ..
+        Group = None
+    }
+    CollectedScalarParameters[253] =
+    {
+        Value = 0
+        Name = |     Roughness Map Detail Contrast .
+        Group = None
+    }
+    CollectedScalarParameters[254] = { Value=1, Name=|     V Tiling .., Group=None }
+    CollectedScalarParameters[255] =
+    {
+        Value = 0
+        Name = |     V Offset          .
+        Group = None
+    }
+    CollectedScalarParameters[256] =
+    {
+        Value = 1
+        Name = |     Roughness Map Black Level     .
+        Group = None
+    }
+    CollectedScalarParameters[257] =
+    {
+        Value = 1
+        Name = |     Tint Map Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[258] = { Value=1, Name=|     V Tiling ., Group=None }
+    CollectedScalarParameters[259] = { Value=1, Name=UV Tiling Master Low., Group=None }
+    CollectedScalarParameters[260] = { Value=64, Name=Speed (rb), Group=None }
+    CollectedScalarParameters[261] =
+    {
+        Value = 1
+        Name = |     Normal Map Detail Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[262] = { Value=0.5, Name=Noise Tiling, Group=None }
+    CollectedScalarParameters[263] =
+    {
+        Value = 1
+        Name = |     BaseColor Tint Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[264] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling   .
+        Group = None
+    }
+    CollectedScalarParameters[265] = { Value=1, Name=|     U Tiling    ., Group=None }
+    CollectedScalarParameters[266] =
+    {
+        Value = 0.5
+        Name = |     Intensity .....
+        Group = None
+    }
+    CollectedScalarParameters[267] =
+    {
+        Value = 1
+        Name = |     Normal Map Intensity     .
+        Group = None
+    }
+    CollectedScalarParameters[268] =
+    {
+        Value = 1
+        Name = |     Normal Map Intensity ...
+        Group = None
+    }
+    CollectedScalarParameters[269] = { Value=1, Name=|     U Tiling  ., Group=None }
+    CollectedScalarParameters[270] = { Value=1, Name=UV Tiling Master ...., Group=None }
+    CollectedScalarParameters[271] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling ..
+        Group = None
+    }
+    CollectedScalarParameters[272] =
+    {
+        Value = 1
+        Name = Custom Height Map Tiling  Low
+        Group = None
+    }
+    CollectedScalarParameters[273] =
+    {
+        Value = 0
+        Name = |     U Offset        .
+        Group = None
+    }
+    CollectedScalarParameters[274] =
+    {
+        Value = 0.5
+        Name = |     Blend Intensity          .
+        Group = None
+    }
+    CollectedScalarParameters[275] =
+    {
+        Value = 1
+        Name = |     VertexPaint Black Level  .
+        Group = None
+    }
+    CollectedScalarParameters[276] = { Value=1, Name=|     U Tiling ......, Group=None }
+    CollectedScalarParameters[277] =
+    {
+        Value = 0
+        Name = |     Roughness Map Contrast  .
+        Group = None
+    }
+    CollectedScalarParameters[278] = { Value=1, Name=T_Ashes Intensity, Group=None }
+    CollectedScalarParameters[279] = { Value=0, Name=|     U Offset ....., Group=None }
+    CollectedScalarParameters[280] =
+    {
+        Value = 1e+11
+        Name = SphDis_ObjectHeight
+        Group = None
+    }
+    CollectedScalarParameters[281] =
+    {
+        Value = 5
+        Name = |     Blend Contrast ...
+        Group = None
+    }
+    CollectedScalarParameters[282] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Tiling
+        Group = None
+    }
+    CollectedScalarParameters[283] = { Value=0, Name=Opacity, Group=None }
+    CollectedScalarParameters[284] = { Value=1, Name=|     WS Opacity     ., Group=None }
+    CollectedScalarParameters[285] =
+    {
+        Value = 1
+        Name = |     U Tiling        .
+        Group = None
+    }
+    CollectedScalarParameters[286] =
+    {
+        Value = 0
+        Name = |     V Offset Opacity ..
+        Group = None
+    }
+    CollectedScalarParameters[287] =
+    {
+        Value = 1
+        Name = |     Occlusion Intensity
+        Group = None
+    }
+    CollectedScalarParameters[288] = { Value=1, Name=UV Tiling         ., Group=None }
+    CollectedScalarParameters[289] = { Value=1, Name=|     V Tiling  ., Group=None }
+    CollectedScalarParameters[290] =
+    {
+        Value = 1
+        Name = |     VertexPaint Transition
+        Group = None
+    }
+    CollectedScalarParameters[291] = { Value=0.01, Name=SphDis_NoiseAmount, Group=None }
+    CollectedScalarParameters[292] =
+    {
+        Value = 1
+        Name = |     Normal Map Detail Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[293] =
+    {
+        Value = 0
+        Name = |     Rotation Center Opacity ...
+        Group = None
+    }
+    CollectedScalarParameters[294] = { Value=1, Name=|     U Tiling     ., Group=None }
+    CollectedScalarParameters[295] =
+    {
+        Value = 1
+        Name = |     VertexPaint Black Level .
+        Group = None
+    }
+    CollectedScalarParameters[296] = { Value=1, Name=|     V Tiling       ., Group=None }
+    CollectedScalarParameters[297] =
+    {
+        Value = 0.5
+        Name = |     Intensity ......
+        Group = None
+    }
+    CollectedScalarParameters[298] =
+    {
+        Value = 0
+        Name = |     Tint Opacity Map Contrast
+        Group = None
+    }
+    CollectedScalarParameters[299] =
+    {
+        Value = 0
+        Name = |     Occlusion Map Contrast .
+        Group = None
+    }
+    CollectedScalarParameters[300] = { Value=2, Name=UV Channel  ., Group=None }
+    CollectedScalarParameters[301] = { Value=0, Name=|     V Offset Tint ., Group=None }
+    CollectedScalarParameters[302] = { Value=1, Name=Height Map Contrast, Group=None }
+    CollectedScalarParameters[303] =
+    {
+        Value = 0.3
+        Name = |     Roughness Intensity     .
+        Group = None
+    }
+    CollectedScalarParameters[304] = { Value=10, Name=EM Noise Intensity, Group=None }
+    CollectedScalarParameters[305] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling     .
+        Group = None
+    }
+    CollectedScalarParameters[306] =
+    {
+        Value = 0
+        Name = |     V Offset         .
+        Group = None
+    }
+    CollectedScalarParameters[307] = { Value=0, Name=|     V Offset    ., Group=None }
+    CollectedScalarParameters[308] = { Value=0.3, Name=EM Noise Speed X, Group=None }
+    CollectedScalarParameters[309] =
+    {
+        Value = 1
+        Name = |     BaseColor Saturation   .
+        Group = None
+    }
+    CollectedScalarParameters[310] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling .
+        Group = None
+    }
+    CollectedScalarParameters[311] =
+    {
+        Value = 1
+        Name = |     Adjustment Hue ..
+        Group = None
+    }
+    CollectedScalarParameters[312] = { Value=0, Name=|     Rotation ......, Group=None }
+    CollectedScalarParameters[313] = { Value=1, Name=Height Map Contrast, Group=None }
+    CollectedScalarParameters[314] = { Value=0, Name=|     V Offset ......, Group=None }
+    CollectedScalarParameters[315] =
+    {
+        Value = 1
+        Name = |     Normal Map Detail Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[316] =
+    {
+        Value = 0.5
+        Name = |     BaseColor Intensity        .
+        Group = None
+    }
+    CollectedScalarParameters[317] =
+    {
+        Value = 0
+        Name = |     Rotation Center .
+        Group = None
+    }
+    CollectedScalarParameters[318] = { Value=0, Name=|     Rotation      ., Group=None }
+    CollectedScalarParameters[319] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling      .
+        Group = None
+    }
+    CollectedScalarParameters[320] =
+    {
+        Value = 1
+        Name = |     Previous Normal Map Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[321] =
+    {
+        Value = 0
+        Name = |     Rotation Center ......
+        Group = None
+    }
+    CollectedScalarParameters[322] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling  .
+        Group = None
+    }
+    CollectedScalarParameters[323] =
+    {
+        Value = 1
+        Name = |     Roughness Map Black Level .
+        Group = None
+    }
+    CollectedScalarParameters[324] =
+    {
+        Value = 1
+        Name = |     Normal Map Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[325] =
+    {
+        Value = 0.5
+        Name = |     Normal Map Intensity    .
+        Group = None
+    }
+    CollectedScalarParameters[326] = { Value=0, Name=|     Rotation    ., Group=None }
+    CollectedScalarParameters[327] =
+    {
+        Value = 0
+        Name = |     Rotation Center ....
+        Group = None
+    }
+    CollectedScalarParameters[328] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[329] = { Value=10, Name=Hovering amount, Group=None }
+    CollectedScalarParameters[330] = { Value=1, Name=SphDis_NoiseTiling, Group=None }
+    CollectedScalarParameters[331] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling ..
+        Group = None
+    }
+    CollectedScalarParameters[332] =
+    {
+        Value = 0
+        Name = |     VertexPaint Contrast          .
+        Group = None
+    }
+    CollectedScalarParameters[333] = { Value=1, Name=CustomRoughness, Group=None }
+    CollectedScalarParameters[334] = { Value=1, Name=Noise_Speed_X, Group=None }
+    CollectedScalarParameters[335] =
+    {
+        Value = 1
+        Name = |     Normal Map Intensity
+        Group = None
+    }
+    CollectedScalarParameters[336] =
+    {
+        Value = 0
+        Name = |     VertexPaint Contrast   .
+        Group = None
+    }
+    CollectedScalarParameters[337] =
+    {
+        Value = 1
+        Name = |     BaseColor Saturation  .
+        Group = None
+    }
+    CollectedScalarParameters[338] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[339] = { Value=1, Name=ECM- MaskB Tiling, Group=None }
+    CollectedScalarParameters[340] =
+    {
+        Value = 10
+        Name = |     Blending Intensity ..
+        Group = None
+    }
+    CollectedScalarParameters[341] = { Value=1, Name=Height Map Black Level, Group=None }
+    CollectedScalarParameters[342] = { Value=1, Name=|     V Tiling ......, Group=None }
+    CollectedScalarParameters[343] =
+    {
+        Value = 0
+        Name = |     Roughness Map Contrast .
+        Group = None
+    }
+    CollectedScalarParameters[344] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling
+        Group = None
+    }
+    CollectedScalarParameters[345] =
+    {
+        Value = 1
+        Name = |     Adjustment Hue  .
+        Group = None
+    }
+    CollectedScalarParameters[346] =
+    {
+        Value = 0.5
+        Name = |     Heightmap Black Level .
+        Group = None
+    }
+    CollectedScalarParameters[347] =
+    {
+        Value = 0.5
+        Name = |     Normal Map Intensity        .
+        Group = None
+    }
+    CollectedScalarParameters[348] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Black Level  .
+        Group = None
+    }
+    CollectedScalarParameters[349] =
+    {
+        Value = 0
+        Name = |     Rotation Center Tint  .
+        Group = None
+    }
+    CollectedScalarParameters[350] = { Value=1, Name=|     V Tiling Tint  ., Group=None }
+    CollectedScalarParameters[351] =
+    {
+        Value = 1
+        Name = |     Previous Normal Map Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[352] = { Value=0, Name=UV Channel Tint, Group=None }
+    CollectedScalarParameters[353] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling   .
+        Group = None
+    }
+    CollectedScalarParameters[354] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling      .
+        Group = None
+    }
+    CollectedScalarParameters[355] = { Value=1, Name=|     U Tiling ...., Group=None }
+    CollectedScalarParameters[356] =
+    {
+        Value = 5
+        Name = |     Blend Contrast ..
+        Group = None
+    }
+    CollectedScalarParameters[357] =
+    {
+        Value = 0
+        Name = |     Rotation Tint   .
+        Group = None
+    }
+    CollectedScalarParameters[358] =
+    {
+        Value = 0.5
+        Name = |     Heightmap Black Level   .
+        Group = None
+    }
+    CollectedScalarParameters[359] =
+    {
+        Value = 1
+        Name = |     Adjustment Saturation ...
+        Group = None
+    }
+    CollectedScalarParameters[360] = { Value=0, Name=|     Rotation Tint  ., Group=None }
+    CollectedScalarParameters[361] = { Value=10, Name=EM Intensity, Group=None }
+    CollectedScalarParameters[362] =
+    {
+        Value = 1
+        Name = |     Adjustment Saturation .
+        Group = None
+    }
+    CollectedScalarParameters[363] =
+    {
+        Value = 1
+        Name = UV Tiling Master          .
+        Group = None
+    }
+    CollectedScalarParameters[364] = { Value=1, Name=UV Tiling Master    ., Group=None }
+    CollectedScalarParameters[365] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Intensity     .
+        Group = None
+    }
+    CollectedScalarParameters[366] =
+    {
+        Value = 0.3
+        Name = |     Roughness Intensity    .
+        Group = None
+    }
+    CollectedScalarParameters[367] = { Value=0, Name=|     Rotation ...., Group=None }
+    CollectedScalarParameters[368] =
+    {
+        Value = 0.3
+        Name = |     Roughness Intensity      .
+        Group = None
+    }
+    CollectedScalarParameters[369] = { Value=1, Name=|     U Tiling ., Group=None }
+    CollectedScalarParameters[370] = { Value=0, Name=|     V Offset Tint  ., Group=None }
+    CollectedScalarParameters[371] = { Value=0, Name=|     Opacity    ., Group=None }
+    CollectedScalarParameters[372] = { Value=1, Name=|     Blend Max ..., Group=None }
+    CollectedScalarParameters[373] = { Value=0, Name=|     V Offset       ., Group=None }
+    CollectedScalarParameters[374] = { Value=1, Name=|     V Tiling     ., Group=None }
+    CollectedScalarParameters[375] = { Value=1, Name=|     U Tiling Tint  ., Group=None }
+    CollectedScalarParameters[376] =
+    {
+        Value = 0
+        Name = |     Rotation Center         .
+        Group = None
+    }
+    CollectedScalarParameters[377] =
+    {
+        Value = 1
+        Name = |     Tint Map Intensity
+        Group = None
+    }
+    CollectedScalarParameters[378] =
+    {
+        Value = 1
+        Name = |     Previous Normals Map Intensity ...
+        Group = None
+    }
+    CollectedScalarParameters[379] = { Value=0, Name=|     U Offset ., Group=None }
+    CollectedScalarParameters[380] = { Value=0.04, Name=ECM- MaskA Speed Y, Group=None }
+    CollectedScalarParameters[381] =
+    {
+        Value = 10
+        Name = |     Blending Intensity ...
+        Group = None
+    }
+    CollectedScalarParameters[382] = { Value=0, Name=UV Channel         ., Group=None }
+    CollectedScalarParameters[383] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling  .
+        Group = None
+    }
+    CollectedScalarParameters[384] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling Low.
+        Group = None
+    }
+    CollectedScalarParameters[385] = { Value=0, Name=|     U Offset, Group=None }
+    CollectedScalarParameters[386] =
+    {
+        Value = 0.5
+        Name = |     Heightmap Contrast  .
+        Group = None
+    }
+    CollectedScalarParameters[387] = { Value=0, Name=UV Channel ......., Group=None }
+    CollectedScalarParameters[388] =
+    {
+        Value = 1
+        Name = |     VertexPaint Black Level   .
+        Group = None
+    }
+    CollectedScalarParameters[389] = { Value=0, Name=|     Rotation, Group=None }
+    CollectedScalarParameters[390] =
+    {
+        Value = 1
+        Name = |     Roughness Map Intensity
+        Group = None
+    }
+    CollectedScalarParameters[391] = { Value=0, Name=UV Channel          ., Group=None }
+    CollectedScalarParameters[392] = { Value=0.05, Name=Hovering speed, Group=None }
+    CollectedScalarParameters[393] =
+    {
+        Value = 0.3
+        Name = |     Roughness Intensity ...
+        Group = None
+    }
+    CollectedScalarParameters[394] =
+    {
+        Value = 1
+        Name = |     Adjustment Saturation  .
+        Group = None
+    }
+    CollectedScalarParameters[395] =
+    {
+        Value = 1
+        Name = |     Roughness Map Intensity      .
+        Group = None
+    }
+    CollectedScalarParameters[396] = { Value=0, Name=|     Rotation .., Group=None }
+    CollectedScalarParameters[397] = { Value=0, Name=|     Rotation Center, Group=None }
+    CollectedScalarParameters[398] =
+    {
+        Value = 0
+        Name = |     Rotation Center ..
+        Group = None
+    }
+    CollectedScalarParameters[399] =
+    {
+        Value = 0
+        Name = |     Rotation          .
+        Group = None
+    }
+    CollectedScalarParameters[400] = { Value=0, Name=|     V Offset Tint, Group=None }
+    CollectedScalarParameters[401] = { Value=0.5, Name=|     Red FallOff, Group=None }
+    CollectedScalarParameters[402] =
+    {
+        Value = 1
+        Name = |     Roughness Map Black Level   .
+        Group = None
+    }
+    CollectedScalarParameters[403] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[404] = { Value=0.5, Name=|     Red Spread, Group=None }
+    CollectedScalarParameters[405] = { Value=1, Name=|     U Tiling      ., Group=None }
+    CollectedScalarParameters[406] = { Value=0, Name=UV Channel ...., Group=None }
+    CollectedScalarParameters[407] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Black Level   .
+        Group = None
+    }
+    CollectedScalarParameters[408] = { Value=0, Name=|     V Offset     ., Group=None }
+    CollectedScalarParameters[409] = { Value=0, Name=Minimum rotation, Group=None }
+    CollectedScalarParameters[410] =
+    {
+        Value = 1
+        Name = |     Roughness Map Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[411] = { Value=0, Name=|     V Offset   ., Group=None }
+    CollectedScalarParameters[412] =
+    {
+        Value = 1
+        Name = |     V Tiling Opacity ..
+        Group = None
+    }
+    CollectedScalarParameters[413] = { Value=0.5, Name=|     Grn Spread, Group=None }
+    CollectedScalarParameters[414] = { Value=1, Name=MaxRandom_Speed, Group=None }
+    CollectedScalarParameters[415] =
+    {
+        Value = 0
+        Name = |     Tint Opacity Map Contrast  .
+        Group = None
+    }
+    CollectedScalarParameters[416] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling      .
+        Group = None
+    }
+    CollectedScalarParameters[417] = { Value=1, Name=|     Adjustment Hue ., Group=None }
+    CollectedScalarParameters[418] =
+    {
+        Value = 0.5
+        Name = |     Heightmap Black Level  .
+        Group = None
+    }
+    CollectedScalarParameters[419] =
+    {
+        Value = 1
+        Name = |     Normal Map Intensity       .
+        Group = None
+    }
+    CollectedScalarParameters[420] = { Value=1, Name=|     V Tiling ....., Group=None }
+    CollectedScalarParameters[421] =
+    {
+        Value = 1
+        Name = |     Normal Map Detail Tiling  .
+        Group = None
+    }
+    CollectedScalarParameters[422] = { Value=1, Name=|     V Tiling, Group=None }
+    CollectedScalarParameters[423] = { Value=1, Name=UV Tiling Master  ., Group=None }
+    CollectedScalarParameters[424] =
+    {
+        Value = 0.5
+        Name = |     Heightmap Contrast .
+        Group = None
+    }
+    CollectedScalarParameters[425] = { Value=1, Name=|     U Tiling ..., Group=None }
+    CollectedScalarParameters[426] = { Value=-0.02, Name=ECM- MaskB Speed X, Group=None }
+    CollectedScalarParameters[427] = { Value=1, Name=|     V Tiling ..., Group=None }
+    CollectedScalarParameters[428] =
+    {
+        Value = 1
+        Name = |     Adjustment Saturation Low.
+        Group = None
+    }
+    CollectedScalarParameters[429] =
+    {
+        Value = 1
+        Name = |     Tint Map Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[430] =
+    {
+        Value = 1
+        Name = |     VertexPaint Transition  .
+        Group = None
+    }
+    CollectedScalarParameters[431] = { Value=1, Name=|     U Tiling ....., Group=None }
+    CollectedScalarParameters[432] =
+    {
+        Value = 0
+        Name = |     Blend Transition          .
+        Group = None
+    }
+    CollectedScalarParameters[433] = { Value=0.5, Name=|     Blu FallOff, Group=None }
+    CollectedScalarParameters[434] = { Value=1, Name=|     V Tiling ......., Group=None }
+    CollectedScalarParameters[435] =
+    {
+        Value = 0
+        Name = |     Rotation Center Tint   .
+        Group = None
+    }
+    CollectedScalarParameters[436] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Black Level  .
+        Group = None
+    }
+    CollectedScalarParameters[437] = { Value=0, Name=|     V Offset      ., Group=None }
+    CollectedScalarParameters[438] =
+    {
+        Value = 1
+        Name = UV Tiling Master .......
+        Group = None
+    }
+    CollectedScalarParameters[439] = { Value=1, Name=Dithering, Group=None }
+    CollectedScalarParameters[440] =
+    {
+        Value = 0
+        Name = |     Rotation Center .....
+        Group = None
+    }
+    CollectedScalarParameters[441] = { Value=1, Name=|     V Tiling Tint, Group=None }
+    CollectedScalarParameters[442] = { Value=0, Name=|     V Offset .., Group=None }
+    CollectedScalarParameters[443] =
+    {
+        Value = 0
+        Name = |     Rotation ........
+        Group = None
+    }
+    CollectedScalarParameters[444] = { Value=0, Name=|     U Offset ...., Group=None }
+    CollectedScalarParameters[445] = { Value=0, Name=|     Rotation ., Group=None }
+    CollectedScalarParameters[446] =
+    {
+        Value = 1
+        Name = UV Tiling Master Opacity ...
+        Group = None
+    }
+    CollectedScalarParameters[447] =
+    {
+        Value = 1
+        Name = |     BaseColor Tint Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[448] = { Value=1, Name=DetailTiling, Group=None }
+    CollectedScalarParameters[449] =
+    {
+        Value = 0
+        Name = |     U Offset Tint   .
+        Group = None
+    }
+    CollectedScalarParameters[450] =
+    {
+        Value = 0.5
+        Name = Emissive Threshold (rb)
+        Group = None
+    }
+    CollectedScalarParameters[451] =
+    {
+        Value = 0
+        Name = |     U Offset Opacity ...
+        Group = None
+    }
+    CollectedScalarParameters[452] =
+    {
+        Value = 0.3
+        Name = |     Roughness Intensity        .
+        Group = None
+    }
+    CollectedScalarParameters[453] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling ...
+        Group = None
+    }
+    CollectedScalarParameters[454] =
+    {
+        Value = 1
+        Name = |     Roughness Map Detail Tiling   .
+        Group = None
+    }
+    CollectedScalarParameters[455] = { Value=0, Name=|     Rotation     ., Group=None }
+    CollectedScalarParameters[456] =
+    {
+        Value = 1
+        Name = |     Roughness Map Tiling ..
+        Group = None
+    }
+    CollectedScalarParameters[457] =
+    {
+        Value = 1
+        Name = |     BaseColor Tint Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[458] =
+    {
+        Value = 0.6
+        Name = SphDis_emissive_border_level
+        Group = None
+    }
+    CollectedScalarParameters[459] = { Value=0, Name=|     U Offset ..., Group=None }
+    CollectedScalarParameters[460] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Black Level
+        Group = None
+    }
+    CollectedScalarParameters[461] =
+    {
+        Value = 1
+        Name = |     Normal Map Intensity   .
+        Group = None
+    }
+    CollectedScalarParameters[462] =
+    {
+        Value = 0
+        Name = |     VertexPaint Contrast  .
+        Group = None
+    }
+    CollectedScalarParameters[463] = { Value=0, Name=UV Channel ........, Group=None }
+    CollectedScalarParameters[464] =
+    {
+        Value = 1
+        Name = |     Tint Opacity Map Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[465] =
+    {
+        Value = 1
+        Name = |     V Tiling        .
+        Group = None
+    }
+    CollectedScalarParameters[466] =
+    {
+        Value = 0.5
+        Name = |     Normal Map Intensity      .
+        Group = None
+    }
+    CollectedScalarParameters[467] =
+    {
+        Value = 1
+        Name = |     V Tiling          .
+        Group = None
+    }
+    CollectedScalarParameters[468] =
+    {
+        Value = 0
+        Name = |     Roughness Map Detail Contrast  .
+        Group = None
+    }
+    CollectedScalarParameters[469] = { Value=5, Name=Rain Drops Tiling, Group=None }
+    CollectedScalarParameters[470] = { Value=10, Name=EM Noise Scale, Group=None }
+    CollectedScalarParameters[471] = { Value=1, Name=|     WS Height     ., Group=None }
+    CollectedScalarParameters[472] = { Value=0, Name=|     Rotation       ., Group=None }
+    CollectedScalarParameters[473] =
+    {
+        Value = 0.5
+        Name = |     Roughness Intensity  .
+        Group = None
+    }
+    CollectedScalarParameters[474] =
+    {
+        Value = 1
+        Name = |     V Tiling         .
+        Group = None
+    }
+    CollectedScalarParameters[475] =
+    {
+        Value = 1
+        Name = |     Normal Map Tiling
+        Group = None
+    }
+    CollectedScalarParameters[476] = { Value=1, Name=UV Tiling Master ....., Group=None }
+    CollectedScalarParameters[477] =
+    {
+        Value = 1
+        Name = Custom Height Map Tiling
+        Group = None
+    }
+    CollectedScalarParameters[478] =
+    {
+        Value = 0.5
+        Name = |     BaseColor Intensity      .
+        Group = None
+    }
+    CollectedScalarParameters[479] =
+    {
+        Value = 25
+        Name = border_brightness (rb)
+        Group = None
+    }
+    CollectedScalarParameters[480] = { Value=1, Name=|     Blend Max .., Group=None }
+    CollectedScalarParameters[481] =
+    {
+        Value = 0
+        Name = |     Rotation Center  .
+        Group = None
+    }
+    CollectedScalarParameters[482] =
+    {
+        Value = 0.5
+        Name = |     Roughness Intensity .
+        Group = None
+    }
+    CollectedScalarParameters[483] = { Value=500, Name=EM Noise Distance, Group=None }
+    CollectedScalarParameters[484] =
+    {
+        Value = 1
+        Name = |     BaseColor Tint Map Tiling .
+        Group = None
+    }
+    CollectedScalarParameters[485] =
+    {
+        Value = 1
+        Name = |     Adjustment Saturation   .
+        Group = None
+    }
+    CollectedScalarParameters[486] =
+    {
+        Value = 1
+        Name = |     BaseColor Map Tiling ...
+        Group = None
+    }
+    CollectedScalarParameters[487] = { Value=1, Name=UV Tiling Master ..., Group=None }
+    CollectedScalarParameters[488] = { Value=1, Name=Noise_Scale, Group=None }
+    CollectedScalarParameters[489] =
+    {
+        Value = 1
+        Name = |     Adjustment Hue ...
+        Group = None
+    }
+}
+CollectedVectorParameters[28] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.856177, G=0, B=1, A=1 }
+        Name = BaseColor .
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.927083, G=0, B=0.253612, A=1 }
+        Name = BaseColor      .
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Emmisive Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=1, B=0.950892, A=1 }
+        Name = |     Tint Color .
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0.821232, B=0, A=0 }
+        Name = Emissive Color .....
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.927083, G=0, B=0.253612, A=1 }
+        Name = BaseColor        .
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=0.690196, B=0.937255, A=1 }
+        Name = EM Color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=0.821232, B=0, A=0 }
+        Name = Emissive Color ......
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=0.821232, B=0, A=0 }
+        Name = Emissive Color .......
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.927083, G=0, B=0.253612, A=1 }
+        Name = BaseColor    .
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint_Fade
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Pivots_Offsets
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Material Low Vertex Color Channel
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=0.821232, B=0, A=0 }
+        Name = Emissive Color ....
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0.212088, G=0, B=0.927083, A=1 }
+        Name = BaseColor     .
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=3, G=4, B=5, A=1 }
+        Name = constant emissive_color (rb)
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0.212088, G=0, B=0.927083, A=1 }
+        Name = BaseColor ..
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=1, G=0.427451, B=0.231373, A=1 }
+        Name = T_Embers Color
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=0, G=1, B=0.950892, A=1 }
+        Name = |     Tint Color  .
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=0.856177, G=0, B=1, A=1 }
+        Name = BaseColor   .
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DetailTexture Color
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0, G=1, B=0.950892, A=1 }
+        Name = |     Tint Color   .
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=0, G=1, B=1, A=1 }
+        Name = |     Tint Color
+        Group = None
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=0.212088, G=0, B=0.927083, A=1 }
+        Name = BaseColor ...
+        Group = None
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=1, G=0.8, B=0, A=0 }
+        Name = Rotation axis
+        Group = None
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=0.856177, G=0, B=1, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=0.856177, G=0, B=1, A=1 }
+        Name = BaseColor  .
+        Group = None
+    }
+    CollectedVectorParameters[27] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WrinkleMap Channel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 2
+        TextureName = T_MRH_Default
+    }
+}

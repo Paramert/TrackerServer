@@ -1,0 +1,125 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Large_Fire_Tile_01.T_Large_Fire_Tile_01'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Props/T_TilingNoise02_M.T_TilingNoise02_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=WPO Pan Speed X }
+                    ParameterInfos[1] = { Name=ExponentIn }
+                    ParameterInfos[2] = { Name=WPO Tiling X }
+                    ParameterInfos[3] = { Name=BoonLightBeam_Intensity }
+                    ParameterInfos[4] = { Name=WPO Pan Speed Y }
+                    ParameterInfos[5] = { Name=BaseReflectFractionIn }
+                    ParameterInfos[6] = { Name=Flowmap Intensity }
+                    ParameterInfos[7] = { Name=WPO Intensity }
+                    ParameterInfos[8] = { Name=WPO Tiling Y }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Flowmap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 0.1, 0.5, 4, 1, 0.35, 0.1, 0.25, 10, 4 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.13172, G=0.562148, B=1, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+        ReferencedTextures[1] = Texture2D'/Game/Textures/Props/T_TilingNoise02_M.T_TilingNoise02_M'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Large_Fire_Tile_01.T_Large_Fire_Tile_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+        Name = Flowmap
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=WPO Pan Speed X, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=ExponentIn, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=WPO Tiling X, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1
+        Name = BoonLightBeam_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.35, Name=WPO Pan Speed Y, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.1
+        Name = BaseReflectFractionIn
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0.25, Name=Flowmap Intensity, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=WPO Intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=4, Name=WPO Tiling Y, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.13172, G=0.562148, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Large_Fire_Tile_01
+    }
+}

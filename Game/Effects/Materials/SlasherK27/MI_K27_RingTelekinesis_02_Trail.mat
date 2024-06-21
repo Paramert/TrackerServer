@@ -1,0 +1,12 @@
+Diffuse=T_TrailLine_var_02
+Normal=T_WaterNormal
+SpecPower=T_spume_01
+Other[0]=T_Veins_04
+Other[1]=T_Moth_Wing_Displacement_01
+Other[2]=T_Noise02
+Other[3]=T_FX_Gradient_Footsteps
+Other[4]=T_reflection_map_01
+Other[5]=T_RGBclouds_map_01
+Other[6]=T_Smoke_Soft_Tile
+Other[7]=T_Tilling_Distortion_Map_01
+Other[8]=T_TrailLine_var_01

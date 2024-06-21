@@ -1,0 +1,48 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK32/ItemBox/ScanningLine/MI_UBA_K32_ItemBox_ScanningLine.MI_UBA_K32_ItemBox_ScanningLine'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK32/ItemBox/ScanningLine/MI_UBA_K32_ItemBox_ScanningLine.MI_UBA_K32_ItemBox_ScanningLine'
+        MaterialSlotName = lambert2SG1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.0555, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = lambert3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 9.88502, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = lambert4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 9.9035, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-0.723766 }
+    BoxExtent = { X=57.5104, Y=33.0145, Z=0.723766 }
+    SphereRadius = 66.3169
+}

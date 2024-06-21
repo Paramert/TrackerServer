@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedSteel_Blue01.MI_PaintedSteel_Blue01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Clean_Rusty_Steel.MI_Clean_Rusty_Steel'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_OldWood01.MI_OldWood01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedSteel_Blue01.MI_PaintedSteel_Blue01'
+        MaterialSlotName = MI_PaintedSteel_Blue01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1629.27, 2309.87, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Clean_Rusty_Steel.MI_Clean_Rusty_Steel'
+        MaterialSlotName = MI_Clean_Rusty_Steel
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1971.86, 2360.99, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_OldWood01.MI_OldWood01'
+        MaterialSlotName = MI_OldWood01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1862.3, 2408.06, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-378.976, Y=-396.18, Z=497.497 }
+    BoxExtent = { X=993.828, Y=882.841, Z=107.69 }
+    SphereRadius = 1007.36
+}

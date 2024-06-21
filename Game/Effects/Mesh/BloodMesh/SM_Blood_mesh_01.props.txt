@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/MI_NG_BloodSplash_Mesh_01.MI_NG_BloodSplash_Mesh_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/MI_NG_BloodSplash_Mesh_01.MI_NG_BloodSplash_Mesh_01'
+        MaterialSlotName = M_Blood_splash_05_mesh
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 293.087, 738.347, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=190.025, Y=-12.2667, Z=7.83482 }
+    BoxExtent = { X=214.187, Y=138.254, Z=96.1122 }
+    SphereRadius = 217.715
+}

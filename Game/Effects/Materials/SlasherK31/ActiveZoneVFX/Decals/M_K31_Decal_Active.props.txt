@@ -1,0 +1,165 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_02.Dissolve_border_gradient_02'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K31/T_Active_Decal.T_Active_Decal'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_StaticGlitch_01.T_StaticGlitch_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=ColorIntensity }
+                    ParameterInfos[1] = { Name=GlitchDistortion_Scale_Y }
+                    ParameterInfos[2] = { Name=GlitchDistortion }
+                    ParameterInfos[3] = { Name=GlowMult }
+                    ParameterInfos[4] = { Name=GlitchDistortion_Scale_X }
+                    ParameterInfos[5] = { Name=GlitchDistortion_PanSpeed_X }
+                    ParameterInfos[6] = { Name=TranslucencyMult }
+                    ParameterInfos[7] = { Name=Opacity }
+                    ParameterInfos[8] = { Name=GlitchDistortion_PanSpeed_Y }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Color2 }
+                    ParameterInfos[1] = { Name=Color1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=GradientMap }
+                    ParameterInfos[1] = { Name=Texture }
+                    ParameterInfos[2] = { Name=Glitch/Distortion_Flowmap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 20, 1, 0.03, 1, 3, 0.05, 1, 1, 0.15 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.942708, G=0.27804, B=0.00491, A=1 }
+            VectorValues[1] = { R=1, G=0.321026, B=0.03805, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_02.Dissolve_border_gradient_02'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/K31/T_Active_Decal.T_Active_Decal'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_StaticGlitch_01.T_StaticGlitch_01'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_02.Dissolve_border_gradient_02'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K31/T_Active_Decal.T_Active_Decal'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_StaticGlitch_01.T_StaticGlitch_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_02.Dissolve_border_gradient_02'
+        Name = GradientMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K31/T_Active_Decal.T_Active_Decal'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_StaticGlitch_01.T_StaticGlitch_01'
+        Name = Glitch/Distortion_Flowmap
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=20, Name=ColorIntensity, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = GlitchDistortion_Scale_Y
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.03, Name=GlitchDistortion, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=GlowMult, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 3
+        Name = GlitchDistortion_Scale_X
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.05
+        Name = GlitchDistortion_PanSpeed_X
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1, Name=TranslucencyMult, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0.15
+        Name = GlitchDistortion_PanSpeed_Y
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.942708, G=0.27804, B=0.00491, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.321026, B=0.03805, A=1 }
+        Name = Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Active_Decal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Clouds_01
+    }
+}

@@ -1,0 +1,177 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK25/M_lightning_Animated_01.M_lightning_Animated_01'
+ScalarParameterValues[12] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Distortion_Int }
+        ParameterValue = 1.38852
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Scale_DistortionTexture }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Density }
+        ParameterValue = 0.13464
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Exp_power }
+        ParameterValue = 0.452381
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Exp_power_TexRadial }
+        ParameterValue = 1.1074
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=OpacityAdd_exp }
+        ParameterValue = 1.40695
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=RadialSpinTex_Radius }
+        ParameterValue = 0.11
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Radius }
+        ParameterValue = 0.613403
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=SpiningTex_visibility }
+        ParameterValue = 31.1589
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=SpinningTex_PowerExp }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=TexRadial_visibility }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Add_OpacityMask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_FlareBloom_01.T_FlareBloom_01'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=RadialSpin_Tex }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_EyeBall_Outline_03.T_EyeBall_Outline_03'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Texture_radial }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Radial_Lightning_Sphere.T_Radial_Lightning_Sphere'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=lightning_Color }
+        ParameterValue = { R=0.471104, G=0.71682, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=ScaleUvs_Tilling }
+        ParameterValue = { R=0.6, G=0.000476, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=speed_opacity_mask }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Speed_shocks_opacity }
+        ParameterValue = { R=0, G=-1, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Tilling_SpiningMask }
+        ParameterValue = { R=-0.6, G=-0.6, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Veins2.T_Veins2'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Footstep_Drag_Mask.T_Footstep_Drag_Mask'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_EyeBall_Outline_02.T_EyeBall_Outline_02'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FlareBloom_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.203125
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}

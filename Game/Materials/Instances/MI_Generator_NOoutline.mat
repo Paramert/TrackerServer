@@ -1,0 +1,13 @@
+Diffuse=T_Generator_BC
+Normal=T_FlatNormal_01
+SpecPower=T_Generator_S
+Emissive=T_Generator_EMask
+Other[0]=T_Generator_M
+Other[1]=T_Generator_R
+Other[2]=DefaultDiffuse
+Other[3]=T_Vomit01_BC
+Other[4]=T_Vomit01_N
+Other[5]=T_Vomit01_ORM
+Other[6]=T_SmokeTile
+Other[7]=Black
+Other[8]=Yellow_Linear

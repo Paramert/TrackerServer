@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Netease/Material/Floor/Instance/MI_Floor_wood.MI_Floor_wood'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Netease/Material/Floor/Instance/MI_Floor_wood.MI_Floor_wood'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3000, 3014.41, 3049.8, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-429.186, Y=-927.484, Z=-151.017 }
+    BoxExtent = { X=2121.32, Y=2121.32, Z=0 }
+    SphereRadius = 2121.32
+}

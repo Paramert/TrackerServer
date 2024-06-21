@@ -1,0 +1,5 @@
+Diffuse=T_FlowMap_Distortion_01
+Normal=T_K30_Path_Normal_02
+Other[0]=DefaultDiffuse
+Other[1]=T_K30_PathGradient
+Other[2]=T_Perlin_Noise_M

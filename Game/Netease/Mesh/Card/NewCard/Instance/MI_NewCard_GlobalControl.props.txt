@@ -1,0 +1,195 @@
+Parent = Material3'/Game/Netease/Mesh/Card/NewCard/Master/M_NewCard.M_NewCard'
+ScalarParameterValues[11] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=GraDis_breadth }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=GraDis_NoiseAmount }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=ObjectHeight }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=ObjectGroundPosition }
+        ParameterValue = -125
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Emissive Threshold (rb) }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=DarkSideBrightness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Height2 }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Scale }
+        ParameterValue = 0.65
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=VMove }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=CardType }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=CardFrame }
+        ParameterValue = Texture2D'/Game/Netease/UI/UMGAssets/Common/Cards/NE_Common_Frame_Gold.NE_Common_Frame_Gold'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=DetailTexture Color }
+        ParameterValue = { R=0.1, G=0.033333, B=0.02, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=GlobalTint }
+        ParameterValue = { R=0.05, G=0.05, B=0.05, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=EdgeLight }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=SurfaceLight }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[6] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseDissolve }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=UseDissolveMPC }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=GenerateGradientFromWorld }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Border Ramp (rb) }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Detail Texture (rb) }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=CanInteractive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[23] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_masks_01.Dissolve_masks_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Noise_04.T_Noise_04'
+    CachedReferencedTextures[7] = Texture2D'/Game/Netease/Effect/Texture/T_EFF_rf_Noise_01.T_EFF_rf_Noise_01'
+    CachedReferencedTextures[8] = Texture2D'/Game/Netease/Effect/NewCard/t_cloud_graypack_02.t_cloud_graypack_02'
+    CachedReferencedTextures[10] = Texture2D'/Game/Netease/UI/UMGAssets/Common/Cards/New/NE_Common_Card_Channel.NE_Common_Card_Channel'
+    CachedReferencedTextures[11] = Texture2D'/Game/Netease/Effect/Texture/VX_3.VX_3'
+    CachedReferencedTextures[12] = Texture2D'/Game/Netease/UI/UMGAssets/Common/Cards/New/NE_Common_Card_Gold_Cover_Normal.NE_Common_Card_Gold_Cover_Normal'
+    CachedReferencedTextures[13] = Texture2D'/Game/Netease/UI/UMGAssets/PlayerProfile/PortraitFrames/NE_PortraitFrame_Ordinary_00000.NE_PortraitFrame_Ordinary_00000'
+    CachedReferencedTextures[14] = Texture2D'/Game/Netease/UI/UMGAssets/PlayerProfile/Portraits/NE_Portrait_Camper_003.NE_Portrait_Camper_003'
+    CachedReferencedTextures[15] = Texture2D'/Game/Netease/UI/UMGAssets/Common/Cards/NE_Common_Frame_Gold.NE_Common_Frame_Gold'
+    CachedReferencedTextures[16] = Texture2D'/Game/Netease/UI/UMGAssets/PlayerProfile/Portraits/NE_Portrait_Camper_001.NE_Portrait_Camper_001'
+    CachedReferencedTextures[17] = Texture2D'/Game/Netease/UI/UMGAssets/Common/Cards/NE_Common_Card_New.NE_Common_Card_New'
+    CachedReferencedTextures[18] = TextureCube4'/Game/Netease/Texture/HDR/RTCube_Blood01_Tex.RTCube_Blood01_Tex'
+    CachedReferencedTextures[19] = Texture2D'/Game/Netease/Mesh/Card/3D/Texture/SM_Card_Copper_n.SM_Card_Copper_n'
+    CachedReferencedTextures[20] = Texture2D'/Game/Netease/Mesh/Card/3D/Texture/SM_Card_Copper_m.SM_Card_Copper_m'
+    CachedReferencedTextures[21] = Texture2D'/Game/Netease/Mesh/Card/3D/Texture/SM_Card_Copper_d.SM_Card_Copper_d'
+    CachedReferencedTextures[22] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

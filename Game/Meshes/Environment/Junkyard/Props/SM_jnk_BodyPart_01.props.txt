@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Props/MI_JNK_BodyParts_01.MI_JNK_BodyParts_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Props/MI_JNK_BodyParts_01.MI_JNK_BodyParts_01'
+        MaterialSlotName = MI_JNK_BodyParts_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 160.269, 136.13, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.84327, Y=8.61988, Z=13.8026 }
+    BoxExtent = { X=22.6761, Y=44.4133, Z=15.9231 }
+    SphereRadius = 44.9485
+}

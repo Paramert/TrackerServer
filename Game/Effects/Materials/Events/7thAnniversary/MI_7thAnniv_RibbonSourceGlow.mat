@@ -1,0 +1,4 @@
+Diffuse=DefaultTexture
+Emissive=T_LensFlare_Magic_02
+Other[0]=T_Snowflake
+Other[1]=Fx_radialGradient

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Finland/MI_SM_Fin_Ruble.MI_SM_Fin_Ruble'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Finland/MI_SM_Fin_Ruble.MI_SM_Fin_Ruble'
+        MaterialSlotName = MI_SM_Fin_Ruble
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 711.818, 484.804, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-148.288, Y=-149.617, Z=30.5947 }
+    BoxExtent = { X=148.65, Y=149.614, Z=30.5955 }
+    SphereRadius = 212.982
+}

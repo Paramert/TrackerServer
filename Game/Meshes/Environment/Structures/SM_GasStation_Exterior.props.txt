@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedSteel_Blue01.MI_PaintedSteel_Blue01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_OldWood01.MI_OldWood01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_White01.MI_PaintedWood_White01'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_Blue01.MI_PaintedWood_Blue01'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/MI_OldConcrete01.MI_OldConcrete01'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedSteel_Blue01.MI_PaintedSteel_Blue01'
+        MaterialSlotName = MI_PaintedSteel_Blue01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1589.47, 4838.65, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_OldWood01.MI_OldWood01'
+        MaterialSlotName = MI_OldWood01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1521.82, 4757.35, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_White01.MI_PaintedWood_White01'
+        MaterialSlotName = MI_PaintedWood_White01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2251.49, 4801.75, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_PaintedWood_Blue01.MI_PaintedWood_Blue01'
+        MaterialSlotName = MI_PaintedWood_Blue01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1605.2, 4745.83, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_OldConcrete01.MI_OldConcrete01'
+        MaterialSlotName = MI_OldConcrete01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1602.33, 4763.57, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-415.321, Y=-402.963, Z=259.669 }
+    BoxExtent = { X=1012.6, Y=860.774, Z=287.331 }
+    SphereRadius = 1066.71
+}

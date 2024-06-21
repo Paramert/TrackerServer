@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_WoodDark01.MI_Ind_WoodDark01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Industrial/Structures/MI_Ind_WoodDark01.MI_Ind_WoodDark01'
+        MaterialSlotName = MI_Ind_WoodDark01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 562.628, 175.788, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.54858, Y=-0.033905, Z=2.34756 }
+    BoxExtent = { X=14.9597, Y=88.6513, Z=2.20847 }
+    SphereRadius = 88.8457
+}

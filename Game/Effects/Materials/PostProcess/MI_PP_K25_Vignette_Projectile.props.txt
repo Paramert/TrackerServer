@@ -1,0 +1,398 @@
+Parent = Material3'/Game/Effects/Materials/PostProcess/M_PP_K25_Vignette_Projectile.M_PP_K25_Vignette_Projectile'
+ScalarParameterValues[36] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Blur_Hardness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Blur_Radius }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=BlurIntensity }
+        ParameterValue = 1.55
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Light_Color_Intensity }
+        ParameterValue = 0.75
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Light_Opacity }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Light_RayRadius }
+        ParameterValue = 0.89
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Distortion_Intensity_01 }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Noise_ColorIntensity }
+        ParameterValue = 75
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Noise_External_Hardness }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Noise_External_Radius }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Noise_Internal_Hardness }
+        ParameterValue = 5.75
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Noise_Internal_Radius }
+        ParameterValue = 1.85
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Outline_Color2_Intensity }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Outline_Color_Intensity }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Outline_Erode }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Outline_Power }
+        ParameterValue = 0.825
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=Distortion_01_Intensity }
+        ParameterValue = 0.0375
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Distortion_02_Intensity }
+        ParameterValue = 0.035
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=GlowAmount }
+        ParameterValue = 2.75
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=GlowAmount_02 }
+        ParameterValue = 12.75
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=Lightning_Erode }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=Offset_Lightning_X }
+        ParameterValue = 0.044
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=Offset_Lightning_Y }
+        ParameterValue = 0.044
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=Outline_Erode_Lightning }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=Outline_Intensity_Lightning }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=Tiling_Lightning_X }
+        ParameterValue = 0.925
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=Tiling_Lightning_Y }
+        ParameterValue = 0.925
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=FadeToBlack }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=Intensity_Gateway }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=Light_Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=Noise_Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=DepthTest }
+        ParameterValue = 200
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=Outline_Intensity }
+        ParameterValue = 100
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=VignetteIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[8] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Light_Rays }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K25/T_K25_Gradient_Flicker_04.T_K25_Gradient_Flicker_04'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Noise }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K25/T_K25_Vignette_Dust.T_K25_Vignette_Dust'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Noise_FlowMap }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_FX_Flamethrower_Distortion_01_.T_FX_Flamethrower_Distortion_01_'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Noise_Mask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K25/T_K25_Vignette_Dust.T_K25_Vignette_Dust'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Distortion_01_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Distortion_02_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/FlowMap/T_FlowMap_Wavy_01.T_FlowMap_Wavy_01'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=Mask_Noise }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=Pattern }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K25/T_K25_Vignette_Teleport_03.T_K25_Vignette_Teleport_03'
+        ParameterName = None
+    }
+}
+VectorParameterValues[15] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Blur Intensity }
+        ParameterValue = { R=20, G=20, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Blur Intensity Small Detail }
+        ParameterValue = { R=5, G=5, B=5, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=12.5, G=30, B=80, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Color_Contraste }
+        ParameterValue = { R=2, G=5, B=10, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Light_Rays_Tiling }
+        ParameterValue = { R=1, G=1, B=2, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Panner_Speeds }
+        ParameterValue = { R=-0.0077, G=0, B=0.0035, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=Noise_Color }
+        ParameterValue = { R=0.25, G=0.5, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=Speeds }
+        ParameterValue = { R=-0.1, G=1, B=0.1, A=0.75 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=Tiling_Offset }
+        ParameterValue = { R=15, G=2, B=-0.5, A=-0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=Outline_Color_Layer }
+        ParameterValue = { R=0.000867, G=0.004652, B=0.010417, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=Distortion_01_Tiling_PannerSpeeds }
+        ParameterValue = { R=4, G=4, B=0.5, A=-1 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=Distortion_02_Tiling_PannerSpeeds }
+        ParameterValue = { R=5, G=5, B=-0.22, A=1.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[12] =
+    {
+        ParameterInfo = { Name=Lightning_Color }
+        ParameterValue = { R=0.25, G=0.5, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[13] =
+    {
+        ParameterInfo = { Name=Mask_Tiling_Speed }
+        ParameterValue = { R=4, G=4, B=0.25, A=0.1 }
+        ParameterName = None
+    }
+    VectorParameterValues[14] =
+    {
+        ParameterInfo = { Name=Noise_Mask_Tiling_Offset }
+        ParameterValue = { R=1.5, G=2, B=0.75, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K25/T_Gradient_Flicker.T_Gradient_Flicker'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/K25/T_K25_Power_Vignette.T_K25_Power_Vignette'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

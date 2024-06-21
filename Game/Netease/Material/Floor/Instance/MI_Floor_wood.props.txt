@@ -1,0 +1,97 @@
+Parent = Material3'/Game/Netease/Material/Floor/Master/M_Floor_Wood.M_Floor_Wood'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Metallic_strength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 2.65547
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=title }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=color }
+        ParameterValue = { R=5, G=5, B=5, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Netease/Texture/Basement_version2_Texture/T_Floor_Occlusion.T_Floor_Occlusion'
+    CachedReferencedTextures[1] = Texture2D'/Game/Netease/Texture/Basement_version2_Texture/T_Floor_BaseColor.T_Floor_BaseColor'
+    CachedReferencedTextures[2] = Texture2D'/Game/Netease/Texture/Basement_version2_Texture/T_Floor_Normal.T_Floor_Normal'
+    CachedReferencedTextures[3] = Texture2D'/Game/Netease/Texture/Basement_version2_Texture/T_Floor_Roughness.T_Floor_Roughness'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_Floor_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_Floor_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_Floor_Occlusion
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_Floor_Roughness
+    }
+}

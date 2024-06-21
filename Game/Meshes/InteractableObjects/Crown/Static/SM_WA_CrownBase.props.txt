@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Crown/Materials/MI_5thA_CrownBase_01.MI_5thA_CrownBase_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/Crown/Materials/MI_5thA_CrownBase_01.MI_5thA_CrownBase_01'
+        MaterialSlotName = MI_WA_CrownBase
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 173.336, 159.963, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.4758, Y=0.96076, Z=59.726 }
+    BoxExtent = { X=26.2406, Y=26.0941, Z=60.4072 }
+    SphereRadius = 64.8857
+}

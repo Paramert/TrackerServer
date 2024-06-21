@@ -1,0 +1,14 @@
+Diffuse=T_COM_HideGrass02_BC
+Normal=T_HideGrass01_N
+Other[0]=T_HideGrass01_ORM
+Other[1]=T_HideGrass01_Wind
+Other[2]=BlendFunc_DefBase
+Other[3]=BlendFunc_DefBlend
+Other[4]=FlatNormal
+Other[5]=Good64x64TilingNoiseHighFreq
+Other[6]=Black_Linear
+Other[7]=White_Linear
+Other[8]=Yellow_Linear
+Other[9]=T_FoliageWaves_02_N
+Other[10]=T_MapleOakLeaves01_Wind
+Other[11]=T_checker_grid

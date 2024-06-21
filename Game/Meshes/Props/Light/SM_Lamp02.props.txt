@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Trims/MI_Trim_PaintedMetal_C.MI_Trim_PaintedMetal_C'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Trims/MI_Trim_PaintedMetal_C.MI_Trim_PaintedMetal_C'
+        MaterialSlotName = MI_Trim_PaintedMetal_C
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 159.041, 118.645, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=23.4243, Z=-1.37517 }
+    BoxExtent = { X=15.3948, Y=23.3606, Z=17.2639 }
+    SphereRadius = 29.0476
+}

@@ -1,0 +1,5 @@
+Diffuse=T_DustParticles_02
+Normal=T_WaterNormal2
+Cube=T_Noise_08
+Other[0]=T_reflection_map_01
+Other[1]=T_WhispySmoke_Tile1

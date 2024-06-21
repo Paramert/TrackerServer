@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Hos_CanvasTarp01.MI_Hos_CanvasTarp01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Hos_CanvasTarp01.MI_Hos_CanvasTarp01'
+        MaterialSlotName = MI_Hos_CanvasTarp01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 247.394, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.22423, Y=1.27418, Z=54.5986 }
+    BoxExtent = { X=47.8463, Y=59.4861, Z=54.3761 }
+    SphereRadius = 79.367
+}

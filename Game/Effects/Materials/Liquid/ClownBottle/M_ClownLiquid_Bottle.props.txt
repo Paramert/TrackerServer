@@ -1,0 +1,175 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=FillHeight }
+                    ParameterInfos[1] = { Name=Liquid_ScaleTexture }
+                    ParameterInfos[2] = { Name=Liquid_XSpeedTexture }
+                    ParameterInfos[3] = { Name=Sine_Strength }
+                    ParameterInfos[4] = { Name=Liquid_EmissiveTexture }
+                    ParameterInfos[5] = { Name=Liquid_YSpeedTexture }
+                    ParameterInfos[6] = { Name=SineX_Strength }
+                    ParameterInfos[7] = { Name=Foam_FillHeight }
+                    ParameterInfos[8] = { Name=Sine_Foam_Latency }
+                    ParameterInfos[9] = { Name=Liquid_InsideMultiplier }
+                    ParameterInfos[10] = { Name=SineY_Strength }
+                    ParameterInfos[11] = { Name=GlobalEmissiveBoost }
+                    ParameterInfos[12] = { Name=Foam_Emissive }
+                    ParameterInfos[13] = { Name=Liquid_InsideExponent }
+                    ParameterInfos[14] = { Name=Liquid_ExternalGlowExponent }
+                    ParameterInfos[15] = { Name=Liquid_ExternalGlowMultiplier }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Foam_Color }
+                    ParameterInfos[1] = { Name=Liquid_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Liquid_Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 0.07
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 30
+            ScalarValues[4] = 0.5
+            ScalarValues[5] = 0.051
+            ScalarValues[6] = 0.5
+            ScalarValues[7] = 0.038
+            ScalarValues[8] = 0.75
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1.9
+            ScalarValues[12] = 0.6
+            ScalarValues[13] = 0.685714
+            ScalarValues[14] = 0
+            ScalarValues[15] = 5
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=0.926343, B=0.981586, A=1 }
+            VectorValues[1] = { R=0.151042, G=0.143693, B=0.13906, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+        Name = Liquid_Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=0.07, Name=FillHeight, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Liquid_ScaleTexture, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Liquid_XSpeedTexture, Group=None }
+    CollectedScalarParameters[3] = { Value=30, Name=Sine_Strength, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.5
+        Name = Liquid_EmissiveTexture
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.051
+        Name = Liquid_YSpeedTexture
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0.5, Name=SineX_Strength, Group=None }
+    CollectedScalarParameters[7] = { Value=0.038, Name=Foam_FillHeight, Group=None }
+    CollectedScalarParameters[8] = { Value=0.75, Name=Sine_Foam_Latency, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0
+        Name = Liquid_InsideMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=1, Name=SineY_Strength, Group=None }
+    CollectedScalarParameters[11] = { Value=1.9, Name=GlobalEmissiveBoost, Group=None }
+    CollectedScalarParameters[12] = { Value=0.6, Name=Foam_Emissive, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 0.685714
+        Name = Liquid_InsideExponent
+        Group = None
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0
+        Name = Liquid_ExternalGlowExponent
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 5
+        Name = Liquid_ExternalGlowMultiplier
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.926343, B=0.981586, A=1 }
+        Name = Foam_Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.151042, G=0.143693, B=0.13906, A=1 }
+        Name = Liquid_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

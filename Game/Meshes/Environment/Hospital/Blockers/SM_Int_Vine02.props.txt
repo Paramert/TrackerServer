@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_IntVinen01.MI_HOS_IntVinen01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_IntVinen01.MI_HOS_IntVinen01'
+        MaterialSlotName = MI_HOS_IntVinen01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 173.786, 141.557, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=11.969, Y=11.1001, Z=84.4309 }
+    BoxExtent = { X=6.31796, Y=26.8416, Z=60.4852 }
+    SphereRadius = 65.7229
+}

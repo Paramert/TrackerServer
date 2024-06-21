@@ -1,0 +1,5 @@
+Diffuse=T_Blood_Hand
+Normal=T_WaterNormal3
+SpecPower=T_Sphere_Tileable
+Other[0]=White
+Other[1]=T_SmokeTile

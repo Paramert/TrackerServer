@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_ElectricPole01.MI_ElectricPole01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_GenericMetal01.MI_Eng_GenericMetal01'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_AltHouse02_Metal01.MI_Eng_AltHouse02_Metal01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_ElectricPole01.MI_ElectricPole01'
+        MaterialSlotName = MI_Eng_ElectricPoleWood01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 358.975, 2219.75, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_GenericMetal01.MI_Eng_GenericMetal01'
+        MaterialSlotName = MI_Eng_MetalRust01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 140.194, 2667.46, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_AltHouse02_Metal01.MI_Eng_AltHouse02_Metal01'
+        MaterialSlotName = MI_Eng_Wire01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.1778, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-29.5249, Y=-1609.09, Z=474.527 }
+    BoxExtent = { X=226.936, Y=28.8369, Z=482.076 }
+    SphereRadius = 501.745
+}

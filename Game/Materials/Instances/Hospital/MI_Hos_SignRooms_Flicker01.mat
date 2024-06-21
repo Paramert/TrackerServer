@@ -1,0 +1,7 @@
+Diffuse=T_Hos_SignRooms01_BC
+Normal=T_Qat_MetalMiscellaneous01_N
+Opacity=T_Hos_SignRooms01_E
+Other[0]=T_Brick01_BC
+Other[1]=Black
+Other[2]=Black_Linear
+Other[3]=T_Normal_Noise

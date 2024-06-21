@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_EntityWindow_Dissolve.MI_EntityWindow_Dissolve'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_EntityWindow_Dissolve.MI_EntityWindow_Dissolve'
+        MaterialSlotName = MI_EntityWindow_Dissolve
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 474.398, 57.8109, 176.846, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.67167, Y=-4.55186, Z=52.3172 }
+    BoxExtent = { X=33.8869, Y=31.8397, Z=57.9085 }
+    SphereRadius = 64.4491
+}

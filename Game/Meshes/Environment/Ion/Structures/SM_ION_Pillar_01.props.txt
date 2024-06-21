@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Pillar_01.MI_ION_Pillar_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_Pillar_01.MI_ION_Pillar_01'
+        MaterialSlotName = MI_ION_Pillar_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 508.898, 510.358, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.66173, Y=11.1598, Z=204.638 }
+    BoxExtent = { X=58.4537, Y=58.2346, Z=204.638 }
+    SphereRadius = 220.646
+}

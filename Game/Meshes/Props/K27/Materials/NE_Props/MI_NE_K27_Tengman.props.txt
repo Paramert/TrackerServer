@@ -1,0 +1,467 @@
+Parent = MaterialInstanceConstant'/Game/Characters/Slashers/Materials/Instances/MI_Slasher_Ice.MI_Slasher_Ice'
+ScalarParameterValues[40] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=EmissiveIntensity }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColorBrightness }
+        ParameterValue = 0.175
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=UnderReflectionScale }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=IceCracksHeight }
+        ParameterValue = -4.43787
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=UnderCrackIntensity }
+        ParameterValue = 5.87359
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=IceBrightness }
+        ParameterValue = 2.15575
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=IceReflectionNoise }
+        ParameterValue = 4.91525
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=ReflectionVectorContribution }
+        ParameterValue = 0.849464
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=ReflectionVectorLerp }
+        ParameterValue = 0.143969
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=BoostCore }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=I_NormalWS_Alpha }
+        ParameterValue = 2.05636
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=DeepCoreIntensity }
+        ParameterValue = 0.924665
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=FresnelPower }
+        ParameterValue = 1.1082
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=IceClearness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=SubsurfaceNoiseFade }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=BigDetailNormalTiling }
+        ParameterValue = 1.04181
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=DetailNormalTiling }
+        ParameterValue = 3.71614
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=EdgeFlatness }
+        ParameterValue = 35.2487
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=NormalFlatness_Detail }
+        ParameterValue = 0.466986
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=HeightOuter }
+        ParameterValue = 92
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=HeightOuterPow }
+        ParameterValue = 1.85
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=Outer_BoostCore }
+        ParameterValue = 3.5
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=Outer_NormalWS_Alpha }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=Outer_Power }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=RoughnessMax }
+        ParameterValue = -1.1091
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=RoughnessMin }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=SpecMax }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=SpecMin }
+        ParameterValue = 0.66
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=SpecularTiling }
+        ParameterValue = 50
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=Master_Texture_Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=UnderRockTiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=UnderRockContrast }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=UnderRockHeight }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=UnderRockIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=AO_Intensity }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=AO_Power }
+        ParameterValue = 11.1
+        ParameterName = None
+    }
+    ScalarParameterValues[36] =
+    {
+        ParameterInfo = { Name=NoiseTiling }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[37] =
+    {
+        ParameterInfo = { Name=NormalFlatness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[38] =
+    {
+        ParameterInfo = { Name=UnderIceBumpIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[39] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[9] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=T_BumpOffset }
+        ParameterValue = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Naki2.T_Noise_Naki2'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=T_DeepCracks }
+        ParameterValue = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_Veins.T_Aurora_Veins'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=T_BigDetailNormal }
+        ParameterValue = Texture2D'/Game/Meshes/Props/K27/Textures/NE_Props/NE_K27_Tengman_N.NE_K27_Tengman_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=T_DetailNormal }
+        ParameterValue = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Glacier_Cap_N.T_Glacier_Cap_N'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=T_Normal }
+        ParameterValue = Texture2D'/Game/Meshes/Props/K27/Textures/NE_Props/NE_K27_Tengman_N.NE_K27_Tengman_N'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=T_Specular }
+        ParameterValue = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Anisotropic.T_Noise_Anisotropic'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=T_UnderRock }
+        ParameterValue = Texture2D'/Game/Meshes/Props/K27/Textures/NE_Props/NE_K27_Tengman_BC.NE_K27_Tengman_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=T_PrimaryColor }
+        ParameterValue = Texture2D'/Game/Meshes/Props/K27/Textures/NE_Props/NE_K27_Tengman_BC.NE_K27_Tengman_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = { Name=T_Subsurface }
+        ParameterValue = Texture2D'/Game/Meshes/Props/K27/Textures/NE_Props/NE_K27_Tengman_BC.NE_K27_Tengman_BC'
+        ParameterName = None
+    }
+}
+VectorParameterValues[8] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=IceColor }
+        ParameterValue = { R=0.312911, G=0.325, B=0.294344, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=DeepIceColour }
+        ParameterValue = { R=0, G=0.325, B=0.266885, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=InnerCoreColor }
+        ParameterValue = { R=0.442301, G=0.47126, B=0.671875, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=InnerCoreColor_Down }
+        ParameterValue = { R=0, G=0.380811, B=0.665, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=OuterCoreColor }
+        ParameterValue = { R=0.117188, G=0.220537, B=0.28125, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=OuterCoreColor_Down }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=Subsurface }
+        ParameterValue = { R=0.061849, G=0.064604, B=0.078125, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=SubsurfaceEdge }
+        ParameterValue = { R=1.64841, G=2.45113, B=5, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[25] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_body_Aurora_DEMO.T_Aurora_body_Aurora_DEMO'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    CachedReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/White.White'
+    CachedReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/Green_Linear.Green_Linear'
+    CachedReferencedTextures[11] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_Noise_N.T_Aurora_Noise_N'
+    CachedReferencedTextures[12] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Water.T_Noise_Water'
+    CachedReferencedTextures[13] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Normal.T_Normal'
+    CachedReferencedTextures[14] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Glacier_Cap_N.T_Glacier_Cap_N'
+    CachedReferencedTextures[15] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Aurora_Veins.T_Aurora_Veins'
+    CachedReferencedTextures[16] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Anisotropic.T_Noise_Anisotropic'
+    CachedReferencedTextures[17] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Noise_Naki2.T_Noise_Naki2'
+    CachedReferencedTextures[18] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Crunchy_2_D.T_Crunchy_2_D'
+    CachedReferencedTextures[19] = Texture2D'/Game/Characters/Campers/Textures/Ice/T_Metal_Lights_S.T_Metal_Lights_S'
+    CachedReferencedTextures[20] = Texture2D'/Game/Characters/Slashers/Witch/Textures/NE_Outfit001/Tex2/HK_Outfit001_Base_Color.HK_Outfit001_Base_Color'
+    CachedReferencedTextures[21] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    CachedReferencedTextures[22] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+    CachedReferencedTextures[23] = Texture2D'/Game/Netease/Texture/skin_lut.skin_lut'
+    CachedReferencedTextures[24] = Texture2D'/Game/Effects/Textures/K31/T_Halftone.T_Halftone'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[10] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = NE_K27_Tengman_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.03125
+        UVChannelIndex = 0
+        TextureName = NE_K27_Tengman_BC
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_K27_Tengman_BC
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_K27_Tengman_N
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1.04688
+        UVChannelIndex = 0
+        TextureName = NE_K27_Tengman_N
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1.80859
+        UVChannelIndex = 0
+        TextureName = T_Aurora_Veins
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 3.71875
+        UVChannelIndex = 0
+        TextureName = T_Glacier_Cap_N
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 49.9824
+        UVChannelIndex = 0
+        TextureName = T_Noise_Anisotropic
+    }
+    TextureStreamingData[8] =
+    {
+        SamplingScale = 1.00464
+        UVChannelIndex = 0
+        TextureName = T_Noise_Naki2
+    }
+    TextureStreamingData[9] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = White
+    }
+}

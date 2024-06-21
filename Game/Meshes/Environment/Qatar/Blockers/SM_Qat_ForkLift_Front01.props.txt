@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Forklift01.MI_Qat_Forklift01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Forklift01.MI_Qat_Forklift01'
+        MaterialSlotName = MI_Qat_Forklift01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 618.521, 618.521, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.12384, Y=131.337, Z=58.4334 }
+    BoxExtent = { X=49.6443, Y=77.4258, Z=54.0033 }
+    SphereRadius = 104.747
+}

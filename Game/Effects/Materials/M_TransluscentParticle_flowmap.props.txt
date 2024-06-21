@@ -1,0 +1,111 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=FloawmapTextureUV }
+                    ParameterInfos[1] = { Name=TextureUV }
+                    ParameterInfos[2] = { Name=Emissive }
+                    ParameterInfos[3] = { Name=FlowmapStrength }
+                    ParameterInfos[4] = { Name=FadeDistance }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=FLowmapSpeed }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                    ParameterInfos[1] = { Name=Flowmap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 1, 1, 0, 1, 25 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_WhispySmoke_Tile1.T_WhispySmoke_Tile1'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+        Name = Flowmap
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=FloawmapTextureUV, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=TextureUV, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Emissive, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=FlowmapStrength, Group=None }
+    CollectedScalarParameters[4] = { Value=25, Name=FadeDistance, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FLowmapSpeed
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WhispySmoke_Tile1
+    }
+}

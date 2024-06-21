@@ -1,0 +1,194 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_radialGradient.T_radialGradient'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03_N.T_Tiling_Cloud_03_N'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_04.T_Tiling_Cloud_04'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[21] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=TexRotation }
+                    ParameterInfos[2] = { Name=MaskTexTiling_X }
+                    ParameterInfos[3] = { Name=MaskTexScale }
+                    ParameterInfos[4] = { Name=Specular }
+                    ParameterInfos[5] = { Name=MaskTexRotation }
+                    ParameterInfos[6] = { Name=MaskTexScroll_Y }
+                    ParameterInfos[7] = { Name=TexScroll_X }
+                    ParameterInfos[8] = { Name=TexTiling_X }
+                    ParameterInfos[9] = { Name=MaskGlobalPower }
+                    ParameterInfos[10] = { Name=NormalFlatten }
+                    ParameterInfos[11] = { Name=TexTiling_Y }
+                    ParameterInfos[12] = { Name=TexScale }
+                    ParameterInfos[13] = { Name=MaskTexIntensity }
+                    ParameterInfos[14] = { Name=MaskTexScroll_X }
+                    ParameterInfos[15] = { Name=TexScroll_Y }
+                    ParameterInfos[16] = { Name=MaskTexTiling_Y }
+                    ParameterInfos[17] = { Name=Opacity }
+                    ParameterInfos[18] = { Name=MaskNoiseTexIntensity }
+                    ParameterInfos[19] = { Name=Metalic }
+                    ParameterInfos[20] = { Name=BaseColorIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Param_1 }
+                    ParameterInfos[1] = { Name=Param }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=MaskTex }
+                    ParameterInfos[1] = { Name=NormalTex }
+                    ParameterInfos[2] = { Name=BaseTex }
+                    ParameterInfos[3] = { Name=MaskNoiseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[21] =
+        {
+            ScalarValues[0] = 0.05
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0.9
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0.1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 1
+            ScalarValues[13] = 5
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0.15
+            ScalarValues[16] = 0.25
+            ScalarValues[17] = 1
+            ScalarValues[18] = 5
+            ScalarValues[19] = 0.5
+            ScalarValues[20] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.015209, G=0.006512, B=0.005182, A=1 }
+            VectorValues[1] = { R=0.234551, G=0.111933, B=0.165132, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_radialGradient.T_radialGradient'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03_N.T_Tiling_Cloud_03_N'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_04.T_Tiling_Cloud_04'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03_N.T_Tiling_Cloud_03_N'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_04.T_Tiling_Cloud_04'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_radialGradient.T_radialGradient'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_radialGradient.T_radialGradient'
+        Name = MaskTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03_N.T_Tiling_Cloud_03_N'
+        Name = NormalTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_03.T_Tiling_Cloud_03'
+        Name = BaseTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tiling_Cloud_04.T_Tiling_Cloud_04'
+        Name = MaskNoiseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[21] =
+{
+    CollectedScalarParameters[0] = { Value=0.05, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=TexRotation, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=MaskTexTiling_X, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=MaskTexScale, Group=None }
+    CollectedScalarParameters[4] = { Value=0.9, Name=Specular, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=MaskTexRotation, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=MaskTexScroll_Y, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=TexScroll_X, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=TexTiling_X, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=MaskGlobalPower, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=NormalFlatten, Group=None }
+    CollectedScalarParameters[11] = { Value=0.5, Name=TexTiling_Y, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=TexScale, Group=None }
+    CollectedScalarParameters[13] = { Value=5, Name=MaskTexIntensity, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=MaskTexScroll_X, Group=None }
+    CollectedScalarParameters[15] = { Value=0.15, Name=TexScroll_Y, Group=None }
+    CollectedScalarParameters[16] = { Value=0.25, Name=MaskTexTiling_Y, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[18] = { Value=5, Name=MaskNoiseTexIntensity, Group=None }
+    CollectedScalarParameters[19] = { Value=0.5, Name=Metalic, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=BaseColorIntensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.015209, G=0.006512, B=0.005182, A=1 }
+        Name = Param_1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.234551, G=0.111933, B=0.165132, A=1 }
+        Name = Param
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_radialGradient
+    }
+}

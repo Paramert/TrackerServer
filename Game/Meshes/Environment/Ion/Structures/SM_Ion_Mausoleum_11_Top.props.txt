@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Tilable.MI_Ion_Trimsheet_A_Tilable'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_B_02_Sand.MI_Ion_Trimsheet_B_02_Sand'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_ConcreteTrim01.MI_ION_ConcreteTrim01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_A_Tilable.MI_Ion_Trimsheet_A_Tilable'
+        MaterialSlotName = MI_Ion_Trimsheet_A_Tilable_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 187.465, 568.166, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_Ion_Trimsheet_B_02_Sand.MI_Ion_Trimsheet_B_02_Sand'
+        MaterialSlotName = MI_Ion_TrimSheet_B_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 308.78, 597.38, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Structures/MI_ION_ConcreteTrim01.MI_ION_ConcreteTrim01'
+        MaterialSlotName = MI_ION_ConcreteTrim02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 285.696, 563.648, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=70.477, Y=-160.884, Z=97.5736 }
+    BoxExtent = { X=96.4297, Y=170.12, Z=13.3219 }
+    SphereRadius = 183.517
+}

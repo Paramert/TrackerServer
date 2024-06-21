@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/ClockBubble/Materials/MI_ClockBubble_Drawer01.MI_ClockBubble_Drawer01'
+    Materials[1] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/ClockBubble/Materials/MI_ClockBubble_Dirt01.MI_ClockBubble_Dirt01'
+    Materials[2] = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/ClockBubble/Materials/MI_ClockBubble_Root01.MI_ClockBubble_Root01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/ClockBubble/Materials/MI_ClockBubble_Drawer01.MI_ClockBubble_Drawer01'
+        MaterialSlotName = MI_ClockBubble_Drawer01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 231.78, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/ClockBubble/Materials/MI_ClockBubble_Dirt01.MI_ClockBubble_Dirt01'
+        MaterialSlotName = MI_ClockBubble_Dirt01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 245.713, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Meshes/InteractableObjects/ClockBubble/Materials/MI_ClockBubble_Root01.MI_ClockBubble_Root01'
+        MaterialSlotName = MI_ClockBubble_Root01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 165.854, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0642319, Y=-0.0380325, Z=61.62 }
+    BoxExtent = { X=107.12, Y=107.227, Z=87.5234 }
+    SphereRadius = 138.922
+}

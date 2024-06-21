@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_paperTrash01.MI_paperTrash01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_paperTrash01.MI_paperTrash01'
+        MaterialSlotName = MI_paperTrash01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 172.981, 83.282, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.52588e-05, Y=-1.52588e-05, Z=1.89888 }
+    BoxExtent = { X=35.014, Y=38.0783, Z=2.48817 }
+    SphereRadius = 42.1609
+}

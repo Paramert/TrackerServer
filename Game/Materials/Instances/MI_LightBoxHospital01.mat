@@ -1,0 +1,6 @@
+Diffuse=T_Hospital_LightBox01_BC
+Opacity=T_Hospital_LightBox01_Alpha
+Other[0]=T_Brick01_BC
+Other[1]=Black
+Other[2]=Black_Linear
+Other[3]=T_Normal_Noise

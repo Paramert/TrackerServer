@@ -1,0 +1,5 @@
+Diffuse=T_NE_SelectBorder
+Normal=DefaultNormal
+Opacity=T_NE_SelectBorder
+Other[0]=Noise42
+Other[1]=DefaultTexture

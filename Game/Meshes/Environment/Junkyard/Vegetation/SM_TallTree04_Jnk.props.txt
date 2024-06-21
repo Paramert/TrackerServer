@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Vegetation/MI_TallTree04_Jnk_Cap.MI_TallTree04_Jnk_Cap'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Vegetation/MI_TallTree04_Jnk_Leaf.MI_TallTree04_Jnk_Leaf'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Vegetation/MI_TallTree04_Jnk_Trunk.MI_TallTree04_Jnk_Trunk'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Vegetation/MI_TallTree04_Jnk_Cap.MI_TallTree04_Jnk_Cap'
+        MaterialSlotName = MI_TallTree04_Jnk_Cap
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 56.7708, 2250.92, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Vegetation/MI_TallTree04_Jnk_Leaf.MI_TallTree04_Jnk_Leaf'
+        MaterialSlotName = MI_TallTree04_Jnk_Leaf
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 107.651, 1588.46, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Vegetation/MI_TallTree04_Jnk_Trunk.MI_TallTree04_Jnk_Trunk'
+        MaterialSlotName = MI_TallTree04_Jnk_Trunk
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 94.8178, 1035.66, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-62.9472, Y=19.7458, Z=518.735 }
+    BoxExtent = { X=281.034, Y=427.772, Z=551.24 }
+    SphereRadius = 582.799
+}

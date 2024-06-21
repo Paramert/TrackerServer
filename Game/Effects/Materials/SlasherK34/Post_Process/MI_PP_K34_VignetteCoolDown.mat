@@ -1,0 +1,6 @@
+Diffuse=T_spume_01
+Normal=T_WaterNormal
+Other[0]=T_Tilling_Distortion_Map_01
+Other[1]=T_TilingClouds_01
+Other[2]=T_VignetteSmoke
+Other[3]=T_StaticLines_01

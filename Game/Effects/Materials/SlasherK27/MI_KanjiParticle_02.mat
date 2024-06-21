@@ -1,0 +1,6 @@
+Diffuse=T_KanjiFlipbook_01
+Emissive=T_KanjiFlipbook_01
+Other[0]=Fx_radialGradient
+Other[1]=T_TilingNoise03
+Other[2]=Black
+Other[3]=White

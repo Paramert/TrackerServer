@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_DoorPanel01.MI_Qat_DoorPanel01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_DoorPanel01.MI_Qat_DoorPanel01'
+        MaterialSlotName = MI_Qat_DoorPanel01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 239.105, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-39.0207, Y=6.98769, Z=214.949 }
+    BoxExtent = { X=39.0207, Y=6.99622, Z=252.809 }
+    SphereRadius = 254.9
+}

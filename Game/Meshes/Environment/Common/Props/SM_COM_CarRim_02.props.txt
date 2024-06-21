@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_CarRim_01.MI_COM_CarRim_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_CarRim_01.MI_COM_CarRim_01'
+        MaterialSlotName = MI_CarRim_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 164.867, 163.823, 148.955, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0277052, Y=-0.124622, Z=23.0724 }
+    BoxExtent = { X=12.351, Y=22.9856, Z=23.0296 }
+    SphereRadius = 26.2538
+}

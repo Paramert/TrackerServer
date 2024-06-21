@@ -1,0 +1,9 @@
+Diffuse=T_K30SWBanner01_BC
+Normal=T_K30SWBanner01_N
+Other[0]=Dissolve_border_gradient_Blue
+Other[1]=T_K30_PathGradient
+Other[2]=T_K30SWBanner01_M
+Other[3]=T_ASY_StairTiles_N
+Other[4]=T_TileNoise
+Other[5]=T_FlowMap_Distortion_01
+Other[6]=T_TilingNoise02_M

@@ -1,0 +1,303 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Blood_01.T_Blood_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Blood_01_N.T_Blood_01_N'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_TrailLine_N.T_TrailLine_N'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_TrailLine_var_02.T_TrailLine_var_02'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[25] =
+                {
+                    ParameterInfos[0] = { Name=Reflection_Softness }
+                    ParameterInfos[1] = { Name=DetailTexture_Opacity }
+                    ParameterInfos[2] = { Name=Emissive_Boost }
+                    ParameterInfos[3] = { Name=DetailTexture_Contrast }
+                    ParameterInfos[4] = { Name=ExponentIn }
+                    ParameterInfos[5] = { Name=Rotator }
+                    ParameterInfos[6] = { Name=Opacity_reflect }
+                    ParameterInfos[7] = { Name=Use Radial Mask }
+                    ParameterInfos[8] = { Name=Smoot Step Min }
+                    ParameterInfos[9] = { Name=Multiply_cutout_opacity }
+                    ParameterInfos[10] = { Name=FadeDistance }
+                    ParameterInfos[11] = { Name=Radial Mask Radius }
+                    ParameterInfos[12] = { Name=Fresnel_Contrast }
+                    ParameterInfos[13] = { Name=Power_reflect }
+                    ParameterInfos[14] = { Name=DownMask_Contrast }
+                    ParameterInfos[15] = { Name=OpacityFresnel }
+                    ParameterInfos[16] = { Name=Radial Mask Density }
+                    ParameterInfos[17] = { Name=Normal Intensity }
+                    ParameterInfos[18] = { Name=UpMask_Contrast }
+                    ParameterInfos[19] = { Name=Smoot Step Max }
+                    ParameterInfos[20] = { Name=Scale_Color_Blood }
+                    ParameterInfos[21] = { Name=FadeLenght }
+                    ParameterInfos[22] = { Name=UpMask_Opacity }
+                    ParameterInfos[23] = { Name=Opacity }
+                    ParameterInfos[24] = { Name=DownMask_Opacity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Blood Color light }
+                    ParameterInfos[1] = { Name=FresnelColor }
+                    ParameterInfos[2] = { Name=Subsurface }
+                    ParameterInfos[3] = { Name=Blood Color Outer_02 }
+                    ParameterInfos[4] = { Name=Blood Color Outer }
+                    ParameterInfos[5] = { Name=Speed_Panner }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Reflection Map }
+                    ParameterInfos[1] = { Name=Normal }
+                    ParameterInfos[2] = { Name=Blood Normal Map }
+                    ParameterInfos[3] = { Name=Fresnel Normal }
+                    ParameterInfos[4] = { Name=AddDetailsTexture }
+                    ParameterInfos[5] = { Name=Add Details Normal Map }
+                    ParameterInfos[6] = { Name=Blood_Alpha_Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[25] =
+        {
+            ScalarValues[0] = 6
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 5
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 5
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 1
+            ScalarValues[13] = 2
+            ScalarValues[14] = 2
+            ScalarValues[15] = 1
+            ScalarValues[16] = 2.33
+            ScalarValues[17] = 1
+            ScalarValues[18] = 1.5
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+            ScalarValues[22] = 10
+            ScalarValues[23] = 1
+            ScalarValues[24] = 1
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0.5, G=0.39, B=0.39, A=1 }
+            VectorValues[1] = { R=0.32954, G=0.32739, B=0.338542, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0.04, G=0.000334, B=0, A=1 }
+            VectorValues[4] = { R=0.04, G=0.000334, B=0, A=1 }
+            VectorValues[5] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Blood_01_N.T_Blood_01_N'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+            TextureValues[4] = Texture2D'/Game/Effects/Textures/T_TrailLine_var_02.T_TrailLine_var_02'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_TrailLine_N.T_TrailLine_N'
+            TextureValues[6] = Texture2D'/Game/Effects/Textures/T_Blood_01.T_Blood_01'
+        }
+    }
+    ReferencedTextures[11] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Mud_N.T_Mud_N'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Blood_01_N.T_Blood_01_N'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Blood_01.T_Blood_01'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_TrailLine_N.T_TrailLine_N'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_TrailLine_var_02.T_TrailLine_var_02'
+        ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+        ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        Name = Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Blood_01_N.T_Blood_01_N'
+        Name = Blood Normal Map
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+        Name = Fresnel Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TrailLine_var_02.T_TrailLine_var_02'
+        Name = AddDetailsTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_TrailLine_N.T_TrailLine_N'
+        Name = Add Details Normal Map
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Blood_01.T_Blood_01'
+        Name = Blood_Alpha_Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[25] =
+{
+    CollectedScalarParameters[0] = { Value=6, Name=Reflection_Softness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DetailTexture_Opacity, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Emissive_Boost, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=DetailTexture_Contrast, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=ExponentIn, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Rotator, Group=None }
+    CollectedScalarParameters[6] = { Value=5, Name=Opacity_reflect, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Use Radial Mask, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Smoot Step Min, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 5
+        Name = Multiply_cutout_opacity
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[11] = { Value=0.5, Name=Radial Mask Radius, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Fresnel_Contrast, Group=None }
+    CollectedScalarParameters[13] = { Value=2, Name=Power_reflect, Group=None }
+    CollectedScalarParameters[14] = { Value=2, Name=DownMask_Contrast, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=OpacityFresnel, Group=None }
+    CollectedScalarParameters[16] = { Value=2.33, Name=Radial Mask Density, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Normal Intensity, Group=None }
+    CollectedScalarParameters[18] = { Value=1.5, Name=UpMask_Contrast, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Smoot Step Max, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=Scale_Color_Blood, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=FadeLenght, Group=None }
+    CollectedScalarParameters[22] = { Value=10, Name=UpMask_Opacity, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=DownMask_Opacity, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.39, B=0.39, A=1 }
+        Name = Blood Color light
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.32954, G=0.32739, B=0.338542, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Subsurface
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.04, G=0.000334, B=0, A=1 }
+        Name = Blood Color Outer_02
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.04, G=0.000334, B=0, A=1 }
+        Name = Blood Color Outer
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Speed_Panner
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Blood_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Blood_01_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mud_01_M
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TrailLine_N
+    }
+}

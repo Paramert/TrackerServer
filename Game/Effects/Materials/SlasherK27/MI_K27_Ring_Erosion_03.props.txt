@@ -1,0 +1,135 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK27/M_Ring_Erosion_Particle.M_Ring_Erosion_Particle'
+ScalarParameterValues[7] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Noise_Intensity }
+        ParameterValue = 2.75
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=NoiseTiling }
+        ParameterValue = 350
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Radial_Mask_Hardness }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Radial_Mask_Noise_Hardness }
+        ParameterValue = 2.33
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Radial_Mask_Noise_Radius }
+        ParameterValue = 0.625
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Radial_Mask_Radius }
+        ParameterValue = 0.625
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Main_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_013.T_K27_Attack_Ring_013'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Second_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_006.T_K27_Attack_Ring_006'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Distortion_Tiling_Speed }
+        ParameterValue = { R=4, G=4, B=0.25, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Noise_Mask_Tiling_Speed }
+        ParameterValue = { R=2, G=2, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Rays_Tiling_Speed }
+        ParameterValue = { R=8, G=8, B=0, A=-1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Static_Mask_Tiling_Speed }
+        ParameterValue = { R=1, G=1, B=0.5, A=0.25 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit013/T_HKHands013_Veins_Gradient.T_HKHands013_Veins_Gradient'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_009.T_K27_Attack_Ring_009'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_006.T_K27_Attack_Ring_006'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K27_Attack_Ring_006
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K27_Attack_Ring_013
+    }
+}

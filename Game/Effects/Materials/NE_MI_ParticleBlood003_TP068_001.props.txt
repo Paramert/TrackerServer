@@ -1,0 +1,226 @@
+Parent = Material3'/Game/Effects/Materials/NE_M_ParticleBlood003_TP068.NE_M_ParticleBlood003_TP068'
+ScalarParameterValues[13] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DistorAdd }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=DistorPower }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=DistorStr }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=str }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=HG_Str }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Clip }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Darkness }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=DepthFadeDistance }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Normal Strength }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=OpacityMaskAdjust }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=ReflectionPower }
+        ParameterValue = 2.8
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=ReflectionTest }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=HG_Drak }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_033.NE_T_Blood_TP068_033'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Emissive Tex }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_007.NE_T_Noise_TP068_007'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_029.NE_T_Blood_TP068_029'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_029_N.NE_T_Blood_TP068_029_N'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=OffsetNormal }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_NoiseNormal_TP068_003.NE_T_NoiseNormal_TP068_003'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Reflection_T }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_043.NE_T_Blood_TP068_043'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=T2 }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_032.NE_T_Blood_TP068_032'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Emissive Color }
+        ParameterValue = { R=0.166667, G=0.015002, B=0.006709, A=1.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Emissive Uv }
+        ParameterValue = { R=1, G=1, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=HightGlowColor }
+        ParameterValue = { R=1, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Opacity_Con+HightControl }
+        ParameterValue = { R=5, G=5, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=ClipTest }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_029_N.NE_T_Blood_TP068_029_N'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_029.NE_T_Blood_TP068_029'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/NE_T_NoiseNormal_TP068_003.NE_T_NoiseNormal_TP068_003'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_043.NE_T_Blood_TP068_043'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/NE_T_Noise_TP068_026.NE_T_Noise_TP068_026'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_032.NE_T_Blood_TP068_032'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_034.NE_T_Blood_TP068_034'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_036.NE_T_Blood_TP068_036'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/NE_T_Blood_TP068_038.NE_T_Blood_TP068_038'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 18.125
+        UVChannelIndex = 0
+        TextureName = NE_T_Blood_TP068_043
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_Noise_TP068_007
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = NE_T_Noise_TP068_026
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.703125
+        UVChannelIndex = 0
+        TextureName = NE_T_NoiseNormal_TP068_003
+    }
+}

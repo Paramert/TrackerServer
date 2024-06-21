@@ -1,0 +1,6 @@
+Diffuse=T_PD_Plank_01_BC
+Normal=T_FlatNormal_01
+Other[0]=T_GroundDirt03
+Other[1]=T_Noise_08
+Other[2]=T_WaterNormal
+Other[3]=T_WaterNormal2

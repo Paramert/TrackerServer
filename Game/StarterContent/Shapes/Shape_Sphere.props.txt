@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall'
+        MaterialSlotName = M_Basic_Wall
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 188.019, 191.049, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.8147e-06, Z=50 }
+    BoxExtent = { X=50, Y=50, Z=50 }
+    SphereRadius = 50
+}

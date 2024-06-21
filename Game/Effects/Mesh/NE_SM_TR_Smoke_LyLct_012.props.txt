@@ -1,0 +1,23 @@
+Materials[1] = {  }
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = NE_MI_DKW003
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 23.7595, 44.343, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.26912, Y=-0.407363, Z=25.7371 }
+    BoxExtent = { X=19.3023, Y=2.70538, Z=37.5346 }
+    SphereRadius = 42.2133
+}

@@ -1,0 +1,183 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BaseFlattenEmissiveMap.BaseFlattenEmissiveMap'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap'
+    ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=AmbientOcclusionConst }
+                    ParameterInfos[1] = { Name=RoughnessConst }
+                    ParameterInfos[2] = { Name=EmissiveScale }
+                    ParameterInfos[3] = { Name=MetallicConst }
+                    ParameterInfos[4] = { Name=OpacityMaskConst }
+                    ParameterInfos[5] = { Name=OpacityConst }
+                    ParameterInfos[6] = { Name=SpecularConst }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=DiffuseConst }
+                    ParameterInfos[1] = { Name=EmissiveConst }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=MetallicTexture }
+                    ParameterInfos[1] = { Name=OpacityTexture }
+                    ParameterInfos[2] = { Name=OpacityMaskTexture }
+                    ParameterInfos[3] = { Name=PackedTexture }
+                    ParameterInfos[4] = { Name=NormalTexture }
+                    ParameterInfos[5] = { Name=EmissiveTexture }
+                    ParameterInfos[6] = { Name=SpecularTexture }
+                    ParameterInfos[7] = { Name=DiffuseTexture }
+                    ParameterInfos[8] = { Name=AmbientOcclusionTexture }
+                    ParameterInfos[9] = { Name=RoughnessTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 1, 0, 1, 0, 1, 1, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[10] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+            TextureValues[1] = Texture2D'/Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap'
+            TextureValues[2] = Texture2D'/Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap'
+            TextureValues[3] = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+            TextureValues[4] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+            TextureValues[5] = Texture2D'/Engine/EngineMaterials/BaseFlattenEmissiveMap.BaseFlattenEmissiveMap'
+            TextureValues[6] = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+            TextureValues[7] = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+            TextureValues[8] = Texture2D'/Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap'
+            TextureValues[9] = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BaseFlattenEmissiveMap.BaseFlattenEmissiveMap'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+        Name = MetallicTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap'
+        Name = OpacityTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap'
+        Name = OpacityMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+        Name = PackedTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+        Name = NormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenEmissiveMap.BaseFlattenEmissiveMap'
+        Name = EmissiveTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+        Name = SpecularTexture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+        Name = DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap'
+        Name = AmbientOcclusionTexture
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+        Name = RoughnessTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=AmbientOcclusionConst, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=RoughnessConst, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=EmissiveScale, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=MetallicConst, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=OpacityMaskConst, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=OpacityConst, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=SpecularConst, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = DiffuseConst
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveConst
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

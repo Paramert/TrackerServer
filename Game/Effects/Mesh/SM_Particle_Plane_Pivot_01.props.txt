@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effects/Materials/Liquid/Saliva/MI_Saliva_Drop_01.MI_Saliva_Drop_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effects/Materials/Liquid/Saliva/MI_Saliva_Drop_01.MI_Saliva_Drop_01'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 101.664, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=50 }
+    BoxExtent = { X=50, Y=6.12323e-15, Z=50 }
+    SphereRadius = 70.7107
+}

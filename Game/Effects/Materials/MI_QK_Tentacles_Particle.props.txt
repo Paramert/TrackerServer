@@ -1,0 +1,121 @@
+Parent = Material3'/Game/Effects/Materials/M_Basic_MeshFX.M_Basic_MeshFX'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base Color }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/SmallPortal/T_QKTentaclesAB_BC.T_QKTentaclesAB_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/SmallPortal/T_QKTentaclesAB_N.T_QKTentaclesAB_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=ORM }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/SmallPortal/T_QKTentaclesAB_ORM.T_QKTentaclesAB_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Specular Texture }
+        ParameterValue = Texture2D'/Game/Textures/InteractableObjects/SmallPortal/T_QKTentaclesAB_ORM.T_QKTentaclesAB_ORM'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=EmissiveColor }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Orm }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_S.T_BEWS01_S'
+    CachedReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_N.T_BEWS01_N'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    CachedReferencedTextures[3] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_BC.T_BEWS01_BC'
+    CachedReferencedTextures[4] = Texture2D'/Game/Characters/Slashers/Haiti/Weapons/Textures/Outfit01/T_HKW01_ORM.T_HKW01_ORM'
+    CachedReferencedTextures[5] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_ORM.T_BEWS01_ORM'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_QKTentaclesAB_BC
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_QKTentaclesAB_N
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_QKTentaclesAB_ORM
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_QKTentaclesAB_ORM
+    }
+}

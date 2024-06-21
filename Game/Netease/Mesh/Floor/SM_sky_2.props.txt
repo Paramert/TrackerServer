@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Maps/Atlanta/MI/MI_Background03_Inst3.MI_Background03_Inst3'
+    Materials[1] = MaterialInstanceConstant'/Game/Maps/Atlanta/MI/MI_Background03_Inst4.MI_Background03_Inst4'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Maps/Atlanta/MI/MI_Background03_Inst3.MI_Background03_Inst3'
+        MaterialSlotName = MI_Background03_Inst1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2627.9, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Maps/Atlanta/MI/MI_Background03_Inst4.MI_Background03_Inst4'
+        MaterialSlotName = MI_Background03_Inst2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1962.69, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=580.298 }
+    BoxExtent = { X=900, Y=900, Z=580.298 }
+    SphereRadius = 955.096
+}

@@ -1,0 +1,17 @@
+Diffuse=T_Dissolve_spiderthing
+Normal=T_FlatNormal_01
+SpecPower=T_Dissolve_spiderthing
+Other[0]=T_MapleOakLeaves01_Wind
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=T_Noise02
+Other[4]=T_NoiseNormal_01
+Other[5]=T_TilingNoise03
+Other[6]=T_Veins
+Other[7]=Black
+Other[8]=Green_Linear
+Other[9]=White
+Other[10]=T_treeLeaf01_Atl_MaskRGB
+Other[11]=T_FoliageWaves_02_N
+Other[12]=T_treeLeaf01_BC
+Other[13]=Dissolve_border_Entity

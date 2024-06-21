@@ -1,0 +1,10 @@
+Diffuse=T_FX_Gradient_Footsteps
+Normal=T_Decal_BloodSmear03_N
+SpecPower=T_Liquid_Splatter04
+Other[0]=T_Decal_BloodSmear03
+Other[1]=T_Decal_BloodSmear01_N
+Other[2]=T_Water_N
+Other[3]=T_Decal_BloodSmear01
+Other[4]=T_Liquid_Splatter04_N
+Other[5]=T_Noise03
+Other[6]=T_WaterNormal

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_PlasticContainer_Big_01.MI_COM_PlasticContainer_Big_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Common/Props/MI_COM_PlasticContainer_Big_01.MI_COM_PlasticContainer_Big_01'
+        MaterialSlotName = M_COM_PlasticContainer_Big_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 108.337, 865.681, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00224113, Y=-0.0113754, Z=13.2827 }
+    BoxExtent = { X=22.0955, Y=18.5131, Z=13.2835 }
+    SphereRadius = 31.3218
+}

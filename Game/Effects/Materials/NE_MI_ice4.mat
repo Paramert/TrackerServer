@@ -1,0 +1,12 @@
+Diffuse=T_DissolveTextures
+Normal=T_Veins_N
+Other[0]=AO
+Other[1]=NE_T_Noise_LyZh_013
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=NE_T_Noise_LyLct_014
+Other[4]=NE_T_Noise_LyTc_15
+Other[5]=NE_T_Noise_TP143_009
+Other[6]=NE_T_ST_bingjin
+Other[7]=T_FX_DissolveRamp
+Other[8]=Black
+Other[9]=White_Linear

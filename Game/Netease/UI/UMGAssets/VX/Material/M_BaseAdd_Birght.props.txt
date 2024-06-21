@@ -1,0 +1,180 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Trail.T_Trail'
+    ReferencedTextures[3] = Texture2D'/Game/Netease/Effect/Texture/161214kdbspdgbgnit8gb2.161214kdbspdgbgnit8gb2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=min }
+                    ParameterInfos[1] = { Name=DistorIntensity_Color }
+                    ParameterInfos[2] = { Name=HighBright }
+                    ParameterInfos[3] = { Name=DistorIntensity_Reduce }
+                    ParameterInfos[4] = { Name=DistorIntensity_HighBright }
+                    ParameterInfos[5] = { Name=mpp }
+                    ParameterInfos[6] = { Name=max }
+                    ParameterInfos[7] = { Name=mpm }
+                    ParameterInfos[8] = { Name=Random }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=DP_HighBright_1 }
+                    ParameterInfos[1] = { Name=DP_Reduce_2 }
+                    ParameterInfos[2] = { Name=DP_Distor_1 }
+                    ParameterInfos[3] = { Name=DP_Color_1 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Distor_Tex }
+                    ParameterInfos[1] = { Name=Color_Tex_1 }
+                    ParameterInfos[2] = { Name=Mask }
+                    ParameterInfos[3] = { Name=Gradient }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 0, 0, 0.01, 0, 0, 1, 1, 1, 0 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+            TextureValues[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[2] = Texture2D'/Game/Netease/Effect/Texture/161214kdbspdgbgnit8gb2.161214kdbspdgbgnit8gb2'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Trail.T_Trail'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+        ReferencedTextures[2] = Texture2D'/Game/Netease/Effect/Texture/161214kdbspdgbgnit8gb2.161214kdbspdgbgnit8gb2'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Trail.T_Trail'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+        Name = Distor_Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Color_Tex_1
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Netease/Effect/Texture/161214kdbspdgbgnit8gb2.161214kdbspdgbgnit8gb2'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Trail.T_Trail'
+        Name = Gradient
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=min, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=DistorIntensity_Color, Group=None }
+    CollectedScalarParameters[2] = { Value=0.01, Name=HighBright, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=DistorIntensity_Reduce, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = DistorIntensity_HighBright
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=mpp, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=max, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=mpm, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Random, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_HighBright_1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Reduce_2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Distor_1
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DP_Color_1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = DefaultNormal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Trail
+    }
+}

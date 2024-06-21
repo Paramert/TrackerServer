@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Materials/AudioGreen.AudioGreen'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Materials/AudioGreen.AudioGreen'
+        MaterialSlotName = AudioGreen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 577.219, 3671.64, 1990.22, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=19.7807, Y=-86.8666, Z=9.17166 }
+    BoxExtent = { X=662.776, Y=1399.32, Z=386.797 }
+    SphereRadius = 1515.21
+}

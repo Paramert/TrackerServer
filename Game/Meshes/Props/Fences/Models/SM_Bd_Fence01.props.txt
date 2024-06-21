@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Brick_01_Wall.MI_Brick_01_Wall'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rust01_Fence01.MI_Rust01_Fence01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Brick_01_Wall.MI_Brick_01_Wall'
+        MaterialSlotName = MI_Brick_01_Wall
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 328.498, 1312.9, 1005.89, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Rust01_Fence01.MI_Rust01_Fence01'
+        MaterialSlotName = MI_Rust01_Fence01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 211.276, 843.55, 970.838, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-377.586, Y=-23.9534, Z=236.144 }
+    BoxExtent = { X=419.591, Y=61.2037, Z=236.144 }
+    SphereRadius = 478.36
+}

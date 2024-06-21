@@ -1,0 +1,442 @@
+Parent = MaterialInstanceConstant'/Game/Materials/Masters/MI_Structures_v2.MI_Structures_v2'
+ScalarParameterValues[14] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Main_Rotation }
+        ParameterValue = 0.016
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Red_NormalFlatness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Red_RoughValue }
+        ParameterValue = 0.225229
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Red_Height_Contrast }
+        ParameterValue = -0.152096
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Green_NormalFlatness }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Green_RoughValue }
+        ParameterValue = -4.51411
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Green_Height_Contrast }
+        ParameterValue = 0.642959
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Green_HeightValue }
+        ParameterValue = 0.303505
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Cyan_NormalFlatness }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Cyan_Height_Contrast }
+        ParameterValue = 3.461
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Cyan_HeightValue }
+        ParameterValue = 1.9917
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=21_MossCurve }
+        ParameterValue = 3.16811
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=21_MossHeight }
+        ParameterValue = 100.917
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[11] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Main_Normal }
+        ParameterValue = Texture2D'/Game/Textures/Environment/England/Structures/T_Eng_SmallGarage01_Floor_N.T_Eng_SmallGarage01_Floor_N'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Main_ORM }
+        ParameterValue = Texture2D'/Game/Textures/Environment/England/Structures/T_Eng_SmallGarage01_Floor_ORM.T_Eng_SmallGarage01_Floor_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Main_BaseColor }
+        ParameterValue = Texture2D'/Game/Textures/Environment/England/Structures/T_Eng_SmallGarage01_Floor_BC.T_Eng_SmallGarage01_Floor_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Green_Normal }
+        ParameterValue = Texture2D'/Game/Textures/Environment/England/Structures/T_Eng_WallGenericPlaster02_N.T_Eng_WallGenericPlaster02_N'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Green_ORM }
+        ParameterValue = Texture2D'/Game/Textures/Environment/England/Structures/T_Eng_WallGenericPlaster02_ORM.T_Eng_WallGenericPlaster02_ORM'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Green_BaseColor }
+        ParameterValue = Texture2D'/Game/Textures/Environment/England/Structures/T_Eng_WallGenericPlaster02_BC.T_Eng_WallGenericPlaster02_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=Cyan_BaseColor }
+        ParameterValue = Texture2D'/Game/Textures/Environment/England/Structures/T_Eng_SmallGarage01_Floor_BC.T_Eng_SmallGarage01_Floor_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=Cyan_Normal }
+        ParameterValue = Texture2D'/Game/Textures/Environment/England/Structures/T_Eng_SmallGarage01_Floor_N.T_Eng_SmallGarage01_Floor_N'
+        ParameterName = None
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = { Name=Cyan_ORM }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[9] =
+    {
+        ParameterInfo = { Name=Splat_RGBAMask }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_Jnk_Garage_Floor_SPLAT.T_Jnk_Garage_Floor_SPLAT'
+        ParameterName = None
+    }
+    TextureParameterValues[10] =
+    {
+        ParameterInfo = { Name=21_MossTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+        ParameterName = None
+    }
+}
+VectorParameterValues[12] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Main_BaseColorTint }
+        ParameterValue = { R=0.598958, G=0.577781, B=0.497392, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Main_Tiling }
+        ParameterValue = { R=3, G=3, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Main_Offset }
+        ParameterValue = { R=0.057143, G=0.371428, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Main_AltUVsTiling }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Main_AltUVsOffset }
+        ParameterValue = { R=3, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Red_BaseColorTint }
+        ParameterValue = { R=0.174683, G=0.182292, B=0.172798, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=Green_BaseColorTint }
+        ParameterValue = { R=0.177083, G=0.160482, B=0.160482, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=Cyan_BaseColorTint }
+        ParameterValue = { R=0.229167, G=0.088325, B=0.088325, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=Cyan_Tiling }
+        ParameterValue = { R=2.6591, G=2.26119, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=Splat_RGBAMask_Tiling }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=Splat_RGBAMask_Offset }
+        ParameterValue = { R=1, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=21_MossColorTint }
+        ParameterValue = { R=0.130208, G=0.111577, B=0.094944, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = true
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[26] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Main_AltUVSUseTexCoord[2] }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Main_WPOUseAltUVs }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Main_ExpandedAttributes }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_VertexColorBlending }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Red_MainVariant }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Red_Height_ormA }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=Red_HeightFromRoughness }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Red_ExpandedAttributes }
+            bOverride = true
+        }
+        StaticSwitchParameters[8] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Green_BaseColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[9] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Green_Normal }
+            bOverride = true
+        }
+        StaticSwitchParameters[10] =
+        {
+            Value = true
+            ParameterInfo = { Name=Green_UseTexCoord[2] }
+            bOverride = true
+        }
+        StaticSwitchParameters[11] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Green_Height_ormA }
+            bOverride = true
+        }
+        StaticSwitchParameters[12] =
+        {
+            Value = false
+            ParameterInfo = { Name=Green_HeightFromRoughness }
+            bOverride = true
+        }
+        StaticSwitchParameters[13] =
+        {
+            Value = false
+            ParameterInfo = { Name=Green_HeightFromMain }
+            bOverride = true
+        }
+        StaticSwitchParameters[14] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Green_ExpandedAttributes }
+            bOverride = true
+        }
+        StaticSwitchParameters[15] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Cyan_GreenVariant }
+            bOverride = true
+        }
+        StaticSwitchParameters[16] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Cyan_CustomBaseColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[17] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Cyan_CustomNormal }
+            bOverride = true
+        }
+        StaticSwitchParameters[18] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Cyan_CustomORM }
+            bOverride = true
+        }
+        StaticSwitchParameters[19] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Cyan_Height_ormA }
+            bOverride = true
+        }
+        StaticSwitchParameters[20] =
+        {
+            Value = false
+            ParameterInfo = { Name=Cyan_HeightFromRoughness }
+            bOverride = true
+        }
+        StaticSwitchParameters[21] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Cyan_ExpandedAttributes }
+            bOverride = true
+        }
+        StaticSwitchParameters[22] =
+        {
+            Value = false
+            ParameterInfo = { Name=RGBAMask+VertexColors }
+            bOverride = true
+        }
+        StaticSwitchParameters[23] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Splat_RGBAMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[24] =
+        {
+            Value = false
+            ParameterInfo = { Name=RGBAMaskUVObjectBound }
+            bOverride = true
+        }
+        StaticSwitchParameters[25] =
+        {
+            Value = true
+            ParameterInfo = { Name=Splat_UseMainAltUVs }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[16] =
+{
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    CachedReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    CachedReferencedTextures[6] = Texture2D'/Engine/EngineDebugMaterials/HeatmapGradient.HeatmapGradient'
+    CachedReferencedTextures[7] = Texture2D'/Game/Meshes/Environment/Tiles/Textures/environment_mud_diffuse.environment_mud_diffuse'
+    CachedReferencedTextures[8] = Texture2D'/Game/Meshes/Environment/Tiles/Textures/environment_mud_N.environment_mud_N'
+    CachedReferencedTextures[9] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[10] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[11] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+    CachedReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    CachedReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+    CachedReferencedTextures[14] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.T_GS_FrontSign_Flickerama'
+    CachedReferencedTextures[15] = TextureCube4'/Game/Textures/T_Skylight2.T_Skylight2'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 2
+        TextureName = T_Jnk_Garage_Floor_SPLAT
+    }
+}

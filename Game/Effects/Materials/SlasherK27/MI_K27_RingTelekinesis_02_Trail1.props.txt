@@ -1,0 +1,363 @@
+Parent = Material3'/Game/Effects/Materials/Trail/M_NG_MeshTrail_02_UNLIT_Reflection_WPO.M_NG_MeshTrail_02_UNLIT_Reflection_WPO'
+ScalarParameterValues[35] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=HideSlashGradient }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=ShowSlashGradient }
+        ParameterValue = -100
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=HideSlash }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=ShowSlash }
+        ParameterValue = 0.821545
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Emissive_Boost }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Erode_Distortion_Texture }
+        ParameterValue = -0.56042
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Erode_SideMask }
+        ParameterValue = 4.70208
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Erode_CoreLineMask }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Opacity_CoreLine }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=U }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=V }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=01 - N1 - ScaleTilling_X }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=01 - N1 - ScaleTilling_Y }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=01 - TexScaleCore_X }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=01 - TexScaleCore_Y }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=02 - Opacity_reflect }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=02 - Power_reflect }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=02 - Softness_Reflect }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=Trail End Cutout Int }
+        ParameterValue = 0.198899
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Trail SidesMask Cutout Int }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=Trail SidesMask Opacity Int }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=Trail_Blending }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=Trail_Contrast }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=Trail_Lenght_01 }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=Trail_Lenght_02 }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=Trail_Lenght_03 }
+        ParameterValue = 0.197068
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=01 - Opacity_Distortion }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=Speed_WPO }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=WPO_Accuracy }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=WPO_Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=WPO_X }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=WPO_Y }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=Distance }
+        ParameterValue = 15
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_TrailLine_var_02.T_TrailLine_var_02'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Distortion_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Side_Mask_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Moth_Wing_Displacement_01.T_Moth_Wing_Displacement_01'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=CoreLine_Texture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=02 - Add Normal Reflection Map }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_WaterNormal4.T_WaterNormal4'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Add Reflection Map }
+        ParameterValue = Texture2D'/Game/Effects/Textures/NE_T_Tile_tp203_001.NE_T_Tile_tp203_001'
+        ParameterName = None
+    }
+}
+VectorParameterValues[7] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=NoiseMask_speed }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Distortion Mask Color Level }
+        ParameterValue = { R=0.093321, G=0.119792, B=0.116205, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Color_CoreLine }
+        ParameterValue = { R=0.113927, G=0.198842, B=0.234375, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=01 - N1 - Speed_Normal }
+        ParameterValue = { R=0, G=-0.25, B=0.008251, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=01 - TexSpeed_Coreline }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=02 - Color Reflection }
+        ParameterValue = { R=0.2, G=0.35, B=0.5, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=01 - Speed_Distortion }
+        ParameterValue = { R=0, G=0.05, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=Add_SideMask? }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Gradient/T_FX_Gradient_Footsteps.T_FX_Gradient_Footsteps'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_spume_01.T_spume_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_Soft_Tile.T_Smoke_Soft_Tile'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_TrailLine_var_01.T_TrailLine_var_01'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_RGBclouds_map_01.T_RGBclouds_map_01'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FX_Gradient_Footsteps
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.953064
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal
+    }
+}

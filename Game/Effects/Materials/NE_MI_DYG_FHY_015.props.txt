@@ -1,0 +1,108 @@
+Parent = Material3'/Game/Effects/Materials/M_Erosion_TwoChannel_Translucent.M_Erosion_TwoChannel_Translucent'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=EmissiveStrength }
+        ParameterValue = 0.005
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=NoiseUVs }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=SceneColorAmount }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion_02.T_Blood_Erosion_02'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion_02_N.T_Blood_Erosion_02_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Param_1 }
+        ParameterValue = { R=0.1, G=0.1, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Normal Map (B) }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[6] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Blood/T_Blood_Erosion.T_Blood_Erosion'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Water_N.T_Water_N'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/SphereNormalPortal.SphereNormalPortal'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_Shiny_MC.T_FX_Shiny_MC'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_FSbloodmist.T_FSbloodmist'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Blood_Erosion_02
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_Water_N
+    }
+}

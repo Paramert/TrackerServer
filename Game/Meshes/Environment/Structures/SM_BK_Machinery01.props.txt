@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_BK_Machinery01_1.MI_BK_Machinery01_1'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_BK_Machinery01_2.MI_BK_Machinery01_2'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/MI_BK_Machinery01_3.MI_BK_Machinery01_3'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_BK_Machinery01_1.MI_BK_Machinery01_1'
+        MaterialSlotName = MI_BK_Machinery01_v1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 346.125, 720.847, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_BK_Machinery01_2.MI_BK_Machinery01_2'
+        MaterialSlotName = MI_BK_Machinery01_v2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 356.271, 723.181, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_BK_Machinery01_3.MI_BK_Machinery01_3'
+        MaterialSlotName = MI_BK_Machinery01_v3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.489, 738.727, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.02354, Z=78.5109 }
+    BoxExtent = { X=85.4068, Y=109.119, Z=79.1044 }
+    SphereRadius = 134.617
+}

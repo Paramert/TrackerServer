@@ -1,0 +1,102 @@
+TwoSided = false
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Blueprints/GameplayElements/SpiderThingy/T_HoleInTheWallGlow.T_HoleInTheWallGlow'
+    ReferencedTextures[1] = Texture2D'/Game/Blueprints/GameplayElements/SpiderThingy/T_HoleInTheWallMask.T_HoleInTheWallMask'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/SphereNormal.SphereNormal'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_PortalMaskTendril.T_PortalMaskTendril'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/TendrilMask.TendrilMask'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=OpacityChange }
+                    ParameterInfos[1] = { Name=SmokeOpacity }
+                    ParameterInfos[2] = { Name=Param }
+                    ParameterInfos[3] = { Name=normalMultAlpha }
+                    ParameterInfos[4] = { Name=DistanceToNose }
+                    ParameterInfos[5] = { Name=EmissiveMultiply }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0.1, 1, 0, 30, 80, 0.1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.584079, G=0.584079, B=0.584079, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Blueprints/GameplayElements/SpiderThingy/T_HoleInTheWallGlow.T_HoleInTheWallGlow'
+        ReferencedTextures[1] = Texture2D'/Game/Blueprints/GameplayElements/SpiderThingy/T_HoleInTheWallMask.T_HoleInTheWallMask'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/TendrilMask.TendrilMask'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/SphereNormal.SphereNormal'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Noise01.T_Noise01'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_PortalMaskTendril.T_PortalMaskTendril'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=OpacityChange, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=SmokeOpacity, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[3] = { Value=30, Name=normalMultAlpha, Group=None }
+    CollectedScalarParameters[4] = { Value=80, Name=DistanceToNose, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=EmissiveMultiply, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.584079, G=0.584079, B=0.584079, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise01
+    }
+}

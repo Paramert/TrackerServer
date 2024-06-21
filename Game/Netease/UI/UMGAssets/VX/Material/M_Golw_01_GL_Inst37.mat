@@ -1,0 +1,7 @@
+Diffuse=DefaultDiffuse
+Normal=Rewards_PawLeft1_NE
+Other[0]=Events_Claw_02_NE
+Other[1]=DebugNumberStrip
+Other[2]=DebugNumberPeriod
+Other[3]=flipbook
+Other[4]=T_Mask_02

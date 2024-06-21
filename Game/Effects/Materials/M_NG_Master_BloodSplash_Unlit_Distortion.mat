@@ -1,0 +1,10 @@
+Diffuse=T_Tilling_Distortion_Map_01
+Normal=T_Blood_01_N
+Other[0]=T_Blood_01
+Other[1]=T_Mud_01_M
+Other[2]=T_Mud_N
+Other[3]=T_NoiseNormal_01_Tiling
+Other[4]=T_reflection_map_01
+Other[5]=T_SmokeTile
+Other[6]=T_TrailLine_N
+Other[7]=T_TrailLine_var_02

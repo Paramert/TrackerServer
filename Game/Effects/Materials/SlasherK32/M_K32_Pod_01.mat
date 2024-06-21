@@ -1,0 +1,8 @@
+Diffuse=DefaultDiffuse
+Normal=FlatNormal
+Emissive=T_K32KillerPod01_Em
+Other[0]=DefaultTexture
+Other[1]=T_K32_KillerPod_Mask_01
+Other[2]=T_gradient_stripes_01
+Other[3]=T_Smoke_Soft_Tile1
+Other[4]=Green_Linear

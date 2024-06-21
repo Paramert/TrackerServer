@@ -1,0 +1,76 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Window_Mask.T_Window_Mask'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Contrast }
+                    ParameterInfos[1] = { Name=Move Y }
+                    ParameterInfos[2] = { Name=Size X }
+                    ParameterInfos[3] = { Name=Move X }
+                    ParameterInfos[4] = { Name=Size Y }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 1, 1, 1, 0, 1 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Window_Mask.T_Window_Mask'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Window_Mask.T_Window_Mask'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Window_Mask.T_Window_Mask'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Contrast, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Move Y, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Size X, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Move X, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Size Y, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

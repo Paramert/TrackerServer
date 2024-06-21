@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_Stump02.MI_BRL_Stump02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Boreal/MI_BRL_Stump02.MI_BRL_Stump02'
+        MaterialSlotName = MI_BRL_Stump02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 338.423, 319.98, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.47222, Y=-0.213341, Z=74.0876 }
+    BoxExtent = { X=76.6825, Y=73.0867, Z=77.9502 }
+    SphereRadius = 116.697
+}

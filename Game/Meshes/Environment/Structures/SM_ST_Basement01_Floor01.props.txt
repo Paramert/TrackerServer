@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Concrete03_Basement.MI_Concrete03_Basement'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Brick02_Basement.MI_Brick02_Basement'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Concrete03_Basement.MI_Concrete03_Basement'
+        MaterialSlotName = MI_Concrete03_Basement
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 472.09, 2649.66, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Brick02_Basement.MI_Brick02_Basement'
+        MaterialSlotName = MI_Brick02_Basement
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 706.041, 2654.79, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-189.198, Y=-214.803, Z=-771.385 }
+    BoxExtent = { X=688.576, Y=830.68, Z=23.5556 }
+    SphereRadius = 1078.99
+}

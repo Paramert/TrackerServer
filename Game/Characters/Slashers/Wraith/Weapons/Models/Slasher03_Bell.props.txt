@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Slashers/Wraith/Materials/MI_TWBell.MI_TWBell'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Slashers/Wraith/Materials/MI_TWBell.MI_TWBell'
+        MaterialSlotName = MI_TWBell
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 88.9032, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.25024, Z=22.0985 }
+    BoxExtent = { X=12.4778, Y=13.2489, Z=21.9592 }
+    SphereRadius = 25.6157
+}

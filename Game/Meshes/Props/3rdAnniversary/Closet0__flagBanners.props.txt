@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/4thAnniversary/Mi_4thAnniversaryFlags.Mi_4thAnniversaryFlags'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/4thAnniversary/Mi_4thAnniversary.Mi_4thAnniversary'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/4thAnniversary/Mi_4thAnniversaryFlags.Mi_4thAnniversaryFlags'
+        MaterialSlotName = Mi_3rdAnniversaryFlags
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 103.134, 127.227, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/4thAnniversary/Mi_4thAnniversary.Mi_4thAnniversary'
+        MaterialSlotName = Mi_3rdAnniversary
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 165.191, 125.642, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.82929, Y=-13.5795, Z=119.046 }
+    BoxExtent = { X=74.2936, Y=38.0737, Z=118.834 }
+    SphereRadius = 144.605
+}

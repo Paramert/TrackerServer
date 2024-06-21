@@ -1,0 +1,180 @@
+Skeleton = Skeleton'/Game/Characters/Campers/Models/CamperMale_REF_Skeleton.CamperMale_REF_Skeleton'
+bHasVertexColors = false
+bComputeNormalsToUVs = false
+bVertexCurvature = false
+bBuildVertexCurvature = false
+LODInfo[4] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[15] =
+        {
+            BonesToRemove[0] = { BoneName=joint_Cam_03 }
+            BonesToRemove[1] = { BoneName=joint_Cam_02 }
+            BonesToRemove[2] = { BoneName=joint_Cam_01 }
+            BonesToRemove[3] = { BoneName=joint_CamperAttach_01 }
+            BonesToRemove[4] = { BoneName=joint_SlasherAttach_01 }
+            BonesToRemove[5] = { BoneName=joint_ClavicleLT_01 }
+            BonesToRemove[6] = { BoneName=joint_ClavicleRT_01 }
+            BonesToRemove[7] = { BoneName=joint_Hand_LT_01_IK }
+            BonesToRemove[8] = { BoneName=joint_Hand_RT_01_IK }
+            BonesToRemove[9] = { BoneName=joint_Foot_LT_01_IK }
+            BonesToRemove[10] = { BoneName=joint_Foot_RT_01_IK }
+            BonesToRemove[11] = { BoneName=joint_HipRT_01 }
+            BonesToRemove[12] = { BoneName=joint_HipLT_01 }
+            BonesToRemove[13] = { BoneName=joint_tummy01 }
+            BonesToRemove[14] = { BoneName=joint_Back01 }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[3] = { 0, 1, 2 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[19] =
+        {
+            BonesToRemove[0] = { BoneName=joint_Cam_03 }
+            BonesToRemove[1] = { BoneName=joint_Cam_02 }
+            BonesToRemove[2] = { BoneName=joint_Cam_01 }
+            BonesToRemove[3] = { BoneName=joint_CamperAttach_01 }
+            BonesToRemove[4] = { BoneName=joint_SlasherAttach_01 }
+            BonesToRemove[5] = { BoneName=joint_ClavicleLT_01 }
+            BonesToRemove[6] = { BoneName=joint_ClavicleRT_01 }
+            BonesToRemove[7] = { BoneName=joint_Hand_LT_01_IK }
+            BonesToRemove[8] = { BoneName=joint_Hand_RT_01_IK }
+            BonesToRemove[9] = { BoneName=joint_Foot_LT_01_IK }
+            BonesToRemove[10] = { BoneName=joint_Foot_RT_01_IK }
+            BonesToRemove[11] = { BoneName=joint_HipRT_01 }
+            BonesToRemove[12] = { BoneName=joint_HipLT_01 }
+            BonesToRemove[13] = { BoneName=joint_tummy01 }
+            BonesToRemove[14] = { BoneName=joint_Back01 }
+            BonesToRemove[15] = { BoneName=joint_LipLowerLT_01 }
+            BonesToRemove[16] = { BoneName=joint_LipLower_01 }
+            BonesToRemove[17] = { BoneName=joint_Tongue1_01 }
+            BonesToRemove[18] = { BoneName=joint_LipLowerRT_01 }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[2] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[3] = { 0, 1, 2 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[38] =
+        {
+            BonesToRemove[0] = { BoneName=joint_Cam_03 }
+            BonesToRemove[1] = { BoneName=joint_Cam_02 }
+            BonesToRemove[2] = { BoneName=joint_Cam_01 }
+            BonesToRemove[3] = { BoneName=joint_CamperAttach_01 }
+            BonesToRemove[4] = { BoneName=joint_SlasherAttach_01 }
+            BonesToRemove[5] = { BoneName=joint_ClavicleLT_01 }
+            BonesToRemove[6] = { BoneName=joint_ClavicleRT_01 }
+            BonesToRemove[7] = { BoneName=joint_Hand_LT_01_IK }
+            BonesToRemove[8] = { BoneName=joint_Hand_RT_01_IK }
+            BonesToRemove[9] = { BoneName=joint_Foot_LT_01_IK }
+            BonesToRemove[10] = { BoneName=joint_Foot_RT_01_IK }
+            BonesToRemove[11] = { BoneName=joint_HipRT_01 }
+            BonesToRemove[12] = { BoneName=joint_HipLT_01 }
+            BonesToRemove[13] = { BoneName=joint_tummy01 }
+            BonesToRemove[14] = { BoneName=joint_Back01 }
+            BonesToRemove[15] = { BoneName=joint_EyeLT_01 }
+            BonesToRemove[16] = { BoneName=joint_CheekLT_01 }
+            BonesToRemove[17] = { BoneName=joint_DimpleLT_01 }
+            BonesToRemove[18] = { BoneName=joint_EyeBrowInnerLT_01 }
+            BonesToRemove[19] = { BoneName=joint_EyeBrowOuterLT_01 }
+            BonesToRemove[20] = { BoneName=joint_EyeLidUpLT_01 }
+            BonesToRemove[21] = { BoneName=joint_EyeLidDownLT_01 }
+            BonesToRemove[22] = { BoneName=joint_LipCornerLT_01 }
+            BonesToRemove[23] = { BoneName=joint_LipUpperLT_01 }
+            BonesToRemove[24] = { BoneName=joint_LipUpper_01 }
+            BonesToRemove[25] = { BoneName=joint_NoseSideLT_01 }
+            BonesToRemove[26] = { BoneName=joint_NoseMain_01 }
+            BonesToRemove[27] = { BoneName=joint_Jaw_01 }
+            BonesToRemove[28] = { BoneName=joint_EyeRT_01 }
+            BonesToRemove[29] = { BoneName=joint_CheekRT_01 }
+            BonesToRemove[30] = { BoneName=joint_DimpleRT_01 }
+            BonesToRemove[31] = { BoneName=joint_EyeBrowInnerRT_01 }
+            BonesToRemove[32] = { BoneName=joint_EyeBrowOuterRT_01 }
+            BonesToRemove[33] = { BoneName=joint_EyeLidUpRT_01 }
+            BonesToRemove[34] = { BoneName=joint_EyeLidDownRT_01 }
+            BonesToRemove[35] = { BoneName=joint_LipCornerRT_01 }
+            BonesToRemove[36] = { BoneName=joint_LipUpperRT_01 }
+            BonesToRemove[37] = { BoneName=joint_NoseSideRT_01 }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[3] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[3] = { 0, 1, 2 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[38] =
+        {
+            BonesToRemove[0] = { BoneName=joint_Cam_03 }
+            BonesToRemove[1] = { BoneName=joint_Cam_02 }
+            BonesToRemove[2] = { BoneName=joint_Cam_01 }
+            BonesToRemove[3] = { BoneName=joint_CamperAttach_01 }
+            BonesToRemove[4] = { BoneName=joint_SlasherAttach_01 }
+            BonesToRemove[5] = { BoneName=joint_ClavicleLT_01 }
+            BonesToRemove[6] = { BoneName=joint_ClavicleRT_01 }
+            BonesToRemove[7] = { BoneName=joint_Hand_LT_01_IK }
+            BonesToRemove[8] = { BoneName=joint_Hand_RT_01_IK }
+            BonesToRemove[9] = { BoneName=joint_Foot_LT_01_IK }
+            BonesToRemove[10] = { BoneName=joint_Foot_RT_01_IK }
+            BonesToRemove[11] = { BoneName=joint_HipRT_01 }
+            BonesToRemove[12] = { BoneName=joint_HipLT_01 }
+            BonesToRemove[13] = { BoneName=joint_tummy01 }
+            BonesToRemove[14] = { BoneName=joint_Back01 }
+            BonesToRemove[15] = { BoneName=joint_EyeLT_01 }
+            BonesToRemove[16] = { BoneName=joint_CheekLT_01 }
+            BonesToRemove[17] = { BoneName=joint_DimpleLT_01 }
+            BonesToRemove[18] = { BoneName=joint_EyeBrowInnerLT_01 }
+            BonesToRemove[19] = { BoneName=joint_EyeBrowOuterLT_01 }
+            BonesToRemove[20] = { BoneName=joint_EyeLidUpLT_01 }
+            BonesToRemove[21] = { BoneName=joint_EyeLidDownLT_01 }
+            BonesToRemove[22] = { BoneName=joint_LipCornerLT_01 }
+            BonesToRemove[23] = { BoneName=joint_LipUpperLT_01 }
+            BonesToRemove[24] = { BoneName=joint_LipUpper_01 }
+            BonesToRemove[25] = { BoneName=joint_NoseSideLT_01 }
+            BonesToRemove[26] = { BoneName=joint_NoseMain_01 }
+            BonesToRemove[27] = { BoneName=joint_Jaw_01 }
+            BonesToRemove[28] = { BoneName=joint_EyeRT_01 }
+            BonesToRemove[29] = { BoneName=joint_CheekRT_01 }
+            BonesToRemove[30] = { BoneName=joint_DimpleRT_01 }
+            BonesToRemove[31] = { BoneName=joint_EyeBrowInnerRT_01 }
+            BonesToRemove[32] = { BoneName=joint_EyeBrowOuterRT_01 }
+            BonesToRemove[33] = { BoneName=joint_EyeLidUpRT_01 }
+            BonesToRemove[34] = { BoneName=joint_EyeLidDownRT_01 }
+            BonesToRemove[35] = { BoneName=joint_LipCornerRT_01 }
+            BonesToRemove[36] = { BoneName=joint_LipUpperRT_01 }
+            BonesToRemove[37] = { BoneName=joint_NoseSideRT_01 }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+}
+MorphTargets[0] = {}
+Sockets[0] = {}
+SamplingInfo =
+{
+    Regions[0] = {}
+    BuiltData =
+    {
+        WholeMeshBuiltData[4] = { , , ,  }
+        RegionBuiltData[0] = {}
+    }
+}
+SkinWeightProfiles[0] = {}
+NumVertexColorChannels = 0
+DummyPropSK = 0

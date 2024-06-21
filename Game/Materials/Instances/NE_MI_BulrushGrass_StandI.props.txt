@@ -1,0 +1,123 @@
+Parent = Material3'/Engine/EngineMaterials/BaseFlattenMaterial.BaseFlattenMaterial'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=SpecularConst }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=OpacityConst }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=OpacityMaskConst }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=AmbientOcclusionConst }
+        ParameterValue = 1
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Swamp/Structures/T_BulrushGrass_StandInMeshActor_Diffuse.T_BulrushGrass_StandInMeshActor_Diffuse'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=NormalTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Swamp/Structures/T_BulrushGrass_StandInMeshActor_Normal.T_BulrushGrass_StandInMeshActor_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=PackedTexture }
+        ParameterValue = Texture2D'/Game/Textures/Environment/Swamp/Structures/T_BulrushGrass_StandInMeshActor_MRS.T_BulrushGrass_StandInMeshActor_MRS'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=PackMetallic }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=PackRoughness }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=PackSpecular }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseDiffuse }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap'
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BaseFlattenDiffuseMap.BaseFlattenDiffuseMap'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BaseFlattenEmissiveMap.BaseFlattenEmissiveMap'
+    CachedReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BaseFlattenGrayscaleMap.BaseFlattenGrayScaleMap'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BulrushGrass_StandInMeshActor_MRS
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BulrushGrass_StandInMeshActor_Normal
+    }
+}

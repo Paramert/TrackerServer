@@ -1,0 +1,93 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=UseMipmap }
+                    ParameterInfos[1] = { Name=blur }
+                    ParameterInfos[2] = { Name=BlurIntensity }
+                    ParameterInfos[3] = { Name=ShadowBias }
+                    ParameterInfos[4] = { Name=TransitionScale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=LightPosition }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=LightDepthBuffer }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0, 3, 0.5, 5, 10 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=221.89, G=1737.4, B=809.01, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = LightDepthBuffer
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=UseMipmap, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=blur, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=BlurIntensity, Group=None }
+    CollectedScalarParameters[3] = { Value=5, Name=ShadowBias, Group=None }
+    CollectedScalarParameters[4] = { Value=10, Name=TransitionScale, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=221.89, G=1737.4, B=809.01, A=1 }
+        Name = LightPosition
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

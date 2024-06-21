@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/Liquid/M_Blood_Dissolve.M_Blood_Dissolve'
+    Materials[1] = Material3'/Game/Effects/Materials/Liquid/M_Blood_Dissolve.M_Blood_Dissolve'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/Liquid/M_Blood_Dissolve.M_Blood_Dissolve'
+        MaterialSlotName = uniformvolume
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/Liquid/M_Blood_Dissolve.M_Blood_Dissolve'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.16525, Y=6.04886, Z=10.2579 }
+    BoxExtent = { X=27.5601, Y=20.4219, Z=14.9596 }
+    SphereRadius = 31.0974
+}

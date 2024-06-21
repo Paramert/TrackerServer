@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_GarbegeBag01.MI_GarbegeBag01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_GarbegeBag01.MI_GarbegeBag01'
+        MaterialSlotName = MI_GarbegeBag01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 183.337, 165.381, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.903349, Y=-3.37564, Z=44.1355 }
+    BoxExtent = { X=32.6293, Y=31.8472, Z=44.265 }
+    SphereRadius = 55.8128
+}

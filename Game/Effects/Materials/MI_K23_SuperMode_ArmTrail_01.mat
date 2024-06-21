@@ -1,0 +1,6 @@
+Diffuse=T_SmokeTile
+Normal=T_WaterNormal
+Other[0]=Fxt_HorizontalGradient_BothSides_01
+Other[1]=T_Trail
+Other[2]=T_VignetteClouds_Stalking
+Other[3]=T_Volumelight

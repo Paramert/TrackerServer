@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Chalet_Wood04.MI_Kenya_Chalet_Wood04'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood03.MI_Kenya_Plywood03'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood02.MI_Kenya_Plywood02'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood01.MI_Kenya_Plywood01'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Chalet_Wood04.MI_Kenya_Chalet_Wood04'
+        MaterialSlotName = MI_Kenya_Chalet_Wood04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 85.4897, 447.914, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood03.MI_Kenya_Plywood03'
+        MaterialSlotName = MI_Kenya_Plywood03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 149.364, 439.099, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood02.MI_Kenya_Plywood02'
+        MaterialSlotName = MI_Kenya_Plywood02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 85.3548, 436.916, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Kenya/MI_Kenya_Plywood01.MI_Kenya_Plywood01'
+        MaterialSlotName = MI_Kenya_Plywood01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 42.6969, 437.042, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.62939e-06, Y=2.51917, Z=0 }
+    BoxExtent = { X=109.175, Y=7.17172, Z=113.944 }
+    SphereRadius = 146.742
+}

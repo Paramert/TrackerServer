@@ -1,0 +1,165 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_Flicker_Flashlight.T_Gradient_Flicker_Flashlight'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_HalloweenJuice2.T_Gradient_HalloweenJuice2'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Veins03.T_Veins03'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=CGC- Max Glow Size }
+                    ParameterInfos[1] = { Name=GC- Max Size }
+                    ParameterInfos[2] = { Name=FlashlightIntensity }
+                    ParameterInfos[3] = { Name=ETC- Vignette Intensity }
+                    ParameterInfos[4] = { Name=GC- Min Size }
+                    ParameterInfos[5] = { Name=CGC- Min Glow Size }
+                    ParameterInfos[6] = { Name=ETC- Frequency Flicker }
+                    ParameterInfos[7] = { Name=ETM- M1- Tiling }
+                    ParameterInfos[8] = { Name=CGC- Controller }
+                    ParameterInfos[9] = { Name=ETC- Global Max Size }
+                    ParameterInfos[10] = { Name=ETM- M2-Tiling }
+                    ParameterInfos[11] = { Name=GC- Frequency Size Change }
+                    ParameterInfos[12] = { Name=ETC- Global Min Size }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=T_GradientForColor }
+                    ParameterInfos[1] = { Name=T_EntityVeins }
+                    ParameterInfos[2] = { Name=T_EntityFlicker }
+                    ParameterInfos[3] = { Name=T_RadialGradient }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 3
+            ScalarValues[1] = 1.25
+            ScalarValues[2] = 0
+            ScalarValues[3] = 3
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.5
+            ScalarValues[6] = 2.2
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1.5
+            ScalarValues[9] = 0.5
+            ScalarValues[10] = 2
+            ScalarValues[11] = 0.01
+            ScalarValues[12] = 1.75
+        }
+        VectorValues[0] = {}
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_HalloweenJuice2.T_Gradient_HalloweenJuice2'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_Flicker_Flashlight.T_Gradient_Flicker_Flashlight'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_TilingClouds_01.T_TilingClouds_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Veins_04.T_Veins_04'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_HalloweenJuice2.T_Gradient_HalloweenJuice2'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Veins03.T_Veins03'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_Flicker_Flashlight.T_Gradient_Flicker_Flashlight'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_HalloweenJuice2.T_Gradient_HalloweenJuice2'
+        Name = T_GradientForColor
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        Name = T_EntityVeins
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Gradient/T_Gradient_Flicker_Flashlight.T_Gradient_Flicker_Flashlight'
+        Name = T_EntityFlicker
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Fx_radialGradient.Fx_radialGradient'
+        Name = T_RadialGradient
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=CGC- Max Glow Size, Group=None }
+    CollectedScalarParameters[1] = { Value=1.25, Name=GC- Max Size, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=FlashlightIntensity, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 3
+        Name = ETC- Vignette Intensity
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=1, Name=GC- Min Size, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=CGC- Min Glow Size, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 2.2
+        Name = ETC- Frequency Flicker
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=ETM- M1- Tiling, Group=None }
+    CollectedScalarParameters[8] = { Value=1.5, Name=CGC- Controller, Group=None }
+    CollectedScalarParameters[9] = { Value=0.5, Name=ETC- Global Max Size, Group=None }
+    CollectedScalarParameters[10] = { Value=2, Name=ETM- M2-Tiling, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0.01
+        Name = GC- Frequency Size Change
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1.75
+        Name = ETC- Global Min Size
+        Group = None
+    }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

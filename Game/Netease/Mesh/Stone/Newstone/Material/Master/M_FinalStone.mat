@@ -1,0 +1,6 @@
+Diffuse=Stone_C_d
+Normal=Stone_C_n
+Emissive=Stone_C_e
+Other[0]=Stone_C_m
+Other[1]=t_crackedmud_01_d
+Other[2]=T_Blood_HDR

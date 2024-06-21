@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/StarterContent/Materials/M_Metal_Steel.M_Metal_Steel'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/StarterContent/Materials/M_Metal_Steel.M_Metal_Steel'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 258.473, 1867.97, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-159.84, Y=159.22, Z=244.35 }
+    BoxExtent = { X=1442.89, Y=1440.78, Z=265.882 }
+    SphereRadius = 1931.04
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Substance/MI_DirtTerrain_Hill.MI_DirtTerrain_Hill'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Substance/MI_DirtTerrain_Hill.MI_DirtTerrain_Hill'
+        MaterialSlotName = MI_DirtTerrain_Hill
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1493.35, 1482.88, 1493.35, 1483.82 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=23.5093, Y=11.5556, Z=120.428 }
+    BoxExtent = { X=643.738, Y=649.141, Z=139.687 }
+    SphereRadius = 889.803
+}

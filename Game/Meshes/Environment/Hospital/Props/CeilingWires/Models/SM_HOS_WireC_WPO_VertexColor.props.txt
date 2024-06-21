@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_SR_Central_Module03_WPO_VertexColor.MI_HOS_SR_Central_Module03_WPO_VertexColor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_HOS_SR_Central_Module03_WPO_VertexColor.MI_HOS_SR_Central_Module03_WPO_VertexColor'
+        MaterialSlotName = MI_HOS_SR_Central_Module03_WPOVertClr
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 27.9445, 138.832, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.90786, Y=-10.0952, Z=-49.7225 }
+    BoxExtent = { X=8.48836, Y=709.302, Z=64.8731 }
+    SphereRadius = 712.095
+}

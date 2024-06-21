@@ -1,0 +1,6 @@
+Diffuse=T_LitSmoke
+Normal=T_WaterNormal2
+Other[0]=T_Noise_08
+Other[1]=T_Smoke_02_Tiling1
+Other[2]=T_Smoke_Trails_003
+Other[3]=T_Smoke_Wisps_001

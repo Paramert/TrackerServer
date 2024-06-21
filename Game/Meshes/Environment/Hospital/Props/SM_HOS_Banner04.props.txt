@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Banner01.MI_HOS_Banner01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HOS_Banner01.MI_HOS_Banner01'
+        MaterialSlotName = MI_HOS_Banner01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 568.121, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.89014, Y=9.28669, Z=7.21984 }
+    BoxExtent = { X=180.034, Y=6.07685, Z=75.5496 }
+    SphereRadius = 195.259
+}

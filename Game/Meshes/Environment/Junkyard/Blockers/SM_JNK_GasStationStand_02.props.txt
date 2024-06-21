@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Wood_03.MI_JNK_GasStationStand_Wood_03'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Metal_02.MI_JNK_GasStationStand_Metal_02'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Stand02.MI_JNK_GasStationStand_Stand02'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Wood_03.MI_JNK_GasStationStand_Wood_03'
+        MaterialSlotName = MI_JNK_GasStationStand_Wood_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 704.122, 552.896, 702.492, 715.789 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Metal_02.MI_JNK_GasStationStand_Metal_02'
+        MaterialSlotName = MI_JNK_GasStationStand_Metal_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 701.133, 665.009, 702.205, 722.25 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Junkyard/Blockers/MI_JNK_GasStationStand_Stand02.MI_JNK_GasStationStand_Stand02'
+        MaterialSlotName = MI_JNK_GasStationStand_Stand02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 434.049, 712.326, 0, 734.13 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=21.2354, Z=93.3022 }
+    BoxExtent = { X=149.585, Y=42.8343, Z=93.3023 }
+    SphereRadius = 181.427
+}

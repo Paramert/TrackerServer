@@ -1,0 +1,164 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_BC.T_BEWS01_BC'
+    ReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_N.T_BEWS01_N'
+    ReferencedTextures[2] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_ORM.T_BEWS01_ORM'
+    ReferencedTextures[3] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_S.T_BEWS01_S'
+    ReferencedTextures[4] = Texture2D'/Game/Characters/Slashers/Haiti/Weapons/Textures/Outfit01/T_HKW01_ORM.T_HKW01_ORM'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[1] = { Name=Atl_Roughness }
+                    ParameterInfos[2] = { Name=Specular Value }
+                    ParameterInfos[3] = { Name=Roughness Value }
+                    ParameterInfos[4] = { Name=Atl_Metallic }
+                    ParameterInfos[5] = { Name=Normal Off }
+                    ParameterInfos[6] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[7] = { Name=Metallic Value }
+                    ParameterInfos[8] = { Name=Atl_Specular }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                    ParameterInfos[1] = { Name=Atl_DiffuseTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                    ParameterInfos[1] = { Name=ORM }
+                    ParameterInfos[2] = { Name=Normal }
+                    ParameterInfos[3] = { Name=Metallic Texture }
+                    ParameterInfos[4] = { Name=Specular Texture }
+                    ParameterInfos[5] = { Name=Emissive Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 10, 1, 0, 0, 0, 0, 0, 0, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_BC.T_BEWS01_BC'
+            TextureValues[1] = Texture2D'/Game/Characters/Slashers/Haiti/Weapons/Textures/Outfit01/T_HKW01_ORM.T_HKW01_ORM'
+            TextureValues[2] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_N.T_BEWS01_N'
+            TextureValues[3] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_S.T_BEWS01_S'
+            TextureValues[4] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_S.T_BEWS01_S'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_S.T_BEWS01_S'
+        ReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_N.T_BEWS01_N'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[3] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_BC.T_BEWS01_BC'
+        ReferencedTextures[4] = Texture2D'/Game/Characters/Slashers/Haiti/Weapons/Textures/Outfit01/T_HKW01_ORM.T_HKW01_ORM'
+        ReferencedTextures[5] = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_ORM.T_BEWS01_ORM'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_BC.T_BEWS01_BC'
+        Name = Base Color
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Haiti/Weapons/Textures/Outfit01/T_HKW01_ORM.T_HKW01_ORM'
+        Name = ORM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_N.T_BEWS01_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_S.T_BEWS01_S'
+        Name = Metallic Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/Bear/Textures/Outfit01/T_BEWS01_S.T_BEWS01_S'
+        Name = Specular Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = Emissive Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Specular Value, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Roughness Value, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Normal Off, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Metallic Value, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Atl_Specular, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

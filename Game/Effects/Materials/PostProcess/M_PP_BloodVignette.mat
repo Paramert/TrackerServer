@@ -1,0 +1,11 @@
+Diffuse=T_FX_RainDrop_DST
+Normal=T_Water_N
+Other[0]=DefaultTexture
+Other[1]=T_BloodSplatter_Angled_3
+Other[2]=T_BloodSplatter_Angled_4
+Other[3]=T_BloodSplatter_Angled_5
+Other[4]=T_Small_BloodSplatter_Combined
+Other[5]=T_Small_BloodSplatter_CombinedBlurred
+Other[6]=T_FSbloodmist_03
+Other[7]=T_GradientBlood_02
+Other[8]=T_Noise03

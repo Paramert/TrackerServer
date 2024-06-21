@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Finland/Props/MI_Fin_RubberBlack01.MI_Fin_RubberBlack01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Finland/Props/MI_Fin_RubberBlack01.MI_Fin_RubberBlack01'
+        MaterialSlotName = MI_RubberBlack01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 188.66, 54.2712, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.0756e-05, Y=0, Z=-55.5489 }
+    BoxExtent = { X=3.55807, Y=44.6821, Z=59.0545 }
+    SphereRadius = 74.0787
+}

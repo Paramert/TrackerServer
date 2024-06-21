@@ -1,0 +1,8 @@
+Diffuse=NE_T_Blood_TP068_027
+Normal=T_LIQUID_TEST_2_N
+Cube=T_FSbloodmist_02
+Other[0]=T_LIQUID_TEST_1
+Other[1]=NE_T_NoiseNormal_TP068_002
+Other[2]=NE_T_Blood_TP068_027_N
+Other[3]=NE_T_Blood_TP068_031
+Other[4]=NE_T_Noise_TP068_026

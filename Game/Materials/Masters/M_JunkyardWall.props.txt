@@ -1,0 +1,333 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[11] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_CAO.T_MetalMaze1m01_CAO'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_MASK.T_MetalMaze1m01_MASK'
+    ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_N.T_MetalMaze1m01_N'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Blue.Blue'
+    ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/Green.Green'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Tiles/Red.Red'
+    ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    ReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+    ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[28] =
+                {
+                    ParameterInfos[0] = { Name=018_FadeRadius }
+                    ParameterInfos[1] = { Name=21_MossTileAmountY }
+                    ParameterInfos[2] = { Name=21_MetallicValue }
+                    ParameterInfos[3] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[4] = { Name=Atl_Roughness }
+                    ParameterInfos[5] = { Name=21_MossTileAmountX }
+                    ParameterInfos[6] = { Name=contrast }
+                    ParameterInfos[7] = { Name=21_MossCurve }
+                    ParameterInfos[8] = { Name=21_RoughnessValue }
+                    ParameterInfos[9] = { Name=21_NormalFlatness }
+                    ParameterInfos[10] = { Name=MossMaskScaleXY }
+                    ParameterInfos[11] = { Name=BlueTextureTiling }
+                    ParameterInfos[12] = { Name=018_FadeRadiusDistance }
+                    ParameterInfos[13] = { Name=Atl_Metallic }
+                    ParameterInfos[14] = { Name=21_MossTileAmount }
+                    ParameterInfos[15] = { Name=21_MossHeight }
+                    ParameterInfos[16] = { Name=GreenTextureTiling }
+                    ParameterInfos[17] = { Name=MossMaskScaleZ }
+                    ParameterInfos[18] = { Name=AO_scale }
+                    ParameterInfos[19] = { Name=21_SpecularValue }
+                    ParameterInfos[20] = { Name=pixelfade }
+                    ParameterInfos[21] = { Name=MossMaskPosZ }
+                    ParameterInfos[22] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[23] = { Name=21_GroundHeight }
+                    ParameterInfos[24] = { Name=RedTextureTiling }
+                    ParameterInfos[25] = { Name=TilingAmount }
+                    ParameterInfos[26] = { Name=21_AOValue }
+                    ParameterInfos[27] = { Name=Atl_Specular }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Atl_DiffuseTint }
+                    ParameterInfos[1] = { Name=ColorTint_Fade }
+                    ParameterInfos[2] = { Name=CustomAO }
+                    ParameterInfos[3] = { Name=21_MossColorTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Green_texture }
+                    ParameterInfos[1] = { Name=CAO_Texture }
+                    ParameterInfos[2] = { Name=NormalMap_Texture }
+                    ParameterInfos[3] = { Name=Mask_Texture }
+                    ParameterInfos[4] = { Name=21_MossORMTexture }
+                    ParameterInfos[5] = { Name=MossMaskTexture }
+                    ParameterInfos[6] = { Name=Red_Texture }
+                    ParameterInfos[7] = { Name=21_MossNormalTexture }
+                    ParameterInfos[8] = { Name=blue_texture }
+                    ParameterInfos[9] = { Name=21_MossTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[28] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 10
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0.3
+            ScalarValues[7] = 2
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0.2
+            ScalarValues[11] = 1
+            ScalarValues[12] = 4000
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 30
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1
+            ScalarValues[18] = 3
+            ScalarValues[19] = 0
+            ScalarValues[20] = 4000
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0
+            ScalarValues[24] = 1
+            ScalarValues[25] = 1
+            ScalarValues[26] = 1
+            ScalarValues[27] = 0
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[10] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Environment/Tiles/Green.Green'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_CAO.T_MetalMaze1m01_CAO'
+            TextureValues[2] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_N.T_MetalMaze1m01_N'
+            TextureValues[3] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_MASK.T_MetalMaze1m01_MASK'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[5] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+            TextureValues[6] = Texture2D'/Game/Textures/Environment/Tiles/Red.Red'
+            TextureValues[7] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[8] = Texture2D'/Game/Textures/Environment/Tiles/Blue.Blue'
+            TextureValues[9] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+        }
+    }
+    ReferencedTextures[12] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_N.T_MetalMaze1m01_N'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_MASK.T_MetalMaze1m01_MASK'
+        ReferencedTextures[8] = Texture2D'/Game/Textures/Environment/Tiles/Blue.Blue'
+        ReferencedTextures[9] = Texture2D'/Game/Textures/Environment/Tiles/Green.Green'
+        ReferencedTextures[10] = Texture2D'/Game/Textures/Environment/Tiles/Red.Red'
+        ReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_CAO.T_MetalMaze1m01_CAO'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Green.Green'
+        Name = Green_texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_CAO.T_MetalMaze1m01_CAO'
+        Name = CAO_Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_N.T_MetalMaze1m01_N'
+        Name = NormalMap_Texture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Junkyard/Structures/T_MetalMaze1m01_MASK.T_MetalMaze1m01_MASK'
+        Name = Mask_Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = 21_MossORMTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.T_CrawlingMoss_Mask_01'
+        Name = MossMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Red.Red'
+        Name = Red_Texture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = 21_MossNormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Blue.Blue'
+        Name = blue_texture
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Vegetations/Moss_diffuse.Moss_diffuse'
+        Name = 21_MossTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[28] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=018_FadeRadius, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=21_MossTileAmountY, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=21_MetallicValue, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=21_MossTileAmountX, Group=None }
+    CollectedScalarParameters[6] = { Value=0.3, Name=contrast, Group=None }
+    CollectedScalarParameters[7] = { Value=2, Name=21_MossCurve, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=21_RoughnessValue, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=21_NormalFlatness, Group=None }
+    CollectedScalarParameters[10] = { Value=0.2, Name=MossMaskScaleXY, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=BlueTextureTiling, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 4000
+        Name = 018_FadeRadiusDistance
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=21_MossTileAmount, Group=None }
+    CollectedScalarParameters[15] = { Value=30, Name=21_MossHeight, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=GreenTextureTiling, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=MossMaskScaleZ, Group=None }
+    CollectedScalarParameters[18] = { Value=3, Name=AO_scale, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=21_SpecularValue, Group=None }
+    CollectedScalarParameters[20] = { Value=4000, Name=pixelfade, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=MossMaskPosZ, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=21_GroundHeight, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=RedTextureTiling, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=TilingAmount, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=21_AOValue, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=Atl_Specular, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Atl_DiffuseTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint_Fade
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = CustomAO
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 21_MossColorTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[6] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = Blue
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = Green
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = Red
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_MetalMaze1m01_CAO
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MetalMaze1m01_MASK
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MetalMaze1m01_N
+    }
+}

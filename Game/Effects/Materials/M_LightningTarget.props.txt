@@ -1,0 +1,72 @@
+TwoSided = true
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Sharpness }
+                    ParameterInfos[1] = { Name=Width }
+                    ParameterInfos[2] = { Name=Color Temp }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Target AlwaysVisible }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.1, 0.01, 8000 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=0.291771, B=0.238398, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Sharpness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.01, Name=Width, Group=None }
+    CollectedScalarParameters[2] = { Value=8000, Name=Color Temp, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.291771, B=0.238398, A=1 }
+        Name = Target AlwaysVisible
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

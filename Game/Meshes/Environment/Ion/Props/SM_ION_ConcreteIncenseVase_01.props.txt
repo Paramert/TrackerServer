@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_ION_ConcreteIncenseVase_01.MI_ION_ConcreteIncenseVase_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_ION_ConcreteIncenseVase_01.MI_ION_ConcreteIncenseVase_01'
+        MaterialSlotName = MI_ION_ConcreteIncenseVase_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 107.708, 127.657, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.73953, Y=0.295151, Z=30.5085 }
+    BoxExtent = { X=24.5143, Y=22.4796, Z=30.5085 }
+    SphereRadius = 32.8914
+}

@@ -1,0 +1,235 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_BC.T_K30SWBanner01_BC'
+    ReferencedTextures[1] = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_M.T_K30SWBanner01_M'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K30/T_K30_PathGradient.T_K30_PathGradient'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Asylum/Structures/T_ASY_StairTiles_N.T_ASY_StairTiles_N'
+    ReferencedTextures[6] = Texture2D'/Game/Textures/Props/T_TilingNoise02_M.T_TilingNoise02_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[21] =
+                {
+                    ParameterInfos[0] = { Name=Dissolve_Tiling_X }
+                    ParameterInfos[1] = { Name=EdgeDissolve_Offset_Y }
+                    ParameterInfos[2] = { Name=D2T_Dissolve_TopEnd }
+                    ParameterInfos[3] = { Name=Dissolve_BottomEnd }
+                    ParameterInfos[4] = { Name=EdgeDissolveSize }
+                    ParameterInfos[5] = { Name=WPO_PannerSpeed_X }
+                    ParameterInfos[6] = { Name=WPO_PannerSpeed_Y }
+                    ParameterInfos[7] = { Name=Dissolve_PannerSpeed_Y }
+                    ParameterInfos[8] = { Name=D2T_DissolveProgress }
+                    ParameterInfos[9] = { Name=Full Dissolve Length }
+                    ParameterInfos[10] = { Name=FlowmapTiling }
+                    ParameterInfos[11] = { Name=Dissolve_PannerSpeed_X }
+                    ParameterInfos[12] = { Name=BannerOpacity }
+                    ParameterInfos[13] = { Name=Full Dissolve Emissive }
+                    ParameterInfos[14] = { Name=Dissolve_Tiling_Y }
+                    ParameterInfos[15] = { Name=WPOIntensity_BurnedSection }
+                    ParameterInfos[16] = { Name=Full Dissolve Noise Contrast }
+                    ParameterInfos[17] = { Name=WPOIntensity_UnburnedSection }
+                    ParameterInfos[18] = { Name=Full Dissolve Control }
+                    ParameterInfos[19] = { Name=Dissolve Switch }
+                    ParameterInfos[20] = { Name=FlowmapIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Full Dissolve Color }
+                    ParameterInfos[1] = { Name=Dissolve Noise Speed X Y }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=GradientMap }
+                    ParameterInfos[1] = { Name=NormalMap }
+                    ParameterInfos[2] = { Name=BaseColor }
+                    ParameterInfos[3] = { Name=MaskTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[21] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.5
+            ScalarValues[2] = 1
+            ScalarValues[3] = -1
+            ScalarValues[4] = 1.7
+            ScalarValues[5] = 0
+            ScalarValues[6] = -0.75
+            ScalarValues[7] = 0.35
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.11
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 11
+            ScalarValues[14] = 1
+            ScalarValues[15] = 10
+            ScalarValues[16] = 0.5
+            ScalarValues[17] = 60
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0.25
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0.572917, B=0.275491, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/K30/T_K30_PathGradient.T_K30_PathGradient'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Asylum/Structures/T_ASY_StairTiles_N.T_ASY_StairTiles_N'
+            TextureValues[2] = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_BC.T_K30SWBanner01_BC'
+            TextureValues[3] = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_M.T_K30SWBanner01_M'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Asylum/Structures/T_ASY_StairTiles_N.T_ASY_StairTiles_N'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K30/T_K30_PathGradient.T_K30_PathGradient'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Props/T_TilingNoise02_M.T_TilingNoise02_M'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        ReferencedTextures[5] = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_BC.T_K30SWBanner01_BC'
+        ReferencedTextures[6] = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_M.T_K30SWBanner01_M'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K30/T_K30_PathGradient.T_K30_PathGradient'
+        Name = GradientMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Asylum/Structures/T_ASY_StairTiles_N.T_ASY_StairTiles_N'
+        Name = NormalMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_BC.T_K30SWBanner01_BC'
+        Name = BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_M.T_K30SWBanner01_M'
+        Name = MaskTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[21] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Dissolve_Tiling_X, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.5
+        Name = EdgeDissolve_Offset_Y
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=D2T_Dissolve_TopEnd, Group=None }
+    CollectedScalarParameters[3] = { Value=-1, Name=Dissolve_BottomEnd, Group=None }
+    CollectedScalarParameters[4] = { Value=1.7, Name=EdgeDissolveSize, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=WPO_PannerSpeed_X, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.75, Name=WPO_PannerSpeed_Y, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.35
+        Name = Dissolve_PannerSpeed_Y
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0, Name=D2T_DissolveProgress, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.11
+        Name = Full Dissolve Length
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0.5, Name=FlowmapTiling, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Dissolve_PannerSpeed_X, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=BannerOpacity, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 11
+        Name = Full Dissolve Emissive
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=1, Name=Dissolve_Tiling_Y, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 10
+        Name = WPOIntensity_BurnedSection
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0.5
+        Name = Full Dissolve Noise Contrast
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 60
+        Name = WPOIntensity_UnburnedSection
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=0, Name=Full Dissolve Control, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Dissolve Switch, Group=None }
+    CollectedScalarParameters[20] = { Value=0.25, Name=FlowmapIntensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.572917, B=0.275491, A=1 }
+        Name = Full Dissolve Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Dissolve Noise Speed X Y
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise02_M
+    }
+}

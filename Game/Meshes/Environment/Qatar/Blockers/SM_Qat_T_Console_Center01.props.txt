@@ -1,0 +1,134 @@
+Materials[10] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons.MI_Qat_Bottons'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons_Lite03.MI_Qat_Bottons_Lite03'
+    Materials[2] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons_Lite02.MI_Qat_Bottons_Lite02'
+    Materials[3] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons_Lite04.MI_Qat_Bottons_Lite04'
+    Materials[4] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Metal01.MI_Qat_Metal01'
+    Materials[5] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_GreyPlastic02.MI_Qat_GreyPlastic02'
+    Materials[6] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_GreyPlastic01.MI_Qat_GreyPlastic01'
+    Materials[7] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons_Lite01.MI_Qat_Bottons_Lite01'
+    Materials[8] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MetalCabinet01.MI_Qat_MetalCabinet01'
+    Materials[9] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Metal02.MI_Qat_Metal02'
+}
+SourceModels[0] = {}
+StaticMaterials[10] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons.MI_Qat_Bottons'
+        MaterialSlotName = MI_Qat_Bottons
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 152.077, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons_Lite03.MI_Qat_Bottons_Lite03'
+        MaterialSlotName = MI_Qat_Bottons_Lite03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 99.8197, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons_Lite02.MI_Qat_Bottons_Lite02'
+        MaterialSlotName = MI_Qat_Bottons_Lite02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 164.45, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons_Lite04.MI_Qat_Bottons_Lite04'
+        MaterialSlotName = MI_Qat_Bottons_Lite04
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.881, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Metal01.MI_Qat_Metal01'
+        MaterialSlotName = MI_Qat_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 112.996, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_GreyPlastic02.MI_Qat_GreyPlastic02'
+        MaterialSlotName = MI_Qat_GreyPlastic02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 184.578, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_GreyPlastic01.MI_Qat_GreyPlastic01'
+        MaterialSlotName = MI_Qat_GreyPlastic01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 186.07, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Bottons_Lite01.MI_Qat_Bottons_Lite01'
+        MaterialSlotName = MI_Qat_Bottons_Lite01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 63.6893, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_MetalCabinet01.MI_Qat_MetalCabinet01'
+        MaterialSlotName = MI_Qat_MetalCabinet01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 184.528, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[9] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_Metal02.MI_Qat_Metal02'
+        MaterialSlotName = MI_Qat_Metal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 86.1692, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.15257, Z=64.9449 }
+    BoxExtent = { X=75, Y=49.8366, Z=64.8397 }
+    SphereRadius = 106.194
+}

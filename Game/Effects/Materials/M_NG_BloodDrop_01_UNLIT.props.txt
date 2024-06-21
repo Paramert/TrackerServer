@@ -1,0 +1,195 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_blood_drop_01.T_blood_drop_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_blood_drop_01_N.T_blood_drop_01_N'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Opacity_color }
+                    ParameterInfos[1] = { Name=CameraFadeDistance }
+                    ParameterInfos[2] = { Name=DepthFadeDistance }
+                    ParameterInfos[3] = { Name=Emissive_Boost }
+                    ParameterInfos[4] = { Name=ExponentIn }
+                    ParameterInfos[5] = { Name=Reflection_Opacity }
+                    ParameterInfos[6] = { Name=Contrast_Drop }
+                    ParameterInfos[7] = { Name=Fresnel_Contrast }
+                    ParameterInfos[8] = { Name=OpacityFresnel }
+                    ParameterInfos[9] = { Name=Softness_Reflect }
+                    ParameterInfos[10] = { Name=Opacity }
+                    ParameterInfos[11] = { Name=Pan Speed X }
+                    ParameterInfos[12] = { Name=Pan Speed Y }
+                    ParameterInfos[13] = { Name=Reflection_Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Blood Color Outer 01 }
+                    ParameterInfos[1] = { Name=Blood Color Reflection }
+                    ParameterInfos[2] = { Name=FresnelColor }
+                    ParameterInfos[3] = { Name=Blood Color Outer 02 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Reflection Map }
+                    ParameterInfos[1] = { Name=Fresnel Normal }
+                    ParameterInfos[2] = { Name=Normal Map }
+                    ParameterInfos[3] = { Name=Blood Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] = { 15, 0, 0, 1, 0, 5, 1, 1, 1, 5, 1, 0, -0.06, 2 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.04, G=0.000334, B=0, A=1 }
+            VectorValues[1] = { R=0.5, G=0.39, B=0.39, A=1 }
+            VectorValues[2] = { R=0.32954, G=0.32739, B=0.338542, A=1 }
+            VectorValues[3] = { R=0.075, G=0.000626, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_blood_drop_01_N.T_blood_drop_01_N'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_blood_drop_01.T_blood_drop_01'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_blood_drop_01_N.T_blood_drop_01_N'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_Mud_01_M.T_Mud_01_M'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_blood_drop_01.T_blood_drop_01'
+        ReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_reflection_map_01.T_reflection_map_01'
+        Name = Reflection Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01_Tiling.T_NoiseNormal_01_Tiling'
+        Name = Fresnel Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_blood_drop_01_N.T_blood_drop_01_N'
+        Name = Normal Map
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_blood_drop_01.T_blood_drop_01'
+        Name = Blood Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=15, Name=Opacity_color, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=CameraFadeDistance, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=DepthFadeDistance, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Emissive_Boost, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=ExponentIn, Group=None }
+    CollectedScalarParameters[5] = { Value=5, Name=Reflection_Opacity, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Contrast_Drop, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Fresnel_Contrast, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=OpacityFresnel, Group=None }
+    CollectedScalarParameters[9] = { Value=5, Name=Softness_Reflect, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Pan Speed X, Group=None }
+    CollectedScalarParameters[12] = { Value=-0.06, Name=Pan Speed Y, Group=None }
+    CollectedScalarParameters[13] = { Value=2, Name=Reflection_Contrast, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.04, G=0.000334, B=0, A=1 }
+        Name = Blood Color Outer 01
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.5, G=0.39, B=0.39, A=1 }
+        Name = Blood Color Reflection
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.32954, G=0.32739, B=0.338542, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.075, G=0.000626, B=0, A=1 }
+        Name = Blood Color Outer 02
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.964355
+        UVChannelIndex = 0
+        TextureName = T_blood_drop_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.975952
+        UVChannelIndex = 0
+        TextureName = T_blood_drop_01_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Mud_01_M
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}

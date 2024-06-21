@@ -1,0 +1,89 @@
+Parent = Material3'/Game/Effects/Materials/Liquid/Puddle/M_Puddle.M_Puddle'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=N1_Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=N2_Tiling }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Falloff }
+        ParameterValue = 0.419048
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Strength }
+        ParameterValue = 0.904762
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=PuddleShape }
+        ParameterValue = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Puddlemap3.T_Puddlemap3'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Water Tint }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_Puddlemap1.T_Puddlemap1'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Noise03.T_Noise03'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/Fxt_verticalGradient1.Fxt_verticalGradient1'
+    CachedReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_WaterNormal.T_WaterNormal'
+    CachedReferencedTextures[6] = Texture2D'/Game/Effects/Textures/T_FX_Water_Ripple_Normals.T_FX_Water_Ripple_Normals'
+    CachedReferencedTextures[7] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_Flowmap_Water_03.T_FX_Flowmap_Water_03'
+    CachedReferencedTextures[8] = Texture2D'/Game/Effects/Textures/Liquid/Water/T_FX_Flowmap_Water_02.T_FX_Flowmap_Water_02'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

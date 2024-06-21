@@ -1,0 +1,11 @@
+Diffuse=T_SplashMeshGround_Albedo_01
+Normal=T_Tiling_Cloud_03_N
+SpecPower=T_SplashMeshGround_Albedo_01
+Cube=T_reflection_map_01
+Other[0]=T_Dust_Noise_02
+Other[1]=Black
+Other[2]=T_SplashMeshGround_ORM_01
+Other[3]=T_BurnedAsh
+Other[4]=T_Mud_N
+Other[5]=T_SmokeTile
+Other[6]=T_Tilling_Distortion_Map_01

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_Basic_Emmisive_Generators.MI_Basic_Emmisive_Generators'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_Basic_Emmisive_Generators.MI_Basic_Emmisive_Generators'
+        MaterialSlotName = MI_Basic_Emmisive_Generators
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 580.227, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.302956, Y=-17.6907, Z=238.126 }
+    BoxExtent = { X=73.2138, Y=88.0844, Z=254.438 }
+    SphereRadius = 275.576
+}

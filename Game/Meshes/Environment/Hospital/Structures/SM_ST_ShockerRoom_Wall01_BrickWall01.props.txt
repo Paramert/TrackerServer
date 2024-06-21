@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Brickwall01.MI_Hos_Brickwall01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_Brickwall01.MI_Hos_Brickwall01'
+        MaterialSlotName = MI_Hos_Brickwall01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 354.454, 5742.96, 780.602, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=195.693, Y=122.729, Z=255.314 }
+    BoxExtent = { X=1322.45, Y=1373.34, Z=255.314 }
+    SphereRadius = 1833.31
+}

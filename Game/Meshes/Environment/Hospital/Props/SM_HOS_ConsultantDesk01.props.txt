@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_ConsultantDesk01.MI_ConsultantDesk01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_ConsultantDesk01.MI_ConsultantDesk01'
+        MaterialSlotName = MI_ConsultantDesk01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 339.061, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.10352e-05, Y=1.35115, Z=44.0858 }
+    BoxExtent = { X=61.108, Y=51.3511, Z=44.0858 }
+    SphereRadius = 91.0488
+}

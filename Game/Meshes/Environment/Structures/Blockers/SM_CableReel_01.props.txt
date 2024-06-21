@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_CableReel.MI_CableReel'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_CableReel.MI_CableReel'
+        MaterialSlotName = MI_CableReel
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 360.767, 514.422, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.790909, Y=0.350838, Z=55.172 }
+    BoxExtent = { X=81.5215, Y=81.1141, Z=55.2555 }
+    SphereRadius = 99.2505
+}

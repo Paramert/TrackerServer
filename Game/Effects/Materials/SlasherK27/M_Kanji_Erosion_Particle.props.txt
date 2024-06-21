@@ -1,0 +1,180 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit013/T_HKHands013_Veins_Gradient.T_HKHands013_Veins_Gradient'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_011.T_K27_Attack_Ring_011'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_003.T_K27_Attack_Symbol_003'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_005.T_K27_Attack_Symbol_005'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=DepthFade }
+                    ParameterInfos[1] = { Name=OutlineNoiseIntensity }
+                    ParameterInfos[2] = { Name=Use Circular Distortion }
+                    ParameterInfos[3] = { Name=NoiseTiling }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Rays_Tiling_Speed }
+                    ParameterInfos[1] = { Name=Noise_Mask_Tiling_Speed }
+                    ParameterInfos[2] = { Name=Distortion_Tiling_Speed }
+                    ParameterInfos[3] = { Name=Noise_Erosion_Tiling_Speed }
+                    ParameterInfos[4] = { Name=Noise_Tiling_Speed }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Kanji_Texture }
+                    ParameterInfos[2] = { Name=Main_Texture }
+                    ParameterInfos[3] = { Name=Noise_Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 150, 1, 1, 10 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=4, G=4, B=0, A=-0.125 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_003.T_K27_Attack_Symbol_003'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_005.T_K27_Attack_Symbol_005'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_011.T_K27_Attack_Ring_011'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Characters/Slashers/Haiti/Textures/Outfit013/T_HKHands013_Veins_Gradient.T_HKHands013_Veins_Gradient'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_005.T_K27_Attack_Symbol_005'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_011.T_K27_Attack_Ring_011'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_003.T_K27_Attack_Symbol_003'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_003.T_K27_Attack_Symbol_003'
+        Name = Kanji_Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Symbol_005.T_K27_Attack_Symbol_005'
+        Name = Main_Texture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/K27/T_K27_Attack_Ring_011.T_K27_Attack_Ring_011'
+        Name = Noise_Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=150, Name=DepthFade, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=OutlineNoiseIntensity, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = Use Circular Distortion
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=10, Name=NoiseTiling, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=4, G=4, B=0, A=-0.125 }
+        Name = Rays_Tiling_Speed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Noise_Mask_Tiling_Speed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Distortion_Tiling_Speed
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Noise_Erosion_Tiling_Speed
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Noise_Tiling_Speed
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K27_Attack_Ring_011
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K27_Attack_Symbol_003
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K27_Attack_Symbol_005
+    }
+}

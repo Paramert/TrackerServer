@@ -1,0 +1,7 @@
+Diffuse=BlendFunc_DefBase
+Normal=FlatNormal
+Other[0]=BlendFunc_DefBlend
+Other[1]=Black_Linear
+Other[2]=White_Linear
+Other[3]=Yellow_Linear
+Other[4]=T_checker_grid

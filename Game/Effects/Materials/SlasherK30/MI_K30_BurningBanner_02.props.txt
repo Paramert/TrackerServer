@@ -1,0 +1,224 @@
+Parent = MaterialInstanceConstant'/Game/Effects/Materials/SlasherK30/MI_K30_BurningBanner_MasterInst.MI_K30_BurningBanner_MasterInst'
+ScalarParameterValues[15] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=GraDis_mask_power }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=GraDis_NoiseAmount }
+        ParameterValue = 6
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=GraDis_NoiseTiling }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=ObjectHeight }
+        ParameterValue = 7
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=ObjectGroundPosition }
+        ParameterValue = -150
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Emissive Border Base (rb) }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=border_brightness (rb) }
+        ParameterValue = 25
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Noise_Scale }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Noise_Speed }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Emissive Border Level (rb) }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Emissive Threshold (rb) }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Dissolve_PannerSpeed_Y }
+        ParameterValue = 0.55
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=DissolveProgress }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=WPO_PannerSpeed_Y }
+        ParameterValue = 0.75
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Texture (rb) }
+        ParameterValue = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_border_gradient_Blue.Dissolve_border_gradient_Blue'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=GradientMap }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K30/T_K30_PathGradient.T_K30_PathGradient'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_BC.T_K30SWBanner01_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=MaskTexture }
+        ParameterValue = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_M.T_K30SWBanner01_M'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=NormalMap }
+        ParameterValue = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_N.T_K30SWBanner01_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=constant emissive_color (rb) }
+        ParameterValue = { R=3, G=4, B=5, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=DetailTexture Color }
+        ParameterValue = { R=0, G=0.572917, B=0.275491, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[6] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=GenerateGradientFromWorld }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=Use Opacity Instead of Mask? (rb) }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=SphDis_BrightnessOff }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Dynamic Mask (rb) }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Border Ramp (rb) }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Detail Texture (rb) }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[7] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Textures/Environment/Asylum/Structures/T_ASY_StairTiles_N.T_ASY_StairTiles_N'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/K30/T_K30_PathGradient.T_K30_PathGradient'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Noise/T_TileNoise.T_TileNoise'
+    CachedReferencedTextures[3] = Texture2D'/Game/Textures/Props/T_TilingNoise02_M.T_TilingNoise02_M'
+    CachedReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_FlowMap_Distortion_01.T_FlowMap_Distortion_01'
+    CachedReferencedTextures[5] = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_BC.T_K30SWBanner01_BC'
+    CachedReferencedTextures[6] = Texture2D'/Game/Characters/Slashers/K30/Weapons/textures/K30_SWBanner01/T_K30SWBanner01_M.T_K30SWBanner01_M'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise02_M
+    }
+}

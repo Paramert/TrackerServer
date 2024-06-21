@@ -1,0 +1,182 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+    ReferencedTextures[5] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Detail-Tiling }
+                    ParameterInfos[2] = { Name=Metallic }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=Ambient Color Intensity }
+                    ParameterInfos[5] = { Name=Fresnel Reflection Factor }
+                    ParameterInfos[6] = { Name=Detail -SpeedX }
+                    ParameterInfos[7] = { Name=Detail -Intensity }
+                    ParameterInfos[8] = { Name=GestureIntensity }
+                    ParameterInfos[9] = { Name=Detail -SpeedY }
+                    ParameterInfos[10] = { Name=Fresnel Strength Exponent }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Detail Map }
+                    ParameterInfos[2] = { Name=GradientMap }
+                    ParameterInfos[3] = { Name=Erosion Texture RG }
+                    ParameterInfos[4] = { Name=Param }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 0, 1, 0.05, 0.05, 1, 0.04, 0, 0, 1, 0, 5 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+            TextureValues[4] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_WaterNormal2.T_WaterNormal2'
+        ReferencedTextures[5] = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_IceNoise.T_IceNoise'
+        Name = Detail Map
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Gradient_BLood.T_Gradient_BLood'
+        Name = GradientMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/Saliva/T_Saliva_Drop_02.T_Saliva_Drop_02'
+        Name = Erosion Texture RG
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Materials/Substance/Textures/T_Swamp_Mud_roughness.T_Swamp_Mud_roughness'
+        Name = Param
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Detail-Tiling, Group=None }
+    CollectedScalarParameters[2] = { Value=0.05, Name=Metallic, Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=Specular, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = Ambient Color Intensity
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.04
+        Name = Fresnel Reflection Factor
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0, Name=Detail -SpeedX, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Detail -Intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=GestureIntensity, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Detail -SpeedY, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 5
+        Name = Fresnel Strength Exponent
+        Group = None
+    }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_IceNoise
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Saliva_Drop_02
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal2
+    }
+}

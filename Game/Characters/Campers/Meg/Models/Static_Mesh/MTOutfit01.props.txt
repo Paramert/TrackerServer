@@ -1,0 +1,98 @@
+Materials[7] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTHead00_01.MI_MTHead00_01'
+    Materials[1] = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTHair01_Mask.MI_MTHair01_Mask'
+    Materials[2] = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTHair01.MI_MTHair01'
+    Materials[3] = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTTorso00_02.MI_MTTorso00_02'
+    Materials[4] = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTTorsoA01.MI_MTTorsoA01'
+    Materials[5] = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTLegs00_01.MI_MTLegs00_01'
+    Materials[6] = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTLegs01.MI_MTLegs01'
+}
+SourceModels[0] = {}
+StaticMaterials[7] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTHead00_01.MI_MTHead00_01'
+        MaterialSlotName = MI_MTHead00_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 63.0281, 737.639, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTHair01_Mask.MI_MTHair01_Mask'
+        MaterialSlotName = MI_MTHair01_Mask
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 19.6471, 759.21, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTHair01.MI_MTHair01'
+        MaterialSlotName = MI_MTHair01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14.0472, 806.987, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTTorso00_02.MI_MTTorso00_02'
+        MaterialSlotName = MI_MTTorso00_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 112.711, 749.261, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTTorsoA01.MI_MTTorsoA01'
+        MaterialSlotName = MI_MTTorsoA01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 98.7636, 737.988, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTLegs00_01.MI_MTLegs00_01'
+        MaterialSlotName = MI_MTLegs00_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 114.275, 743.355, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Characters/Campers/Meg/Materials/MI_MTLegs01.MI_MTLegs01'
+        MaterialSlotName = MI_MTLegs01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 111.923, 715.069, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.166, Z=83.4988 }
+    BoxExtent = { X=49.8394, Y=13.6588, Z=83.3953 }
+    SphereRadius = 85.0939
+}

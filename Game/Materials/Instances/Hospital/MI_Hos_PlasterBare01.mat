@@ -1,0 +1,17 @@
+Diffuse=T_Hos_PlasterBare01_BC
+Normal=T_Hos_PlasterBare01_N
+Other[0]=T_Hos_PlasterBroken01_H
+Other[1]=T_Hos_PlasterBare01_ORM
+Other[2]=T_Hos_PlasterBroken01_BC
+Other[3]=T_Hos_PlasterBroken01_N
+Other[4]=T_Hos_PlasterBroken01_ORM
+Other[5]=DefaultDiffuse
+Other[6]=FlatNormal
+Other[7]=T_FlatNormal_01
+Other[8]=T_HOS_BathTubPipe_R
+Other[9]=Black
+Other[10]=White
+Other[11]=White_Linear
+Other[12]=Yellow_Linear
+Other[13]=Moss_diffuse
+Other[14]=T_CrawlingMoss_Mask_01

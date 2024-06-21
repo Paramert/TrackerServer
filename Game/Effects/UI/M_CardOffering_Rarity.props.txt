@@ -1,0 +1,302 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_masks_01.Dissolve_masks_01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+    ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+    ReferencedTextures[6] = Texture2D'/Game/Effects/UI/logo_diffuse.logo_diffuse'
+    ReferencedTextures[7] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    ReferencedTextures[8] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[32] =
+                {
+                    ParameterInfos[0] = { Name=GraDis_position_offset_amount }
+                    ParameterInfos[1] = { Name=Noise_Speed_Y }
+                    ParameterInfos[2] = { Name=ColorFactor }
+                    ParameterInfos[3] = { Name=EmissiveFactor }
+                    ParameterInfos[4] = { Name=Noise_Speed }
+                    ParameterInfos[5] = { Name=Tiling U }
+                    ParameterInfos[6] = { Name=Tiling V }
+                    ParameterInfos[7] = { Name=Emissive Border Base (rb) }
+                    ParameterInfos[8] = { Name=Period (pam) }
+                    ParameterInfos[9] = { Name=GraDis_position_offset_level }
+                    ParameterInfos[10] = { Name=Emissive Border Level (rb) }
+                    ParameterInfos[11] = { Name=Scale (tm) }
+                    ParameterInfos[12] = { Name=GraDis_NoiseTiling }
+                    ParameterInfos[13] = { Name=Noise Opacity }
+                    ParameterInfos[14] = { Name=Scale (rb) }
+                    ParameterInfos[15] = { Name=ObjectGroundPosition }
+                    ParameterInfos[16] = { Name=Speed (rb) }
+                    ParameterInfos[17] = { Name=GraDis_NoiseAmount }
+                    ParameterInfos[18] = { Name=Speed (pam) }
+                    ParameterInfos[19] = { Name=Noise_Speed_X }
+                    ParameterInfos[20] = { Name=GraDis_position_offset_pow }
+                    ParameterInfos[21] = { Name=Speed (pt) }
+                    ParameterInfos[22] = { Name=GraDis_mask_power }
+                    ParameterInfos[23] = { Name=NoiseTiling }
+                    ParameterInfos[24] = { Name=Scale (pam) }
+                    ParameterInfos[25] = { Name=DissolveProgress }
+                    ParameterInfos[26] = { Name=ObjectHeight }
+                    ParameterInfos[27] = { Name=Scale (psm) }
+                    ParameterInfos[28] = { Name=DetailTiling }
+                    ParameterInfos[29] = { Name=Emissive Threshold (rb) }
+                    ParameterInfos[30] = { Name=border_brightness (rb) }
+                    ParameterInfos[31] = { Name=Noise_Scale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=constant emissive_color (rb) }
+                    ParameterInfos[1] = { Name=DetailTexture Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=EM Noise Texture }
+                    ParameterInfos[1] = { Name=NoiseTexture }
+                    ParameterInfos[2] = { Name=MainTexture }
+                    ParameterInfos[3] = { Name=Ramp Texture (rb) }
+                    ParameterInfos[4] = { Name=Texture (rb) }
+                    ParameterInfos[5] = { Name=dissolve_texture (tm) }
+                    ParameterInfos[6] = { Name=dissolve_texture (pt) }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[32] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0.55
+            ScalarValues[3] = 0.3
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.1
+            ScalarValues[9] = 0.5
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 5
+            ScalarValues[15] = 0
+            ScalarValues[16] = 64
+            ScalarValues[17] = 0.01
+            ScalarValues[18] = 120
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0.1
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0
+            ScalarValues[26] = 1e+11
+            ScalarValues[27] = 1
+            ScalarValues[28] = 1
+            ScalarValues[29] = 0.5
+            ScalarValues[30] = 25
+            ScalarValues[31] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=3, G=4, B=5, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+            TextureValues[1] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+            TextureValues[2] = Texture2D'/Game/Effects/UI/logo_diffuse.logo_diffuse'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+            TextureValues[4] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+            TextureValues[6] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_masks_01.Dissolve_masks_01'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        ReferencedTextures[1] = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_masks_01.Dissolve_masks_01'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        ReferencedTextures[4] = Texture2D'/Game/Effects/Textures/T_NoiseNormal_01.T_NoiseNormal_01'
+        ReferencedTextures[5] = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+        ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_TilingNoise03.T_TilingNoise03'
+        ReferencedTextures[8] = Texture2D'/Game/Effects/UI/logo_diffuse.logo_diffuse'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise02.T_Noise02'
+        Name = EM Noise Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        Name = NoiseTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/UI/logo_diffuse.logo_diffuse'
+        Name = MainTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Veins.T_Veins'
+        Name = Ramp Texture (rb)
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/InteractableObjects/Entity_Objects/Dissolve_border_Entity.Dissolve_border_Entity'
+        Name = Texture (rb)
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dissolve_spiderthing.T_Dissolve_spiderthing'
+        Name = dissolve_texture (tm)
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/AdvancedDissolveFX/Textures/Dissolve_masks_01.Dissolve_masks_01'
+        Name = dissolve_texture (pt)
+        Group = None
+    }
+}
+CollectedScalarParameters[32] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = GraDis_position_offset_amount
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0, Name=Noise_Speed_Y, Group=None }
+    CollectedScalarParameters[2] = { Value=0.55, Name=ColorFactor, Group=None }
+    CollectedScalarParameters[3] = { Value=0.3, Name=EmissiveFactor, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Noise_Speed, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Tiling U, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Tiling V, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0
+        Name = Emissive Border Base (rb)
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.1, Name=Period (pam), Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.5
+        Name = GraDis_position_offset_level
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.5
+        Name = Emissive Border Level (rb)
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=1, Name=Scale (tm), Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=GraDis_NoiseTiling, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Noise Opacity, Group=None }
+    CollectedScalarParameters[14] = { Value=5, Name=Scale (rb), Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=ObjectGroundPosition, Group=None }
+    CollectedScalarParameters[16] = { Value=64, Name=Speed (rb), Group=None }
+    CollectedScalarParameters[17] = { Value=0.01, Name=GraDis_NoiseAmount, Group=None }
+    CollectedScalarParameters[18] = { Value=120, Name=Speed (pam), Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Noise_Speed_X, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 1
+        Name = GraDis_position_offset_pow
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=0.1, Name=Speed (pt), Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=GraDis_mask_power, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=NoiseTiling, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=Scale (pam), Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=DissolveProgress, Group=None }
+    CollectedScalarParameters[26] = { Value=1e+11, Name=ObjectHeight, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=Scale (psm), Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=DetailTiling, Group=None }
+    CollectedScalarParameters[29] =
+    {
+        Value = 0.5
+        Name = Emissive Threshold (rb)
+        Group = None
+    }
+    CollectedScalarParameters[30] =
+    {
+        Value = 25
+        Name = border_brightness (rb)
+        Group = None
+    }
+    CollectedScalarParameters[31] = { Value=1, Name=Noise_Scale, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=3, G=4, B=5, A=1 }
+        Name = constant emissive_color (rb)
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DetailTexture Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = logo_diffuse
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}

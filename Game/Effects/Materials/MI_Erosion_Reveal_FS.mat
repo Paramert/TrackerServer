@@ -1,0 +1,5 @@
+Diffuse=T_Blood_Spread_01
+Normal=T_Blood_Spread_01_N_02
+SpecPower=T_Blood_Spread_01
+Other[0]=T_Blood_Spread_01_N
+Other[1]=T_Gradient_BLood

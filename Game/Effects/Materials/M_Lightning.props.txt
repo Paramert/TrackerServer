@@ -1,0 +1,126 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=DepthFade }
+                    ParameterInfos[1] = { Name=CameraVectorBias }
+                    ParameterInfos[2] = { Name=Camera Location }
+                    ParameterInfos[3] = { Name=Sharpness }
+                    ParameterInfos[4] = { Name=NE_ClipDistance }
+                    ParameterInfos[5] = { Name=FadePow }
+                    ParameterInfos[6] = { Name=FadeDistance }
+                    ParameterInfos[7] = { Name=Clamp Padding (S) }
+                    ParameterInfos[8] = { Name=NearFade Power }
+                    ParameterInfos[9] = { Name=YamaokaEmissive }
+                    ParameterInfos[10] = { Name=Width }
+                    ParameterInfos[11] = { Name=GestureIntensity }
+                    ParameterInfos[12] = { Name=Color Temp }
+                    ParameterInfos[13] = { Name=NearFade Radius }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=ScrollSpeed1 }
+                    ParameterInfos[1] = { Name=ScrollSpeed2 }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 10
+            ScalarValues[1] = 0
+            ScalarValues[2] = 50
+            ScalarValues[3] = 0.1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 20
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.01
+            ScalarValues[11] = 1
+            ScalarValues[12] = 8000
+            ScalarValues[13] = 256
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.25, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0.25, G=0, B=0, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=DepthFade, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=CameraVectorBias, Group=None }
+    CollectedScalarParameters[2] = { Value=50, Name=Camera Location, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=Sharpness, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=NE_ClipDistance, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=FadePow, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[7] = { Value=20, Name=Clamp Padding (S), Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=NearFade Power, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=YamaokaEmissive, Group=None }
+    CollectedScalarParameters[10] = { Value=0.01, Name=Width, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=GestureIntensity, Group=None }
+    CollectedScalarParameters[12] = { Value=8000, Name=Color Temp, Group=None }
+    CollectedScalarParameters[13] = { Value=256, Name=NearFade Radius, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.25, G=0, B=0, A=1 }
+        Name = ScrollSpeed1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.25, G=0, B=0, A=1 }
+        Name = ScrollSpeed2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_SmokeTile
+    }
+}

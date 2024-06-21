@@ -1,0 +1,15 @@
+Diffuse=T_DissolveTextures
+Normal=T_FlatNormal_01
+Opacity=T_HKHair01_M
+Emissive=White
+Other[0]=T_Grad_Vertical_01
+Other[1]=T_HKHair01_Mask
+Other[2]=BlendFunc_DefBase
+Other[3]=BlendFunc_DefBlend
+Other[4]=T_ETouch_Tile
+Other[5]=T_HKHair01_N
+Other[6]=Fxt_verticalGradient
+Other[7]=T_FX_DissolveRamp
+Other[8]=T_Noise02
+Other[9]=T_NoiseNormal_01
+Other[10]=Black

@@ -1,0 +1,16 @@
+Diffuse=T_HOS_OfficeWood02Broken_BC
+Normal=T_HOS_OfficeWood02Broken_N
+Other[0]=Black_Linear
+Other[1]=T_HOS_OfficeWood02Broken_ORM
+Other[2]=T_BurntFloor01
+Other[3]=SphereNormal
+Other[4]=T_BurnedAsh
+Other[5]=T_BurnedEmbers
+Other[6]=T_BurnLUT
+Other[7]=T_Noise01
+Other[8]=T_Asylum_Concrete02_BC_normal
+Other[9]=T_AsylumPlasterMask
+Other[10]=Black
+Other[11]=Green_Linear
+Other[12]=White
+Other[13]=Moss_diffuse

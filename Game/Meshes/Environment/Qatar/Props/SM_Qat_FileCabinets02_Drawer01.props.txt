@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_FileCabinet_All.MI_Qat_FileCabinet_All'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_FileCabinet_All.MI_Qat_FileCabinet_All'
+        MaterialSlotName = MI_Qat_FileCabinet_All
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 234.598, 105.644, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=28.8419, Y=19.0451, Z=15.9602 }
+    BoxExtent = { X=21.0938, Y=16.9952, Z=14.65 }
+    SphereRadius = 29.086
+}

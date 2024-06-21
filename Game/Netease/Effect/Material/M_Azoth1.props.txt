@@ -1,0 +1,131 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/Liquid/T_Liquid_Clip_A.T_Liquid_Clip_A'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Noise_N_02.T_Noise_N_02'
+    ReferencedTextures[2] = Texture2D'/Game/Netease/Effect/Texture/T_ShardNormal.T_ShardNormal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Clip }
+                    ParameterInfos[1] = { Name=Fresnel Exponenth }
+                    ParameterInfos[2] = { Name=SmoothStepMin }
+                    ParameterInfos[3] = { Name=BaseReflect }
+                    ParameterInfos[4] = { Name=HLAdd }
+                    ParameterInfos[5] = { Name=SmoothStepMax }
+                    ParameterInfos[6] = { Name=NormalTextureSize }
+                    ParameterInfos[7] = { Name=OpacityMaskAdjust }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=ShardColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Mask }
+                    ParameterInfos[1] = { Name=OffsetNormal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 1, 2.5, 0.9, 0.05, 1, 1, 4.5, 0.98 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/Liquid/T_Liquid_Clip_A.T_Liquid_Clip_A'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_Noise_N_02.T_Noise_N_02'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Netease/Effect/Texture/T_ShardNormal.T_ShardNormal'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/Liquid/T_Liquid_Clip_A.T_Liquid_Clip_A'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Noise_N_02.T_Noise_N_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/Liquid/T_Liquid_Clip_A.T_Liquid_Clip_A'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Noise_N_02.T_Noise_N_02'
+        Name = OffsetNormal
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Clip, Group=None }
+    CollectedScalarParameters[1] = { Value=2.5, Name=Fresnel Exponenth, Group=None }
+    CollectedScalarParameters[2] = { Value=0.9, Name=SmoothStepMin, Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=BaseReflect, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=HLAdd, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=SmoothStepMax, Group=None }
+    CollectedScalarParameters[6] = { Value=4.5, Name=NormalTextureSize, Group=None }
+    CollectedScalarParameters[7] = { Value=0.98, Name=OpacityMaskAdjust, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ShardColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Liquid_Clip_A
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.703125
+        UVChannelIndex = 0
+        TextureName = T_Noise_N_02
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 4.5
+        UVChannelIndex = 0
+        TextureName = T_ShardNormal
+    }
+}

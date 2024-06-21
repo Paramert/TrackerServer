@@ -1,0 +1,11 @@
+Diffuse=T_Flower01_BC
+Normal=FlatNormal
+Other[0]=T_PlantAtlasAlpha_BC
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=DefaultDiffuse
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=Yellow_Linear
+Other[6]=T_treeLeaf01_Atl_MaskRGB
+Other[7]=Moss_diffuse
+Other[8]=T_CrawlingMoss_Mask_01

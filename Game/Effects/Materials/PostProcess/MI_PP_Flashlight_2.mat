@@ -1,0 +1,15 @@
+Diffuse=Fx_radialGradient
+Normal=T_WaterNormal2
+Other[0]=T_EyeBall_CornerMask
+Other[1]=T_EyeBall_Background_05
+Other[2]=T_TilingClouds_01
+Other[3]=T_Mask_Eye_08
+Other[4]=T_Gradient_HalloweenJuice2
+Other[5]=T_BigDust_01
+Other[6]=T_BigDust_04
+Other[7]=T_EyeBall_Outline_02
+Other[8]=T_EyeBall_Outline_03
+Other[9]=T_Mask_Eye_07
+Other[10]=T_Veins
+Other[11]=T_Veins_04
+Other[12]=T_Veins_05

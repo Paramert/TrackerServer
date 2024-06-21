@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_ION_Candles_01.MI_ION_Candles_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ion/Props/MI_ION_Candles_01.MI_ION_Candles_01'
+        MaterialSlotName = MI_ION_Candles_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 66.9909, 18.9917, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.440796, Y=0.0996628, Z=8.11204 }
+    BoxExtent = { X=3.05309, Y=2.74911, Z=8.11228 }
+    SphereRadius = 8.68377
+}

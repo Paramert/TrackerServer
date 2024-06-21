@@ -1,0 +1,1168 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[16] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[4] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_BC.T_Vomit01_BC'
+    ReferencedTextures[5] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_N.T_Vomit01_N'
+    ReferencedTextures[6] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_ORM.T_Vomit01_ORM'
+    ReferencedTextures[7] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+    ReferencedTextures[8] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+    ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    ReferencedTextures[10] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+    ReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+    ReferencedTextures[12] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+    ReferencedTextures[13] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+    ReferencedTextures[14] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+    ReferencedTextures[15] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[124] =
+                {
+                    ParameterInfos[0] = { Name=018_FadeRadius }
+                    ParameterInfos[1] = { Name=Main_AltUVsRotation }
+                    ParameterInfos[2] = { Name=Green_AOValue }
+                    ParameterInfos[3] = { Name=Green_Rotation }
+                    ParameterInfos[4] = { Name=Main_OpacityValue }
+                    ParameterInfos[5] = { Name=Atl_EmissiveMultiplier }
+                    ParameterInfos[6] = { Name=BorderThresholdLow }
+                    ParameterInfos[7] = { Name=42 - GradientHardness }
+                    ParameterInfos[8] = { Name=Atl_Roughness }
+                    ParameterInfos[9] = { Name=Splat_RGBAMaskRotation }
+                    ParameterInfos[10] = { Name=Green_BaseColorHue }
+                    ParameterInfos[11] = { Name=Green_MetalValue }
+                    ParameterInfos[12] = { Name=Splat_RedContrast }
+                    ParameterInfos[13] = { Name=Alpha_WPOValue }
+                    ParameterInfos[14] = { Name=Main_BaseColorSaturation }
+                    ParameterInfos[15] = { Name=Alpha_BaseColorSaturation }
+                    ParameterInfos[16] = { Name=UltraLow_Spec }
+                    ParameterInfos[17] = { Name=Green_RoughBlackLvl }
+                    ParameterInfos[18] = { Name=BorderIntensity }
+                    ParameterInfos[19] = { Name=Main_WPOValue }
+                    ParameterInfos[20] = { Name=Alpha_OpacityValue }
+                    ParameterInfos[21] = { Name=Cyan_OpacityValue }
+                    ParameterInfos[22] = { Name=Red_RoughValue }
+                    ParameterInfos[23] = { Name=Main_FeatureNormalFlatness }
+                    ParameterInfos[24] = { Name=42 - BoundsMultiplier }
+                    ParameterInfos[25] = { Name=Red_RoughBlackLvl }
+                    ParameterInfos[26] = { Name=Red_SpecValue }
+                    ParameterInfos[27] = { Name=Emissive_Tile_Y }
+                    ParameterInfos[28] = { Name=018_FadeRadiusDistance }
+                    ParameterInfos[29] = { Name=Alpha_Height_Contrast }
+                    ParameterInfos[30] = { Name=Alpha_RoughWhiteLvl }
+                    ParameterInfos[31] = { Name=Green_HeightValue }
+                    ParameterInfos[32] = { Name=SpecularValue }
+                    ParameterInfos[33] = { Name=DistanceAtWhichOutlineIsAlwaysVisible }
+                    ParameterInfos[34] = { Name=EndLocation_WorldSpace }
+                    ParameterInfos[35] = { Name=Emissive_Tile }
+                    ParameterInfos[36] = { Name=Green_Height_Contrast }
+                    ParameterInfos[37] = { Name=Splat_GreenContrast }
+                    ParameterInfos[38] = { Name=Main_HeightValue }
+                    ParameterInfos[39] = { Name=MaskIntensity }
+                    ParameterInfos[40] = { Name=Atl_Metallic }
+                    ParameterInfos[41] = { Name=DIssolveBorderGreenChannel }
+                    ParameterInfos[42] = { Name=Red_AOValue }
+                    ParameterInfos[43] = { Name=UltraLow_Rough }
+                    ParameterInfos[44] = { Name=Main_RoughWhiteLvl }
+                    ParameterInfos[45] = { Name=Green_WPOValue }
+                    ParameterInfos[46] = { Name=Cyan_WPOValue }
+                    ParameterInfos[47] = { Name=Splat_AlphaContrast }
+                    ParameterInfos[48] = { Name=Min A }
+                    ParameterInfos[49] = { Name=Red_BaseColorSaturation }
+                    ParameterInfos[50] = { Name=DissolveTexture_TileX }
+                    ParameterInfos[51] = { Name=Main_SpecValue }
+                    ParameterInfos[52] = { Name=Red_MetalValue }
+                    ParameterInfos[53] = { Name=Red_HeightValue }
+                    ParameterInfos[54] = { Name=42 - InverseDissolve }
+                    ParameterInfos[55] = { Name=Red_RoughWhiteLvl }
+                    ParameterInfos[56] = { Name=42 - Height }
+                    ParameterInfos[57] = { Name=Cyan_Rotation }
+                    ParameterInfos[58] = { Name=Highlight Far }
+                    ParameterInfos[59] = { Name=Cyan_Height_Contrast }
+                    ParameterInfos[60] = { Name=MaxBorderGlow }
+                    ParameterInfos[61] = { Name=Green_SpecValue }
+                    ParameterInfos[62] = { Name=Cyan_AOValue }
+                    ParameterInfos[63] = { Name=42 - Base Offset }
+                    ParameterInfos[64] = { Name=Main_Rotation }
+                    ParameterInfos[65] = { Name=Alpha_AOValue }
+                    ParameterInfos[66] = { Name=Cyan_BaseColorSaturation }
+                    ParameterInfos[67] = { Name=Splat_RGBAMaskValue }
+                    ParameterInfos[68] = { Name=Speed Y }
+                    ParameterInfos[69] = { Name=Red_Rotation }
+                    ParameterInfos[70] = { Name=Alpha_BaseColorHue }
+                    ParameterInfos[71] = { Name=Main_RoughBlackLvl }
+                    ParameterInfos[72] = { Name=Main_BaseColorHue }
+                    ParameterInfos[73] = { Name=DissolveTextureTile_Y }
+                    ParameterInfos[74] = { Name=Red_Height_Contrast }
+                    ParameterInfos[75] = { Name=Alpha_RoughValue }
+                    ParameterInfos[76] = { Name=Cyan_BaseColorHue }
+                    ParameterInfos[77] = { Name=Atl_EmissiveHueShift }
+                    ParameterInfos[78] = { Name=Red_OpacityValue }
+                    ParameterInfos[79] = { Name=Alpha_SpecRoughAmount }
+                    ParameterInfos[80] = { Name=Cyan_MetalValue }
+                    ParameterInfos[81] = { Name=Speed X }
+                    ParameterInfos[82] = { Name=Alpha_RoughBlackLvl }
+                    ParameterInfos[83] = { Name=Main_RoughValue }
+                    ParameterInfos[84] = { Name=Alpha_NormalFlatness }
+                    ParameterInfos[85] = { Name=Red_WPOValue }
+                    ParameterInfos[86] = { Name=Emissive_Tile_X }
+                    ParameterInfos[87] = { Name=Green_RoughWhiteLvl }
+                    ParameterInfos[88] = { Name=Alpha_HeightValue }
+                    ParameterInfos[89] = { Name=Alpha_MetalValue }
+                    ParameterInfos[90] = { Name=BorderThresholdHigh }
+                    ParameterInfos[91] = { Name=MinimumOutlineDistance }
+                    ParameterInfos[92] = { Name=Alpha_Rotation }
+                    ParameterInfos[93] = { Name=Cyan_HeightValue }
+                    ParameterInfos[94] = { Name=Green_NormalFlatness }
+                    ParameterInfos[95] = { Name=Cyan_RoughBlackLvl }
+                    ParameterInfos[96] = { Name=EmissiveTouchMultiplier }
+                    ParameterInfos[97] = { Name=Main_NormalFlatness }
+                    ParameterInfos[98] = { Name=Atl_Specular }
+                    ParameterInfos[99] = { Name=UltraLow_AO }
+                    ParameterInfos[100] = { Name=Code_Emissive }
+                    ParameterInfos[101] = { Name=Amount A }
+                    ParameterInfos[102] = { Name=Cyan_NormalFlatness }
+                    ParameterInfos[103] = { Name=Green_OpacityValue }
+                    ParameterInfos[104] = { Name=DissolveProgress }
+                    ParameterInfos[105] = { Name=StartLocation_WorldSpace }
+                    ParameterInfos[106] = { Name=Splat_BlueContrast }
+                    ParameterInfos[107] = { Name=Main_SpecRoughAmount }
+                    ParameterInfos[108] = { Name=Main_AOValue }
+                    ParameterInfos[109] = { Name=Cyan_SpecValue }
+                    ParameterInfos[110] = { Name=GlowIntensity }
+                    ParameterInfos[111] = { Name=Cyan_RoughValue }
+                    ParameterInfos[112] = { Name=UltraLow_Metal }
+                    ParameterInfos[113] = { Name=Cyan_RoughWhiteLvl }
+                    ParameterInfos[114] = { Name=Green_RoughValue }
+                    ParameterInfos[115] = { Name=Green_BaseColorSaturation }
+                    ParameterInfos[116] = { Name=Green_SpecRoughAmount }
+                    ParameterInfos[117] = { Name=Highlight Near }
+                    ParameterInfos[118] = { Name=Main_MetalValue }
+                    ParameterInfos[119] = { Name=Red_NormalFlatness }
+                    ParameterInfos[120] = { Name=Alpha_SpecValue }
+                    ParameterInfos[121] = { Name=OpacityMaskOffset }
+                    ParameterInfos[122] = { Name=Red_BaseColorHue }
+                    ParameterInfos[123] = { Name=Max A }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[32] =
+                {
+                    ParameterInfos[0] = { Name=Green_BaseColorTint }
+                    ParameterInfos[1] = { Name=Alpha_EmissiveValue }
+                    ParameterInfos[2] = { Name=Main_Tiling }
+                    ParameterInfos[3] = { Name=Cyan_Offset }
+                    ParameterInfos[4] = { Name=Texture Size }
+                    ParameterInfos[5] = { Name=Main_Offset }
+                    ParameterInfos[6] = { Name=VeinsColor }
+                    ParameterInfos[7] = { Name=HighlightColor }
+                    ParameterInfos[8] = { Name=Main_AltUVsOffset }
+                    ParameterInfos[9] = { Name=Cyan_BaseColorTint }
+                    ParameterInfos[10] = { Name=ColorTint_Fade }
+                    ParameterInfos[11] = { Name=Red_EmissiveValue }
+                    ParameterInfos[12] = { Name=Main_EmissiveValue }
+                    ParameterInfos[13] = { Name=Main_BaseColorTint }
+                    ParameterInfos[14] = { Name=Alpha_Tiling }
+                    ParameterInfos[15] = { Name=Red_BaseColorTint }
+                    ParameterInfos[16] = { Name=Red_Offset }
+                    ParameterInfos[17] = { Name=Red_Tiling }
+                    ParameterInfos[18] = { Name=Main_AltUVsTiling }
+                    ParameterInfos[19] = { Name=Splat_RGBAMask_Offset }
+                    ParameterInfos[20] = { Name=Cyan_EmissiveValue }
+                    ParameterInfos[21] = { Name=OutlineColour }
+                    ParameterInfos[22] = { Name=Green_EmissiveValue }
+                    ParameterInfos[23] = { Name=Green_Tiling }
+                    ParameterInfos[24] = { Name=Splat_RGBAMask_Tiling }
+                    ParameterInfos[25] = { Name=Texture Mask Size }
+                    ParameterInfos[26] = { Name=Alpha_Offset }
+                    ParameterInfos[27] = { Name=EmissiveTouch }
+                    ParameterInfos[28] = { Name=BorderColor }
+                    ParameterInfos[29] = { Name=Cyan_Tiling }
+                    ParameterInfos[30] = { Name=Alpha_BaseColorTint }
+                    ParameterInfos[31] = { Name=Green_Offset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[42] =
+                {
+                    ParameterInfos[0] = { Name=Red_BaseColor }
+                    ParameterInfos[1] = { Name=Green_ORM }
+                    ParameterInfos[2] = { Name=AORoughnessMetallic A }
+                    ParameterInfos[3] = { Name=Cyan_BaseColor }
+                    ParameterInfos[4] = { Name=Red_ORM }
+                    ParameterInfos[5] = { Name=DissolveRamps }
+                    ParameterInfos[6] = { Name=Main_ORM }
+                    ParameterInfos[7] = { Name=Splat_RGBAMask }
+                    ParameterInfos[8] = { Name=Main_WPO }
+                    ParameterInfos[9] = { Name=Alpha_ORM }
+                    ParameterInfos[10] = { Name=Cyan_ORM }
+                    ParameterInfos[11] = { Name=Diffuse }
+                    ParameterInfos[12] = { Name=Red_Normal }
+                    ParameterInfos[13] = { Name=Red_CustomOpacity }
+                    ParameterInfos[14] = { Name=Green_CustomOpacity }
+                    ParameterInfos[15] = { Name=Main_FeatureNormal }
+                    ParameterInfos[16] = { Name=Normal A }
+                    ParameterInfos[17] = { Name=Cyan_Height }
+                    ParameterInfos[18] = { Name=Green_BaseColor }
+                    ParameterInfos[19] = { Name=Red_EmissiveMask }
+                    ParameterInfos[20] = { Name=Main_ColorTintMask }
+                    ParameterInfos[21] = { Name=Main_CustomOpacity }
+                    ParameterInfos[22] = { Name=AORoughnessMetallic }
+                    ParameterInfos[23] = { Name=Main_EmissiveMask }
+                    ParameterInfos[24] = { Name=Main_BaseColor }
+                    ParameterInfos[25] = { Name=Cyan_EmissiveMask }
+                    ParameterInfos[26] = { Name=Cyan_Normal }
+                    ParameterInfos[27] = { Name=Alpha_Normal }
+                    ParameterInfos[28] = { Name=Main_Normal }
+                    ParameterInfos[29] = { Name=Alpha_BaseColor }
+                    ParameterInfos[30] = { Name=Alpha_CustomOpacity }
+                    ParameterInfos[31] = { Name=Diffuse A }
+                    ParameterInfos[32] = { Name=Red_WPO }
+                    ParameterInfos[33] = { Name=Alpha_WPO }
+                    ParameterInfos[34] = { Name=Green_EmissiveMask }
+                    ParameterInfos[35] = { Name=Green_WPO }
+                    ParameterInfos[36] = { Name=FlowMap Emissive }
+                    ParameterInfos[37] = { Name=Cyan_CustomOpacity }
+                    ParameterInfos[38] = { Name=Blood Dirt Emissive }
+                    ParameterInfos[39] = { Name=DissolveTexture }
+                    ParameterInfos[40] = { Name=Alpha_EmissiveMask }
+                    ParameterInfos[41] = { Name=Green_Normal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[124] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 10
+            ScalarValues[6] = 0
+            ScalarValues[7] = 200
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.5
+            ScalarValues[17] = 0
+            ScalarValues[18] = 40
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 1
+            ScalarValues[22] = 1
+            ScalarValues[23] = 0
+            ScalarValues[24] = 1.5
+            ScalarValues[25] = 0
+            ScalarValues[26] = 0.5
+            ScalarValues[27] = 1
+            ScalarValues[28] = 4000
+            ScalarValues[29] = 0
+            ScalarValues[30] = 1
+            ScalarValues[31] = 1
+            ScalarValues[32] = 0.5
+            ScalarValues[33] = 7000
+            ScalarValues[34] = 350
+            ScalarValues[35] = 22
+            ScalarValues[36] = 0
+            ScalarValues[37] = 0
+            ScalarValues[38] = 1
+            ScalarValues[39] = 0.1
+            ScalarValues[40] = 0
+            ScalarValues[41] = 3
+            ScalarValues[42] = 1
+            ScalarValues[43] = 1
+            ScalarValues[44] = 1
+            ScalarValues[45] = 1
+            ScalarValues[46] = 1
+            ScalarValues[47] = 0
+            ScalarValues[48] = 0
+            ScalarValues[49] = 1
+            ScalarValues[50] = 3
+            ScalarValues[51] = 0.5
+            ScalarValues[52] = 1
+            ScalarValues[53] = 1
+            ScalarValues[54] = 0
+            ScalarValues[55] = 1
+            ScalarValues[56] = 400
+            ScalarValues[57] = 0
+            ScalarValues[58] = 1
+            ScalarValues[59] = 0
+            ScalarValues[60] = 10
+            ScalarValues[61] = 0.5
+            ScalarValues[62] = 1
+            ScalarValues[63] = -25
+            ScalarValues[64] = 0
+            ScalarValues[65] = 1
+            ScalarValues[66] = 1
+            ScalarValues[67] = 1
+            ScalarValues[68] = 0
+            ScalarValues[69] = 0
+            ScalarValues[70] = 0
+            ScalarValues[71] = 0
+            ScalarValues[72] = 0
+            ScalarValues[73] = 3
+            ScalarValues[74] = 0
+            ScalarValues[75] = 1
+            ScalarValues[76] = 0
+            ScalarValues[77] = 0
+            ScalarValues[78] = 1
+            ScalarValues[79] = 0
+            ScalarValues[80] = 1
+            ScalarValues[81] = 0
+            ScalarValues[82] = 0
+            ScalarValues[83] = 1
+            ScalarValues[84] = 0
+            ScalarValues[85] = 1
+            ScalarValues[86] = 1
+            ScalarValues[87] = 1
+            ScalarValues[88] = 1
+            ScalarValues[89] = 1
+            ScalarValues[90] = 0.015
+            ScalarValues[91] = 100
+            ScalarValues[92] = 0
+            ScalarValues[93] = 1
+            ScalarValues[94] = 0
+            ScalarValues[95] = 0
+            ScalarValues[96] = 1
+            ScalarValues[97] = 0
+            ScalarValues[98] = 0
+            ScalarValues[99] = 1
+            ScalarValues[100] = 1
+            ScalarValues[101] = 0
+            ScalarValues[102] = 0
+            ScalarValues[103] = 1
+            ScalarValues[104] = 1
+            ScalarValues[105] = 0
+            ScalarValues[106] = 0
+            ScalarValues[107] = 0
+            ScalarValues[108] = 1
+            ScalarValues[109] = 0.5
+            ScalarValues[110] = 750
+            ScalarValues[111] = 1
+            ScalarValues[112] = 0
+            ScalarValues[113] = 1
+            ScalarValues[114] = 1
+            ScalarValues[115] = 1
+            ScalarValues[116] = 0
+            ScalarValues[117] = 7
+            ScalarValues[118] = 1
+            ScalarValues[119] = 0
+            ScalarValues[120] = 0.5
+            ScalarValues[121] = 2.5
+            ScalarValues[122] = 0
+            ScalarValues[123] = 1
+        }
+        VectorValues[32] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=150, G=150, B=150, A=0 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=0.1, G=0.017777, B=0.0075, A=1 }
+            VectorValues[7] = { R=1, G=1, B=1, A=1 }
+            VectorValues[8] = { R=0, G=0, B=0, A=0 }
+            VectorValues[9] = { R=1, G=1, B=1, A=0 }
+            VectorValues[10] = { R=1, G=1, B=1, A=1 }
+            VectorValues[11] = { R=0, G=0, B=0, A=0 }
+            VectorValues[12] = { R=0, G=0, B=0, A=0 }
+            VectorValues[13] = { R=1, G=1, B=1, A=0 }
+            VectorValues[14] = { R=1, G=1, B=0, A=0 }
+            VectorValues[15] = { R=1, G=1, B=1, A=0 }
+            VectorValues[16] = { R=0, G=0, B=0, A=0 }
+            VectorValues[17] = { R=1, G=1, B=0, A=0 }
+            VectorValues[18] = { R=1, G=1, B=0, A=0 }
+            VectorValues[19] = { R=0, G=0, B=0, A=0 }
+            VectorValues[20] = { R=0, G=0, B=0, A=0 }
+            VectorValues[21] = { R=0, G=0, B=0, A=0 }
+            VectorValues[22] = { R=0, G=0, B=0, A=0 }
+            VectorValues[23] = { R=1, G=1, B=0, A=0 }
+            VectorValues[24] = { R=1, G=1, B=0, A=0 }
+            VectorValues[25] = { R=500, G=500, B=500, A=0 }
+            VectorValues[26] = { R=0, G=0, B=0, A=0 }
+            VectorValues[27] = { R=0, G=0, B=0, A=0 }
+            VectorValues[28] = { R=5, G=2.25074, B=1.09375, A=1 }
+            VectorValues[29] = { R=1, G=1, B=0, A=0 }
+            VectorValues[30] = { R=1, G=1, B=1, A=0 }
+            VectorValues[31] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[42] =
+        {
+            TextureValues[0] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[2] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_ORM.T_Vomit01_ORM'
+            TextureValues[3] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[4] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[5] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+            TextureValues[6] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[7] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[8] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[9] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[10] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[11] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+            TextureValues[12] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[13] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[14] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[15] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[16] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_N.T_Vomit01_N'
+            TextureValues[17] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[18] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[19] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[20] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[21] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[22] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+            TextureValues[23] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[24] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[25] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[26] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[27] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[28] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+            TextureValues[29] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+            TextureValues[30] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[31] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_BC.T_Vomit01_BC'
+            TextureValues[32] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[33] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[34] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[35] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+            TextureValues[36] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+            TextureValues[37] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[38] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+            TextureValues[39] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+            TextureValues[40] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+            TextureValues[41] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        }
+    }
+    ReferencedTextures[17] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        ReferencedTextures[8] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[9] = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        ReferencedTextures[10] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_BC.T_Vomit01_BC'
+        ReferencedTextures[11] = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        ReferencedTextures[12] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_ORM.T_Vomit01_ORM'
+        ReferencedTextures[13] = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_N.T_Vomit01_N'
+        ReferencedTextures[14] = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+        ReferencedTextures[15] = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        ReferencedTextures[16] = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[42] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Red_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Green_ORM
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_ORM.T_Vomit01_ORM'
+        Name = AORoughnessMetallic A
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Cyan_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Red_ORM
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_FX_DissolveRamp.T_FX_DissolveRamp'
+        Name = DissolveRamps
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Main_ORM
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Splat_RGBAMask
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Main_WPO
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Alpha_ORM
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = Cyan_ORM
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black.Black'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Red_Normal
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Red_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Green_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Main_FeatureNormal
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_N.T_Vomit01_N'
+        Name = Normal A
+        Group = None
+    }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Cyan_Height
+        Group = None
+    }
+    CollectedTextureParameters[18] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Green_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[19] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Red_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[20] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Main_ColorTintMask
+        Group = None
+    }
+    CollectedTextureParameters[21] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Main_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[22] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Yellow_Linear.Yellow_Linear'
+        Name = AORoughnessMetallic
+        Group = None
+    }
+    CollectedTextureParameters[23] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Main_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[24] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Main_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[25] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Cyan_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[26] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Cyan_Normal
+        Group = None
+    }
+    CollectedTextureParameters[27] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Alpha_Normal
+        Group = None
+    }
+    CollectedTextureParameters[28] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Main_Normal
+        Group = None
+    }
+    CollectedTextureParameters[29] =
+    {
+        Texture = Texture2D'/Game/Textures/Props/Misc/T_checker_grid.T_checker_grid'
+        Name = Alpha_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[30] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Alpha_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[31] =
+    {
+        Texture = Texture2D'/Game/Characters/Campers/Textures/Vomit/T_Vomit01_BC.T_Vomit01_BC'
+        Name = Diffuse A
+        Group = None
+    }
+    CollectedTextureParameters[32] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Red_WPO
+        Group = None
+    }
+    CollectedTextureParameters[33] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Alpha_WPO
+        Group = None
+    }
+    CollectedTextureParameters[34] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Green_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[35] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/Black_Linear.Black_Linear'
+        Name = Green_WPO
+        Group = None
+    }
+    CollectedTextureParameters[36] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Clouds_01.T_Clouds_01'
+        Name = FlowMap Emissive
+        Group = None
+    }
+    CollectedTextureParameters[37] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Cyan_CustomOpacity
+        Group = None
+    }
+    CollectedTextureParameters[38] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_SmokeTile.T_SmokeTile'
+        Name = Blood Dirt Emissive
+        Group = None
+    }
+    CollectedTextureParameters[39] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DissolveTextures.T_DissolveTextures'
+        Name = DissolveTexture
+        Group = None
+    }
+    CollectedTextureParameters[40] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/White_Linear.White_Linear'
+        Name = Alpha_EmissiveMask
+        Group = None
+    }
+    CollectedTextureParameters[41] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Green_Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[124] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=018_FadeRadius, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Main_AltUVsRotation, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Green_AOValue, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Green_Rotation, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Main_OpacityValue, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 10
+        Name = Atl_EmissiveMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0, Name=BorderThresholdLow, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 200
+        Name = 42 - GradientHardness
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1, Name=Atl_Roughness, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Splat_RGBAMaskRotation, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Green_BaseColorHue, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Green_MetalValue, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Splat_RedContrast, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Alpha_WPOValue, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 1
+        Name = Main_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 1
+        Name = Alpha_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0.5, Name=UltraLow_Spec, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Green_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[18] = { Value=40, Name=BorderIntensity, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Main_WPOValue, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=Alpha_OpacityValue, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=Cyan_OpacityValue, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=Red_RoughValue, Group=None }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0
+        Name = Main_FeatureNormalFlatness
+        Group = None
+    }
+    CollectedScalarParameters[24] =
+    {
+        Value = 1.5
+        Name = 42 - BoundsMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=0, Name=Red_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[26] = { Value=0.5, Name=Red_SpecValue, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=Emissive_Tile_Y, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = 4000
+        Name = 018_FadeRadiusDistance
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=0, Name=Alpha_Height_Contrast, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=Alpha_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=Green_HeightValue, Group=None }
+    CollectedScalarParameters[32] = { Value=0.5, Name=SpecularValue, Group=None }
+    CollectedScalarParameters[33] =
+    {
+        Value = 7000
+        Name = DistanceAtWhichOutlineIsAlwaysVisible
+        Group = None
+    }
+    CollectedScalarParameters[34] =
+    {
+        Value = 350
+        Name = EndLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[35] = { Value=22, Name=Emissive_Tile, Group=None }
+    CollectedScalarParameters[36] = { Value=0, Name=Green_Height_Contrast, Group=None }
+    CollectedScalarParameters[37] = { Value=0, Name=Splat_GreenContrast, Group=None }
+    CollectedScalarParameters[38] = { Value=1, Name=Main_HeightValue, Group=None }
+    CollectedScalarParameters[39] = { Value=0.1, Name=MaskIntensity, Group=None }
+    CollectedScalarParameters[40] = { Value=0, Name=Atl_Metallic, Group=None }
+    CollectedScalarParameters[41] =
+    {
+        Value = 3
+        Name = DIssolveBorderGreenChannel
+        Group = None
+    }
+    CollectedScalarParameters[42] = { Value=1, Name=Red_AOValue, Group=None }
+    CollectedScalarParameters[43] = { Value=1, Name=UltraLow_Rough, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=Main_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[45] = { Value=1, Name=Green_WPOValue, Group=None }
+    CollectedScalarParameters[46] = { Value=1, Name=Cyan_WPOValue, Group=None }
+    CollectedScalarParameters[47] = { Value=0, Name=Splat_AlphaContrast, Group=None }
+    CollectedScalarParameters[48] = { Value=0, Name=Min A, Group=None }
+    CollectedScalarParameters[49] =
+    {
+        Value = 1
+        Name = Red_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[50] = { Value=3, Name=DissolveTexture_TileX, Group=None }
+    CollectedScalarParameters[51] = { Value=0.5, Name=Main_SpecValue, Group=None }
+    CollectedScalarParameters[52] = { Value=1, Name=Red_MetalValue, Group=None }
+    CollectedScalarParameters[53] = { Value=1, Name=Red_HeightValue, Group=None }
+    CollectedScalarParameters[54] = { Value=0, Name=42 - InverseDissolve, Group=None }
+    CollectedScalarParameters[55] = { Value=1, Name=Red_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[56] = { Value=400, Name=42 - Height, Group=None }
+    CollectedScalarParameters[57] = { Value=0, Name=Cyan_Rotation, Group=None }
+    CollectedScalarParameters[58] = { Value=1, Name=Highlight Far, Group=None }
+    CollectedScalarParameters[59] = { Value=0, Name=Cyan_Height_Contrast, Group=None }
+    CollectedScalarParameters[60] = { Value=10, Name=MaxBorderGlow, Group=None }
+    CollectedScalarParameters[61] = { Value=0.5, Name=Green_SpecValue, Group=None }
+    CollectedScalarParameters[62] = { Value=1, Name=Cyan_AOValue, Group=None }
+    CollectedScalarParameters[63] = { Value=-25, Name=42 - Base Offset, Group=None }
+    CollectedScalarParameters[64] = { Value=0, Name=Main_Rotation, Group=None }
+    CollectedScalarParameters[65] = { Value=1, Name=Alpha_AOValue, Group=None }
+    CollectedScalarParameters[66] =
+    {
+        Value = 1
+        Name = Cyan_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[67] = { Value=1, Name=Splat_RGBAMaskValue, Group=None }
+    CollectedScalarParameters[68] = { Value=0, Name=Speed Y, Group=None }
+    CollectedScalarParameters[69] = { Value=0, Name=Red_Rotation, Group=None }
+    CollectedScalarParameters[70] = { Value=0, Name=Alpha_BaseColorHue, Group=None }
+    CollectedScalarParameters[71] = { Value=0, Name=Main_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[72] = { Value=0, Name=Main_BaseColorHue, Group=None }
+    CollectedScalarParameters[73] = { Value=3, Name=DissolveTextureTile_Y, Group=None }
+    CollectedScalarParameters[74] = { Value=0, Name=Red_Height_Contrast, Group=None }
+    CollectedScalarParameters[75] = { Value=1, Name=Alpha_RoughValue, Group=None }
+    CollectedScalarParameters[76] = { Value=0, Name=Cyan_BaseColorHue, Group=None }
+    CollectedScalarParameters[77] = { Value=0, Name=Atl_EmissiveHueShift, Group=None }
+    CollectedScalarParameters[78] = { Value=1, Name=Red_OpacityValue, Group=None }
+    CollectedScalarParameters[79] = { Value=0, Name=Alpha_SpecRoughAmount, Group=None }
+    CollectedScalarParameters[80] = { Value=1, Name=Cyan_MetalValue, Group=None }
+    CollectedScalarParameters[81] = { Value=0, Name=Speed X, Group=None }
+    CollectedScalarParameters[82] = { Value=0, Name=Alpha_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[83] = { Value=1, Name=Main_RoughValue, Group=None }
+    CollectedScalarParameters[84] = { Value=0, Name=Alpha_NormalFlatness, Group=None }
+    CollectedScalarParameters[85] = { Value=1, Name=Red_WPOValue, Group=None }
+    CollectedScalarParameters[86] = { Value=1, Name=Emissive_Tile_X, Group=None }
+    CollectedScalarParameters[87] = { Value=1, Name=Green_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[88] = { Value=1, Name=Alpha_HeightValue, Group=None }
+    CollectedScalarParameters[89] = { Value=1, Name=Alpha_MetalValue, Group=None }
+    CollectedScalarParameters[90] =
+    {
+        Value = 0.015
+        Name = BorderThresholdHigh
+        Group = None
+    }
+    CollectedScalarParameters[91] =
+    {
+        Value = 100
+        Name = MinimumOutlineDistance
+        Group = None
+    }
+    CollectedScalarParameters[92] = { Value=0, Name=Alpha_Rotation, Group=None }
+    CollectedScalarParameters[93] = { Value=1, Name=Cyan_HeightValue, Group=None }
+    CollectedScalarParameters[94] = { Value=0, Name=Green_NormalFlatness, Group=None }
+    CollectedScalarParameters[95] = { Value=0, Name=Cyan_RoughBlackLvl, Group=None }
+    CollectedScalarParameters[96] =
+    {
+        Value = 1
+        Name = EmissiveTouchMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[97] = { Value=0, Name=Main_NormalFlatness, Group=None }
+    CollectedScalarParameters[98] = { Value=0, Name=Atl_Specular, Group=None }
+    CollectedScalarParameters[99] = { Value=1, Name=UltraLow_AO, Group=None }
+    CollectedScalarParameters[100] = { Value=1, Name=Code_Emissive, Group=None }
+    CollectedScalarParameters[101] = { Value=0, Name=Amount A, Group=None }
+    CollectedScalarParameters[102] = { Value=0, Name=Cyan_NormalFlatness, Group=None }
+    CollectedScalarParameters[103] = { Value=1, Name=Green_OpacityValue, Group=None }
+    CollectedScalarParameters[104] = { Value=1, Name=DissolveProgress, Group=None }
+    CollectedScalarParameters[105] =
+    {
+        Value = 0
+        Name = StartLocation_WorldSpace
+        Group = None
+    }
+    CollectedScalarParameters[106] = { Value=0, Name=Splat_BlueContrast, Group=None }
+    CollectedScalarParameters[107] = { Value=0, Name=Main_SpecRoughAmount, Group=None }
+    CollectedScalarParameters[108] = { Value=1, Name=Main_AOValue, Group=None }
+    CollectedScalarParameters[109] = { Value=0.5, Name=Cyan_SpecValue, Group=None }
+    CollectedScalarParameters[110] = { Value=750, Name=GlowIntensity, Group=None }
+    CollectedScalarParameters[111] = { Value=1, Name=Cyan_RoughValue, Group=None }
+    CollectedScalarParameters[112] = { Value=0, Name=UltraLow_Metal, Group=None }
+    CollectedScalarParameters[113] = { Value=1, Name=Cyan_RoughWhiteLvl, Group=None }
+    CollectedScalarParameters[114] = { Value=1, Name=Green_RoughValue, Group=None }
+    CollectedScalarParameters[115] =
+    {
+        Value = 1
+        Name = Green_BaseColorSaturation
+        Group = None
+    }
+    CollectedScalarParameters[116] = { Value=0, Name=Green_SpecRoughAmount, Group=None }
+    CollectedScalarParameters[117] = { Value=7, Name=Highlight Near, Group=None }
+    CollectedScalarParameters[118] = { Value=1, Name=Main_MetalValue, Group=None }
+    CollectedScalarParameters[119] = { Value=0, Name=Red_NormalFlatness, Group=None }
+    CollectedScalarParameters[120] = { Value=0.5, Name=Alpha_SpecValue, Group=None }
+    CollectedScalarParameters[121] = { Value=2.5, Name=OpacityMaskOffset, Group=None }
+    CollectedScalarParameters[122] = { Value=0, Name=Red_BaseColorHue, Group=None }
+    CollectedScalarParameters[123] = { Value=1, Name=Max A, Group=None }
+}
+CollectedVectorParameters[32] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Green_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Alpha_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Main_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Cyan_Offset
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=150, G=150, B=150, A=0 }
+        Name = Texture Size
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Main_Offset
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.1, G=0.017777, B=0.0075, A=1 }
+        Name = VeinsColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = HighlightColor
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Main_AltUVsOffset
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Cyan_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint_Fade
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Red_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Main_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Main_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Alpha_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Red_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Red_Offset
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Red_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Main_AltUVsTiling
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Splat_RGBAMask_Offset
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Cyan_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = OutlineColour
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Green_EmissiveValue
+        Group = None
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Green_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Splat_RGBAMask_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=500, G=500, B=500, A=0 }
+        Name = Texture Mask Size
+        Group = None
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Alpha_Offset
+        Group = None
+    }
+    CollectedVectorParameters[27] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveTouch
+        Group = None
+    }
+    CollectedVectorParameters[28] =
+    {
+        Value = { R=5, G=2.25074, B=1.09375, A=1 }
+        Name = BorderColor
+        Group = None
+    }
+    CollectedVectorParameters[29] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Cyan_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[30] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Alpha_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[31] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Green_Offset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = FlatNormal
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_checker_grid
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Yellow_Linear
+    }
+}

@@ -1,0 +1,8 @@
+Diffuse=T_TI005_BC
+Normal=T_TI005_N
+Other[0]=T_TI005_ORM
+Other[1]=DefaultTexture
+Other[2]=FlatNormal
+Other[3]=T_DissolveTextures
+Other[4]=T_FX_DissolveRamp
+Other[5]=Green_Linear

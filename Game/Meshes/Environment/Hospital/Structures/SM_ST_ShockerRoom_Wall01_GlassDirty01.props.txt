@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_GlassDirty01.MI_Hos_GlassDirty01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Hospital/MI_Hos_GlassDirty01.MI_Hos_GlassDirty01'
+        MaterialSlotName = MI_Hos_GlassDirty01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 49.0179, 6324.73, 683.15, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=186.381, Y=0, Z=169.759 }
+    BoxExtent = { X=1088.33, Y=1274.79, Z=54.396 }
+    SphereRadius = 1639.06
+}

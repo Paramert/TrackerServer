@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_BrickBlockersPile01.MI_Eng_BrickBlockersPile01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_BrickBlockersPile01_Extras.MI_Eng_BrickBlockersPile01_Extras'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_BrickBlockersPile01.MI_Eng_BrickBlockersPile01'
+        MaterialSlotName = MI_Eng_BrickBlockersPile01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 204.249, 5647.05, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/England/MI_Eng_BrickBlockersPile01_Extras.MI_Eng_BrickBlockersPile01_Extras'
+        MaterialSlotName = MI_Eng_BrickBlockersPile01_Extras
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 271.93, 5183.83, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0991592, Y=-0.469772, Z=71.2211 }
+    BoxExtent = { X=87.8682, Y=60.9798, Z=71.221 }
+    SphereRadius = 120.259
+}

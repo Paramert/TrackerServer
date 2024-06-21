@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_HookBanShee.MI_HookBanShee'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Substance/MI_DirtTerrain02.MI_DirtTerrain02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_HookBanShee.MI_HookBanShee'
+        MaterialSlotName = MI_HookBanShee
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 329.579, 9.76939, 353.92, 598.713 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Substance/MI_DirtTerrain02.MI_DirtTerrain02'
+        MaterialSlotName = MI_DirtTerrain
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.4597, 0, 0, 604.01 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.15004, Y=40.3929, Z=184.578 }
+    BoxExtent = { X=56.15, Y=129.052, Z=204.475 }
+    SphereRadius = 235.013
+}

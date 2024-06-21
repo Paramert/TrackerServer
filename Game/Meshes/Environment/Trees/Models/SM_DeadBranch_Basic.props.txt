@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeadBranch.MI_DeadBranch'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/MI_DeadBranch.MI_DeadBranch'
+        MaterialSlotName = MI_DeadBranch
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 271.06, 280.392, 293.931, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-32.437, Y=27.2072, Z=27.6825 }
+    BoxExtent = { X=181.766, Y=51.0028, Z=37.4364 }
+    SphereRadius = 183.599
+}

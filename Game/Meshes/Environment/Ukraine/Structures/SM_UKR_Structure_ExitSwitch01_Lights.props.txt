@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Effects/Materials/M_ActivationLightsBase.M_ActivationLightsBase'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Structures/MI_UKR_Switch01_Core.MI_UKR_Switch01_Core'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Materials/M_ActivationLightsBase.M_ActivationLightsBase'
+        MaterialSlotName = M_ActivationLightsBase
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 143.175, 116.981, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Ukraine/Structures/MI_UKR_Switch01_Core.MI_UKR_Switch01_Core'
+        MaterialSlotName = MI_UKR_Switch01_Core
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 486.371, 129.256, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00614929, Y=0, Z=7.68903 }
+    BoxExtent = { X=8.01869, Y=25.6829, Z=18.1582 }
+    SphereRadius = 29.2522
+}

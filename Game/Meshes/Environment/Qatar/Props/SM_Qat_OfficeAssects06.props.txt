@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_OfficeAssects_All.MI_Qat_OfficeAssects_All'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Instances/Qatar/MI_Qat_OfficeAssects_All.MI_Qat_OfficeAssects_All'
+        MaterialSlotName = MI_Qat_OfficeAssects_All
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 178.108, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00100517, Y=0.00981903, Z=1.91034 }
+    BoxExtent = { X=11.4781, Y=15.9865, Z=1.27863 }
+    SphereRadius = 19.7206
+}

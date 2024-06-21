@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Materials/M_Basement_ShadowCaster.M_Basement_ShadowCaster'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Materials/M_Basement_ShadowCaster.M_Basement_ShadowCaster'
+        MaterialSlotName = M_Basement_ShadowCaster
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 354.932, 906.456, 1511.66, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=670.685, Y=822.599, Z=5.03696e-14 }
+    SphereRadius = 1061.36
+}

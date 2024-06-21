@@ -1,0 +1,173 @@
+Parent = Material3'/Game/Effects/Materials/SlasherK32/M_K32_PodPreview_NoDepthTest.M_K32_PodPreview_NoDepthTest'
+ScalarParameterValues[14] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=MinCameraFadeDistance }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=MaxCameraFadeDistance }
+        ParameterValue = 2500
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=CameraFadeHardness }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=DistortionIntensity }
+        ParameterValue = 0.03
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=TextureTiling_X }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=TextureTiling_Y }
+        ParameterValue = 1.14571
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=RedScrollSpeed_X }
+        ParameterValue = 0.019048
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=RedScrollSpeed_Y }
+        ParameterValue = 1.28488
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=GreenScrollSpeed_X }
+        ParameterValue = -0.028572
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=GreenScrollSpeed_Y }
+        ParameterValue = 1.23891
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=ScanLineIntensity }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=ScanLinePower }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=DistortionTexture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/T_Tiling_Block_02.T_Tiling_Block_02'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MaskTexture }
+        ParameterValue = Texture2D'/Game/Effects/Textures/K32/T_K32_PodPreview_Decal_Destroy_01.T_K32_PodPreview_Decal_Destroy_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=EmissiveColor }
+        ParameterValue = { R=0.73791, G=0.006995, B=0.093059, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Distortion }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Pcolor }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[4] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tiling_Block_01.T_Tiling_Block_01'
+    CachedReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DarkSmoke_01.T_DarkSmoke_01'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_RGBclouds_map_01.T_RGBclouds_map_01'
+    CachedReferencedTextures[3] = Texture2D'/Game/Effects/Textures/K32/T_K32_PodPreview_Valid_01.T_K32_PodPreview_Valid_01'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_K32_PodPreview_Decal_Destroy_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.09375
+        UVChannelIndex = 0
+        TextureName = T_Tiling_Block_02
+    }
+}

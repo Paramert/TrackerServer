@@ -1,0 +1,175 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Meshes/Environment/Tiles/Textures/environment_mud_diffuse.environment_mud_diffuse'
+    ReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Tiles/T_GT_Fr_32x32_Plain01_BC.T_GT_Fr_32x32_Plain01_BC'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/T_GT_Fr_32x32_Plain01_mask.T_GT_Fr_32x32_Plain01_mask'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Vegetations/rock_floor_bump.rock_floor_bump'
+    ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Vegetations/rock_floor_diffuse.rock_floor_diffuse'
+    ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Vegetations/rock_floor_normal.rock_floor_normal'
+    ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Vegetations/T_Water_N.T_Water_N'
+    ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Vegetations/tree_mud_diffuse.tree_mud_diffuse'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=contrast }
+                    ParameterInfos[1] = { Name=pixelfade }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=leaf color }
+                    ParameterInfos[1] = { Name=Param }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=diffuse }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=AO }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 0.3, 600 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.23, G=0.219707, B=0.18883, A=1 }
+            VectorValues[1] = { R=0.675, G=0.650531, B=0.577125, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Meshes/Environment/Tiles/Textures/environment_mud_diffuse.environment_mud_diffuse'
+            TextureValues[1] = Texture2D'/Game/Textures/Environment/Tiles/T_GT_Fr_32x32_Plain01_mask.T_GT_Fr_32x32_Plain01_mask'
+            TextureValues[2] = Texture2D'/Game/Textures/Environment/Tiles/T_GT_Fr_32x32_Plain01_BC.T_GT_Fr_32x32_Plain01_BC'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Meshes/Environment/Tiles/Textures/environment_mud_diffuse.environment_mud_diffuse'
+        ReferencedTextures[1] = Texture2D'/Game/Textures/Environment/Tiles/T_GT_Fr_32x32_Plain01_mask.T_GT_Fr_32x32_Plain01_mask'
+        ReferencedTextures[2] = Texture2D'/Game/Textures/Environment/Tiles/T_GT_Fr_32x32_Plain01_BC.T_GT_Fr_32x32_Plain01_BC'
+        ReferencedTextures[3] = Texture2D'/Game/Textures/Environment/Vegetations/tree_mud_diffuse.tree_mud_diffuse'
+        ReferencedTextures[4] = Texture2D'/Game/Textures/Environment/Vegetations/rock_floor_diffuse.rock_floor_diffuse'
+        ReferencedTextures[5] = Texture2D'/Game/Textures/Environment/Vegetations/rock_floor_bump.rock_floor_bump'
+        ReferencedTextures[6] = Texture2D'/Game/Textures/Environment/Vegetations/rock_floor_normal.rock_floor_normal'
+        ReferencedTextures[7] = Texture2D'/Game/Textures/Environment/Vegetations/T_Water_N.T_Water_N'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Meshes/Environment/Tiles/Textures/environment_mud_diffuse.environment_mud_diffuse'
+        Name = diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/T_GT_Fr_32x32_Plain01_mask.T_GT_Fr_32x32_Plain01_mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Environment/Tiles/T_GT_Fr_32x32_Plain01_BC.T_GT_Fr_32x32_Plain01_BC'
+        Name = AO
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=contrast, Group=None }
+    CollectedScalarParameters[1] = { Value=600, Name=pixelfade, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.23, G=0.219707, B=0.18883, A=1 }
+        Name = leaf color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.675, G=0.650531, B=0.577125, A=1 }
+        Name = Param
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[8] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 8
+        UVChannelIndex = 0
+        TextureName = environment_mud_diffuse
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = rock_floor_bump
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 11.912
+        UVChannelIndex = 0
+        TextureName = rock_floor_diffuse
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 11.912
+        UVChannelIndex = 0
+        TextureName = rock_floor_normal
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GT_Fr_32x32_Plain01_BC
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GT_Fr_32x32_Plain01_mask
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_N
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 8
+        UVChannelIndex = 0
+        TextureName = tree_mud_diffuse
+    }
+}

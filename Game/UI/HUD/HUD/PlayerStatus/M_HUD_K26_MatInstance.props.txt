@@ -1,0 +1,36 @@
+Parent = Material3'/Game/UI/HUD/HUD/PlayerStatus/M_HUD_K26_Mat.M_HUD_K26_Mat'
+ScalarParameterValues[0] = {}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[3] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/UI/HUD/Assets/HUD/PlayerStatus/T_statusIcon_mobbed.T_statusIcon_mobbed'
+    CachedReferencedTextures[1] = Texture2D'/Game/UI/HUD/Assets/HUD/PlayerStatus/T_statusIcon_mobbed_distancefield.T_statusIcon_mobbed_distancefield'
+    CachedReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Noise_04.T_Noise_04'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,237 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+    ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+    ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=2 -Opacity Dust Distortion }
+                    ParameterInfos[1] = { Name=Opacity_Distortion }
+                    ParameterInfos[2] = { Name=Mask_Radius }
+                    ParameterInfos[3] = { Name=2 -Scale Dust }
+                    ParameterInfos[4] = { Name=Mask_Density }
+                    ParameterInfos[5] = { Name=DirectionnalMask_Opacity }
+                    ParameterInfos[6] = { Name=EmissiveBoost }
+                    ParameterInfos[7] = { Name=OpacityBoost }
+                    ParameterInfos[8] = { Name=DirectionnalMask_Contrast }
+                    ParameterInfos[9] = { Name=SL - ScaleTilling }
+                    ParameterInfos[10] = { Name=Emissive_Ramp }
+                    ParameterInfos[11] = { Name=Smoke_Contrast }
+                    ParameterInfos[12] = { Name=2 -Contrast_Dust }
+                    ParameterInfos[13] = { Name=2 -Reduce_Dust }
+                    ParameterInfos[14] = { Name=FL - ScaleTilling }
+                    ParameterInfos[15] = { Name=Scale_Distortion }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=SL - Speed_WhispySmoke }
+                    ParameterInfos[1] = { Name=FL - Speed_WhispySmoke }
+                    ParameterInfos[2] = { Name=2 -Speed Dust }
+                    ParameterInfos[3] = { Name=SmokeColor }
+                    ParameterInfos[4] = { Name=2 -DustColor }
+                    ParameterInfos[5] = { Name=Speed_Distortion }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=2 -MaskDust_Texture }
+                    ParameterInfos[1] = { Name=2 -Dust_Texture }
+                    ParameterInfos[2] = { Name=DistortionTexture }
+                    ParameterInfos[3] = { Name=WhispySmokeTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 0.0375
+            ScalarValues[1] = 0.0375
+            ScalarValues[2] = 0.5
+            ScalarValues[3] = 1.5
+            ScalarValues[4] = 1.5
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1.5
+            ScalarValues[10] = 5
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 5
+            ScalarValues[14] = 1.5
+            ScalarValues[15] = 1
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0, G=-1, B=0, A=1 }
+            VectorValues[1] = { R=0, G=-0.5, B=0, A=1 }
+            VectorValues[2] = { R=0, G=-0.5, B=0, A=1 }
+            VectorValues[3] = { R=0.113705, G=0.108156, B=0.114583, A=1 }
+            VectorValues[4] = { R=5, G=5, B=5, A=1 }
+            VectorValues[5] = { R=0, G=0.5, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+            TextureValues[1] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+            TextureValues[2] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+            TextureValues[3] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        ReferencedTextures[1] = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+        ReferencedTextures[2] = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+        ReferencedTextures[3] = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Dust_Noise_02.T_Dust_Noise_02'
+        Name = 2 -MaskDust_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_DustParticles.T_DustParticles'
+        Name = 2 -Dust_Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Tilling_Distortion_Map_01.T_Tilling_Distortion_Map_01'
+        Name = DistortionTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Effects/Textures/T_Smoke_02_Tiling.T_Smoke_02_Tiling'
+        Name = WhispySmokeTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.0375
+        Name = 2 -Opacity Dust Distortion
+        Group = None
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.0375
+        Name = Opacity_Distortion
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.5, Name=Mask_Radius, Group=None }
+    CollectedScalarParameters[3] = { Value=1.5, Name=2 -Scale Dust, Group=None }
+    CollectedScalarParameters[4] = { Value=1.5, Name=Mask_Density, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 1
+        Name = DirectionnalMask_Opacity
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1, Name=EmissiveBoost, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=OpacityBoost, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1
+        Name = DirectionnalMask_Contrast
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=1.5, Name=SL - ScaleTilling, Group=None }
+    CollectedScalarParameters[10] = { Value=5, Name=Emissive_Ramp, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Smoke_Contrast, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=2 -Contrast_Dust, Group=None }
+    CollectedScalarParameters[13] = { Value=5, Name=2 -Reduce_Dust, Group=None }
+    CollectedScalarParameters[14] = { Value=1.5, Name=FL - ScaleTilling, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Scale_Distortion, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=-1, B=0, A=1 }
+        Name = SL - Speed_WhispySmoke
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=-0.5, B=0, A=1 }
+        Name = FL - Speed_WhispySmoke
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=-0.5, B=0, A=1 }
+        Name = 2 -Speed Dust
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.113705, G=0.108156, B=0.114583, A=1 }
+        Name = SmokeColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=5, G=5, B=5, A=1 }
+        Name = 2 -DustColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0.5, B=0, A=1 }
+        Name = Speed_Distortion
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1.46265
+        UVChannelIndex = 0
+        TextureName = T_Smoke_02_Tiling
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Tilling_Distortion_Map_01
+    }
+}
