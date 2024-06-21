@@ -1,0 +1,17 @@
+All branches:
+Dayz - 70
+DbDMobile - 110
+DbD - 120
+Standoff 2 - 720
+Counter-strike 2 - 730
+Dota 2 - 740
+Valorant - 500
+
+API_KEY Registration:
+Send massage for @itsNotify_bot 
+Massage: /connect 'HOST' 'Description', use 'NumBranch'
+Example: /connect 'e1server.ru' 'Bot for Discord server' + use '730, 740'
+
+Generate Password:
+Send GET request 
+https://esport.moscow/api/public/take_pwd?API_KEY= 
